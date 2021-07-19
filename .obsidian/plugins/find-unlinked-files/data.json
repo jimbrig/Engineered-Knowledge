@@ -1,1 +1,24 @@
-{"outputFileName":"Unlinked-Files","disableWorkingLinks":true,"directoriesToIgnore":[""],"filesToIgnore":["Changelog.md"],"fileTypesToIgnore":[],"linksToIgnore":[],"tagsToIgnore":[],"fileTypesToDelete":[],"ignoreFileTypes":true,"ignoreDirectories":true,"unresolvedLinksOutputFileName":"Unresolved-Links","unresolvedLinksDirectoriesToIgnore":[],"unresolvedLinksFilesToIgnore":["Changelof.md"],"unresolvedLinksFileTypesToIgnore":[],"unresolvedLinksLinksToIgnore":[],"unresolvedLinksTagsToIgnore":[]}
+{
+  "outputFileName": "Unlinked-Files",
+  "disableWorkingLinks": true,
+  "directoriesToIgnore": [
+    ""
+  ],
+  "filesToIgnore": [
+    "Changelog.md"
+  ],
+  "fileTypesToIgnore": [],
+  "linksToIgnore": [],
+  "tagsToIgnore": [],
+  "fileTypesToDelete": [],
+  "ignoreFileTypes": true,
+  "ignoreDirectories": true,
+  "unresolvedLinksOutputFileName": "Unresolved-Links",
+  "unresolvedLinksDirectoriesToIgnore": [],
+  "unresolvedLinksFilesToIgnore": [
+    "Changelof.md"
+  ],
+  "unresolvedLinksFileTypesToIgnore": [],
+  "unresolvedLinksLinksToIgnore": [],
+  "unresolvedLinksTagsToIgnore": []
+}

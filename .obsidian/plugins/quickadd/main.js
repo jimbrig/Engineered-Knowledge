@@ -5704,8 +5704,8 @@ class ChoiceList extends SvelteComponent {
 
 function add_css$5() {
 	var style = element("style");
-	style.id = "svelte-1rldgl5-style";
-	style.textContent = ".addChoiceBox.svelte-1rldgl5{margin-top:1em;display:flex;align-items:center;gap:10px;justify-content:center}#addChoiceTypeSelector.svelte-1rldgl5{font-size:16px;padding:3px;border-radius:3px}";
+	style.id = "svelte-1newuee-style";
+	style.textContent = ".addChoiceBox.svelte-1newuee{margin-top:1em;display:flex;flex-direction:row;align-items:center;gap:10px;justify-content:center}@media(max-width: 800px){.addChoiceBox.svelte-1newuee{flex-direction:column}}#addChoiceTypeSelector.svelte-1newuee{font-size:16px;padding:3px;border-radius:3px}";
 	append(document.head, style);
 }
 
@@ -5759,10 +5759,10 @@ function create_fragment$7(ctx) {
 			option3.__value = ChoiceType.Multi;
 			option3.value = option3.__value;
 			attr(select, "id", "addChoiceTypeSelector");
-			attr(select, "class", "svelte-1rldgl5");
+			attr(select, "class", "svelte-1newuee");
 			if (/*type*/ ctx[1] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[4].call(select));
 			attr(button, "class", "mod-cta");
-			attr(div, "class", "addChoiceBox svelte-1rldgl5");
+			attr(div, "class", "addChoiceBox svelte-1newuee");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -5842,7 +5842,7 @@ function instance$7($$self, $$props, $$invalidate) {
 class AddChoiceBox extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1rldgl5-style")) add_css$5();
+		if (!document.getElementById("svelte-1newuee-style")) add_css$5();
 		init(this, options, instance$7, create_fragment$7, safe_not_equal, {});
 	}
 }
@@ -5941,7 +5941,7 @@ class TemplateChoice extends Choice {
         super(name, ChoiceType.Template);
         this.templatePath = "";
         this.fileNameFormat = { enabled: false, format: "" };
-        this.folder = { enabled: false, folders: [], chooseWhenCreatingNote: false };
+        this.folder = { enabled: false, folders: [], chooseWhenCreatingNote: false, createInSameFolderAsActiveFile: false };
         this.openFileInNewTab = { enabled: false, direction: NewTabDirection.vertical };
         this.appendLink = false;
         this.incrementFileName = false;
@@ -5967,7 +5967,7 @@ class CaptureChoice extends Choice {
         this.captureToActiveFile = false;
         this.createFileIfItDoesntExist = { enabled: false, createWithTemplate: false, template: "" };
         this.format = { enabled: false, format: "" };
-        this.insertAfter = { enabled: false, after: "", insertAtEnd: false };
+        this.insertAfter = { enabled: false, after: "", insertAtEnd: false, createIfNotFound: false, createIfNotFoundLocation: "top" };
         this.prepend = false;
         this.task = false;
     }
@@ -8203,6 +8203,9 @@ const FILE_NAME_FORMAT_SYNTAX = [
 ];
 const FILE_NUMBER_REGEX = new RegExp(/([0-9]*)\.md$/);
 const NUMBER_REGEX = new RegExp(/^-?[0-9]*$/);
+const CREATE_IF_NOT_FOUND_TOP = "top";
+const CREATE_IF_NOT_FOUND_BOTTOM = "bottom";
+// == Format Syntax == //
 const DATE_REGEX = new RegExp(/{{DATE(\+-?[0-9]+)?}}/);
 const DATE_REGEX_FORMATTED = new RegExp(/{{DATE:([^}\n\r+]*)(\+-?[0-9]+)?}}/);
 const NAME_VALUE_REGEX = new RegExp(/{{NAME}}|{{VALUE}}/);
@@ -8214,6 +8217,7 @@ const JAVASCRIPT_FILE_EXTENSION_REGEX = new RegExp(/\.js$/);
 const MACRO_REGEX = new RegExp(/{{MACRO:([^\n\r}]*)}}/);
 const TEMPLATE_REGEX = new RegExp(/{{TEMPLATE:([^\n\r}]*.md)}}/);
 const LINEBREAK_REGEX = new RegExp(/\\n/);
+const INLINE_JAVASCRIPT_REGEX = new RegExp(/`{3,}js quickadd([\s\S]*?)`{3,}/);
 const FILE_LINK_REGEX = new RegExp(/\[\[([^\]]*)$/);
 const TAG_REGEX = new RegExp(/#([^ ]*)$/);
 // == Format Syntax Suggestion == //
@@ -8665,7 +8669,7 @@ function deleteObsidianCommand(app, commandId) {
         delete app.commands.editorCommands[commandId];
     }
 }
-function getAllFolders(app) {
+function getAllFolderPathsInVault(app) {
     return app.vault.getAllLoadedFiles()
         .filter(f => f instanceof obsidian.TFolder)
         .map(folder => folder.path);
@@ -8690,6 +8694,10 @@ function getLinesInString(input) {
     }
     lines.push(tempString);
     return lines;
+}
+// https://stackoverflow.com/questions/3115150/how-to-escape-regular-expression-special-characters-using-javascript
+function escapeRegExp(text) {
+    return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
 }
 
 var FormatSyntaxToken;
@@ -9247,7 +9255,7 @@ class TemplateChoiceBuilder extends ChoiceBuilder {
         new FormatSyntaxSuggester(this.app, textField.inputEl, this.plugin, true);
     }
     addFolderSetting() {
-        var _a, _b;
+        var _a, _b, _c, _d;
         const folderSetting = new obsidian.Setting(this.contentEl);
         folderSetting.setName("Create in folder")
             .setDesc("Create the file in the specified folder. If multiple folders are specified, you will be prompted for which folder to create the file in.")
@@ -9259,57 +9267,76 @@ class TemplateChoiceBuilder extends ChoiceBuilder {
             });
         });
         if (this.choice.folder.enabled) {
-            const chooseFolderWhenCreatingNoteContainer = this.contentEl.createDiv('chooseFolderWhenCreatingNoteContainer');
-            chooseFolderWhenCreatingNoteContainer.createEl('span', { text: "Choose folder when creating a new note" });
-            const chooseFolderWhenCreatingNote = new obsidian.ToggleComponent(chooseFolderWhenCreatingNoteContainer);
-            chooseFolderWhenCreatingNote.setValue((_a = this.choice.folder) === null || _a === void 0 ? void 0 : _a.chooseWhenCreatingNote)
-                .onChange(value => {
-                this.choice.folder.chooseWhenCreatingNote = value;
-                this.reload();
-            });
-            if (!((_b = this.choice.folder) === null || _b === void 0 ? void 0 : _b.chooseWhenCreatingNote)) {
-                const folderSelectionContainer = this.contentEl.createDiv('folderSelectionContainer');
-                const folderList = folderSelectionContainer.createDiv('folderList');
-                const folderListEl = new FolderList({
-                    target: folderList,
-                    props: {
-                        folders: this.choice.folder.folders,
-                        deleteFolder: (folder) => {
-                            this.choice.folder.folders = this.choice.folder.folders.filter(f => f !== folder);
-                            folderListEl.updateFolders(this.choice.folder.folders);
-                            suggester.updateCurrentItems(this.choice.folder.folders);
-                        }
-                    }
+            if (!((_a = this.choice.folder) === null || _a === void 0 ? void 0 : _a.createInSameFolderAsActiveFile)) {
+                const chooseFolderWhenCreatingNoteContainer = this.contentEl.createDiv('chooseFolderWhenCreatingNoteContainer');
+                chooseFolderWhenCreatingNoteContainer.createEl('span', { text: "Choose folder when creating a new note" });
+                const chooseFolderWhenCreatingNote = new obsidian.ToggleComponent(chooseFolderWhenCreatingNoteContainer);
+                chooseFolderWhenCreatingNote.setValue((_b = this.choice.folder) === null || _b === void 0 ? void 0 : _b.chooseWhenCreatingNote)
+                    .onChange(value => {
+                    this.choice.folder.chooseWhenCreatingNote = value;
+                    this.reload();
                 });
-                this.svelteElements.push(folderListEl);
-                const inputContainer = folderSelectionContainer.createDiv('folderInputContainer');
-                const folderInput = new obsidian.TextComponent(inputContainer);
-                folderInput.inputEl.style.width = "100%";
-                folderInput.setPlaceholder("Folder path");
-                const allFolders = getAllFolders(this.app);
-                const suggester = new ExclusiveSuggester(this.app, folderInput.inputEl, allFolders, this.choice.folder.folders);
-                const addFolder = () => {
-                    const input = folderInput.inputEl.value.trim();
-                    if (this.choice.folder.folders.some(folder => folder === input)) {
-                        log.logWarning("cannot add same folder twice.");
-                        return;
-                    }
-                    this.choice.folder.folders.push(input);
-                    folderListEl.updateFolders(this.choice.folder.folders);
-                    folderInput.inputEl.value = "";
-                    suggester.updateCurrentItems(this.choice.folder.folders);
-                };
-                folderInput.inputEl.addEventListener('keypress', (e) => {
-                    if (e.key === 'Enter') {
-                        addFolder();
-                    }
-                });
-                const addButton = new obsidian.ButtonComponent(inputContainer);
-                addButton.setCta().setButtonText("Add").onClick(evt => {
-                    addFolder();
+                if (!((_c = this.choice.folder) === null || _c === void 0 ? void 0 : _c.chooseWhenCreatingNote)) {
+                    this.addFolderSelector();
+                }
+            }
+            if (!((_d = this.choice.folder) === null || _d === void 0 ? void 0 : _d.chooseWhenCreatingNote)) {
+                const createInSameFolderAsActiveFileSetting = new obsidian.Setting(this.contentEl);
+                createInSameFolderAsActiveFileSetting.setName("Create in same folder as active file")
+                    .setDesc("Creates the file in the same folder as the currently active file. Will not create the file if there is no active file.")
+                    .addToggle(toggle => {
+                    var _a;
+                    return toggle
+                        .setValue((_a = this.choice.folder) === null || _a === void 0 ? void 0 : _a.createInSameFolderAsActiveFile)
+                        .onChange(value => {
+                        this.choice.folder.createInSameFolderAsActiveFile = value;
+                        this.reload();
+                    });
                 });
             }
         }
+    }
+    addFolderSelector() {
+        const folderSelectionContainer = this.contentEl.createDiv('folderSelectionContainer');
+        const folderList = folderSelectionContainer.createDiv('folderList');
+        const folderListEl = new FolderList({
+            target: folderList,
+            props: {
+                folders: this.choice.folder.folders,
+                deleteFolder: (folder) => {
+                    this.choice.folder.folders = this.choice.folder.folders.filter(f => f !== folder);
+                    folderListEl.updateFolders(this.choice.folder.folders);
+                    suggester.updateCurrentItems(this.choice.folder.folders);
+                }
+            }
+        });
+        this.svelteElements.push(folderListEl);
+        const inputContainer = folderSelectionContainer.createDiv('folderInputContainer');
+        const folderInput = new obsidian.TextComponent(inputContainer);
+        folderInput.inputEl.style.width = "100%";
+        folderInput.setPlaceholder("Folder path");
+        const allFolders = getAllFolderPathsInVault(this.app);
+        const suggester = new ExclusiveSuggester(this.app, folderInput.inputEl, allFolders, this.choice.folder.folders);
+        const addFolder = () => {
+            const input = folderInput.inputEl.value.trim();
+            if (this.choice.folder.folders.some(folder => folder === input)) {
+                log.logWarning("cannot add same folder twice.");
+                return;
+            }
+            this.choice.folder.folders.push(input);
+            folderListEl.updateFolders(this.choice.folder.folders);
+            folderInput.inputEl.value = "";
+            suggester.updateCurrentItems(this.choice.folder.folders);
+        };
+        folderInput.inputEl.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                addFolder();
+            }
+        });
+        const addButton = new obsidian.ButtonComponent(inputContainer);
+        addButton.setCta().setButtonText("Add").onClick(evt => {
+            addFolder();
+        });
     }
     addAppendLinkSetting() {
         const appendLinkSetting = new obsidian.Setting(this.contentEl);
@@ -9705,16 +9732,28 @@ class SingleMacroEngine extends MacroChoiceEngine {
     }
 }
 
+class SingleInlineScriptEngine extends MacroChoiceEngine {
+    constructor(app, plugin, choiceExecutor, variables) {
+        super(app, plugin, null, null, choiceExecutor, variables);
+    }
+    async runAndGetOutput(code) {
+        const AsyncFunction = Object.getPrototypeOf(async function () { }).constructor;
+        const userCode = new AsyncFunction(code);
+        return await userCode.bind(this.params, this).call();
+    }
+}
+
 class CompleteFormatter extends Formatter {
     constructor(app, plugin, choiceExecutor) {
         super();
         this.app = app;
         this.plugin = plugin;
         this.choiceExecutor = choiceExecutor;
-        this.variables = choiceExecutor.variables;
+        this.variables = choiceExecutor === null || choiceExecutor === void 0 ? void 0 : choiceExecutor.variables;
     }
     async format(input) {
         let output = input;
+        output = await this.replaceInlineJavascriptInString(output);
         output = await this.replaceMacrosInString(output);
         output = await this.replaceTemplateInString(output);
         output = this.replaceDateInString(output);
@@ -9777,6 +9816,25 @@ class CompleteFormatter extends Formatter {
         if (!activeView)
             return;
         return activeView.editor.getSelection();
+    }
+    async replaceInlineJavascriptInString(input) {
+        var _a;
+        let output = input;
+        while (INLINE_JAVASCRIPT_REGEX.test(output)) {
+            const match = INLINE_JAVASCRIPT_REGEX.exec(output);
+            const code = (_a = match[1]) === null || _a === void 0 ? void 0 : _a.trim();
+            if (code) {
+                const executor = new SingleInlineScriptEngine(this.app, this.plugin, this.choiceExecutor, this.variables);
+                const outVal = await executor.runAndGetOutput(code);
+                for (let key in executor.params.variables) {
+                    this.variables.set(key, executor.params.variables[key]);
+                }
+                output = typeof outVal === "string" ?
+                    output.replace(INLINE_JAVASCRIPT_REGEX, outVal) :
+                    output.replace(INLINE_JAVASCRIPT_REGEX, "");
+            }
+        }
+        return output;
     }
 }
 
@@ -9869,7 +9927,10 @@ class TemplateEngine extends QuickAddEngine {
         }
     }
     async getTemplateContent(templatePath) {
-        const templateFile = this.app.vault.getAbstractFileByPath(templatePath);
+        let correctTemplatePath = templatePath;
+        if (!MARKDOWN_FILE_EXTENSION_REGEX.test(templatePath))
+            correctTemplatePath += ".md";
+        const templateFile = this.app.vault.getAbstractFileByPath(correctTemplatePath);
         if (!(templateFile instanceof obsidian.TFile))
             return;
         return await this.app.vault.cachedRead(templateFile);
@@ -9884,7 +9945,7 @@ class SingleTemplateEngine extends TemplateEngine {
     async run() {
         let templateContent = await this.getTemplateContent(this.templatePath);
         if (!templateContent) {
-            throw new Error(`Template ${this.templatePath} not found.`);
+            log.logError(`Template ${this.templatePath} not found.`);
         }
         templateContent = await this.formatter.formatFileContent(templateContent);
         return templateContent;
@@ -10069,6 +10130,28 @@ class CaptureChoiceBuilder extends ChoiceBuilder {
                 return toggle
                     .setValue((_a = this.choice.insertAfter) === null || _a === void 0 ? void 0 : _a.insertAtEnd)
                     .onChange(value => this.choice.insertAfter.insertAtEnd = value);
+            });
+            const createLineIfNotFound = new obsidian.Setting(this.contentEl);
+            createLineIfNotFound.setName("Create line if not found")
+                .setDesc("Creates the 'insert after' line if it is not found.")
+                .addToggle(toggle => {
+                var _a, _b;
+                if (!((_a = this.choice.insertAfter) === null || _a === void 0 ? void 0 : _a.createIfNotFound))
+                    this.choice.insertAfter.createIfNotFound = false; // Set to default
+                toggle
+                    .setValue((_b = this.choice.insertAfter) === null || _b === void 0 ? void 0 : _b.createIfNotFound)
+                    .onChange(value => this.choice.insertAfter.createIfNotFound = value)
+                    .toggleEl.style.marginRight = "1em";
+            })
+                .addDropdown(dropdown => {
+                var _a, _b;
+                if (!((_a = this.choice.insertAfter) === null || _a === void 0 ? void 0 : _a.createIfNotFoundLocation))
+                    this.choice.insertAfter.createIfNotFoundLocation = CREATE_IF_NOT_FOUND_TOP; // Set to default
+                dropdown
+                    .addOption(CREATE_IF_NOT_FOUND_TOP, "Top")
+                    .addOption(CREATE_IF_NOT_FOUND_BOTTOM, "Bottom")
+                    .setValue((_b = this.choice.insertAfter) === null || _b === void 0 ? void 0 : _b.createIfNotFoundLocation)
+                    .onChange(value => this.choice.insertAfter.createIfNotFoundLocation = value);
             });
         }
     }
@@ -11359,8 +11442,8 @@ class MacrosManager extends obsidian.Modal {
 
 function add_css() {
 	var style = element("style");
-	style.id = "svelte-1hqzh4r-style";
-	style.textContent = ".choiceViewBottomBar.svelte-1hqzh4r{display:flex;align-items:center;justify-content:space-between;margin-top:1rem}";
+	style.id = "svelte-wcmtyt-style";
+	style.textContent = ".choiceViewBottomBar.svelte-wcmtyt{display:flex;flex-direction:row;align-items:center;justify-content:space-between;margin-top:1rem}@media(max-width: 800px){.choiceViewBottomBar.svelte-wcmtyt{flex-direction:column}}";
 	append(document.head, style);
 }
 
@@ -11407,7 +11490,7 @@ function create_fragment(ctx) {
 			t2 = space();
 			create_component(addchoicebox.$$.fragment);
 			attr(button, "class", "mod-cta");
-			attr(div0, "class", "choiceViewBottomBar svelte-1hqzh4r");
+			attr(div0, "class", "choiceViewBottomBar svelte-wcmtyt");
 		},
 		m(target, anchor) {
 			insert(target, div1, anchor);
@@ -11532,7 +11615,12 @@ function instance($$self, $$props, $$invalidate) {
 	function deleteChoice(e) {
 		return __awaiter(this, void 0, void 0, function* () {
 			const choice = e.detail.choice;
-			const userConfirmed = yield GenericYesNoPrompt.Prompt(app, `Confirm deletion of choice`, `Please confirm that you wish to delete '${choice.name}.'`);
+
+			const userConfirmed = yield GenericYesNoPrompt.Prompt(app, `Confirm deletion of choice`, `Please confirm that you wish to delete '${choice.name}'.
+            ${choice.type === ChoiceType.Multi
+			? "Deleting this choice will delete all (" + choice.choices.length + ") choices inside it!"
+			: ""}
+            `);
 
 			if (userConfirmed) {
 				$$invalidate(0, choices = choices.filter(value => deleteChoiceHelper(choice.id, value)));
@@ -11648,7 +11736,7 @@ function instance($$self, $$props, $$invalidate) {
 class ChoiceView extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1hqzh4r-style")) add_css();
+		if (!document.getElementById("svelte-wcmtyt-style")) add_css();
 
 		init(this, options, instance, create_fragment, safe_not_equal, {
 			choices: 0,
@@ -11710,14 +11798,9 @@ class TemplateChoiceEngine extends TemplateEngine {
         this.choice = choice;
     }
     async run() {
-        var _a;
         let folderPath = "";
         if (this.choice.folder.enabled) {
-            let folders = this.choice.folder.folders;
-            if ((_a = this.choice.folder) === null || _a === void 0 ? void 0 : _a.chooseWhenCreatingNote) {
-                folders = await getAllFolders(this.app);
-            }
-            folderPath = await this.getOrCreateFolder(folders);
+            folderPath = await this.getFolderPath();
         }
         let filePath;
         if (this.choice.fileNameFormat.enabled) {
@@ -11774,6 +11857,21 @@ class TemplateChoiceEngine extends TemplateEngine {
             }
         }
     }
+    async getFolderPath() {
+        var _a, _b;
+        let folders = [...this.choice.folder.folders];
+        if ((_a = this.choice.folder) === null || _a === void 0 ? void 0 : _a.chooseWhenCreatingNote) {
+            const allFoldersInVault = getAllFolderPathsInVault(this.app);
+            return await this.getOrCreateFolder(allFoldersInVault);
+        }
+        if ((_b = this.choice.folder) === null || _b === void 0 ? void 0 : _b.createInSameFolderAsActiveFile) {
+            const activeFile = this.app.workspace.getActiveFile();
+            if (!activeFile)
+                log.logError("No active file. Cannot create new file.");
+            return this.getOrCreateFolder([activeFile.parent.path]);
+        }
+        return await this.getOrCreateFolder(folders);
+    }
 }
 
 class CaptureChoiceFormatter extends CompleteFormatter {
@@ -11801,7 +11899,6 @@ class CaptureChoiceFormatter extends CompleteFormatter {
         return await this.formatFileContent(input);
     }
     async formatFileContent(input) {
-        var _a;
         let formatted = await super.formatFileContent(input);
         formatted = this.replaceLinebreakInString(formatted);
         const formattedContentIsEmpty = formatted.trim() === "";
@@ -11810,51 +11907,76 @@ class CaptureChoiceFormatter extends CompleteFormatter {
         if (this.choice.prepend)
             return `${this.fileContent}\n${formatted}`;
         if (this.choice.insertAfter.enabled) {
-            const target = await this.format(this.choice.insertAfter.after);
-            const targetRegex = new RegExp(`\s*${target}\s*`);
-            let fileContentLines = getLinesInString(this.fileContent);
-            const targetPosition = fileContentLines.findIndex(line => targetRegex.test(line));
-            if (targetPosition === -1) {
-                log.logError("unable to find insert after line in file.");
-            }
-            if ((_a = this.choice.insertAfter) === null || _a === void 0 ? void 0 : _a.insertAtEnd) {
-                const nextHeaderPositionAfterTargetPosition = fileContentLines.slice(targetPosition + 1).findIndex(line => (/^#+ |---/).test(line));
-                const foundNextHeader = nextHeaderPositionAfterTargetPosition !== -1;
-                if (foundNextHeader) {
-                    let endOfSectionIndex;
-                    for (let i = nextHeaderPositionAfterTargetPosition + targetPosition; i > targetPosition; i--) {
-                        const lineIsNewline = (/^[\s\n ]*$/).test(fileContentLines[i]);
-                        if (!lineIsNewline) {
-                            endOfSectionIndex = i;
-                            break;
-                        }
-                    }
-                    if (!endOfSectionIndex)
-                        endOfSectionIndex = targetPosition;
-                    return this.insertTextAfterPositionInBody(formatted, this.fileContent, endOfSectionIndex);
-                }
-                else {
-                    return this.insertTextAfterPositionInBody(formatted, this.fileContent, fileContentLines.length - 1);
-                }
-            }
-            return this.insertTextAfterPositionInBody(formatted, this.fileContent, targetPosition);
+            return await this.insertAfterHandler(formatted);
         }
         const frontmatterEndPosition = this.file ? await this.getFrontmatterEndPosition(this.file) : null;
         if (!frontmatterEndPosition)
             return `${formatted}${this.fileContent}`;
         return this.insertTextAfterPositionInBody(formatted, this.fileContent, frontmatterEndPosition);
     }
+    async insertAfterHandler(formatted) {
+        var _a, _b;
+        const targetString = await this.format(this.choice.insertAfter.after);
+        const targetRegex = new RegExp(`\s*${escapeRegExp(targetString.replace('\\n', ''))}\s*`);
+        let fileContentLines = getLinesInString(this.fileContent);
+        const targetPosition = fileContentLines.findIndex(line => targetRegex.test(line));
+        const targetNotFound = targetPosition === -1;
+        if (targetNotFound) {
+            if ((_a = this.choice.insertAfter) === null || _a === void 0 ? void 0 : _a.createIfNotFound) {
+                return await this.createInsertAfterIfNotFound(formatted);
+            }
+            log.logError("unable to find insert after line in file.");
+        }
+        if ((_b = this.choice.insertAfter) === null || _b === void 0 ? void 0 : _b.insertAtEnd) {
+            const nextHeaderPositionAfterTargetPosition = fileContentLines
+                .slice(targetPosition + 1)
+                .findIndex(line => (/^#+ |---/).test(line));
+            const foundNextHeader = nextHeaderPositionAfterTargetPosition !== -1;
+            if (foundNextHeader) {
+                let endOfSectionIndex;
+                for (let i = nextHeaderPositionAfterTargetPosition + targetPosition; i > targetPosition; i--) {
+                    const lineIsNewline = (/^[\s\n ]*$/).test(fileContentLines[i]);
+                    if (!lineIsNewline) {
+                        endOfSectionIndex = i;
+                        break;
+                    }
+                }
+                if (!endOfSectionIndex)
+                    endOfSectionIndex = targetPosition;
+                return this.insertTextAfterPositionInBody(formatted, this.fileContent, endOfSectionIndex);
+            }
+            else {
+                return this.insertTextAfterPositionInBody(formatted, this.fileContent, fileContentLines.length - 1);
+            }
+        }
+        return this.insertTextAfterPositionInBody(formatted, this.fileContent, targetPosition);
+    }
+    async createInsertAfterIfNotFound(formatted) {
+        var _a, _b;
+        const insertAfterLine = this.replaceLinebreakInString(await this.format(this.choice.insertAfter.after));
+        const insertAfterLineAndFormatted = `${insertAfterLine}\n${formatted}`;
+        if (((_a = this.choice.insertAfter) === null || _a === void 0 ? void 0 : _a.createIfNotFoundLocation) === CREATE_IF_NOT_FOUND_TOP) {
+            const frontmatterEndPosition = this.file ? await this.getFrontmatterEndPosition(this.file) : -1;
+            return this.insertTextAfterPositionInBody(insertAfterLineAndFormatted, this.fileContent, frontmatterEndPosition);
+        }
+        if (((_b = this.choice.insertAfter) === null || _b === void 0 ? void 0 : _b.createIfNotFoundLocation) === CREATE_IF_NOT_FOUND_BOTTOM) {
+            return `${this.fileContent}\n${insertAfterLineAndFormatted}`;
+        }
+    }
     async getFrontmatterEndPosition(file) {
         const fileCache = await this.app.metadataCache.getFileCache(file);
         if (!fileCache || !fileCache.frontmatter) {
             log.logMessage("could not get frontmatter. Maybe there isn't any.");
-            return 0;
+            return -1;
         }
         if (fileCache.frontmatter.position)
             return fileCache.frontmatter.position.end.line;
-        return 0;
+        return -1;
     }
     insertTextAfterPositionInBody(text, body, pos) {
+        if (pos === -1) {
+            return `${text}\n${body}`;
+        }
         const splitContent = body.split("\n");
         const pre = splitContent.slice(0, pos + 1).join("\n");
         const post = splitContent.slice(pos + 1).join("\n");
@@ -11931,17 +12053,18 @@ class CaptureChoiceEngine extends QuickAddChoiceEngine {
         return this.formatFilePath("", formattedCaptureTo);
     }
     async captureToActiveFile() {
+        const activeFile = this.app.workspace.getActiveFile();
+        if (!activeFile) {
+            log.logError("Cannot capture to active file - no active file.");
+        }
         let content = await this.getCaptureContent();
         if (this.choice.format.enabled) {
             content = await this.formatter.formatContent(content, this.choice);
+            content = await templaterParseTemplate(this.app, content, activeFile);
         }
         if (!content)
             return;
         if (this.choice.prepend) {
-            const activeFile = this.app.workspace.getActiveFile();
-            if (!activeFile) {
-                log.logError("Cannot capture to active file - no active file.");
-            }
             const fileContent = await this.app.vault.cachedRead(activeFile);
             const newFileContent = `${fileContent}${content}`;
             await this.app.vault.modify(activeFile, newFileContent);

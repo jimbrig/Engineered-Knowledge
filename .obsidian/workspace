@@ -7,8 +7,11 @@
         "id": "5ea2e88ba4124c3a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Obsidian System.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -60,17 +63,8 @@
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "80cc2821419761aa",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Obsidian System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Obsidian System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notes/Obsidian System.md"
+              }
             }
           },
           {
@@ -137,24 +135,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "530ae7f9e59bed47",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "35e5cbbe338c452f",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "23b136b780833d34",
@@ -172,9 +155,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "5ea2e88ba4124c3a",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Notes/Untitled.md",
+    "Untitled.md",
+    "Templates/Mindsweep-Note-Template.md",
+    "Mindsweeps/2021-07-19-Mindsweep.md",
+    "Mindsweeps/Untitled.md",
+    "Templates/Default-Note-Template.md",
+    "Templates/Untitled.md",
+    "Templates/Project-Note-Template.md",
+    "Templates/MOC-Template.md",
+    "Templates/Daily-Note-Template.md"
+  ]
 }

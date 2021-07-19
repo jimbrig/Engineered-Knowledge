@@ -1,1 +1,5 @@
-{}
+{
+  "convert-url-to-iframe:url-to-iframe": [],
+  "note-refactor-obsidian:app:extract-selection-first-line": [],
+  "note-refactor-obsidian:app:extract-selection-content-only": []
+}

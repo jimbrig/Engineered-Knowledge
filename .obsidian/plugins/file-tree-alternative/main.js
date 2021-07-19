@@ -7201,9 +7201,9 @@ var require_prop_types = __commonJS({
   }
 });
 
-// node_modules/file-selector/node_modules/tslib/tslib.js
+// node_modules/tslib/tslib.js
 var require_tslib = __commonJS({
-  "node_modules/file-selector/node_modules/tslib/tslib.js"(exports, module2) {
+  "node_modules/tslib/tslib.js"(exports, module2) {
     var __extends2;
     var __assign2;
     var __rest2;
@@ -7475,16 +7475,10 @@ var require_tslib = __commonJS({
             r[k] = a[j];
         return r;
       };
-      __spreadArray2 = function(to, from, pack) {
-        if (pack || arguments.length === 2)
-          for (var i = 0, l = from.length, ar; i < l; i++) {
-            if (ar || !(i in from)) {
-              if (!ar)
-                ar = Array.prototype.slice.call(from, 0, i);
-              ar[i] = from[i];
-            }
-          }
-        return to.concat(ar || from);
+      __spreadArray2 = function(to, from) {
+        for (var i = 0, il = from.length, j = to.length; i < il; i++, j++)
+          to[j] = from[i];
+        return to;
       };
       __await2 = function(v2) {
         return this instanceof __await2 ? (this.v = v2, this) : new __await2(v2);
@@ -7678,7 +7672,7 @@ var import_react3 = __toModule(require_react());
 var import_react = __toModule(require_react());
 var import_prop_types = __toModule(require_prop_types());
 
-// node_modules/file-selector/node_modules/tslib/modules/index.js
+// node_modules/tslib/modules/index.js
 var import_tslib = __toModule(require_tslib());
 var {
   __extends,
@@ -8485,7 +8479,7 @@ function useDropzone() {
     dispatch({
       type: "reset"
     });
-  }, [multiple, accept, minSize, maxSize, maxFiles, getFilesFromEvent, onDrop, onDropAccepted, onDropRejected, noDragEventsBubbling]);
+  }, [multiple, accept, minSize, maxSize, maxFiles, getFilesFromEvent, onDrop, onDropAccepted, onDropRejected, noDragEventsBubbling, validator]);
   var composeHandler = function composeHandler2(fn) {
     return disabled ? null : fn;
   };
@@ -8589,13 +8583,7 @@ function reducer(state, action) {
         fileRejections: action.fileRejections
       });
     case "reset":
-      return _objectSpread(_objectSpread({}, state), {}, {
-        isFileDialogActive: false,
-        isDragActive: false,
-        draggedFiles: [],
-        acceptedFiles: [],
-        fileRejections: []
-      });
+      return _objectSpread({}, initialState);
     default:
       return state;
   }
@@ -10143,16 +10131,56 @@ var VaultChangeModal = class extends import_obsidian.Modal {
     contentEl.empty();
   }
 };
+var FolderMoveSuggesterModal = class extends import_obsidian.FuzzySuggestModal {
+  constructor(app, fileToMove) {
+    super(app);
+    this.fileToMove = fileToMove;
+  }
+  getItemText(item) {
+    return item.path;
+  }
+  getItems() {
+    return this.getFolders();
+  }
+  getFolders() {
+    let folders = [];
+    let rootFolder = this.app.vault.getRoot();
+    function recursiveFx(folder) {
+      for (let child of folder.children) {
+        if (child instanceof import_obsidian.TFolder) {
+          let childFolder = child;
+          folders.push(childFolder);
+          if (childFolder.children)
+            recursiveFx(childFolder);
+        }
+      }
+    }
+    recursiveFx(rootFolder);
+    return folders;
+  }
+  onChooseItem(item, evt) {
+    this.app.vault.rename(this.fileToMove, item.path + "/" + this.fileToMove.name);
+  }
+};
 
 // src/components/FileComponent.tsx
 var FileComponent = class extends import_react3.default.Component {
   constructor(props) {
     super(props);
+    this.getFolderName = (folderPath) => {
+      if (folderPath === "/")
+        return this.props.plugin.app.vault.getName();
+      let index = folderPath.lastIndexOf("/");
+      if (index !== -1)
+        return folderPath.substring(index + 1);
+      return folderPath;
+    };
     this.state = {
       activeFile: null,
       highlight: false,
       searchPhrase: "",
-      searchBoxVisible: false
+      searchBoxVisible: false,
+      treeHeader: this.getFolderName(this.props.activeFolderPath)
     };
     this.onDrop = (files) => {
       files.map((file) => __async(this, null, function* () {
@@ -10167,6 +10195,7 @@ var FileComponent = class extends import_react3.default.Component {
       this.setState({ activeFile: file });
     };
     this.triggerContextMenu = (file, e) => {
+      var _a;
       const fileMenu = new import_obsidian2.Menu(this.props.plugin.app);
       fileMenu.addItem((menuItem) => {
         menuItem.setIcon("pin");
@@ -10198,6 +10227,16 @@ var FileComponent = class extends import_react3.default.Component {
           this.props.plugin.app.vault.delete(file, true);
         });
       });
+      if (!((_a = this.props.plugin.app.internalPlugins.plugins["file-explorer"]) == null ? void 0 : _a._loaded)) {
+        fileMenu.addItem((menuItem) => {
+          menuItem.setTitle("Move file to...");
+          menuItem.setIcon("paper-plane");
+          menuItem.onClick((ev) => {
+            let folderSuggesterModal = new FolderMoveSuggesterModal(this.props.plugin.app, file);
+            folderSuggesterModal.open();
+          });
+        });
+      }
       this.props.plugin.app.workspace.trigger("file-menu", fileMenu, file, "file-explorer");
       fileMenu.showAtPosition({ x: e.pageX, y: e.pageY });
       return false;
@@ -10208,14 +10247,6 @@ var FileComponent = class extends import_react3.default.Component {
         fileName: fullName.substring(0, index),
         extension: fullName.substring(index + 1)
       };
-    };
-    this.getFolderName = (folderPath) => {
-      if (folderPath === "/")
-        return this.props.plugin.app.vault.getName();
-      let index = folderPath.lastIndexOf("/");
-      if (index !== -1)
-        return folderPath.substring(index + 1);
-      return folderPath;
     };
     this.customFiles = (fileList) => {
       let sortedfileList;
@@ -10250,14 +10281,55 @@ var FileComponent = class extends import_react3.default.Component {
       });
       this.props.setFileList(this.props.getFilesUnderPath(this.props.activeFolderPath, this.props.plugin));
     };
+    this.searchAllRegex = new RegExp("all:(.*)?");
+    this.searchTagRegex = new RegExp("tag:(.*)?");
     this.handleSearch = (e) => {
       var searchPhrase = e.target.value;
       this.setState({ searchPhrase });
-      var files = this.props.getFilesUnderPath(this.props.activeFolderPath, this.props.plugin);
-      if (!files)
+      var searchFolder = this.props.activeFolderPath;
+      let tagRegexMatch = searchPhrase.match(this.searchTagRegex);
+      if (tagRegexMatch) {
+        this.setState({ treeHeader: "Files with Tag" });
+        if (tagRegexMatch[1] === void 0 || tagRegexMatch[1].replace(/\s/g, "").length === 0) {
+          this.props.setFileList([]);
+          return;
+        }
+        ;
+        this.props.setFileList([...this.getFilesWithTag(tagRegexMatch[1])]);
         return;
-      var filteredFiles = files.filter((file) => file.name.toLowerCase().includes(searchPhrase.toLowerCase()));
+      }
+      let allRegexMatch = searchPhrase.match(this.searchAllRegex);
+      if (allRegexMatch) {
+        searchPhrase = allRegexMatch[1] ? allRegexMatch[1] : "";
+        searchFolder = "/";
+        this.setState({ treeHeader: "All Files" });
+      } else {
+        this.setState({ treeHeader: this.getFolderName(this.props.activeFolderPath) });
+      }
+      let getAllFiles = allRegexMatch ? true : false;
+      let filteredFiles = this.getFilesWithName(searchPhrase, searchFolder, getAllFiles);
       this.props.setFileList(filteredFiles);
+    };
+    this.getFilesWithName = (searchPhrase, searchFolder, getAllFiles) => {
+      var files = this.props.getFilesUnderPath(searchFolder, this.props.plugin, getAllFiles);
+      var filteredFiles = files.filter((file) => file.name.toLowerCase().includes(searchPhrase.toLowerCase().trimStart()));
+      return filteredFiles;
+    };
+    this.getFilesWithTag = (searchTag) => {
+      let filesWithTag = new Set();
+      let mdFiles = this.props.plugin.app.vault.getMarkdownFiles();
+      for (let mdFile of mdFiles) {
+        let fileCache = this.props.plugin.app.metadataCache.getFileCache(mdFile);
+        if (fileCache.tags) {
+          for (let fileTag of fileCache.tags) {
+            if (fileTag.tag.toLowerCase().contains(searchTag.toLowerCase().trimStart())) {
+              if (!filesWithTag.has(mdFile))
+                filesWithTag.add(mdFile);
+            }
+          }
+        }
+      }
+      return filesWithTag;
     };
     this.searchInput = import_react3.default.createRef();
   }
@@ -10293,14 +10365,14 @@ var FileComponent = class extends import_react3.default.Component {
     })))), this.state.searchBoxVisible && /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "search-input-container oz-input-container"
     }, /* @__PURE__ */ import_react3.default.createElement("input", {
-      type: "text",
+      type: "search",
       placeholder: "Search...",
       ref: this.searchInput,
       value: this.state.searchPhrase,
       onChange: this.handleSearch
     })), /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "oz-file-tree-header"
-    }, this.getFolderName(this.props.activeFolderPath)), /* @__PURE__ */ import_react3.default.createElement(es_default, {
+    }, this.state.treeHeader), /* @__PURE__ */ import_react3.default.createElement(es_default, {
       onDrop: this.onDrop,
       noClick: true,
       onDragEnter: () => this.setState({ highlight: true }),
@@ -13046,8 +13118,9 @@ var MainTreeComponent = class extends import_react8.default.Component {
     }));
   }
 };
-var getFilesUnderPath = (path, plugin) => {
+var getFilesUnderPath = (path, plugin, getAllFiles) => {
   var filesUnderPath = [];
+  var showFilesFromSubFolders = getAllFiles ? true : plugin.settings.showFilesFromSubFolders;
   recursiveFx(path, plugin.app);
   function recursiveFx(path2, app) {
     var folderObj = app.vault.getAbstractFileByPath(path2);
@@ -13055,7 +13128,7 @@ var getFilesUnderPath = (path, plugin) => {
       for (let child of folderObj.children) {
         if (child instanceof import_obsidian4.TFile)
           filesUnderPath.push(child);
-        if (child instanceof import_obsidian4.TFolder && plugin.settings.showFilesFromSubFolders)
+        if (child instanceof import_obsidian4.TFolder && showFilesFromSubFolders)
           recursiveFx(child.path, app);
       }
     }
@@ -13158,7 +13231,7 @@ var FileTreeAlternativePluginSettingsTab = class extends import_obsidian6.Plugin
     let { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "General" });
-    new import_obsidian6.Setting(containerEl).setName("Ribbon Icon").setDesc("Turn on if you want Ribbon Icon for clearing the images.").addToggle((toggle) => toggle.setValue(this.plugin.settings.ribbonIcon).onChange((value) => {
+    new import_obsidian6.Setting(containerEl).setName("Ribbon Icon").setDesc("Turn on if you want Ribbon Icon for activating the File Tree.").addToggle((toggle) => toggle.setValue(this.plugin.settings.ribbonIcon).onChange((value) => {
       this.plugin.settings.ribbonIcon = value;
       this.plugin.saveSettings();
       this.plugin.refreshIconRibbon();

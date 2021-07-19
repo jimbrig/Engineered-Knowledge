@@ -5738,13 +5738,68 @@
       "size": 3042,
       "tags": 1,
       "links": 2
+    },
+    "Templates/Daily-Note-Template.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "Templates/Default-Note-Template.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Templates/MOC-Template.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "Daily-Notes/2021-07-19.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "Daily-Notes/Daily Notes Index.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
+    },
+    "Templates/Project-Note-Template.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
+    },
+    "Templates/Mindsweep-Note-Template.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
+    },
+    "Mindsweeps/2021-07-19-Mindsweep.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
+    },
+    "Mindsweeps/Mindsweep Trigger List.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "000-INDEX.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 5
+    },
+    "Notes/Obsidian System.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 335,
-      "Create": 86,
-      "Link": 136,
+      "Refactor": 338,
+      "Create": 98,
+      "Link": 157,
       "Expand": 14
     }
   },
@@ -5767,8 +5822,8 @@
       "14": 0,
       "15": 14,
       "16": 50,
-      "17": 3,
-      "18": 0,
+      "17": 31,
+      "18": 8,
       "19": 8,
       "20": 1,
       "21": 2,
@@ -5778,7 +5833,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 349,
+      "Mon": 385,
       "Tue": 5,
       "Wed": 2,
       "Thu": 5,
@@ -5806,6 +5861,18 @@
         "<a class=\"internal-link\" href=\"About this Vault.md\"> About this Vault </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Mindsweeps/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
+        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Evergreen note titles are like APIs.md\"> Evergreen note titles are like APIs </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-07-18.md\"> 2021-07-18 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-07-15.md\"> 2021-07-15 </a>",
@@ -5844,21 +5911,11 @@
         "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
         "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/PowerShell/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/PowerShell/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Work/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-26.md\"> 2021-06-26 </a>",
-        "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Windows/Untitled 1.md\"> Untitled 1 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-27.md\"> 2021-06-27 </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/jamstack/jamstack.md\"> jamstack </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/jamstack/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/jamstack/redwood.md\"> redwood </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/webassembly.md\"> webassembly </a>"
+        "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Mindsweeps/2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/webkit.md\"> webkit </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/web-engines.md\"> web-engines </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/README.md\"> README </a>",
@@ -5907,11 +5964,18 @@
         "<a class=\"internal-link\" href=\"Windows/Registry Editor/index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"Windows/Registry/Registry Editor.md\"> Registry Editor </a>",
         "<a class=\"internal-link\" href=\"Windows/Registry/Registry.md\"> Registry </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry.md\"> Registry </a>",
-        "<a class=\"internal-link\" href=\"_daily/_assets/Software Engineering Career Notes.md\"> Software Engineering Career Notes </a>",
-        "<a class=\"internal-link\" href=\"Windows/index-windows.md\"> index-windows </a>"
+        "<a class=\"internal-link\" href=\"Windows/Registry.md\"> Registry </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Mindsweeps/Mindsweep Trigger List.md\"> Mindsweep Trigger List </a>",
+        "<a class=\"internal-link\" href=\"000-INDEX.md\"> 000-INDEX </a>",
+        "<a class=\"internal-link\" href=\"2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
+        "<a class=\"internal-link\" href=\"Templates/MOC-Template.md\"> MOC-Template </a>",
+        "<a class=\"internal-link\" href=\"Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/Daily-Notes.md\"> Daily-Notes </a>",
+        "<a class=\"internal-link\" href=\"Templates/MOC-Template.md\"> MOC-Template </a>",
+        "<a class=\"internal-link\" href=\"Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
         "<a class=\"internal-link\" href=\"Evergreen note titles are like APIs.md\"> Evergreen note titles are like APIs </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-07-18.md\"> 2021-07-18 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-07-15.md\"> 2021-07-15 </a>",
@@ -5953,16 +6017,7 @@
         "<a class=\"internal-link\" href=\"_daily/2021-04-29.md\"> 2021-04-29 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-05-03.md\"> 2021-05-03 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-05-01.md\"> 2021-05-01 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-05-02.md\"> 2021-05-02 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-05-04.md\"> 2021-05-04 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-05-09.md\"> 2021-05-09 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
-        "<a class=\"internal-link\" href=\"Development/Azure/Use policies to enforce standards.md\"> Use policies to enforce standards </a>",
-        "<a class=\"internal-link\" href=\"Development/Azure/Use tagging to organize resources.md\"> Use tagging to organize resources </a>",
-        "<a class=\"internal-link\" href=\"Development/Azure/Principles of Azure Resource Groups.md\"> Principles of Azure Resource Groups </a>",
-        "<a class=\"internal-link\" href=\"Development/PowerShell/What is PowerShell.md\"> What is PowerShell </a>",
-        "<a class=\"internal-link\" href=\"Development/PowerShell/index.md\"> index </a>"
+        "<a class=\"internal-link\" href=\"_daily/2021-05-01.md\"> 2021-05-01 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6015,9 +6070,11 @@
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
         "<a class=\"internal-link\" href=\"Windows/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Windows Networking Commands.md\"> Windows Networking Commands </a>"
+        "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Windows Networking Commands.md\"> Windows Networking Commands </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"000-INDEX.md\"> 000-INDEX </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Development/PowerShell/index.md\"> index </a>",
@@ -6057,7 +6114,17 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"About this Vault.md\"> About this Vault </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Evergreen note titles are like APIs.md\"> Evergreen note titles are like APIs </a>"
+        "<a class=\"internal-link\" href=\"Evergreen note titles are like APIs.md\"> Evergreen note titles are like APIs </a>",
+        "<a class=\"internal-link\" href=\"Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
+        "<a class=\"internal-link\" href=\"Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
+        "<a class=\"internal-link\" href=\"2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
+        "<a class=\"internal-link\" href=\"Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>",
+        "<a class=\"internal-link\" href=\"000-INDEX.md\"> 000-INDEX </a>",
+        "<a class=\"internal-link\" href=\"Mindsweeps/2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
