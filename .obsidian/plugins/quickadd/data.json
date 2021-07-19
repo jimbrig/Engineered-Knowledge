@@ -1,0 +1,35 @@
+{
+  "choices": [
+    {
+      "id": "d386e20d-93f7-4a94-bbc2-34a27121f5df",
+      "name": "default",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/default_note_template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false
+      },
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical"
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFile": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "template",
+      "id": "b010534d-cb01-4a97-a04f-34b5874102ed",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ]
+}

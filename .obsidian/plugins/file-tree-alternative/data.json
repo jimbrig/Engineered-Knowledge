@@ -1,0 +1,16 @@
+{
+  "ribbonIcon": true,
+  "showRootFolder": true,
+  "showFilesFromSubFolders": true,
+  "searchFunction": true,
+  "excludedExtensions": "",
+  "excludedFolders": "",
+  "folderCount": true,
+  "folderCountOption": "notes",
+  "openFolders": [
+    "_assets",
+    "_templates",
+    "Windows"
+  ],
+  "pinnedFiles": []
+}

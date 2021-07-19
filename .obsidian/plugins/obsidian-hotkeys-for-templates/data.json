@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "templaterFiles": [
+    "default_note_template.md",
+    "R.md"
+  ],
+  "newFileTemplates": [],
+  "openNewFileTemplateInNewPane": true,
+  "useNewFileTemplateOnFileCreation": false
+}

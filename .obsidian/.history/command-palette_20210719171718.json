@@ -1,0 +1,10 @@
+{
+  "pinned": [
+    "workspace:split-vertical",
+    "markdown:toggle-preview",
+    "editor:insert-wikilink",
+    "obsidian-icons-plugin:open-icons-plugin-modal",
+    "editor:insert-wikilink",
+    "backlink:toggle-backlinks-in-document"
+  ]
+}

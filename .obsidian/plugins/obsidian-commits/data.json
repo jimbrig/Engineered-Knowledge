@@ -1,0 +1,6118 @@
+{
+  "initialized": true,
+  "trackedProjects": [
+    "/"
+  ],
+  "filesCheckpoint": {
+    "_templates/sections/retrospective.md": {
+      "size": 129,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/sections/resources.md": {
+      "size": 25,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/sections/participants.md": {
+      "size": 28,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/sections/notes.md": {
+      "size": 21,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/sections/meta-frontmatter.md": {
+      "size": 152,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/sections/meeting.md": {
+      "size": 123,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/sections/logs.md": {
+      "size": 22,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/sections/footer.md": {
+      "size": 212,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/sections/about.md": {
+      "size": 26,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/R.md": {
+      "size": 234,
+      "tags": 2,
+      "links": 1
+    },
+    "_templates/quickcapture.md": {
+      "size": 764,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/pages/zettel.md": {
+      "size": 374,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/pages/weekly.md": {
+      "size": 607,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/pages/sourcenote.md": {
+      "size": 13,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/pages/project.md": {
+      "size": 546,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/pages/meeting-log.md": {
+      "size": 460,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/pages/default.md": {
+      "size": 240,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/pages/daily.md": {
+      "size": 116,
+      "tags": 1,
+      "links": 1
+    },
+    "_templates/moc.md": {
+      "size": 227,
+      "tags": 1,
+      "links": 0
+    },
+    "_templates/gcp_template.md": {
+      "size": 405,
+      "tags": 1,
+      "links": 5
+    },
+    "_templates/default_note_template.md": {
+      "size": 212,
+      "tags": 1,
+      "links": 0
+    },
+    "_templates/daily_note_template.md": {
+      "size": 225,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/blocks/wins.md": {
+      "size": 15,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/blocks/read.md": {
+      "size": 13,
+      "tags": 1,
+      "links": 0
+    },
+    "_templates/blocks/question.md": {
+      "size": 53,
+      "tags": 1,
+      "links": 0
+    },
+    "_templates/blocks/last-modified-date.md": {
+      "size": 19,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/blocks/discovered.md": {
+      "size": 56,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/blocks/created-datetime.md": {
+      "size": 37,
+      "tags": 0,
+      "links": 0
+    },
+    "_templates/blocks/created-date.md": {
+      "size": 19,
+      "tags": 0,
+      "links": 0
+    },
+    "_highlights/Writing Well- A Must-Have Skill That No One Teaches Data Scientists.md": {
+      "size": 302,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Workflow for Serverless — Cloud Functions + Workflow [Basic].md": {
+      "size": 299,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Why Programmers Should Write Tutorials.md": {
+      "size": 447,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/What’s on Your Programming Reading List.md": {
+      "size": 557,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/The Role of Data Scientist- A Back-Of-The-Envelope Model.md": {
+      "size": 186,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/The Data Science Landscape.md": {
+      "size": 3392,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/The 2 Types of Technical Documentation That  Developers Love.md": {
+      "size": 1033,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Taking Notes for Yourself- Best Practices for the Personal Notebook.md": {
+      "size": 197,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/System Design Paradigm- Caching.md": {
+      "size": 474,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/System Design Basics- Load Balancer 101.md": {
+      "size": 2038,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Services in Systemd- In-Depth Tutorial.md": {
+      "size": 710,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Scaling R Shiny Applications-.md": {
+      "size": 1073,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/RShiny Authentication With Polished on AWS Kubernetes.md": {
+      "size": 450,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/RESTful API Design — Step by Step Guide.md": {
+      "size": 645,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/R in Production, DevOps, and the Importance of Empathetic Witnesses.md": {
+      "size": 503,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/I Built Docker Like Executable _Exe for RShiny!.md": {
+      "size": 584,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/How to ‘DevOps’ as a Software Developer.md": {
+      "size": 1125,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/How to Use a Daily Inspirational Routine for Long-Lasting Success in 2021.md": {
+      "size": 3015,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/How to Structure Your Data Science Workflow.md": {
+      "size": 490,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/How to Learn Linux and Git.md": {
+      "size": 343,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/How to Enhance Your Windows Batch Files by Adding GUI.md": {
+      "size": 221,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/How a Single Freelancer Outperforms a Whole Team.md": {
+      "size": 844,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Five Tidyverse Tricks You May Not Know About.md": {
+      "size": 965,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Everything About Software Architecture.md": {
+      "size": 176,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Event-Driven APIs — Understanding the Principles.md": {
+      "size": 365,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Data Ecosystem.md": {
+      "size": 932,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Completing Tasks — 10 Steps to Finishing What You Start.md": {
+      "size": 644,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/CloudRun With Serverless VPC Access + CloudSQL With Private Service Connect_.md": {
+      "size": 511,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/Architecture for a Startup.md": {
+      "size": 1520,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/A Hierarchy First Approach to Note Taking.md": {
+      "size": 4450,
+      "tags": 1,
+      "links": 1
+    },
+    "_highlights/9 Tricks for Boosting SQL Query Performance.md": {
+      "size": 676,
+      "tags": 1,
+      "links": 1
+    },
+    "_daily/2021-06-24.md": {
+      "size": 310,
+      "tags": 0,
+      "links": 2
+    },
+    "_daily/2021-06-23.md": {
+      "size": 215,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-22.md": {
+      "size": 464,
+      "tags": 2,
+      "links": 3
+    },
+    "_daily/2021-06-21.md": {
+      "size": 211,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-20.md": {
+      "size": 264,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-17.md": {
+      "size": 289,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-16.md": {
+      "size": 290,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-15.md": {
+      "size": 225,
+      "tags": 2,
+      "links": 0
+    },
+    "_daily/2021-06-14.md": {
+      "size": 240,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-13.md": {
+      "size": 212,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-11.md": {
+      "size": 245,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-10.md": {
+      "size": 266,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-08.md": {
+      "size": 322,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-05.md": {
+      "size": 270,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-04.md": {
+      "size": 344,
+      "tags": 2,
+      "links": 3
+    },
+    "_daily/2021-06-03.md": {
+      "size": 415,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-28.md": {
+      "size": 276,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-27.md": {
+      "size": 1038,
+      "tags": 2,
+      "links": 3
+    },
+    "_daily/2021-05-26.md": {
+      "size": 351,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-21.md": {
+      "size": 369,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-18.md": {
+      "size": 349,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-15.md": {
+      "size": 344,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-14.md": {
+      "size": 553,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-13.md": {
+      "size": 410,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-11.md": {
+      "size": 431,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-09.md": {
+      "size": 379,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-08.md": {
+      "size": 381,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-06.md": {
+      "size": 1434,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-05.md": {
+      "size": 2302,
+      "tags": 2,
+      "links": 29
+    },
+    "_daily/2021-05-04.md": {
+      "size": 319,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-03.md": {
+      "size": 1246,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-02.md": {
+      "size": 259,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-05-01.md": {
+      "size": 410,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-04-29.md": {
+      "size": 623,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-04-28.md": {
+      "size": 262,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-04-25.md": {
+      "size": 1177,
+      "tags": 3,
+      "links": 4
+    },
+    "_daily/2021-04-24.md": {
+      "size": 377,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-04-23.md": {
+      "size": 405,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-04-22.md": {
+      "size": 367,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-04-21.md": {
+      "size": 620,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-03-22.md": {
+      "size": 3480,
+      "tags": 2,
+      "links": 0
+    },
+    "_daily/2021-03-18.md": {
+      "size": 2965,
+      "tags": 2,
+      "links": 0
+    },
+    "_daily/2021-03-17.md": {
+      "size": 1157,
+      "tags": 2,
+      "links": 0
+    },
+    "_daily/2021-03-10.md": {
+      "size": 14,
+      "tags": 2,
+      "links": 0
+    },
+    "_daily/2021-03-09.md": {
+      "size": 732,
+      "tags": 2,
+      "links": 0
+    },
+    "_daily/2021-03-08.md": {
+      "size": 668,
+      "tags": 2,
+      "links": 0
+    },
+    "_daily/2021-03-05.md": {
+      "size": 862,
+      "tags": 2,
+      "links": 0
+    },
+    "_daily/2020-04-20.md": {
+      "size": 1515,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2020-03-11.md": {
+      "size": 56,
+      "tags": 2,
+      "links": 1
+    },
+    "Work/work.md": {
+      "size": 603,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Startups/venture-capital.md": {
+      "size": 8491,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Startups/values.md": {
+      "size": 2716,
+      "tags": 0,
+      "links": 1
+    },
+    "Work/Startups/startups.md": {
+      "size": 34337,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Startups/README.md": {
+      "size": 12,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Startups/payroll.md": {
+      "size": 420,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Startups/onboarding.md": {
+      "size": 125,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Startups/marketplaces.md": {
+      "size": 1983,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Startups/funding.md": {
+      "size": 7297,
+      "tags": 0,
+      "links": 1
+    },
+    "Work/Software Roles and Titles.md": {
+      "size": 928,
+      "tags": 1,
+      "links": 1
+    },
+    "Work/restaurants.md": {
+      "size": 1512,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/remote-work.md": {
+      "size": 10831,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/README.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/products.md": {
+      "size": 2122,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/pricing.md": {
+      "size": 3894,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Powwater/MPesa API.md": {
+      "size": 275,
+      "tags": 2,
+      "links": 0
+    },
+    "Work/Powwater/Database Documentation.md": {
+      "size": 1028,
+      "tags": 3,
+      "links": 4
+    },
+    "Work/Management/README.md": {
+      "size": 14,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Management/product-management.md": {
+      "size": 4347,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Management/management.md": {
+      "size": 8544,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Management/leadership.md": {
+      "size": 1260,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/landing-pages.md": {
+      "size": 2635,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/Jobs for R Devs.md": {
+      "size": 10348,
+      "tags": 3,
+      "links": 0
+    },
+    "Work/Freelance Development.md": {
+      "size": 9982,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/finding-work/README.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/finding-work/interviews.md": {
+      "size": 14618,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/finding-work/hiring.md": {
+      "size": 6068,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/finding-work/freelancing.md": {
+      "size": 2913,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/finding-work/finding-work.md": {
+      "size": 8525,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/finding-work/cv.md": {
+      "size": 6362,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/consultancies.md": {
+      "size": 10964,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/communication.md": {
+      "size": 9456,
+      "tags": 0,
+      "links": 0
+    },
+    "Work/business.md": {
+      "size": 3139,
+      "tags": 0,
+      "links": 1
+    },
+    "Unresolved-Links.md": {
+      "size": 25327,
+      "tags": 0,
+      "links": 0
+    },
+    "Unlinked-Files.md": {
+      "size": 24861,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/work.md": {
+      "size": 603,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/remote-work.md": {
+      "size": 10831,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/README.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/finding-work/README.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/finding-work/interviews.md": {
+      "size": 14618,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/finding-work/hiring.md": {
+      "size": 6068,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/finding-work/freelancing.md": {
+      "size": 2913,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/finding-work/finding-work.md": {
+      "size": 8525,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/finding-work/cv.md": {
+      "size": 6362,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/consultancies.md": {
+      "size": 10964,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/work/communication.md": {
+      "size": 9456,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/webrtc.md": {
+      "size": 4935,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/webassembly.md": {
+      "size": 14440,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/webpack.md": {
+      "size": 5211,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/web.md": {
+      "size": 27112,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/web-workers.md": {
+      "size": 1009,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/web-scraping.md": {
+      "size": 8766,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/web-performance.md": {
+      "size": 15134,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/web-components.md": {
+      "size": 3458,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/web-engines/webkit.md": {
+      "size": 1092,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/web-engines/web-engines.md": {
+      "size": 1590,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/web-engines/README.md": {
+      "size": 15,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/web-accessibility.md": {
+      "size": 5817,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/static-sites/static-sites.md": {
+      "size": 10984,
+      "tags": 0,
+      "links": 1
+    },
+    "Scratch/web/static-sites/README.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/static-sites/jekyll.md": {
+      "size": 1200,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/static-sites/hugo.md": {
+      "size": 4921,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/static-sites/eleventy.md": {
+      "size": 2541,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/service-workers.md": {
+      "size": 1115,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/seo.md": {
+      "size": 5986,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/search-engines.md": {
+      "size": 14072,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/rss.md": {
+      "size": 9210,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/rollup.md": {
+      "size": 926,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/progressive-web-apps.md": {
+      "size": 1499,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/jamstack/redwood.md": {
+      "size": 709,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/jamstack/README.md": {
+      "size": 12,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/jamstack/jamstack.md": {
+      "size": 1894,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/nodejs/README.md": {
+      "size": 10,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/nodejs/nodejs.md": {
+      "size": 19246,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/electron.md": {
+      "size": 2750,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/deno.md": {
+      "size": 6501,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/cms.md": {
+      "size": 2452,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/browsers/stylish-themes.md": {
+      "size": 1742,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/browsers/safari.md": {
+      "size": 2565,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/browsers/README.md": {
+      "size": 12,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/browsers/google-chrome/README.md": {
+      "size": 17,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/browsers/google-chrome/google-chrome.md": {
+      "size": 3118,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/browsers/google-chrome/chrome-dev-tools.md": {
+      "size": 1589,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/browsers/firefox.md": {
+      "size": 1856,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/browsers/browsers.md": {
+      "size": 12602,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/web/browsers/bookmarklets.md": {
+      "size": 637,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/SEO Resources.md": {
+      "size": 7089,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/SEO Resources List.md": {
+      "size": 6933,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/reference.md": {
+      "size": 893,
+      "tags": 0,
+      "links": 1
+    },
+    "Scratch/My Stuff/tracking.md": {
+      "size": 3089,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/My Stuff/things.md": {
+      "size": 2048,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/My Stuff/sharing.md": {
+      "size": 3176,
+      "tags": 0,
+      "links": 10
+    },
+    "Scratch/My Stuff/README.md": {
+      "size": 11,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/My Stuff/my-workflow.md": {
+      "size": 6607,
+      "tags": 0,
+      "links": 21
+    },
+    "Scratch/My Stuff/my-trello.md": {
+      "size": 871,
+      "tags": 0,
+      "links": 3
+    },
+    "Scratch/My Stuff/my-github.md": {
+      "size": 2891,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/My Stuff/my-articles.md": {
+      "size": 3339,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/My Stuff/everything-i-know.md": {
+      "size": 4211,
+      "tags": 0,
+      "links": 4
+    },
+    "Scratch/microsoft-edge-experiemental-feature-flags.md": {
+      "size": 1987,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/meta.md": {
+      "size": 2851,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/index.md": {
+      "size": 207,
+      "tags": 0,
+      "links": 2
+    },
+    "Scratch/google-chrome-tips-and-tricks.md": {
+      "size": 80,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/Brain Dump Formal - December 25, 2020.md": {
+      "size": 912,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/Brain Dump - December 25, 2020.md": {
+      "size": 1592,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/Army Ranks.md": {
+      "size": 159,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/2020-02-23-GH-Gists.md": {
+      "size": 7423,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/2020 Github Skyline 🌇.md": {
+      "size": 87,
+      "tags": 0,
+      "links": 0
+    },
+    "Scratch/0-HOME.md": {
+      "size": 851,
+      "tags": 1,
+      "links": 30
+    },
+    "README.md": {
+      "size": 597,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/zettelkasten.md": {
+      "size": 4071,
+      "tags": 0,
+      "links": 1
+    },
+    "Productivity/Zen to Done- The Habit-Building Productivity System.md": {
+      "size": 246,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/Todoist.md": {
+      "size": 123,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Time Management.md": {
+      "size": 1206,
+      "tags": 1,
+      "links": 2
+    },
+    "Productivity/The Search for the Ultimate Productivity System.md": {
+      "size": 388,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/The Productivity System You Use Doesn’t Matter.md": {
+      "size": 285,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/Project Management/Taming a Chaotic Project.md": {
+      "size": 8823,
+      "tags": 3,
+      "links": 0
+    },
+    "Productivity/Project Management/Project Management.md": {
+      "size": 174,
+      "tags": 1,
+      "links": 0
+    },
+    "Productivity/Project Management/Project Management Pipeline.md": {
+      "size": 2861,
+      "tags": 3,
+      "links": 3
+    },
+    "Productivity/Project Management/Ludicrously Complex Projects in Software Development.md": {
+      "size": 1241,
+      "tags": 3,
+      "links": 0
+    },
+    "Productivity/Project Initialization Checklist.md": {
+      "size": 188,
+      "tags": 1,
+      "links": 0
+    },
+    "Productivity/Productivity.md": {
+      "size": 185,
+      "tags": 1,
+      "links": 0
+    },
+    "Productivity/Productivity Tech Stack.md": {
+      "size": 46,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Productivity System.md": {
+      "size": 1626,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/Productivity Blogs.md": {
+      "size": 839,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Productivity Blogs and Websites.md": {
+      "size": 797,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/PKM/Zettelkasten.md": {
+      "size": 3550,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/PKM/The PKM Process.md": {
+      "size": 615,
+      "tags": 0,
+      "links": 2
+    },
+    "Productivity/PKM/PKM.md": {
+      "size": 377,
+      "tags": 1,
+      "links": 2
+    },
+    "Productivity/PKM/Personal Knowledge Management.md": {
+      "size": 1427,
+      "tags": 0,
+      "links": 21
+    },
+    "Productivity/PKM/Permanent Notes.md": {
+      "size": 176,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/PKM/PARA.md": {
+      "size": 9059,
+      "tags": 0,
+      "links": 4
+    },
+    "Productivity/PKM/PARA as a Flat File System.md": {
+      "size": 3459,
+      "tags": 0,
+      "links": 3
+    },
+    "Productivity/PKM/mental-models.md": {
+      "size": 2717,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/PKM/knowledge.md": {
+      "size": 3889,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/PKM/knowledge-graphs.md": {
+      "size": 7444,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/PKM/knowledge-extraction.md": {
+      "size": 706,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/PKM/Introduction to the Zettelkasten Method.md": {
+      "size": 48689,
+      "tags": 0,
+      "links": 4
+    },
+    "Productivity/PKM/Introducion to Zettelkasten.md": {
+      "size": 48538,
+      "tags": 0,
+      "links": 4
+    },
+    "Productivity/PKM/index.md": {
+      "size": 515,
+      "tags": 2,
+      "links": 9
+    },
+    "Productivity/PKM/Goals of a Note Taking System.md": {
+      "size": 1473,
+      "tags": 1,
+      "links": 2
+    },
+    "Productivity/PKM/Fleeting Notes.md": {
+      "size": 95,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/PKM/BASB.md": {
+      "size": 1670,
+      "tags": 1,
+      "links": 3
+    },
+    "Productivity/PKM/BASB Infographics.md": {
+      "size": 136,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/PKM/BASB - An Overview.md": {
+      "size": 1356,
+      "tags": 1,
+      "links": 3
+    },
+    "Productivity/PKM/A Note on Daily Notes.md": {
+      "size": 6625,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/One Productivity System to Rule Them All.md": {
+      "size": 1579,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/Notes on Finishing Projects.md": {
+      "size": 750,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/New Project Creation Checklist.md": {
+      "size": 186,
+      "tags": 1,
+      "links": 0
+    },
+    "Productivity/Minimalism/README.md": {
+      "size": 14,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Minimalism/minimalism.md": {
+      "size": 3692,
+      "tags": 0,
+      "links": 4
+    },
+    "Productivity/Mindfulness/tao.md": {
+      "size": 1365,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Mindfulness/README.md": {
+      "size": 15,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Mindfulness/mindfulness.md": {
+      "size": 3665,
+      "tags": 0,
+      "links": 2
+    },
+    "Productivity/Mindfulness/meditation.md": {
+      "size": 5277,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Mindfulness/buddhism.md": {
+      "size": 1994,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Lists/Recurring Shopping List.md": {
+      "size": 190,
+      "tags": 1,
+      "links": 0
+    },
+    "Productivity/index.md": {
+      "size": 277,
+      "tags": 1,
+      "links": 4
+    },
+    "Productivity/GTD/Mind Like Water.md": {
+      "size": 1480,
+      "tags": 3,
+      "links": 1
+    },
+    "Productivity/GTD/index.md": {
+      "size": 197,
+      "tags": 2,
+      "links": 0
+    },
+    "Productivity/GTD/GTD.md": {
+      "size": 6984,
+      "tags": 2,
+      "links": 2
+    },
+    "Productivity/GTD/GTD Mindsweep.md": {
+      "size": 3946,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/GTD/Getting Things Done - GTD.md": {
+      "size": 6946,
+      "tags": 2,
+      "links": 3
+    },
+    "Physics/string-theory.md": {
+      "size": 1335,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/README.md": {
+      "size": 11,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/quantum-physics/README.md": {
+      "size": 19,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/quantum-physics/quantum-physics.md": {
+      "size": 5207,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/quantum-physics/quantum-gravity.md": {
+      "size": 830,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/quantum-physics/quantum-computing.md": {
+      "size": 8153,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/physics.md": {
+      "size": 23589,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/electrical-engineering/signal-processing.md": {
+      "size": 2198,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/electrical-engineering/README.md": {
+      "size": 26,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/electrical-engineering/electrical-engineering.md": {
+      "size": 5489,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/dark-matter.md": {
+      "size": 506,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/classical-mechanics.md": {
+      "size": 240,
+      "tags": 0,
+      "links": 0
+    },
+    "Physics/antimatter.md": {
+      "size": 523,
+      "tags": 0,
+      "links": 0
+    },
+    "Obsidian/Volcano Plugins.md": {
+      "size": 171,
+      "tags": 1,
+      "links": 0
+    },
+    "Obsidian/Temple Plugin.md": {
+      "size": 2395,
+      "tags": 0,
+      "links": 0
+    },
+    "Obsidian/Templater Plugin.md": {
+      "size": 12471,
+      "tags": 3,
+      "links": 1
+    },
+    "Obsidian/Templater Plugin Notes.md": {
+      "size": 339,
+      "tags": 1,
+      "links": 2
+    },
+    "Obsidian/Tags and Links.md": {
+      "size": 1163,
+      "tags": 8,
+      "links": 1
+    },
+    "Obsidian/Publishing Workflow.md": {
+      "size": 1512,
+      "tags": 1,
+      "links": 0
+    },
+    "Obsidian/Permanent Notes.md": {
+      "size": 176,
+      "tags": 0,
+      "links": 0
+    },
+    "Obsidian/Organizing Your Notes.md": {
+      "size": 397,
+      "tags": 0,
+      "links": 4
+    },
+    "Obsidian/Obsidian.md": {
+      "size": 13692,
+      "tags": 1,
+      "links": 6
+    },
+    "Obsidian/Obsidian URI.md": {
+      "size": 5430,
+      "tags": 0,
+      "links": 1
+    },
+    "Obsidian/Obsidian Temple.md": {
+      "size": 2209,
+      "tags": 0,
+      "links": 0
+    },
+    "Obsidian/Obsidian Kanban Board Plugin.md": {
+      "size": 319,
+      "tags": 1,
+      "links": 0
+    },
+    "Obsidian/Obsidian Git Plugin Notes.md": {
+      "size": 1140,
+      "tags": 1,
+      "links": 1
+    },
+    "Obsidian/Obsidian API and URI.md": {
+      "size": 5391,
+      "tags": 0,
+      "links": 0
+    },
+    "Obsidian/Mermaid Diagrams.md": {
+      "size": 880,
+      "tags": 2,
+      "links": 0
+    },
+    "Obsidian/How to User Tags and Links in  Obsidian.md": {
+      "size": 976,
+      "tags": 8,
+      "links": 1
+    },
+    "Obsidian/Awesome-Obsidian.md": {
+      "size": 19759,
+      "tags": 0,
+      "links": 20
+    },
+    "Obsidian/Advanced Tables Plugin Help.md": {
+      "size": 1275,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/wolfram-alpha.md": {
+      "size": 680,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/type-theory/type-theory.md": {
+      "size": 12974,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/type-theory/README.md": {
+      "size": 15,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/type-theory/dependent-types.md": {
+      "size": 5506,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/type-theory/cubical-type-theory.md": {
+      "size": 753,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/type-theory/computational-type-theory.md": {
+      "size": 430,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/topology.md": {
+      "size": 1189,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/statistics/statistics.md": {
+      "size": 10192,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/statistics/README.md": {
+      "size": 14,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/statistics/markov-chains.md": {
+      "size": 1473,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/real-analysis.md": {
+      "size": 996,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/README.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/queueing-theory.md": {
+      "size": 254,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/number-theory.md": {
+      "size": 1727,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/mathematical-optimization/README.md": {
+      "size": 29,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/mathematical-optimization/nearest-neighbor-search.md": {
+      "size": 140,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/mathematical-optimization/mathematical-optimization.md": {
+      "size": 1165,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/mathematical-optimization/gradient-descent.md": {
+      "size": 280,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/mathematical-optimization/combinatorial-optimization.md": {
+      "size": 148,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/math.md": {
+      "size": 27927,
+      "tags": 0,
+      "links": 2
+    },
+    "Mathematics/logic/satisfiability-modulo-theories.md": {
+      "size": 3032,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/logic/README.md": {
+      "size": 9,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/logic/logic.md": {
+      "size": 3402,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/logic/combinatory-logic.md": {
+      "size": 69,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/logic/automated-theorem-proving/README.md": {
+      "size": 29,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/logic/automated-theorem-proving/lean.md": {
+      "size": 2751,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/logic/automated-theorem-proving/automated-theorem-proving.md": {
+      "size": 1946,
+      "tags": 0,
+      "links": 1
+    },
+    "Mathematics/linear-programming.md": {
+      "size": 145,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/linear-algebra/vectors.md": {
+      "size": 632,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/linear-algebra/README.md": {
+      "size": 18,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/linear-algebra/linear-algebra.md": {
+      "size": 4504,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/lambda-calculus.md": {
+      "size": 4657,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/homotopy-theory.md": {
+      "size": 2859,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/group-theory.md": {
+      "size": 1141,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/graph-theory.md": {
+      "size": 3421,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/geometry.md": {
+      "size": 2918,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/geometric-algebra.md": {
+      "size": 2521,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/game-theory.md": {
+      "size": 700,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/fractals.md": {
+      "size": 5021,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/fourier-transform.md": {
+      "size": 2071,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/differential-equations.md": {
+      "size": 1541,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/category-theory/README.md": {
+      "size": 19,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/category-theory/category-theory.md": {
+      "size": 12372,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/calculus.md": {
+      "size": 1562,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/automatic-differentiation.md": {
+      "size": 1535,
+      "tags": 0,
+      "links": 0
+    },
+    "Mathematics/algebraic-topology.md": {
+      "size": 389,
+      "tags": 0,
+      "links": 0
+    },
+    "Kanban.md": {
+      "size": 107,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/What is REST.md": {
+      "size": 13444,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/webrtc.md": {
+      "size": 4935,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/webpack.md": {
+      "size": 5211,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/WebDev Resource List.md": {
+      "size": 252,
+      "tags": 2,
+      "links": 0
+    },
+    "Development/Web Development/webassembly.md": {
+      "size": 14440,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/web.md": {
+      "size": 27112,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/web-workers.md": {
+      "size": 1009,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/web-scraping.md": {
+      "size": 8766,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/web-performance.md": {
+      "size": 15134,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/web-components.md": {
+      "size": 3458,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/web-accessibility.md": {
+      "size": 5817,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Developers Toolkit.md": {
+      "size": 6990,
+      "tags": 2,
+      "links": 1
+    },
+    "Development/Web Development/Terraform and GCP.md": {
+      "size": 839,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/service-workers.md": {
+      "size": 1115,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Serverless Computing.md": {
+      "size": 10495,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Web Development/seo.md": {
+      "size": 5986,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/search-engines.md": {
+      "size": 14072,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/SaaS List.md": {
+      "size": 25152,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/rss.md": {
+      "size": 9210,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/rollup.md": {
+      "size": 926,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/progressive-web-apps.md": {
+      "size": 1499,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/List of APIs.md": {
+      "size": 18956,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Web Development/HTTP Requests.md": {
+      "size": 8406,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/HTTP Requests Notes.md": {
+      "size": 8399,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Effective Engineer - Notes.md": {
+      "size": 14019,
+      "tags": 2,
+      "links": 0
+    },
+    "Development/Web Development/DevOps Implementation Plan.md": {
+      "size": 722,
+      "tags": 0,
+      "links": 4
+    },
+    "Development/Web Development/Developer Documentation.md": {
+      "size": 17404,
+      "tags": 0,
+      "links": 16
+    },
+    "Development/Web Development/Cloud Computing.md": {
+      "size": 5101,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Web Development/Backend.md": {
+      "size": 8965,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/APIs.md": {
+      "size": 303,
+      "tags": 3,
+      "links": 2
+    },
+    "Development/Tools/zulip.md": {
+      "size": 186,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/wordpress.md": {
+      "size": 662,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/voice-assistants/voice-assistants.md": {
+      "size": 814,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/voice-assistants/README.md": {
+      "size": 20,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/twitter.md": {
+      "size": 6469,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Tools.md": {
+      "size": 10784,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/vs-code/vs-code.md": {
+      "size": 4799,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Tools/Text Editors/vs-code/vs-code-extensions.md": {
+      "size": 27987,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/vs-code/README.md": {
+      "size": 11,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/vim/vim.md": {
+      "size": 8507,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Tools/Text Editors/vim/vim-plugins.md": {
+      "size": 14301,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/vim/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/text-editors.md": {
+      "size": 10246,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/sublime-text/sublime-text.md": {
+      "size": 1694,
+      "tags": 0,
+      "links": 3
+    },
+    "Development/Tools/Text Editors/sublime-text/sublime-text-plugins.md": {
+      "size": 4269,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/sublime-text/README.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/README.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/intellij.md": {
+      "size": 496,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/emacs/README.md": {
+      "size": 9,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/emacs/emacs.md": {
+      "size": 8381,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Text Editors/emacs/emacs-packages.md": {
+      "size": 2177,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/telegram.md": {
+      "size": 5379,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/slack.md": {
+      "size": 2296,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/roam-research.md": {
+      "size": 7107,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/README.md": {
+      "size": 9,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/React Native.md": {
+      "size": 4130,
+      "tags": 2,
+      "links": 2
+    },
+    "Development/Tools/Prometheus.md": {
+      "size": 3854,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Programming Tools.md": {
+      "size": 17832,
+      "tags": 2,
+      "links": 23
+    },
+    "Development/Tools/product-hunt.md": {
+      "size": 342,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/personal-setups.md": {
+      "size": 106,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Package Managers/README.md": {
+      "size": 20,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Package Managers/package-managers.md": {
+      "size": 2478,
+      "tags": 0,
+      "links": 2
+    },
+    "Development/Tools/Package Managers/nix/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Package Managers/nix/nix.md": {
+      "size": 18493,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Package Managers/nix/nix-darwin.md": {
+      "size": 1253,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Package Managers/brew.md": {
+      "size": 2722,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/notion.md": {
+      "size": 3967,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/index.md": {
+      "size": 161,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Tools/ifttt.md": {
+      "size": 229,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/gitbook.md": {
+      "size": 1809,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/firebase.md": {
+      "size": 2143,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/email.md": {
+      "size": 15621,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Tools/elasticsearch.md": {
+      "size": 1953,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/duckduckgo.md": {
+      "size": 440,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/dropbox.md": {
+      "size": 1148,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/discord.md": {
+      "size": 1347,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/dat.md": {
+      "size": 1321,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Compression.md": {
+      "size": 4699,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Tools/Compilers/Linters.md": {
+      "size": 363,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Tools/Compilers/index.md": {
+      "size": 16677,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Tools/Compilers/Build Systems.md": {
+      "size": 6249,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Tools/codesandbox.md": {
+      "size": 1477,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Tools/Apache Kafka.md": {
+      "size": 3175,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Tools/ansible.md": {
+      "size": 1433,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/System Design.md": {
+      "size": 167,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/System Design/System Design Primer.md": {
+      "size": 4226,
+      "tags": 1,
+      "links": 3
+    },
+    "Development/System Design/Distributed Systems/rpcs/rpcs.md": {
+      "size": 2484,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/rpcs/index.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/rpcs/grpc.md": {
+      "size": 3959,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/message-queue/zeromq.md": {
+      "size": 469,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/message-queue/mqtt.md": {
+      "size": 897,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/message-queue/message-queue.md": {
+      "size": 1313,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/message-queue/index.md": {
+      "size": 17,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/load-balancing.md": {
+      "size": 3383,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/index.md": {
+      "size": 23,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/distributed-systems.md": {
+      "size": 19215,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/Distributed Systems/crdt.md": {
+      "size": 5418,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/System Design/DevOps - Waterfall Method.md": {
+      "size": 5679,
+      "tags": 1,
+      "links": 1
+    },
+    "Development/Security/security.md": {
+      "size": 17557,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Security/README.md": {
+      "size": 12,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Security/cryptography/zero-knowledge-proofs.md": {
+      "size": 2310,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Security/cryptography/README.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Security/cryptography/encryption.md": {
+      "size": 3705,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Security/cryptography/cryptography.md": {
+      "size": 12851,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/Utils Package Hidden Gems in R.md": {
+      "size": 4834,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/Useful Packages in R List.md": {
+      "size": 6180,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/Tools Package Hidden Gems in R.md": {
+      "size": 307,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/Shiny Apps as Packages in R.md": {
+      "size": 5858,
+      "tags": 2,
+      "links": 0
+    },
+    "Development/R/RStudio Configuration.md": {
+      "size": 252,
+      "tags": 2,
+      "links": 2
+    },
+    "Development/R/RStudio Configuration Notes.md": {
+      "size": 179,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Workflows/R-RMarkdown and R Tips.md": {
+      "size": 9783,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Workflows/R-pak-with-ccache.md": {
+      "size": 4867,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Workflows/R Package Development.md": {
+      "size": 3232,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Workflows/R Package Development Resources.md": {
+      "size": 255,
+      "tags": 1,
+      "links": 1
+    },
+    "Development/R/R-Tips-and-Tricks/R-Utils Package Hidden Gems.md": {
+      "size": 5022,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Tips-and-Tricks/R-Package Development.md": {
+      "size": 449,
+      "tags": 1,
+      "links": 1
+    },
+    "Development/R/R-Tips-and-Tricks/R-Base R Hidden Gems.md": {
+      "size": 9531,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/R/R-Tips-and-Tricks/R Utils Package Hidden Gems.md": {
+      "size": 4873,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Tips-and-Tricks/R Package Installation Optimization.md": {
+      "size": 10164,
+      "tags": 0,
+      "links": 6
+    },
+    "Development/R/R-Tips-and-Tricks/R CCache for Package Installations.md": {
+      "size": 1661,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Tips-and-Tricks/R Base R Package Hidden Gems.md": {
+      "size": 9365,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/R/R-Tips-and-Tricks/R - pak Github Action.md": {
+      "size": 3977,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Shiny/Shiny Server v1.4.0 Configuration Reference.md": {
+      "size": 601,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/R/R-Shiny/R-Shiny.md": {
+      "size": 163,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/R/R-Shiny/R-Shiny and Docker Build.md": {
+      "size": 844,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Shiny/R Shiny and Docker Build.md": {
+      "size": 697,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Setup/Rprofile.md": {
+      "size": 422,
+      "tags": 4,
+      "links": 2
+    },
+    "Development/R/R-Setup/R-Setup.md": {
+      "size": 2201,
+      "tags": 0,
+      "links": 2
+    },
+    "Development/R/R-Setup/R Config.md": {
+      "size": 27,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-RStudio/rstudio-configuration-notes.md": {
+      "size": 179,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-RStudio/RStudio Configuration.md": {
+      "size": 453,
+      "tags": 2,
+      "links": 2
+    },
+    "Development/R/R-Resources/R-Training.md": {
+      "size": 118,
+      "tags": 1,
+      "links": 1
+    },
+    "Development/R/R-Resources/R-Books.md": {
+      "size": 2368,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/R/R-Resources/R Data Validation Tools.md": {
+      "size": 1302,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Resources/R Books List.md": {
+      "size": 2199,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/R/R-Resources/Github Actions for R.md": {
+      "size": 6964,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/R/R-Packages/R-Useful-Packages.md": {
+      "size": 6180,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Packages/R-Packages.md": {
+      "size": 163,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/R/R-Packages/R-Package Development.md": {
+      "size": 163,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/R/R-Packages/R-EDA Packages.md": {
+      "size": 13927,
+      "tags": 2,
+      "links": 1
+    },
+    "Development/R/R-Packages/R-Data Validation.md": {
+      "size": 1450,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Packages/R-Blogdown Tips.md": {
+      "size": 1141,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Packages/R EDA Packages.md": {
+      "size": 13764,
+      "tags": 2,
+      "links": 1
+    },
+    "Development/R/R-Packages/CodeBook.md": {
+      "size": 2830,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Ideas.md": {
+      "size": 163,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/R/R-General/Vectorizing and Fuzzy Matching.md": {
+      "size": 6361,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-General/R-Vectorizing and Fuzzy Matching.md": {
+      "size": 6361,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-General/R-Golden Rules for Reproducible Analyses.md": {
+      "size": 30299,
+      "tags": 0,
+      "links": 7
+    },
+    "Development/R/R-General/R-Develeopment.md": {
+      "size": 481,
+      "tags": 0,
+      "links": 12
+    },
+    "Development/R/R-General/R-All Things R.md": {
+      "size": 3576,
+      "tags": 0,
+      "links": 4
+    },
+    "Development/R/R-General/R Package Installation Optimization.md": {
+      "size": 10164,
+      "tags": 0,
+      "links": 6
+    },
+    "Development/R/R-General/R in Production.md": {
+      "size": 1132,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-General/pak-with-ccache.md": {
+      "size": 4867,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-General/Check Unstated Dependencies in Tests.md": {
+      "size": 359,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-Databases/Using the Pool R Package.md": {
+      "size": 6969,
+      "tags": 2,
+      "links": 4
+    },
+    "Development/R/R-Databases/Using Pool.md": {
+      "size": 6770,
+      "tags": 2,
+      "links": 0
+    },
+    "Development/R/R-Databases/Pool Package Helper Functions.md": {
+      "size": 1519,
+      "tags": 2,
+      "links": 0
+    },
+    "Development/R/R-Databases/index.md": {
+      "size": 163,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/R/R-APIs/R-Plumber-REST-API.md": {
+      "size": 1396,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/R-APIs/index.md": {
+      "size": 193,
+      "tags": 1,
+      "links": 1
+    },
+    "Development/R/R-APIs/API Authentication Methods in R with Plumber.md": {
+      "size": 12187,
+      "tags": 3,
+      "links": 18
+    },
+    "Development/R/R Shiny Packages.md": {
+      "size": 40047,
+      "tags": 1,
+      "links": 72
+    },
+    "Development/R/R Package Development Best Practices.md": {
+      "size": 921,
+      "tags": 2,
+      "links": 1
+    },
+    "Development/R/R Optimizing Package Installations.md": {
+      "size": 15713,
+      "tags": 2,
+      "links": 1
+    },
+    "Development/R/R Miscellaneous Notes.md": {
+      "size": 4318,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/R/R Development.md": {
+      "size": 38,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/R/R Books.md": {
+      "size": 24880,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/R/Plumber REST APIs in R.md": {
+      "size": 1396,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/Plumber Resources.md": {
+      "size": 192,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/R/Plumber Logging.md": {
+      "size": 4200,
+      "tags": 2,
+      "links": 1
+    },
+    "Development/R/index.md": {
+      "size": 407,
+      "tags": 1,
+      "links": 2
+    },
+    "Development/R/HTTP Testing in R.md": {
+      "size": 97,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/R/EDA Packages in R.md": {
+      "size": 13843,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/R/Docker with R.md": {
+      "size": 6153,
+      "tags": 3,
+      "links": 3
+    },
+    "Development/R/Databases with R Resources.md": {
+      "size": 920,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/R/Data Validation Packages in R.md": {
+      "size": 1424,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/R/Base Package Hidden Gems in R.md": {
+      "size": 9459,
+      "tags": 1,
+      "links": 1
+    },
+    "Development/Python/Python.md": {
+      "size": 176,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/PowerShell/Powershell Tips and Tricks.md": {
+      "size": 192,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/PowerShell/Powershell Snippets.md": {
+      "size": 514,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/PowerShell/Extended Disk Cleanup.md": {
+      "size": 258,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/PowerShell/DISM Commands.md": {
+      "size": 325,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/PowerShell/Chocolatey Installs.md": {
+      "size": 1612,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Opserating Systems/windows.md": {
+      "size": 2610,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/README.md": {
+      "size": 21,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/operating-systems.md": {
+      "size": 22786,
+      "tags": 0,
+      "links": 3
+    },
+    "Development/Opserating Systems/linux/README.md": {
+      "size": 9,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/linux/nixos.md": {
+      "size": 10112,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Opserating Systems/linux/linux.md": {
+      "size": 29087,
+      "tags": 0,
+      "links": 2
+    },
+    "Development/Opserating Systems/ios/watchos.md": {
+      "size": 255,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/ios/tvos.md": {
+      "size": 215,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/ios/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/ios/ipad.md": {
+      "size": 1775,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/ios/ios.md": {
+      "size": 31574,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/ios/ios-shortcuts.md": {
+      "size": 2353,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/ios/homekit.md": {
+      "size": 1044,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/ios/coreml.md": {
+      "size": 1266,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/fuchsia-os.md": {
+      "size": 839,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/file-systems.md": {
+      "size": 5012,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/emulators.md": {
+      "size": 3565,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/containers/README.md": {
+      "size": 14,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/containers/kubernetes/README.md": {
+      "size": 14,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/containers/kubernetes/kubernetes.md": {
+      "size": 40036,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/containers/kubernetes/kubernetes-plugins.md": {
+      "size": 2080,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/containers/docker.md": {
+      "size": 11108,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/containers/containers.md": {
+      "size": 11039,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/bsd/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/bsd/bsd.md": {
+      "size": 5021,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Opserating Systems/android.md": {
+      "size": 3021,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Open Source/README.md": {
+      "size": 15,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Open Source/open-source.md": {
+      "size": 18806,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Open Source/gsoc.md": {
+      "size": 290,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Open Source/github/README.md": {
+      "size": 10,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Open Source/github/github.md": {
+      "size": 19786,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Open Source/github/github-bots.md": {
+      "size": 572,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Open Source/github/github-actions.md": {
+      "size": 20793,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/wifi.md": {
+      "size": 672,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/websocket.md": {
+      "size": 3258,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/vpn/wireguard.md": {
+      "size": 2732,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/vpn/vpn.md": {
+      "size": 2994,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Networking/vpn/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/tls.md": {
+      "size": 2660,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/tcp.md": {
+      "size": 3298,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/ssh.md": {
+      "size": 5892,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/rest.md": {
+      "size": 1607,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/README.md": {
+      "size": 14,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/rabbitmq.md": {
+      "size": 1049,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/quic.md": {
+      "size": 2167,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/peer-to-peer/README.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/peer-to-peer/peer-to-peer.md": {
+      "size": 7912,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/peer-to-peer/ipfs.md": {
+      "size": 4163,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/peer-to-peer/bittorrent.md": {
+      "size": 5315,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/nginx.md": {
+      "size": 3076,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/networking.md": {
+      "size": 22872,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/microservices.md": {
+      "size": 8408,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/mesh-networking.md": {
+      "size": 158,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/matrix.md": {
+      "size": 4956,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/iot/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/iot/lorawan.md": {
+      "size": 7420,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/iot/iot.md": {
+      "size": 7304,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/http.md": {
+      "size": 11120,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/graphql/README.md": {
+      "size": 11,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/graphql/hasura.md": {
+      "size": 1947,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/graphql/graphql.md": {
+      "size": 23620,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/graphql/apollo-graphql.md": {
+      "size": 1558,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/gemini.md": {
+      "size": 2316,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/file-sharing.md": {
+      "size": 6244,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/domains.md": {
+      "size": 957,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/dns.md": {
+      "size": 8289,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/decentralization.md": {
+      "size": 5615,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/caddy.md": {
+      "size": 919,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/authentication.md": {
+      "size": 11960,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Networking/activitypub.md": {
+      "size": 1780,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/Pandoc and LaTeX Guide.md": {
+      "size": 2158,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/Theme-Ideas.md": {
+      "size": 180,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/Project-Roadmap.md": {
+      "size": 2941,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/Plugins-Ideas.md": {
+      "size": 777,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/MkDocs.md": {
+      "size": 333,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/MkDocs-Users.md": {
+      "size": 7211,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/MkDocs-Themes.md": {
+      "size": 4614,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/MkDocs-Recipes.md": {
+      "size": 7783,
+      "tags": 0,
+      "links": 9
+    },
+    "Development/Markdown/MkDocs/MkDocs-Plugins.md": {
+      "size": 87146,
+      "tags": 0,
+      "links": 22
+    },
+    "Development/Markdown/MkDocs/Mkdocs-Deployments.md": {
+      "size": 7666,
+      "tags": 0,
+      "links": 15
+    },
+    "Development/Markdown/MkDocs/Loaders-Based-Plugin-API.md": {
+      "size": 2069,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/Home.md": {
+      "size": 1468,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/Event-Based-Plugin-API.md": {
+      "size": 8090,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/MkDocs/Community-mkDocs-Blogs.md": {
+      "size": 550,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Markdown/Markdown.md": {
+      "size": 32256,
+      "tags": 0,
+      "links": 50
+    },
+    "Development/Markdown/latex.md": {
+      "size": 7632,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Markdown/Hexo Setup Walkthrough.md": {
+      "size": 444,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Markdown/Gatsby Setup Walkthrough.md": {
+      "size": 1052,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Markdown/A Guide to Markdown.md": {
+      "size": 32075,
+      "tags": 0,
+      "links": 50
+    },
+    "Development/Linux/WSL-setup-notes.md": {
+      "size": 18848,
+      "tags": 0,
+      "links": 22
+    },
+    "Development/Linux/unix.md": {
+      "size": 5009,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/unix-cmd-commands.md": {
+      "size": 7617,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/shell/zsh/zsh-plugins.md": {
+      "size": 3645,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/shell/zsh/zsh.md": {
+      "size": 2169,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/shell/zsh/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/shell/shell.md": {
+      "size": 11490,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/shell/README.md": {
+      "size": 9,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/shell/fish.md": {
+      "size": 986,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/README.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/my-file-system.md": {
+      "size": 4640,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/linux-apt-common-commands.md": {
+      "size": 561,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/index.md": {
+      "size": 187,
+      "tags": 0,
+      "links": 3
+    },
+    "Development/Linux/dotfiles.md": {
+      "size": 3461,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Linux/config-management.md": {
+      "size": 1971,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/index.md": {
+      "size": 2956,
+      "tags": 1,
+      "links": 52
+    },
+    "Development/Hardware/verilog.md": {
+      "size": 747,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/README.md": {
+      "size": 12,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/raspberry-pi.md": {
+      "size": 8344,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/neuromorphic-computing.md": {
+      "size": 484,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/hardware.md": {
+      "size": 20354,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/gpu/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/gpu/gpu.md": {
+      "size": 5155,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/fpga.md": {
+      "size": 5140,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/firmware.md": {
+      "size": 1532,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/displays.md": {
+      "size": 692,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/cpu/risc-v.md": {
+      "size": 8644,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/cpu/README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/cpu/cpu.md": {
+      "size": 9078,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/cpu/amd.md": {
+      "size": 445,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/circuit-design.md": {
+      "size": 305,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Hardware/arduino.md": {
+      "size": 1656,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/Terraform and GCP.md": {
+      "size": 690,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/stackdriver/log-entry.md": {
+      "size": 636,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/stackdriver/index.md": {
+      "size": 123,
+      "tags": 0,
+      "links": 2
+    },
+    "Development/Google Cloud/stackdriver/export-log.md": {
+      "size": 2909,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/Setup Cloud SQL for PostgreSQL in Production.md": {
+      "size": 18372,
+      "tags": 1,
+      "links": 2
+    },
+    "Development/Google Cloud/pubsub/pubsub-gotchas.md": {
+      "size": 430,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/pubsub/pubsub-examples.md": {
+      "size": 160,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/pubsub/index.md": {
+      "size": 92,
+      "tags": 0,
+      "links": 2
+    },
+    "Development/Google Cloud/Install gcloud SDK on Windows.md": {
+      "size": 5551,
+      "tags": 2,
+      "links": 2
+    },
+    "Development/Google Cloud/Install gcloud SDK on Ubuntu.md": {
+      "size": 11130,
+      "tags": 2,
+      "links": 1
+    },
+    "Development/Google Cloud/index.md": {
+      "size": 1215,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Google Cloud/iap/index.md": {
+      "size": 71,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Google Cloud/iap/getting-started.md": {
+      "size": 2106,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/Home.md": {
+      "size": 49,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/Google-Maps-Links.md": {
+      "size": 7644,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/Google Cloud Setup Notes.md": {
+      "size": 2409,
+      "tags": 2,
+      "links": 1
+    },
+    "Development/Google Cloud/Google Cloud SDK Commands for Projects and Configurations.md": {
+      "size": 2396,
+      "tags": 1,
+      "links": 5
+    },
+    "Development/Google Cloud/Google Cloud SDK CLI Notes.md": {
+      "size": 6084,
+      "tags": 1,
+      "links": 7
+    },
+    "Development/Google Cloud/Google Cloud APIs.md": {
+      "size": 317,
+      "tags": 1,
+      "links": 2
+    },
+    "Development/Google Cloud/Goggle Maps/Google Maps APIs.md": {
+      "size": 4742,
+      "tags": 1,
+      "links": 4
+    },
+    "Development/Google Cloud/Goggle Maps/Getting directions through the Directions API.md": {
+      "size": 384,
+      "tags": 3,
+      "links": 1
+    },
+    "Development/Google Cloud/Goggle Maps/Geolocation API.md": {
+      "size": 3922,
+      "tags": 1,
+      "links": 1
+    },
+    "Development/Google Cloud/Goggle Maps/Distance Matrix Docs.md": {
+      "size": 35508,
+      "tags": 3,
+      "links": 1
+    },
+    "Development/Google Cloud/gke/rbac.md": {
+      "size": 1750,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/gke/kubernetes-python-client.md": {
+      "size": 11576,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/gke/kube-dns.md": {
+      "size": 765,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/gke/ingress.md": {
+      "size": 1912,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/gke/index.md": {
+      "size": 274,
+      "tags": 0,
+      "links": 6
+    },
+    "Development/Google Cloud/gke/deploying-react-applications.md": {
+      "size": 787,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/gke/deploying-r-applications.md": {
+      "size": 2216,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/gke/connection-draining.md": {
+      "size": 765,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Google Cloud/gcp-setup-notes.md": {
+      "size": 875,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/GCP Storage Notes.md": {
+      "size": 1626,
+      "tags": 1,
+      "links": 5
+    },
+    "Development/Google Cloud/GCP Services Table.md": {
+      "size": 3584,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/Google Cloud/GCP Overview.md": {
+      "size": 203,
+      "tags": 1,
+      "links": 1
+    },
+    "Development/Google Cloud/GCP Load Balancers Notes.md": {
+      "size": 3174,
+      "tags": 1,
+      "links": 5
+    },
+    "Development/Google Cloud/GCP Instance Groups Notes.md": {
+      "size": 1662,
+      "tags": 1,
+      "links": 5
+    },
+    "Development/Google Cloud/GCP IAM Notes.md": {
+      "size": 4339,
+      "tags": 3,
+      "links": 5
+    },
+    "Development/Google Cloud/GCP API Services Notes.md": {
+      "size": 938,
+      "tags": 1,
+      "links": 5
+    },
+    "Development/Google Cloud/firestore/supported-data-types.md": {
+      "size": 2978,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/firestore/index.md": {
+      "size": 64,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Google Cloud/Configuration.md": {
+      "size": 294,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Google Cloud/composer/sending-failed-dags-notifications-to-slack.md": {
+      "size": 1798,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/composer/kubernetes-pod-operator.md": {
+      "size": 9558,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/composer/index.md": {
+      "size": 504,
+      "tags": 0,
+      "links": 5
+    },
+    "Development/Google Cloud/composer/enable-autoscale.md": {
+      "size": 1328,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/composer/dynamic-dags.md": {
+      "size": 10365,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/composer/composer-common-gotchas.md": {
+      "size": 3694,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/cloudbuild/sending-build-status.md": {
+      "size": 4043,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/cloudbuild/index.md": {
+      "size": 164,
+      "tags": 0,
+      "links": 2
+    },
+    "Development/Google Cloud/cloudbuild/cloudbuild-gotchas.md": {
+      "size": 1912,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/cloud-functions/sending-payload-from-pubsub-to-datadog.md": {
+      "size": 1295,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/cloud-functions/securing-cloudfunctions.md": {
+      "size": 2688,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/cloud-functions/index.md": {
+      "size": 246,
+      "tags": 0,
+      "links": 2
+    },
+    "Development/Google Cloud/bigtable/preventing-key-hotspot.md": {
+      "size": 5872,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/bigtable/index.md": {
+      "size": 95,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Google Cloud/bigquery/working-with-partitioned-tables.md": {
+      "size": 704,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/bigquery/index.md": {
+      "size": 126,
+      "tags": 0,
+      "links": 2
+    },
+    "Development/Google Cloud/bigquery/clustered-tables.md": {
+      "size": 8376,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/bigquery/bigquery-cost-control.md": {
+      "size": 4143,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Git/Useful Git Tips.md": {
+      "size": 4350,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Git/Git-Training.md": {
+      "size": 4026,
+      "tags": 1,
+      "links": 2
+    },
+    "Development/Git/Git-Resources.md": {
+      "size": 3704,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Git/Git-Notes.md": {
+      "size": 3709,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Git/Git-Flow.md": {
+      "size": 5497,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Git/Git-Extras.md": {
+      "size": 38328,
+      "tags": 2,
+      "links": 70
+    },
+    "Development/Git/Git Tools.md": {
+      "size": 162,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Git/Git Tips & Tricks.md": {
+      "size": 217,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/General/Software Design Patterns, Principles, and Best Practices.md": {
+      "size": 13656,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/General/Programming Acronyms.md": {
+      "size": 534,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/General/index.md": {
+      "size": 162,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Zig/Zig.md": {
+      "size": 3782,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Zig/Zig-Libraries.md": {
+      "size": 378,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Zig/Readme.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Unison.md": {
+      "size": 551,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Typescript/Typescript.md": {
+      "size": 15425,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Typescript/Typescript-Libraries/Typescript-Libraries.md": {
+      "size": 10482,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Typescript/Typescript-Libraries/Readme.md": {
+      "size": 24,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Typescript/Readme.md": {
+      "size": 14,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Tcl.md": {
+      "size": 1100,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Swift/Swift.md": {
+      "size": 21694,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Swift/Swift-Libraries/Swiftui.md": {
+      "size": 13283,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Swift/Swift-Libraries/Swift-Libraries.md": {
+      "size": 62913,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Swift/Swift-Libraries/Readme.md": {
+      "size": 19,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Swift/Swift-Libraries/Combine.md": {
+      "size": 4121,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Swift/Readme.md": {
+      "size": 9,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Standard-Ml.md": {
+      "size": 1589,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Smalltalk.md": {
+      "size": 3425,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Self.md": {
+      "size": 370,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Scala/Scala.md": {
+      "size": 7403,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Scala/Scala-Libraries.md": {
+      "size": 4432,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Scala/Readme.md": {
+      "size": 9,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Rust/Rust.md": {
+      "size": 53809,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Rust/Rust-Libraries/Rust-Libraries.md": {
+      "size": 65487,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Rust/Rust-Libraries/Readme.md": {
+      "size": 18,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Rust/Readme.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Ruby/Ruby.md": {
+      "size": 6039,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Ruby/Ruby-Libraries.md": {
+      "size": 979,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Ruby/Readme.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Ruby/Rails.md": {
+      "size": 4826,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Reasonml/Reasonml.md": {
+      "size": 7226,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Reasonml/Reasonml-Libraries.md": {
+      "size": 2022,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Reasonml/Readme.md": {
+      "size": 12,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/R/R-Packages.md": {
+      "size": 451,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/R/index.md": {
+      "size": 4090,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Python/Readme.md": {
+      "size": 10,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Python/Python.md": {
+      "size": 30116,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Python/Python-Libraries/Readme.md": {
+      "size": 20,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Python/Python-Libraries/Python-Libraries.md": {
+      "size": 30752,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Python/Python-Libraries/Numpy.md": {
+      "size": 1375,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Python/Python-Libraries/Django.md": {
+      "size": 7206,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Python/Python-Libraries/Dask.md": {
+      "size": 1876,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Purescript/Readme.md": {
+      "size": 14,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Purescript/Purescript.md": {
+      "size": 2161,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Prolog/Readme.md": {
+      "size": 10,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Prolog/Prolog.md": {
+      "size": 2756,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Prolog/Datalog.md": {
+      "size": 1149,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Processing/Readme.md": {
+      "size": 14,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Processing/Processing.md": {
+      "size": 1167,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Processing/P5js.md": {
+      "size": 780,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Pony.md": {
+      "size": 752,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/PHP/Readme.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/PHP/Php.md": {
+      "size": 1341,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Perl.md": {
+      "size": 2253,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Pascal.md": {
+      "size": 343,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Objective-C/Readme.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Objective-C/Objc.md": {
+      "size": 2151,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Objective-C/Objc-Libraries.md": {
+      "size": 467,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Lua.md": {
+      "size": 6229,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Lisp/Scheme.md": {
+      "size": 3998,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Lisp/Racket.md": {
+      "size": 4441,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Lisp/index.md": {
+      "size": 11998,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Lisp/Common-Lisp.md": {
+      "size": 4935,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Language-Server-Protocol.md": {
+      "size": 1069,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Kotlin/Kotlin.md": {
+      "size": 2216,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Kotlin/Kotlin-Libraries.md": {
+      "size": 504,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Julia/Julia.md": {
+      "size": 7956,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Julia/Julia-Libraries.md": {
+      "size": 17237,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Vue/Vue.md": {
+      "size": 4490,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Vue/Readme.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Threejs.md": {
+      "size": 3660,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Svelte.md": {
+      "size": 7594,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Rxjs.md": {
+      "size": 1365,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Redux.md": {
+      "size": 10254,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Readme.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/Relay.md": {
+      "size": 1888,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/Readme.md": {
+      "size": 9,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/React.md": {
+      "size": 25545,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/React-Ssr.md": {
+      "size": 291,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/React-Native.md": {
+      "size": 12022,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/React-Hooks.md": {
+      "size": 13770,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/React-Components.md": {
+      "size": 19451,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/Nextjs.md": {
+      "size": 15767,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/Mdx.md": {
+      "size": 1953,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/Gatsby.md": {
+      "size": 7765,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/Expo.md": {
+      "size": 513,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/React/Blitz.md": {
+      "size": 788,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Mobx.md": {
+      "size": 2860,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Js-Libraries.md": {
+      "size": 46874,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/Jest.md": {
+      "size": 456,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Js-Libraries/D3js.md": {
+      "size": 3510,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Javascript.md": {
+      "size": 30235,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Eslint.md": {
+      "size": 1538,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Javascript/Babel.md": {
+      "size": 823,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Java/Readme.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Java/Java.md": {
+      "size": 5053,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Java/Java-Libraries.md": {
+      "size": 1681,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Ink.md": {
+      "size": 284,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/index.md": {
+      "size": 20112,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Haskell/Readme.md": {
+      "size": 11,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Haskell/Haskell.md": {
+      "size": 31187,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Haskell/Haskell-Libraries/Readme.md": {
+      "size": 21,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Haskell/Haskell-Libraries/Haskell-Libraries.md": {
+      "size": 9946,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Go/Readme.md": {
+      "size": 6,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Go/Go.md": {
+      "size": 49042,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Fundamentals/Programming-Languages/Go/Go-Libraries/Readme.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Go/Go-Libraries/Go-Libraries.md": {
+      "size": 67217,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Gleam.md": {
+      "size": 1621,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Futhark.md": {
+      "size": 313,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Fsharp.md": {
+      "size": 469,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Forth.md": {
+      "size": 1146,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Factor.md": {
+      "size": 146,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Erlang.md": {
+      "size": 8208,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Elixir/Phoenix.md": {
+      "size": 1928,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Elixir/index.md": {
+      "size": 8351,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Elixir/Elixir-Libraries.md": {
+      "size": 2623,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Dhall.md": {
+      "size": 1872,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Dart/index.md": {
+      "size": 1133,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Dart/Flutter.md": {
+      "size": 3309,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Crystal.md": {
+      "size": 439,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Clojure/index.md": {
+      "size": 11043,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Clojure/Clojurescript.md": {
+      "size": 1901,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Clojure/Clojure-Libraries.md": {
+      "size": 4469,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/C++/Qt.md": {
+      "size": 1634,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/C++/index.md": {
+      "size": 22229,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/C++/C++ Libraries.md": {
+      "size": 17919,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/C/index.md": {
+      "size": 14456,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/C/C-Libraries.md": {
+      "size": 4581,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Bash.md": {
+      "size": 6895,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Assembly.md": {
+      "size": 2827,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Agda.md": {
+      "size": 3517,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming-Languages/Ada.md": {
+      "size": 1196,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Visual-Programming.md": {
+      "size": 255,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Version-Control/index.md": {
+      "size": 2730,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Version-Control/Git.md": {
+      "size": 27169,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Fundamentals/Programming/System-Design.md": {
+      "size": 1618,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Structured-Programming.md": {
+      "size": 135,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Stream-Processing.md": {
+      "size": 2501,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/State-Machines.md": {
+      "size": 772,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Software-Testing/index.md": {
+      "size": 8423,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Software-Testing/Fuzzing.md": {
+      "size": 3807,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Software-Testing/Cypress.md": {
+      "size": 2596,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Software-Architecture.md": {
+      "size": 13931,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Serialization.md": {
+      "size": 1024,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Semantic-Versioning.md": {
+      "size": 799,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Reverse-Engineering.md": {
+      "size": 9299,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Relational-Programming.md": {
+      "size": 735,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Regex.md": {
+      "size": 3526,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Recursion.md": {
+      "size": 1618,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Reactive-Programming.md": {
+      "size": 1504,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Protocol-Buffers.md": {
+      "size": 3170,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Program-Synthesis.md": {
+      "size": 1979,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Program-Analysis.md": {
+      "size": 556,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Probabilistic-Programming.md": {
+      "size": 2684,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Object-Oriented-Programming.md": {
+      "size": 2786,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Memory-Management.md": {
+      "size": 4462,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Logic-Programming.md": {
+      "size": 1455,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Logging.md": {
+      "size": 3598,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Json.md": {
+      "size": 5102,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Index.md": {
+      "size": 43764,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Hashing.md": {
+      "size": 3241,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Encoding.md": {
+      "size": 2484,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Embedded-Systems.md": {
+      "size": 12725,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Dynamic-Programming.md": {
+      "size": 446,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Documentation.md": {
+      "size": 9613,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Design-Patterns.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Continuous-Integration.md": {
+      "size": 4199,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Constraint-Programming.md": {
+      "size": 472,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Concurrency.md": {
+      "size": 2797,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Competitive-Programming.md": {
+      "size": 2495,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Coding-Practice.md": {
+      "size": 3958,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Array-Programming.md": {
+      "size": 601,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Agile-Development.md": {
+      "size": 282,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Fundamentals/Parsing.md": {
+      "size": 6591,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Fundamentals/index.md": {
+      "size": 163,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Fundamentals/Data Structures.md": {
+      "size": 7101,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Fundamentals/Computer Science.md": {
+      "size": 12266,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Fundamentals/Computer Architecture.md": {
+      "size": 478,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Fundamentals/Algorithms.md": {
+      "size": 7272,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/DevOps/Terraform.md": {
+      "size": 6696,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/DevOps/Site-Reliability-Engineering.md": {
+      "size": 466,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/DevOps/Observability.md": {
+      "size": 1589,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/DevOps/index.md": {
+      "size": 6522,
+      "tags": 0,
+      "links": 3
+    },
+    "Development/Databases/Views vs. Materialized Views.md": {
+      "size": 1962,
+      "tags": 3,
+      "links": 4
+    },
+    "Development/Databases/Sqlite.md": {
+      "size": 4649,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/SQL.md": {
+      "size": 10479,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Databases/PostgreSQL Tools.md": {
+      "size": 5393,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/Databases/PostgreSQL Links.md": {
+      "size": 24814,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/MemCached.md": {
+      "size": 604,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/index.md": {
+      "size": 580,
+      "tags": 1,
+      "links": 19
+    },
+    "Development/Databases/Engines/Redis.md": {
+      "size": 5287,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Engines/Prisma.md": {
+      "size": 3559,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Engines/PostgreSQL.md": {
+      "size": 27524,
+      "tags": 2,
+      "links": 21
+    },
+    "Development/Databases/Engines/Neo4j.md": {
+      "size": 1071,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Engines/MongoDB.md": {
+      "size": 943,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Engines/MariaDB.md": {
+      "size": 160,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Engines/KDB+.md": {
+      "size": 1703,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Engines/FoundationDB.md": {
+      "size": 926,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Engines/DynamoDB.md": {
+      "size": 3816,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Engines/Cassandra.md": {
+      "size": 511,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Engines/Dgraph.md": {
+      "size": 612,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Database-GUIs.md": {
+      "size": 535,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Databases/Database Engineering - ACID.md": {
+      "size": 1344,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Data Science/index.md": {
+      "size": 20485,
+      "tags": 1,
+      "links": 2
+    },
+    "Development/Data Science/Data Vizualization.md": {
+      "size": 9137,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Data Science/Data Processing.md": {
+      "size": 4483,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Command Line/Windows 10 Useful Command Line Commands.md": {
+      "size": 5616,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Command Line/The Art of the Command Line.md": {
+      "size": 41315,
+      "tags": 0,
+      "links": 18
+    },
+    "Development/Command Line/Ngrok.md": {
+      "size": 474,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Command Line/New Windows `diskusage`.md": {
+      "size": 1839,
+      "tags": 4,
+      "links": 1
+    },
+    "Development/Command Line/Must Know DOS Commands.md": {
+      "size": 14220,
+      "tags": 5,
+      "links": 1
+    },
+    "Development/Command Line/More DOS Commands.md": {
+      "size": 7919,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Command Line/Modern Unix.md": {
+      "size": 9804,
+      "tags": 1,
+      "links": 3
+    },
+    "Development/Command Line/index.md": {
+      "size": 3915,
+      "tags": 1,
+      "links": 11
+    },
+    "Development/Command Line/Common CLI Commands.md": {
+      "size": 1844,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/Command Line/Command Prompt Must Know Commands.md": {
+      "size": 14025,
+      "tags": 5,
+      "links": 1
+    },
+    "Development/Command Line/Command Line Commands.md": {
+      "size": 7642,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Command Line/CLI-Tools.md": {
+      "size": 6289,
+      "tags": 3,
+      "links": 1
+    },
+    "Development/Azure/Install Azure CLI Beta.md": {
+      "size": 1550,
+      "tags": 2,
+      "links": 0
+    },
+    "Development/Azure/index.md": {
+      "size": 730,
+      "tags": 1,
+      "links": 0
+    },
+    "Changelog.md": {
+      "size": 4677,
+      "tags": 0,
+      "links": 89
+    },
+    "Actuarial Science/Loss Data Analytics.md": {
+      "size": 4977,
+      "tags": 1,
+      "links": 6
+    },
+    "Actuarial Science/index.md": {
+      "size": 469,
+      "tags": 1,
+      "links": 1
+    },
+    "_daily/2021-06-25.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "Development/Azure/Principles of Azure Resource Groups.md": {
+      "size": 12239,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/Azure/Use tagging to organize resources.md": {
+      "size": 8272,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/Azure/Use policies to enforce standards.md": {
+      "size": 8022,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/PowerShell/index.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 7
+    },
+    "Development/PowerShell/What is PowerShell.md": {
+      "size": 5129,
+      "tags": 1,
+      "links": 0
+    },
+    "Work/List of Developer Career Titles.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "_daily/2021-06-26.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 2
+    },
+    "_daily/2021-06-27.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 2
+    },
+    "Keyboard Shortcuts in Microsoft Edge.md": {
+      "size": 4704,
+      "tags": 3,
+      "links": 1
+    },
+    "Development/Web Development/Back End Web Architecture.md": {
+      "size": 9051,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Content Management System.md": {
+      "size": 2452,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Miscellaneous/deno.md": {
+      "size": 6501,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Miscellaneous/jamstack/jamstack.md": {
+      "size": 1894,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Miscellaneous/jamstack/README.md": {
+      "size": 12,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Miscellaneous/jamstack/redwood.md": {
+      "size": 709,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Electron.md": {
+      "size": 2750,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/GCloud-Day-to-Day.md": {
+      "size": 1601,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/Google Cloud Platform - Overview.md": {
+      "size": 193,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/GCP - Cloud Run Project Setup.md": {
+      "size": 1440,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Google Cloud/GCP.md": {
+      "size": 1053,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/CSS/CSS-in-JS.md": {
+      "size": 3605,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/CSS/index.md": {
+      "size": 28341,
+      "tags": 0,
+      "links": 4
+    },
+    "Development/Web Development/CSS/CSS-Flexbox.md": {
+      "size": 2266,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/CSS/CSS-Grid.md": {
+      "size": 2865,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/CSS/Tailwind-CSS.md": {
+      "size": 6771,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/HTML.md": {
+      "size": 11127,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Front-End-Design.md": {
+      "size": 4312,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/3D-Modeling.md": {
+      "size": 3339,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Animation.md": {
+      "size": 3290,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Blender.md": {
+      "size": 3180,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Color.md": {
+      "size": 6632,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Fonts.md": {
+      "size": 22165,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Design-Systems.md": {
+      "size": 13312,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Design-Inspiration.md": {
+      "size": 32329,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Framer.md": {
+      "size": 897,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/index.md": {
+      "size": 16787,
+      "tags": 0,
+      "links": 20
+    },
+    "Development/Web Development/Design/Icons.md": {
+      "size": 6504,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Industrial-Design.md": {
+      "size": 409,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/InkScape.md": {
+      "size": 206,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Logos.md": {
+      "size": 846,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/User Experience.md": {
+      "size": 5900,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Figma/Figma-Plugins.md": {
+      "size": 5484,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Design/Figma/index.md": {
+      "size": 4307,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Web Development/Javascript/Javascript.md": {
+      "size": 21637,
+      "tags": 2,
+      "links": 0
+    },
+    "Development/DevOps/Docker/Docker Development Best Practices.md": {
+      "size": 3107,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/DevOps/Docker/Docker Useful Tips.md": {
+      "size": 6713,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/DevOps/Docker/Docker Best Practices.md": {
+      "size": 4619,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/DevOps/Docker/Docker Compose Reference Docs.md": {
+      "size": 9642,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/DevOps/Docker/index.md": {
+      "size": 296,
+      "tags": 1,
+      "links": 4
+    },
+    "Todoist Setup.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "Productivity/Research/README.md": {
+      "size": 12,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Research/research.md": {
+      "size": 7158,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Research/asking-questions.md": {
+      "size": 2801,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Research/solving-problems.md": {
+      "size": 5247,
+      "tags": 0,
+      "links": 2
+    },
+    "Productivity/Research/blogs.md": {
+      "size": 11030,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Research/staying-on-top-of-things.md": {
+      "size": 13049,
+      "tags": 0,
+      "links": 2
+    },
+    "Productivity/Sleep/dreaming.md": {
+      "size": 2640,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Sleep/README.md": {
+      "size": 9,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Sleep/sleep.md": {
+      "size": 2812,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Writing/markdown.md": {
+      "size": 5596,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Writing/README.md": {
+      "size": 11,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Writing/writing-prompts.md": {
+      "size": 953,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/Writing/writing.md": {
+      "size": 18648,
+      "tags": 0,
+      "links": 1
+    },
+    "Productivity/Articles/Clean Up Your Productivity System to Be More Productive.md": {
+      "size": 1889,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/My System/Digital Declutter Action Plan.md": {
+      "size": 2158,
+      "tags": 0,
+      "links": 0
+    },
+    "Productivity/My System/Full Focus System and Planner.md": {
+      "size": 959,
+      "tags": 1,
+      "links": 3
+    },
+    "Productivity/My System/Google Calendar.md": {
+      "size": 607,
+      "tags": 1,
+      "links": 1
+    },
+    "Productivity/My System/Life-Operating-System.md": {
+      "size": 3273,
+      "tags": 0,
+      "links": 2
+    },
+    "Productivity/My System/Master Projects List.md": {
+      "size": 3087,
+      "tags": 0,
+      "links": 2
+    },
+    "Productivity/GTD/Mind Like Water 1.md": {
+      "size": 1436,
+      "tags": 3,
+      "links": 1
+    },
+    "_daily/index.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Backups.md": {
+      "size": 5313,
+      "tags": 1,
+      "links": 1
+    },
+    "Windows/Choco Install Scripts.md": {
+      "size": 1275,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Cleaning up Windows 10.md": {
+      "size": 644,
+      "tags": 3,
+      "links": 0
+    },
+    "Windows/Chocolatey Installs.md": {
+      "size": 1612,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Cleaning up Windows.md": {
+      "size": 2164,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Cleaning-Up-Windows.md": {
+      "size": 8095,
+      "tags": 0,
+      "links": 3
+    },
+    "Windows/Command Line - Getting started with CMD.md": {
+      "size": 15775,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/CMD-Tutorial.md": {
+      "size": 15779,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/cleanup-windows-from-CMD.md": {
+      "size": 2468,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/DISM Commands.md": {
+      "size": 325,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/How I use sysinternals suite.md": {
+      "size": 1445,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Dotfiles.md": {
+      "size": 752,
+      "tags": 4,
+      "links": 2
+    },
+    "Windows/Hyper-V Windows Reset Test Run.md": {
+      "size": 646,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Extended Disk Cleanup.md": {
+      "size": 258,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Installed Programs & Apps List.md": {
+      "size": 44495,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/How to Create EaseUS Bootable USB, CD-DVD, and ISO Image With EaseUS Todo Backup - EaseUS.md": {
+      "size": 451,
+      "tags": 1,
+      "links": 1
+    },
+    "Windows/installs.md": {
+      "size": 1675,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Installed Programs List.md": {
+      "size": 53480,
+      "tags": 3,
+      "links": 0
+    },
+    "Windows/Introduction to Hyper-V on Windows 10.md": {
+      "size": 341,
+      "tags": 2,
+      "links": 0
+    },
+    "Windows/Microsoft Edge Tips and Tricks.md": {
+      "size": 254,
+      "tags": 2,
+      "links": 0
+    },
+    "Windows/Line-Continuations-PowerShell.md": {
+      "size": 43783,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/MSI Boot Menu.md": {
+      "size": 1989,
+      "tags": 5,
+      "links": 2
+    },
+    "Windows/programs.md": {
+      "size": 97299,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/resources.md": {
+      "size": 165,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Putty Setup Notes.md": {
+      "size": 5220,
+      "tags": 5,
+      "links": 1
+    },
+    "Windows/Untitled.md": {
+      "size": 163,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Setting up SSH on Windows.md": {
+      "size": 10746,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/SFC-DISM-commands.md": {
+      "size": 6785,
+      "tags": 0,
+      "links": 2
+    },
+    "Windows/Windows 10 Icons.md": {
+      "size": 6007,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Windows 10 Useful Command Line Commands.md": {
+      "size": 5616,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Windows 10 Configuration and Setup.md": {
+      "size": 4601,
+      "tags": 4,
+      "links": 16
+    },
+    "Windows/Windows 10.md": {
+      "size": 197,
+      "tags": 1,
+      "links": 5
+    },
+    "Windows/Windows Development Links List.md": {
+      "size": 5717,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Windows diskusage Command.md": {
+      "size": 2039,
+      "tags": 4,
+      "links": 1
+    },
+    "Windows/Windows Links.md": {
+      "size": 5856,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Windows MOC.md": {
+      "size": 167,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Windows Setup Workflow.md": {
+      "size": 1224,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Windows Networking Configuration and Troubleshooting.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 3
+    },
+    "Windows/Windows Setup, Customization, and Configuration Checklist.md": {
+      "size": 323,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Windows Scratch Notes.md": {
+      "size": 2155,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/windows-cmd-commands.md": {
+      "size": 32091,
+      "tags": 0,
+      "links": 3
+    },
+    "Windows/Windows Setup.md": {
+      "size": 5553,
+      "tags": 2,
+      "links": 1
+    },
+    "Windows/Windows Tips.md": {
+      "size": 1755,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/windows-new-diskusage-cmd.md": {
+      "size": 1837,
+      "tags": 4,
+      "links": 1
+    },
+    "Windows/Windows Tips & Tricks.md": {
+      "size": 177,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/winget-cli-settings.md": {
+      "size": 3153,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/winget.md": {
+      "size": 409,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/WinSetup.md": {
+      "size": 7829,
+      "tags": 0,
+      "links": 2
+    },
+    "Windows/Workflow-Docs.md": {
+      "size": 1046,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Command Line and Powershell/How to Cleanup Windows from Command Line.md": {
+      "size": 2468,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/Command Line and Powershell/PowerShell Tips and Tricks.md": {
+      "size": 7092,
+      "tags": 2,
+      "links": 12
+    },
+    "Windows/Command Line and Powershell/SFC and DISM Commands.md": {
+      "size": 6787,
+      "tags": 0,
+      "links": 2
+    },
+    "Windows/Command Line and Powershell/Using diskusage Command in Windows.md": {
+      "size": 1837,
+      "tags": 4,
+      "links": 1
+    },
+    "Windows/Command Line and Powershell/Windows Command Line Commands Overview.md": {
+      "size": 32091,
+      "tags": 0,
+      "links": 3
+    },
+    "Windows/Command Line and Powershell/WinSCP Mirror Backup.md": {
+      "size": 824,
+      "tags": 2,
+      "links": 2
+    },
+    "Windows/Command Line and Powershell/Using PowerShell for Windows Security.md": {
+      "size": 6088,
+      "tags": 3,
+      "links": 1
+    },
+    "Windows/WinGet/WinGet CLI Setup and Settings.md": {
+      "size": 3153,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/WSL/Setup WSL for Development.md": {
+      "size": 20261,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/WSL/Building React-Native App in WSL2.md": {
+      "size": 5346,
+      "tags": 3,
+      "links": 11
+    },
+    "Windows/WSL/WSL - 3 Understanding File System.md": {
+      "size": 56,
+      "tags": 0,
+      "links": 0
+    },
+    "Windows/WSL/WSL Commands and Installs.md": {
+      "size": 2217,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/WSL/WSL - 2 Setup.md": {
+      "size": 7535,
+      "tags": 0,
+      "links": 1
+    },
+    "Windows/WSL/WSL Setup.md": {
+      "size": 2858,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/WSL/WSL Ubuntu on Windows Community Preview.md": {
+      "size": 706,
+      "tags": 1,
+      "links": 1
+    },
+    "Windows/WSL/WSL - 1 Preface.md": {
+      "size": 10899,
+      "tags": 0,
+      "links": 9
+    },
+    "Windows/WSL/WSL.md": {
+      "size": 341,
+      "tags": 1,
+      "links": 4
+    },
+    "Windows/WSL/WSLg.md": {
+      "size": 1995,
+      "tags": 1,
+      "links": 2
+    },
+    "Windows/Fix OneDrive Installation Issues.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 6
+    },
+    "_daily/_assets/Software Engineering Career Notes.md": {
+      "size": 14116,
+      "tags": 3,
+      "links": 0
+    },
+    "Scratch/_assets/index.md": {
+      "size": 3694,
+      "tags": 1,
+      "links": 52
+    },
+    "Productivity/PKM/_assets/Obsidian.md": {
+      "size": 13862,
+      "tags": 1,
+      "links": 6
+    },
+    "Development/R/_assets/index.md": {
+      "size": 252,
+      "tags": 1,
+      "links": 1
+    },
+    "Vault-Consistentsy-Report.md": {
+      "size": 37005,
+      "tags": 0,
+      "links": 141
+    },
+    "Windows/OneDrive.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Registry Editor/index.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
+    },
+    "Windows/Registry Editor/Registry Editor.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/index.md": {
+      "size": 2247,
+      "tags": 1,
+      "links": 19
+    },
+    "Command Line and PowerShell/index.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
+    },
+    "Windows/Command Line and Powershell/Windows Networking Commands.md": {
+      "size": 4858,
+      "tags": 2,
+      "links": 3
+    },
+    "Windows/Windows Terminal/Windows Terminal Updates - May 28, 2021.md": {
+      "size": 4810,
+      "tags": 2,
+      "links": 4
+    },
+    "Windows/Windows Terminal/index.md": {
+      "size": 228,
+      "tags": 1,
+      "links": 1
+    },
+    "_daily/2021-06-28.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "Development/Fundamentals/Programming/Desired State Oriented Programming.md": {
+      "size": 4756,
+      "tags": 3,
+      "links": 2
+    },
+    "Development/Web Development/Web Browsers/bookmarklets.md": {
+      "size": 637,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/browsers.md": {
+      "size": 12602,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/README.md": {
+      "size": 12,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/stylish-themes.md": {
+      "size": 1742,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Web Browsers - Tips & Tricks.md": {
+      "size": 85,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Web Browsers.md": {
+      "size": 1895,
+      "tags": 1,
+      "links": 4
+    },
+    "Development/Web Development/Web Browsers/Microsoft Edge/Edge - Automatic HTTPS Feature.md": {
+      "size": 7752,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Microsoft Edge/Edge Experimental Features.md": {
+      "size": 2297,
+      "tags": 3,
+      "links": 1
+    },
+    "Development/Web Development/Web Browsers/Microsoft Edge/Edge-Hotkeys.md": {
+      "size": 220,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Google Chrome/chrome-dev-tools.md": {
+      "size": 1589,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Google Chrome/google-chrome.md": {
+      "size": 3118,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Google Chrome/Chrome Tips and Tricks.md": {
+      "size": 99,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Google Chrome/README.md": {
+      "size": 17,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/NodeJS/nodejs.md": {
+      "size": 19246,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/NodeJS/README.md": {
+      "size": 10,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Static Sites/eleventy.md": {
+      "size": 2541,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Static Sites/hugo.md": {
+      "size": 4921,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Static Sites/jekyll.md": {
+      "size": 1200,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Static Sites/README.md": {
+      "size": 16,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Static Sites/static-sites.md": {
+      "size": 10984,
+      "tags": 0,
+      "links": 1
+    },
+    "Development/Web Development/Web Browsers/Mozilla Firefox/firefox.md": {
+      "size": 1856,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Mozilla Firefox/Firefox Developer Edition.md": {
+      "size": 2958,
+      "tags": 3,
+      "links": 1
+    },
+    "Development/Web Development/Web Browsers/Apple Safari/safari.md": {
+      "size": 2565,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Engines/README.md": {
+      "size": 15,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Engines/web-engines.md": {
+      "size": 1590,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Engines/webkit.md": {
+      "size": 1092,
+      "tags": 0,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Microsoft Edge/Improving Memory Usage in Microsoft Edge.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
+    },
+    "Development/Web Development/Web Browsers/Microsoft Edge/Edge Startup Boost.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "Windows/Windows Drivers.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "_daily/2021-06-29.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "_daily/2021-06-30.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "_daily/2021-07-03.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
+    },
+    "Windows/WinGet/Winget Settings.md": {
+      "size": 5357,
+      "tags": 0,
+      "links": 2
+    },
+    "Boxstarter.md": {
+      "size": 3462,
+      "tags": 3,
+      "links": 0
+    },
+    "_daily/2021-07-06.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "_daily/2021-07-07.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "_daily/2021-07-08.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "_daily/2021-07-11.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "_daily/2021-07-12.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
+    },
+    "_daily/2021-07-13.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "_daily/2021-07-15.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "_daily/2021-07-18.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "Evergreen note titles are like APIs.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
+    },
+    "About this Vault.md": {
+      "size": 3042,
+      "tags": 1,
+      "links": 2
+    }
+  },
+  "commitTypes": {
+    "/": {
+      "Refactor": 335,
+      "Create": 86,
+      "Link": 136,
+      "Expand": 14
+    }
+  },
+  "dailyCommits": {
+    "/": {
+      "0": 8,
+      "1": 271,
+      "2": 29,
+      "3": 0,
+      "4": 7,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 2,
+      "9": 0,
+      "10": 0,
+      "11": 33,
+      "12": 1,
+      "13": 0,
+      "14": 0,
+      "15": 14,
+      "16": 50,
+      "17": 3,
+      "18": 0,
+      "19": 8,
+      "20": 1,
+      "21": 2,
+      "22": 3,
+      "23": 139
+    }
+  },
+  "weeklyCommits": {
+    "/": {
+      "Mon": 349,
+      "Tue": 5,
+      "Wed": 2,
+      "Thu": 5,
+      "Fri": 41,
+      "Sat": 0,
+      "Sun": 169
+    }
+  },
+  "recentCommits": {
+    "/": {
+      "Expanded": [
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Development/Azure/Use policies to enforce standards.md\"> Use policies to enforce standards </a>",
+        "<a class=\"internal-link\" href=\"Development/Azure/Use tagging to organize resources.md\"> Use tagging to organize resources </a>",
+        "<a class=\"internal-link\" href=\"Development/Azure/Principles of Azure Resource Groups.md\"> Principles of Azure Resource Groups </a>",
+        "<a class=\"internal-link\" href=\"Development/PowerShell/What is PowerShell.md\"> What is PowerShell </a>",
+        "<a class=\"internal-link\" href=\"Keyboard Shortcuts in Microsoft Edge.md\"> Keyboard Shortcuts in Microsoft Edge </a>",
+        "<a class=\"internal-link\" href=\"Windows/index-windows.md\"> index-windows </a>",
+        "<a class=\"internal-link\" href=\"Development/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Development/Command Line/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Desired State Oriented Programming.md\"> Desired State Oriented Programming </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
+        "<a class=\"internal-link\" href=\"Boxstarter.md\"> Boxstarter </a>",
+        "<a class=\"internal-link\" href=\"About this Vault.md\"> About this Vault </a>"
+      ],
+      "Created": [
+        "<a class=\"internal-link\" href=\"Evergreen note titles are like APIs.md\"> Evergreen note titles are like APIs </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-18.md\"> 2021-07-18 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-15.md\"> 2021-07-15 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-13.md\"> 2021-07-13 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-12.md\"> 2021-07-12 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-11.md\"> 2021-07-11 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-08.md\"> 2021-07-08 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-07.md\"> 2021-07-07 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-06.md\"> 2021-07-06 </a>",
+        "<a class=\"internal-link\" href=\"Boxstarter.md\"> Boxstarter </a>",
+        "<a class=\"internal-link\" href=\"Windows/WinGet/Winget Settings.md\"> Winget Settings </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-03.md\"> 2021-07-03 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-30.md\"> 2021-06-30 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-29.md\"> 2021-06-29 </a>",
+        "<a class=\"internal-link\" href=\"Windows/Untitled 1.md\"> Untitled 1 </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-28.md\"> 2021-06-28 </a>",
+        "<a class=\"internal-link\" href=\"Command Line and PowerShell/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Windows/Registry/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Registry.md\"> Registry </a>",
+        "<a class=\"internal-link\" href=\"Windows/OneDrive.md\"> OneDrive </a>",
+        "<a class=\"internal-link\" href=\"Vault-Consistentsy-Report.md\"> Vault-Consistentsy-Report </a>",
+        "<a class=\"internal-link\" href=\"Development/R/_assets/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Productivity/PKM/_assets/Obsidian.md\"> Obsidian </a>",
+        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
+        "<a class=\"internal-link\" href=\"used_links1624579725311.md\"> used_links1624579725311 </a>",
+        "<a class=\"internal-link\" href=\"_daily/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Untitled 1.md\"> Untitled 1 </a>",
+        "<a class=\"internal-link\" href=\"Untitled 1.md\"> Untitled 1 </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
+        "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Development/PowerShell/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Development/PowerShell/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Work/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-26.md\"> 2021-06-26 </a>",
+        "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Windows/Untitled 1.md\"> Untitled 1 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-27.md\"> 2021-06-27 </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/jamstack/jamstack.md\"> jamstack </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/jamstack/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/jamstack/redwood.md\"> redwood </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/webassembly.md\"> webassembly </a>"
+      ],
+      "Renamed": [
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/webkit.md\"> webkit </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/web-engines.md\"> web-engines </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Apple Safari/safari.md\"> safari </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Mozilla Firefox/Firefox Developer Edition.md\"> Firefox Developer Edition </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Mozilla Firefox/firefox.md\"> firefox </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Static Sites/static-sites.md\"> static-sites </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Static Sites/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Static Sites/jekyll.md\"> jekyll </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Static Sites/hugo.md\"> hugo </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Static Sites/eleventy.md\"> eleventy </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/NodeJS/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/NodeJS/nodejs.md\"> nodejs </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Google Chrome/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Google Chrome/Chrome Tips and Tricks.md\"> Chrome Tips and Tricks </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Google Chrome/google-chrome.md\"> google-chrome </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Google Chrome/chrome-dev-tools.md\"> chrome-dev-tools </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge-Hotkeys.md\"> Edge-Hotkeys </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge Experimental Features.md\"> Edge Experimental Features </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Web Browsers.md\"> Web Browsers </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Web Browsers - Tips & Tricks.md\"> Web Browsers - Tips & Tricks </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/stylish-themes.md\"> stylish-themes </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/safari.md\"> safari </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Firefox Developer Edition.md\"> Firefox Developer Edition </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/browsers.md\"> browsers </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/firefox.md\"> firefox </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/bookmarklets.md\"> bookmarklets </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/Chrome Tips and Tricks.md\"> Chrome Tips and Tricks </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/google-chrome.md\"> google-chrome </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/chrome-dev-tools.md\"> chrome-dev-tools </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Microsoft Edge/Edge-Hotkeys.md\"> Edge-Hotkeys </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Microsoft Edge/Edge Experimental Features.md\"> Edge Experimental Features </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Microsoft Edge/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
+        "<a class=\"internal-link\" href=\"Windows/Windows Terminal/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Windows/Windows Terminal/Windows Terminal Updates - May 28, 2021.md\"> Windows Terminal Updates - May 28, 2021 </a>",
+        "<a class=\"internal-link\" href=\"Windows/index/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Windows/index/Windows Terminal Updates - May 28, 2021.md\"> Windows Terminal Updates - May 28, 2021 </a>",
+        "<a class=\"internal-link\" href=\"Windows/Windows Terminal/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Windows Networking Commands.md\"> Windows Networking Commands </a>",
+        "<a class=\"internal-link\" href=\"Windows/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Windows/Registry Editor/Registry Editor.md\"> Registry Editor </a>",
+        "<a class=\"internal-link\" href=\"Windows/Registry Editor/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Windows/Registry/Registry Editor.md\"> Registry Editor </a>",
+        "<a class=\"internal-link\" href=\"Windows/Registry/Registry.md\"> Registry </a>",
+        "<a class=\"internal-link\" href=\"Windows/Registry.md\"> Registry </a>",
+        "<a class=\"internal-link\" href=\"_daily/_assets/Software Engineering Career Notes.md\"> Software Engineering Career Notes </a>",
+        "<a class=\"internal-link\" href=\"Windows/index-windows.md\"> index-windows </a>"
+      ],
+      "Tagged": [
+        "<a class=\"internal-link\" href=\"Evergreen note titles are like APIs.md\"> Evergreen note titles are like APIs </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-18.md\"> 2021-07-18 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-15.md\"> 2021-07-15 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-13.md\"> 2021-07-13 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-12.md\"> 2021-07-12 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-11.md\"> 2021-07-11 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-08.md\"> 2021-07-08 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-07.md\"> 2021-07-07 </a>",
+        "<a class=\"internal-link\" href=\"Boxstarter.md\"> Boxstarter </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-29.md\"> 2021-06-29 </a>",
+        "<a class=\"internal-link\" href=\"Windows/Windows Drivers.md\"> Windows Drivers </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge Startup Boost.md\"> Edge Startup Boost </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Improving Memory Usage in Microsoft Edge.md\"> Improving Memory Usage in Microsoft Edge </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
+        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Desired State Oriented Programming.md\"> Desired State Oriented Programming </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-28.md\"> 2021-06-28 </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Command Line and PowerShell/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Windows/Registry Editor/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Windows/Registry Editor/Registry Editor.md\"> Registry Editor </a>",
+        "<a class=\"internal-link\" href=\"Windows/OneDrive.md\"> OneDrive </a>",
+        "<a class=\"internal-link\" href=\"Development/R/_assets/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Productivity/PKM/_assets/Obsidian.md\"> Obsidian </a>",
+        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"_daily/2020-03-11.md\"> 2020-03-11 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-03-09.md\"> 2021-03-09 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2020-04-20.md\"> 2020-04-20 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-03-08.md\"> 2021-03-08 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-03-05.md\"> 2021-03-05 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-03-10.md\"> 2021-03-10 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-03-17.md\"> 2021-03-17 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-03-18.md\"> 2021-03-18 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-03-22.md\"> 2021-03-22 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-04-21.md\"> 2021-04-21 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-04-23.md\"> 2021-04-23 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-04-22.md\"> 2021-04-22 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-04-24.md\"> 2021-04-24 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-04-28.md\"> 2021-04-28 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-04-29.md\"> 2021-04-29 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-05-03.md\"> 2021-05-03 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-05-01.md\"> 2021-05-01 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-05-02.md\"> 2021-05-02 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-05-04.md\"> 2021-05-04 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-05-09.md\"> 2021-05-09 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
+        "<a class=\"internal-link\" href=\"Development/Azure/Use policies to enforce standards.md\"> Use policies to enforce standards </a>",
+        "<a class=\"internal-link\" href=\"Development/Azure/Use tagging to organize resources.md\"> Use tagging to organize resources </a>",
+        "<a class=\"internal-link\" href=\"Development/Azure/Principles of Azure Resource Groups.md\"> Principles of Azure Resource Groups </a>",
+        "<a class=\"internal-link\" href=\"Development/PowerShell/What is PowerShell.md\"> What is PowerShell </a>",
+        "<a class=\"internal-link\" href=\"Development/PowerShell/index.md\"> index </a>"
+      ],
+      "Refactored": [
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>"
+      ],
+      "Deleted": [
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/bookmarklets.md\"> bookmarklets </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/browsers.md\"> browsers </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/firefox.md\"> firefox </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/stylish-themes.md\"> stylish-themes </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/safari.md\"> safari </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/google-chrome/chrome-dev-tools.md\"> chrome-dev-tools </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/google-chrome/google-chrome.md\"> google-chrome </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/google-chrome/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/jamstack/jamstack.md\"> jamstack </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/jamstack/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/jamstack/redwood.md\"> redwood </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/nodejs/nodejs.md\"> nodejs </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/nodejs/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/static-sites/eleventy.md\"> eleventy </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/static-sites/hugo.md\"> hugo </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/static-sites/jekyll.md\"> jekyll </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/static-sites/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/static-sites/static-sites.md\"> static-sites </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/web-engines/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/web-engines/web-engines.md\"> web-engines </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/web-engines/webkit.md\"> webkit </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/webassembly.md\"> webassembly </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Backend Web Architecture.md\"> Backend Web Architecture </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Back End Web Architecture.md\"> Back End Web Architecture </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/BackEnd Web Architecture.md\"> BackEnd Web Architecture </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/cms.md\"> cms </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/deno.md\"> deno </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/jamstack/redwood.md\"> redwood </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/jamstack/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/jamstack/jamstack.md\"> jamstack </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/electron.md\"> electron </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/gcloud day-to-day.md\"> gcloud day-to-day </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/GCloud-Day-to-Day.md\"> GCloud-Day-to-Day </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Google Cloud Platform - Overview.md\"> Google Cloud Platform - Overview </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/GCP - Cloud Run Project Setup.md\"> GCP - Cloud Run Project Setup </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/GCP.md\"> GCP </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Javascript.md\"> Javascript </a>",
+        "<a class=\"internal-link\" href=\"Development/Javascript/Javascript.md\"> Javascript </a>",
+        "<a class=\"internal-link\" href=\"_daily/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"used_links1624579725311.md\"> used_links1624579725311 </a>",
+        "<a class=\"internal-link\" href=\"Untitled 1.md\"> Untitled 1 </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
+        "<a class=\"internal-link\" href=\"Windows/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Windows Networking Commands.md\"> Windows Networking Commands </a>"
+      ],
+      "Linked": [
+        "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Development/PowerShell/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Development/PowerShell/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-26.md\"> 2021-06-26 </a>",
+        "<a class=\"internal-link\" href=\"Windows/Windows Networking Configuration and Troubleshooting.md\"> Windows Networking Configuration and Troubleshooting </a>",
+        "<a class=\"internal-link\" href=\"Windows/Windows Networking Configuration and Troubleshooting.md\"> Windows Networking Configuration and Troubleshooting </a>",
+        "<a class=\"internal-link\" href=\"Keyboard Shortcuts in Microsoft Edge.md\"> Keyboard Shortcuts in Microsoft Edge </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-27.md\"> 2021-06-27 </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
+        "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
+        "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
+        "<a class=\"internal-link\" href=\"Windows/Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
+        "<a class=\"internal-link\" href=\"index-windows/index-windows.md\"> index-windows </a>",
+        "<a class=\"internal-link\" href=\"index-windows/index-windows.md\"> index-windows </a>",
+        "<a class=\"internal-link\" href=\"Untitled 1.md\"> Untitled 1 </a>",
+        "<a class=\"internal-link\" href=\"_templates/pages/daily.md\"> daily </a>",
+        "<a class=\"internal-link\" href=\"used_links1624579725311.md\"> used_links1624579725311 </a>",
+        "<a class=\"internal-link\" href=\"_templates/pages/daily.md\"> daily </a>",
+        "<a class=\"internal-link\" href=\"_daily/2020-03-11.md\"> 2020-03-11 </a>",
+        "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Productivity/PKM/_assets/Obsidian.md\"> Obsidian </a>",
+        "<a class=\"internal-link\" href=\"Development/R/_assets/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Vault-Consistentsy-Report.md\"> Vault-Consistentsy-Report </a>",
+        "<a class=\"internal-link\" href=\"Vault-Consistentsy-Report.md\"> Vault-Consistentsy-Report </a>",
+        "<a class=\"internal-link\" href=\"Windows/Registry Editor/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Command Line and PowerShell/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Desired State Oriented Programming.md\"> Desired State Oriented Programming </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-03.md\"> 2021-07-03 </a>",
+        "<a class=\"internal-link\" href=\"Windows/WinGet/Winget Settings.md\"> Winget Settings </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-07-12.md\"> 2021-07-12 </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"About this Vault.md\"> About this Vault </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Evergreen note titles are like APIs.md\"> Evergreen note titles are like APIs </a>"
+      ],
+      "Removed Tags from": [
+        "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
+        "<a class=\"internal-link\" href=\"Development/R/R-Shiny/Shiny Server v1.4.0 Configuration Reference.md\"> Shiny Server v1.4.0 Configuration Reference </a>",
+        "<a class=\"internal-link\" href=\"Work/Powwater/MPesa API.md\"> MPesa API </a>",
+        "<a class=\"internal-link\" href=\"_templates/pages/meeting-log.md\"> meeting-log </a>",
+        "<a class=\"internal-link\" href=\"_templates/blocks/wins.md\"> wins </a>",
+        "<a class=\"internal-link\" href=\"_templates/blocks/read.md\"> read </a>",
+        "<a class=\"internal-link\" href=\"_templates/blocks/discovered.md\"> discovered </a>",
+        "<a class=\"internal-link\" href=\"Scratch/2020-02-23-GH-Gists.md\"> 2020-02-23-GH-Gists </a>",
+        "<a class=\"internal-link\" href=\"Windows/Putty Setup Notes.md\"> Putty Setup Notes </a>",
+        "<a class=\"internal-link\" href=\"Windows/Installed Programs & Apps List.md\"> Installed Programs & Apps List </a>",
+        "<a class=\"internal-link\" href=\"Productivity/zettelkasten.md\"> zettelkasten </a>",
+        "<a class=\"internal-link\" href=\"Development/Tools/React Native.md\"> React Native </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/Effective Engineer - Notes.md\"> Effective Engineer - Notes </a>",
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Edge Experimental Features.md\"> Edge Experimental Features </a>",
+        "<a class=\"internal-link\" href=\"Development/R/Plumber Logging.md\"> Plumber Logging </a>",
+        "<a class=\"internal-link\" href=\"_templates/daily_note_template.md\"> daily_note_template </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-24.md\"> 2021-06-24 </a>"
+      ],
+      "Removed Links from": [
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"index-windows/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"index-windows/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"_templates/daily_note_template.md\"> daily_note_template </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Windows/WSL/WSLg.md\"> WSLg </a>",
+        "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
+        "<a class=\"internal-link\" href=\"_templates/pages/daily.md\"> daily </a>",
+        "<a class=\"internal-link\" href=\"_templates/quickcapture.md\"> quickcapture </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-06-15.md\"> 2021-06-15 </a>",
+        "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
+        "<a class=\"internal-link\" href=\"Unresolved-Links.md\"> Unresolved-Links </a>",
+        "<a class=\"internal-link\" href=\"Unlinked-Files.md\"> Unlinked-Files </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Unlinked-Files.md\"> Unlinked-Files </a>",
+        "<a class=\"internal-link\" href=\"Windows/index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
+      ]
+    }
+  },
+  "ignoreList": [],
+  "divWidth": 50,
+  "divHeight": 400,
+  "divAlign": "left",
+  "topCommits": 2,
+  "commitThreshold": 2000,
+  "commitPerc": 15,
+  "fillColor": "rgba(51, 153, 204, 0.4)",
+  "borderColor": "rgba(51, 153, 204, 1)",
+  "gridColor": "grey"
+}
