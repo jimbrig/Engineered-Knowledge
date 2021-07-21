@@ -4730,9 +4730,9 @@
       "links": 0
     },
     "Changelog.md": {
-      "size": 4677,
+      "size": 0,
       "tags": 0,
-      "links": 89
+      "links": 27
     },
     "Actuarial Science/Loss Data Analytics.md": {
       "size": 4977,
@@ -5757,7 +5757,7 @@
     "Daily-Notes/2021-07-19.md": {
       "size": 0,
       "tags": 1,
-      "links": 3
+      "links": 5
     },
     "Daily-Notes/Daily Notes Index.md": {
       "size": 0,
@@ -5784,30 +5784,110 @@
       "tags": 1,
       "links": 0
     },
-    "000-INDEX.md": {
+    "Daily-Notes/2021-07-20.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "Notes/Obsidian Setup.md": {
+      "size": 3093,
+      "tags": 3,
+      "links": 12
+    },
+    "Notes/Obsidian Taxonomy.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 3
+    },
+    "Notes/Classification of Note Types.md": {
+      "size": 4548,
+      "tags": 3,
+      "links": 5
+    },
+    "Notes/Obsidian and PKM Resources.md": {
+      "size": 3893,
+      "tags": 4,
+      "links": 17
+    },
+    "000 - INDEX.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 8
+    },
+    "010 - Productivity.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "020 - Development.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "030 - Professional.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "040 - Personal.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "050 - Writing.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "WIP/Computer Backup System.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "WIP/Computer Setup.md": {
+      "size": 0,
+      "tags": 6,
+      "links": 19
+    },
+    "Templates/Templates Index.md": {
       "size": 0,
       "tags": 2,
       "links": 5
     },
-    "Notes/Obsidian System.md": {
+    "Daily-Notes/2021-07-21.md": {
+      "size": 974,
+      "tags": 1,
+      "links": 3
+    },
+    "Notes/AutoHotKey Scripts.md": {
+      "size": 58155,
+      "tags": 3,
+      "links": 22
+    },
+    "Notes/CLI Tools.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
+    },
+    "Notes/Johnny Decimal System.md": {
       "size": 0,
       "tags": 0,
-      "links": 1
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 338,
-      "Create": 98,
-      "Link": 157,
-      "Expand": 14
+      "Refactor": 348,
+      "Create": 116,
+      "Link": 194,
+      "Expand": 23
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 8,
+      "0": 41,
       "1": 271,
-      "2": 29,
+      "2": 36,
       "3": 0,
       "4": 7,
       "5": 0,
@@ -5821,21 +5901,21 @@
       "13": 0,
       "14": 0,
       "15": 14,
-      "16": 50,
-      "17": 31,
+      "16": 59,
+      "17": 37,
       "18": 8,
       "19": 8,
       "20": 1,
       "21": 2,
       "22": 3,
-      "23": 139
+      "23": 158
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 385,
-      "Tue": 5,
-      "Wed": 2,
+      "Mon": 386,
+      "Tue": 23,
+      "Wed": 57,
       "Thu": 5,
       "Fri": 41,
       "Sat": 0,
@@ -5858,9 +5938,36 @@
         "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Desired State Oriented Programming.md\"> Desired State Oriented Programming </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
         "<a class=\"internal-link\" href=\"Boxstarter.md\"> Boxstarter </a>",
-        "<a class=\"internal-link\" href=\"About this Vault.md\"> About this Vault </a>"
+        "<a class=\"internal-link\" href=\"About this Vault.md\"> About this Vault </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-21.md\"> 2021-07-21 </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Templates Index.md\"> Templates Index </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"050 - Writing.md\"> 050 - Writing </a>",
+        "<a class=\"internal-link\" href=\"040 - Personal.md\"> 040 - Personal </a>",
+        "<a class=\"internal-link\" href=\"030 - Professional.md\"> 030 - Professional </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"010 - Productivity.md\"> 010 - Productivity </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-20.md\"> 2021-07-20 </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Mindsweeps/Untitled.md\"> Untitled </a>",
@@ -5893,27 +6000,15 @@
         "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-28.md\"> 2021-06-28 </a>",
-        "<a class=\"internal-link\" href=\"Command Line and PowerShell/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Registry.md\"> Registry </a>",
-        "<a class=\"internal-link\" href=\"Windows/OneDrive.md\"> OneDrive </a>",
-        "<a class=\"internal-link\" href=\"Vault-Consistentsy-Report.md\"> Vault-Consistentsy-Report </a>",
-        "<a class=\"internal-link\" href=\"Development/R/_assets/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Productivity/PKM/_assets/Obsidian.md\"> Obsidian </a>",
-        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
-        "<a class=\"internal-link\" href=\"used_links1624579725311.md\"> used_links1624579725311 </a>",
-        "<a class=\"internal-link\" href=\"_daily/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Untitled 1.md\"> Untitled 1 </a>",
-        "<a class=\"internal-link\" href=\"Untitled 1.md\"> Untitled 1 </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
-        "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/Azure/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"_daily/2021-06-28.md\"> 2021-06-28 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Templates/Templates Index.md\"> Templates Index </a>",
+        "<a class=\"internal-link\" href=\"WIP/Computer Setup.md\"> Computer Setup </a>",
+        "<a class=\"internal-link\" href=\"WIP/Computer Backup System.md\"> Computer Backup System </a>",
+        "<a class=\"internal-link\" href=\"000 - INDEX.md\"> 000 - INDEX </a>",
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"Mindsweeps/2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/webkit.md\"> webkit </a>",
@@ -5958,15 +6053,19 @@
         "<a class=\"internal-link\" href=\"Windows/index/index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"Windows/index/Windows Terminal Updates - May 28, 2021.md\"> Windows Terminal Updates - May 28, 2021 </a>",
         "<a class=\"internal-link\" href=\"Windows/Windows Terminal/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Windows Networking Commands.md\"> Windows Networking Commands </a>",
-        "<a class=\"internal-link\" href=\"Windows/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry Editor/Registry Editor.md\"> Registry Editor </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry Editor/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry/Registry Editor.md\"> Registry Editor </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry/Registry.md\"> Registry </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry.md\"> Registry </a>"
+        "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Windows Networking Commands.md\"> Windows Networking Commands </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Notes/CLI Tools.md\"> CLI Tools </a>",
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-21.md\"> 2021-07-21 </a>",
+        "<a class=\"internal-link\" href=\"Templates/Templates Index.md\"> Templates Index </a>",
+        "<a class=\"internal-link\" href=\"Notes/Computer Setup.md\"> Computer Setup </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-20.md\"> 2021-07-20 </a>",
         "<a class=\"internal-link\" href=\"Mindsweeps/Mindsweep Trigger List.md\"> Mindsweep Trigger List </a>",
         "<a class=\"internal-link\" href=\"000-INDEX.md\"> 000-INDEX </a>",
         "<a class=\"internal-link\" href=\"2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
@@ -6007,22 +6106,13 @@
         "<a class=\"internal-link\" href=\"_daily/2021-03-05.md\"> 2021-03-05 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-03-10.md\"> 2021-03-10 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-03-17.md\"> 2021-03-17 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-03-18.md\"> 2021-03-18 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-03-22.md\"> 2021-03-22 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-04-21.md\"> 2021-04-21 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-04-23.md\"> 2021-04-23 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-04-22.md\"> 2021-04-22 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-04-24.md\"> 2021-04-24 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-04-28.md\"> 2021-04-28 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-04-29.md\"> 2021-04-29 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-05-03.md\"> 2021-05-03 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-05-01.md\"> 2021-05-01 </a>"
+        "<a class=\"internal-link\" href=\"_daily/2021-03-18.md\"> 2021-03-18 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>"
+        "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/bookmarklets.md\"> bookmarklets </a>",
@@ -6071,9 +6161,37 @@
         "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
         "<a class=\"internal-link\" href=\"Windows/index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Windows Networking Commands.md\"> Windows Networking Commands </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>"
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-21.md\"> 2021-07-21 </a>",
+        "<a class=\"internal-link\" href=\"Templates/Templates Index.md\"> Templates Index </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"000 - INDEX.md\"> 000 - INDEX </a>",
+        "<a class=\"internal-link\" href=\"Notes/Computer Setup.md\"> Computer Setup </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-20.md\"> 2021-07-20 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
         "<a class=\"internal-link\" href=\"000-INDEX.md\"> 000-INDEX </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6097,34 +6215,7 @@
         "<a class=\"internal-link\" href=\"_templates/pages/daily.md\"> daily </a>",
         "<a class=\"internal-link\" href=\"_daily/2020-03-11.md\"> 2020-03-11 </a>",
         "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Productivity/PKM/_assets/Obsidian.md\"> Obsidian </a>",
-        "<a class=\"internal-link\" href=\"Development/R/_assets/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Vault-Consistentsy-Report.md\"> Vault-Consistentsy-Report </a>",
-        "<a class=\"internal-link\" href=\"Vault-Consistentsy-Report.md\"> Vault-Consistentsy-Report </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry Editor/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Command Line and PowerShell/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Desired State Oriented Programming.md\"> Desired State Oriented Programming </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-03.md\"> 2021-07-03 </a>",
-        "<a class=\"internal-link\" href=\"Windows/WinGet/Winget Settings.md\"> Winget Settings </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-12.md\"> 2021-07-12 </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"About this Vault.md\"> About this Vault </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Evergreen note titles are like APIs.md\"> Evergreen note titles are like APIs </a>",
-        "<a class=\"internal-link\" href=\"Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
-        "<a class=\"internal-link\" href=\"Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
-        "<a class=\"internal-link\" href=\"2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
-        "<a class=\"internal-link\" href=\"Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>",
-        "<a class=\"internal-link\" href=\"000-INDEX.md\"> 000-INDEX </a>",
-        "<a class=\"internal-link\" href=\"Mindsweeps/2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>"
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6168,6 +6259,8 @@
         "<a class=\"internal-link\" href=\"Windows/index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
       ]
     }
