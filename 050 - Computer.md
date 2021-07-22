@@ -6,12 +6,26 @@ Alias: 050 - Writing
 Tags: []
 ---
 
-# 050 - Writing
+# 050 - Computer MOC
 
-***
+## Contents
 
-Links: 
+- [[#Computer Setup Notes|Computer Setup Notes]]
+- [[#Windows Notes|Windows Notes]]
+	- [[#Developer Environment|Developer Environment]]
+	- [[#Windows Registry|Windows Registry]]
 
-Sources:
 
+## Computer Setup Notes
 
+[[Computer Setup]] | [[Computer Backup System]]
+
+## Windows Notes
+
+### Developer Environment
+
+[[Windows Developer Environment]] | [[Windows-Development-Environment.pdf]]
+
+### Windows Registry
+
+[[Windows Registry]] | [[Windows Registry Paths and Keys|Windows Registry Locations]]

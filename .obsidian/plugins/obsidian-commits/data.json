@@ -4732,7 +4732,7 @@
     "Changelog.md": {
       "size": 0,
       "tags": 0,
-      "links": 31
+      "links": 33
     },
     "Actuarial Science/Loss Data Analytics.md": {
       "size": 4977,
@@ -5789,26 +5789,6 @@
       "tags": 1,
       "links": 3
     },
-    "Notes/Obsidian Setup.md": {
-      "size": 3093,
-      "tags": 3,
-      "links": 12
-    },
-    "Notes/Obsidian Taxonomy.md": {
-      "size": 0,
-      "tags": 3,
-      "links": 3
-    },
-    "Notes/Classification of Note Types.md": {
-      "size": 4548,
-      "tags": 3,
-      "links": 5
-    },
-    "Notes/Obsidian and PKM Resources.md": {
-      "size": 3893,
-      "tags": 4,
-      "links": 17
-    },
     "000 - INDEX.md": {
       "size": 0,
       "tags": 2,
@@ -5820,9 +5800,9 @@
       "links": 0
     },
     "020 - Development.md": {
-      "size": 0,
+      "size": 4930,
       "tags": 0,
-      "links": 0
+      "links": 158
     },
     "030 - Professional.md": {
       "size": 0,
@@ -5833,16 +5813,6 @@
       "size": 0,
       "tags": 0,
       "links": 0
-    },
-    "WIP/Computer Backup System.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "WIP/Computer Setup.md": {
-      "size": 0,
-      "tags": 6,
-      "links": 19
     },
     "Templates/Templates Index.md": {
       "size": 0,
@@ -5882,25 +5852,65 @@
     "Notes/Windows Registry Paths and Keys.md": {
       "size": 0,
       "tags": 4,
-      "links": 1
+      "links": 4
     },
     "050 - Computer.md": {
       "size": 0,
       "tags": 0,
-      "links": 0
+      "links": 10
     },
     "Notes/How To Change Explorer Drive Icons via Registry.md": {
-      "size": 2249,
+      "size": 2938,
       "tags": 5,
       "links": 14
+    },
+    "Notes/Windows Registry.md": {
+      "size": 4224,
+      "tags": 4,
+      "links": 2
+    },
+    "Notes/WIP/Computer Backup System.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Notes/WIP/Computer Setup.md": {
+      "size": 0,
+      "tags": 6,
+      "links": 19
+    },
+    "Notes/WIP/Classification of Note Types.md": {
+      "size": 4548,
+      "tags": 3,
+      "links": 5
+    },
+    "Notes/WIP/Obsidian and PKM Resources.md": {
+      "size": 3893,
+      "tags": 4,
+      "links": 17
+    },
+    "Notes/WIP/Obsidian Setup.md": {
+      "size": 3093,
+      "tags": 3,
+      "links": 12
+    },
+    "Notes/WIP/Obsidian Taxonomy.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 3
+    },
+    "Notes/WIP/Windows Developer Environment.md": {
+      "size": 0,
+      "tags": 5,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 350,
-      "Create": 120,
-      "Link": 209,
-      "Expand": 25
+      "Refactor": 361,
+      "Create": 122,
+      "Link": 229,
+      "Expand": 31
     }
   },
   "dailyCommits": {
@@ -5921,8 +5931,8 @@
       "13": 0,
       "14": 0,
       "15": 14,
-      "16": 82,
-      "17": 37,
+      "16": 101,
+      "17": 57,
       "18": 8,
       "19": 8,
       "20": 1,
@@ -5936,7 +5946,7 @@
       "Mon": 386,
       "Tue": 23,
       "Wed": 57,
-      "Thu": 28,
+      "Thu": 67,
       "Fri": 41,
       "Sat": 0,
       "Sun": 169
@@ -5969,9 +5979,17 @@
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Notes/Johnny Decimal System.md\"> Johnny Decimal System </a>",
-        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>"
+        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
+        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
+        "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
+        "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Notes/WIP/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-22.md\"> 2021-07-22 </a>",
@@ -6020,11 +6038,19 @@
         "<a class=\"internal-link\" href=\"_daily/2021-07-03.md\"> 2021-07-03 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-06-30.md\"> 2021-06-30 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-06-29.md\"> 2021-06-29 </a>",
-        "<a class=\"internal-link\" href=\"Windows/Untitled 1.md\"> Untitled 1 </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Windows/Untitled 1.md\"> Untitled 1 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Notes/WIP/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Obsidian Setup.md\"> Obsidian Setup </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Classification of Note Types.md\"> Classification of Note Types </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Computer Setup.md\"> Computer Setup </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Computer Backup System.md\"> Computer Backup System </a>",
+        "<a class=\"internal-link\" href=\"WIP/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
+        "<a class=\"internal-link\" href=\"WIP/Obsidian Setup.md\"> Obsidian Setup </a>",
+        "<a class=\"internal-link\" href=\"WIP/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
+        "<a class=\"internal-link\" href=\"WIP/Classification of Note Types.md\"> Classification of Note Types </a>",
         "<a class=\"internal-link\" href=\"050 - Computer.md\"> 050 - Computer </a>",
         "<a class=\"internal-link\" href=\"Notes/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
         "<a class=\"internal-link\" href=\"Templates/Templates Index.md\"> Templates Index </a>",
@@ -6065,19 +6091,11 @@
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/firefox.md\"> firefox </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/bookmarklets.md\"> bookmarklets </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/Chrome Tips and Tricks.md\"> Chrome Tips and Tricks </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/google-chrome.md\"> google-chrome </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/chrome-dev-tools.md\"> chrome-dev-tools </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Microsoft Edge/Edge-Hotkeys.md\"> Edge-Hotkeys </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Microsoft Edge/Edge Experimental Features.md\"> Edge Experimental Features </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Microsoft Edge/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
-        "<a class=\"internal-link\" href=\"Windows/Windows Terminal/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Windows Terminal/Windows Terminal Updates - May 28, 2021.md\"> Windows Terminal Updates - May 28, 2021 </a>",
-        "<a class=\"internal-link\" href=\"Windows/index/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/index/Windows Terminal Updates - May 28, 2021.md\"> Windows Terminal Updates - May 28, 2021 </a>"
+        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/Chrome Tips and Tricks.md\"> Chrome Tips and Tricks </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Notes/WIP/Windows Developer Environment.md\"> Windows Developer Environment </a>",
+        "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-22.md\"> 2021-07-22 </a>",
         "<a class=\"internal-link\" href=\"Notes/Johnny Decimal System.md\"> Johnny Decimal System </a>",
@@ -6126,15 +6144,14 @@
         "<a class=\"internal-link\" href=\"Development/R/_assets/index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"Productivity/PKM/_assets/Obsidian.md\"> Obsidian </a>",
         "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"_daily/2020-03-11.md\"> 2020-03-11 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-03-09.md\"> 2021-03-09 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2020-04-20.md\"> 2020-04-20 </a>"
+        "<a class=\"internal-link\" href=\"_daily/2020-03-11.md\"> 2020-03-11 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"Development/Web Development/browsers/a/browsers/bookmarklets.md\"> bookmarklets </a>",
@@ -6187,6 +6204,24 @@
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"050 - Computer.md\"> 050 - Computer </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Windows Developer Environment.md\"> Windows Developer Environment </a>",
+        "<a class=\"internal-link\" href=\"050 - Computer.md\"> 050 - Computer </a>",
+        "<a class=\"internal-link\" href=\"Notes/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
+        "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
@@ -6219,25 +6254,7 @@
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-20.md\"> 2021-07-20 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
-        "<a class=\"internal-link\" href=\"000-INDEX.md\"> 000-INDEX </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-25.md\"> 2021-06-25 </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Development/PowerShell/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Development/PowerShell/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-26.md\"> 2021-06-26 </a>",
-        "<a class=\"internal-link\" href=\"Windows/Windows Networking Configuration and Troubleshooting.md\"> Windows Networking Configuration and Troubleshooting </a>",
-        "<a class=\"internal-link\" href=\"Windows/Windows Networking Configuration and Troubleshooting.md\"> Windows Networking Configuration and Troubleshooting </a>",
-        "<a class=\"internal-link\" href=\"Keyboard Shortcuts in Microsoft Edge.md\"> Keyboard Shortcuts in Microsoft Edge </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-27.md\"> 2021-06-27 </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
-        "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
-        "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>"
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

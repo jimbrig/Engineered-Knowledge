@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "46478f059889803b",
+        "id": "6ce764f2599d92e6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/How To Change Explorer Drive Icons via Registry.md",
-            "mode": "source"
+            "file": "020 - Development.md",
+            "mode": "preview"
           }
         }
       }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/How To Change Explorer Drive Icons via Registry.md",
+                "file": "020 - Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/How To Change Explorer Drive Icons via Registry.md",
+                "file": "020 - Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/How To Change Explorer Drive Icons via Registry.md"
+                "file": "020 - Development.md"
               }
             }
           },
@@ -151,17 +151,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "46478f059889803b",
+  "active": "6ce764f2599d92e6",
   "lastOpenFiles": [
-    "Notes/How To Change Explorer Drive Icons via Registry.md",
-    "Notes/assets/Pasted image 20210722162826.png",
-    "Notes/assets/WinReg-DriveIconMissing.png",
-    "Notes/assets/Pasted image 20210721170547.png",
-    "Notes/Windows Registry Paths and Keys.md",
-    "Notes/Untitled.md",
-    "Daily-Notes/2021-07-22.md",
-    "Notes/MkDocs.md",
-    "Daily-Notes/2021-07-21.md",
-    "Untitled.md"
+    "020 - Development.md",
+    "050 - Computer.md",
+    "040 - Personal.md",
+    "030 - Professional.md",
+    "010 - Productivity.md",
+    "000 - INDEX.md",
+    "Notes/WIP/Windows Developer Environment.md",
+    "Notes/Windows Registry.md",
+    "Notes/WIP/Untitled.md",
+    "Notes/Obsidian Taxonomy.md"
   ]
 }

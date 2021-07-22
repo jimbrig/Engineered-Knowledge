@@ -1,76 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "How To Change Explorer Drive Icons via Registry",
-      "path": "Notes/How To Change Explorer Drive Icons via Registry.md"
-    },
-    {
-      "basename": "WinReg-DriveIconMissing",
-      "path": "Notes/assets/WinReg-DriveIconMissing.png"
-    },
-    {
-      "basename": "Pasted image 20210721170547",
-      "path": "Notes/assets/Pasted image 20210721170547.png"
-    },
-    {
-      "basename": "Windows Registry Paths and Keys",
-      "path": "Notes/Windows Registry Paths and Keys.md"
-    },
-    {
-      "basename": "2021-07-22",
-      "path": "Daily-Notes/2021-07-22.md"
-    },
-    {
-      "basename": "MkDocs",
-      "path": "Notes/MkDocs.md"
-    },
-    {
-      "basename": "Johnny Decimal System",
-      "path": "Notes/Johnny Decimal System.md"
-    },
-    {
-      "basename": "CLI Tools",
-      "path": "Notes/CLI Tools.md"
-    },
-    {
-      "basename": "AutoHotKey Scripts",
-      "path": "Notes/AutoHotKey Scripts.md"
-    },
-    {
-      "basename": "2021-07-21",
-      "path": "Daily-Notes/2021-07-21.md"
-    },
-    {
-      "basename": "Computer Setup",
-      "path": "WIP/Computer Setup.md"
-    },
-    {
-      "basename": "Templates Index",
-      "path": "Templates/Templates Index.md"
-    },
-    {
-      "basename": "000 - INDEX",
-      "path": "000 - INDEX.md"
-    },
-    {
-      "basename": "Obsidian Taxonomy",
-      "path": "Notes/Obsidian Taxonomy.md"
-    },
-    {
-      "basename": "Obsidian Setup",
-      "path": "Notes/Obsidian Setup.md"
-    },
-    {
-      "basename": "Obsidian and PKM Resources",
-      "path": "Notes/Obsidian and PKM Resources.md"
-    },
-    {
-      "basename": "Classification of Note Types",
-      "path": "Notes/Classification of Note Types.md"
-    },
-    {
-      "basename": "Computer Backup System",
-      "path": "WIP/Computer Backup System.md"
+      "basename": "020 - Development",
+      "path": "020 - Development.md"
     },
     {
       "basename": "050 - Computer",
@@ -85,16 +17,92 @@
       "path": "030 - Professional.md"
     },
     {
-      "basename": "020 - Development",
-      "path": "020 - Development.md"
-    },
-    {
       "basename": "010 - Productivity",
       "path": "010 - Productivity.md"
     },
     {
+      "basename": "000 - INDEX",
+      "path": "000 - INDEX.md"
+    },
+    {
+      "basename": "Windows Developer Environment",
+      "path": "Notes/WIP/Windows Developer Environment.md"
+    },
+    {
+      "basename": "Windows Registry",
+      "path": "Notes/Windows Registry.md"
+    },
+    {
+      "basename": "Obsidian Taxonomy",
+      "path": "Notes/WIP/Obsidian Taxonomy.md"
+    },
+    {
+      "basename": "Obsidian Setup",
+      "path": "Notes/WIP/Obsidian Setup.md"
+    },
+    {
+      "basename": "Obsidian and PKM Resources",
+      "path": "Notes/WIP/Obsidian and PKM Resources.md"
+    },
+    {
+      "basename": "MkDocs",
+      "path": "Notes/MkDocs.md"
+    },
+    {
+      "basename": "Johnny Decimal System",
+      "path": "Notes/Johnny Decimal System.md"
+    },
+    {
+      "basename": "Classification of Note Types",
+      "path": "Notes/WIP/Classification of Note Types.md"
+    },
+    {
+      "basename": "AutoHotKey Scripts",
+      "path": "Notes/AutoHotKey Scripts.md"
+    },
+    {
+      "basename": "Computer Setup",
+      "path": "Notes/WIP/Computer Setup.md"
+    },
+    {
+      "basename": "Computer Backup System",
+      "path": "Notes/WIP/Computer Backup System.md"
+    },
+    {
       "basename": "Changelog",
       "path": "Changelog.md"
+    },
+    {
+      "basename": "Windows Registry Paths and Keys",
+      "path": "Notes/Windows Registry Paths and Keys.md"
+    },
+    {
+      "basename": "How To Change Explorer Drive Icons via Registry",
+      "path": "Notes/How To Change Explorer Drive Icons via Registry.md"
+    },
+    {
+      "basename": "WinReg-DriveIconMissing",
+      "path": "Notes/assets/WinReg-DriveIconMissing.png"
+    },
+    {
+      "basename": "Pasted image 20210721170547",
+      "path": "Notes/assets/Pasted image 20210721170547.png"
+    },
+    {
+      "basename": "2021-07-22",
+      "path": "Daily-Notes/2021-07-22.md"
+    },
+    {
+      "basename": "CLI Tools",
+      "path": "Notes/CLI Tools.md"
+    },
+    {
+      "basename": "2021-07-21",
+      "path": "Daily-Notes/2021-07-21.md"
+    },
+    {
+      "basename": "Templates Index",
+      "path": "Templates/Templates Index.md"
     },
     {
       "basename": "2021-07-20",

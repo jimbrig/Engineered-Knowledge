@@ -10,10 +10,10 @@ Tags: ["#Windows", "#Config", "#Computer", "#List"]
 
 ## Long Path Support
 
-- Path: `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`
-- Key: `LongPathsEnabled`
-- Key Type: `REG_DWORD`
-- Value: `1`
+- Key Path: `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`
+- Key Value Name: `LongPathsEnabled`
+- Key Value Type: `REG_DWORD`
+- Key Value Data: `1`
 
 ![[WinReg-LongPathSupport-Screenshot.png]]
 
@@ -21,25 +21,15 @@ Tags: ["#Windows", "#Config", "#Computer", "#List"]
 
 *I use this to tweak any icons associated with a mapped or mounted drive (i.e. G: Google Drive, etc.)*
 
-- Root Path: `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons`
-
-Will need to add folders for each drive letter:
-
-
-
-- Key: `LongPathsEnabled`
-- Key Type: `REG_DWORD`
-- Value: `1`
-
-![[WinReg-LongPathSupport-Screenshot.png]]
-
-
-## 
+- Key Path: `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\<Drive Letter>\DefaultIcon`
+- Key Value Name: `(Default)`
+- Key Value Type: `REG_SZ`
+- Key Value Data: *Quoted Absolute Path to an Icon (`.ico`) file*.
 
 ***
 
-Links: 
+Links: [[Windows Registry]] | [[How To Change Explorer Drive Icons via Registry]]
 
-Sources:
+Sources: See [[Windows Registry#Resources]].
 
 
