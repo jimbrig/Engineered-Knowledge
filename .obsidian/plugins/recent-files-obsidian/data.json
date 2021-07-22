@@ -2,27 +2,35 @@
   "recentFiles": [
     {
       "basename": "020 - Development",
-      "path": "020 - Development.md"
+      "path": "Maps of Content/020 - Development.md"
     },
     {
-      "basename": "050 - Computer",
-      "path": "050 - Computer.md"
-    },
-    {
-      "basename": "040 - Personal",
-      "path": "040 - Personal.md"
-    },
-    {
-      "basename": "030 - Professional",
-      "path": "030 - Professional.md"
+      "basename": "Development-LocalGraphView",
+      "path": "Maps of Content/assets/Development-LocalGraphView.png"
     },
     {
       "basename": "010 - Productivity",
-      "path": "010 - Productivity.md"
+      "path": "Maps of Content/010 - Productivity.md"
+    },
+    {
+      "basename": "030 - Professional",
+      "path": "Maps of Content/030 - Professional.md"
     },
     {
       "basename": "000 - INDEX",
-      "path": "000 - INDEX.md"
+      "path": "Maps of Content/000 - INDEX.md"
+    },
+    {
+      "basename": "2021-07-22",
+      "path": "Daily-Notes/2021-07-22.md"
+    },
+    {
+      "basename": "050 - Computer",
+      "path": "Maps of Content/050 - Computer.md"
+    },
+    {
+      "basename": "040 - Personal",
+      "path": "Maps of Content/040 - Personal.md"
     },
     {
       "basename": "Windows Developer Environment",
@@ -87,10 +95,6 @@
     {
       "basename": "Pasted image 20210721170547",
       "path": "Notes/assets/Pasted image 20210721170547.png"
-    },
-    {
-      "basename": "2021-07-22",
-      "path": "Daily-Notes/2021-07-22.md"
     },
     {
       "basename": "CLI Tools",

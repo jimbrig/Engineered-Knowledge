@@ -5789,31 +5789,6 @@
       "tags": 1,
       "links": 3
     },
-    "000 - INDEX.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 8
-    },
-    "010 - Productivity.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "020 - Development.md": {
-      "size": 4930,
-      "tags": 0,
-      "links": 158
-    },
-    "030 - Professional.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "040 - Personal.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "Templates/Templates Index.md": {
       "size": 0,
       "tags": 2,
@@ -5853,11 +5828,6 @@
       "size": 0,
       "tags": 4,
       "links": 4
-    },
-    "050 - Computer.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 10
     },
     "Notes/How To Change Explorer Drive Icons via Registry.md": {
       "size": 2938,
@@ -5903,13 +5873,43 @@
       "size": 0,
       "tags": 5,
       "links": 1
+    },
+    "Maps of Content/000 - INDEX.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 8
+    },
+    "Maps of Content/010 - Productivity.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Maps of Content/020 - Development.md": {
+      "size": 4930,
+      "tags": 0,
+      "links": 169
+    },
+    "Maps of Content/030 - Professional.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Maps of Content/040 - Personal.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Maps of Content/050 - Computer.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 10
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 361,
+      "Refactor": 367,
       "Create": 122,
-      "Link": 229,
+      "Link": 230,
       "Expand": 31
     }
   },
@@ -5933,7 +5933,7 @@
       "15": 14,
       "16": 101,
       "17": 57,
-      "18": 8,
+      "18": 15,
       "19": 8,
       "20": 1,
       "21": 2,
@@ -5946,7 +5946,7 @@
       "Mon": 386,
       "Tue": 23,
       "Wed": 57,
-      "Thu": 67,
+      "Thu": 74,
       "Fri": 41,
       "Sat": 0,
       "Sun": 169
@@ -6041,6 +6041,12 @@
         "<a class=\"internal-link\" href=\"Windows/Untitled 1.md\"> Untitled 1 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>",
         "<a class=\"internal-link\" href=\"Notes/WIP/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
         "<a class=\"internal-link\" href=\"Notes/WIP/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"Notes/WIP/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
@@ -6085,13 +6091,7 @@
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Web Browsers - Tips & Tricks.md\"> Web Browsers - Tips & Tricks </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/stylish-themes.md\"> stylish-themes </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/safari.md\"> safari </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Firefox Developer Edition.md\"> Firefox Developer Edition </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/browsers.md\"> browsers </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/firefox.md\"> firefox </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/bookmarklets.md\"> bookmarklets </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Google Chrome/Chrome Tips and Tricks.md\"> Chrome Tips and Tricks </a>"
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Firefox Developer Edition.md\"> Firefox Developer Edition </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Notes/WIP/Windows Developer Environment.md\"> Windows Developer Environment </a>",
@@ -6215,6 +6215,7 @@
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"050 - Computer.md\"> 050 - Computer </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/WIP/Windows Developer Environment.md\"> Windows Developer Environment </a>",
@@ -6253,8 +6254,7 @@
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
