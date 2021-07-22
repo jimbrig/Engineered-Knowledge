@@ -72,7 +72,10 @@
     "Todoist",
     "HotKeyHelp",
     "MkDocs",
-    "MkDocs"
+    "MkDocs",
+    "Evernote",
+    "RegistryDriveIcons",
+    "HowTo"
   ],
   "autoPairMarkdown": true,
   "smartIndentList": false

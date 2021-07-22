@@ -4732,7 +4732,7 @@
     "Changelog.md": {
       "size": 0,
       "tags": 0,
-      "links": 27
+      "links": 31
     },
     "Actuarial Science/Loss Data Analytics.md": {
       "size": 4977,
@@ -5834,11 +5834,6 @@
       "tags": 0,
       "links": 0
     },
-    "050 - Writing.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "WIP/Computer Backup System.md": {
       "size": 0,
       "tags": 0,
@@ -5870,17 +5865,42 @@
       "links": 0
     },
     "Notes/Johnny Decimal System.md": {
+      "size": 6927,
+      "tags": 2,
+      "links": 0
+    },
+    "Notes/MkDocs.md": {
+      "size": 3233,
+      "tags": 2,
+      "links": 1
+    },
+    "Daily-Notes/2021-07-22.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "Notes/Windows Registry Paths and Keys.md": {
+      "size": 0,
+      "tags": 4,
+      "links": 1
+    },
+    "050 - Computer.md": {
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Notes/How To Change Explorer Drive Icons via Registry.md": {
+      "size": 2249,
+      "tags": 5,
+      "links": 14
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 348,
-      "Create": 116,
-      "Link": 194,
-      "Expand": 23
+      "Refactor": 350,
+      "Create": 120,
+      "Link": 209,
+      "Expand": 25
     }
   },
   "dailyCommits": {
@@ -5901,7 +5921,7 @@
       "13": 0,
       "14": 0,
       "15": 14,
-      "16": 59,
+      "16": 82,
       "17": 37,
       "18": 8,
       "19": 8,
@@ -5916,7 +5936,7 @@
       "Mon": 386,
       "Tue": 23,
       "Wed": 57,
-      "Thu": 5,
+      "Thu": 28,
       "Fri": 41,
       "Sat": 0,
       "Sun": 169
@@ -5947,9 +5967,15 @@
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"Notes/Johnny Decimal System.md\"> Johnny Decimal System </a>",
+        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-22.md\"> 2021-07-22 </a>",
+        "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
@@ -5996,13 +6022,11 @@
         "<a class=\"internal-link\" href=\"_daily/2021-06-29.md\"> 2021-06-29 </a>",
         "<a class=\"internal-link\" href=\"Windows/Untitled 1.md\"> Untitled 1 </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-28.md\"> 2021-06-28 </a>"
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"050 - Computer.md\"> 050 - Computer </a>",
+        "<a class=\"internal-link\" href=\"Notes/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
         "<a class=\"internal-link\" href=\"Templates/Templates Index.md\"> Templates Index </a>",
         "<a class=\"internal-link\" href=\"WIP/Computer Setup.md\"> Computer Setup </a>",
         "<a class=\"internal-link\" href=\"WIP/Computer Backup System.md\"> Computer Backup System </a>",
@@ -6051,11 +6075,14 @@
         "<a class=\"internal-link\" href=\"Windows/Windows Terminal/index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"Windows/Windows Terminal/Windows Terminal Updates - May 28, 2021.md\"> Windows Terminal Updates - May 28, 2021 </a>",
         "<a class=\"internal-link\" href=\"Windows/index/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/index/Windows Terminal Updates - May 28, 2021.md\"> Windows Terminal Updates - May 28, 2021 </a>",
-        "<a class=\"internal-link\" href=\"Windows/Windows Terminal/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Command Line and Powershell/Windows Networking Commands.md\"> Windows Networking Commands </a>"
+        "<a class=\"internal-link\" href=\"Windows/index/Windows Terminal Updates - May 28, 2021.md\"> Windows Terminal Updates - May 28, 2021 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-22.md\"> 2021-07-22 </a>",
+        "<a class=\"internal-link\" href=\"Notes/Johnny Decimal System.md\"> Johnny Decimal System </a>",
+        "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>",
+        "<a class=\"internal-link\" href=\"Notes/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
         "<a class=\"internal-link\" href=\"Notes/CLI Tools.md\"> CLI Tools </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-21.md\"> 2021-07-21 </a>",
@@ -6101,12 +6128,7 @@
         "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"_daily/2020-03-11.md\"> 2020-03-11 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-03-09.md\"> 2021-03-09 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2020-04-20.md\"> 2020-04-20 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-03-08.md\"> 2021-03-08 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-03-05.md\"> 2021-03-05 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-03-10.md\"> 2021-03-10 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-03-17.md\"> 2021-03-17 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-03-18.md\"> 2021-03-18 </a>"
+        "<a class=\"internal-link\" href=\"_daily/2020-04-20.md\"> 2020-04-20 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6165,6 +6187,16 @@
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
+        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-22.md\"> 2021-07-22 </a>",
+        "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>",
+        "<a class=\"internal-link\" href=\"Notes/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
@@ -6205,17 +6237,7 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
         "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
-        "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
-        "<a class=\"internal-link\" href=\"Windows/Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>",
-        "<a class=\"internal-link\" href=\"index-windows/index-windows.md\"> index-windows </a>",
-        "<a class=\"internal-link\" href=\"index-windows/index-windows.md\"> index-windows </a>",
-        "<a class=\"internal-link\" href=\"Untitled 1.md\"> Untitled 1 </a>",
-        "<a class=\"internal-link\" href=\"_templates/pages/daily.md\"> daily </a>",
-        "<a class=\"internal-link\" href=\"used_links1624579725311.md\"> used_links1624579725311 </a>",
-        "<a class=\"internal-link\" href=\"_templates/pages/daily.md\"> daily </a>",
-        "<a class=\"internal-link\" href=\"_daily/2020-03-11.md\"> 2020-03-11 </a>",
-        "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"Fix OneDrive Installation Issues.md\"> Fix OneDrive Installation Issues </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

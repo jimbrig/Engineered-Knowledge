@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/MkDocs.md",
+            "file": "Notes/How To Change Explorer Drive Icons via Registry.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/MkDocs.md",
+                "file": "Notes/How To Change Explorer Drive Icons via Registry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/MkDocs.md",
+                "file": "Notes/How To Change Explorer Drive Icons via Registry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MkDocs.md"
+                "file": "Notes/How To Change Explorer Drive Icons via Registry.md"
               }
             }
           },
@@ -153,15 +153,15 @@
   },
   "active": "46478f059889803b",
   "lastOpenFiles": [
+    "Notes/How To Change Explorer Drive Icons via Registry.md",
+    "Notes/assets/Pasted image 20210722162826.png",
+    "Notes/assets/WinReg-DriveIconMissing.png",
+    "Notes/assets/Pasted image 20210721170547.png",
+    "Notes/Windows Registry Paths and Keys.md",
     "Notes/Untitled.md",
+    "Daily-Notes/2021-07-22.md",
+    "Notes/MkDocs.md",
     "Daily-Notes/2021-07-21.md",
-    "Untitled.md",
-    "WIP/Computer Setup.md",
-    "Templates Index.md",
-    "000 - INDEX.md",
-    "Notes/Obsidian Taxonomy.md",
-    "Notes/Obsidian Setup.md",
-    "Notes/Obsidian and PKM Resources.md",
-    "Notes/Classification of Note Types.md"
+    "Untitled.md"
   ]
 }

@@ -18,7 +18,7 @@ Tags: ["#MOC", "#Index"]
 
 040 - [[040 - Personal]]
 
-050 - [[050 - Writing]]
+050 - [[050 - Computer]]
 
 ## Areas of Responsibility
 

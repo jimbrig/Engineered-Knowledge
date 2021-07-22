@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "How To Change Explorer Drive Icons via Registry",
+      "path": "Notes/How To Change Explorer Drive Icons via Registry.md"
+    },
+    {
+      "basename": "WinReg-DriveIconMissing",
+      "path": "Notes/assets/WinReg-DriveIconMissing.png"
+    },
+    {
+      "basename": "Pasted image 20210721170547",
+      "path": "Notes/assets/Pasted image 20210721170547.png"
+    },
+    {
+      "basename": "Windows Registry Paths and Keys",
+      "path": "Notes/Windows Registry Paths and Keys.md"
+    },
+    {
+      "basename": "2021-07-22",
+      "path": "Daily-Notes/2021-07-22.md"
+    },
+    {
       "basename": "MkDocs",
       "path": "Notes/MkDocs.md"
     },
@@ -53,8 +73,8 @@
       "path": "WIP/Computer Backup System.md"
     },
     {
-      "basename": "050 - Writing",
-      "path": "050 - Writing.md"
+      "basename": "050 - Computer",
+      "path": "050 - Computer.md"
     },
     {
       "basename": "040 - Personal",
