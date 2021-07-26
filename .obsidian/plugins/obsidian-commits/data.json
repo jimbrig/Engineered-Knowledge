@@ -4730,9 +4730,9 @@
       "links": 0
     },
     "Changelog.md": {
-      "size": 0,
+      "size": 2040,
       "tags": 0,
-      "links": 33
+      "links": 42
     },
     "Actuarial Science/Loss Data Analytics.md": {
       "size": 4977,
@@ -5886,8 +5886,8 @@
     },
     "Maps of Content/020 - Development.md": {
       "size": 4930,
-      "tags": 0,
-      "links": 169
+      "tags": 3,
+      "links": 170
     },
     "Maps of Content/030 - Professional.md": {
       "size": 0,
@@ -5903,19 +5903,64 @@
       "size": 0,
       "tags": 0,
       "links": 10
+    },
+    "Daily-Notes/2021-07-24.md": {
+      "size": 1212,
+      "tags": 1,
+      "links": 3
+    },
+    "Notes/External/Managing projects with GTD.md": {
+      "size": 1813,
+      "tags": 0,
+      "links": 0
+    },
+    "Notes/External/How to Ship Side Projects 🚀 - DONN FELKER.md": {
+      "size": 12359,
+      "tags": 0,
+      "links": 0
+    },
+    "Notes/External/Proof of Concept code is not production code! - DONN FELKER.md": {
+      "size": 2779,
+      "tags": 0,
+      "links": 0
+    },
+    "Notes/External/Start an Offline Scan with Windows Defender from PowerShell.md": {
+      "size": 3955,
+      "tags": 5,
+      "links": 3
+    },
+    "Notes/External/Web terms 101 – Google Domains.md": {
+      "size": 4847,
+      "tags": 0,
+      "links": 0
+    },
+    "Daily-Notes/2021-07-25.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "Daily-Notes/2021-07-26.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "Notes/Tools - Resilio Sync.md": {
+      "size": 2916,
+      "tags": 5,
+      "links": 6
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 367,
-      "Create": 122,
-      "Link": 230,
-      "Expand": 31
+      "Create": 131,
+      "Link": 246,
+      "Expand": 33
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 41,
+      "0": 45,
       "1": 271,
       "2": 36,
       "3": 0,
@@ -5926,15 +5971,15 @@
       "8": 2,
       "9": 0,
       "10": 0,
-      "11": 33,
+      "11": 39,
       "12": 1,
       "13": 0,
       "14": 0,
       "15": 14,
       "16": 101,
       "17": 57,
-      "18": 15,
-      "19": 8,
+      "18": 17,
+      "19": 23,
       "20": 1,
       "21": 2,
       "22": 3,
@@ -5943,13 +5988,13 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 386,
+      "Mon": 396,
       "Tue": 23,
       "Wed": 57,
-      "Thu": 74,
+      "Thu": 76,
       "Fri": 41,
       "Sat": 0,
-      "Sun": 169
+      "Sun": 184
     }
   },
   "recentCommits": {
@@ -5985,9 +6030,20 @@
         "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>"
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-26.md\"> 2021-07-26 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-25.md\"> 2021-07-25 </a>",
+        "<a class=\"internal-link\" href=\"Notes/External/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
+        "<a class=\"internal-link\" href=\"Notes/External/Start an Offline Scan with Windows Defender from PowerShell.md\"> Start an Offline Scan with Windows Defender from PowerShell </a>",
+        "<a class=\"internal-link\" href=\"Notes/External/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
+        "<a class=\"internal-link\" href=\"Notes/External/How to Ship Side Projects 🚀 - DONN FELKER.md\"> How to Ship Side Projects 🚀 - DONN FELKER </a>",
+        "<a class=\"internal-link\" href=\"Notes/External/Managing projects with GTD.md\"> Managing projects with GTD </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-24.md\"> 2021-07-24 </a>",
         "<a class=\"internal-link\" href=\"Notes/WIP/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
@@ -6029,16 +6085,7 @@
         "<a class=\"internal-link\" href=\"_daily/2021-07-15.md\"> 2021-07-15 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-07-13.md\"> 2021-07-13 </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-07-12.md\"> 2021-07-12 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-11.md\"> 2021-07-11 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-08.md\"> 2021-07-08 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-07.md\"> 2021-07-07 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-06.md\"> 2021-07-06 </a>",
-        "<a class=\"internal-link\" href=\"Boxstarter.md\"> Boxstarter </a>",
-        "<a class=\"internal-link\" href=\"Windows/WinGet/Winget Settings.md\"> Winget Settings </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-03.md\"> 2021-07-03 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-30.md\"> 2021-06-30 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-29.md\"> 2021-06-29 </a>",
-        "<a class=\"internal-link\" href=\"Windows/Untitled 1.md\"> Untitled 1 </a>"
+        "<a class=\"internal-link\" href=\"_daily/2021-07-11.md\"> 2021-07-11 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
@@ -6094,6 +6141,12 @@
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Firefox Developer Edition.md\"> Firefox Developer Edition </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-26.md\"> 2021-07-26 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-24.md\"> 2021-07-24 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-25.md\"> 2021-07-25 </a>",
+        "<a class=\"internal-link\" href=\"Notes/External/Start an Offline Scan with Windows Defender from PowerShell.md\"> Start an Offline Scan with Windows Defender from PowerShell </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"Notes/WIP/Windows Developer Environment.md\"> Windows Developer Environment </a>",
         "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
@@ -6138,13 +6191,7 @@
         "<a class=\"internal-link\" href=\"_daily/2021-06-28.md\"> 2021-06-28 </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Command Line and PowerShell/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry Editor/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry Editor/Registry Editor.md\"> Registry Editor </a>",
-        "<a class=\"internal-link\" href=\"Windows/OneDrive.md\"> OneDrive </a>",
-        "<a class=\"internal-link\" href=\"Development/R/_assets/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Productivity/PKM/_assets/Obsidian.md\"> Obsidian </a>",
-        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"_daily/2020-03-11.md\"> 2020-03-11 </a>"
+        "<a class=\"internal-link\" href=\"Windows/Registry Editor/index.md\"> index </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6204,6 +6251,16 @@
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-26.md\"> 2021-07-26 </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-24.md\"> 2021-07-24 </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-25.md\"> 2021-07-25 </a>",
+        "<a class=\"internal-link\" href=\"Notes/External/Start an Offline Scan with Windows Defender from PowerShell.md\"> Start an Offline Scan with Windows Defender from PowerShell </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
@@ -6244,17 +6301,7 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"000 - INDEX.md\"> 000 - INDEX </a>",
         "<a class=\"internal-link\" href=\"Notes/Computer Setup.md\"> Computer Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>"
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

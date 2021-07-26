@@ -80,7 +80,9 @@
     "Subkeys",
     "WindowsDevEnv",
     "MacOS",
-    "Javascript"
+    "Javascript",
+    "Resilio",
+    "ResilioSync"
   ],
   "autoPairMarkdown": true,
   "smartIndentList": false

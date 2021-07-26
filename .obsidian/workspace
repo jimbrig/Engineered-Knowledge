@@ -4,13 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5816324f498ada8a",
+        "id": "1fdaebff24555a05",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Maps of Content/020 - Development.md",
+            "file": "Notes/Tools - Resilio Sync.md",
             "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "66426d31ed4fd4a2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Tools - Resilio Sync.md",
+            "mode": "source"
           }
         }
       }
@@ -84,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maps of Content/020 - Development.md",
+                "file": "Notes/Tools - Resilio Sync.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maps of Content/020 - Development.md",
+                "file": "Notes/Tools - Resilio Sync.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maps of Content/020 - Development.md"
+                "file": "Notes/Tools - Resilio Sync.md"
               }
             }
           },
@@ -151,17 +162,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "5816324f498ada8a",
+  "active": "66426d31ed4fd4a2",
   "lastOpenFiles": [
+    "Notes/Tools - Resilio Sync.md",
+    "Maps of Content/050 - Computer.md",
+    "Notes/Untitled.md",
+    "Daily-Notes/2021-07-26.md",
+    "Daily-Notes/2021-07-25.md",
+    "Notes/External/Start an Offline Scan with Windows Defender from PowerShell.md",
+    "Notes/External/How to Ship Side Projects 🚀 - DONN FELKER.md",
+    "Daily-Notes/2021-07-24.md",
     "Maps of Content/020 - Development.md",
-    "Maps of Content/assets/Pasted image 20210722180709.png",
-    "Maps of Content/assets/Pasted image 20210722180608.png",
-    "Maps of Content/010 - Productivity.md",
-    "Maps of Content/030 - Professional.md",
-    "000 - INDEX.md",
-    "010 - Productivity.md",
-    "020 - Development.md",
-    "Daily-Notes/2021-07-22.md",
-    "050 - Computer.md"
+    "Maps of Content/assets/Pasted image 20210722180709.png"
   ]
 }
