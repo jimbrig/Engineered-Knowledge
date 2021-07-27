@@ -3,7 +3,15 @@ Creation Date: 2021-07-26 11:35
 Last Modified Date: Monday 26th July 2021 11:35:33
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: ResilioSync
-Tags: ["#Tool", "#Windows", "#Resource", "#Computer", "#System", "#Video"]
+Tags:
+  [
+    "#Tools",
+    "#Windows",
+    "#Resources",
+    "#Computer",
+    "#Systems",
+    "#Videos"
+  ]
 ---
 
 # Tools - Resilio Sync
@@ -68,10 +76,14 @@ Here's the Video:
 
 ***
 
-Links: [[050 - Computer]] | [[Computer Setup]] | [[Computer Backup System]] | [[Windows Developer Environment]]
+Links: [[050 - Computer]] | [[Computer Setup - MOC]] | [[Computer Backup System]] | [[Windows Developer Environment]]
 
 Sources:
 - [Resilio File Sync Software](https://www.resilio.com/)
+- [Secure File Sharing with Sync Home | Resilio Sync](https://www.resilio.com/individuals/features/#sync-features)
+- [Sync (resilio.com)](https://help.resilio.com/hc/en-us)
+- [Get started with Sync – Sync (resilio.com)](https://help.resilio.com/hc/en-us/categories/200140177-Get-started-with-Sync)
+- [Synchronization Modes – Sync (resilio.com)](https://help.resilio.com/hc/en-us/articles/205457775-Synchronization-Modes)
 - [Learn how to get the most out of Resilio's powerful features](https://www.resilio.com/tech/sync-tutorials-and-howto/)
 
 

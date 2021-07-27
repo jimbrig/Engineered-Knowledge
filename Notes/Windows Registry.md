@@ -3,7 +3,7 @@ Creation Date: 2021-07-22 16:43
 Last Modified Date: Thursday 22nd July 2021 16:43:54
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Untitled
-Tags: ["#Windows", "#Config", "#Computer", "#MOC"]
+Tags: [ "#Windows", "#Configuration", "#Computer", "#MOC" ]
 ---
 
 # Windows Registry

@@ -3,7 +3,7 @@ Creation Date: 2021-07-21 17:17
 Last Modified Date: Wednesday 21st July 2021 17:17:36
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: CLI Tools
-Tags: ["#Dev", "#CLI", "#Tool"]
+Tags: [ "#Development", "#CLI", "#Tools" ]
 ---
 
 # CLI Tools

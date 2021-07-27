@@ -3,7 +3,7 @@ Creation Date: 2021-07-21 17:20
 Last Modified Date: Wednesday 21st July 2021 17:20:51
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: MkDocs
-Tags: ["#Dev", "#Docs"]
+Tags: [ "#Development", "#Documentation" ]
 ---
 
 # MkDocs

@@ -3,7 +3,7 @@ Creation Date: 2021-07-21 16:18
 Last Modified Date: Wednesday 21st July 2021 16:18:36
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: AutoHotKey-Scripts
-Tags: [ "#dev", "#Script", "#config" ]
+Tags: [ "#Development", "#Scripts", "#Configuration" ]
 ---
 
 # AutoHotKey Scripts
@@ -428,7 +428,7 @@ return
 
 - *Win + F1*: Open HotKeyHelp:
 
-![[Pasted image 20210721170547.png]]
+![[Cornell-Note-Example-Page.png]]
 
 Script:
 

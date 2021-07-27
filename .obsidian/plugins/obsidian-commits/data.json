@@ -4730,9 +4730,9 @@
       "links": 0
     },
     "Changelog.md": {
-      "size": 2040,
+      "size": 2355,
       "tags": 0,
-      "links": 42
+      "links": 48
     },
     "Actuarial Science/Loss Data Analytics.md": {
       "size": 4977,
@@ -5804,11 +5804,6 @@
       "tags": 3,
       "links": 22
     },
-    "Notes/CLI Tools.md": {
-      "size": 0,
-      "tags": 3,
-      "links": 0
-    },
     "Notes/Johnny Decimal System.md": {
       "size": 6927,
       "tags": 2,
@@ -5831,7 +5826,7 @@
     },
     "Notes/How To Change Explorer Drive Icons via Registry.md": {
       "size": 2938,
-      "tags": 5,
+      "tags": 4,
       "links": 14
     },
     "Notes/Windows Registry.md": {
@@ -5844,20 +5839,10 @@
       "tags": 0,
       "links": 0
     },
-    "Notes/WIP/Computer Setup.md": {
-      "size": 0,
-      "tags": 6,
-      "links": 19
-    },
     "Notes/WIP/Classification of Note Types.md": {
       "size": 4548,
       "tags": 3,
       "links": 5
-    },
-    "Notes/WIP/Obsidian and PKM Resources.md": {
-      "size": 3893,
-      "tags": 4,
-      "links": 17
     },
     "Notes/WIP/Obsidian Setup.md": {
       "size": 3093,
@@ -5945,23 +5930,68 @@
       "links": 3
     },
     "Notes/Tools - Resilio Sync.md": {
-      "size": 2916,
-      "tags": 5,
-      "links": 6
+      "size": 3377,
+      "tags": 6,
+      "links": 11
+    },
+    "Notes/External/WSL-Notes.md": {
+      "size": 1667,
+      "tags": 0,
+      "links": 4
+    },
+    "Notes/WIP/Focused Note Taking via the Cornell Notes Method.md": {
+      "size": 2117,
+      "tags": 4,
+      "links": 1
+    },
+    "Notes/Mermaid Diagrams.md": {
+      "size": 2400,
+      "tags": 6,
+      "links": 2
+    },
+    "Maps of Content/Markdown - MOC.md": {
+      "size": 0,
+      "tags": 4,
+      "links": 4
+    },
+    "Maps of Content/Computer Setup - MOC.md": {
+      "size": 0,
+      "tags": 6,
+      "links": 19
+    },
+    "Maps of Content/Obsidian and PKM Resources - MOC.md": {
+      "size": 3893,
+      "tags": 4,
+      "links": 17
+    },
+    "Maps of Content/CLI Tools - MOC.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
+    },
+    "Daily-Notes/2021-07-27.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "Notes/Kubernetes Sandbox with minikube and kubectl.md": {
+      "size": 11913,
+      "tags": 9,
+      "links": 25
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 367,
-      "Create": 131,
-      "Link": 246,
-      "Expand": 33
+      "Refactor": 380,
+      "Create": 137,
+      "Link": 270,
+      "Expand": 41
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 45,
-      "1": 271,
+      "0": 53,
+      "1": 284,
       "2": 36,
       "3": 0,
       "4": 7,
@@ -5971,14 +6001,14 @@
       "8": 2,
       "9": 0,
       "10": 0,
-      "11": 39,
+      "11": 42,
       "12": 1,
       "13": 0,
       "14": 0,
       "15": 14,
       "16": 101,
-      "17": 57,
-      "18": 17,
+      "17": 67,
+      "18": 34,
       "19": 23,
       "20": 1,
       "21": 2,
@@ -5988,8 +6018,8 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 396,
-      "Tue": 23,
+      "Mon": 426,
+      "Tue": 44,
       "Wed": 57,
       "Thu": 76,
       "Fri": 41,
@@ -6032,9 +6062,23 @@
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>"
+        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
+        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
+        "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-27.md\"> 2021-07-27 </a>",
+        "<a class=\"internal-link\" href=\"Markdown.md\"> Markdown </a>",
+        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Notes/External/WSL-Notes.md\"> WSL-Notes </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-26.md\"> 2021-07-26 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-25.md\"> 2021-07-25 </a>",
@@ -6079,15 +6123,19 @@
         "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Evergreen note titles are like APIs.md\"> Evergreen note titles are like APIs </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-18.md\"> 2021-07-18 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-15.md\"> 2021-07-15 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-13.md\"> 2021-07-13 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-12.md\"> 2021-07-12 </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-07-11.md\"> 2021-07-11 </a>"
+        "<a class=\"internal-link\" href=\"Templates/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Maps of Content/CLI Tools - MOC.md\"> CLI Tools - MOC </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/CLI Tools.md\"> CLI Tools </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/Obsidian and PKM Resources - MOC.md\"> Obsidian and PKM Resources - MOC </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/Computer Setup - MOC.md\"> Computer Setup - MOC </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/Computer Setup.md\"> Computer Setup </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/Markdown - MOC.md\"> Markdown - MOC </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/Markdown.md\"> Markdown </a>",
+        "<a class=\"internal-link\" href=\"Notes/Markdown.md\"> Markdown </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
         "<a class=\"internal-link\" href=\"Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
         "<a class=\"internal-link\" href=\"Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
         "<a class=\"internal-link\" href=\"Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
@@ -6128,19 +6176,16 @@
         "<a class=\"internal-link\" href=\"Development/Web Development/NodeJS/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/NodeJS/nodejs.md\"> nodejs </a>",
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Google Chrome/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Google Chrome/Chrome Tips and Tricks.md\"> Chrome Tips and Tricks </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Google Chrome/google-chrome.md\"> google-chrome </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Google Chrome/chrome-dev-tools.md\"> chrome-dev-tools </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge-Hotkeys.md\"> Edge-Hotkeys </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge Experimental Features.md\"> Edge Experimental Features </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Web Browsers.md\"> Web Browsers </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Web Browsers - Tips & Tricks.md\"> Web Browsers - Tips & Tricks </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/stylish-themes.md\"> stylish-themes </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/safari.md\"> safari </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Firefox Developer Edition.md\"> Firefox Developer Edition </a>"
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Google Chrome/Chrome Tips and Tricks.md\"> Chrome Tips and Tricks </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-27.md\"> 2021-07-27 </a>",
+        "<a class=\"internal-link\" href=\"Markdown.md\"> Markdown </a>",
+        "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
+        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
         "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-26.md\"> 2021-07-26 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-24.md\"> 2021-07-24 </a>",
@@ -6184,14 +6229,7 @@
         "<a class=\"internal-link\" href=\"Boxstarter.md\"> Boxstarter </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-06-29.md\"> 2021-06-29 </a>",
         "<a class=\"internal-link\" href=\"Windows/Windows Drivers.md\"> Windows Drivers </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge Startup Boost.md\"> Edge Startup Boost </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Improving Memory Usage in Microsoft Edge.md\"> Improving Memory Usage in Microsoft Edge </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
-        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Desired State Oriented Programming.md\"> Desired State Oriented Programming </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-28.md\"> 2021-06-28 </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Command Line and PowerShell/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Windows/Registry Editor/index.md\"> index </a>"
+        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge Startup Boost.md\"> Edge Startup Boost </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6251,6 +6289,23 @@
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-27.md\"> 2021-07-27 </a>",
+        "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Maps of Content/Markdown - MOC.md\"> Markdown - MOC </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/External/WSL-Notes.md\"> WSL-Notes </a>",
+        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
         "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
@@ -6284,24 +6339,7 @@
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Notes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-22.md\"> 2021-07-22 </a>",
-        "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>",
-        "<a class=\"internal-link\" href=\"Notes/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-21.md\"> 2021-07-21 </a>",
-        "<a class=\"internal-link\" href=\"Templates/Templates Index.md\"> Templates Index </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"000 - INDEX.md\"> 000 - INDEX </a>",
-        "<a class=\"internal-link\" href=\"Notes/Computer Setup.md\"> Computer Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>"
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6320,7 +6358,8 @@
         "<a class=\"internal-link\" href=\"Development/Web Development/browsers/Edge Experimental Features.md\"> Edge Experimental Features </a>",
         "<a class=\"internal-link\" href=\"Development/R/Plumber Logging.md\"> Plumber Logging </a>",
         "<a class=\"internal-link\" href=\"_templates/daily_note_template.md\"> daily_note_template </a>",
-        "<a class=\"internal-link\" href=\"_daily/2021-06-24.md\"> 2021-06-24 </a>"
+        "<a class=\"internal-link\" href=\"_daily/2021-06-24.md\"> 2021-06-24 </a>",
+        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6347,7 +6386,9 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ]
     }
   },

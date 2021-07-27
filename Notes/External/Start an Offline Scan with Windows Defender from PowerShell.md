@@ -3,7 +3,14 @@ Creation Date: 2021-07-24 03:13
 Last Modified Date: Saturday 24th July 2021 03:16:10
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Start an Offline Scan with Windows Defender from PowerShell
-Tags: ["PowerShell", "#Windows", "#Security", "Dev", "#Scripts"]
+Tags:
+  [
+    "PowerShell",
+    "#Windows",
+    "#Security",
+    "Development",
+    "#Scripts"
+  ]
 ---
 
 # Start an Offline Scan with Windows Defender from PowerShell

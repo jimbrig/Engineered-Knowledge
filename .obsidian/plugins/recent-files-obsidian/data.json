@@ -1,144 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Tools - Resilio Sync",
-      "path": "Notes/Tools - Resilio Sync.md"
+      "basename": "Kubernetes Sandbox with minikube and kubectl",
+      "path": "Notes/Kubernetes Sandbox with minikube and kubectl.md"
     },
     {
-      "basename": "050 - Computer",
-      "path": "Maps of Content/050 - Computer.md"
+      "basename": "Screenshot 2021-07-27 005944",
+      "path": "Notes/assets/Screenshot 2021-07-27 005944.png"
     },
     {
-      "basename": "2021-07-26",
-      "path": "Daily-Notes/2021-07-26.md"
+      "basename": "Pasted image 20210727005711",
+      "path": "Notes/assets/Pasted image 20210727005711.png"
     },
     {
-      "basename": "2021-07-25",
-      "path": "Daily-Notes/2021-07-25.md"
+      "basename": "2021-07-27",
+      "path": "Daily-Notes/2021-07-27.md"
     },
     {
-      "basename": "Start an Offline Scan with Windows Defender from PowerShell",
-      "path": "Notes/External/Start an Offline Scan with Windows Defender from PowerShell.md"
-    },
-    {
-      "basename": "How to Ship Side Projects 🚀 - DONN FELKER",
-      "path": "Notes/External/How to Ship Side Projects 🚀 - DONN FELKER.md"
-    },
-    {
-      "basename": "2021-07-24",
-      "path": "Daily-Notes/2021-07-24.md"
-    },
-    {
-      "basename": "020 - Development",
-      "path": "Maps of Content/020 - Development.md"
-    },
-    {
-      "basename": "Development-LocalGraphView",
-      "path": "Maps of Content/assets/Development-LocalGraphView.png"
-    },
-    {
-      "basename": "010 - Productivity",
-      "path": "Maps of Content/010 - Productivity.md"
-    },
-    {
-      "basename": "030 - Professional",
-      "path": "Maps of Content/030 - Professional.md"
-    },
-    {
-      "basename": "000 - INDEX",
-      "path": "Maps of Content/000 - INDEX.md"
-    },
-    {
-      "basename": "2021-07-22",
-      "path": "Daily-Notes/2021-07-22.md"
-    },
-    {
-      "basename": "040 - Personal",
-      "path": "Maps of Content/040 - Personal.md"
-    },
-    {
-      "basename": "Windows Developer Environment",
-      "path": "Notes/WIP/Windows Developer Environment.md"
-    },
-    {
-      "basename": "Windows Registry",
-      "path": "Notes/Windows Registry.md"
-    },
-    {
-      "basename": "Obsidian Taxonomy",
-      "path": "Notes/WIP/Obsidian Taxonomy.md"
-    },
-    {
-      "basename": "Obsidian Setup",
-      "path": "Notes/WIP/Obsidian Setup.md"
-    },
-    {
-      "basename": "Obsidian and PKM Resources",
-      "path": "Notes/WIP/Obsidian and PKM Resources.md"
-    },
-    {
-      "basename": "MkDocs",
-      "path": "Notes/MkDocs.md"
-    },
-    {
-      "basename": "Johnny Decimal System",
-      "path": "Notes/Johnny Decimal System.md"
-    },
-    {
-      "basename": "Classification of Note Types",
-      "path": "Notes/WIP/Classification of Note Types.md"
-    },
-    {
-      "basename": "AutoHotKey Scripts",
-      "path": "Notes/AutoHotKey Scripts.md"
-    },
-    {
-      "basename": "Computer Setup",
-      "path": "Notes/WIP/Computer Setup.md"
-    },
-    {
-      "basename": "Computer Backup System",
-      "path": "Notes/WIP/Computer Backup System.md"
-    },
-    {
-      "basename": "Changelog",
-      "path": "Changelog.md"
-    },
-    {
-      "basename": "Windows Registry Paths and Keys",
-      "path": "Notes/Windows Registry Paths and Keys.md"
-    },
-    {
-      "basename": "How To Change Explorer Drive Icons via Registry",
-      "path": "Notes/How To Change Explorer Drive Icons via Registry.md"
-    },
-    {
-      "basename": "WinReg-DriveIconMissing",
-      "path": "Notes/assets/WinReg-DriveIconMissing.png"
-    },
-    {
-      "basename": "Pasted image 20210721170547",
-      "path": "Notes/assets/Pasted image 20210721170547.png"
-    },
-    {
-      "basename": "CLI Tools",
-      "path": "Notes/CLI Tools.md"
-    },
-    {
-      "basename": "2021-07-21",
-      "path": "Daily-Notes/2021-07-21.md"
-    },
-    {
-      "basename": "Templates Index",
-      "path": "Templates/Templates Index.md"
-    },
-    {
-      "basename": "2021-07-20",
-      "path": "Daily-Notes/2021-07-20.md"
-    },
-    {
-      "basename": "2021-07-19",
-      "path": "Daily-Notes/2021-07-19.md"
+      "basename": "Cornell-Note-Example-Page",
+      "path": "Notes/assets/Cornell-Note-Example-Page.png"
     }
   ],
   "omittedPaths": [],

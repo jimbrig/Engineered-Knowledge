@@ -3,7 +3,7 @@ Creation Date: <% tp.file.creation_date() %>
 Last Modified Date: <% tp.date.now("dddd Do MMMM YYYY HH:mm:ss") %>
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: <% tp.file.creation_date() %>
-Tags: [ "#Daily-Note" ]
+Tags: [ "#DailyNotes" ]
 ---
 
 << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>

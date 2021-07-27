@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1fdaebff24555a05",
+        "id": "81b45848071cd797",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Tools - Resilio Sync.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "66426d31ed4fd4a2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Tools - Resilio Sync.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -50,8 +36,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Scripts",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -95,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Tools - Resilio Sync.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Tools - Resilio Sync.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notes/Tools - Resilio Sync.md"
-              }
+              "state": {}
             }
           },
           {
@@ -162,17 +144,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "66426d31ed4fd4a2",
+  "active": "81b45848071cd797",
   "lastOpenFiles": [
-    "Notes/Tools - Resilio Sync.md",
-    "Maps of Content/050 - Computer.md",
+    "Notes/Kubernetes Sandbox with minikube and kubectl.md",
+    "Notes/assets/Screenshot 2021-07-27 005944.png",
+    "Notes/assets/Pasted image 20210727005711.png",
+    "Notes/assets/Pasted image 20210727005630.png",
     "Notes/Untitled.md",
-    "Daily-Notes/2021-07-26.md",
-    "Daily-Notes/2021-07-25.md",
-    "Notes/External/Start an Offline Scan with Windows Defender from PowerShell.md",
-    "Notes/External/How to Ship Side Projects 🚀 - DONN FELKER.md",
-    "Daily-Notes/2021-07-24.md",
-    "Maps of Content/020 - Development.md",
-    "Maps of Content/assets/Pasted image 20210722180709.png"
+    "Daily-Notes/2021-07-27.md",
+    "Notes/assets/Cornell-Note-Example-Page.png",
+    "Notes/WIP/assets/Pasted image 20210726182405.png",
+    "Notes/WIP/Focused Note Taking via the Cornell Notes Method.md",
+    "Notes/Mermaid Diagrams.md"
   ]
 }

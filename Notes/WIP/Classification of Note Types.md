@@ -3,7 +3,7 @@ Creation Date: 2021-07-20 23:22
 Last Modified Date: Tuesday 20th July 2021 23:23:53
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Classification of Note Types
-Tags: ["#Obsidian", "#PKM", "#Meta"]
+Tags: [ "#Obsidian", "#PKM", "#Metadata" ]
 ---
 
 # Classification of Note Types

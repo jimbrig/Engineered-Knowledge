@@ -18,7 +18,7 @@ Tags: []
 
 ## Computer Setup Notes
 
-[[Computer Setup]] | [[Computer Backup System]]
+[[Computer Setup - MOC]] | [[Computer Backup System]]
 
 ## Windows Notes
 

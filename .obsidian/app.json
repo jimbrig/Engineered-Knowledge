@@ -1,4 +1,5 @@
 {
+  "obsidianCss": false,
   "spellcheck": true,
   "showFrontmatter": false,
   "foldHeading": true,
@@ -82,7 +83,14 @@
     "MacOS",
     "Javascript",
     "Resilio",
-    "ResilioSync"
+    "ResilioSync",
+    "GitLab",
+    "Jaoude",
+    "Emilie",
+    "Markdownish",
+    "Kubernetes",
+    "minikube",
+    "kubectl"
   ],
   "autoPairMarkdown": true,
   "smartIndentList": false

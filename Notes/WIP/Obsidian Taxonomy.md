@@ -3,7 +3,7 @@ Creation Date: 2021-07-20 23:15
 Last Modified Date: Tuesday 20th July 2021 23:15:09
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Untitled
-Tags: ["#Obsidian", "#PKM", "#Meta"]
+Tags: [ "#Obsidian", "#PKM", "#Metadata" ]
 ---
 
 # Obsidian Taxonomy

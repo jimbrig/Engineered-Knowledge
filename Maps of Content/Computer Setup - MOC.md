@@ -3,7 +3,15 @@ Creation Date: 2021-07-21 00:27
 Last Modified Date: Wednesday 21st July 2021 00:27:52
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Computer-Setup
-Tags: ["#Computer", "#Dev", "#Tool", "#System", "#Config", "#Guide"]
+Tags:
+  [
+    "#Computer",
+    "#Development",
+    "#Tools",
+    "#Systems",
+    "#Configuration",
+    "#Guides"
+  ]
 ---
 
 # Computer Setup
