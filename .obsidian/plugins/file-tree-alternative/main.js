@@ -8479,7 +8479,7 @@ function useDropzone() {
     dispatch({
       type: "reset"
     });
-  }, [multiple, accept, minSize, maxSize, maxFiles, getFilesFromEvent, onDrop, onDropAccepted, onDropRejected, noDragEventsBubbling, validator]);
+  }, [multiple, accept, minSize, maxSize, maxFiles, getFilesFromEvent, onDrop, onDropAccepted, onDropRejected, noDragEventsBubbling]);
   var composeHandler = function composeHandler2(fn) {
     return disabled ? null : fn;
   };
@@ -8583,7 +8583,13 @@ function reducer(state, action) {
         fileRejections: action.fileRejections
       });
     case "reset":
-      return _objectSpread({}, initialState);
+      return _objectSpread(_objectSpread({}, state), {}, {
+        isFileDialogActive: false,
+        isDragActive: false,
+        draggedFiles: [],
+        acceptedFiles: [],
+        fileRejections: []
+      });
     default:
       return state;
   }
@@ -10084,8 +10090,8 @@ var VaultChangeModal = class extends import_obsidian.Modal {
     } else if (this.action === "create note") {
       headerText = "Create Note: Provide Name";
     }
-    const headerEl = contentEl.createEl("h4", { text: headerText });
-    headerEl.style.cssText = "text-align: center; font-weight: normal";
+    const headerEl = contentEl.createEl("div", { text: headerText });
+    headerEl.addClass("modal-title");
     const inputEl = contentEl.createEl("input");
     inputEl.style.cssText = "width: 100%; height: 2.5em; margin-bottom: 15px;";
     if (this.action === "rename") {

@@ -1,7 +1,6 @@
 'use strict';
 
 var obsidian = require('obsidian');
-require('constants');
 require('assert');
 
 function _interopNamespace(e) {
@@ -78,130 +77,52 @@ function get_slot_changes(definition, $$scope, dirty, fn) {
     }
     return $$scope.dirty;
 }
-function update_slot(slot, slot_definition, ctx, $$scope, dirty, get_slot_changes_fn, get_slot_context_fn) {
-    const slot_changes = get_slot_changes(slot_definition, $$scope, dirty, get_slot_changes_fn);
+function update_slot_base(slot, slot_definition, ctx, $$scope, slot_changes, get_slot_context_fn) {
     if (slot_changes) {
         const slot_context = get_slot_context(slot_definition, ctx, $$scope, get_slot_context_fn);
         slot.p(slot_context, slot_changes);
     }
 }
+function get_all_dirty_from_scope($$scope) {
+    if ($$scope.ctx.length > 32) {
+        const dirty = [];
+        const length = $$scope.ctx.length / 32;
+        for (let i = 0; i < length; i++) {
+            dirty[i] = -1;
+        }
+        return dirty;
+    }
+    return -1;
+}
 function action_destroyer(action_result) {
     return action_result && is_function(action_result.destroy) ? action_result.destroy : noop;
 }
-
-// Track which nodes are claimed during hydration. Unclaimed nodes can then be removed from the DOM
-// at the end of hydration without touching the remaining nodes.
-let is_hydrating = false;
-function start_hydrating() {
-    is_hydrating = true;
-}
-function end_hydrating() {
-    is_hydrating = false;
-}
-function upper_bound(low, high, key, value) {
-    // Return first index of value larger than input value in the range [low, high)
-    while (low < high) {
-        const mid = low + ((high - low) >> 1);
-        if (key(mid) <= value) {
-            low = mid + 1;
-        }
-        else {
-            high = mid;
-        }
-    }
-    return low;
-}
-function init_hydrate(target) {
-    if (target.hydrate_init)
-        return;
-    target.hydrate_init = true;
-    // We know that all children have claim_order values since the unclaimed have been detached
-    const children = target.childNodes;
-    /*
-    * Reorder claimed children optimally.
-    * We can reorder claimed children optimally by finding the longest subsequence of
-    * nodes that are already claimed in order and only moving the rest. The longest
-    * subsequence subsequence of nodes that are claimed in order can be found by
-    * computing the longest increasing subsequence of .claim_order values.
-    *
-    * This algorithm is optimal in generating the least amount of reorder operations
-    * possible.
-    *
-    * Proof:
-    * We know that, given a set of reordering operations, the nodes that do not move
-    * always form an increasing subsequence, since they do not move among each other
-    * meaning that they must be already ordered among each other. Thus, the maximal
-    * set of nodes that do not move form a longest increasing subsequence.
-    */
-    // Compute longest increasing subsequence
-    // m: subsequence length j => index k of smallest value that ends an increasing subsequence of length j
-    const m = new Int32Array(children.length + 1);
-    // Predecessor indices + 1
-    const p = new Int32Array(children.length);
-    m[0] = -1;
-    let longest = 0;
-    for (let i = 0; i < children.length; i++) {
-        const current = children[i].claim_order;
-        // Find the largest subsequence length such that it ends in a value less than our current value
-        // upper_bound returns first greater value, so we subtract one
-        const seqLen = upper_bound(1, longest + 1, idx => children[m[idx]].claim_order, current) - 1;
-        p[i] = m[seqLen] + 1;
-        const newLen = seqLen + 1;
-        // We can guarantee that current is the smallest value. Otherwise, we would have generated a longer sequence.
-        m[newLen] = i;
-        longest = Math.max(newLen, longest);
-    }
-    // The longest increasing subsequence of nodes (initially reversed)
-    const lis = [];
-    // The rest of the nodes, nodes that will be moved
-    const toMove = [];
-    let last = children.length - 1;
-    for (let cur = m[longest] + 1; cur != 0; cur = p[cur - 1]) {
-        lis.push(children[cur - 1]);
-        for (; last >= cur; last--) {
-            toMove.push(children[last]);
-        }
-        last--;
-    }
-    for (; last >= 0; last--) {
-        toMove.push(children[last]);
-    }
-    lis.reverse();
-    // We sort the nodes being moved to guarantee that their insertion order matches the claim order
-    toMove.sort((a, b) => a.claim_order - b.claim_order);
-    // Finally, we move the nodes
-    for (let i = 0, j = 0; i < toMove.length; i++) {
-        while (j < lis.length && toMove[i].claim_order >= lis[j].claim_order) {
-            j++;
-        }
-        const anchor = j < lis.length ? lis[j] : null;
-        target.insertBefore(toMove[i], anchor);
-    }
-}
 function append(target, node) {
-    if (is_hydrating) {
-        init_hydrate(target);
-        if ((target.actual_end_child === undefined) || ((target.actual_end_child !== null) && (target.actual_end_child.parentElement !== target))) {
-            target.actual_end_child = target.firstChild;
-        }
-        if (node !== target.actual_end_child) {
-            target.insertBefore(node, target.actual_end_child);
-        }
-        else {
-            target.actual_end_child = node.nextSibling;
-        }
+    target.appendChild(node);
+}
+function append_styles(target, style_sheet_id, styles) {
+    const append_styles_to = get_root_for_style(target);
+    if (!append_styles_to.getElementById(style_sheet_id)) {
+        const style = element('style');
+        style.id = style_sheet_id;
+        style.textContent = styles;
+        append_stylesheet(append_styles_to, style);
     }
-    else if (node.parentNode !== target) {
-        target.appendChild(node);
+}
+function get_root_for_style(node) {
+    if (!node)
+        return document;
+    const root = node.getRootNode ? node.getRootNode() : node.ownerDocument;
+    if (root.host) {
+        return root;
     }
+    return document;
+}
+function append_stylesheet(node, style) {
+    append(node.head || node, style);
 }
 function insert(target, node, anchor) {
-    if (is_hydrating && !anchor) {
-        append(target, node);
-    }
-    else if (node.parentNode !== target || (anchor && node.nextSibling !== anchor)) {
-        target.insertBefore(node, anchor || null);
-    }
+    target.insertBefore(node, anchor || null);
 }
 function detach(node) {
     node.parentNode.removeChild(node);
@@ -275,9 +196,9 @@ function select_value(select) {
 function toggle_class(element, name, toggle) {
     element.classList[toggle ? 'add' : 'remove'](name);
 }
-function custom_event(type, detail) {
+function custom_event(type, detail, bubbles = false) {
     const e = document.createEvent('CustomEvent');
-    e.initCustomEvent(type, false, false, detail);
+    e.initCustomEvent(type, bubbles, false, detail);
     return e;
 }
 
@@ -585,7 +506,7 @@ function make_dirty(component, i) {
     }
     component.$$.dirty[(i / 31) | 0] |= (1 << (i % 31));
 }
-function init(component, options, instance, create_fragment, not_equal, props, dirty = [-1]) {
+function init(component, options, instance, create_fragment, not_equal, props, append_styles, dirty = [-1]) {
     const parent_component = current_component;
     set_current_component(component);
     const $$ = component.$$ = {
@@ -606,8 +527,10 @@ function init(component, options, instance, create_fragment, not_equal, props, d
         // everything else
         callbacks: blank_object(),
         dirty,
-        skip_bound: false
+        skip_bound: false,
+        root: options.target || parent_component.$$.root
     };
+    append_styles && append_styles($$.root);
     let ready = false;
     $$.ctx = instance
         ? instance(component, options.props || {}, (i, ret, ...rest) => {
@@ -628,7 +551,6 @@ function init(component, options, instance, create_fragment, not_equal, props, d
     $$.fragment = create_fragment ? create_fragment($$.ctx) : false;
     if (options.target) {
         if (options.hydrate) {
-            start_hydrating();
             const nodes = children(options.target);
             // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
             $$.fragment && $$.fragment.l(nodes);
@@ -641,7 +563,6 @@ function init(component, options, instance, create_fragment, not_equal, props, d
         if (options.intro)
             transition_in(component.$$.fragment);
         mount_component(component, options.target, options.anchor, options.customElement);
-        end_hydrating();
         flush();
     }
     set_current_component(parent_component);
@@ -710,9 +631,9 @@ var faTrash = {
   icon: [448, 512, [], "f1f8", "M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"]
 };
 
-/* node_modules/svelte-awesome/components/svg/Path.svelte generated by Svelte v3.38.3 */
+/* node_modules/svelte-awesome/components/svg/Path.svelte generated by Svelte v3.41.0 */
 
-function create_fragment$g(ctx) {
+function create_fragment$h(ctx) {
 	let path;
 	let path_key_value;
 
@@ -751,13 +672,13 @@ function create_fragment$g(ctx) {
 	};
 }
 
-function instance$g($$self, $$props, $$invalidate) {
-	let { id = "" } = $$props;
+function instance$h($$self, $$props, $$invalidate) {
+	let { id = '' } = $$props;
 	let { data = {} } = $$props;
 
 	$$self.$$set = $$props => {
-		if ("id" in $$props) $$invalidate(0, id = $$props.id);
-		if ("data" in $$props) $$invalidate(1, data = $$props.data);
+		if ('id' in $$props) $$invalidate(0, id = $$props.id);
+		if ('data' in $$props) $$invalidate(1, data = $$props.data);
 	};
 
 	return [id, data];
@@ -766,13 +687,13 @@ function instance$g($$self, $$props, $$invalidate) {
 class Path extends SvelteComponent {
 	constructor(options) {
 		super();
-		init(this, options, instance$g, create_fragment$g, safe_not_equal, { id: 0, data: 1 });
+		init(this, options, instance$h, create_fragment$h, safe_not_equal, { id: 0, data: 1 });
 	}
 }
 
-/* node_modules/svelte-awesome/components/svg/Polygon.svelte generated by Svelte v3.38.3 */
+/* node_modules/svelte-awesome/components/svg/Polygon.svelte generated by Svelte v3.41.0 */
 
-function create_fragment$f(ctx) {
+function create_fragment$g(ctx) {
 	let polygon;
 	let polygon_key_value;
 
@@ -811,13 +732,13 @@ function create_fragment$f(ctx) {
 	};
 }
 
-function instance$f($$self, $$props, $$invalidate) {
-	let { id = "" } = $$props;
+function instance$g($$self, $$props, $$invalidate) {
+	let { id = '' } = $$props;
 	let { data = {} } = $$props;
 
 	$$self.$$set = $$props => {
-		if ("id" in $$props) $$invalidate(0, id = $$props.id);
-		if ("data" in $$props) $$invalidate(1, data = $$props.data);
+		if ('id' in $$props) $$invalidate(0, id = $$props.id);
+		if ('data' in $$props) $$invalidate(1, data = $$props.data);
 	};
 
 	return [id, data];
@@ -826,13 +747,13 @@ function instance$f($$self, $$props, $$invalidate) {
 class Polygon extends SvelteComponent {
 	constructor(options) {
 		super();
-		init(this, options, instance$f, create_fragment$f, safe_not_equal, { id: 0, data: 1 });
+		init(this, options, instance$g, create_fragment$g, safe_not_equal, { id: 0, data: 1 });
 	}
 }
 
-/* node_modules/svelte-awesome/components/svg/Raw.svelte generated by Svelte v3.38.3 */
+/* node_modules/svelte-awesome/components/svg/Raw.svelte generated by Svelte v3.41.0 */
 
-function create_fragment$e(ctx) {
+function create_fragment$f(ctx) {
 	let g;
 
 	return {
@@ -853,8 +774,8 @@ function create_fragment$e(ctx) {
 	};
 }
 
-function instance$e($$self, $$props, $$invalidate) {
-	let cursor = 870711;
+function instance$f($$self, $$props, $$invalidate) {
+	let cursor = 0xd4937;
 
 	function getId() {
 		cursor += 1;
@@ -892,7 +813,7 @@ function instance$e($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("data" in $$props) $$invalidate(1, data = $$props.data);
+		if ('data' in $$props) $$invalidate(1, data = $$props.data);
 	};
 
 	$$self.$$.update = () => {
@@ -907,20 +828,17 @@ function instance$e($$self, $$props, $$invalidate) {
 class Raw extends SvelteComponent {
 	constructor(options) {
 		super();
-		init(this, options, instance$e, create_fragment$e, safe_not_equal, { data: 1 });
+		init(this, options, instance$f, create_fragment$f, safe_not_equal, { data: 1 });
 	}
 }
 
-/* node_modules/svelte-awesome/components/svg/Svg.svelte generated by Svelte v3.38.3 */
+/* node_modules/svelte-awesome/components/svg/Svg.svelte generated by Svelte v3.41.0 */
 
-function add_css$a() {
-	var style = element("style");
-	style.id = "svelte-1dof0an-style";
-	style.textContent = ".fa-icon.svelte-1dof0an{display:inline-block;fill:currentColor}.fa-flip-horizontal.svelte-1dof0an{transform:scale(-1, 1)}.fa-flip-vertical.svelte-1dof0an{transform:scale(1, -1)}.fa-spin.svelte-1dof0an{animation:svelte-1dof0an-fa-spin 1s 0s infinite linear}.fa-inverse.svelte-1dof0an{color:#fff}.fa-pulse.svelte-1dof0an{animation:svelte-1dof0an-fa-spin 1s infinite steps(8)}@keyframes svelte-1dof0an-fa-spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}";
-	append(document.head, style);
+function add_css$a(target) {
+	append_styles(target, "svelte-1dof0an", ".fa-icon.svelte-1dof0an{display:inline-block;fill:currentColor}.fa-flip-horizontal.svelte-1dof0an{transform:scale(-1, 1)}.fa-flip-vertical.svelte-1dof0an{transform:scale(1, -1)}.fa-spin.svelte-1dof0an{animation:svelte-1dof0an-fa-spin 1s 0s infinite linear}.fa-inverse.svelte-1dof0an{color:#fff}.fa-pulse.svelte-1dof0an{animation:svelte-1dof0an-fa-spin 1s infinite steps(8)}@keyframes svelte-1dof0an-fa-spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}");
 }
 
-function create_fragment$d(ctx) {
+function create_fragment$e(ctx) {
 	let svg;
 	let svg_class_value;
 	let svg_role_value;
@@ -939,14 +857,14 @@ function create_fragment$d(ctx) {
 			attr(svg, "width", /*width*/ ctx[1]);
 			attr(svg, "height", /*height*/ ctx[2]);
 			attr(svg, "aria-label", /*label*/ ctx[11]);
-			attr(svg, "role", svg_role_value = /*label*/ ctx[11] ? "img" : "presentation");
+			attr(svg, "role", svg_role_value = /*label*/ ctx[11] ? 'img' : 'presentation');
 			attr(svg, "viewBox", /*box*/ ctx[3]);
 			attr(svg, "style", /*style*/ ctx[10]);
 			toggle_class(svg, "fa-spin", /*spin*/ ctx[4]);
 			toggle_class(svg, "fa-pulse", /*pulse*/ ctx[6]);
 			toggle_class(svg, "fa-inverse", /*inverse*/ ctx[5]);
-			toggle_class(svg, "fa-flip-horizontal", /*flip*/ ctx[7] === "horizontal");
-			toggle_class(svg, "fa-flip-vertical", /*flip*/ ctx[7] === "vertical");
+			toggle_class(svg, "fa-flip-horizontal", /*flip*/ ctx[7] === 'horizontal');
+			toggle_class(svg, "fa-flip-vertical", /*flip*/ ctx[7] === 'vertical');
 		},
 		m(target, anchor) {
 			insert(target, svg, anchor);
@@ -960,7 +878,16 @@ function create_fragment$d(ctx) {
 		p(ctx, [dirty]) {
 			if (default_slot) {
 				if (default_slot.p && (!current || dirty & /*$$scope*/ 4096)) {
-					update_slot(default_slot, default_slot_template, ctx, /*$$scope*/ ctx[12], !current ? -1 : dirty, null, null);
+					update_slot_base(
+						default_slot,
+						default_slot_template,
+						ctx,
+						/*$$scope*/ ctx[12],
+						!current
+						? get_all_dirty_from_scope(/*$$scope*/ ctx[12])
+						: get_slot_changes(default_slot_template, /*$$scope*/ ctx[12], dirty, null),
+						null
+					);
 				}
 			}
 
@@ -988,7 +915,7 @@ function create_fragment$d(ctx) {
 				attr(svg, "aria-label", /*label*/ ctx[11]);
 			}
 
-			if (!current || dirty & /*label*/ 2048 && svg_role_value !== (svg_role_value = /*label*/ ctx[11] ? "img" : "presentation")) {
+			if (!current || dirty & /*label*/ 2048 && svg_role_value !== (svg_role_value = /*label*/ ctx[11] ? 'img' : 'presentation')) {
 				attr(svg, "role", svg_role_value);
 			}
 
@@ -1013,11 +940,11 @@ function create_fragment$d(ctx) {
 			}
 
 			if (dirty & /*className, flip*/ 129) {
-				toggle_class(svg, "fa-flip-horizontal", /*flip*/ ctx[7] === "horizontal");
+				toggle_class(svg, "fa-flip-horizontal", /*flip*/ ctx[7] === 'horizontal');
 			}
 
 			if (dirty & /*className, flip*/ 129) {
-				toggle_class(svg, "fa-flip-vertical", /*flip*/ ctx[7] === "vertical");
+				toggle_class(svg, "fa-flip-vertical", /*flip*/ ctx[7] === 'vertical');
 			}
 		},
 		i(local) {
@@ -1036,7 +963,7 @@ function create_fragment$d(ctx) {
 	};
 }
 
-function instance$d($$self, $$props, $$invalidate) {
+function instance$e($$self, $$props, $$invalidate) {
 	let { $$slots: slots = {}, $$scope } = $$props;
 	let { class: className } = $$props;
 	let { width } = $$props;
@@ -1052,19 +979,19 @@ function instance$d($$self, $$props, $$invalidate) {
 	let { label = undefined } = $$props;
 
 	$$self.$$set = $$props => {
-		if ("class" in $$props) $$invalidate(0, className = $$props.class);
-		if ("width" in $$props) $$invalidate(1, width = $$props.width);
-		if ("height" in $$props) $$invalidate(2, height = $$props.height);
-		if ("box" in $$props) $$invalidate(3, box = $$props.box);
-		if ("spin" in $$props) $$invalidate(4, spin = $$props.spin);
-		if ("inverse" in $$props) $$invalidate(5, inverse = $$props.inverse);
-		if ("pulse" in $$props) $$invalidate(6, pulse = $$props.pulse);
-		if ("flip" in $$props) $$invalidate(7, flip = $$props.flip);
-		if ("x" in $$props) $$invalidate(8, x = $$props.x);
-		if ("y" in $$props) $$invalidate(9, y = $$props.y);
-		if ("style" in $$props) $$invalidate(10, style = $$props.style);
-		if ("label" in $$props) $$invalidate(11, label = $$props.label);
-		if ("$$scope" in $$props) $$invalidate(12, $$scope = $$props.$$scope);
+		if ('class' in $$props) $$invalidate(0, className = $$props.class);
+		if ('width' in $$props) $$invalidate(1, width = $$props.width);
+		if ('height' in $$props) $$invalidate(2, height = $$props.height);
+		if ('box' in $$props) $$invalidate(3, box = $$props.box);
+		if ('spin' in $$props) $$invalidate(4, spin = $$props.spin);
+		if ('inverse' in $$props) $$invalidate(5, inverse = $$props.inverse);
+		if ('pulse' in $$props) $$invalidate(6, pulse = $$props.pulse);
+		if ('flip' in $$props) $$invalidate(7, flip = $$props.flip);
+		if ('x' in $$props) $$invalidate(8, x = $$props.x);
+		if ('y' in $$props) $$invalidate(9, y = $$props.y);
+		if ('style' in $$props) $$invalidate(10, style = $$props.style);
+		if ('label' in $$props) $$invalidate(11, label = $$props.label);
+		if ('$$scope' in $$props) $$invalidate(12, $$scope = $$props.$$scope);
 	};
 
 	return [
@@ -1088,26 +1015,33 @@ function instance$d($$self, $$props, $$invalidate) {
 class Svg extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1dof0an-style")) add_css$a();
 
-		init(this, options, instance$d, create_fragment$d, safe_not_equal, {
-			class: 0,
-			width: 1,
-			height: 2,
-			box: 3,
-			spin: 4,
-			inverse: 5,
-			pulse: 6,
-			flip: 7,
-			x: 8,
-			y: 9,
-			style: 10,
-			label: 11
-		});
+		init(
+			this,
+			options,
+			instance$e,
+			create_fragment$e,
+			safe_not_equal,
+			{
+				class: 0,
+				width: 1,
+				height: 2,
+				box: 3,
+				spin: 4,
+				inverse: 5,
+				pulse: 6,
+				flip: 7,
+				x: 8,
+				y: 9,
+				style: 10,
+				label: 11
+			},
+			add_css$a
+		);
 	}
 }
 
-/* node_modules/svelte-awesome/components/Icon.svelte generated by Svelte v3.38.3 */
+/* node_modules/svelte-awesome/components/Icon.svelte generated by Svelte v3.41.0 */
 
 function get_each_context$3(ctx, list, i) {
 	const child_ctx = ctx.slice();
@@ -1131,7 +1065,7 @@ function create_if_block$4(ctx) {
 	let current;
 	let if_block0 = /*self*/ ctx[0].paths && create_if_block_3(ctx);
 	let if_block1 = /*self*/ ctx[0].polygons && create_if_block_2(ctx);
-	let if_block2 = /*self*/ ctx[0].raw && create_if_block_1$1(ctx);
+	let if_block2 = /*self*/ ctx[0].raw && create_if_block_1$2(ctx);
 
 	return {
 		c() {
@@ -1206,7 +1140,7 @@ function create_if_block$4(ctx) {
 						transition_in(if_block2, 1);
 					}
 				} else {
-					if_block2 = create_if_block_1$1(ctx);
+					if_block2 = create_if_block_1$2(ctx);
 					if_block2.c();
 					transition_in(if_block2, 1);
 					if_block2.m(if_block2_anchor.parentNode, if_block2_anchor);
@@ -1494,7 +1428,7 @@ function create_each_block$3(ctx) {
 }
 
 // (15:6) {#if self.raw}
-function create_if_block_1$1(ctx) {
+function create_if_block_1$2(ctx) {
 	let raw;
 	let updating_data;
 	let current;
@@ -1510,7 +1444,7 @@ function create_if_block_1$1(ctx) {
 	}
 
 	raw = new Raw({ props: raw_props });
-	binding_callbacks.push(() => bind(raw, "data", raw_data_binding));
+	binding_callbacks.push(() => bind(raw, 'data', raw_data_binding));
 
 	return {
 		c() {
@@ -1623,7 +1557,16 @@ function create_default_slot(ctx) {
 		p(ctx, dirty) {
 			if (default_slot) {
 				if (default_slot.p && (!current || dirty & /*$$scope*/ 65536)) {
-					update_slot(default_slot, default_slot_template, ctx, /*$$scope*/ ctx[16], !current ? -1 : dirty, null, null);
+					update_slot_base(
+						default_slot,
+						default_slot_template,
+						ctx,
+						/*$$scope*/ ctx[16],
+						!current
+						? get_all_dirty_from_scope(/*$$scope*/ ctx[16])
+						: get_slot_changes(default_slot_template, /*$$scope*/ ctx[16], dirty, null),
+						null
+					);
 				}
 			} else {
 				if (default_slot_or_fallback && default_slot_or_fallback.p && (!current || dirty & /*self*/ 1)) {
@@ -1646,7 +1589,7 @@ function create_default_slot(ctx) {
 	};
 }
 
-function create_fragment$c(ctx) {
+function create_fragment$d(ctx) {
 	let svg;
 	let current;
 
@@ -1711,7 +1654,7 @@ function create_fragment$c(ctx) {
 let outerScale = 1;
 
 function normaliseData(data) {
-	if ("iconName" in data && "icon" in data) {
+	if ('iconName' in data && 'icon' in data) {
 		let normalisedData = {};
 		let faIcon = data.icon;
 		let name = data.iconName;
@@ -1726,7 +1669,7 @@ function normaliseData(data) {
 	return data;
 }
 
-function instance$c($$self, $$props, $$invalidate) {
+function instance$d($$self, $$props, $$invalidate) {
 	let { $$slots: slots = {}, $$scope } = $$props;
 	let { class: className = "" } = $$props;
 	let { data } = $$props;
@@ -1744,7 +1687,7 @@ function instance$c($$self, $$props, $$invalidate) {
 	let box;
 
 	function init() {
-		if (typeof data === "undefined") {
+		if (typeof data === 'undefined') {
 			return;
 		}
 
@@ -1774,13 +1717,13 @@ function instance$c($$self, $$props, $$invalidate) {
 	function normalisedScale() {
 		let numScale = 1;
 
-		if (typeof scale !== "undefined") {
+		if (typeof scale !== 'undefined') {
 			numScale = Number(scale);
 		}
 
 		if (isNaN(numScale) || numScale <= 0) {
 			// eslint-disable-line no-restricted-globals
-			console.warn("Invalid prop: prop \"scale\" should be a number over 0."); // eslint-disable-line no-console
+			console.warn('Invalid prop: prop "scale" should be a number over 0.'); // eslint-disable-line no-console
 
 			return outerScale;
 		}
@@ -1839,8 +1782,8 @@ function instance$c($$self, $$props, $$invalidate) {
 			return combined;
 		}
 
-		if (combined !== "" && !combined.endsWith(";")) {
-			combined += "; ";
+		if (combined !== "" && !combined.endsWith(';')) {
+			combined += '; ';
 		}
 
 		return `${combined}font-size: ${size}em`;
@@ -1852,17 +1795,17 @@ function instance$c($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("class" in $$props) $$invalidate(1, className = $$props.class);
-		if ("data" in $$props) $$invalidate(11, data = $$props.data);
-		if ("scale" in $$props) $$invalidate(12, scale = $$props.scale);
-		if ("spin" in $$props) $$invalidate(2, spin = $$props.spin);
-		if ("inverse" in $$props) $$invalidate(3, inverse = $$props.inverse);
-		if ("pulse" in $$props) $$invalidate(4, pulse = $$props.pulse);
-		if ("flip" in $$props) $$invalidate(5, flip = $$props.flip);
-		if ("label" in $$props) $$invalidate(6, label = $$props.label);
-		if ("self" in $$props) $$invalidate(0, self = $$props.self);
-		if ("style" in $$props) $$invalidate(13, style = $$props.style);
-		if ("$$scope" in $$props) $$invalidate(16, $$scope = $$props.$$scope);
+		if ('class' in $$props) $$invalidate(1, className = $$props.class);
+		if ('data' in $$props) $$invalidate(11, data = $$props.data);
+		if ('scale' in $$props) $$invalidate(12, scale = $$props.scale);
+		if ('spin' in $$props) $$invalidate(2, spin = $$props.spin);
+		if ('inverse' in $$props) $$invalidate(3, inverse = $$props.inverse);
+		if ('pulse' in $$props) $$invalidate(4, pulse = $$props.pulse);
+		if ('flip' in $$props) $$invalidate(5, flip = $$props.flip);
+		if ('label' in $$props) $$invalidate(6, label = $$props.label);
+		if ('self' in $$props) $$invalidate(0, self = $$props.self);
+		if ('style' in $$props) $$invalidate(13, style = $$props.style);
+		if ('$$scope' in $$props) $$invalidate(16, $$scope = $$props.$$scope);
 	};
 
 	$$self.$$.update = () => {
@@ -1902,7 +1845,7 @@ class Icon extends SvelteComponent {
 	constructor(options) {
 		super();
 
-		init(this, options, instance$c, create_fragment$c, safe_not_equal, {
+		init(this, options, instance$d, create_fragment$d, safe_not_equal, {
 			class: 1,
 			data: 11,
 			scale: 12,
@@ -1917,13 +1860,10 @@ class Icon extends SvelteComponent {
 	}
 }
 
-/* src/gui/choiceList/ChoiceItemRightButtons.svelte generated by Svelte v3.38.3 */
+/* src/gui/choiceList/ChoiceItemRightButtons.svelte generated by Svelte v3.41.0 */
 
-function add_css$9() {
-	var style = element("style");
-	style.id = "svelte-a47k80-style";
-	style.textContent = ".rightButtonsContainer.svelte-a47k80{display:flex;align-items:center;gap:8px}.clickable.svelte-a47k80:hover{cursor:pointer}.alignIconInDivInMiddle.svelte-a47k80{display:flex;align-items:center}";
-	append(document.head, style);
+function add_css$9(target) {
+	append_styles(target, "svelte-a47k80", ".rightButtonsContainer.svelte-a47k80{display:flex;align-items:center;gap:8px}.clickable.svelte-a47k80:hover{cursor:pointer}.alignIconInDivInMiddle.svelte-a47k80{display:flex;align-items:center}");
 }
 
 // (24:4) {#if showConfigureButton}
@@ -1976,7 +1916,7 @@ function create_if_block$3(ctx) {
 	};
 }
 
-function create_fragment$b(ctx) {
+function create_fragment$c(ctx) {
 	let div3;
 	let div0;
 	let icon0;
@@ -2026,8 +1966,8 @@ function create_fragment$b(ctx) {
 			attr(div2, "aria-label", "Drag-handle");
 
 			attr(div2, "style", div2_style_value = "" + ((/*dragDisabled*/ ctx[0]
-			? "cursor: grab"
-			: "cursor: grabbing") + ";"));
+			? 'cursor: grab'
+			: 'cursor: grabbing') + ";"));
 
 			attr(div2, "class", "alignIconInDivInMiddle svelte-a47k80");
 			attr(div3, "class", "rightButtonsContainer svelte-a47k80");
@@ -2100,8 +2040,8 @@ function create_fragment$b(ctx) {
 			}
 
 			if (!current || dirty & /*dragDisabled*/ 1 && div2_style_value !== (div2_style_value = "" + ((/*dragDisabled*/ ctx[0]
-			? "cursor: grab"
-			: "cursor: grabbing") + ";"))) {
+			? 'cursor: grab'
+			: 'cursor: grabbing') + ";"))) {
 				attr(div2, "style", div2_style_value);
 			}
 		},
@@ -2132,7 +2072,7 @@ function create_fragment$b(ctx) {
 	};
 }
 
-function instance$b($$self, $$props, $$invalidate) {
+function instance$c($$self, $$props, $$invalidate) {
 	let { dragDisabled } = $$props;
 	let { showConfigureButton = true } = $$props;
 	let { commandEnabled = false } = $$props;
@@ -2140,15 +2080,15 @@ function instance$b($$self, $$props, $$invalidate) {
 	const dispatcher = createEventDispatcher();
 
 	function emitDeleteChoice() {
-		dispatcher("deleteChoice");
+		dispatcher('deleteChoice');
 	}
 
 	function emitConfigureChoice() {
-		dispatcher("configureChoice");
+		dispatcher('configureChoice');
 	}
 
 	function emitToggleCommand() {
-		dispatcher("toggleCommand");
+		dispatcher('toggleCommand');
 	}
 
 	function mousedown_handler(event) {
@@ -2160,10 +2100,10 @@ function instance$b($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("dragDisabled" in $$props) $$invalidate(0, dragDisabled = $$props.dragDisabled);
-		if ("showConfigureButton" in $$props) $$invalidate(1, showConfigureButton = $$props.showConfigureButton);
-		if ("commandEnabled" in $$props) $$invalidate(2, commandEnabled = $$props.commandEnabled);
-		if ("choiceName" in $$props) $$invalidate(3, choiceName = $$props.choiceName);
+		if ('dragDisabled' in $$props) $$invalidate(0, dragDisabled = $$props.dragDisabled);
+		if ('showConfigureButton' in $$props) $$invalidate(1, showConfigureButton = $$props.showConfigureButton);
+		if ('commandEnabled' in $$props) $$invalidate(2, commandEnabled = $$props.commandEnabled);
+		if ('choiceName' in $$props) $$invalidate(3, choiceName = $$props.choiceName);
 	};
 
 	return [
@@ -2182,27 +2122,31 @@ function instance$b($$self, $$props, $$invalidate) {
 class ChoiceItemRightButtons extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-a47k80-style")) add_css$9();
 
-		init(this, options, instance$b, create_fragment$b, safe_not_equal, {
-			dragDisabled: 0,
-			showConfigureButton: 1,
-			commandEnabled: 2,
-			choiceName: 3
-		});
+		init(
+			this,
+			options,
+			instance$c,
+			create_fragment$c,
+			safe_not_equal,
+			{
+				dragDisabled: 0,
+				showConfigureButton: 1,
+				commandEnabled: 2,
+				choiceName: 3
+			},
+			add_css$9
+		);
 	}
 }
 
-/* src/gui/choiceList/ChoiceListItem.svelte generated by Svelte v3.38.3 */
+/* src/gui/choiceList/ChoiceListItem.svelte generated by Svelte v3.41.0 */
 
-function add_css$8() {
-	var style = element("style");
-	style.id = "svelte-1vcfikc-style";
-	style.textContent = ".choiceListItem.svelte-1vcfikc{display:flex;font-size:16px;align-items:center;margin:12px 0 0 0;transition:1000ms ease-in-out}.choiceListItemName.svelte-1vcfikc{flex:1 0 0}";
-	append(document.head, style);
+function add_css$8(target) {
+	append_styles(target, "svelte-1vcfikc", ".choiceListItem.svelte-1vcfikc{display:flex;font-size:16px;align-items:center;margin:12px 0 0 0;transition:1000ms ease-in-out}.choiceListItemName.svelte-1vcfikc{flex:1 0 0}");
 }
 
-function create_fragment$a(ctx) {
+function create_fragment$b(ctx) {
 	let div;
 	let span;
 	let t0_value = /*choice*/ ctx[0].name + "";
@@ -2250,10 +2194,10 @@ function create_fragment$a(ctx) {
 	}
 
 	rightbuttons = new ChoiceItemRightButtons({ props: rightbuttons_props });
-	binding_callbacks.push(() => bind(rightbuttons, "choiceName", rightbuttons_choiceName_binding));
-	binding_callbacks.push(() => bind(rightbuttons, "commandEnabled", rightbuttons_commandEnabled_binding));
-	binding_callbacks.push(() => bind(rightbuttons, "showConfigureButton", rightbuttons_showConfigureButton_binding));
-	binding_callbacks.push(() => bind(rightbuttons, "dragDisabled", rightbuttons_dragDisabled_binding));
+	binding_callbacks.push(() => bind(rightbuttons, 'choiceName', rightbuttons_choiceName_binding));
+	binding_callbacks.push(() => bind(rightbuttons, 'commandEnabled', rightbuttons_commandEnabled_binding));
+	binding_callbacks.push(() => bind(rightbuttons, 'showConfigureButton', rightbuttons_showConfigureButton_binding));
+	binding_callbacks.push(() => bind(rightbuttons, 'dragDisabled', rightbuttons_dragDisabled_binding));
 	rightbuttons.$on("mousedown", /*mousedown_handler*/ ctx[10]);
 	rightbuttons.$on("touchstart", /*touchstart_handler*/ ctx[11]);
 	rightbuttons.$on("deleteChoice", /*deleteChoice*/ ctx[3]);
@@ -2324,22 +2268,22 @@ function create_fragment$a(ctx) {
 	};
 }
 
-function instance$a($$self, $$props, $$invalidate) {
+function instance$b($$self, $$props, $$invalidate) {
 	let { choice } = $$props;
 	let { dragDisabled } = $$props;
 	let showConfigureButton = true;
 	const dispatcher = createEventDispatcher();
 
 	function deleteChoice() {
-		dispatcher("deleteChoice", { choice });
+		dispatcher('deleteChoice', { choice });
 	}
 
 	function configureChoice() {
-		dispatcher("configureChoice", { choice });
+		dispatcher('configureChoice', { choice });
 	}
 
 	function toggleCommandForChoice() {
-		dispatcher("toggleCommand", { choice });
+		dispatcher('toggleCommand', { choice });
 	}
 
 	function rightbuttons_choiceName_binding(value) {
@@ -2375,8 +2319,8 @@ function instance$a($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("choice" in $$props) $$invalidate(0, choice = $$props.choice);
-		if ("dragDisabled" in $$props) $$invalidate(1, dragDisabled = $$props.dragDisabled);
+		if ('choice' in $$props) $$invalidate(0, choice = $$props.choice);
+		if ('dragDisabled' in $$props) $$invalidate(1, dragDisabled = $$props.dragDisabled);
 	};
 
 	return [
@@ -2398,25 +2342,21 @@ function instance$a($$self, $$props, $$invalidate) {
 class ChoiceListItem extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1vcfikc-style")) add_css$8();
-		init(this, options, instance$a, create_fragment$a, safe_not_equal, { choice: 0, dragDisabled: 1 });
+		init(this, options, instance$b, create_fragment$b, safe_not_equal, { choice: 0, dragDisabled: 1 }, add_css$8);
 	}
 }
 
-/* src/gui/choiceList/MultiChoiceListItem.svelte generated by Svelte v3.38.3 */
+/* src/gui/choiceList/MultiChoiceListItem.svelte generated by Svelte v3.41.0 */
 
-function add_css$7() {
-	var style = element("style");
-	style.id = "svelte-na99np-style";
-	style.textContent = ".multiChoiceListItem.svelte-na99np{display:flex;font-size:16px;align-items:center;margin:12px 0 0 0}.clickable.svelte-na99np:hover{cursor:pointer}.multiChoiceListItemName.svelte-na99np{flex:1 0 0;margin-left:5px}.nestedChoiceList.svelte-na99np{padding-left:25px}";
-	append(document.head, style);
+function add_css$7(target) {
+	append_styles(target, "svelte-na99np", ".multiChoiceListItem.svelte-na99np{display:flex;font-size:16px;align-items:center;margin:12px 0 0 0}.clickable.svelte-na99np:hover{cursor:pointer}.multiChoiceListItemName.svelte-na99np{flex:1 0 0;margin-left:5px}.nestedChoiceList.svelte-na99np{padding-left:25px}");
 }
 
 // (43:4) {#if !collapseId || (collapseId && choice.id !== collapseId)}
 function create_if_block$2(ctx) {
 	let if_block_anchor;
 	let current;
-	let if_block = !/*choice*/ ctx[0].collapsed && create_if_block_1(ctx);
+	let if_block = !/*choice*/ ctx[0].collapsed && create_if_block_1$1(ctx);
 
 	return {
 		c() {
@@ -2437,7 +2377,7 @@ function create_if_block$2(ctx) {
 						transition_in(if_block, 1);
 					}
 				} else {
-					if_block = create_if_block_1(ctx);
+					if_block = create_if_block_1$1(ctx);
 					if_block.c();
 					transition_in(if_block, 1);
 					if_block.m(if_block_anchor.parentNode, if_block_anchor);
@@ -2469,7 +2409,7 @@ function create_if_block$2(ctx) {
 }
 
 // (44:8) {#if !choice.collapsed}
-function create_if_block_1(ctx) {
+function create_if_block_1$1(ctx) {
 	let div;
 	let choicelist;
 	let updating_multiChoice;
@@ -2495,8 +2435,8 @@ function create_if_block_1(ctx) {
 	}
 
 	choicelist = new ChoiceList({ props: choicelist_props });
-	binding_callbacks.push(() => bind(choicelist, "multiChoice", choicelist_multiChoice_binding));
-	binding_callbacks.push(() => bind(choicelist, "choices", choicelist_choices_binding));
+	binding_callbacks.push(() => bind(choicelist, 'multiChoice', choicelist_multiChoice_binding));
+	binding_callbacks.push(() => bind(choicelist, 'choices', choicelist_choices_binding));
 	choicelist.$on("deleteChoice", /*deleteChoice_handler*/ ctx[16]);
 	choicelist.$on("configureChoice", /*configureChoice_handler*/ ctx[17]);
 	choicelist.$on("toggleCommand", /*toggleCommand_handler*/ ctx[18]);
@@ -2545,7 +2485,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-function create_fragment$9(ctx) {
+function create_fragment$a(ctx) {
 	let div2;
 	let div1;
 	let div0;
@@ -2607,10 +2547,10 @@ function create_fragment$9(ctx) {
 	}
 
 	rightbuttons = new ChoiceItemRightButtons({ props: rightbuttons_props });
-	binding_callbacks.push(() => bind(rightbuttons, "showConfigureButton", rightbuttons_showConfigureButton_binding));
-	binding_callbacks.push(() => bind(rightbuttons, "dragDisabled", rightbuttons_dragDisabled_binding));
-	binding_callbacks.push(() => bind(rightbuttons, "choiceName", rightbuttons_choiceName_binding));
-	binding_callbacks.push(() => bind(rightbuttons, "commandEnabled", rightbuttons_commandEnabled_binding));
+	binding_callbacks.push(() => bind(rightbuttons, 'showConfigureButton', rightbuttons_showConfigureButton_binding));
+	binding_callbacks.push(() => bind(rightbuttons, 'dragDisabled', rightbuttons_dragDisabled_binding));
+	binding_callbacks.push(() => bind(rightbuttons, 'choiceName', rightbuttons_choiceName_binding));
+	binding_callbacks.push(() => bind(rightbuttons, 'commandEnabled', rightbuttons_commandEnabled_binding));
 	rightbuttons.$on("mousedown", /*mousedown_handler*/ ctx[12]);
 	rightbuttons.$on("touchstart", /*touchstart_handler*/ ctx[13]);
 	rightbuttons.$on("deleteChoice", /*deleteChoice*/ ctx[4]);
@@ -2733,7 +2673,7 @@ function create_fragment$9(ctx) {
 	};
 }
 
-function instance$9($$self, $$props, $$invalidate) {
+function instance$a($$self, $$props, $$invalidate) {
 	let { choice } = $$props;
 	let { collapseId } = $$props;
 	let { dragDisabled } = $$props;
@@ -2741,15 +2681,15 @@ function instance$9($$self, $$props, $$invalidate) {
 	const dispatcher = createEventDispatcher();
 
 	function deleteChoice(e) {
-		dispatcher("deleteChoice", { choice });
+		dispatcher('deleteChoice', { choice });
 	}
 
 	function configureChoice() {
-		dispatcher("configureChoice", { choice });
+		dispatcher('configureChoice', { choice });
 	}
 
 	function toggleCommandForChoice() {
-		dispatcher("toggleCommand", { choice });
+		dispatcher('toggleCommand', { choice });
 	}
 
 	const click_handler = () => $$invalidate(0, choice.collapsed = !choice.collapsed, choice);
@@ -2811,9 +2751,9 @@ function instance$9($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("choice" in $$props) $$invalidate(0, choice = $$props.choice);
-		if ("collapseId" in $$props) $$invalidate(2, collapseId = $$props.collapseId);
-		if ("dragDisabled" in $$props) $$invalidate(1, dragDisabled = $$props.dragDisabled);
+		if ('choice' in $$props) $$invalidate(0, choice = $$props.choice);
+		if ('collapseId' in $$props) $$invalidate(2, collapseId = $$props.collapseId);
+		if ('dragDisabled' in $$props) $$invalidate(1, dragDisabled = $$props.dragDisabled);
 	};
 
 	return [
@@ -2842,13 +2782,20 @@ function instance$9($$self, $$props, $$invalidate) {
 class MultiChoiceListItem extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-na99np-style")) add_css$7();
 
-		init(this, options, instance$9, create_fragment$9, safe_not_equal, {
-			choice: 0,
-			collapseId: 2,
-			dragDisabled: 1
-		});
+		init(
+			this,
+			options,
+			instance$a,
+			create_fragment$a,
+			safe_not_equal,
+			{
+				choice: 0,
+				collapseId: 2,
+				dragDisabled: 1
+			},
+			add_css$7
+		);
 	}
 }
 
@@ -5216,13 +5163,10 @@ function validateOptions(options) {
   }
 }
 
-/* src/gui/choiceList/ChoiceList.svelte generated by Svelte v3.38.3 */
+/* src/gui/choiceList/ChoiceList.svelte generated by Svelte v3.41.0 */
 
-function add_css$6() {
-	var style = element("style");
-	style.id = "svelte-jb273g-style";
-	style.textContent = ".choiceList.svelte-jb273g{width:auto;border:0 solid black;overflow-y:auto;height:auto}";
-	append(document.head, style);
+function add_css$6(target) {
+	append_styles(target, "svelte-jb273g", ".choiceList.svelte-jb273g{width:auto;border:0 solid black;overflow-y:auto;height:auto}");
 }
 
 function get_each_context$2(ctx, list, i) {
@@ -5268,9 +5212,9 @@ function create_else_block$1(ctx) {
 	}
 
 	multichoicelistitem = new MultiChoiceListItem({ props: multichoicelistitem_props });
-	binding_callbacks.push(() => bind(multichoicelistitem, "dragDisabled", multichoicelistitem_dragDisabled_binding));
-	binding_callbacks.push(() => bind(multichoicelistitem, "collapseId", multichoicelistitem_collapseId_binding));
-	binding_callbacks.push(() => bind(multichoicelistitem, "choice", multichoicelistitem_choice_binding));
+	binding_callbacks.push(() => bind(multichoicelistitem, 'dragDisabled', multichoicelistitem_dragDisabled_binding));
+	binding_callbacks.push(() => bind(multichoicelistitem, 'collapseId', multichoicelistitem_collapseId_binding));
+	binding_callbacks.push(() => bind(multichoicelistitem, 'choice', multichoicelistitem_choice_binding));
 	multichoicelistitem.$on("mousedown", /*startDrag*/ ctx[6]);
 	multichoicelistitem.$on("touchstart", /*startDrag*/ ctx[6]);
 	multichoicelistitem.$on("deleteChoice", /*deleteChoice_handler_1*/ ctx[16]);
@@ -5350,8 +5294,8 @@ function create_if_block$1(ctx) {
 	}
 
 	choicelistitem = new ChoiceListItem({ props: choicelistitem_props });
-	binding_callbacks.push(() => bind(choicelistitem, "dragDisabled", choicelistitem_dragDisabled_binding));
-	binding_callbacks.push(() => bind(choicelistitem, "choice", choicelistitem_choice_binding));
+	binding_callbacks.push(() => bind(choicelistitem, 'dragDisabled', choicelistitem_dragDisabled_binding));
+	binding_callbacks.push(() => bind(choicelistitem, 'choice', choicelistitem_choice_binding));
 	choicelistitem.$on("mousedown", /*startDrag*/ ctx[6]);
 	choicelistitem.$on("touchstart", /*startDrag*/ ctx[6]);
 	choicelistitem.$on("deleteChoice", /*deleteChoice_handler*/ ctx[10]);
@@ -5477,7 +5421,7 @@ function create_each_block$2(key_1, ctx) {
 	};
 }
 
-function create_fragment$8(ctx) {
+function create_fragment$9(ctx) {
 	let div;
 	let each_blocks = [];
 	let each_1_lookup = new Map();
@@ -5506,8 +5450,8 @@ function create_fragment$8(ctx) {
 			attr(div, "class", "choiceList svelte-jb273g");
 
 			attr(div, "style", div_style_value = /*choices*/ ctx[0].length === 0
-			? "padding-bottom: 0.5rem"
-			: "");
+			? 'padding-bottom: 0.5rem'
+			: '');
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -5541,8 +5485,8 @@ function create_fragment$8(ctx) {
 			}
 
 			if (!current || dirty & /*choices*/ 1 && div_style_value !== (div_style_value = /*choices*/ ctx[0].length === 0
-			? "padding-bottom: 0.5rem"
-			: "")) {
+			? 'padding-bottom: 0.5rem'
+			: '')) {
 				attr(div, "style", div_style_value);
 			}
 
@@ -5581,14 +5525,14 @@ function create_fragment$8(ctx) {
 	};
 }
 
-function instance$8($$self, $$props, $$invalidate) {
+function instance$9($$self, $$props, $$invalidate) {
 	let { choices = [] } = $$props;
 	let collapseId;
 	let dragDisabled = true;
 	const dispatcher = createEventDispatcher();
 
 	function emitChoicesReordered() {
-		dispatcher("reorderChoices", { choices });
+		dispatcher('reorderChoices', { choices });
 	}
 
 	function handleConsider(e) {
@@ -5666,7 +5610,7 @@ function instance$8($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("choices" in $$props) $$invalidate(0, choices = $$props.choices);
+		if ('choices' in $$props) $$invalidate(0, choices = $$props.choices);
 	};
 
 	return [
@@ -5695,21 +5639,17 @@ function instance$8($$self, $$props, $$invalidate) {
 class ChoiceList extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-jb273g-style")) add_css$6();
-		init(this, options, instance$8, create_fragment$8, safe_not_equal, { choices: 0 });
+		init(this, options, instance$9, create_fragment$9, safe_not_equal, { choices: 0 }, add_css$6);
 	}
 }
 
-/* src/gui/choiceList/AddChoiceBox.svelte generated by Svelte v3.38.3 */
+/* src/gui/choiceList/AddChoiceBox.svelte generated by Svelte v3.41.0 */
 
-function add_css$5() {
-	var style = element("style");
-	style.id = "svelte-1newuee-style";
-	style.textContent = ".addChoiceBox.svelte-1newuee{margin-top:1em;display:flex;flex-direction:row;align-items:center;gap:10px;justify-content:center}@media(max-width: 800px){.addChoiceBox.svelte-1newuee{flex-direction:column}}#addChoiceTypeSelector.svelte-1newuee{font-size:16px;padding:3px;border-radius:3px}";
-	append(document.head, style);
+function add_css$5(target) {
+	append_styles(target, "svelte-1newuee", ".addChoiceBox.svelte-1newuee{margin-top:1em;display:flex;flex-direction:row;align-items:center;gap:10px;justify-content:center}@media(max-width: 800px){.addChoiceBox.svelte-1newuee{flex-direction:column}}#addChoiceTypeSelector.svelte-1newuee{font-size:16px;padding:3px;border-radius:3px}");
 }
 
-function create_fragment$7(ctx) {
+function create_fragment$8(ctx) {
 	let div;
 	let input;
 	let t0;
@@ -5811,7 +5751,7 @@ function create_fragment$7(ctx) {
 	};
 }
 
-function instance$7($$self, $$props, $$invalidate) {
+function instance$8($$self, $$props, $$invalidate) {
 	let name;
 	let type;
 	const dispatch = createEventDispatcher();
@@ -5822,7 +5762,7 @@ function instance$7($$self, $$props, $$invalidate) {
 			return;
 		}
 
-		dispatch("addChoice", { name, type });
+		dispatch('addChoice', { name, type });
 		$$invalidate(0, name = "");
 	}
 
@@ -5842,8 +5782,7 @@ function instance$7($$self, $$props, $$invalidate) {
 class AddChoiceBox extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1newuee-style")) add_css$5();
-		init(this, options, instance$7, create_fragment$7, safe_not_equal, {});
+		init(this, options, instance$8, create_fragment$8, safe_not_equal, {}, add_css$5);
 	}
 }
 
@@ -5991,16 +5930,13 @@ class MultiChoice extends Choice {
     }
 }
 
-/* src/gui/GenericYesNoPrompt/GenericYesNoPromptContent.svelte generated by Svelte v3.38.3 */
+/* src/gui/GenericYesNoPrompt/GenericYesNoPromptContent.svelte generated by Svelte v3.41.0 */
 
-function add_css$4() {
-	var style = element("style");
-	style.id = "svelte-1qg9c18-style";
-	style.textContent = ".yesNoPromptButtonContainer.svelte-1qg9c18{display:flex;align-items:center;justify-content:space-around;margin-top:2rem}p.svelte-1qg9c18{text-align:center}button.svelte-1qg9c18{font-size:18px}";
-	append(document.head, style);
+function add_css$4(target) {
+	append_styles(target, "svelte-1qg9c18", ".yesNoPromptButtonContainer.svelte-1qg9c18{display:flex;align-items:center;justify-content:space-around;margin-top:2rem}p.svelte-1qg9c18{text-align:center}button.svelte-1qg9c18{font-size:18px}");
 }
 
-function create_fragment$6(ctx) {
+function create_fragment$7(ctx) {
 	let div1;
 	let h1;
 	let t0;
@@ -6073,7 +6009,7 @@ function create_fragment$6(ctx) {
 	};
 }
 
-function instance$6($$self, $$props, $$invalidate) {
+function instance$7($$self, $$props, $$invalidate) {
 	let { header = "" } = $$props;
 	let { value = "" } = $$props;
 	let { text = "" } = $$props;
@@ -6087,10 +6023,10 @@ function instance$6($$self, $$props, $$invalidate) {
 	const click_handler_1 = () => submit(true);
 
 	$$self.$$set = $$props => {
-		if ("header" in $$props) $$invalidate(0, header = $$props.header);
-		if ("value" in $$props) $$invalidate(3, value = $$props.value);
-		if ("text" in $$props) $$invalidate(1, text = $$props.text);
-		if ("onSubmit" in $$props) $$invalidate(4, onSubmit = $$props.onSubmit);
+		if ('header' in $$props) $$invalidate(0, header = $$props.header);
+		if ('value' in $$props) $$invalidate(3, value = $$props.value);
+		if ('text' in $$props) $$invalidate(1, text = $$props.text);
+		if ('onSubmit' in $$props) $$invalidate(4, onSubmit = $$props.onSubmit);
 	};
 
 	return [header, text, submit, value, onSubmit, click_handler, click_handler_1];
@@ -6099,14 +6035,21 @@ function instance$6($$self, $$props, $$invalidate) {
 class GenericYesNoPromptContent extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1qg9c18-style")) add_css$4();
 
-		init(this, options, instance$6, create_fragment$6, safe_not_equal, {
-			header: 0,
-			value: 3,
-			text: 1,
-			onSubmit: 4
-		});
+		init(
+			this,
+			options,
+			instance$7,
+			create_fragment$7,
+			safe_not_equal,
+			{
+				header: 0,
+				value: 3,
+				text: 1,
+				onSubmit: 4
+			},
+			add_css$4
+		);
 	}
 }
 
@@ -8218,6 +8161,7 @@ const MACRO_REGEX = new RegExp(/{{MACRO:([^\n\r}]*)}}/);
 const TEMPLATE_REGEX = new RegExp(/{{TEMPLATE:([^\n\r}]*.md)}}/);
 const LINEBREAK_REGEX = new RegExp(/\\n/);
 const INLINE_JAVASCRIPT_REGEX = new RegExp(/`{3,}js quickadd([\s\S]*?)`{3,}/);
+// This is not an accurate wikilink regex - but works for its intended purpose.
 const FILE_LINK_REGEX = new RegExp(/\[\[([^\]]*)$/);
 const TAG_REGEX = new RegExp(/#([^ ]*)$/);
 // == Format Syntax Suggestion == //
@@ -8236,6 +8180,8 @@ const fileExistsAppendToTop = "Append to the top of the file";
 const fileExistsOverwriteFile = "Overwrite the file";
 const fileExistsDoNothing = "Nothing";
 const fileExistsChoices = [fileExistsAppendToBottom, fileExistsAppendToTop, fileExistsOverwriteFile, fileExistsDoNothing];
+// == MISC == //
+const WIKI_LINK_REGEX = new RegExp(/\[\[([^\]]*)\]\]/);
 
 var TagOrFile;
 (function (TagOrFile) {
@@ -8332,9 +8278,9 @@ class SilentFileAndTagSuggester extends TextInputSuggest {
     }
 }
 
-/* src/gui/GenericInputPrompt/GenericInputPromptContent.svelte generated by Svelte v3.38.3 */
+/* src/gui/GenericInputPrompt/GenericInputPromptContent.svelte generated by Svelte v3.41.0 */
 
-function create_fragment$5(ctx) {
+function create_fragment$6(ctx) {
 	let div;
 	let h1;
 	let t0;
@@ -8397,7 +8343,7 @@ function create_fragment$5(ctx) {
 	};
 }
 
-function instance$5($$self, $$props, $$invalidate) {
+function instance$6($$self, $$props, $$invalidate) {
 	let { header = "" } = $$props;
 	let { placeholder = "" } = $$props;
 	let { value = "" } = $$props;
@@ -8417,7 +8363,7 @@ function instance$5($$self, $$props, $$invalidate) {
 	}
 
 	function input_binding($$value) {
-		binding_callbacks[$$value ? "unshift" : "push"](() => {
+		binding_callbacks[$$value ? 'unshift' : 'push'](() => {
 			inputEl = $$value;
 			$$invalidate(3, inputEl);
 		});
@@ -8429,11 +8375,11 @@ function instance$5($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("header" in $$props) $$invalidate(1, header = $$props.header);
-		if ("placeholder" in $$props) $$invalidate(2, placeholder = $$props.placeholder);
-		if ("value" in $$props) $$invalidate(0, value = $$props.value);
-		if ("onSubmit" in $$props) $$invalidate(5, onSubmit = $$props.onSubmit);
-		if ("app" in $$props) $$invalidate(6, app = $$props.app);
+		if ('header' in $$props) $$invalidate(1, header = $$props.header);
+		if ('placeholder' in $$props) $$invalidate(2, placeholder = $$props.placeholder);
+		if ('value' in $$props) $$invalidate(0, value = $$props.value);
+		if ('onSubmit' in $$props) $$invalidate(5, onSubmit = $$props.onSubmit);
+		if ('app' in $$props) $$invalidate(6, app = $$props.app);
 	};
 
 	return [
@@ -8453,7 +8399,7 @@ class GenericInputPromptContent extends SvelteComponent {
 	constructor(options) {
 		super();
 
-		init(this, options, instance$5, create_fragment$5, safe_not_equal, {
+		init(this, options, instance$6, create_fragment$6, safe_not_equal, {
 			header: 1,
 			placeholder: 2,
 			value: 0,
@@ -8699,6 +8645,16 @@ function getLinesInString(input) {
 function escapeRegExp(text) {
     return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
 }
+async function openFile(app, file, direction) {
+    if (!direction) {
+        await app.workspace.activeLeaf.openFile(file);
+    }
+    else {
+        await app.workspace
+            .splitActiveLeaf(direction)
+            .openFile(file);
+    }
+}
 
 var FormatSyntaxToken;
 (function (FormatSyntaxToken) {
@@ -8802,13 +8758,10 @@ class FormatSyntaxSuggester extends TextInputSuggest {
     }
 }
 
-/* src/gui/ChoiceBuilder/FolderList.svelte generated by Svelte v3.38.3 */
+/* src/gui/ChoiceBuilder/FolderList.svelte generated by Svelte v3.41.0 */
 
-function add_css$3() {
-	var style = element("style");
-	style.id = "svelte-tuapcq-style";
-	style.textContent = ".quickAddCommandListItem.svelte-tuapcq{display:flex;align-items:center;justify-content:space-between}@media(min-width: 768px){.quickAddFolderListGrid.svelte-tuapcq{display:grid;grid-template-columns:repeat(2, 1fr);column-gap:20px}}.quickAddCommandList.svelte-tuapcq{max-width:50%;margin:12px auto}.clickable.svelte-tuapcq{cursor:pointer}";
-	append(document.head, style);
+function add_css$3(target) {
+	append_styles(target, "svelte-tuapcq", ".quickAddCommandListItem.svelte-tuapcq{display:flex;align-items:center;justify-content:space-between}@media(min-width: 768px){.quickAddFolderListGrid.svelte-tuapcq{display:grid;grid-template-columns:repeat(2, 1fr);column-gap:20px}}.quickAddCommandList.svelte-tuapcq{max-width:50%;margin:12px auto}.clickable.svelte-tuapcq{cursor:pointer}");
 }
 
 function get_each_context$1(ctx, list, i) {
@@ -8886,7 +8839,7 @@ function create_each_block$1(ctx) {
 	};
 }
 
-function create_fragment$4(ctx) {
+function create_fragment$5(ctx) {
 	let div;
 	let current;
 	let each_value = /*folders*/ ctx[0];
@@ -8972,7 +8925,7 @@ function create_fragment$4(ctx) {
 	};
 }
 
-function instance$4($$self, $$props, $$invalidate) {
+function instance$5($$self, $$props, $$invalidate) {
 	let { folders } = $$props;
 	let { deleteFolder } = $$props;
 
@@ -8983,8 +8936,8 @@ function instance$4($$self, $$props, $$invalidate) {
 	const click_handler = folder => deleteFolder(folder);
 
 	$$self.$$set = $$props => {
-		if ("folders" in $$props) $$invalidate(0, folders = $$props.folders);
-		if ("deleteFolder" in $$props) $$invalidate(1, deleteFolder = $$props.deleteFolder);
+		if ('folders' in $$props) $$invalidate(0, folders = $$props.folders);
+		if ('deleteFolder' in $$props) $$invalidate(1, deleteFolder = $$props.deleteFolder);
 	};
 
 	return [folders, deleteFolder, updateFolders, click_handler];
@@ -8993,13 +8946,20 @@ function instance$4($$self, $$props, $$invalidate) {
 class FolderList extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-tuapcq-style")) add_css$3();
 
-		init(this, options, instance$4, create_fragment$4, safe_not_equal, {
-			folders: 0,
-			deleteFolder: 1,
-			updateFolders: 2
-		});
+		init(
+			this,
+			options,
+			instance$5,
+			create_fragment$5,
+			safe_not_equal,
+			{
+				folders: 0,
+				deleteFolder: 1,
+				updateFolders: 2
+			},
+			add_css$3
+		);
 	}
 
 	get updateFolders() {
@@ -9471,6 +9431,8 @@ var CommandType;
     CommandType["UserScript"] = "UserScript";
     CommandType["Choice"] = "Choice";
     CommandType["Wait"] = "Wait";
+    CommandType["NestedChoice"] = "NestedChoice";
+    CommandType["EditorCommand"] = "EditorCommand";
 })(CommandType || (CommandType = {}));
 
 class GenericCheckboxPrompt extends obsidian.Modal {
@@ -9530,11 +9492,17 @@ class QuickAddApi {
             yesNoPrompt: (header, text) => { return this.yesNoPrompt(app, header, text); },
             suggester: (displayItems, actualItems) => { return this.suggester(app, displayItems, actualItems); },
             checkboxPrompt: (items, selectedItems) => { return this.checkboxPrompt(app, items, selectedItems); },
-            executeChoice: async (choiceName) => {
+            executeChoice: async (choiceName, variables) => {
                 const choice = plugin.getChoiceByName(choiceName);
                 if (!choice)
                     log.logError(`choice named '${choiceName}' not found`);
+                if (variables) {
+                    Object.keys(variables).forEach(key => {
+                        choiceExecutor.variables.set(key, variables[key]);
+                    });
+                }
                 await choiceExecutor.execute(choice);
+                choiceExecutor.variables.clear();
             },
             utility: {
                 getClipboard: async () => { return await navigator.clipboard.readText(); },
@@ -9586,6 +9554,114 @@ class QuickAddApi {
 class QuickAddChoiceEngine extends QuickAddEngine {
 }
 
+var EditorCommandType;
+(function (EditorCommandType) {
+    EditorCommandType["Cut"] = "Cut";
+    EditorCommandType["Copy"] = "Copy";
+    EditorCommandType["Paste"] = "Paste";
+    EditorCommandType["SelectActiveLine"] = "Select active line";
+    EditorCommandType["SelectLinkOnActiveLine"] = "Select link on active line";
+})(EditorCommandType || (EditorCommandType = {}));
+
+class Command {
+    constructor(name, type) {
+        this.name = name;
+        this.type = type;
+        this.id = v4();
+    }
+}
+
+class EditorCommand extends Command {
+    constructor(type) {
+        super(type, CommandType.EditorCommand);
+        this.editorCommandType = type;
+    }
+    static getSelectedText(app) {
+        return this.getActiveMarkdownView(app).editor.getSelection();
+    }
+    static getActiveMarkdownView(app) {
+        const activeView = app.workspace.getActiveViewOfType(obsidian.MarkdownView);
+        if (!activeView) {
+            log.logError("no active markdown view.");
+            return;
+        }
+        return activeView;
+    }
+}
+
+class CutCommand extends EditorCommand {
+    constructor() {
+        super(EditorCommandType.Cut);
+    }
+    static async run(app) {
+        const selectedText = EditorCommand.getSelectedText(app);
+        const activeView = EditorCommand.getActiveMarkdownView(app);
+        if (!selectedText) {
+            log.logError("nothing selected.");
+            return;
+        }
+        await navigator.clipboard.writeText(selectedText);
+        activeView.editor.replaceSelection("");
+    }
+}
+
+class CopyCommand extends EditorCommand {
+    constructor() {
+        super(EditorCommandType.Copy);
+    }
+    static async run(app) {
+        const selectedText = EditorCommand.getSelectedText(app);
+        await navigator.clipboard.writeText(selectedText);
+    }
+}
+
+class PasteCommand extends EditorCommand {
+    constructor() {
+        super(EditorCommandType.Paste);
+    }
+    static async run(app) {
+        const clipboard = await navigator.clipboard.readText();
+        const activeView = EditorCommand.getActiveMarkdownView(app);
+        if (!activeView) {
+            log.logError("no active markdown view.");
+            return;
+        }
+        activeView.editor.replaceSelection(clipboard);
+    }
+}
+
+class SelectActiveLineCommand extends EditorCommand {
+    constructor() {
+        super(EditorCommandType.SelectActiveLine);
+    }
+    static run(app) {
+        const activeView = EditorCommand.getActiveMarkdownView(app);
+        const { line: lineNumber } = activeView.editor.getCursor();
+        const line = activeView.editor.getLine(lineNumber);
+        const lineLength = line.length;
+        activeView.editor.setSelection({ line: lineNumber, ch: 0 }, { line: lineNumber, ch: lineLength });
+    }
+}
+
+class SelectLinkOnActiveLineCommand extends EditorCommand {
+    constructor() {
+        super(EditorCommandType.SelectLinkOnActiveLine);
+    }
+    static async run(app) {
+        const activeView = EditorCommand.getActiveMarkdownView(app);
+        const { line: lineNumber } = activeView.editor.getCursor();
+        const line = activeView.editor.getLine(lineNumber);
+        const match = WIKI_LINK_REGEX.exec(line);
+        if (!match) {
+            log.logError(`no internal link found on line ${lineNumber}.`);
+            return;
+        }
+        const matchStart = match.index;
+        const matchEnd = match[0].length + matchStart;
+        activeView.editor.setSelection({ line: lineNumber, ch: matchStart }, { line: lineNumber, ch: matchEnd });
+    }
+}
+
 class MacroChoiceEngine extends QuickAddChoiceEngine {
     constructor(app, plugin, choice, macros, choiceExecutor, variables) {
         super(app);
@@ -9619,6 +9695,15 @@ class MacroChoiceEngine extends QuickAddChoiceEngine {
                 const waitCommand = command;
                 await waitFor(waitCommand.time);
             }
+            if ((command === null || command === void 0 ? void 0 : command.type) === CommandType.NestedChoice) {
+                await this.executeNestedChoice(command);
+            }
+            if ((command === null || command === void 0 ? void 0 : command.type) === CommandType.EditorCommand) {
+                await this.executeEditorCommand(command);
+            }
+            Object.keys(this.params.variables).forEach(key => {
+                this.choiceExecutor.variables.set(key, this.params.variables[key]);
+            });
         }
     }
     // Slightly modified from Templater's user script engine:
@@ -9701,6 +9786,33 @@ class MacroChoiceEngine extends QuickAddChoiceEngine {
             return;
         }
         await this.choiceExecutor.execute(targetChoice);
+    }
+    async executeNestedChoice(command) {
+        const choice = command.choice;
+        if (!choice) {
+            log.logError(`choice in ${command.name} is invalid`);
+            return;
+        }
+        await this.choiceExecutor.execute(choice);
+    }
+    async executeEditorCommand(command) {
+        switch (command.editorCommandType) {
+            case EditorCommandType.Cut:
+                await CutCommand.run(this.app);
+                break;
+            case EditorCommandType.Copy:
+                await CopyCommand.run(this.app);
+                break;
+            case EditorCommandType.Paste:
+                await PasteCommand.run(this.app);
+                break;
+            case EditorCommandType.SelectActiveLine:
+                await SelectActiveLineCommand.run(this.app);
+                break;
+            case EditorCommandType.SelectLinkOnActiveLine:
+                await SelectLinkOnActiveLineCommand.run(this.app);
+                break;
+        }
     }
 }
 
@@ -10027,6 +10139,9 @@ class CaptureChoiceBuilder extends ChoiceBuilder {
         if (!this.choice.captureToActiveFile) {
             this.addAppendLinkSetting();
             this.addInsertAfterSetting();
+            this.addOpenFileSetting();
+            if (this.choice.openFile)
+                this.addOpenFileInNewTabSetting();
         }
         this.addFormatSetting();
     }
@@ -10226,6 +10341,39 @@ class CaptureChoiceBuilder extends ChoiceBuilder {
             this.choice.createFileIfItDoesntExist.template = value;
         });
     }
+    addOpenFileSetting() {
+        const noOpenSetting = new obsidian.Setting(this.contentEl);
+        noOpenSetting.setName("Open")
+            .setDesc("Open the file that is captured to.")
+            .addToggle(toggle => {
+            toggle.setValue(this.choice.openFile);
+            toggle.onChange(value => {
+                this.choice.openFile = value;
+                this.reload();
+            });
+        });
+    }
+    addOpenFileInNewTabSetting() {
+        const newTabSetting = new obsidian.Setting(this.contentEl);
+        newTabSetting.setName("New Tab")
+            .setDesc("Open the file that is captured to in a new tab.")
+            .addToggle(toggle => {
+            var _a, _b;
+            toggle.setValue((_b = (_a = this.choice) === null || _a === void 0 ? void 0 : _a.openFileInNewTab) === null || _b === void 0 ? void 0 : _b.enabled);
+            toggle.onChange(value => this.choice.openFileInNewTab.enabled = value);
+        })
+            .addDropdown(dropdown => {
+            var _a, _b, _c;
+            if (!((_a = this.choice) === null || _a === void 0 ? void 0 : _a.openFileInNewTab)) {
+                this.choice.openFileInNewTab = { enabled: false, direction: NewTabDirection.vertical };
+            }
+            dropdown.selectEl.style.marginLeft = "10px";
+            dropdown.addOption(NewTabDirection.vertical, "Vertical");
+            dropdown.addOption(NewTabDirection.horizontal, "Horizontal");
+            dropdown.setValue((_c = (_b = this.choice) === null || _b === void 0 ? void 0 : _b.openFileInNewTab) === null || _c === void 0 ? void 0 : _c.direction);
+            dropdown.onChange(value => this.choice.openFileInNewTab.direction = value);
+        });
+    }
 }
 
 class MacroChoiceBuilder extends ChoiceBuilder {
@@ -10269,14 +10417,6 @@ class MacroChoiceBuilder extends ChoiceBuilder {
     }
 }
 
-class Command {
-    constructor(name, type) {
-        this.name = name;
-        this.type = type;
-        this.id = v4();
-    }
-}
-
 class UserScript extends Command {
     constructor(name, path) {
         super(name, CommandType.UserScript);
@@ -10291,9 +10431,9 @@ class ObsidianCommand extends Command {
     }
 }
 
-/* src/gui/MacroGUIs/Components/StandardCommand.svelte generated by Svelte v3.38.3 */
+/* src/gui/MacroGUIs/Components/StandardCommand.svelte generated by Svelte v3.41.0 */
 
-function create_fragment$3(ctx) {
+function create_fragment$4(ctx) {
 	let div1;
 	let li;
 	let t0_value = /*command*/ ctx[0].name + "";
@@ -10329,8 +10469,8 @@ function create_fragment$3(ctx) {
 			attr(span1, "aria-label", "Drag-handle");
 
 			attr(span1, "style", span1_style_value = "" + ((/*dragDisabled*/ ctx[2]
-			? "cursor: grab"
-			: "cursor: grabbing") + ";"));
+			? 'cursor: grab'
+			: 'cursor: grabbing') + ";"));
 
 			attr(span1, "tabindex", span1_tabindex_value = /*dragDisabled*/ ctx[2] ? 0 : -1);
 			attr(div1, "class", "quickAddCommandListItem");
@@ -10367,8 +10507,8 @@ function create_fragment$3(ctx) {
 			if ((!current || dirty & /*command*/ 1) && t0_value !== (t0_value = /*command*/ ctx[0].name + "")) set_data(t0, t0_value);
 
 			if (!current || dirty & /*dragDisabled*/ 4 && span1_style_value !== (span1_style_value = "" + ((/*dragDisabled*/ ctx[2]
-			? "cursor: grab"
-			: "cursor: grabbing") + ";"))) {
+			? 'cursor: grab'
+			: 'cursor: grabbing') + ";"))) {
 				attr(span1, "style", span1_style_value);
 			}
 
@@ -10397,22 +10537,22 @@ function create_fragment$3(ctx) {
 	};
 }
 
-function instance$3($$self, $$props, $$invalidate) {
+function instance$4($$self, $$props, $$invalidate) {
 	let { command } = $$props;
 	let { startDrag } = $$props;
 	let { dragDisabled } = $$props;
 	const dispatch = createEventDispatcher();
 
 	function deleteCommand(commandId) {
-		dispatch("deleteCommand", commandId);
+		dispatch('deleteCommand', commandId);
 	}
 
 	const click_handler = () => deleteCommand(command.id);
 
 	$$self.$$set = $$props => {
-		if ("command" in $$props) $$invalidate(0, command = $$props.command);
-		if ("startDrag" in $$props) $$invalidate(1, startDrag = $$props.startDrag);
-		if ("dragDisabled" in $$props) $$invalidate(2, dragDisabled = $$props.dragDisabled);
+		if ('command' in $$props) $$invalidate(0, command = $$props.command);
+		if ('startDrag' in $$props) $$invalidate(1, startDrag = $$props.startDrag);
+		if ('dragDisabled' in $$props) $$invalidate(2, dragDisabled = $$props.dragDisabled);
 	};
 
 	return [command, startDrag, dragDisabled, deleteCommand, click_handler];
@@ -10422,7 +10562,7 @@ class StandardCommand extends SvelteComponent {
 	constructor(options) {
 		super();
 
-		init(this, options, instance$3, create_fragment$3, safe_not_equal, {
+		init(this, options, instance$4, create_fragment$4, safe_not_equal, {
 			command: 0,
 			startDrag: 1,
 			dragDisabled: 2
@@ -10430,16 +10570,13 @@ class StandardCommand extends SvelteComponent {
 	}
 }
 
-/* src/gui/MacroGUIs/Components/WaitCommand.svelte generated by Svelte v3.38.3 */
+/* src/gui/MacroGUIs/Components/WaitCommand.svelte generated by Svelte v3.41.0 */
 
-function add_css$2() {
-	var style = element("style");
-	style.id = "svelte-1196d9p-style";
-	style.textContent = ".dotInput.svelte-1196d9p{border:none;display:inline;font-family:inherit;font-size:inherit;padding:0;width:0;text-decoration:underline dotted;background-color:transparent}.dotInput.svelte-1196d9p:hover{background-color:transparent}";
-	append(document.head, style);
+function add_css$2(target) {
+	append_styles(target, "svelte-1196d9p", ".dotInput.svelte-1196d9p{border:none;display:inline;font-family:inherit;font-size:inherit;padding:0;width:0;text-decoration:underline dotted;background-color:transparent}.dotInput.svelte-1196d9p:hover{background-color:transparent}");
 }
 
-function create_fragment$2(ctx) {
+function create_fragment$3(ctx) {
 	let div1;
 	let li;
 	let t0_value = /*command*/ ctx[0].name + "";
@@ -10484,8 +10621,8 @@ function create_fragment$2(ctx) {
 			attr(span1, "aria-label", "Drag-handle");
 
 			attr(span1, "style", span1_style_value = "" + ((/*dragDisabled*/ ctx[2]
-			? "cursor: grab"
-			: "cursor: grabbing") + ";"));
+			? 'cursor: grab'
+			: 'cursor: grabbing') + ";"));
 
 			attr(span1, "tabindex", span1_tabindex_value = /*dragDisabled*/ ctx[2] ? 0 : -1);
 			attr(div1, "class", "quickAddCommandListItem");
@@ -10533,8 +10670,8 @@ function create_fragment$2(ctx) {
 			}
 
 			if (!current || dirty & /*dragDisabled*/ 4 && span1_style_value !== (span1_style_value = "" + ((/*dragDisabled*/ ctx[2]
-			? "cursor: grab"
-			: "cursor: grabbing") + ";"))) {
+			? 'cursor: grab'
+			: 'cursor: grabbing') + ";"))) {
 				attr(span1, "style", span1_style_value);
 			}
 
@@ -10564,7 +10701,7 @@ function create_fragment$2(ctx) {
 	};
 }
 
-function instance$2($$self, $$props, $$invalidate) {
+function instance$3($$self, $$props, $$invalidate) {
 	let { command } = $$props;
 	let { startDrag } = $$props;
 	let { dragDisabled } = $$props;
@@ -10572,18 +10709,18 @@ function instance$2($$self, $$props, $$invalidate) {
 	let inputEl;
 
 	function deleteCommand(commandId) {
-		dispatch("deleteCommand", commandId);
+		dispatch('deleteCommand', commandId);
 	}
 
 	function resizeInput() {
 		const length = inputEl.value.length;
-		$$invalidate(3, inputEl.style.width = (length === 0 ? 2 : length) + "ch", inputEl);
+		$$invalidate(3, inputEl.style.width = (length === 0 ? 2 : length) + 'ch', inputEl);
 	}
 
 	onMount(resizeInput);
 
 	function input_binding($$value) {
-		binding_callbacks[$$value ? "unshift" : "push"](() => {
+		binding_callbacks[$$value ? 'unshift' : 'push'](() => {
 			inputEl = $$value;
 			$$invalidate(3, inputEl);
 		});
@@ -10597,9 +10734,9 @@ function instance$2($$self, $$props, $$invalidate) {
 	const click_handler = () => deleteCommand(command.id);
 
 	$$self.$$set = $$props => {
-		if ("command" in $$props) $$invalidate(0, command = $$props.command);
-		if ("startDrag" in $$props) $$invalidate(1, startDrag = $$props.startDrag);
-		if ("dragDisabled" in $$props) $$invalidate(2, dragDisabled = $$props.dragDisabled);
+		if ('command' in $$props) $$invalidate(0, command = $$props.command);
+		if ('startDrag' in $$props) $$invalidate(1, startDrag = $$props.startDrag);
+		if ('dragDisabled' in $$props) $$invalidate(2, dragDisabled = $$props.dragDisabled);
 	};
 
 	return [
@@ -10618,7 +10755,181 @@ function instance$2($$self, $$props, $$invalidate) {
 class WaitCommand$1 extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1196d9p-style")) add_css$2();
+
+		init(
+			this,
+			options,
+			instance$3,
+			create_fragment$3,
+			safe_not_equal,
+			{
+				command: 0,
+				startDrag: 1,
+				dragDisabled: 2
+			},
+			add_css$2
+		);
+	}
+}
+
+/* src/gui/MacroGUIs/Components/NestedChoiceCommand.svelte generated by Svelte v3.41.0 */
+
+function create_fragment$2(ctx) {
+	let div1;
+	let li;
+	let t0_value = /*command*/ ctx[0].name + "";
+	let t0;
+	let t1;
+	let div0;
+	let span0;
+	let icon0;
+	let t2;
+	let span1;
+	let icon1;
+	let t3;
+	let span2;
+	let icon2;
+	let span2_style_value;
+	let span2_tabindex_value;
+	let current;
+	let mounted;
+	let dispose;
+	icon0 = new Icon({ props: { data: faCog } });
+	icon1 = new Icon({ props: { data: faTrash } });
+	icon2 = new Icon({ props: { data: faBars } });
+
+	return {
+		c() {
+			div1 = element("div");
+			li = element("li");
+			t0 = text(t0_value);
+			t1 = space();
+			div0 = element("div");
+			span0 = element("span");
+			create_component(icon0.$$.fragment);
+			t2 = space();
+			span1 = element("span");
+			create_component(icon1.$$.fragment);
+			t3 = space();
+			span2 = element("span");
+			create_component(icon2.$$.fragment);
+			attr(span0, "class", "clickable");
+			attr(span1, "class", "clickable");
+			attr(span2, "aria-label", "Drag-handle");
+
+			attr(span2, "style", span2_style_value = "" + ((/*dragDisabled*/ ctx[2]
+			? 'cursor: grab'
+			: 'cursor: grabbing') + ";"));
+
+			attr(span2, "tabindex", span2_tabindex_value = /*dragDisabled*/ ctx[2] ? 0 : -1);
+			attr(div1, "class", "quickAddCommandListItem");
+		},
+		m(target, anchor) {
+			insert(target, div1, anchor);
+			append(div1, li);
+			append(li, t0);
+			append(div1, t1);
+			append(div1, div0);
+			append(div0, span0);
+			mount_component(icon0, span0, null);
+			append(div0, t2);
+			append(div0, span1);
+			mount_component(icon1, span1, null);
+			append(div0, t3);
+			append(div0, span2);
+			mount_component(icon2, span2, null);
+			current = true;
+
+			if (!mounted) {
+				dispose = [
+					listen(span0, "click", /*click_handler*/ ctx[5]),
+					listen(span1, "click", /*click_handler_1*/ ctx[6]),
+					listen(span2, "mousedown", function () {
+						if (is_function(/*startDrag*/ ctx[1])) /*startDrag*/ ctx[1].apply(this, arguments);
+					}),
+					listen(span2, "touchstart", function () {
+						if (is_function(/*startDrag*/ ctx[1])) /*startDrag*/ ctx[1].apply(this, arguments);
+					})
+				];
+
+				mounted = true;
+			}
+		},
+		p(new_ctx, [dirty]) {
+			ctx = new_ctx;
+			if ((!current || dirty & /*command*/ 1) && t0_value !== (t0_value = /*command*/ ctx[0].name + "")) set_data(t0, t0_value);
+
+			if (!current || dirty & /*dragDisabled*/ 4 && span2_style_value !== (span2_style_value = "" + ((/*dragDisabled*/ ctx[2]
+			? 'cursor: grab'
+			: 'cursor: grabbing') + ";"))) {
+				attr(span2, "style", span2_style_value);
+			}
+
+			if (!current || dirty & /*dragDisabled*/ 4 && span2_tabindex_value !== (span2_tabindex_value = /*dragDisabled*/ ctx[2] ? 0 : -1)) {
+				attr(span2, "tabindex", span2_tabindex_value);
+			}
+		},
+		i(local) {
+			if (current) return;
+			transition_in(icon0.$$.fragment, local);
+			transition_in(icon1.$$.fragment, local);
+			transition_in(icon2.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			transition_out(icon0.$$.fragment, local);
+			transition_out(icon1.$$.fragment, local);
+			transition_out(icon2.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			if (detaching) detach(div1);
+			destroy_component(icon0);
+			destroy_component(icon1);
+			destroy_component(icon2);
+			mounted = false;
+			run_all(dispose);
+		}
+	};
+}
+
+function instance$2($$self, $$props, $$invalidate) {
+	let { command } = $$props;
+	let { startDrag } = $$props;
+	let { dragDisabled } = $$props;
+	const dispatch = createEventDispatcher();
+
+	function deleteCommand() {
+		dispatch('deleteCommand', command.id);
+	}
+
+	function configureChoice() {
+		dispatch('configureChoice', command);
+	}
+
+	const click_handler = () => configureChoice();
+	const click_handler_1 = () => deleteCommand();
+
+	$$self.$$set = $$props => {
+		if ('command' in $$props) $$invalidate(0, command = $$props.command);
+		if ('startDrag' in $$props) $$invalidate(1, startDrag = $$props.startDrag);
+		if ('dragDisabled' in $$props) $$invalidate(2, dragDisabled = $$props.dragDisabled);
+	};
+
+	return [
+		command,
+		startDrag,
+		dragDisabled,
+		deleteCommand,
+		configureChoice,
+		click_handler,
+		click_handler_1
+	];
+}
+
+class NestedChoiceCommand$1 extends SvelteComponent {
+	constructor(options) {
+		super();
 
 		init(this, options, instance$2, create_fragment$2, safe_not_equal, {
 			command: 0,
@@ -10628,24 +10939,21 @@ class WaitCommand$1 extends SvelteComponent {
 	}
 }
 
-/* src/gui/MacroGUIs/CommandList.svelte generated by Svelte v3.38.3 */
+/* src/gui/MacroGUIs/CommandList.svelte generated by Svelte v3.41.0 */
 
-function add_css$1() {
-	var style = element("style");
-	style.id = "svelte-1ukgrgp-style";
-	style.textContent = ".quickAddCommandList.svelte-1ukgrgp{display:grid;grid-template-columns:auto;width:auto;border:0 solid black;overflow-y:auto;height:auto;margin-bottom:8px;padding:20px}";
-	append(document.head, style);
+function add_css$1(target) {
+	append_styles(target, "svelte-1ukgrgp", ".quickAddCommandList.svelte-1ukgrgp{display:grid;grid-template-columns:auto;width:auto;border:0 solid black;overflow-y:auto;height:auto;margin-bottom:8px;padding:20px}");
 }
 
 function get_each_context(ctx, list, i) {
 	const child_ctx = ctx.slice();
-	child_ctx[19] = list[i];
-	child_ctx[20] = list;
-	child_ctx[21] = i;
+	child_ctx[29] = list[i];
+	child_ctx[30] = list;
+	child_ctx[31] = i;
 	return child_ctx;
 }
 
-// (45:8) {:else}
+// (93:8) {:else}
 function create_else_block(ctx) {
 	let standardcommand;
 	let updating_command;
@@ -10654,21 +10962,21 @@ function create_else_block(ctx) {
 	let current;
 
 	function standardcommand_command_binding(value) {
-		/*standardcommand_command_binding*/ ctx[15](value, /*command*/ ctx[19], /*each_value*/ ctx[20], /*command_index*/ ctx[21]);
+		/*standardcommand_command_binding*/ ctx[22](value, /*command*/ ctx[29], /*each_value*/ ctx[30], /*command_index*/ ctx[31]);
 	}
 
 	function standardcommand_dragDisabled_binding(value) {
-		/*standardcommand_dragDisabled_binding*/ ctx[16](value);
+		/*standardcommand_dragDisabled_binding*/ ctx[23](value);
 	}
 
 	function standardcommand_startDrag_binding(value) {
-		/*standardcommand_startDrag_binding*/ ctx[17](value);
+		/*standardcommand_startDrag_binding*/ ctx[24](value);
 	}
 
 	let standardcommand_props = {};
 
-	if (/*command*/ ctx[19] !== void 0) {
-		standardcommand_props.command = /*command*/ ctx[19];
+	if (/*command*/ ctx[29] !== void 0) {
+		standardcommand_props.command = /*command*/ ctx[29];
 	}
 
 	if (/*dragDisabled*/ ctx[3] !== void 0) {
@@ -10680,11 +10988,11 @@ function create_else_block(ctx) {
 	}
 
 	standardcommand = new StandardCommand({ props: standardcommand_props });
-	binding_callbacks.push(() => bind(standardcommand, "command", standardcommand_command_binding));
-	binding_callbacks.push(() => bind(standardcommand, "dragDisabled", standardcommand_dragDisabled_binding));
-	binding_callbacks.push(() => bind(standardcommand, "startDrag", standardcommand_startDrag_binding));
-	standardcommand.$on("deleteCommand", /*deleteCommand_handler_1*/ ctx[18]);
-	standardcommand.$on("updateCommand", /*updateCommand*/ ctx[7]);
+	binding_callbacks.push(() => bind(standardcommand, 'command', standardcommand_command_binding));
+	binding_callbacks.push(() => bind(standardcommand, 'dragDisabled', standardcommand_dragDisabled_binding));
+	binding_callbacks.push(() => bind(standardcommand, 'startDrag', standardcommand_startDrag_binding));
+	standardcommand.$on("deleteCommand", /*deleteCommand_handler_2*/ ctx[25]);
+	standardcommand.$on("updateCommand", /*updateCommandFromEvent*/ ctx[7]);
 
 	return {
 		c() {
@@ -10698,19 +11006,19 @@ function create_else_block(ctx) {
 			ctx = new_ctx;
 			const standardcommand_changes = {};
 
-			if (!updating_command && dirty & /*commands, SHADOW_PLACEHOLDER_ITEM_ID*/ 5) {
+			if (!updating_command && dirty[0] & /*commands, SHADOW_PLACEHOLDER_ITEM_ID*/ 5) {
 				updating_command = true;
-				standardcommand_changes.command = /*command*/ ctx[19];
+				standardcommand_changes.command = /*command*/ ctx[29];
 				add_flush_callback(() => updating_command = false);
 			}
 
-			if (!updating_dragDisabled && dirty & /*dragDisabled*/ 8) {
+			if (!updating_dragDisabled && dirty[0] & /*dragDisabled*/ 8) {
 				updating_dragDisabled = true;
 				standardcommand_changes.dragDisabled = /*dragDisabled*/ ctx[3];
 				add_flush_callback(() => updating_dragDisabled = false);
 			}
 
-			if (!updating_startDrag && dirty & /*startDrag*/ 16) {
+			if (!updating_startDrag && dirty[0] & /*startDrag*/ 16) {
 				updating_startDrag = true;
 				standardcommand_changes.startDrag = /*startDrag*/ ctx[4];
 				add_flush_callback(() => updating_startDrag = false);
@@ -10733,7 +11041,96 @@ function create_else_block(ctx) {
 	};
 }
 
-// (43:8) {#if command.type === CommandType.Wait}
+// (91:60) 
+function create_if_block_1(ctx) {
+	let nestedchoicecommand;
+	let updating_command;
+	let updating_dragDisabled;
+	let updating_startDrag;
+	let current;
+
+	function nestedchoicecommand_command_binding(value) {
+		/*nestedchoicecommand_command_binding*/ ctx[18](value, /*command*/ ctx[29], /*each_value*/ ctx[30], /*command_index*/ ctx[31]);
+	}
+
+	function nestedchoicecommand_dragDisabled_binding(value) {
+		/*nestedchoicecommand_dragDisabled_binding*/ ctx[19](value);
+	}
+
+	function nestedchoicecommand_startDrag_binding(value) {
+		/*nestedchoicecommand_startDrag_binding*/ ctx[20](value);
+	}
+
+	let nestedchoicecommand_props = {};
+
+	if (/*command*/ ctx[29] !== void 0) {
+		nestedchoicecommand_props.command = /*command*/ ctx[29];
+	}
+
+	if (/*dragDisabled*/ ctx[3] !== void 0) {
+		nestedchoicecommand_props.dragDisabled = /*dragDisabled*/ ctx[3];
+	}
+
+	if (/*startDrag*/ ctx[4] !== void 0) {
+		nestedchoicecommand_props.startDrag = /*startDrag*/ ctx[4];
+	}
+
+	nestedchoicecommand = new NestedChoiceCommand$1({ props: nestedchoicecommand_props });
+	binding_callbacks.push(() => bind(nestedchoicecommand, 'command', nestedchoicecommand_command_binding));
+	binding_callbacks.push(() => bind(nestedchoicecommand, 'dragDisabled', nestedchoicecommand_dragDisabled_binding));
+	binding_callbacks.push(() => bind(nestedchoicecommand, 'startDrag', nestedchoicecommand_startDrag_binding));
+	nestedchoicecommand.$on("deleteCommand", /*deleteCommand_handler_1*/ ctx[21]);
+	nestedchoicecommand.$on("updateCommand", /*updateCommandFromEvent*/ ctx[7]);
+	nestedchoicecommand.$on("configureChoice", /*configureChoice*/ ctx[8]);
+
+	return {
+		c() {
+			create_component(nestedchoicecommand.$$.fragment);
+		},
+		m(target, anchor) {
+			mount_component(nestedchoicecommand, target, anchor);
+			current = true;
+		},
+		p(new_ctx, dirty) {
+			ctx = new_ctx;
+			const nestedchoicecommand_changes = {};
+
+			if (!updating_command && dirty[0] & /*commands, SHADOW_PLACEHOLDER_ITEM_ID*/ 5) {
+				updating_command = true;
+				nestedchoicecommand_changes.command = /*command*/ ctx[29];
+				add_flush_callback(() => updating_command = false);
+			}
+
+			if (!updating_dragDisabled && dirty[0] & /*dragDisabled*/ 8) {
+				updating_dragDisabled = true;
+				nestedchoicecommand_changes.dragDisabled = /*dragDisabled*/ ctx[3];
+				add_flush_callback(() => updating_dragDisabled = false);
+			}
+
+			if (!updating_startDrag && dirty[0] & /*startDrag*/ 16) {
+				updating_startDrag = true;
+				nestedchoicecommand_changes.startDrag = /*startDrag*/ ctx[4];
+				add_flush_callback(() => updating_startDrag = false);
+			}
+
+			nestedchoicecommand.$set(nestedchoicecommand_changes);
+		},
+		i(local) {
+			if (current) return;
+			transition_in(nestedchoicecommand.$$.fragment, local);
+			current = true;
+		},
+		o(local) {
+			transition_out(nestedchoicecommand.$$.fragment, local);
+			current = false;
+		},
+		d(detaching) {
+			destroy_component(nestedchoicecommand, detaching);
+		}
+	};
+}
+
+// (89:8) {#if command.type === CommandType.Wait}
 function create_if_block(ctx) {
 	let waitcommand;
 	let updating_command;
@@ -10742,21 +11139,21 @@ function create_if_block(ctx) {
 	let current;
 
 	function waitcommand_command_binding(value) {
-		/*waitcommand_command_binding*/ ctx[11](value, /*command*/ ctx[19], /*each_value*/ ctx[20], /*command_index*/ ctx[21]);
+		/*waitcommand_command_binding*/ ctx[14](value, /*command*/ ctx[29], /*each_value*/ ctx[30], /*command_index*/ ctx[31]);
 	}
 
 	function waitcommand_dragDisabled_binding(value) {
-		/*waitcommand_dragDisabled_binding*/ ctx[12](value);
+		/*waitcommand_dragDisabled_binding*/ ctx[15](value);
 	}
 
 	function waitcommand_startDrag_binding(value) {
-		/*waitcommand_startDrag_binding*/ ctx[13](value);
+		/*waitcommand_startDrag_binding*/ ctx[16](value);
 	}
 
 	let waitcommand_props = {};
 
-	if (/*command*/ ctx[19] !== void 0) {
-		waitcommand_props.command = /*command*/ ctx[19];
+	if (/*command*/ ctx[29] !== void 0) {
+		waitcommand_props.command = /*command*/ ctx[29];
 	}
 
 	if (/*dragDisabled*/ ctx[3] !== void 0) {
@@ -10768,11 +11165,11 @@ function create_if_block(ctx) {
 	}
 
 	waitcommand = new WaitCommand$1({ props: waitcommand_props });
-	binding_callbacks.push(() => bind(waitcommand, "command", waitcommand_command_binding));
-	binding_callbacks.push(() => bind(waitcommand, "dragDisabled", waitcommand_dragDisabled_binding));
-	binding_callbacks.push(() => bind(waitcommand, "startDrag", waitcommand_startDrag_binding));
-	waitcommand.$on("deleteCommand", /*deleteCommand_handler*/ ctx[14]);
-	waitcommand.$on("updateCommand", /*updateCommand*/ ctx[7]);
+	binding_callbacks.push(() => bind(waitcommand, 'command', waitcommand_command_binding));
+	binding_callbacks.push(() => bind(waitcommand, 'dragDisabled', waitcommand_dragDisabled_binding));
+	binding_callbacks.push(() => bind(waitcommand, 'startDrag', waitcommand_startDrag_binding));
+	waitcommand.$on("deleteCommand", /*deleteCommand_handler*/ ctx[17]);
+	waitcommand.$on("updateCommand", /*updateCommandFromEvent*/ ctx[7]);
 
 	return {
 		c() {
@@ -10786,19 +11183,19 @@ function create_if_block(ctx) {
 			ctx = new_ctx;
 			const waitcommand_changes = {};
 
-			if (!updating_command && dirty & /*commands, SHADOW_PLACEHOLDER_ITEM_ID*/ 5) {
+			if (!updating_command && dirty[0] & /*commands, SHADOW_PLACEHOLDER_ITEM_ID*/ 5) {
 				updating_command = true;
-				waitcommand_changes.command = /*command*/ ctx[19];
+				waitcommand_changes.command = /*command*/ ctx[29];
 				add_flush_callback(() => updating_command = false);
 			}
 
-			if (!updating_dragDisabled && dirty & /*dragDisabled*/ 8) {
+			if (!updating_dragDisabled && dirty[0] & /*dragDisabled*/ 8) {
 				updating_dragDisabled = true;
 				waitcommand_changes.dragDisabled = /*dragDisabled*/ ctx[3];
 				add_flush_callback(() => updating_dragDisabled = false);
 			}
 
-			if (!updating_startDrag && dirty & /*startDrag*/ 16) {
+			if (!updating_startDrag && dirty[0] & /*startDrag*/ 16) {
 				updating_startDrag = true;
 				waitcommand_changes.startDrag = /*startDrag*/ ctx[4];
 				add_flush_callback(() => updating_startDrag = false);
@@ -10821,19 +11218,20 @@ function create_if_block(ctx) {
 	};
 }
 
-// (42:4) {#each commands.filter(c => c.id !== SHADOW_PLACEHOLDER_ITEM_ID) as command(command.id)}
+// (88:4) {#each commands.filter(c => c.id !== SHADOW_PLACEHOLDER_ITEM_ID) as command(command.id)}
 function create_each_block(key_1, ctx) {
 	let first;
 	let current_block_type_index;
 	let if_block;
 	let if_block_anchor;
 	let current;
-	const if_block_creators = [create_if_block, create_else_block];
+	const if_block_creators = [create_if_block, create_if_block_1, create_else_block];
 	const if_blocks = [];
 
 	function select_block_type(ctx, dirty) {
-		if (/*command*/ ctx[19].type === CommandType.Wait) return 0;
-		return 1;
+		if (/*command*/ ctx[29].type === CommandType.Wait) return 0;
+		if (/*command*/ ctx[29].type === CommandType.NestedChoice) return 1;
+		return 2;
 	}
 
 	current_block_type_index = select_block_type(ctx);
@@ -10907,8 +11305,8 @@ function create_fragment$1(ctx) {
 	let current;
 	let mounted;
 	let dispose;
-	let each_value = /*commands*/ ctx[0].filter(/*func*/ ctx[10]);
-	const get_key = ctx => /*command*/ ctx[19].id;
+	let each_value = /*commands*/ ctx[0].filter(/*func*/ ctx[13]);
+	const get_key = ctx => /*command*/ ctx[29].id;
 
 	for (let i = 0; i < each_value.length; i += 1) {
 		let child_ctx = get_each_context(ctx, each_value, i);
@@ -10950,15 +11348,15 @@ function create_fragment$1(ctx) {
 				mounted = true;
 			}
 		},
-		p(ctx, [dirty]) {
-			if (dirty & /*commands, SHADOW_PLACEHOLDER_ITEM_ID, dragDisabled, startDrag, deleteCommand, updateCommand, CommandType*/ 159) {
-				each_value = /*commands*/ ctx[0].filter(/*func*/ ctx[10]);
+		p(ctx, dirty) {
+			if (dirty[0] & /*commands, SHADOW_PLACEHOLDER_ITEM_ID, dragDisabled, startDrag, deleteCommand, updateCommandFromEvent, configureChoice*/ 415) {
+				each_value = /*commands*/ ctx[0].filter(/*func*/ ctx[13]);
 				group_outros();
 				each_blocks = update_keyed_each(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, ol, outro_and_destroy_block, create_each_block, null, get_each_context);
 				check_outros();
 			}
 
-			if (dndzone_action && is_function(dndzone_action.update) && dirty & /*commands, dragDisabled*/ 9) dndzone_action.update.call(null, {
+			if (dndzone_action && is_function(dndzone_action.update) && dirty[0] & /*commands, dragDisabled*/ 9) dndzone_action.update.call(null, {
 				items: /*commands*/ ctx[0],
 				dragDisabled: /*dragDisabled*/ ctx[3],
 				dropTargetStyle: {},
@@ -10995,10 +11393,51 @@ function create_fragment$1(ctx) {
 }
 
 function instance$1($$self, $$props, $$invalidate) {
+	var __awaiter = this && this.__awaiter || function (thisArg, _arguments, P, generator) {
+		function adopt(value) {
+			return value instanceof P
+			? value
+			: new P(function (resolve) {
+						resolve(value);
+					});
+		}
+
+		return new (P || (P = Promise))(function (resolve, reject) {
+				function fulfilled(value) {
+					try {
+						step(generator.next(value));
+					} catch(e) {
+						reject(e);
+					}
+				}
+
+				function rejected(value) {
+					try {
+						step(generator["throw"](value));
+					} catch(e) {
+						reject(e);
+					}
+				}
+
+				function step(result) {
+					result.done
+					? resolve(result.value)
+					: adopt(result.value).then(fulfilled, rejected);
+				}
+
+				step((generator = generator.apply(thisArg, _arguments || [])).next());
+			});
+	};
+
+	
+	
+	
 	
 	let { commands } = $$props;
 	let { deleteCommand } = $$props;
 	let { saveCommands } = $$props;
+	let { app } = $$props;
+	let { plugin } = $$props;
 	let dragDisabled = true;
 
 	const updateCommandList = newCommands => {
@@ -11026,11 +11465,37 @@ function instance$1($$self, $$props, $$invalidate) {
 		$$invalidate(3, dragDisabled = false);
 	};
 
-	function updateCommand(e) {
+	function updateCommandFromEvent(e) {
 		const command = e.detail;
+		updateCommand(command);
+	}
+
+	function updateCommand(command) {
 		const index = commands.findIndex(c => c.id === command.id);
 		$$invalidate(0, commands[index] = command, commands);
 		saveCommands(commands);
+	}
+
+	function configureChoice(e) {
+		return __awaiter(this, void 0, void 0, function* () {
+			const command = e.detail;
+			const newChoice = yield getChoiceBuilder(command.choice).waitForClose;
+			if (!newChoice) return;
+			command.choice = newChoice;
+			command.name = newChoice.name;
+			updateCommand(command);
+		});
+	}
+
+	function getChoiceBuilder(choice) {
+		switch (choice.type) {
+			case ChoiceType.Template:
+				return new TemplateChoiceBuilder(app, choice, plugin);
+			case ChoiceType.Capture:
+				return new CaptureChoiceBuilder(app, choice, plugin);
+			case ChoiceType.Macro:
+			case ChoiceType.Multi:
+		}
 	}
 
 	const func = c => c.id !== SHADOW_PLACEHOLDER_ITEM_ID;
@@ -11050,7 +11515,24 @@ function instance$1($$self, $$props, $$invalidate) {
 		$$invalidate(4, startDrag);
 	}
 
-	const deleteCommand_handler = e => deleteCommand(e.detail);
+	const deleteCommand_handler = async e => await deleteCommand(e.detail);
+
+	function nestedchoicecommand_command_binding(value, command, each_value, command_index) {
+		each_value[command_index] = value;
+		$$invalidate(0, commands);
+	}
+
+	function nestedchoicecommand_dragDisabled_binding(value) {
+		dragDisabled = value;
+		$$invalidate(3, dragDisabled);
+	}
+
+	function nestedchoicecommand_startDrag_binding(value) {
+		startDrag = value;
+		$$invalidate(4, startDrag);
+	}
+
+	const deleteCommand_handler_1 = async e => await deleteCommand(e.detail);
 
 	function standardcommand_command_binding(value, command, each_value, command_index) {
 		each_value[command_index] = value;
@@ -11067,12 +11549,14 @@ function instance$1($$self, $$props, $$invalidate) {
 		$$invalidate(4, startDrag);
 	}
 
-	const deleteCommand_handler_1 = e => deleteCommand(e.detail);
+	const deleteCommand_handler_2 = async e => await deleteCommand(e.detail);
 
 	$$self.$$set = $$props => {
-		if ("commands" in $$props) $$invalidate(0, commands = $$props.commands);
-		if ("deleteCommand" in $$props) $$invalidate(1, deleteCommand = $$props.deleteCommand);
-		if ("saveCommands" in $$props) $$invalidate(8, saveCommands = $$props.saveCommands);
+		if ('commands' in $$props) $$invalidate(0, commands = $$props.commands);
+		if ('deleteCommand' in $$props) $$invalidate(1, deleteCommand = $$props.deleteCommand);
+		if ('saveCommands' in $$props) $$invalidate(9, saveCommands = $$props.saveCommands);
+		if ('app' in $$props) $$invalidate(10, app = $$props.app);
+		if ('plugin' in $$props) $$invalidate(11, plugin = $$props.plugin);
 	};
 
 	return [
@@ -11083,36 +11567,53 @@ function instance$1($$self, $$props, $$invalidate) {
 		startDrag,
 		handleConsider,
 		handleSort,
-		updateCommand,
+		updateCommandFromEvent,
+		configureChoice,
 		saveCommands,
+		app,
+		plugin,
 		updateCommandList,
 		func,
 		waitcommand_command_binding,
 		waitcommand_dragDisabled_binding,
 		waitcommand_startDrag_binding,
 		deleteCommand_handler,
+		nestedchoicecommand_command_binding,
+		nestedchoicecommand_dragDisabled_binding,
+		nestedchoicecommand_startDrag_binding,
+		deleteCommand_handler_1,
 		standardcommand_command_binding,
 		standardcommand_dragDisabled_binding,
 		standardcommand_startDrag_binding,
-		deleteCommand_handler_1
+		deleteCommand_handler_2
 	];
 }
 
 class CommandList extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1ukgrgp-style")) add_css$1();
 
-		init(this, options, instance$1, create_fragment$1, safe_not_equal, {
-			commands: 0,
-			deleteCommand: 1,
-			saveCommands: 8,
-			updateCommandList: 9
-		});
+		init(
+			this,
+			options,
+			instance$1,
+			create_fragment$1,
+			safe_not_equal,
+			{
+				commands: 0,
+				deleteCommand: 1,
+				saveCommands: 9,
+				app: 10,
+				plugin: 11,
+				updateCommandList: 12
+			},
+			add_css$1,
+			[-1, -1]
+		);
 	}
 
 	get updateCommandList() {
-		return this.$$.ctx[9];
+		return this.$$.ctx[12];
 	}
 }
 
@@ -11130,8 +11631,15 @@ class WaitCommand extends Command {
     }
 }
 
+class NestedChoiceCommand extends Command {
+    constructor(choice) {
+        super(choice.name, CommandType.NestedChoice);
+        this.choice = choice;
+    }
+}
+
 class MacroBuilder extends obsidian.Modal {
-    constructor(app, macro, choices) {
+    constructor(app, plugin, macro, choices) {
         super(app);
         this.commands = [];
         this.javascriptFiles = [];
@@ -11139,6 +11647,7 @@ class MacroBuilder extends obsidian.Modal {
         this.macro = macro;
         this.svelteElements = [];
         this.choices = choices;
+        this.plugin = plugin;
         this.waitForClose = new Promise(resolve => (this.resolvePromise = resolve));
         this.getObsidianCommands();
         this.getJavascriptFiles();
@@ -11157,8 +11666,9 @@ class MacroBuilder extends obsidian.Modal {
         this.contentEl.empty();
         this.addCenteredHeader(this.macro.name);
         this.addCommandList();
-        this.addAddWaitCommandButton();
+        this.addCommandBar();
         this.addAddObsidianCommandSetting();
+        this.addAddEditorCommandsSetting();
         this.addAddUserScriptSetting();
         this.addAddChoiceSetting();
     }
@@ -11202,6 +11712,46 @@ class MacroBuilder extends obsidian.Modal {
         })
             .addButton(button => button.setCta().setButtonText("Add").onClick(addObsidianCommandFromInput));
     }
+    addAddEditorCommandsSetting() {
+        let dropdownComponent;
+        const addEditorCommandFromDropdown = () => {
+            const type = dropdownComponent.getValue();
+            let command;
+            switch (type) {
+                case EditorCommandType.Copy:
+                    command = new CopyCommand();
+                    break;
+                case EditorCommandType.Cut:
+                    command = new CutCommand();
+                    break;
+                case EditorCommandType.Paste:
+                    command = new PasteCommand();
+                    break;
+                case EditorCommandType.SelectActiveLine:
+                    command = new SelectActiveLineCommand();
+                    break;
+                case EditorCommandType.SelectLinkOnActiveLine:
+                    command = new SelectLinkOnActiveLineCommand();
+                    break;
+                default:
+                    log.logError("invalid editor command type");
+            }
+            this.addCommandToMacro(command);
+        };
+        new obsidian.Setting(this.contentEl)
+            .setName("Editor commands")
+            .setDesc("Add editor command")
+            .addDropdown(dropdown => {
+            dropdownComponent = dropdown;
+            dropdown.selectEl.style.marginRight = "1em";
+            dropdown.addOption(EditorCommandType.Copy, EditorCommandType.Copy)
+                .addOption(EditorCommandType.Cut, EditorCommandType.Cut)
+                .addOption(EditorCommandType.Paste, EditorCommandType.Paste)
+                .addOption(EditorCommandType.SelectActiveLine, EditorCommandType.SelectActiveLine)
+                .addOption(EditorCommandType.SelectLinkOnActiveLine, EditorCommandType.SelectLinkOnActiveLine);
+        })
+            .addButton(button => button.setCta().setButtonText("Add").onClick(addEditorCommandFromDropdown));
+    }
     addAddUserScriptSetting() {
         let input;
         const addUserScriptFromInput = () => {
@@ -11244,7 +11794,7 @@ class MacroBuilder extends obsidian.Modal {
         };
         new obsidian.Setting(this.contentEl)
             .setName("Choices")
-            .setDesc("Add choice")
+            .setDesc("Add existing choice")
             .addText(textComponent => {
             input = textComponent;
             textComponent.inputEl.style.marginRight = "1em";
@@ -11277,8 +11827,14 @@ class MacroBuilder extends obsidian.Modal {
         this.commandListEl = new CommandList({
             target: commandList,
             props: {
+                app: this.app,
+                plugin: this.plugin,
                 commands: this.macro.commands,
-                deleteCommand: (commandId) => {
+                deleteCommand: async (commandId) => {
+                    const command = this.macro.commands.find(c => c.id === commandId);
+                    const promptAnswer = await GenericYesNoPrompt.Prompt(this.app, "Are you sure you wish to delete this command?", `If you click yes, you will delete '${command.name}'.`);
+                    if (!promptAnswer)
+                        return;
                     this.macro.commands = this.macro.commands.filter(c => c.id !== commandId);
                     this.commandListEl.updateCommandList(this.macro.commands);
                 },
@@ -11289,11 +11845,23 @@ class MacroBuilder extends obsidian.Modal {
         });
         this.svelteElements.push(this.commandListEl);
     }
-    addAddWaitCommandButton() {
+    addCommandBar() {
         const quickCommandContainer = this.contentEl.createDiv('quickCommandContainer');
+        this.newChoiceButton(quickCommandContainer, "Capture", CaptureChoice);
+        this.newChoiceButton(quickCommandContainer, "Template", TemplateChoice);
+        this.addAddWaitCommandButton(quickCommandContainer);
+    }
+    addAddWaitCommandButton(quickCommandContainer) {
         const button = new obsidian.ButtonComponent(quickCommandContainer);
         button.setIcon('clock').setTooltip("Add wait command").onClick(() => {
             this.addCommandToMacro(new WaitCommand(100));
+        });
+    }
+    newChoiceButton(container, typeName, type) {
+        const button = new obsidian.ButtonComponent(container);
+        button.setButtonText(typeName).setTooltip(`Add ${typeName} Choice`).onClick(() => {
+            const captureChoice = new type(`Untitled ${typeName} Choice`);
+            this.addCommandToMacro(new NestedChoiceCommand(captureChoice));
         });
     }
     addCommandToMacro(command) {
@@ -11312,11 +11880,12 @@ class QuickAddMacro {
 }
 
 class MacrosManager extends obsidian.Modal {
-    constructor(app, macros, choices) {
+    constructor(app, plugin, macros, choices) {
         super(app);
         this.app = app;
         this.macros = macros;
         this.choices = choices;
+        this.plugin = plugin;
         this.waitForClose = new Promise(((resolve, reject) => {
             this.rejectPromise = reject;
             this.resolvePromise = resolve;
@@ -11382,7 +11951,7 @@ class MacrosManager extends obsidian.Modal {
                     return reachableChoices;
                 };
                 const reachableChoices = getReachableChoices(this.choices);
-                const newMacro = await new MacroBuilder(this.app, macro, reachableChoices).waitForClose;
+                const newMacro = await new MacroBuilder(this.app, this.plugin, macro, reachableChoices).waitForClose;
                 if (newMacro) {
                     this.updateMacro(newMacro);
                     this.reload();
@@ -11438,13 +12007,10 @@ class MacrosManager extends obsidian.Modal {
     }
 }
 
-/* src/gui/choiceList/ChoiceView.svelte generated by Svelte v3.38.3 */
+/* src/gui/choiceList/ChoiceView.svelte generated by Svelte v3.41.0 */
 
-function add_css() {
-	var style = element("style");
-	style.id = "svelte-wcmtyt-style";
-	style.textContent = ".choiceViewBottomBar.svelte-wcmtyt{display:flex;flex-direction:row;align-items:center;justify-content:space-between;margin-top:1rem}@media(max-width: 800px){.choiceViewBottomBar.svelte-wcmtyt{flex-direction:column}}";
-	append(document.head, style);
+function add_css(target) {
+	append_styles(target, "svelte-wcmtyt", ".choiceViewBottomBar.svelte-wcmtyt{display:flex;flex-direction:row;align-items:center;justify-content:space-between;margin-top:1rem}@media(max-width: 800px){.choiceViewBottomBar.svelte-wcmtyt{flex-direction:column}}");
 }
 
 function create_fragment(ctx) {
@@ -11471,7 +12037,7 @@ function create_fragment(ctx) {
 	}
 
 	choicelist = new ChoiceList({ props: choicelist_props });
-	binding_callbacks.push(() => bind(choicelist, "choices", choicelist_choices_binding));
+	binding_callbacks.push(() => bind(choicelist, 'choices', choicelist_choices_binding));
 	choicelist.$on("deleteChoice", /*deleteChoice*/ ctx[3]);
 	choicelist.$on("configureChoice", /*configureChoice*/ ctx[4]);
 	choicelist.$on("toggleCommand", /*toggleCommandForChoice*/ ctx[5]);
@@ -11691,7 +12257,7 @@ function instance($$self, $$props, $$invalidate) {
 
 	function openMacroManager() {
 		return __awaiter(this, void 0, void 0, function* () {
-			const newMacros = yield new MacrosManager(app, macros, choices).waitForClose;
+			const newMacros = yield new MacrosManager(app, plugin, macros, choices).waitForClose;
 
 			if (newMacros) {
 				saveMacros(newMacros);
@@ -11708,12 +12274,12 @@ function instance($$self, $$props, $$invalidate) {
 	const reorderChoices_handler = e => saveChoices(e.detail.choices);
 
 	$$self.$$set = $$props => {
-		if ("choices" in $$props) $$invalidate(0, choices = $$props.choices);
-		if ("macros" in $$props) $$invalidate(7, macros = $$props.macros);
-		if ("saveChoices" in $$props) $$invalidate(1, saveChoices = $$props.saveChoices);
-		if ("saveMacros" in $$props) $$invalidate(8, saveMacros = $$props.saveMacros);
-		if ("app" in $$props) $$invalidate(9, app = $$props.app);
-		if ("plugin" in $$props) $$invalidate(10, plugin = $$props.plugin);
+		if ('choices' in $$props) $$invalidate(0, choices = $$props.choices);
+		if ('macros' in $$props) $$invalidate(7, macros = $$props.macros);
+		if ('saveChoices' in $$props) $$invalidate(1, saveChoices = $$props.saveChoices);
+		if ('saveMacros' in $$props) $$invalidate(8, saveMacros = $$props.saveMacros);
+		if ('app' in $$props) $$invalidate(9, app = $$props.app);
+		if ('plugin' in $$props) $$invalidate(10, plugin = $$props.plugin);
 	};
 
 	return [
@@ -11736,16 +12302,23 @@ function instance($$self, $$props, $$invalidate) {
 class ChoiceView extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-wcmtyt-style")) add_css();
 
-		init(this, options, instance, create_fragment, safe_not_equal, {
-			choices: 0,
-			macros: 7,
-			saveChoices: 1,
-			saveMacros: 8,
-			app: 9,
-			plugin: 10
-		});
+		init(
+			this,
+			options,
+			instance,
+			create_fragment,
+			safe_not_equal,
+			{
+				choices: 0,
+				macros: 7,
+				saveChoices: 1,
+				saveMacros: 8,
+				app: 9,
+				plugin: 10
+			},
+			add_css
+		);
 	}
 }
 
@@ -11848,12 +12421,10 @@ class TemplateChoiceEngine extends TemplateEngine {
         }
         if (this.choice.openFile) {
             if (!this.choice.openFileInNewTab.enabled) {
-                await this.app.workspace.activeLeaf.openFile(createdFile);
+                await openFile(this.app, createdFile);
             }
             else {
-                await this.app.workspace
-                    .splitActiveLeaf(this.choice.openFileInNewTab.direction)
-                    .openFile(createdFile);
+                await openFile(this.app, createdFile, this.choice.openFileInNewTab.direction);
             }
         }
     }
@@ -11904,8 +12475,10 @@ class CaptureChoiceFormatter extends CompleteFormatter {
         const formattedContentIsEmpty = formatted.trim() === "";
         if (formattedContentIsEmpty)
             return this.fileContent;
-        if (this.choice.prepend)
-            return `${this.fileContent}\n${formatted}`;
+        if (this.choice.prepend) {
+            const shouldInsertLinebreak = !this.choice.task;
+            return `${this.fileContent}${shouldInsertLinebreak ? "\n" : ""}${formatted}`;
+        }
         if (this.choice.insertAfter.enabled) {
             return await this.insertAfterHandler(formatted);
         }
@@ -11993,7 +12566,7 @@ class CaptureChoiceEngine extends QuickAddChoiceEngine {
         this.formatter = new CaptureChoiceFormatter(app, plugin, choiceExecutor);
     }
     async run() {
-        var _a, _b, _c;
+        var _a, _b, _c, _d, _e;
         try {
             if ((_a = this.choice) === null || _a === void 0 ? void 0 : _a.captureToActiveFile) {
                 await this.captureToActiveFile();
@@ -12021,7 +12594,7 @@ class CaptureChoiceEngine extends QuickAddChoiceEngine {
                     const singleTemplateEngine = new SingleTemplateEngine(this.app, this.plugin, this.choice.createFileIfItDoesntExist.template, this.choiceExecutor);
                     fileContent = await singleTemplateEngine.run();
                 }
-                const file = await this.createFileWithInput(filePath, fileContent);
+                file = await this.createFileWithInput(filePath, fileContent);
                 await replaceTemplaterTemplatesInCreatedFile(this.app, file);
                 const updatedFileContent = await this.app.vault.cachedRead(file);
                 const newFileContent = await this.formatter.formatContentWithFile(content, this.choice, updatedFileContent, file);
@@ -12033,6 +12606,14 @@ class CaptureChoiceEngine extends QuickAddChoiceEngine {
             }
             if (this.choice.appendLink)
                 appendToCurrentLine(this.app.fileManager.generateMarkdownLink(file, ''), this.app);
+            if ((_d = this.choice) === null || _d === void 0 ? void 0 : _d.openFile) {
+                if ((_e = this.choice) === null || _e === void 0 ? void 0 : _e.openFileInNewTab.enabled) {
+                    await openFile(this.app, file, this.choice.openFileInNewTab.direction);
+                }
+                else {
+                    await openFile(this.app, file);
+                }
+            }
         }
         catch (e) {
             log.logMessage(e);
@@ -12058,8 +12639,8 @@ class CaptureChoiceEngine extends QuickAddChoiceEngine {
             log.logError("Cannot capture to active file - no active file.");
         }
         let content = await this.getCaptureContent();
+        content = await this.formatter.formatContent(content, this.choice);
         if (this.choice.format.enabled) {
-            content = await this.formatter.formatContent(content, this.choice);
             content = await templaterParseTemplate(this.app, content, activeFile);
         }
         if (!content)

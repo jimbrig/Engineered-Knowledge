@@ -1,24 +1,35 @@
 {
-  "outputFileName": "Unlinked-Files",
+  "outputFileName": "4-Logs/Unlinked-Files",
   "disableWorkingLinks": true,
   "directoriesToIgnore": [
     ""
   ],
   "filesToIgnore": [
-    "Changelog.md"
+    "4-Logs/Changelog.md",
+    "4-Logs/SyncLog.md"
   ],
   "fileTypesToIgnore": [],
   "linksToIgnore": [],
-  "tagsToIgnore": [],
-  "fileTypesToDelete": [],
+  "tagsToIgnore": [
+    "txt"
+  ],
+  "fileTypesToDelete": [
+    ""
+  ],
   "ignoreFileTypes": true,
   "ignoreDirectories": true,
-  "unresolvedLinksOutputFileName": "Unresolved-Links",
-  "unresolvedLinksDirectoriesToIgnore": [],
-  "unresolvedLinksFilesToIgnore": [
-    "Changelof.md"
+  "unresolvedLinksOutputFileName": "4-Logs/Unresolved-Links",
+  "unresolvedLinksDirectoriesToIgnore": [
+    "3-Resources/Templates/",
+    "3-Resources/Daily-Notes/"
   ],
-  "unresolvedLinksFileTypesToIgnore": [],
+  "unresolvedLinksFilesToIgnore": [
+    "4-Logs/Changelog.md",
+    "4-Logs/SyncLog.md"
+  ],
+  "unresolvedLinksFileTypesToIgnore": [
+    "txt"
+  ],
   "unresolvedLinksLinksToIgnore": [],
   "unresolvedLinksTagsToIgnore": []
 }

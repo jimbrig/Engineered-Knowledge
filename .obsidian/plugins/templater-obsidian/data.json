@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "template_folder": "Templates",
+  "template_folder": "3-Resources/Templates",
   "templates_pairs": [
     [
       "",
@@ -11,6 +11,6 @@
   "enable_system_commands": false,
   "shell_path": "",
   "script_folder": "",
-  "empty_file_template": "Templates/Default-Note-Template",
+  "empty_file_template": "3-Resources/Templates/Default-Note-Template",
   "syntax_highlighting": true
 }

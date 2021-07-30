@@ -7,8 +7,11 @@
         "id": "81b45848071cd797",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "0-Inbox/GitJournal-export/Databases/Database GUIs.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#api",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,12 +63,20 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "369963e47892a9b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 354
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -81,13 +92,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0-Inbox/GitJournal-export/Databases/Database GUIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -97,6 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0-Inbox/GitJournal-export/Databases/Database GUIs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0-Inbox/GitJournal-export/Databases/Database GUIs.md"
+              }
             }
           },
           {
@@ -137,8 +152,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,15 +160,15 @@
   },
   "active": "81b45848071cd797",
   "lastOpenFiles": [
-    "Notes/Kubernetes Sandbox with minikube and kubectl.md",
-    "Notes/assets/Screenshot 2021-07-27 005944.png",
-    "Notes/assets/Pasted image 20210727005711.png",
-    "Notes/assets/Pasted image 20210727005630.png",
-    "Notes/Untitled.md",
-    "Daily-Notes/2021-07-27.md",
-    "Notes/assets/Cornell-Note-Example-Page.png",
-    "Notes/WIP/assets/Pasted image 20210726182405.png",
-    "Notes/WIP/Focused Note Taking via the Cornell Notes Method.md",
-    "Notes/Mermaid Diagrams.md"
+    "0-Inbox/GitJournal-export/Databases/Database GUIs.md",
+    "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md",
+    "3-Resources/Maps of Content/020 - Development.md",
+    "3-Resources/Maps of Content/040 - Personal.md",
+    "3-Resources/Maps of Content/050 - Computer.md",
+    "3-Resources/Maps of Content/030 - Professional.md",
+    "3-Resources/Maps of Content/010 - Productivity.md",
+    "3-Resources/Maps of Content/000 - INDEX.md",
+    "2-Slipbox/Mindfulness - The Key to Success.md",
+    "0-Inbox/GitJournal-export/Productivity/Productivity.md"
   ]
 }

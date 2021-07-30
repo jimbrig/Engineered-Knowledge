@@ -1,1 +1,5 @@
-{"numberOfFilesToShow":100,"changelogFilePath":"Changelog.md","watchVaultChange":true}
+{
+  "numberOfFilesToShow": 100,
+  "changelogFilePath": "4-Logs/Changelog.md",
+  "watchVaultChange": true
+}
