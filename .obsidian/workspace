@@ -7,8 +7,11 @@
         "id": "81b45848071cd797",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "1-Maps of Content/020 - Development.md",
+            "mode": "preview"
+          }
         }
       },
       {
@@ -17,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4-Logs/Unlinked-Files.md",
+            "file": "3-Resources/Templates/MOC-Template.md",
             "mode": "source"
           }
         }
@@ -28,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4-Logs/Unlinked-Files.md",
-            "mode": "source"
+            "file": "2-Slipbox/Managing projects with GTD.md",
+            "mode": "preview"
           }
         }
       }
@@ -111,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4-Logs/Unlinked-Files.md",
+                "file": "1-Maps of Content/020 - Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4-Logs/Unlinked-Files.md",
+                "file": "1-Maps of Content/020 - Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4-Logs/Unlinked-Files.md"
+                "file": "1-Maps of Content/020 - Development.md"
               }
             }
           },
@@ -177,17 +180,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3ab418a24e6f5157",
+  "active": "81b45848071cd797",
   "lastOpenFiles": [
+    "1-Maps of Content/020 - Development.md",
+    "3-Resources/1-Maps of Content/030 - Professional.md",
+    "3-Resources/Templates/MOC-Template.md",
+    "2-Slipbox/Managing projects with GTD.md",
+    "3-Resources/Templates/Mindsweep-Note-Template.md",
+    "3-Resources/Templates/Daily-Note-Template.md",
+    "3-Resources/Templates/Default-Note-Template.md",
+    "2-Slipbox/RStudio Configuration Notes.md",
     "4-Logs/Unlinked-Files.md",
-    "4-Logs/Unresolved-Links.md",
-    "3-Resources/Daily-Notes/2021-07-30.md",
-    "0-Inbox/GitJournal-export/Databases/Database GUIs.md",
-    "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md",
-    "3-Resources/Maps of Content/020 - Development.md",
-    "3-Resources/Maps of Content/040 - Personal.md",
-    "3-Resources/Maps of Content/050 - Computer.md",
-    "3-Resources/Maps of Content/030 - Professional.md",
-    "3-Resources/Maps of Content/010 - Productivity.md"
+    "2-Slipbox/Tools Package Hidden Gems in R.md"
   ]
 }

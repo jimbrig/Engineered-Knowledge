@@ -1,8 +1,184 @@
 {
   "recentFiles": [
     {
+      "basename": "020 - Development",
+      "path": "1-Maps of Content/020 - Development.md"
+    },
+    {
+      "basename": "030 - Professional",
+      "path": "3-Resources/1-Maps of Content/030 - Professional.md"
+    },
+    {
+      "basename": "MOC-Template",
+      "path": "3-Resources/Templates/MOC-Template.md"
+    },
+    {
+      "basename": "Managing projects with GTD",
+      "path": "2-Slipbox/Managing projects with GTD.md"
+    },
+    {
+      "basename": "Mindsweep-Note-Template",
+      "path": "3-Resources/Templates/Mindsweep-Note-Template.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "3-Resources/Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "Default-Note-Template",
+      "path": "3-Resources/Templates/Default-Note-Template.md"
+    },
+    {
+      "basename": "RStudio Configuration Notes",
+      "path": "2-Slipbox/RStudio Configuration Notes.md"
+    },
+    {
       "basename": "Unlinked-Files",
       "path": "4-Logs/Unlinked-Files.md"
+    },
+    {
+      "basename": "Tools Package Hidden Gems in R",
+      "path": "2-Slipbox/Tools Package Hidden Gems in R.md"
+    },
+    {
+      "basename": "000 - INDEX",
+      "path": "1-Maps of Content/000 - INDEX.md"
+    },
+    {
+      "basename": "010 - Productivity",
+      "path": "1-Maps of Content/010 - Productivity.md"
+    },
+    {
+      "basename": "030 - Professional",
+      "path": "1-Maps of Content/030 - Professional.md"
+    },
+    {
+      "basename": "040 - Personal",
+      "path": "1-Maps of Content/040 - Personal.md"
+    },
+    {
+      "basename": "050 - Computer",
+      "path": "1-Maps of Content/050 - Computer.md"
+    },
+    {
+      "basename": "MOC - Databases",
+      "path": "1-Maps of Content/MOC - Databases.md"
+    },
+    {
+      "basename": "MOC - Links",
+      "path": "1-Maps of Content/MOC - Links.md"
+    },
+    {
+      "basename": "MOC - Obsidian Resources",
+      "path": "1-Maps of Content/MOC - Obsidian Resources.md"
+    },
+    {
+      "basename": "MOC - PKM",
+      "path": "1-Maps of Content/MOC - PKM.md"
+    },
+    {
+      "basename": "MOC - PostgreSQL",
+      "path": "1-Maps of Content/MOC - PostgreSQL.md"
+    },
+    {
+      "basename": "MOC - Project Management",
+      "path": "1-Maps of Content/MOC - Project Management.md"
+    },
+    {
+      "basename": "MOC - R",
+      "path": "1-Maps of Content/MOC - R.md"
+    },
+    {
+      "basename": "MOC - Setup",
+      "path": "1-Maps of Content/MOC - Setup.md"
+    },
+    {
+      "basename": "MOC - System Design",
+      "path": "1-Maps of Content/MOC - System Design.md"
+    },
+    {
+      "basename": "WSL",
+      "path": "2-Slipbox/WSL.md"
+    },
+    {
+      "basename": "CLI Tools",
+      "path": "2-Slipbox/CLI Tools.md"
+    },
+    {
+      "basename": "APIs",
+      "path": "2-Slipbox/APIs.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "2-Slipbox/Markdown.md"
+    },
+    {
+      "basename": "Development-LocalGraphView",
+      "path": "1-Maps of Content/assets/Development-LocalGraphView.png"
+    },
+    {
+      "basename": "Views vs. Materialized Views",
+      "path": "2-Slipbox/Views vs. Materialized Views.md"
+    },
+    {
+      "basename": "Docker Best Practices",
+      "path": "2-Slipbox/Docker Best Practices.md"
+    },
+    {
+      "basename": "Obsidian Links List",
+      "path": "2-Slipbox/Obsidian Links List.md"
+    },
+    {
+      "basename": "Database Documentation",
+      "path": "2-Slipbox/Database Documentation.md"
+    },
+    {
+      "basename": "Time Management",
+      "path": "2-Slipbox/Time Management.md"
+    },
+    {
+      "basename": "Python",
+      "path": "2-Slipbox/Python.md"
+    },
+    {
+      "basename": "Plumber Logging",
+      "path": "2-Slipbox/Plumber Logging.md"
+    },
+    {
+      "basename": "System Design Primer",
+      "path": "2-Slipbox/System Design Primer.md"
+    },
+    {
+      "basename": "Google Cloud Setup Notes",
+      "path": "2-Slipbox/Google Cloud Setup Notes.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "PostgreSQL Tools",
+      "path": "2-Slipbox/PostgreSQL Tools.md"
+    },
+    {
+      "basename": "Proof of Concept code is not production code! - DONN FELKER",
+      "path": "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md"
+    },
+    {
+      "basename": "How to Pay off Debt",
+      "path": "2-Slipbox/How to Pay off Debt.md"
+    },
+    {
+      "basename": "Keyboard shortcuts for Gmail - Computer",
+      "path": "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md"
+    },
+    {
+      "basename": "How to Ship Side Projects",
+      "path": "2-Slipbox/How to Ship Side Projects.md"
+    },
+    {
+      "basename": "Daily Notes as Your Scratch Space",
+      "path": "2-Slipbox/Daily Notes as Your Scratch Space.md"
     },
     {
       "basename": "Unresolved-Links",
@@ -18,47 +194,11 @@
     },
     {
       "basename": "Database GUIs",
-      "path": "0-Inbox/GitJournal-export/Databases/Database GUIs.md"
+      "path": "2-Slipbox/Database GUIs.md"
     },
     {
       "basename": "Highlights - Pay off Your Debt - Tools and Tips",
       "path": "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md"
-    },
-    {
-      "basename": "020 - Development",
-      "path": "3-Resources/Maps of Content/020 - Development.md"
-    },
-    {
-      "basename": "040 - Personal",
-      "path": "3-Resources/Maps of Content/040 - Personal.md"
-    },
-    {
-      "basename": "050 - Computer",
-      "path": "3-Resources/Maps of Content/050 - Computer.md"
-    },
-    {
-      "basename": "030 - Professional",
-      "path": "3-Resources/Maps of Content/030 - Professional.md"
-    },
-    {
-      "basename": "010 - Productivity",
-      "path": "3-Resources/Maps of Content/010 - Productivity.md"
-    },
-    {
-      "basename": "000 - INDEX",
-      "path": "3-Resources/Maps of Content/000 - INDEX.md"
-    },
-    {
-      "basename": "Mindfulness - The Key to Success",
-      "path": "2-Slipbox/Mindfulness - The Key to Success.md"
-    },
-    {
-      "basename": "APIs",
-      "path": "0-Inbox/GitJournal-export/Web Development/APIs.md"
-    },
-    {
-      "basename": "AutoHotKey Scripts",
-      "path": "2-Slipbox/AutoHotKey Scripts.md"
     }
   ],
   "omittedPaths": [],

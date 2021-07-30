@@ -30,7 +30,7 @@ Tags: ["#Development", "#Code", "#CLI", "#Learning", "#PowerShell", "#Tools", "#
 - Pre-Requisite Installations:
 	- [[kubernetes-cli]] (aka [[kubectl]])
 	- [[minikube]]
-	- [[Docker]]
+	- [[Docker Best Practices]]
 
 #### Install Script
 

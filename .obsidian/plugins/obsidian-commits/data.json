@@ -1095,7 +1095,7 @@
       "links": 30
     },
     "README.md": {
-      "size": 597,
+      "size": 200,
       "tags": 0,
       "links": 0
     },
@@ -5734,110 +5734,15 @@
       "tags": 1,
       "links": 2
     },
-    "0-Inbox/GitJournal-export/R/R Development.md": {
-      "size": 38,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/GitJournal-export/Python/Python.md": {
-      "size": 176,
-      "tags": 1,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/R/RStudio Configuration Notes.md": {
-      "size": 179,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/WSL/WSL.md": {
-      "size": 185,
-      "tags": 1,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/R/Plumber Resources.md": {
-      "size": 192,
-      "tags": 3,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/PKM/PKM.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/README.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Git/Git Tools.md": {
-      "size": 201,
-      "tags": 2,
-      "links": 1
-    },
-    "0-Inbox/GitJournal-export/R/Databases with R Resources.md": {
-      "size": 205,
-      "tags": 3,
-      "links": 0
-    },
     "2-Slipbox/PowerShellGet.md": {
       "size": 211,
       "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/System Design/System Design.md": {
-      "size": 214,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Project Management/Project Management.md": {
-      "size": 224,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Scratch Space.md": {
-      "size": 227,
-      "tags": 1,
       "links": 0
     },
     "2-Slipbox/Computer Backup System.md": {
       "size": 232,
       "tags": 0,
       "links": 0
-    },
-    "0-Inbox/GitJournal-export/Web Development/WebDev Resource List.md": {
-      "size": 252,
-      "tags": 2,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Web Development/APIs.md": {
-      "size": 295,
-      "tags": 3,
-      "links": 2
-    },
-    "0-Inbox/GitJournal-export/Databases/Databases.md": {
-      "size": 301,
-      "tags": 1,
-      "links": 3
-    },
-    "0-Inbox/GitJournal-export/R/Tools Package Hidden Gems in R.md": {
-      "size": 307,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/daily notes as a scratch space on a hardrive.md": {
-      "size": 324,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/GitJournal-export/Obsidian/Templater Plugin Notes.md": {
-      "size": 332,
-      "tags": 1,
-      "links": 2
-    },
-    "0-Inbox/GitJournal-export/Documentation/MkDocs.md": {
-      "size": 355,
-      "tags": 1,
-      "links": 1
     },
     "2-Slipbox/Git Links.md": {
       "size": 371,
@@ -5848,11 +5753,6 @@
       "size": 379,
       "tags": 0,
       "links": 0
-    },
-    "0-Inbox/GitJournal-export/Developer Tools/Web Browsers/Web Browsers.md": {
-      "size": 383,
-      "tags": 1,
-      "links": 3
     },
     "2-Slipbox/Run Command to Edit Environment Variables.md": {
       "size": 607,
@@ -5869,185 +5769,60 @@
       "tags": 3,
       "links": 3
     },
-    "0-Inbox/GitJournal-export/Productivity/Notes on Finishing Projects.md": {
-      "size": 830,
-      "tags": 1,
-      "links": 3
-    },
     "2-Slipbox/SSH and SCP.md": {
       "size": 895,
       "tags": 1,
       "links": 6
-    },
-    "0-Inbox/GitJournal-export/WSL/WSL Commands and Installs.md": {
-      "size": 972,
-      "tags": 1,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Google Cloud Setup Notes.md": {
-      "size": 1027,
-      "tags": 2,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Powwater/Database Documentation.md": {
-      "size": 1028,
-      "tags": 3,
-      "links": 4
     },
     "2-Slipbox/Windows Registry Paths and Keys.md": {
       "size": 1043,
       "tags": 4,
       "links": 4
     },
-    "0-Inbox/GitJournal-export/Productivity/Time Management.md": {
-      "size": 1206,
-      "tags": 1,
-      "links": 2
-    },
-    "0-Inbox/GitJournal-export/Project Management/Ludicrously Complex Projects in Software Development.md": {
-      "size": 1241,
-      "tags": 3,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/R/Plumber REST APIs in R.md": {
-      "size": 1396,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/R/Data Validation Packages in R.md": {
-      "size": 1424,
-      "tags": 1,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Obsidian/Publishing Workflow.md": {
-      "size": 1576,
-      "tags": 1,
-      "links": 3
-    },
     "2-Slipbox/WSL-Notes.md": {
       "size": 1667,
       "tags": 0,
       "links": 4
-    },
-    "0-Inbox/Managing projects with GTD.md": {
-      "size": 1813,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md": {
-      "size": 1837,
-      "tags": 4,
-      "links": 1
-    },
-    "0-Inbox/GitJournal-export/Databases/Views vs. Materialized Views.md": {
-      "size": 1962,
-      "tags": 3,
-      "links": 4
-    },
-    "0-Inbox/GitJournal-export/R/R Books List.md": {
-      "size": 2159,
-      "tags": 0,
-      "links": 0
     },
     "2-Slipbox/Focused Note Taking via the Cornell Notes Method.md": {
       "size": 2459,
       "tags": 4,
       "links": 1
     },
-    "0-Inbox/GitJournal-export/Windows/How to Cleanup Windows from Command Line.md": {
-      "size": 2468,
-      "tags": 0,
-      "links": 0
-    },
     "2-Slipbox/Mermaid Diagrams.md": {
       "size": 2673,
       "tags": 6,
       "links": 2
-    },
-    "0-Inbox/Proof of Concept code is not production code! - DONN FELKER.md": {
-      "size": 2779,
-      "tags": 0,
-      "links": 0
     },
     "2-Slipbox/Windows Developer Environment.md": {
       "size": 2789,
       "tags": 5,
       "links": 1
     },
-    "0-Inbox/GitJournal-export/Project Management/Project Management Pipeline.md": {
-      "size": 2861,
-      "tags": 3,
-      "links": 3
-    },
     "2-Slipbox/How To Change Explorer Drive Icons via Registry.md": {
       "size": 2938,
       "tags": 4,
       "links": 14
-    },
-    "0-Inbox/GitJournal-export/Developer Tools/Web Browsers/Firefox Developer Edition.md": {
-      "size": 2950,
-      "tags": 3,
-      "links": 1
-    },
-    "0-Inbox/GitJournal-export/Windows/WinGet CLI Setup and Settings.md": {
-      "size": 3153,
-      "tags": 0,
-      "links": 0
     },
     "2-Slipbox/MkDocs.md": {
       "size": 3252,
       "tags": 2,
       "links": 1
     },
-    "0-Inbox/Keyboard shortcuts for Gmail - Computer.md": {
-      "size": 3374,
-      "tags": 0,
-      "links": 0
-    },
     "2-Slipbox/Tools - Resilio Sync.md": {
       "size": 3408,
       "tags": 6,
       "links": 11
-    },
-    "0-Inbox/GitJournal-export/Databases/Database GUIs.md": {
-      "size": 3651,
-      "tags": 1,
-      "links": 0
     },
     "2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md": {
       "size": 3989,
       "tags": 5,
       "links": 3
     },
-    "0-Inbox/GitJournal-export/R/Plumber Logging.md": {
-      "size": 4200,
-      "tags": 3,
-      "links": 1
-    },
-    "0-Inbox/GitJournal-export/System Design/System Design Primer.md": {
-      "size": 4226,
-      "tags": 1,
-      "links": 3
-    },
     "2-Slipbox/Windows Registry.md": {
       "size": 4233,
       "tags": 4,
       "links": 2
-    },
-    "0-Inbox/GitJournal-export/R/R Miscellaneous Notes.md": {
-      "size": 4356,
-      "tags": 1,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Docker/Docker.md": {
-      "size": 4619,
-      "tags": 1,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/R/Utils Package Hidden Gems in R.md": {
-      "size": 4834,
-      "tags": 0,
-      "links": 0
     },
     "2-Slipbox/Web terms 101 – Google Domains.md": {
       "size": 4847,
@@ -6058,16 +5833,6 @@
       "size": 4963,
       "tags": 3,
       "links": 5
-    },
-    "0-Inbox/GitJournal-export/Databases/PostgreSQL Tools.md": {
-      "size": 5393,
-      "tags": 3,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/R/Shiny Apps as Packages in R.md": {
-      "size": 5858,
-      "tags": 2,
-      "links": 0
     },
     "3-Resources/Daily-Notes/2021-05-02.md": {
       "size": 259,
@@ -6149,55 +5914,10 @@
       "tags": 1,
       "links": 3
     },
-    "3-Resources/Maps of Content/040 - Personal.md": {
-      "size": 216,
-      "tags": 0,
-      "links": 3
-    },
-    "3-Resources/Maps of Content/010 - Productivity.md": {
-      "size": 224,
-      "tags": 2,
-      "links": 23
-    },
-    "3-Resources/Maps of Content/030 - Professional.md": {
-      "size": 224,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/Maps of Content/MOC - PKM.md": {
-      "size": 297,
-      "tags": 2,
-      "links": 2
-    },
-    "3-Resources/Maps of Content/MOC - CLI Tools.md": {
-      "size": 328,
-      "tags": 3,
-      "links": 0
-    },
-    "3-Resources/Maps of Content/MOC - Markdown.md": {
-      "size": 514,
-      "tags": 4,
-      "links": 4
-    },
-    "3-Resources/Maps of Content/000 - INDEX.md": {
-      "size": 557,
-      "tags": 2,
-      "links": 8
-    },
-    "3-Resources/Maps of Content/050 - Computer.md": {
-      "size": 901,
-      "tags": 0,
-      "links": 17
-    },
     "3-Resources/Daily-Notes/2021-07-30.md": {
       "size": 1005,
       "tags": 1,
       "links": 3
-    },
-    "3-Resources/Maps of Content/MOC - Links.md": {
-      "size": 1109,
-      "tags": 2,
-      "links": 0
     },
     "3-Resources/Daily-Notes/2021-04-25.md": {
       "size": 1177,
@@ -6229,11 +5949,6 @@
       "tags": 1,
       "links": 2
     },
-    "3-Resources/Maps of Content/MOC - Setup.md": {
-      "size": 1609,
-      "tags": 6,
-      "links": 19
-    },
     "3-Resources/Daily-Notes/2021-07-29.md": {
       "size": 1982,
       "tags": 1,
@@ -6244,39 +5959,9 @@
       "tags": 0,
       "links": 2
     },
-    "3-Resources/Maps of Content/MOC - Obsidian Resources.md": {
-      "size": 4163,
-      "tags": 4,
-      "links": 18
-    },
-    "3-Resources/Maps of Content/020 - Development.md": {
-      "size": 5200,
-      "tags": 3,
-      "links": 170
-    },
-    "0-Inbox/GitJournal-export/R/Useful Packages in R List.md": {
-      "size": 6180,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Windows/SFC and DISM Commands.md": {
-      "size": 6771,
-      "tags": 0,
-      "links": 2
-    },
     "2-Slipbox/Johnny Decimal System.md": {
       "size": 6927,
       "tags": 2,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Github/Github Actions for R.md": {
-      "size": 6964,
-      "tags": 1,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Web Development/HTTP Requests Notes.md": {
-      "size": 8399,
-      "tags": 0,
       "links": 0
     },
     "3-Resources/Templates/Default-Note-Template.md": {
@@ -6309,60 +5994,10 @@
       "tags": 1,
       "links": 3
     },
-    "0-Inbox/GitJournal-export/Web Development/Backend Web Architecture.md": {
-      "size": 8773,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Project Management/Taming a Chaotic Project.md": {
-      "size": 8823,
-      "tags": 3,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/R/Base Package Hidden Gems in R.md": {
-      "size": 9459,
-      "tags": 1,
-      "links": 1
-    },
-    "0-Inbox/GitJournal-export/Docker/Docker Compose Reference Docs.md": {
-      "size": 9642,
-      "tags": 1,
-      "links": 0
-    },
     "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md": {
       "size": 12070,
       "tags": 9,
       "links": 25
-    },
-    "0-Inbox/How to Ship Side Projects 🚀 - DONN FELKER.md": {
-      "size": 12359,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md": {
-      "size": 13070,
-      "tags": 1,
-      "links": 3
-    },
-    "0-Inbox/GitJournal-export/R/EDA Packages in R.md": {
-      "size": 13843,
-      "tags": 1,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Web Development/Javascript.md": {
-      "size": 21637,
-      "tags": 2,
-      "links": 0
-    },
-    "0-Inbox/GitJournal-export/Databases/PostgreSQL.md": {
-      "size": 27524,
-      "tags": 2,
-      "links": 21
-    },
-    "0-Inbox/GitJournal-export/Windows/Windows Command Line Commands Overview.md": {
-      "size": 32091,
-      "tags": 0,
-      "links": 3
     },
     "2-Slipbox/AutoHotKey Scripts.md": {
       "size": 58746,
@@ -6379,23 +6014,393 @@
       "tags": 0,
       "links": 99
     },
-    "0-Inbox/GitJournal-export/Obsidian/Obsidian Git Plugin Notes.md": {
-      "size": 1139,
-      "tags": 1,
-      "links": 1
-    },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
       "tags": 3,
       "links": 13
+    },
+    "4-Logs/Unlinked-Files.md": {
+      "size": 1533,
+      "tags": 0,
+      "links": 0
+    },
+    "4-Logs/Unresolved-Links.md": {
+      "size": 9999,
+      "tags": 0,
+      "links": 230
+    },
+    "2-Slipbox/Daily Notes as Your Scratch Space.md": {
+      "size": 324,
+      "tags": 2,
+      "links": 1
+    },
+    "2-Slipbox/How to Ship Side Projects.md": {
+      "size": 12359,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md": {
+      "size": 3374,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Managing projects with GTD.md": {
+      "size": 1813,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/How to Pay off Debt.md": {
+      "size": 3173,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Database GUIs.md": {
+      "size": 3651,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/PostgreSQL Tools.md": {
+      "size": 5393,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md": {
+      "size": 2779,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Google Cloud Setup Notes.md": {
+      "size": 1027,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/WSL Commands and Installs.md": {
+      "size": 972,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/How to Cleanup Windows from Command Line.md": {
+      "size": 2468,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/SFC and DISM Commands.md": {
+      "size": 6771,
+      "tags": 0,
+      "links": 2
+    },
+    "2-Slipbox/Using diskusage Command in Windows.md": {
+      "size": 1837,
+      "tags": 4,
+      "links": 1
+    },
+    "2-Slipbox/Windows Command Line Commands Overview.md": {
+      "size": 32091,
+      "tags": 0,
+      "links": 3
+    },
+    "2-Slipbox/WinGet CLI Setup and Settings.md": {
+      "size": 3153,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Backend Web Architecture.md": {
+      "size": 8773,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/HTTP Requests Notes.md": {
+      "size": 8399,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Javascript.md": {
+      "size": 21637,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/WebDev Resource List.md": {
+      "size": 252,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/System Design Primer.md": {
+      "size": 4226,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Base Package Hidden Gems in R.md": {
+      "size": 9459,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Data Validation Packages in R.md": {
+      "size": 1424,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Databases with R Resources.md": {
+      "size": 205,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Plumber Logging.md": {
+      "size": 4200,
+      "tags": 3,
+      "links": 1
+    },
+    "2-Slipbox/Plumber Resources.md": {
+      "size": 192,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Plumber REST APIs in R.md": {
+      "size": 1396,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/EDA Packages in R.md": {
+      "size": 13843,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/R Books List.md": {
+      "size": 2159,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/R Miscellaneous Notes.md": {
+      "size": 4356,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/RStudio Configuration Notes.md": {
+      "size": 179,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Shiny Apps as Packages in R.md": {
+      "size": 5858,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/Tools Package Hidden Gems in R.md": {
+      "size": 307,
+      "tags": 2,
+      "links": 0
+    },
+    "2-Slipbox/Useful Packages in R List.md": {
+      "size": 6180,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Utils Package Hidden Gems in R.md": {
+      "size": 4834,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Python.md": {
+      "size": 176,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Ludicrously Complex Projects in Software Development.md": {
+      "size": 1241,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Notes on Finishing Projects.md": {
+      "size": 830,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Time Management.md": {
+      "size": 1206,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/Project Management Pipeline.md": {
+      "size": 2861,
+      "tags": 3,
+      "links": 3
+    },
+    "2-Slipbox/Taming a Chaotic Project.md": {
+      "size": 8823,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/Database Documentation.md": {
+      "size": 1028,
+      "tags": 3,
+      "links": 4
+    },
+    "2-Slipbox/Obsidian Git Plugin Notes.md": {
+      "size": 1139,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Obsidian Links List.md": {
+      "size": 13070,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Publishing Workflow.md": {
+      "size": 1576,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Templater Plugin Notes.md": {
+      "size": 332,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/Git Tools.md": {
+      "size": 201,
+      "tags": 2,
+      "links": 1
+    },
+    "2-Slipbox/Github Actions for R.md": {
+      "size": 6964,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/MkDocs 1.md": {
+      "size": 355,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Docker Compose Reference Docs.md": {
+      "size": 9642,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Docker Best Practices.md": {
+      "size": 4619,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/Firefox Developer Edition.md": {
+      "size": 2950,
+      "tags": 3,
+      "links": 1
+    },
+    "2-Slipbox/Web Browsers.md": {
+      "size": 383,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Views vs. Materialized Views.md": {
+      "size": 1962,
+      "tags": 3,
+      "links": 4
+    },
+    "1-Maps of Content/000 - INDEX.md": {
+      "size": 557,
+      "tags": 2,
+      "links": 8
+    },
+    "1-Maps of Content/020 - Development.md": {
+      "size": 5200,
+      "tags": 3,
+      "links": 170
+    },
+    "1-Maps of Content/010 - Productivity.md": {
+      "size": 224,
+      "tags": 2,
+      "links": 23
+    },
+    "1-Maps of Content/030 - Professional.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps of Content/040 - Personal.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 3
+    },
+    "1-Maps of Content/050 - Computer.md": {
+      "size": 901,
+      "tags": 0,
+      "links": 17
+    },
+    "1-Maps of Content/MOC - Links.md": {
+      "size": 1109,
+      "tags": 2,
+      "links": 0
+    },
+    "1-Maps of Content/MOC - Obsidian Resources.md": {
+      "size": 4163,
+      "tags": 4,
+      "links": 18
+    },
+    "1-Maps of Content/MOC - PKM.md": {
+      "size": 297,
+      "tags": 2,
+      "links": 2
+    },
+    "1-Maps of Content/MOC - Setup.md": {
+      "size": 1609,
+      "tags": 6,
+      "links": 19
+    },
+    "1-Maps of Content/MOC - Databases.md": {
+      "size": 301,
+      "tags": 1,
+      "links": 3
+    },
+    "1-Maps of Content/MOC - PostgreSQL.md": {
+      "size": 27524,
+      "tags": 2,
+      "links": 21
+    },
+    "1-Maps of Content/MOC - System Design.md": {
+      "size": 214,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps of Content/MOC - R.md": {
+      "size": 38,
+      "tags": 0,
+      "links": 1
+    },
+    "1-Maps of Content/MOC - Project Management.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/1-Maps of Content/030 - Professional.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Markdown.md": {
+      "size": 514,
+      "tags": 4,
+      "links": 4
+    },
+    "2-Slipbox/APIs.md": {
+      "size": 295,
+      "tags": 3,
+      "links": 2
+    },
+    "2-Slipbox/CLI Tools.md": {
+      "size": 328,
+      "tags": 3,
+      "links": 0
+    },
+    "2-Slipbox/WSL.md": {
+      "size": 185,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 522,
-      "Create": 350,
-      "Link": 555,
-      "Expand": 51
+      "Refactor": 647,
+      "Create": 354,
+      "Link": 561,
+      "Expand": 52
     }
   },
   "dailyCommits": {
@@ -6403,7 +6408,7 @@
       "0": 53,
       "1": 722,
       "2": 43,
-      "3": 14,
+      "3": 150,
       "4": 7,
       "5": 0,
       "6": 0,
@@ -6432,7 +6437,7 @@
       "Tue": 53,
       "Wed": 216,
       "Thu": 99,
-      "Fri": 500,
+      "Fri": 636,
       "Sat": 0,
       "Sun": 184
     }
@@ -6440,6 +6445,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Development/Azure/Use policies to enforce standards.md\"> Use policies to enforce standards </a>",
         "<a class=\"internal-link\" href=\"Development/Azure/Use tagging to organize resources.md\"> Use tagging to organize resources </a>",
@@ -6489,10 +6495,13 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Git Plugin Notes.md\"> Obsidian Git Plugin Notes </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -6539,66 +6548,66 @@
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - Markdown.md\"> MOC - Markdown </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - CLI Tools.md\"> MOC - CLI Tools </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - PKM.md\"> MOC - PKM </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-27.md\"> 2021-07-27 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-21.md\"> 2021-07-21 </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/030 - Professional.md\"> 030 - Professional </a>"
       ],
       "Renamed": [
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
-        "<a class=\"internal-link\" href=\"Notes/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
-        "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
-        "<a class=\"internal-link\" href=\"Notes/Computer Backup System.md\"> Computer Backup System </a>",
-        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Notes/Windows Developer Environment.md\"> Windows Developer Environment </a>",
-        "<a class=\"internal-link\" href=\"Notes/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/CLI Tools - MOC.md\"> CLI Tools - MOC </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/CLI Tools.md\"> CLI Tools </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/Obsidian and PKM Resources - MOC.md\"> Obsidian and PKM Resources - MOC </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/Computer Setup - MOC.md\"> Computer Setup - MOC </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/Computer Setup.md\"> Computer Setup </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/Markdown - MOC.md\"> Markdown - MOC </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/Markdown.md\"> Markdown </a>",
-        "<a class=\"internal-link\" href=\"Notes/Markdown.md\"> Markdown </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
-        "<a class=\"internal-link\" href=\"Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Computer Setup.md\"> Computer Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Computer Backup System.md\"> Computer Backup System </a>",
-        "<a class=\"internal-link\" href=\"WIP/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"WIP/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"WIP/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
-        "<a class=\"internal-link\" href=\"WIP/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"050 - Computer.md\"> 050 - Computer </a>",
-        "<a class=\"internal-link\" href=\"Notes/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
-        "<a class=\"internal-link\" href=\"Templates/Templates Index.md\"> Templates Index </a>",
-        "<a class=\"internal-link\" href=\"WIP/Computer Setup.md\"> Computer Setup </a>",
-        "<a class=\"internal-link\" href=\"WIP/Computer Backup System.md\"> Computer Backup System </a>",
-        "<a class=\"internal-link\" href=\"000 - INDEX.md\"> 000 - INDEX </a>",
-        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Mindsweeps/2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/webkit.md\"> webkit </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/web-engines.md\"> web-engines </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Engines/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Apple Safari/safari.md\"> safari </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/WSL.md\"> WSL </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/WSL.md\"> WSL </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/CLI Tools.md\"> CLI Tools </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/CLI Tools.md\"> CLI Tools </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/APIs.md\"> APIs </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/APIs.md\"> APIs </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - R.md\"> MOC - R </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - System Design.md\"> MOC - System Design </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - APIs.md\"> MOC - APIs </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - WSL.md\"> MOC - WSL </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Databases.md\"> MOC - Databases </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Setup.md\"> MOC - Setup </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - PKM.md\"> MOC - PKM </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Obsidian Resources.md\"> MOC - Obsidian Resources </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Markdown.md\"> MOC - Markdown </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Links.md\"> MOC - Links </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - CLI Tools.md\"> MOC - CLI Tools </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - R.md\"> MOC - R </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - System Design.md\"> MOC - System Design </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - APIs.md\"> MOC - APIs </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - WSL.md\"> MOC - WSL </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Databases.md\"> MOC - Databases </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Setup.md\"> MOC - Setup </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - PKM.md\"> MOC - PKM </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Obsidian Resources.md\"> MOC - Obsidian Resources </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Markdown.md\"> MOC - Markdown </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Links.md\"> MOC - Links </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - CLI Tools.md\"> MOC - CLI Tools </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Views vs. Materialized Views.md\"> Views vs. Materialized Views </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Firefox Developer Edition.md\"> Firefox Developer Edition </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Docker Best Practices.md\"> Docker Best Practices </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker Best Practices.md\"> Docker Best Practices </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Managing projects with GTD.md\"> Managing projects with GTD </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Tools Package Hidden Gems in R.md\"> Tools Package Hidden Gems in R </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Daily Notes as Your Scratch Space.md\"> Daily Notes as Your Scratch Space </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Ship Side Projects.md\"> How to Ship Side Projects </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-30.md\"> 2021-07-30 </a>",
@@ -6645,20 +6654,19 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/SSH and SCP.md\"> SSH and SCP </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Developer Environment.md\"> Windows Developer Environment </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/SSH and SCP.md\"> SSH and SCP </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>"
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/PKM/PKM.md\"> PKM </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Scratch Space.md\"> Scratch Space </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-30.md\"> 2021-07-30 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Productivity.md\"> Productivity </a>",
@@ -6707,11 +6715,11 @@
         "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
         "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
         "<a class=\"internal-link\" href=\"Notes/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
-        "<a class=\"internal-link\" href=\"Notes/Johnny Decimal System.md\"> Johnny Decimal System </a>"
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
@@ -6760,9 +6768,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Developer Environment.md\"> Windows Developer Environment </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/MkDocs.md\"> MkDocs </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md\"> Start an Offline Scan with Windows Defender from PowerShell </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Registry.md\"> Windows Registry </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6811,7 +6817,8 @@
         "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
-        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ]
     }
   },
