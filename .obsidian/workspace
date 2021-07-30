@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/GitJournal-export/Databases/Database GUIs.md",
+            "file": "3-Resources/Daily-Notes/2021-07-30.md",
             "mode": "source"
           }
         }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/GitJournal-export/Databases/Database GUIs.md",
+                "file": "3-Resources/Daily-Notes/2021-07-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/GitJournal-export/Databases/Database GUIs.md",
+                "file": "3-Resources/Daily-Notes/2021-07-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/GitJournal-export/Databases/Database GUIs.md"
+                "file": "3-Resources/Daily-Notes/2021-07-30.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   },
   "active": "81b45848071cd797",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-07-30.md",
     "0-Inbox/GitJournal-export/Databases/Database GUIs.md",
     "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md",
     "3-Resources/Maps of Content/020 - Development.md",
@@ -168,7 +169,6 @@
     "3-Resources/Maps of Content/030 - Professional.md",
     "3-Resources/Maps of Content/010 - Productivity.md",
     "3-Resources/Maps of Content/000 - INDEX.md",
-    "2-Slipbox/Mindfulness - The Key to Success.md",
-    "0-Inbox/GitJournal-export/Productivity/Productivity.md"
+    "2-Slipbox/Mindfulness - The Key to Success.md"
   ]
 }
