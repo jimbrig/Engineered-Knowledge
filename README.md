@@ -21,7 +21,7 @@ fs::dir_tree("Engineered-Knowledge", recurse = FALSE)
 
 
 
-
+## Footnotes
 
 
 [^1]: See [View of Niklas Luhmann’s Card Index: The Fabrication of Serendipity | Sociologica (unibo.it)](https://sociologica.unibo.it/article/view/8350/8270)
