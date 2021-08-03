@@ -1,3 +1,4 @@
+- 2021-08-03 at 00h38 · [[README]]
 - 2021-08-03 at 00h36 · [[README]]
 - 2021-08-03 at 00h05 · [[Windows Terminal Command Line Arguments - Windows Docs]]
 - 2021-08-02 at 23h56 · [[2021-08-02]]
@@ -97,4 +98,3 @@
 - 2021-07-30 at 01h42 · [[MkDocs]]
 - 2021-07-30 at 01h42 · [[WinGet CLI Setup and Settings]]
 - 2021-07-30 at 01h42 · [[Firefox Developer Edition]]
-- 2021-07-30 at 01h42 · [[How To Change Explorer Drive Icons via Registry]]

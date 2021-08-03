@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "0-Inbox/README.md",
             "mode": "source"
           }
         }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "0-Inbox/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "0-Inbox/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "0-Inbox/README.md"
               }
             }
           },
@@ -182,6 +182,7 @@
   },
   "active": "81b45848071cd797",
   "lastOpenFiles": [
+    "0-Inbox/Untitled.md",
     "README.md",
     "1-Maps of Content/030 - Professional 1.md",
     "1-Maps of Content/030 - Professional.md",
@@ -190,7 +191,6 @@
     "1-Maps of Content/020 - Development.md",
     "3-Resources/1-Maps of Content/030 - Professional.md",
     "3-Resources/Templates/MOC-Template.md",
-    "2-Slipbox/Managing projects with GTD.md",
-    "3-Resources/Templates/Mindsweep-Note-Template.md"
+    "2-Slipbox/Managing projects with GTD.md"
   ]
 }
