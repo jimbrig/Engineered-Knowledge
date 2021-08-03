@@ -5,6 +5,78 @@
       "path": "3-Resources/README.md"
     },
     {
+      "basename": "Kanban",
+      "path": "3-Resources/Dictionaries/Kanban.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Templates/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Mindsweeps/README.md"
+    },
+    {
+      "basename": "Mindsweep Trigger List",
+      "path": "3-Resources/Mindsweeps/Mindsweep Trigger List.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Kanbans/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Highlights/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Dictionaries/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Daily-Notes/README.md"
+    },
+    {
+      "basename": "WebDev Resource List",
+      "path": "2-Slipbox/WebDev Resource List.md"
+    },
+    {
+      "basename": "Index",
+      "path": "3-Resources/Dictionaries/Index.md"
+    },
+    {
+      "basename": "Gyroscope",
+      "path": "3-Resources/Dictionaries/Gyroscope.md"
+    },
+    {
+      "basename": "Mindfulness - The Key to Success",
+      "path": "2-Slipbox/Mindfulness - The Key to Success.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "3-Resources/Dictionaries/Archive.md"
+    },
+    {
+      "basename": "Fleeting",
+      "path": "3-Resources/Dictionaries/Fleeting.md"
+    },
+    {
+      "basename": "Ephemeral",
+      "path": "3-Resources/Dictionaries/Ephemeral.md"
+    },
+    {
+      "basename": "Wisdom",
+      "path": "3-Resources/Dictionaries/Wisdom.md"
+    },
+    {
+      "basename": "Knowledge",
+      "path": "3-Resources/Dictionaries/Knowledge.md"
+    },
+    {
+      "basename": "Dictionary",
+      "path": "3-Resources/Dictionaries/Dictionary.md"
+    },
+    {
       "basename": "README",
       "path": "4-Logs/README.md"
     },
@@ -127,78 +199,6 @@
     {
       "basename": "MOC - PKM",
       "path": "1-Maps-of-Content/MOC - PKM.md"
-    },
-    {
-      "basename": "MOC - PostgreSQL",
-      "path": "1-Maps-of-Content/MOC - PostgreSQL.md"
-    },
-    {
-      "basename": "MOC - Project Management",
-      "path": "1-Maps-of-Content/MOC - Project Management.md"
-    },
-    {
-      "basename": "MOC - R",
-      "path": "1-Maps-of-Content/MOC - R.md"
-    },
-    {
-      "basename": "MOC - Setup",
-      "path": "1-Maps-of-Content/MOC - Setup.md"
-    },
-    {
-      "basename": "MOC - System Design",
-      "path": "1-Maps-of-Content/MOC - System Design.md"
-    },
-    {
-      "basename": "WSL",
-      "path": "2-Slipbox/WSL.md"
-    },
-    {
-      "basename": "CLI Tools",
-      "path": "2-Slipbox/CLI Tools.md"
-    },
-    {
-      "basename": "APIs",
-      "path": "2-Slipbox/APIs.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "2-Slipbox/Markdown.md"
-    },
-    {
-      "basename": "Development-LocalGraphView",
-      "path": "1-Maps-of-Content/assets/Development-LocalGraphView.png"
-    },
-    {
-      "basename": "Views vs. Materialized Views",
-      "path": "2-Slipbox/Views vs. Materialized Views.md"
-    },
-    {
-      "basename": "Docker Best Practices",
-      "path": "2-Slipbox/Docker Best Practices.md"
-    },
-    {
-      "basename": "Database Documentation",
-      "path": "2-Slipbox/Database Documentation.md"
-    },
-    {
-      "basename": "Time Management",
-      "path": "2-Slipbox/Time Management.md"
-    },
-    {
-      "basename": "Python",
-      "path": "2-Slipbox/Python.md"
-    },
-    {
-      "basename": "Plumber Logging",
-      "path": "2-Slipbox/Plumber Logging.md"
-    },
-    {
-      "basename": "System Design Primer",
-      "path": "2-Slipbox/System Design Primer.md"
-    },
-    {
-      "basename": "Google Cloud Setup Notes",
-      "path": "2-Slipbox/Google Cloud Setup Notes.md"
     }
   ],
   "omittedPaths": [],

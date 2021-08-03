@@ -30,7 +30,7 @@ Tags: ["#MOC", "#Index"]
 
 ## Structural Notes
 
-[[Daily Notes Index]]
+[[3-Resources/Daily-Notes/README]]
 
 [[Mindsweep Trigger List]]
 

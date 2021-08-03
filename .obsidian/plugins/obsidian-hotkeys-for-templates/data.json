@@ -1,10 +1,14 @@
 {
   "files": [],
   "templaterFiles": [
-    "default_note_template.md",
-    "R.md"
+    "Daily-Note-Template.md",
+    "Default-Note-Template.md",
+    "MOC-Template.md",
+    "Mindsweep-Note-Template.md",
+    "Project-Note-Template.md",
+    "README-Template.md"
   ],
   "newFileTemplates": [],
   "openNewFileTemplateInNewPane": true,
-  "useNewFileTemplateOnFileCreation": false
+  "useNewFileTemplateOnFileCreation": true
 }

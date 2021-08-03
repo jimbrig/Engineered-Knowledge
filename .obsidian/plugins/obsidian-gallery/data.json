@@ -1,6 +1,6 @@
 {
-  "imgDataFolder": "_assets",
-  "galleryLoadPath": "/",
+  "imgDataFolder": "3-Resources/Gallery",
+  "galleryLoadPath": "",
   "width": 400,
   "reverseDisplay": true
 }

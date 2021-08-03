@@ -30,6 +30,6 @@ title: Image
 
 ***
 
-Links: [[Daily Notes Index]]
+Links: [[3-Resources/Daily-Notes/README]]
 
 Sources: 

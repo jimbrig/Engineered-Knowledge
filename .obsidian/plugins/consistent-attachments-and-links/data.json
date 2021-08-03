@@ -12,6 +12,6 @@
   "ignoreFiles": [
     "consistant-report.md"
   ],
-  "attachmentsSubfolder": "_assets",
-  "consistentReportFile": "Vault-Consistentsy-Report.md"
+  "attachmentsSubfolder": "assets",
+  "consistentReportFile": "4-LogsVault-Consistentsy-Report.md"
 }

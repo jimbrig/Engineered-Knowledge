@@ -3,6 +3,11 @@
   "sortOrder": 0,
   "reducedIndices": [],
   "ignoredFolders": [
-    "3-Resources"
+    "3-Resources/Daily-Notes",
+    "3-Resources/Mindsweeps",
+    "3-Resources/Dictionaries",
+    "3-Resources/Templates",
+    "4-Logs",
+    "0-Inbox"
   ]
 }

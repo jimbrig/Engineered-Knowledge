@@ -23,7 +23,7 @@ The problems stemming from a lack of staying mindful and in-tune with one's acti
 
 - [[Addiction to information]] can cause a complete breakdown of one's ability to stay mindful and focused on staying accountable, [[getting results]], and [[finishing your work]].
 
-- It is very easy to get lost down a rabbit hole and create an unhealthy environment consumed by insignificant, yet vast amounts of unecessary information, overloading your ability to stay mindful and on-task. 
+- It is very easy to get lost down a rabbit hole and create an unhealthy environment consumed by insignificant, yet vast amounts of unnecessary information, overloading your ability to stay mindful and on-task. 
 
 - **Stay focused on direct production of results. If something is not helpful to your initial desired outcome STOP**. 
 		- In order to accomplish this you must first build the habit of actually *thinking about what you are doing* on a persistent basis.

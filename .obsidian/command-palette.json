@@ -5,6 +5,9 @@
     "editor:insert-wikilink",
     "obsidian-icons-plugin:open-icons-plugin-modal",
     "editor:insert-wikilink",
-    "backlink:toggle-backlinks-in-document"
+    "backlink:toggle-backlinks-in-document",
+    "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links",
+    "obsidian-admonition:insert-admonition",
+    "templater-obsidian:create-new-note-from-template"
   ]
 }

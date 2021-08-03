@@ -5844,11 +5844,6 @@
       "tags": 1,
       "links": 2
     },
-    "3-Resources/Daily-Notes/Daily Notes Index.md": {
-      "size": 286,
-      "tags": 1,
-      "links": 1
-    },
     "3-Resources/Daily-Notes/2021-04-22.md": {
       "size": 367,
       "tags": 1,
@@ -6007,7 +6002,7 @@
     "4-Logs/Changelog.md": {
       "size": 4933,
       "tags": 0,
-      "links": 96
+      "links": 90
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6408,20 +6403,100 @@
       "size": 332,
       "tags": 2,
       "links": 2
+    },
+    "3-Resources/README.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 13
+    },
+    "3-Resources/Daily-Notes/README.md": {
+      "size": 286,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Dictionary.md": {
+      "size": 649,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Knowledge.md": {
+      "size": 741,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Wisdom.md": {
+      "size": 684,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Ephemeral.md": {
+      "size": 538,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Fleeting.md": {
+      "size": 620,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Index.md": {
+      "size": 1586,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Archive.md": {
+      "size": 732,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Gyroscope.md": {
+      "size": 769,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/README.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Highlights/README.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Kanbans/README.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Mindsweeps/README.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Templates/README.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 6
+    },
+    "3-Resources/Dictionaries/Kanban.md": {
+      "size": 552,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 675,
-      "Create": 361,
-      "Link": 579,
+      "Refactor": 680,
+      "Create": 376,
+      "Link": 589,
       "Expand": 53
     }
   },
   "dailyCommits": {
     "/": {
       "0": 100,
-      "1": 726,
+      "1": 756,
       "2": 43,
       "3": 150,
       "4": 7,
@@ -6449,7 +6524,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 429,
-      "Tue": 104,
+      "Tue": 134,
       "Wed": 216,
       "Thu": 99,
       "Fri": 636,
@@ -6513,6 +6588,21 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Kanban.md\"> Kanban </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Kanbans/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Gyroscope.md\"> Gyroscope </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Archive.md\"> Archive </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Index.md\"> Index </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Fleeting.md\"> Fleeting </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Ephemeral.md\"> Ephemeral </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Wisdom.md\"> Wisdom </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Knowledge.md\"> Knowledge </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Dictionary.md\"> Dictionary </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
@@ -6548,24 +6638,11 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/MOC-Template.md\"> MOC-Template </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Default-Note-Template.md\"> Default-Note-Template </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/HTTP Requests Notes.md\"> HTTP Requests Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Github/Github Actions for R.md\"> Github Actions for R </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Johnny Decimal System.md\"> Johnny Decimal System </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/SFC and DISM Commands.md\"> SFC and DISM Commands </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Useful Packages in R List.md\"> Useful Packages in R List </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - Obsidian Resources.md\"> MOC - Obsidian Resources </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md\"> Highlights - Pay off Your Debt - Tools and Tips </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-29.md\"> 2021-07-29 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - Setup.md\"> MOC - Setup </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2020-04-20.md\"> 2020-04-20 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-24.md\"> 2021-07-24 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/Mindsweep Trigger List.md\"> Mindsweep Trigger List </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-04-25.md\"> 2021-04-25 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - Links.md\"> MOC - Links </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Github/Github Actions for R.md\"> Github Actions for R </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - System Design.md\"> MOC - System Design </a>",
@@ -6614,11 +6691,15 @@
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>",
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - R.md\"> MOC - R </a>",
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - System Design.md\"> MOC - System Design </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - APIs.md\"> MOC - APIs </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - WSL.md\"> MOC - WSL </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - APIs.md\"> MOC - APIs </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Kanbans/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
@@ -6663,13 +6744,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Time Management.md\"> Time Management </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/System Design/System Design Primer.md\"> System Design Primer </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Documentation/MkDocs.md\"> MkDocs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Developer Tools/Web Browsers/Web Browsers.md\"> Web Browsers </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Developer Tools/Web Browsers/Firefox Developer Edition.md\"> Firefox Developer Edition </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/WebDev Resource List.md\"> WebDev Resource List </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/APIs.md\"> APIs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/Javascript.md\"> Javascript </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Ludicrously Complex Projects in Software Development.md\"> Ludicrously Complex Projects in Software Development </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Project Management Pipeline.md\"> Project Management Pipeline </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Developer Tools/Web Browsers/Web Browsers.md\"> Web Browsers </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6733,6 +6808,10 @@
         "<a class=\"internal-link\" href=\"Notes/PowerShell Tips.md\"> PowerShell Tips </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
@@ -6779,11 +6858,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/System Design/System Design Primer.md\"> System Design Primer </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Documentation/MkDocs.md\"> MkDocs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Developer Tools/Web Browsers/Web Browsers.md\"> Web Browsers </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Developer Tools/Web Browsers/Firefox Developer Edition.md\"> Firefox Developer Edition </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/APIs.md\"> APIs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Project Management Pipeline.md\"> Project Management Pipeline </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/daily notes as a scratch space on a hardrive.md\"> daily notes as a scratch space on a hardrive </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Developer Tools/Web Browsers/Firefox Developer Edition.md\"> Firefox Developer Edition </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6839,7 +6914,10 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ]
     }
   },
