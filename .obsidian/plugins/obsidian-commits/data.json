@@ -1097,7 +1097,7 @@
     "README.md": {
       "size": 200,
       "tags": 0,
-      "links": 4
+      "links": 5
     },
     "Productivity/zettelkasten.md": {
       "size": 4071,
@@ -6409,13 +6409,13 @@
     "/": {
       "Refactor": 666,
       "Create": 358,
-      "Link": 571,
+      "Link": 572,
       "Expand": 53
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 84,
+      "0": 85,
       "1": 722,
       "2": 43,
       "3": 150,
@@ -6444,7 +6444,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 429,
-      "Tue": 84,
+      "Tue": 85,
       "Wed": 216,
       "Thu": 99,
       "Fri": 636,
@@ -6729,6 +6729,7 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
@@ -6777,8 +6778,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/SSH and SCP.md\"> SSH and SCP </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/SSH and SCP.md\"> SSH and SCP </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
