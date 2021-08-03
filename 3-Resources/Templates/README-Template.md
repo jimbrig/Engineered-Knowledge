@@ -6,11 +6,13 @@ Alias: Index-Inbox
 Tags: ["#Index"]
 ---
 
-# <% tp.directory.name %>
+# <% tp.file.folder() %>
 
-This folder houses all *inbox* notes. Currently the inbox contains the following notes in need of further processing:
+## Contents
 
-- [Mindfulness - The Key to Success](Mindfulness%20-%20The%20Key%20to%20Success.md)
+< Place Directory Contents Here >
+
+
 
 
 

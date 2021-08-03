@@ -5986,7 +5986,7 @@
     },
     "3-Resources/Templates/Daily-Note-Template.md": {
       "size": 640,
-      "tags": 1,
+      "tags": 0,
       "links": 3
     },
     "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md": {
@@ -6394,20 +6394,15 @@
       "tags": 1,
       "links": 1
     },
-    "3-Resources/Templates/README.md": {
-      "size": 374,
-      "tags": 2,
-      "links": 5
-    },
     "4-Logs/README.md": {
       "size": 0,
-      "tags": 0,
-      "links": 0
+      "tags": 1,
+      "links": 4
     },
     "3-Resources/Templates/README-Template.md": {
       "size": 0,
       "tags": 1,
-      "links": 1
+      "links": 0
     },
     "2-Slipbox/Obsidian Templater Plugin Notes.md": {
       "size": 332,
@@ -6417,16 +6412,16 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 672,
+      "Refactor": 675,
       "Create": 361,
-      "Link": 577,
+      "Link": 579,
       "Expand": 53
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 99,
-      "1": 722,
+      "0": 100,
+      "1": 726,
       "2": 43,
       "3": 150,
       "4": 7,
@@ -6454,7 +6449,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 429,
-      "Tue": 99,
+      "Tue": 104,
       "Wed": 216,
       "Thu": 99,
       "Fri": 636,
@@ -6624,6 +6619,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
@@ -6673,8 +6669,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/APIs.md\"> APIs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/Javascript.md\"> Javascript </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Ludicrously Complex Projects in Software Development.md\"> Ludicrously Complex Projects in Software Development </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Project Management Pipeline.md\"> Project Management Pipeline </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Project Management Pipeline.md\"> Project Management Pipeline </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6685,6 +6680,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/MkDocs 1.md\"> MkDocs 1 </a>",
         "<a class=\"internal-link\" href=\"images/terminal-command-args.gif.md\"> terminal-command-args.gif </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/030 - Professional 1.md\"> 030 - Professional 1 </a>",
@@ -6734,10 +6730,10 @@
         "<a class=\"internal-link\" href=\"Notes/Git Links.md\"> Git Links </a>",
         "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>",
         "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/PowerShell Tips.md\"> PowerShell Tips </a>",
-        "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>"
+        "<a class=\"internal-link\" href=\"Notes/PowerShell Tips.md\"> PowerShell Tips </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
@@ -6787,8 +6783,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/APIs.md\"> APIs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Project Management Pipeline.md\"> Project Management Pipeline </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/daily notes as a scratch space on a hardrive.md\"> daily notes as a scratch space on a hardrive </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6809,7 +6804,8 @@
         "<a class=\"internal-link\" href=\"_templates/daily_note_template.md\"> daily_note_template </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-06-24.md\"> 2021-06-24 </a>",
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6842,7 +6838,8 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>"
       ]
     }
   },

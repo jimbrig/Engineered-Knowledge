@@ -2,7 +2,15 @@
   "recentFiles": [
     {
       "basename": "README",
-      "path": "3-Resources/Templates/README.md"
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "4-Logs/README.md"
+    },
+    {
+      "basename": "README-Template",
+      "path": "3-Resources/Templates/README-Template.md"
     },
     {
       "basename": "Daily-Note-Template",
@@ -15,10 +23,6 @@
     {
       "basename": "Managing projects with GTD",
       "path": "2-Slipbox/Managing projects with GTD.md"
-    },
-    {
-      "basename": "README-Template",
-      "path": "3-Resources/Templates/README-Template.md"
     },
     {
       "basename": "Project-Note-Template",
@@ -59,10 +63,6 @@
     {
       "basename": "README",
       "path": "0-Inbox/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "4-Logs/README.md"
     },
     {
       "basename": "README",

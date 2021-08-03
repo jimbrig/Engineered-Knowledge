@@ -31,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Templates/README.md",
-            "mode": "preview"
+            "file": "3-Resources/README.md",
+            "mode": "source"
           }
         }
       }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Templates/README.md",
+                "file": "3-Resources/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Templates/README.md",
+                "file": "3-Resources/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Templates/README.md"
+                "file": "3-Resources/README.md"
               }
             }
           },
@@ -183,15 +183,15 @@
   },
   "active": "3ab418a24e6f5157",
   "lastOpenFiles": [
+    "3-Resources/Untitled.md",
     "3-Resources/Templates/README.md",
+    "4-Logs/README.md",
+    "3-Resources/Templates/README-Template.md",
     "3-Resources/Templates/Daily-Note-Template.md",
     "3-Resources/Daily-Notes/2020-04-20.md",
     "2-Slipbox/Managing projects with GTD.md",
-    "3-Resources/Templates/README-Template.md",
     "3-Resources/Templates/Project-Note-Template.md",
     "3-Resources/Templates/MOC-Template.md",
-    "3-Resources/Templates/Mindsweep-Note-Template.md",
-    "3-Resources/Templates/Default-Note-Template.md",
-    "2-Slipbox/Templater Plugin Notes.md"
+    "3-Resources/Templates/Mindsweep-Note-Template.md"
   ]
 }

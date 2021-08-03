@@ -1,16 +1,23 @@
 ---
-Creation Date: 2021-08-03 00:48
-Last Modified Date: Tuesday 3rd August 2021 00:48:19
+Creation Date: 2021-07-19 17:38
+Last Modified Date: Tuesday 3rd August 2021 00:58:50
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: Untitled
-Tags: []
+Alias: Index-Inbox
+Tags: ["#Index"]
 ---
 
-# Untitled
+# 4-Logs
+> Logs Directory
 
-***
+Files:
 
-Links: 
+- [Change Log](./Changelog.md)
+- [Sync Log](Synclog.md)
+- [Unlinked Files](./Unlinked-Files)
+- [Unresolved Links](./Unresolved-Links)
 
-Sources:
+
+
+
+
 
