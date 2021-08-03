@@ -2,6 +2,10 @@
   "recentFiles": [
     {
       "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+    },
+    {
+      "basename": "README",
       "path": "3-Resources/README.md"
     },
     {
@@ -195,10 +199,6 @@
     {
       "basename": "MOC - Obsidian Resources",
       "path": "1-Maps-of-Content/MOC - Obsidian Resources.md"
-    },
-    {
-      "basename": "MOC - PKM",
-      "path": "1-Maps-of-Content/MOC - PKM.md"
     }
   ],
   "omittedPaths": [],
