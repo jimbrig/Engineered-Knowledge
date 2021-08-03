@@ -6,7 +6,15 @@
     },
     {
       "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "README",
       "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "010 - Productivity",
+      "path": "1-Maps-of-Content/010 - Productivity.md"
     },
     {
       "basename": "README",
@@ -149,10 +157,6 @@
       "path": "2-Slipbox/MkDocs.md"
     },
     {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
-    },
-    {
       "basename": "030 - Professional",
       "path": "1-Maps-of-Content/030 - Professional.md"
     },
@@ -183,10 +187,6 @@
     {
       "basename": "000 - INDEX",
       "path": "1-Maps-of-Content/000 - INDEX.md"
-    },
-    {
-      "basename": "010 - Productivity",
-      "path": "1-Maps-of-Content/010 - Productivity.md"
     },
     {
       "basename": "040 - Personal",

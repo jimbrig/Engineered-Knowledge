@@ -6002,7 +6002,7 @@
     "4-Logs/Changelog.md": {
       "size": 4933,
       "tags": 0,
-      "links": 89
+      "links": 87
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6487,26 +6487,31 @@
     "1-Maps-of-Content/README.md": {
       "size": 0,
       "tags": 1,
-      "links": 14
+      "links": 15
     },
     "3-Resources/Gallery/README.md": {
       "size": 0,
-      "tags": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "2-Slipbox/README.md": {
+      "size": 0,
+      "tags": 1,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 682,
-      "Create": 378,
-      "Link": 591,
+      "Refactor": 683,
+      "Create": 379,
+      "Link": 594,
       "Expand": 53
     }
   },
   "dailyCommits": {
     "/": {
       "0": 100,
-      "1": 762,
+      "1": 767,
       "2": 43,
       "3": 150,
       "4": 7,
@@ -6534,7 +6539,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 429,
-      "Tue": 140,
+      "Tue": 145,
       "Wed": 216,
       "Thu": 99,
       "Fri": 636,
@@ -6598,6 +6603,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Kanban.md\"> Kanban </a>",
@@ -6647,8 +6653,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Templates Index.md\"> Templates Index </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/MOC-Template.md\"> MOC-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Default-Note-Template.md\"> Default-Note-Template </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/MOC-Template.md\"> MOC-Template </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
@@ -6704,6 +6709,8 @@
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - System Design.md\"> MOC - System Design </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/README.md\"> README </a>",
@@ -6752,9 +6759,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL Tools.md\"> PostgreSQL Tools </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL.md\"> PostgreSQL </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Notes on Finishing Projects.md\"> Notes on Finishing Projects </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Time Management.md\"> Time Management </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/System Design/System Design Primer.md\"> System Design Primer </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Documentation/MkDocs.md\"> MkDocs </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Time Management.md\"> Time Management </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6819,6 +6824,7 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
@@ -6867,8 +6873,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Notes on Finishing Projects.md\"> Notes on Finishing Projects </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Time Management.md\"> Time Management </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/System Design/System Design Primer.md\"> System Design Primer </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Documentation/MkDocs.md\"> MkDocs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Developer Tools/Web Browsers/Web Browsers.md\"> Web Browsers </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Documentation/MkDocs.md\"> MkDocs </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6927,6 +6932,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ]

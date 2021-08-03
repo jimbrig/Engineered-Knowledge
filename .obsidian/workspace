@@ -120,7 +120,7 @@
           "type": "markdown",
           "state": {
             "file": "README.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       },
@@ -299,14 +299,14 @@
   "active": "1361fb9b65722455",
   "lastOpenFiles": [
     "README.md",
+    "0-Inbox/README.md",
+    "2-Slipbox/README.md",
+    "1-Maps-of-Content/010 - Productivity.md",
     "2-Slipbox/Untitled.md",
     "3-Resources/README.md",
     "3-Resources/Templates/README.md",
     "3-Resources/Mindsweeps/README.md",
     "3-Resources/Kanbans/README.md",
-    "3-Resources/Highlights/README.md",
-    "3-Resources/Gallery/README.md",
-    "3-Resources/Dictionaries/README.md",
-    "3-Resources/Daily-Notes/README.md"
+    "3-Resources/Highlights/README.md"
   ]
 }
