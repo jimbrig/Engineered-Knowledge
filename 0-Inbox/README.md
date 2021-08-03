@@ -12,10 +12,6 @@ This folder houses all *inbox* notes. Currently the inbox contains the following
 
 - [Mindfulness - The Key to Success](./Mindfulness%20%-%20The%20Key%20to%20Success)
 
-***
 
-Links: 
-
-Sources:
 
 
