@@ -2,15 +2,11 @@
   "recentFiles": [
     {
       "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
+      "path": "2-Slipbox/README.md"
     },
     {
       "basename": "README",
       "path": "3-Resources/README.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "3-Resources/Dictionaries/Kanban.md"
     },
     {
       "basename": "README",
@@ -19,10 +15,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Mindsweeps/README.md"
-    },
-    {
-      "basename": "Mindsweep Trigger List",
-      "path": "3-Resources/Mindsweeps/Mindsweep Trigger List.md"
     },
     {
       "basename": "README",
@@ -34,11 +26,35 @@
     },
     {
       "basename": "README",
+      "path": "3-Resources/Gallery/README.md"
+    },
+    {
+      "basename": "README",
       "path": "3-Resources/Dictionaries/README.md"
     },
     {
       "basename": "README",
       "path": "3-Resources/Daily-Notes/README.md"
+    },
+    {
+      "basename": "README-Template",
+      "path": "3-Resources/Templates/README-Template.md"
+    },
+    {
+      "basename": "README",
+      "path": "4-Logs/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+    },
+    {
+      "basename": "Kanban",
+      "path": "3-Resources/Dictionaries/Kanban.md"
+    },
+    {
+      "basename": "Mindsweep Trigger List",
+      "path": "3-Resources/Mindsweeps/Mindsweep Trigger List.md"
     },
     {
       "basename": "WebDev Resource List",
@@ -79,14 +95,6 @@
     {
       "basename": "Dictionary",
       "path": "3-Resources/Dictionaries/Dictionary.md"
-    },
-    {
-      "basename": "README",
-      "path": "4-Logs/README.md"
-    },
-    {
-      "basename": "README-Template",
-      "path": "3-Resources/Templates/README-Template.md"
     },
     {
       "basename": "Daily-Note-Template",
@@ -191,14 +199,6 @@
     {
       "basename": "MOC - Databases",
       "path": "1-Maps-of-Content/MOC - Databases.md"
-    },
-    {
-      "basename": "MOC - Links",
-      "path": "1-Maps-of-Content/MOC - Links.md"
-    },
-    {
-      "basename": "MOC - Obsidian Resources",
-      "path": "1-Maps-of-Content/MOC - Obsidian Resources.md"
     }
   ],
   "omittedPaths": [],

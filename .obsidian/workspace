@@ -119,7 +119,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-Maps-of-Content/README.md",
+            "file": "2-Slipbox/README.md",
             "mode": "source"
           }
         }
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Maps-of-Content/README.md",
+                "file": "2-Slipbox/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Maps-of-Content/README.md",
+                "file": "2-Slipbox/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Maps-of-Content/README.md"
+                "file": "2-Slipbox/README.md"
               }
             }
           },
@@ -298,15 +298,15 @@
   },
   "active": "1361fb9b65722455",
   "lastOpenFiles": [
-    "1-Maps-of-Content/Untitled.md",
+    "2-Slipbox/Untitled.md",
     "3-Resources/README.md",
-    "3-Resources/Dictionaries/Kanban.md",
     "3-Resources/Templates/README.md",
-    "3-Resources/Templates/Untitled.md",
-    "3-Resources/Mindsweeps/Untitled.md",
-    "3-Resources/Mindsweeps/Mindsweep Trigger List.md",
-    "3-Resources/Kanbans/Untitled.md",
-    "3-Resources/Highlights/Untitled.md",
-    "3-Resources/Dictionaries/Untitled.md"
+    "3-Resources/Mindsweeps/README.md",
+    "3-Resources/Kanbans/README.md",
+    "3-Resources/Highlights/README.md",
+    "3-Resources/Gallery/README.md",
+    "3-Resources/Dictionaries/README.md",
+    "3-Resources/Daily-Notes/README.md",
+    "3-Resources/Gallery/Untitled.md"
   ]
 }

@@ -1,12 +1,12 @@
 ---
 Creation Date: 2021-07-19 17:38
-Last Modified Date: Tuesday 3rd August 2021 01:12:41
+Last Modified Date: Tuesday 3rd August 2021 01:48:25
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: Index-Kanbans
+Alias: Index-Gallery
 Tags: ["#Index"]
 ---
 
-# Kanbans
+# Gallery
 
 ## Contents
 
