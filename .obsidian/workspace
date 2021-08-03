@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-Maps of Content/020 - Development.md",
+            "file": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
             "mode": "preview"
           }
         }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Maps of Content/020 - Development.md",
+                "file": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Maps of Content/020 - Development.md",
+                "file": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Maps of Content/020 - Development.md"
+                "file": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md"
               }
             }
           },
@@ -182,6 +182,8 @@
   },
   "active": "81b45848071cd797",
   "lastOpenFiles": [
+    "2-Slipbox/Untitled.md",
+    "3-Resources/Daily-Notes/2021-08-02.md",
     "1-Maps of Content/020 - Development.md",
     "3-Resources/1-Maps of Content/030 - Professional.md",
     "3-Resources/Templates/MOC-Template.md",
@@ -189,8 +191,6 @@
     "3-Resources/Templates/Mindsweep-Note-Template.md",
     "3-Resources/Templates/Daily-Note-Template.md",
     "3-Resources/Templates/Default-Note-Template.md",
-    "2-Slipbox/RStudio Configuration Notes.md",
-    "4-Logs/Unlinked-Files.md",
-    "2-Slipbox/Tools Package Hidden Gems in R.md"
+    "2-Slipbox/RStudio Configuration Notes.md"
   ]
 }

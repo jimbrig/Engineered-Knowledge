@@ -6012,7 +6012,7 @@
     "4-Logs/Changelog.md": {
       "size": 4933,
       "tags": 0,
-      "links": 99
+      "links": 98
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6046,7 +6046,7 @@
     },
     "2-Slipbox/Managing projects with GTD.md": {
       "size": 1813,
-      "tags": 1,
+      "tags": 3,
       "links": 0
     },
     "2-Slipbox/How to Pay off Debt.md": {
@@ -6393,19 +6393,39 @@
       "size": 185,
       "tags": 1,
       "links": 0
+    },
+    "0-Inbox/Mindfulness - The Key to Success.md": {
+      "size": 8739,
+      "tags": 0,
+      "links": 11
+    },
+    "3-Resources/Daily-Notes/2021-08-02.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md": {
+      "size": 20840,
+      "tags": 4,
+      "links": 9
+    },
+    "images/terminal-command-args.gif.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 647,
-      "Create": 354,
-      "Link": 561,
-      "Expand": 52
+      "Refactor": 648,
+      "Create": 358,
+      "Link": 568,
+      "Expand": 53
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 53,
+      "0": 63,
       "1": 722,
       "2": 43,
       "3": 150,
@@ -6428,13 +6448,13 @@
       "20": 24,
       "21": 2,
       "22": 160,
-      "23": 158
+      "23": 161
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 426,
-      "Tue": 53,
+      "Mon": 429,
+      "Tue": 63,
       "Wed": 216,
       "Thu": 99,
       "Fri": 636,
@@ -6445,6 +6465,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Development/Azure/Use policies to enforce standards.md\"> Use policies to enforce standards </a>",
@@ -6494,10 +6515,13 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"images/terminal-command-args.gif.md\"> terminal-command-args.gif </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-02.md\"> 2021-08-02 </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
@@ -6544,11 +6568,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - Links.md\"> MOC - Links </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-30.md\"> 2021-07-30 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - Markdown.md\"> MOC - Markdown </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - CLI Tools.md\"> MOC - CLI Tools </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - PKM.md\"> MOC - PKM </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/030 - Professional.md\"> 030 - Professional </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/WSL.md\"> WSL </a>",
@@ -6605,6 +6625,9 @@
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Managing projects with GTD.md\"> Managing projects with GTD </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-02.md\"> 2021-08-02 </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Managing projects with GTD.md\"> Managing projects with GTD </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Tools Package Hidden Gems in R.md\"> Tools Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Daily Notes as Your Scratch Space.md\"> Daily Notes as Your Scratch Space </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Ship Side Projects.md\"> How to Ship Side Projects </a>",
@@ -6651,10 +6674,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Google Cloud Setup Notes.md\"> Google Cloud Setup Notes </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Scratch Space.md\"> Scratch Space </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/SSH and SCP.md\"> SSH and SCP </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6718,6 +6738,10 @@
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-02.md\"> 2021-08-02 </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
@@ -6764,11 +6788,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/WSL-Notes.md\"> WSL-Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Developer Environment.md\"> Windows Developer Environment </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/MkDocs.md\"> MkDocs </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6818,6 +6838,7 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ]
     }

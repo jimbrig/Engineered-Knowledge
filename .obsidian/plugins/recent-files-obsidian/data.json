@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows Terminal Command Line Arguments - Windows Docs",
+      "path": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md"
+    },
+    {
+      "basename": "2021-08-02",
+      "path": "3-Resources/Daily-Notes/2021-08-02.md"
+    },
+    {
       "basename": "020 - Development",
       "path": "1-Maps of Content/020 - Development.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "AutoHotKey_HotKeyHelp_HotkeyHelp.ahk - scripts - Visual Studio Code - Insiders 2021-07-21 17-04-18",
       "path": "2-Slipbox/assets/AutoHotKey_HotKeyHelp_HotkeyHelp.ahk - scripts - Visual Studio Code - Insiders 2021-07-21 17-04-18.gif"
-    },
-    {
-      "basename": "Database GUIs",
-      "path": "2-Slipbox/Database GUIs.md"
-    },
-    {
-      "basename": "Highlights - Pay off Your Debt - Tools and Tips",
-      "path": "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md"
     }
   ],
   "omittedPaths": [],
