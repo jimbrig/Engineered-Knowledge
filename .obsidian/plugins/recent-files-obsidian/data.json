@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows Developer Environment",
+      "path": "2-Slipbox/Windows Developer Environment.md"
+    },
+    {
       "basename": "WinGet CLI Setup and Settings",
       "path": "2-Slipbox/WinGet CLI Setup and Settings.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "WSL-Notes",
       "path": "2-Slipbox/WSL-Notes.md"
-    },
-    {
-      "basename": "Windows Developer Environment",
-      "path": "2-Slipbox/Windows Developer Environment.md"
     },
     {
       "basename": "README",

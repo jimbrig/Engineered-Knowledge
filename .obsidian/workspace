@@ -119,7 +119,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/WinGet CLI Setup and Settings.md",
+            "file": "2-Slipbox/Windows Developer Environment.md",
             "mode": "preview"
           }
         }
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/WinGet CLI Setup and Settings.md",
+                "file": "2-Slipbox/Windows Developer Environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/WinGet CLI Setup and Settings.md",
+                "file": "2-Slipbox/Windows Developer Environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/WinGet CLI Setup and Settings.md"
+                "file": "2-Slipbox/Windows Developer Environment.md"
               }
             }
           },
@@ -298,11 +298,11 @@
   },
   "active": "1361fb9b65722455",
   "lastOpenFiles": [
+    "2-Slipbox/Windows Developer Environment.md",
     "2-Slipbox/WinGet CLI Setup and Settings.md",
     "2-Slipbox/WSL.md",
     "2-Slipbox/WSL Commands and Installs.md",
     "2-Slipbox/WSL-Notes.md",
-    "2-Slipbox/Windows Developer Environment.md",
     "2-Slipbox/README.md",
     "3-Resources/Daily-Notes/2021-08-03.md",
     "README.md",
