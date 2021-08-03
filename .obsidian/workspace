@@ -119,7 +119,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/README.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/README.md"
+                "file": "README.md"
               }
             }
           },
@@ -298,6 +298,7 @@
   },
   "active": "1361fb9b65722455",
   "lastOpenFiles": [
+    "README.md",
     "2-Slipbox/Untitled.md",
     "3-Resources/README.md",
     "3-Resources/Templates/README.md",
@@ -306,7 +307,6 @@
     "3-Resources/Highlights/README.md",
     "3-Resources/Gallery/README.md",
     "3-Resources/Dictionaries/README.md",
-    "3-Resources/Daily-Notes/README.md",
-    "3-Resources/Gallery/Untitled.md"
+    "3-Resources/Daily-Notes/README.md"
   ]
 }

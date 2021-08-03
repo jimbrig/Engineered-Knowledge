@@ -5,7 +5,7 @@
 - Inbox: [0-Inbox](./0-Inbox)
 - Maps of Content: [1-Maps of Content](1-Maps-of-Content)
 - Slipbox[^1]:  [2-Slipbox](./2-Slipbox)
-- Resources: [3-Resources]("./3-Resources")
+- Resources: [3-Resources](./3-Resources)
 - Logs: [4-Logs](./4-Logs)
 
 ```R

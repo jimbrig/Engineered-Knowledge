@@ -1,3 +1,4 @@
+- 2021-08-03 at 01h50 · [[README]]
 - 2021-08-03 at 01h49 · [[README]]
 - 2021-08-03 at 01h48 · [[README]]
 - 2021-08-03 at 01h48 · [[README]]
@@ -41,7 +42,6 @@
 - 2021-08-03 at 00h50 · [[Obsidian Templater Plugin Notes]]
 - 2021-08-03 at 00h50 · [[Obsidian Links List]]
 - 2021-08-03 at 00h45 · [[README]]
-- 2021-08-03 at 00h36 · [[README]]
 - 2021-08-03 at 00h05 · [[Windows Terminal Command Line Arguments - Windows Docs]]
 - 2021-08-02 at 19h57 · [[Mindfulness - The Key to Success]]
 - 2021-07-30 at 04h00 · [[Managing projects with GTD]]
