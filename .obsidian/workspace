@@ -119,7 +119,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "2-Slipbox/WinGet CLI Setup and Settings.md",
             "mode": "preview"
           }
         }
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "2-Slipbox/WinGet CLI Setup and Settings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "2-Slipbox/WinGet CLI Setup and Settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "2-Slipbox/WinGet CLI Setup and Settings.md"
               }
             }
           },
@@ -298,15 +298,15 @@
   },
   "active": "1361fb9b65722455",
   "lastOpenFiles": [
+    "2-Slipbox/WinGet CLI Setup and Settings.md",
+    "2-Slipbox/WSL.md",
+    "2-Slipbox/WSL Commands and Installs.md",
+    "2-Slipbox/WSL-Notes.md",
+    "2-Slipbox/Windows Developer Environment.md",
+    "2-Slipbox/README.md",
+    "3-Resources/Daily-Notes/2021-08-03.md",
     "README.md",
     "0-Inbox/README.md",
-    "2-Slipbox/README.md",
-    "1-Maps-of-Content/010 - Productivity.md",
-    "2-Slipbox/Untitled.md",
-    "3-Resources/README.md",
-    "3-Resources/Templates/README.md",
-    "3-Resources/Mindsweeps/README.md",
-    "3-Resources/Kanbans/README.md",
-    "3-Resources/Highlights/README.md"
+    "1-Maps-of-Content/010 - Productivity.md"
   ]
 }

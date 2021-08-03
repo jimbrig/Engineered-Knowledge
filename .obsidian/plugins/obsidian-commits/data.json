@@ -6498,12 +6498,17 @@
       "size": 0,
       "tags": 1,
       "links": 0
+    },
+    "3-Resources/Daily-Notes/2021-08-03.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 683,
-      "Create": 379,
+      "Create": 380,
       "Link": 594,
       "Expand": 53
     }
@@ -6522,7 +6527,7 @@
       "9": 0,
       "10": 0,
       "11": 42,
-      "12": 5,
+      "12": 6,
       "13": 5,
       "14": 2,
       "15": 14,
@@ -6539,7 +6544,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 429,
-      "Tue": 145,
+      "Tue": 146,
       "Wed": 216,
       "Thu": 99,
       "Fri": 636,
@@ -6603,6 +6608,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-03.md\"> 2021-08-03 </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/Untitled.md\"> Untitled </a>",
@@ -6652,8 +6658,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Templates Index.md\"> Templates Index </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/MOC-Template.md\"> MOC-Template </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",

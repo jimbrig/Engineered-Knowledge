@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "WinGet CLI Setup and Settings",
+      "path": "2-Slipbox/WinGet CLI Setup and Settings.md"
+    },
+    {
+      "basename": "WSL",
+      "path": "2-Slipbox/WSL.md"
+    },
+    {
+      "basename": "WSL Commands and Installs",
+      "path": "2-Slipbox/WSL Commands and Installs.md"
+    },
+    {
+      "basename": "WSL-Notes",
+      "path": "2-Slipbox/WSL-Notes.md"
+    },
+    {
+      "basename": "Windows Developer Environment",
+      "path": "2-Slipbox/Windows Developer Environment.md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "2021-08-03",
+      "path": "3-Resources/Daily-Notes/2021-08-03.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
     {
       "basename": "README",
       "path": "0-Inbox/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "2-Slipbox/README.md"
     },
     {
       "basename": "010 - Productivity",
@@ -175,30 +199,6 @@
     {
       "basename": "RStudio Configuration Notes",
       "path": "2-Slipbox/RStudio Configuration Notes.md"
-    },
-    {
-      "basename": "Unlinked-Files",
-      "path": "4-Logs/Unlinked-Files.md"
-    },
-    {
-      "basename": "Tools Package Hidden Gems in R",
-      "path": "2-Slipbox/Tools Package Hidden Gems in R.md"
-    },
-    {
-      "basename": "000 - INDEX",
-      "path": "1-Maps-of-Content/000 - INDEX.md"
-    },
-    {
-      "basename": "040 - Personal",
-      "path": "1-Maps-of-Content/040 - Personal.md"
-    },
-    {
-      "basename": "050 - Computer",
-      "path": "1-Maps-of-Content/050 - Computer.md"
-    },
-    {
-      "basename": "MOC - Databases",
-      "path": "1-Maps-of-Content/MOC - Databases.md"
     }
   ],
   "omittedPaths": [],
