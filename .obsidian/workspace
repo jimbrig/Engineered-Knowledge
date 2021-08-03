@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/README.md",
+            "file": "3-Resources/Templates/Daily-Note-Template.md",
             "mode": "source"
           }
         }
@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Managing projects with GTD.md",
+            "file": "3-Resources/Templates/README.md",
             "mode": "preview"
           }
         }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#api",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/README.md",
+                "file": "3-Resources/Templates/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/README.md",
+                "file": "3-Resources/Templates/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/README.md"
+                "file": "3-Resources/Templates/README.md"
               }
             }
           },
@@ -174,23 +174,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "81b45848071cd797",
+  "active": "3ab418a24e6f5157",
   "lastOpenFiles": [
-    "0-Inbox/Untitled.md",
-    "README.md",
-    "1-Maps of Content/030 - Professional 1.md",
-    "1-Maps of Content/030 - Professional.md",
-    "2-Slipbox/Untitled.md",
-    "3-Resources/Daily-Notes/2021-08-02.md",
-    "1-Maps of Content/020 - Development.md",
-    "3-Resources/1-Maps of Content/030 - Professional.md",
+    "3-Resources/Templates/README.md",
+    "3-Resources/Templates/Daily-Note-Template.md",
+    "3-Resources/Daily-Notes/2020-04-20.md",
+    "2-Slipbox/Managing projects with GTD.md",
+    "3-Resources/Templates/README-Template.md",
+    "3-Resources/Templates/Project-Note-Template.md",
     "3-Resources/Templates/MOC-Template.md",
-    "2-Slipbox/Managing projects with GTD.md"
+    "3-Resources/Templates/Mindsweep-Note-Template.md",
+    "3-Resources/Templates/Default-Note-Template.md",
+    "2-Slipbox/Templater Plugin Notes.md"
   ]
 }

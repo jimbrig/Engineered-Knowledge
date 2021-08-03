@@ -1,12 +1,12 @@
 ---
-Creation Date: 2021-07-19 17:55
-Last Modified Date: Friday 30th July 2021 01:42:55
+Creation Date: <% tp.file.creation_date() %>
+Last Modified Date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: "Mindsweep-2021-07-19"
+Alias: "Mindsweep-<% tp.file.creation_date("YYYY-MM-DD") %>"
 Tags: ["#Mindsweep"]
 ---
 
-# Friday, July 2021 - Mindsweep `fas:Broom`
+# <% tp.date.now("dddd, MMMM YYYY") %> - Mindsweep `fas:Broom`
 
 ***
 

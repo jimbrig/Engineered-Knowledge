@@ -1,36 +1,30 @@
 ---
-Creation Date: 2021-07-19 17:34
-Last Modified Date: Friday 30th July 2021 01:42:56
+Creation Date: <% tp.file.creation_date() %>
+Last Modified Date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: 2021-07-19 17:34
-Tags: [ "#DailyNotes" ]
+Alias: <% tp.file.creation_date() %>
+Note Type: "#DailyNotes"
+Tags: [  ]
+Linked Notes: [ ""]
 ---
 
-<< [[2021-07-29]] | [[2021-07-31]] >>
+<< [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
-# Friday, July 2021
+# <% tp.date.now("dddd, MMMM YYYY") %>
 
 ## Daily Quote & Image
 
 ```ad-quote
 title: Daily Quote
-
 <center>
-
-> I always advice people - Don't wait ! Do something when you are young, when you have no responsibilities. Invest time in yourself to have great Experiences that are going to enrich you, then you can't possibly lose.
-> &mdash; <cite>Steve Jobs</cite>
-
+<% tp.web.daily_quote() %>
 </center>
-
 ```
 
 ```ad-info
 title: Image
-
 <center>
-
-![tp.web.random_picture](https://images.unsplash.com/photo-1504893524553-b855bce32c67?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlLHdhdGVyLHNwYWNlLHN1bixza3lsaW5lfHx8fHx8MTYyNzYyMzc5MA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400)
-
+<% tp.web.random_picture("400x400", "landscape,water,space,sun,skyline") %>
 </center>
 ```
 

@@ -1,17 +1,16 @@
 ---
-Creation Date: 2021-07-19 17:40
-Last Modified Date: Friday 30th July 2021 01:42:55
+Creation Date: <% tp.file.creation_date() %>
+Last Modified Date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: MOC-Template
+Alias: <% tp.file.title %>
 Tags: ["#MOC", "#Index"]
 ---
 
-# MOC-Template - Map of Content `fas:Sitemap`
+# <% tp.file.title %> - Map of Content `fas:Sitemap`
 
 ***
 
 Links: 
 
 Sources:
-
 

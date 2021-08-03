@@ -5976,13 +5976,8 @@
     },
     "3-Resources/Templates/Mindsweep-Note-Template.md": {
       "size": 365,
-      "tags": 1,
+      "tags": 0,
       "links": 1
-    },
-    "3-Resources/Templates/Templates Index.md": {
-      "size": 374,
-      "tags": 2,
-      "links": 5
     },
     "3-Resources/Templates/Project-Note-Template.md": {
       "size": 453,
@@ -6012,7 +6007,7 @@
     "4-Logs/Changelog.md": {
       "size": 4933,
       "tags": 0,
-      "links": 99
+      "links": 96
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6249,11 +6244,6 @@
       "tags": 1,
       "links": 3
     },
-    "2-Slipbox/Templater Plugin Notes.md": {
-      "size": 332,
-      "tags": 1,
-      "links": 2
-    },
     "2-Slipbox/Git Tools.md": {
       "size": 201,
       "tags": 2,
@@ -6263,11 +6253,6 @@
       "size": 6964,
       "tags": 1,
       "links": 0
-    },
-    "2-Slipbox/MkDocs 1.md": {
-      "size": 355,
-      "tags": 1,
-      "links": 1
     },
     "2-Slipbox/Docker Compose Reference Docs.md": {
       "size": 9642,
@@ -6403,19 +6388,44 @@
       "size": 214,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/README.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Templates/README.md": {
+      "size": 374,
+      "tags": 2,
+      "links": 5
+    },
+    "4-Logs/README.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Templates/README-Template.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
+    },
+    "2-Slipbox/Obsidian Templater Plugin Notes.md": {
+      "size": 332,
+      "tags": 2,
+      "links": 2
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 666,
-      "Create": 358,
-      "Link": 572,
+      "Refactor": 672,
+      "Create": 361,
+      "Link": 577,
       "Expand": 53
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 85,
+      "0": 99,
       "1": 722,
       "2": 43,
       "3": 150,
@@ -6444,7 +6454,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 429,
-      "Tue": 85,
+      "Tue": 99,
       "Wed": 216,
       "Thu": 99,
       "Fri": 636,
@@ -6508,6 +6518,9 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"images/terminal-command-args.gif.md\"> terminal-command-args.gif </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-02.md\"> 2021-08-02 </a>",
@@ -6555,12 +6568,11 @@
         "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/Mindsweep Trigger List.md\"> Mindsweep Trigger List </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-04-25.md\"> 2021-04-25 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - Links.md\"> MOC - Links </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-30.md\"> 2021-07-30 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/MOC - Links.md\"> MOC - Links </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - System Design.md\"> MOC - System Design </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Setup.md\"> MOC - Setup </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - R.md\"> MOC - R </a>",
@@ -6609,11 +6621,12 @@
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - System Design.md\"> MOC - System Design </a>",
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - APIs.md\"> MOC - APIs </a>",
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - WSL.md\"> MOC - WSL </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Databases.md\"> MOC - Databases </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Setup.md\"> MOC - Setup </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Managing projects with GTD.md\"> Managing projects with GTD </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-02.md\"> 2021-08-02 </a>",
@@ -6661,10 +6674,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/Javascript.md\"> Javascript </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Ludicrously Complex Projects in Software Development.md\"> Ludicrously Complex Projects in Software Development </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Project Management Pipeline.md\"> Project Management Pipeline </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Google Cloud Setup Notes.md\"> Google Cloud Setup Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Scratch Space.md\"> Scratch Space </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6675,6 +6685,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/MkDocs 1.md\"> MkDocs 1 </a>",
         "<a class=\"internal-link\" href=\"images/terminal-command-args.gif.md\"> terminal-command-args.gif </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/030 - Professional 1.md\"> 030 - Professional 1 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/PKM/PKM.md\"> PKM </a>",
@@ -6724,10 +6735,11 @@
         "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>",
         "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"Notes/PowerShell Tips.md\"> PowerShell Tips </a>",
-        "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
-        "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>"
+        "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -6776,9 +6788,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Project Management Pipeline.md\"> Project Management Pipeline </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/daily notes as a scratch space on a hardrive.md\"> daily notes as a scratch space on a hardrive </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Run Command to Edit Environment Variables.md\"> Run Command to Edit Environment Variables </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/SSH and SCP.md\"> SSH and SCP </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6798,7 +6808,8 @@
         "<a class=\"internal-link\" href=\"Development/R/Plumber Logging.md\"> Plumber Logging </a>",
         "<a class=\"internal-link\" href=\"_templates/daily_note_template.md\"> daily_note_template </a>",
         "<a class=\"internal-link\" href=\"_daily/2021-06-24.md\"> 2021-06-24 </a>",
-        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>"
+        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6828,6 +6839,8 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ]

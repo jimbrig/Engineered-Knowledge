@@ -34,7 +34,7 @@ Tags: ["#MOC", "#Index"]
 
 [[Mindsweep Trigger List]]
 
-[[Templates Index]]
+[[3-Resources/Templates/README]]
 
 
 ***

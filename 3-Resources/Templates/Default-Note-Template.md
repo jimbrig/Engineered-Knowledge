@@ -1,17 +1,16 @@
 ---
-Creation Date: 2021-07-19 17:38
-Last Modified Date: Friday 30th July 2021 01:42:55
+Creation Date: <% tp.file.creation_date() %>
+Last Modified Date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: Default-Note-Template
+Alias: <% tp.file.title %>
 Tags: []
 ---
 
-# Default-Note-Template
+# <% tp.file.title %>
 
 ***
 
 Links: 
 
 Sources:
-
 
