@@ -1097,7 +1097,7 @@
     "README.md": {
       "size": 200,
       "tags": 0,
-      "links": 0
+      "links": 4
     },
     "Productivity/zettelkasten.md": {
       "size": 4071,
@@ -6012,7 +6012,7 @@
     "4-Logs/Changelog.md": {
       "size": 4933,
       "tags": 0,
-      "links": 98
+      "links": 99
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6294,86 +6294,6 @@
       "tags": 3,
       "links": 4
     },
-    "1-Maps of Content/000 - INDEX.md": {
-      "size": 557,
-      "tags": 2,
-      "links": 8
-    },
-    "1-Maps of Content/020 - Development.md": {
-      "size": 5200,
-      "tags": 3,
-      "links": 170
-    },
-    "1-Maps of Content/010 - Productivity.md": {
-      "size": 224,
-      "tags": 2,
-      "links": 23
-    },
-    "1-Maps of Content/030 - Professional.md": {
-      "size": 224,
-      "tags": 0,
-      "links": 0
-    },
-    "1-Maps of Content/040 - Personal.md": {
-      "size": 216,
-      "tags": 0,
-      "links": 3
-    },
-    "1-Maps of Content/050 - Computer.md": {
-      "size": 901,
-      "tags": 0,
-      "links": 17
-    },
-    "1-Maps of Content/MOC - Links.md": {
-      "size": 1109,
-      "tags": 2,
-      "links": 0
-    },
-    "1-Maps of Content/MOC - Obsidian Resources.md": {
-      "size": 4163,
-      "tags": 4,
-      "links": 18
-    },
-    "1-Maps of Content/MOC - PKM.md": {
-      "size": 297,
-      "tags": 2,
-      "links": 2
-    },
-    "1-Maps of Content/MOC - Setup.md": {
-      "size": 1609,
-      "tags": 6,
-      "links": 19
-    },
-    "1-Maps of Content/MOC - Databases.md": {
-      "size": 301,
-      "tags": 1,
-      "links": 3
-    },
-    "1-Maps of Content/MOC - PostgreSQL.md": {
-      "size": 27524,
-      "tags": 2,
-      "links": 21
-    },
-    "1-Maps of Content/MOC - System Design.md": {
-      "size": 214,
-      "tags": 0,
-      "links": 0
-    },
-    "1-Maps of Content/MOC - R.md": {
-      "size": 38,
-      "tags": 0,
-      "links": 1
-    },
-    "1-Maps of Content/MOC - Project Management.md": {
-      "size": 224,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Resources/1-Maps of Content/030 - Professional.md": {
-      "size": 224,
-      "tags": 0,
-      "links": 0
-    },
     "2-Slipbox/Markdown.md": {
       "size": 514,
       "tags": 4,
@@ -6409,23 +6329,93 @@
       "tags": 4,
       "links": 9
     },
-    "images/terminal-command-args.gif.md": {
-      "size": 0,
+    "1-Maps-of-Content/000 - INDEX.md": {
+      "size": 557,
+      "tags": 2,
+      "links": 8
+    },
+    "1-Maps-of-Content/010 - Productivity.md": {
+      "size": 224,
+      "tags": 2,
+      "links": 23
+    },
+    "1-Maps-of-Content/020 - Development.md": {
+      "size": 5200,
+      "tags": 3,
+      "links": 170
+    },
+    "1-Maps-of-Content/030 - Professional.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps-of-Content/040 - Personal.md": {
+      "size": 216,
+      "tags": 0,
+      "links": 3
+    },
+    "1-Maps-of-Content/050 - Computer.md": {
+      "size": 901,
+      "tags": 0,
+      "links": 17
+    },
+    "1-Maps-of-Content/MOC - Databases.md": {
+      "size": 301,
+      "tags": 1,
+      "links": 3
+    },
+    "1-Maps-of-Content/MOC - Links.md": {
+      "size": 1109,
+      "tags": 2,
+      "links": 0
+    },
+    "1-Maps-of-Content/MOC - Obsidian Resources.md": {
+      "size": 4163,
+      "tags": 4,
+      "links": 18
+    },
+    "1-Maps-of-Content/MOC - PKM.md": {
+      "size": 297,
+      "tags": 2,
+      "links": 2
+    },
+    "1-Maps-of-Content/MOC - PostgreSQL.md": {
+      "size": 27524,
+      "tags": 2,
+      "links": 21
+    },
+    "1-Maps-of-Content/MOC - Project Management.md": {
+      "size": 224,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps-of-Content/MOC - R.md": {
+      "size": 38,
+      "tags": 0,
+      "links": 1
+    },
+    "1-Maps-of-Content/MOC - Setup.md": {
+      "size": 1609,
+      "tags": 6,
+      "links": 19
+    },
+    "1-Maps-of-Content/MOC - System Design.md": {
+      "size": 214,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 648,
+      "Refactor": 666,
       "Create": 358,
-      "Link": 568,
+      "Link": 571,
       "Expand": 53
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 63,
+      "0": 84,
       "1": 722,
       "2": 43,
       "3": 150,
@@ -6454,7 +6444,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 429,
-      "Tue": 63,
+      "Tue": 84,
       "Wed": 216,
       "Thu": 99,
       "Fri": 636,
@@ -6571,6 +6561,22 @@
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - System Design.md\"> MOC - System Design </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Setup.md\"> MOC - Setup </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - R.md\"> MOC - R </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Project Management.md\"> MOC - Project Management </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Obsidian Resources.md\"> MOC - Obsidian Resources </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Links.md\"> MOC - Links </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Databases.md\"> MOC - Databases </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/050 - Computer.md\"> 050 - Computer </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/040 - Personal.md\"> 040 - Personal </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/030 - Professional.md\"> 030 - Professional </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/010 - Productivity.md\"> 010 - Productivity </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/000 - INDEX.md\"> 000 - INDEX </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/030 - Professional 1.md\"> 030 - Professional 1 </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/WSL.md\"> WSL </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/WSL.md\"> WSL </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/CLI Tools.md\"> CLI Tools </a>",
@@ -6605,23 +6611,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - WSL.md\"> MOC - WSL </a>",
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>",
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Databases.md\"> MOC - Databases </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Setup.md\"> MOC - Setup </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - PKM.md\"> MOC - PKM </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Obsidian Resources.md\"> MOC - Obsidian Resources </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Markdown.md\"> MOC - Markdown </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Links.md\"> MOC - Links </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - CLI Tools.md\"> MOC - CLI Tools </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Views vs. Materialized Views.md\"> Views vs. Materialized Views </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Firefox Developer Edition.md\"> Firefox Developer Edition </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Docker Best Practices.md\"> Docker Best Practices </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker Best Practices.md\"> Docker Best Practices </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Setup.md\"> MOC - Setup </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Managing projects with GTD.md\"> Managing projects with GTD </a>",
@@ -6685,6 +6675,8 @@
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"images/terminal-command-args.gif.md\"> terminal-command-args.gif </a>",
+        "<a class=\"internal-link\" href=\"1-Maps of Content/030 - Professional 1.md\"> 030 - Professional 1 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/PKM/PKM.md\"> PKM </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Scratch Space.md\"> Scratch Space </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6733,11 +6725,12 @@
         "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"Notes/PowerShell Tips.md\"> PowerShell Tips </a>",
         "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
-        "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
+        "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
@@ -6785,10 +6778,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Taxonomy.md\"> Obsidian Taxonomy </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/SSH and SCP.md\"> SSH and SCP </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/WSL-Notes.md\"> WSL-Notes </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Registry Paths and Keys.md\"> Windows Registry Paths and Keys </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

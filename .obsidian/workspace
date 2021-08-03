@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
+            "file": "README.md",
             "mode": "preview"
           }
         }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md"
+                "file": "README.md"
               }
             }
           },
@@ -182,15 +182,15 @@
   },
   "active": "81b45848071cd797",
   "lastOpenFiles": [
+    "README.md",
+    "1-Maps of Content/030 - Professional 1.md",
+    "1-Maps of Content/030 - Professional.md",
     "2-Slipbox/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-02.md",
     "1-Maps of Content/020 - Development.md",
     "3-Resources/1-Maps of Content/030 - Professional.md",
     "3-Resources/Templates/MOC-Template.md",
     "2-Slipbox/Managing projects with GTD.md",
-    "3-Resources/Templates/Mindsweep-Note-Template.md",
-    "3-Resources/Templates/Daily-Note-Template.md",
-    "3-Resources/Templates/Default-Note-Template.md",
-    "2-Slipbox/RStudio Configuration Notes.md"
+    "3-Resources/Templates/Mindsweep-Note-Template.md"
   ]
 }

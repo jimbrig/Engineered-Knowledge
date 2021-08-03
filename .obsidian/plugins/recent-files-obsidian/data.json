@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "030 - Professional",
+      "path": "1-Maps-of-Content/030 - Professional.md"
+    },
+    {
       "basename": "Windows Terminal Command Line Arguments - Windows Docs",
       "path": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md"
     },
@@ -10,11 +18,7 @@
     },
     {
       "basename": "020 - Development",
-      "path": "1-Maps of Content/020 - Development.md"
-    },
-    {
-      "basename": "030 - Professional",
-      "path": "3-Resources/1-Maps of Content/030 - Professional.md"
+      "path": "1-Maps-of-Content/020 - Development.md"
     },
     {
       "basename": "MOC-Template",
@@ -50,59 +54,55 @@
     },
     {
       "basename": "000 - INDEX",
-      "path": "1-Maps of Content/000 - INDEX.md"
+      "path": "1-Maps-of-Content/000 - INDEX.md"
     },
     {
       "basename": "010 - Productivity",
-      "path": "1-Maps of Content/010 - Productivity.md"
-    },
-    {
-      "basename": "030 - Professional",
-      "path": "1-Maps of Content/030 - Professional.md"
+      "path": "1-Maps-of-Content/010 - Productivity.md"
     },
     {
       "basename": "040 - Personal",
-      "path": "1-Maps of Content/040 - Personal.md"
+      "path": "1-Maps-of-Content/040 - Personal.md"
     },
     {
       "basename": "050 - Computer",
-      "path": "1-Maps of Content/050 - Computer.md"
+      "path": "1-Maps-of-Content/050 - Computer.md"
     },
     {
       "basename": "MOC - Databases",
-      "path": "1-Maps of Content/MOC - Databases.md"
+      "path": "1-Maps-of-Content/MOC - Databases.md"
     },
     {
       "basename": "MOC - Links",
-      "path": "1-Maps of Content/MOC - Links.md"
+      "path": "1-Maps-of-Content/MOC - Links.md"
     },
     {
       "basename": "MOC - Obsidian Resources",
-      "path": "1-Maps of Content/MOC - Obsidian Resources.md"
+      "path": "1-Maps-of-Content/MOC - Obsidian Resources.md"
     },
     {
       "basename": "MOC - PKM",
-      "path": "1-Maps of Content/MOC - PKM.md"
+      "path": "1-Maps-of-Content/MOC - PKM.md"
     },
     {
       "basename": "MOC - PostgreSQL",
-      "path": "1-Maps of Content/MOC - PostgreSQL.md"
+      "path": "1-Maps-of-Content/MOC - PostgreSQL.md"
     },
     {
       "basename": "MOC - Project Management",
-      "path": "1-Maps of Content/MOC - Project Management.md"
+      "path": "1-Maps-of-Content/MOC - Project Management.md"
     },
     {
       "basename": "MOC - R",
-      "path": "1-Maps of Content/MOC - R.md"
+      "path": "1-Maps-of-Content/MOC - R.md"
     },
     {
       "basename": "MOC - Setup",
-      "path": "1-Maps of Content/MOC - Setup.md"
+      "path": "1-Maps-of-Content/MOC - Setup.md"
     },
     {
       "basename": "MOC - System Design",
-      "path": "1-Maps of Content/MOC - System Design.md"
+      "path": "1-Maps-of-Content/MOC - System Design.md"
     },
     {
       "basename": "WSL",
@@ -122,7 +122,7 @@
     },
     {
       "basename": "Development-LocalGraphView",
-      "path": "1-Maps of Content/assets/Development-LocalGraphView.png"
+      "path": "1-Maps-of-Content/assets/Development-LocalGraphView.png"
     },
     {
       "basename": "Views vs. Materialized Views",
@@ -159,10 +159,6 @@
     {
       "basename": "Google Cloud Setup Notes",
       "path": "2-Slipbox/Google Cloud Setup Notes.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "PostgreSQL Tools",
