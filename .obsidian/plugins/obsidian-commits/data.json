@@ -6512,12 +6512,12 @@
     "0-Inbox/How to fix Issues with Windows File Type Associations.md": {
       "size": 861,
       "tags": 0,
-      "links": 9
+      "links": 6
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 683,
+      "Refactor": 684,
       "Create": 382,
       "Link": 597,
       "Expand": 53
@@ -6527,7 +6527,7 @@
     "/": {
       "0": 100,
       "1": 767,
-      "2": 48,
+      "2": 49,
       "3": 150,
       "4": 7,
       "5": 0,
@@ -6555,7 +6555,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 221,
+      "Wed": 222,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6949,7 +6949,8 @@
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>"
       ]
     }
   },

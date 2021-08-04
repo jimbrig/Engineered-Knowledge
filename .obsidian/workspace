@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1361fb9b65722455",
+        "id": "ee8c109cecc1584f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-Inbox/How to fix Issues with Windows File Type Associations.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -92,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/How to fix Issues with Windows File Type Associations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/How to fix Issues with Windows File Type Associations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "0-Inbox/How to fix Issues with Windows File Type Associations.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,7 +168,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1361fb9b65722455",
+  "active": "ee8c109cecc1584f",
   "lastOpenFiles": [
     "0-Inbox/How to fix Issues with Windows File Type Associations.md",
     "0-Inbox/README.md",

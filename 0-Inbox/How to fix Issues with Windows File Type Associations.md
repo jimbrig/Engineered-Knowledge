@@ -43,6 +43,14 @@ dism /online /Export-DefaultAppAssociations:"%UserProfile%\Desktop\DefaultAppAss
 dism /online /Import-DefaultAppAssociations:"%UserProfile%\Desktop\FileAssociations.xml"
 ```
 
+```ad-note
+
+In case you want to revert the changes you have made, run this command: 
+`Dism.exe /Online /Remove-DefaultAppAssociations`
+```
+
+```
+
 
 ***
 
