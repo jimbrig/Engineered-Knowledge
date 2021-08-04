@@ -143,7 +143,7 @@ Also: [HTTPS](HTTPS), [SSH](SSH), and [GPG](GPG) for integration with [Git](Git)
 
 #### Language or Application Level Specific Package Managers
 
-- [npm](npm) and [yarn](yarn) for [Node.js](Node.js) and [Javascript](../2-Slipbox/Javascript.md)
+- [npm](npm) and [Yarn](Yarn.md) for [Node.js](Node.js) and [Javascript](../2-Slipbox/Javascript.md)
 - [pip](pip) for [Python](../2-Slipbox/Python.md) (also [Conda](Conda))
 - [Cargo](Cargo) for [Rust](Rust)
 - [CRAN](CRAN) for [[MOC - R|R]]

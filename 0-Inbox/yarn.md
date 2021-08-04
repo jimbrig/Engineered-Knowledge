@@ -6,11 +6,11 @@ Alias: yarn
 Tags: []
 ---
 
-# yarn
+# Yarn
 
 ***
 
-Links: 
+Links: [[npm]] | [[Nodejs]] | [[Javascript]] | [[020 - Development]] | [[Package Managers]]
 
 Sources:
 

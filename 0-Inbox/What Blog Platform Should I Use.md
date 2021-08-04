@@ -164,9 +164,9 @@ Lastly, since you’ll be running your own blog you can have your own custom dom
 
 **CONS**
 
--   You have to pay $$ to host it
--   It can get slow if you over load your site with plugins
--   Often targeted by hackers because of how popular it is (if you stay with a managed host, like WpEngine they do a great job of keeping you up to date with security releases.)
+- You have to pay money to host it
+- It can get slow if you over load your site with plugins
+- Often targeted by hackers because of how popular it is (if you stay with a managed host, like WpEngine they do a great job of keeping you up to date with security releases.)
 
 ## Ghost
 

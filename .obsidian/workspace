@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/What Blog Platform Should I Use.md",
+            "file": "3-Resources/Highlights/Untitled.md",
             "mode": "source"
           }
         }
@@ -42,9 +42,17 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md",
-            "mode": "source"
+            "file": "0-Inbox/What Blog Platform Should I Use.md",
+            "mode": "preview"
           }
+        }
+      },
+      {
+        "id": "aa29b501cd233b3c",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       },
       {
@@ -152,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md",
+                "file": "3-Resources/Highlights/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md",
+                "file": "3-Resources/Highlights/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md"
+                "file": "3-Resources/Highlights/Untitled.md"
               }
             }
           },
@@ -244,17 +252,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5206e6abac0933db",
+  "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md",
-    "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md",
-    "Highlights for What Blog Platform Should I Use.md",
+    "3-Resources/Highlights/Untitled.md",
+    "3-Resources/Highlights/README.md",
     "0-Inbox/What Blog Platform Should I Use.md",
+    "Highlights for What Blog Platform Should I Use.md",
     "0-Inbox/You Need a Blog.md",
+    "0-Inbox/yarn.md",
     "0-Inbox/YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG.md",
-    "0-Inbox/Jekyll.md",
-    "0-Inbox/Gatsby.md",
-    "0-Inbox/WordPress.md",
-    "0-Inbox/Medium.md"
+    "3-Resources/Daily-Notes/README.md",
+    "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md",
+    "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md"
   ]
 }

@@ -93,7 +93,7 @@ Don't forget that creating the file from here may create the file in the wrong d
 - [[apt-get]] in [[1-Maps-of-Content/020 - Development]]
 - [[Debian]] in [[1-Maps-of-Content/020 - Development]]
 - [[npm]] in [[1-Maps-of-Content/020 - Development]]
-- [[yarn]] in [[1-Maps-of-Content/020 - Development]]
+- [[Yarn]] in [[1-Maps-of-Content/020 - Development]]
 - [[pip]] in [[1-Maps-of-Content/020 - Development]]
 - [[Conda]] in [[1-Maps-of-Content/020 - Development]]
 - [[Cargo]] in [[1-Maps-of-Content/020 - Development]]
