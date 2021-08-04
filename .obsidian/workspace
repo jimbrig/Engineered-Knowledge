@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-04.md",
-            "mode": "source"
+            "file": "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
+            "mode": "preview"
           }
         }
       }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-04.md",
+                "file": "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-04.md",
+                "file": "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-04.md"
+                "file": "0-Inbox/About the AppxProvisioning.xml File in Windows.md"
               }
             }
           },
@@ -178,6 +178,8 @@
   },
   "active": "e276452f25868391",
   "lastOpenFiles": [
+    "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
+    "0-Inbox/XML.md",
     "3-Resources/Daily-Notes/2021-08-04.md",
     "0-Inbox/README.md",
     "0-Inbox/Untitled.md",
@@ -185,8 +187,6 @@
     "1-Maps-of-Content/README.md",
     "2-Slipbox/README.md",
     "2-Slipbox/Computer Backup System.md",
-    "0-Inbox/How to fix Issues with Windows File Type Associations.md",
-    "2-Slipbox/How To Change Explorer Drive Icons via Registry.md",
-    "3-Resources/Daily-Notes/2021-07-30.md"
+    "0-Inbox/How to fix Issues with Windows File Type Associations.md"
   ]
 }
