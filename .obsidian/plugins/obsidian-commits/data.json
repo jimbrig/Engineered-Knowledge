@@ -6538,13 +6538,18 @@
       "size": 0,
       "tags": 2,
       "links": 1
+    },
+    "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 692,
-      "Create": 388,
-      "Link": 611,
+      "Create": 389,
+      "Link": 613,
       "Expand": 55
     }
   },
@@ -6563,7 +6568,7 @@
       "10": 0,
       "11": 42,
       "12": 24,
-      "13": 5,
+      "13": 8,
       "14": 2,
       "15": 14,
       "16": 101,
@@ -6580,7 +6585,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 252,
+      "Wed": 255,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6644,6 +6649,7 @@
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
@@ -6692,8 +6698,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/Javascript.md\"> Javascript </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/EDA Packages in R.md\"> EDA Packages in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md\"> Obsidian Links </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How to Ship Side Projects 🚀 - DONN FELKER.md\"> How to Ship Side Projects 🚀 - DONN FELKER </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/How to Ship Side Projects 🚀 - DONN FELKER.md\"> How to Ship Side Projects 🚀 - DONN FELKER </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/XML.md\"> XML </a>",
@@ -6749,6 +6754,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/030 - Professional.md\"> 030 - Professional </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
@@ -6798,8 +6804,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Templater Plugin Notes.md\"> Templater Plugin Notes </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Publishing Workflow.md\"> Publishing Workflow </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md\"> Obsidian Links </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Git Plugin Notes.md\"> Obsidian Git Plugin Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Databases.md\"> Databases </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Git Plugin Notes.md\"> Obsidian Git Plugin Notes </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6863,6 +6868,7 @@
         "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
@@ -6912,8 +6918,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Git/Git Tools.md\"> Git Tools </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/SFC and DISM Commands.md\"> SFC and DISM Commands </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Powwater/Database Documentation.md\"> Database Documentation </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Debugging Windows Search Issues and High CPU Usage",
+      "path": "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md"
+    },
+    {
       "basename": "2021-08-04",
       "path": "3-Resources/Daily-Notes/2021-08-04.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "MOC-Template",
       "path": "3-Resources/Templates/MOC-Template.md"
-    },
-    {
-      "basename": "Mindsweep-Note-Template",
-      "path": "3-Resources/Templates/Mindsweep-Note-Template.md"
     }
   ],
   "omittedPaths": [],
