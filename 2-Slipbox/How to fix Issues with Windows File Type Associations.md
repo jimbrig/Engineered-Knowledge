@@ -78,8 +78,27 @@ To see , list of file type associations in your system , just type `assoc | more
 
 ## FTYPE Commands
 
-First run
+First run, `assoc <file_type_you_are_facing_problem_with>`
 
+```powershell
+assoc .exe
+.exe=exefile
+
+assoc .yml
+.yml=yml
+
+assoc .url
+.url=InternetShortcut
+```
+
+Note down the output to the right of `=` and run:
+
+`ftype output_obtained="<absolute_path_of_application>" "%1"`
+
+```powershell
+# url associate with edge
+ftype InternetShortcut="<PATH to Edge>" "%1"
+```
 
 ***
 

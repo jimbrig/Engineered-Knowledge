@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "2-Slipbox/How to fix Issues with Windows File Type Associations.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -173,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "ee8c109cecc1584f",
   "lastOpenFiles": [
