@@ -14,17 +14,42 @@ Tags: ["#Windows"]
 
 ### Method 1) Restart the Windows Search Service
 
-To get a listing of *all* available services, both running and stopped run `Get-Service`.
+To get a listing of *all* available services, both running and stopped run `Get-Service`:
+
+![[Pasted image 20210804131401.png]]
 
 Can disable the service through `services.msc` or using powershell:
 
 ```powershell
 # diable the service:
-Set-Service -Name "Windows Search" -Status stopped -StartupType disabled
+Set-Service -Name "WSearch" -Status stopped -StartupType disabled
+
+# re-enable automatic startup
+Set-Service -Name "WSearch" -StartupType automatic
+
+# reboot system
+
 ```
 
+Alternatively, use [[Command Prompt - CMD]]:
 
+Get a list of all running services:
 
+```powershell
+sc queryex state=all type=service
+```
+
+Restart services using `net stop` and start services with `net start`:
+
+```powershell
+net stop "WSearch"
+
+net start "WSearch"
+```
+
+Alternatively, you can use the more advanced `sc` command:
+
+```powershell
 
 ***
 

@@ -6540,17 +6540,17 @@
       "links": 1
     },
     "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md": {
-      "size": 0,
+      "size": 2105,
       "tags": 1,
-      "links": 1
+      "links": 3
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 692,
       "Create": 389,
-      "Link": 613,
-      "Expand": 55
+      "Link": 614,
+      "Expand": 56
     }
   },
   "dailyCommits": {
@@ -6568,7 +6568,7 @@
       "10": 0,
       "11": 42,
       "12": 24,
-      "13": 8,
+      "13": 10,
       "14": 2,
       "15": 14,
       "16": 101,
@@ -6585,7 +6585,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 255,
+      "Wed": 257,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6595,6 +6595,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
@@ -6644,7 +6645,6 @@
         "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Windows Developer Environment.md\"> Windows Developer Environment </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
@@ -6869,6 +6869,7 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
@@ -6917,8 +6918,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Git/Git Tools.md\"> Git Tools </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/SFC and DISM Commands.md\"> SFC and DISM Commands </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/SFC and DISM Commands.md\"> SFC and DISM Commands </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
