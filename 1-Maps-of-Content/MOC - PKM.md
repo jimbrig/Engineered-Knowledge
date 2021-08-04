@@ -10,7 +10,7 @@ Tags: ["#MOC", "#Index"]
 
 ***
 
-Links:  [MOC - Obsidian](MOC%20-%20Obsidian.md) | [MOC - Links](MOC%20-%20Links.md)
+Links:  [MOC - Obsidian](MOC%20-%20Obsidian.md) | [MOC - Links](MOC%20-%20Links.md) | [[Knowledge]]
 
 Sources:
 

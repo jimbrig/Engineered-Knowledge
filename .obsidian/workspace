@@ -7,17 +7,9 @@
         "id": "4a4a40bb4d671253",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
-      },
-      {
-        "id": "49d8b34d7bfd46f9",
-        "type": "leaf",
-        "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/README.md",
+            "file": "2-Slipbox/Web terms 101 – Google Domains.md",
             "mode": "source"
           }
         }
@@ -116,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/README.md",
+                "file": "2-Slipbox/Web terms 101 – Google Domains.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/README.md",
+                "file": "2-Slipbox/Web terms 101 – Google Domains.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/README.md"
+                "file": "2-Slipbox/Web terms 101 – Google Domains.md"
               }
             }
           },
@@ -208,17 +200,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "49d8b34d7bfd46f9",
+  "active": "4a4a40bb4d671253",
   "lastOpenFiles": [
-    "0-Inbox/README.md",
-    "0-Inbox/Placeholders/Medium.md",
-    "2-Slipbox/What Blog Platform Should I Use.md",
-    "2-Slipbox/Dann Felker.md",
-    "0-Inbox/Static Site Generators.md",
-    "2-Slipbox/Markdown.md",
-    "4-Logs/Vault-Consistensy-Report.md",
-    "4-Logs/README.md",
-    "0-Inbox/Building a Second Brain.md",
-    "3-Resources/README.md"
+    "2-Slipbox/Web terms 101 – Google Domains.md",
+    "4-Logs/Unlinked-Files.md",
+    "3-Resources/Daily-Notes/2021-08-04.md",
+    "3-Resources/Daily-Notes/README.md",
+    "3-Resources/Dictionaries/Index.md",
+    "3-Resources/Dictionaries/Knowledge.md",
+    "1-Maps-of-Content/MOC - PKM.md",
+    "3-Resources/Gallery/README.md",
+    "2-Slipbox/Windows Command Line Commands Overview.md",
+    "3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md"
   ]
 }

@@ -26,4 +26,6 @@ Awareness or familiarity gained by experience of a fact or situation.
 
 awareness, consciousness, realization, recognition, cognition, apprehension, perception, appreciation
 
+***
 
+Links: [[MOC - PKM]]

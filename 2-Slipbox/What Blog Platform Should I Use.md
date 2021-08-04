@@ -45,14 +45,14 @@ Far too often I see software folks lose all of their time “building” somethi
 At this time I’m going to compare the following blog systems that you can use.
 
 - [[Medium]]
-- [[../0-Inbox/Placeholders/WordPress.md]]
-- [[../0-Inbox/Placeholders/Ghost.md]]
-- [[Static Sites]]
-	- [[../0-Inbox/Placeholders/Jekyll.md]]
-	- [[../0-Inbox/Placeholders/Gatsby.md]]
+- [[WordPress]]
+- [[Ghost]]
+- [[Static Site Generators]]
+	- [[Jekyll]]
+	- [[Gatsby]]
 	- etc.
 
-I’m not going to cover [[SquareSpace]], [[Wix]] or [[Blogger]] or any of those because I don’t feel they’re in the top three choices for the folks that read this blog (mainly software engineers and entrepreneurs).
+I’m not going to cover SquareSpace, Wix or Blogger or any of those because I don’t feel they’re in the top three choices for the folks that read this blog (mainly software engineers and entrepreneurs).
 
 ## Medium
 
@@ -258,7 +258,7 @@ Just go with WordPress now and save yourself the trouble.
 
 ***
 
-Links: [[Dann Felker.md]]
+Links: [[Dann Felker.md]] | [[Highlights - What Blog Platform Should I Use]]
 
 Sources: [What Blog Platform Should I Use? - DONN FELKER](https://www.donnfelker.com/what-blog-platform-should-i-use/)
 

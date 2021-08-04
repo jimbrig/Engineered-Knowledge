@@ -1,6 +1,22 @@
-# Web terms 101
+---
+Creation Date: 2021-07-25 15:22
+Last Modified Date: Wednesday 4th August 2021 16:42:22
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Web terms 101 – Google Domains
+Tags: []
+---
 
-[TOC]
+# Web terms 101 – Google Domains
+
+## Contents
+
+- [[#Domain name|Domain name]]
+- [[#URL|URL]]
+- [[#Website|Website]]
+- [[#Domain registrar|Domain registrar]]
+- [[#DNS host|DNS host]]
+- [[#WHOIS and RDAP directories|WHOIS and RDAP directories]]
+
 
 Find out the meanings of website terminology.
 
@@ -62,3 +78,10 @@ For privacy, some domain name owners choose to hide their personal information f
 Now you know the difference between basic web terms, and how they all play a part in creating a web presence for businesses and brands. At Google Domains, we want everyone to feel informed, secure, and empowered to grow their business online.
 
 Ready to get online? Start searching for your domain name at [domains.google](http://domains.google/).
+
+***
+
+Links: [[Google Cloud Setup Notes]] | [[Google]]
+
+Sources:
+

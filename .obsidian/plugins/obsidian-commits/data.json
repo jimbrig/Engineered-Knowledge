@@ -5822,7 +5822,7 @@
     "2-Slipbox/Web terms 101 – Google Domains.md": {
       "size": 4847,
       "tags": 0,
-      "links": 0
+      "links": 6
     },
     "2-Slipbox/Classification of Note Types.md": {
       "size": 4963,
@@ -5995,7 +5995,7 @@
       "links": 0
     },
     "4-Logs/Changelog.md": {
-      "size": 4065,
+      "size": 4683,
       "tags": 0,
       "links": 100
     },
@@ -6007,7 +6007,7 @@
     "4-Logs/Unlinked-Files.md": {
       "size": 2234,
       "tags": 0,
-      "links": 61
+      "links": 57
     },
     "4-Logs/Unresolved-Links.md": {
       "size": 14517,
@@ -6327,7 +6327,7 @@
     "1-Maps-of-Content/MOC - PKM.md": {
       "size": 297,
       "tags": 2,
-      "links": 2
+      "links": 3
     },
     "1-Maps-of-Content/MOC - PostgreSQL.md": {
       "size": 27524,
@@ -6387,7 +6387,7 @@
     "3-Resources/Dictionaries/Knowledge.md": {
       "size": 741,
       "tags": 0,
-      "links": 0
+      "links": 1
     },
     "3-Resources/Dictionaries/Wisdom.md": {
       "size": 684,
@@ -6737,7 +6737,7 @@
     "2-Slipbox/What Blog Platform Should I Use.md": {
       "size": 14061,
       "tags": 0,
-      "links": 16
+      "links": 18
     },
     "2-Slipbox/What Gets Measured, Gets Managed.md": {
       "size": 2978,
@@ -7292,10 +7292,10 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 882,
+      "Refactor": 883,
       "Create": 644,
-      "Link": 691,
-      "Expand": 81
+      "Link": 695,
+      "Expand": 82
     }
   },
   "dailyCommits": {
@@ -7316,7 +7316,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 376,
+      "16": 382,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7330,7 +7330,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 804,
+      "Wed": 810,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7340,6 +7340,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault Statistics.md\"> Vault Statistics </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
@@ -7389,7 +7390,6 @@
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
         "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ],
       "Created": [
@@ -7618,6 +7618,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Knowledge.md\"> Knowledge </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Mindfulness.md\"> Highlights - Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/WinSCP.md\"> WinSCP </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>",
@@ -7664,11 +7668,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Ship Side Projects.md\"> How to Ship Side Projects </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -7694,6 +7694,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7743,8 +7744,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ]
     }
   },
