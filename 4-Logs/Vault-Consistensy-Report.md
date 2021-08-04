@@ -375,15 +375,15 @@ No problems found
 - (line 190): `[[../0-Inbox/Placeholders/Hexo.md]]`
 
 
-[0-Inbox/Cloud Hosted Environments.md](0-Inbox/Cloud%20Hosted%20Environments.md): 
+[0-Inbox/Cloud Hosted Environments.md](Cloud%20Hosted%20Environments.md): 
 - (line 12): `[[SSH and SCP]]`
 
 
-[0-Inbox/Virtual Machines.md](0-Inbox/Virtual%20Machines.md): 
+[0-Inbox/Virtual Machines.md](Virtual%20Machines.md): 
 - (line 12): `[[SSH and SCP]]`
 
 
-[0-Inbox/WinSCP.md](0-Inbox/WinSCP.md): 
+[0-Inbox/WinSCP.md](WinSCP.md): 
 - (line 12): `[[SSH and SCP]]`
 
 

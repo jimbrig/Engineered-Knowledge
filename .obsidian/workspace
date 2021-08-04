@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/R Packages Install Script.md",
-            "mode": "source"
+            "file": "0-Inbox/Placeholders/WinSCP.md",
+            "mode": "preview"
           }
         }
       }
@@ -92,7 +92,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-Slipbox/R Packages Install Script.md",
+                "file": "0-Inbox/Placeholders/WinSCP.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -146,15 +146,15 @@
   },
   "active": "29f29b5c8c6b46df",
   "lastOpenFiles": [
-    "2-Slipbox/Untitled.md",
-    "0-Inbox/README.md",
-    "2-Slipbox/Google Cloud Setup Notes.md",
-    "1-Maps-of-Content/020 - Development.md",
-    "3-Resources/README.md",
-    "2-Slipbox/RStudio Configuration Notes.md",
+    "0-Inbox/WinSCP.md",
+    "0-Inbox/Virtual Machines.md",
+    "0-Inbox/Time Block Planner.md",
+    "0-Inbox/Static Site Generators.md",
     "0-Inbox/RStudio Tips and Tricks.md",
-    "0-Inbox/Untitled.md",
+    "0-Inbox/README.md",
     "0-Inbox/Package Managers.md",
-    "4-Logs/Unlinked-Files.md"
+    "0-Inbox/Mozilla Firefox.md",
+    "0-Inbox/Microsoft Edge.md",
+    "0-Inbox/Placeholders/Memory in R.md"
   ]
 }

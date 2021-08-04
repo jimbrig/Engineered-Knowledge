@@ -73,7 +73,7 @@ This will help you determine the underlying root-causes behind your problems you
 
 ## Trust Your *First Brain*
 
-Recently, there has been a surge around the realm of [Personal Knowledge Management](Personal%20Knowledge%20Management) and [Building a Second Brain](Building%20a%20Second%20Brain). 
+Recently, there has been a surge around the realm of [Personal Knowledge Management](Personal%20Knowledge%20Management) and [Building a Second Brain](Building%20a%20Second%20Brain.md). 
 
 As much as I personally enjoy these topics, I have found that the exciting pursuit of new information and knowledge can interfere with my ability to simply get things done. 
 
@@ -117,7 +117,7 @@ Anyways, Ramble complete.
 
 Topics: [Productivity](../1-Maps-of-Content/010%20-%20Productivity.md) | [Personal Knowledge Management](../1-Maps-of-Content/MOC%20-%20PKM.md)
 
-Related Notes: [Information Overload](Information%20Overload) | [Collectors Fallacy](Collectors%20Fallacy) | [Building a Second Brain](Building%20a%20Second%20Brain)
+Related Notes: [Information Overload](Information%20Overload.md) | [Collectors Fallacy](Collectors%20Fallacy.md) | [Building a Second Brain](Building%20a%20Second%20Brain.md)
 
 Source: [Original Source Text Note](./assets/Mindfulness.txt).
 

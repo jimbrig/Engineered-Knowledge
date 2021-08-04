@@ -7234,48 +7234,8 @@
       "tags": 1,
       "links": 0
     },
-    "0-Inbox/Time Block Planner.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/GTD - Desired Outcome.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/WinSCP.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Virtual Machines.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Cloud Hosted Environments.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
     "4-Logs/Vault Statistics.md": {
       "size": 46550,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Information Overload.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Collectors Fallacy.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Building a Second Brain.md": {
-      "size": 0,
       "tags": 0,
       "links": 0
     },
@@ -7284,50 +7244,90 @@
       "tags": 0,
       "links": 1
     },
-    "0-Inbox/Static Site Generators.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Microsoft Edge.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Mozilla Firefox.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Google Chrome.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Package Managers.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Memory in R.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 2
-    },
-    "0-Inbox/RStudio Tips and Tricks.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
     "2-Slipbox/R Packages Install Script.md": {
       "size": 4817,
       "tags": 3,
       "links": 0
+    },
+    "0-Inbox/Placeholders/Building a Second Brain.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Cloud Hosted Environments.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Placeholders/Collectors Fallacy.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Google Chrome.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/GTD - Desired Outcome.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Information Overload.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Memory in R.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 2
+    },
+    "0-Inbox/Placeholders/Microsoft Edge.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Mozilla Firefox.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Package Managers.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/RStudio Tips and Tricks.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Placeholders/Static Site Generators.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Time Block Planner.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Virtual Machines.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Placeholders/WinSCP.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 888,
+      "Refactor": 904,
       "Create": 651,
       "Link": 719,
       "Expand": 88
@@ -7354,7 +7354,7 @@
       "16": 400,
       "17": 87,
       "18": 34,
-      "19": 27,
+      "19": 43,
       "20": 24,
       "21": 2,
       "22": 160,
@@ -7365,7 +7365,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 852,
+      "Wed": 868,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7481,6 +7481,22 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/React.md\"> React </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinSCP.md\"> WinSCP </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Virtual Machines.md\"> Virtual Machines </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Time Block Planner.md\"> Time Block Planner </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Static Site Generators.md\"> Static Site Generators </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Package Managers.md\"> Package Managers </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Mozilla Firefox.md\"> Mozilla Firefox </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Microsoft Edge.md\"> Microsoft Edge </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Memory in R.md\"> Memory in R </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Memory in R.md\"> Memory in R </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Information Overload.md\"> Information Overload </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/GTD - Desired Outcome.md\"> GTD - Desired Outcome </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Google Chrome.md\"> Google Chrome </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Collectors Fallacy.md\"> Collectors Fallacy </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Building a Second Brain.md\"> Building a Second Brain </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/You Need a Status Page.md\"> You Need a Status Page </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/You Need a Blog.md\"> You Need a Blog </a>",
@@ -7515,23 +7531,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Bash.md\"> Bash </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Azure CLI.md\"> Azure CLI </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/AWS-CLI.md\"> AWS-CLI </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Atom.md\"> Atom </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Assembly.md\"> Assembly </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Amazon Web Services - AWS.md\"> Amazon Web Services - AWS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Amazon Drive.md\"> Amazon Drive </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Achieving Your Goals Feels Good.md\"> Achieving Your Goals Feels Good </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Yarn.md\"> Yarn </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Subsystem for Linux (WSL).md\"> Windows Subsystem for Linux (WSL) </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Obsidian.md\"> MOC - Obsidian </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/MOC - PowerShell.md\"> MOC - PowerShell </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments.md\"> Windows Terminal Command Line Arguments </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal.md\"> Windows Terminal </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Atom.md\"> Atom </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"2-Slipbox/R Packages Install Script.md\"> R Packages Install Script </a>",

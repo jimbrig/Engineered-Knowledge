@@ -199,7 +199,7 @@ Don't forget that creating the file from here may create the file in the wrong d
 - [[Cloud Hosted Environments]] in [[2-Slipbox/SSH and SCP]]
 - [[MOC - Web Development]] in [[2-Slipbox/System Design Primer]], [[2-Slipbox/Views vs. Materialized Views]]
 - [[Tychobra]] in [[2-Slipbox/Time Management]]
-- [[time block planner]] in [[2-Slipbox/Time Management]]
+- [[Time Block Planner]] in [[2-Slipbox/Time Management]]
 - [[010-PROGRAMMING]] in [[2-Slipbox/Using diskusage Command in Windows]]
 - [[Linux]] in [[2-Slipbox/WSL-Notes]]
 - [[bootstrap]] in [[2-Slipbox/WSL-Notes]]

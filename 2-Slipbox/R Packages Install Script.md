@@ -341,5 +341,5 @@ gh:
 
 ---
 
-Links: [[020 - Development]] | [[MOC - R]] | [[Script]]
-Sources:
+Links: [[020 - Development]] | [[MOC - R]] | [[050 - Computer]]
+Sources: [Windows R Package Library Files. (github.com)](https://gist.github.com/jimbrig/b9e06f700992245426bdbfe4f3c1d0c2)
