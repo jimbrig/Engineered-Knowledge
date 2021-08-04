@@ -254,12 +254,20 @@ Copy-Item "~/Dev/jimbrig/jimsdots/RStudio/snippets/*" -Destination "$env:APPDATA
 Copy-Item "$env:LOCALAPPDATA\RStudio\rstudio-desktop.json" "$env:LOCALAPPDATA\RStudio\rstudio-desktop-default.json"
 Copy-Item "$env:LOCALAPPDATA\RStudio\rstudio-desktop-default.json" "~/Dev/Github/jimsdots/RStudio/localappdata/rstudio-desktop-default.json"
 Copy-Item "~/Dev/jimbrig/jimsdots/RStudio/localappdata/rstudio-desktop.json" "$env:LOCALAPPDATA\RStudio\rstudio-desktop.json"
+
+# Run R script:
+Rscript --vanilla "~/Dev/jimbrig/jimsdots/R/r-setup-script.R"
 ```
 
-```R
-if (!require(pacman)) install.packages("pacman")
+- [The R Setup Script (r-setup-script.R)](https://github.com/jimbrig/)
 
-pacman::p_load(devtools,
+```R
+# install pak
+if (!(require(pak)) install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
+
+# setup pak
+
+	pacman::p_load(devtools,
                installr,
                tinytex,
                rstudioapi,
