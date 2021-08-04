@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "XML",
+      "path": "2-Slipbox/XML.md"
+    },
+    {
       "basename": "Vault-Consistensy-Report",
       "path": "4-Logs/Vault-Consistensy-Report.md"
     },
     {
+      "basename": "About the AppxProvisioning.xml File in Windows",
+      "path": "2-Slipbox/About the AppxProvisioning.xml File in Windows.md"
+    },
+    {
       "basename": "SFC and DISM Commands",
       "path": "2-Slipbox/SFC and DISM Commands.md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "Unlinked-Files",
+      "path": "4-Logs/Unlinked-Files.md"
+    },
+    {
+      "basename": "Mindsweep Trigger List",
+      "path": "3-Resources/Mindsweeps/Mindsweep Trigger List.md"
+    },
+    {
+      "basename": "Mindsweep-Note-Template",
+      "path": "3-Resources/Templates/Mindsweep-Note-Template.md"
+    },
+    {
+      "basename": "README",
+      "path": "4-Logs/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "2020-04-20",
+      "path": "3-Resources/Daily-Notes/2020-04-20.md"
+    },
+    {
+      "basename": "2020-08-20",
+      "path": "0-Inbox/2020-08-20.md"
     },
     {
       "basename": "Windows Command Line Commands Overview",
@@ -30,19 +70,11 @@
     },
     {
       "basename": "README",
-      "path": "4-Logs/README.md"
-    },
-    {
-      "basename": "README",
       "path": "README.md"
     },
     {
       "basename": "Unresolved-Links",
       "path": "4-Logs/Unresolved-Links.md"
-    },
-    {
-      "basename": "Unlinked-Files",
-      "path": "4-Logs/Unlinked-Files.md"
     },
     {
       "basename": "SyncLog",
@@ -73,16 +105,8 @@
       "path": "2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md"
     },
     {
-      "basename": "XML",
-      "path": "2-Slipbox/XML.md"
-    },
-    {
       "basename": "Hot to force remove Windows store Apps (UWP)",
       "path": "2-Slipbox/Hot to force remove Windows store Apps (UWP).md"
-    },
-    {
-      "basename": "About the AppxProvisioning.xml File in Windows",
-      "path": "2-Slipbox/About the AppxProvisioning.xml File in Windows.md"
     },
     {
       "basename": "Enhanced CleanMgr Command",
@@ -95,10 +119,6 @@
     {
       "basename": "README",
       "path": "1-Maps-of-Content/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "2-Slipbox/README.md"
     },
     {
       "basename": "Computer Backup System",
@@ -154,10 +174,6 @@
     },
     {
       "basename": "README",
-      "path": "3-Resources/README.md"
-    },
-    {
-      "basename": "README",
       "path": "3-Resources/Templates/README.md"
     },
     {
@@ -181,24 +197,8 @@
       "path": "3-Resources/Dictionaries/Kanban.md"
     },
     {
-      "basename": "Mindsweep Trigger List",
-      "path": "3-Resources/Mindsweeps/Mindsweep Trigger List.md"
-    },
-    {
       "basename": "WebDev Resource List",
       "path": "2-Slipbox/WebDev Resource List.md"
-    },
-    {
-      "basename": "Index",
-      "path": "3-Resources/Dictionaries/Index.md"
-    },
-    {
-      "basename": "Gyroscope",
-      "path": "3-Resources/Dictionaries/Gyroscope.md"
-    },
-    {
-      "basename": "Mindfulness - The Key to Success",
-      "path": "2-Slipbox/Mindfulness - The Key to Success.md"
     }
   ],
   "omittedPaths": [],

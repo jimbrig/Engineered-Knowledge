@@ -6540,15 +6540,20 @@
       "links": 16
     },
     "4-Logs/Vault-Consistensy-Report.md": {
-      "size": 48494,
+      "size": 26576,
       "tags": 0,
-      "links": 85
+      "links": 54
+    },
+    "0-Inbox/2020-08-20.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 707,
-      "Create": 390,
+      "Refactor": 709,
+      "Create": 391,
       "Link": 619,
       "Expand": 61
     }
@@ -6569,7 +6574,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 9,
+      "14": 12,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -6585,7 +6590,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 283,
+      "Wed": 286,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6648,6 +6653,7 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/2020-08-20.md\"> 2020-08-20 </a>",
         "<a class=\"internal-link\" href=\"4-LogsVault-Consistentsy-Report.md\"> 4-LogsVault-Consistentsy-Report </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
@@ -6697,8 +6703,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL.md\"> PostgreSQL </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/Javascript.md\"> Javascript </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/EDA Packages in R.md\"> EDA Packages in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md\"> Obsidian Links </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/EDA Packages in R.md\"> EDA Packages in R </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
@@ -6814,7 +6819,8 @@
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
@@ -6992,7 +6998,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
       ]
     }
   },

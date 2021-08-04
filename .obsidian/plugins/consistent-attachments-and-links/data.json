@@ -8,12 +8,10 @@
   "ignoreFolders": [
     ".git/",
     ".obsidian/",
+    "3-Resources/",
     "4-Logs/"
   ],
   "ignoreFiles": [
-    "4-Logs/Changelog.md",
-    "4-Logs/Unresolved-Links.md",
-    "4-Logs/*.md",
     "README"
   ],
   "attachmentsSubfolder": "assets",

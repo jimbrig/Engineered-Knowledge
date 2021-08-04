@@ -8,19 +8,19 @@ Tags: ["#Index"]
 
 # 3-Resources
 
-## [Daily-Notes](./Daily-Notes)
+## [Daily-Notes](./Daily-Notes/README.md)
 
 Daily notes ranging from [2020-04-20](2020-04-20.md) through [2020-08-20](2020-08-20.md).
 
-## [Dictionaries](./Dictionaries)
+## [Dictionaries](./Dictionaries/README.md)
 
 Custom dictionary items from the Dictionary Plugin: [GitHub - phibr0/obsidian-dictionary](https://github.com/phibr0/obsidian-dictionary)
 
-## [Highlights](./Highlights)
+## [Highlights](./Highlights/README.md)
 
 Extracted highlights from the 
 
-## [Templates](./Templates)
+## [Templates](./Templates/README.md)
 
 Current Templates Include:
 
@@ -32,6 +32,6 @@ Current Templates Include:
 - [README-Template](README-Template.md)
 
 
-## [Kanbans](./Kanbans)
+## [Kanbans](./Kanbans/README.md)
 
 Kanban boards built from the kanban plugin: [GitHub - mgmeyers/obsidian-kanban](https://github.com/mgmeyers/obsidian-kanban)

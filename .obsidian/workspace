@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4-Logs/Vault-Consistensy-Report.md",
+            "file": "2-Slipbox/XML.md",
             "mode": "source"
           }
         }
@@ -40,8 +40,11 @@
         "id": "d56e9d083172c860",
         "type": "leaf",
         "state": {
-          "type": "Search on Internet",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-Slipbox/About the AppxProvisioning.xml File in Windows.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -69,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "how to ",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4-Logs/Vault-Consistensy-Report.md",
+                "file": "2-Slipbox/XML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4-Logs/Vault-Consistensy-Report.md",
+                "file": "2-Slipbox/XML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4-Logs/Vault-Consistensy-Report.md"
+                "file": "2-Slipbox/XML.md"
               }
             }
           },
@@ -208,15 +211,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
+    "2-Slipbox/XML.md",
     "4-Logs/Vault-Consistensy-Report.md",
+    "2-Slipbox/About the AppxProvisioning.xml File in Windows.md",
     "2-Slipbox/SFC and DISM Commands.md",
-    "2-Slipbox/Windows Command Line Commands Overview.md",
-    "0-Inbox/README.md",
-    "2-Slipbox/AutoHotKey Scripts.md",
-    "2-Slipbox/Using diskusage Command in Windows.md",
-    "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
+    "2-Slipbox/README.md",
+    "4-Logs/Unlinked-Files.md",
+    "3-Resources/Mindsweeps/Mindsweep Trigger List.md",
+    "3-Resources/Templates/Mindsweep-Note-Template.md",
     "4-Logs/README.md",
-    "README.md",
-    "4-LogsVault-Consistentsy-Report.md"
+    "3-Resources/README.md"
   ]
 }
