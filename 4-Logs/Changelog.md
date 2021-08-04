@@ -1,5 +1,6 @@
-- 2021-08-04 at 16h57 · [[Unlinked-Files]]
-- 2021-08-04 at 16h57 · [[050 - Computer]]
+- 2021-08-04 at 17h01 · [[RStudio Configuration Notes]]
+- 2021-08-04 at 16h58 · [[Unlinked-Files]]
+- 2021-08-04 at 16h58 · [[050 - Computer]]
 - 2021-08-04 at 16h57 · [[SFC and DISM Commands]]
 - 2021-08-04 at 16h54 · [[Shiny Apps as Packages in R]]
 - 2021-08-04 at 16h52 · [[Taming a Chaotic Project]]
@@ -97,4 +98,3 @@
 - 2021-08-04 at 16h13 · [[R-Markdown]]
 - 2021-08-04 at 16h13 · [[ReadTheDocs]]
 - 2021-08-04 at 16h13 · [[README]]
-- 2021-08-04 at 16h13 · [[React]]

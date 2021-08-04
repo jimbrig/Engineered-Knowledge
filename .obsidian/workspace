@@ -76,6 +76,17 @@
           "type": "markdown",
           "state": {
             "file": "1-Maps-of-Content/050 - Computer.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "29f29b5c8c6b46df",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2-Slipbox/RStudio Configuration Notes.md",
             "mode": "source"
           }
         }
@@ -174,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Maps-of-Content/050 - Computer.md",
+                "file": "2-Slipbox/RStudio Configuration Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Maps-of-Content/050 - Computer.md",
+                "file": "2-Slipbox/RStudio Configuration Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Maps-of-Content/050 - Computer.md"
+                "file": "2-Slipbox/RStudio Configuration Notes.md"
               }
             }
           },
@@ -266,17 +277,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f703e17ac5174fcb",
+  "active": "29f29b5c8c6b46df",
   "lastOpenFiles": [
+    "2-Slipbox/RStudio Configuration Notes.md",
+    "4-Logs/Unlinked-Files.md",
     "1-Maps-of-Content/050 - Computer.md",
     "2-Slipbox/Run Command to Edit Environment Variables.md",
-    "4-Logs/Unlinked-Files.md",
     "2-Slipbox/SFC and DISM Commands.md",
     "1-Maps-of-Content/README.md",
     "2-Slipbox/Shiny Apps as Packages in R.md",
     "2-Slipbox/Taming a Chaotic Project.md",
     "2-Slipbox/Useful Packages in R List.md",
-    "2-Slipbox/Web Browsers.md",
-    "0-Inbox/Google Chrome.md"
+    "2-Slipbox/Web Browsers.md"
   ]
 }

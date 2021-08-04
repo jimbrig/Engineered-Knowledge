@@ -1,5 +1,4 @@
 - [[Tools - Resilio Sync]]
-- [[Run Command to Edit Environment Variables]]
 - [[RStudio Configuration Notes]]
 - [[R Miscellaneous Notes]]
 - [[R Books List]]

@@ -1,17 +1,21 @@
 ---
-Creation Date: 2021-07-19 17:38
-Last Modified Date: Friday 30th July 2021 01:42:55
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Friday 30th July 2021 03:59:56
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: Default-Note-Template
-Tags: []
+Alias: RStudio-Configuration
+Tags: ["#Development", "#R"]
 ---
 
-# Default-Note-Template
+# RStudio Configuration Notes
+
+## Windows Directories
+* `%localappdata%\RStudio-Desktop` - RStudio Desktop Internal State
+* `%appdata%\RStudio` - RStudio Configuration Directory (Preferences)
+
 
 ***
 
 Links: 
 
 Sources:
-
 

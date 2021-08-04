@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "RStudio Configuration Notes",
+      "path": "2-Slipbox/RStudio Configuration Notes.md"
+    },
+    {
+      "basename": "Unlinked-Files",
+      "path": "4-Logs/Unlinked-Files.md"
+    },
+    {
       "basename": "050 - Computer",
       "path": "1-Maps-of-Content/050 - Computer.md"
     },
     {
       "basename": "Run Command to Edit Environment Variables",
       "path": "2-Slipbox/Run Command to Edit Environment Variables.md"
-    },
-    {
-      "basename": "Unlinked-Files",
-      "path": "4-Logs/Unlinked-Files.md"
     },
     {
       "basename": "SFC and DISM Commands",
@@ -195,10 +199,6 @@
     {
       "basename": "Vault Statistics",
       "path": "4-Logs/Vault Statistics.md"
-    },
-    {
-      "basename": "GTD - Desired Outcome",
-      "path": "0-Inbox/GTD - Desired Outcome.md"
     }
   ],
   "omittedPaths": [],
