@@ -50,7 +50,7 @@ Related: [[MOC - PKM|Personal Knowledge Management]] | [[MOC - Setup|My Setup]]
 
 ## Productivity Notes
 
-[[Mindfulness - The Key to Success]]
+[[Mindfulness - The Key to Success 1]]
 
 [[How to Ship Side Projects]]
 

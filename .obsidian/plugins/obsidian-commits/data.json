@@ -6294,11 +6294,6 @@
       "tags": 1,
       "links": 0
     },
-    "0-Inbox/Mindfulness - The Key to Success.md": {
-      "size": 8739,
-      "tags": 0,
-      "links": 11
-    },
     "3-Resources/Daily-Notes/2021-08-02.md": {
       "size": 0,
       "tags": 1,
@@ -6513,11 +6508,16 @@
       "size": 2146,
       "tags": 4,
       "links": 9
+    },
+    "2-Slipbox/Mindfulness - The Key to Success 1.md": {
+      "size": 8739,
+      "tags": 0,
+      "links": 11
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 686,
+      "Refactor": 687,
       "Create": 382,
       "Link": 600,
       "Expand": 54
@@ -6528,7 +6528,7 @@
       "0": 100,
       "1": 767,
       "2": 55,
-      "3": 150,
+      "3": 151,
       "4": 7,
       "5": 0,
       "6": 0,
@@ -6555,7 +6555,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 228,
+      "Wed": 229,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6671,6 +6671,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success 1.md\"> Mindfulness - The Key to Success 1 </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
@@ -6720,8 +6721,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - R.md\"> MOC - R </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",

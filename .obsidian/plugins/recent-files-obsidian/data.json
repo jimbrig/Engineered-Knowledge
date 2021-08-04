@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "Computer Backup System",
+      "path": "2-Slipbox/Computer Backup System.md"
+    },
+    {
       "basename": "How to fix Issues with Windows File Type Associations",
       "path": "2-Slipbox/How to fix Issues with Windows File Type Associations.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "How To Change Explorer Drive Icons via Registry",
       "path": "2-Slipbox/How To Change Explorer Drive Icons via Registry.md"
-    },
-    {
-      "basename": "README",
-      "path": "2-Slipbox/README.md"
     },
     {
       "basename": "2021-07-30",
@@ -99,10 +107,6 @@
     {
       "basename": "README",
       "path": "4-Logs/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
     },
     {
       "basename": "Kanban",
@@ -195,10 +199,6 @@
     {
       "basename": "Obsidian Setup",
       "path": "2-Slipbox/Obsidian Setup.md"
-    },
-    {
-      "basename": "MkDocs",
-      "path": "2-Slipbox/MkDocs.md"
     }
   ],
   "omittedPaths": [],
