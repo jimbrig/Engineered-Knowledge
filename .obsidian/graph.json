@@ -1,19 +1,12 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "(-path:4-Logs)",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
-    {
-      "query": "tag:#MOC",
-      "color": {
-        "a": 1,
-        "rgb": 13241356
-      }
-    },
     {
       "query": "path:0-Inbox",
       "color": {
@@ -22,10 +15,17 @@
       }
     },
     {
+      "query": "path:1-Maps-of-Content",
+      "color": {
+        "a": 1,
+        "rgb": 15991065
+      }
+    },
+    {
       "query": "path:2-Slipbox",
       "color": {
         "a": 1,
-        "rgb": 5401056
+        "rgb": 5405920
       }
     },
     {
@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "path:4-Logs",
+      "query": "tag",
       "color": {
         "a": 1,
         "rgb": 5431473

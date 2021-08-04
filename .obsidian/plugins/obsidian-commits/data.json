@@ -7083,12 +7083,57 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/psql.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/pgcli.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Microsoft PowerToys.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/RapidEE.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Lepton.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Uninstall Tool.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/EaseUS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Iobit.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Regular expressions - JavaScript - MDN.md": {
+      "size": 20730,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 733,
-      "Create": 501,
+      "Create": 510,
       "Link": 629,
       "Expand": 62
     }
@@ -7109,7 +7154,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 157,
+      "14": 166,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -7125,7 +7170,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 431,
+      "Wed": 440,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7188,6 +7233,15 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Iobit.md\"> Iobit </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/EaseUS.md\"> EaseUS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Uninstall Tool.md\"> Uninstall Tool </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Lepton.md\"> Lepton </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/RapidEE.md\"> RapidEE </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Microsoft PowerToys.md\"> Microsoft PowerToys </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/pgcli.md\"> pgcli </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/psql.md\"> psql </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Beekeeper.md\"> Beekeeper </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/DBeaver.md\"> DBeaver </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/pgAdmin 4.md\"> pgAdmin 4 </a>",
@@ -7229,16 +7283,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/WinGet.md\"> WinGet </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Scoop.md\"> Scoop </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Chocolatey.md\"> Chocolatey </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/PowerShell Modules.md\"> PowerShell Modules </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/OneGet.md\"> OneGet </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GPG.md\"> GPG </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/HTTPS.md\"> HTTPS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/R-Markdown.md\"> R-Markdown </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Jupiter Notebooks.md\"> Jupiter Notebooks </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitKraken.md\"> GitKraken </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitHub.md\"> GitHub </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Typora.md\"> Typora </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Atom.md\"> Atom </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/PowerShell Modules.md\"> PowerShell Modules </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Subsystem for Linux (WSL).md\"> Windows Subsystem for Linux (WSL) </a>",

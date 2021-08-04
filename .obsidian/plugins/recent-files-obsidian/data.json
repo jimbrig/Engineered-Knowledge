@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Lepton",
-      "path": "0-Inbox/Lepton.md"
+      "basename": "Vault-Consistensy-Report",
+      "path": "4-Logs/Vault-Consistensy-Report.md"
     },
     {
       "basename": "020 - Development",
       "path": "1-Maps-of-Content/020 - Development.md"
+    },
+    {
+      "basename": "Iobit",
+      "path": "0-Inbox/Iobit.md"
+    },
+    {
+      "basename": "EaseUS",
+      "path": "0-Inbox/EaseUS.md"
+    },
+    {
+      "basename": "Uninstall Tool",
+      "path": "0-Inbox/Uninstall Tool.md"
+    },
+    {
+      "basename": "Lepton",
+      "path": "0-Inbox/Lepton.md"
     },
     {
       "basename": "RapidEE",
@@ -183,22 +199,6 @@
     {
       "basename": "Chocolatey",
       "path": "0-Inbox/Chocolatey.md"
-    },
-    {
-      "basename": "PowerShell Modules",
-      "path": "0-Inbox/PowerShell Modules.md"
-    },
-    {
-      "basename": "OneGet",
-      "path": "0-Inbox/OneGet.md"
-    },
-    {
-      "basename": "GPG",
-      "path": "0-Inbox/GPG.md"
-    },
-    {
-      "basename": "HTTPS",
-      "path": "0-Inbox/HTTPS.md"
     }
   ],
   "omittedPaths": [],

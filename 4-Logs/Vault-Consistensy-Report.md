@@ -141,7 +141,6 @@
 
 [1-Maps-of-Content/020 - Development.md](1-Maps-of-Content/020%20-%20Development.md): 
 - (line 38): `Windows Subsystem for Linux (WSL)`
-- (line 40): `.Net Framework`
 - (line 40): `Windows Terminal.md`
 - (line 40): `Visual Studio`
 - (line 40): `Visual Studio Code`
@@ -157,10 +156,9 @@
 - (line 46): `Windows Insider`
 - (line 46): `Windows 10`
 - (line 46): `Windows 11`
-- (line 50): `R`
 - (line 51): `SQL`
 - (line 52): `Visual Basic`
-- (line 53): `Node.js`
+- (line 53): `Nodejs`
 - (line 56): `CSS`
 - (line 56): `SASS`
 - (line 57): `HTML`
@@ -177,7 +175,6 @@
 - (line 65): `Objective-C`
 - (line 66): `Java`
 - (line 67): `Groovy`
-- (line 68): `.Net Framework`
 - (line 69): `Xamarin`
 - (line 70): `Perl`
 - (line 71): `Scala`
@@ -185,7 +182,7 @@
 - (line 73): `Clojure`
 - (line 74): `LaTex`
 - (line 74): `TeX`
-- (line 76): `Command Line - CMD`
+- (line 77): `Windows Subsystem for Linux (WSL).md`
 - (line 77): `Ubuntu`
 - (line 78): `Bash`
 - (line 78): `Git`
@@ -198,7 +195,7 @@
 - (line 90): `Bulma.js`
 - (line 91): `Next.js`
 - (line 97): `Windows Terminal.md`
-- (line 99): `Command Line - CMD`
+- (line 100): `Windows Subsystem for Linux (WSL).md`
 - (line 100): `Ubuntu`
 - (line 101): `Bash`
 - (line 101): `Git`
@@ -227,6 +224,7 @@
 - (line 134): `MSYS2`
 - (line 135): `vcpkg`
 - (line 136): `Homebrew`
+- (line 136): `Windows Subsystem for Linux (WSL).md`
 - (line 140): `apt-get`
 - (line 140): `Ubuntu`
 - (line 140): `Debian`
@@ -239,7 +237,6 @@
 - (line 147): `Cargo`
 - (line 147): `Rust`
 - (line 148): `CRAN`
-- (line 148): `R`
 - (line 149): `CPAN`
 - (line 149): `PERL`
 - (line 150): `Gradle`
@@ -262,7 +259,6 @@
 - (line 158): `CocoaPods`
 - (line 158): `Swift`
 - (line 162): `Google Cloud Platform - GCP`
-- (line 162): `gcloud`
 - (line 162): `Firebase`
 - (line 163): `Microsoft Azure`
 - (line 163): `Azure CLI`
@@ -278,14 +274,7 @@
 - (line 176): `Amazon Drive`
 - (line 177): `iCloud Drive`
 - (line 181): `gcloud SDK`
-- (line 181): `GCP`
-- (line 182): `Azure-CLI`
-- (line 182): `Azure`
-- (line 183): `AWS-CLI`
-- (line 184): `heroku-cli`
-- (line 185): `gh-cli`
-- (line 190): `Hexo`
-- (line 191): `Next.js`
+- (line 191): `NextJS`
 - (line 192): `Ghost`
 - (line 193): `Gatsby`
 - (line 194): `GitBook`
@@ -317,11 +306,11 @@ No problems found
 # Bad embeds 
 No problems found
 
-# Wiki links (6 files)
+# Wiki links (7 files)
 [2-Slipbox/Windows Terminal.md](2-Slipbox/Windows%20Terminal.md): 
 - (line 10): `[[Windows Terminal Command Line Arguments]]`
 - (line 12): `[[WinGet CLI Setup and Settings]]`
-- (line 14): `[[WSL]]`
+- (line 14): `[[Windows Subsystem for Linux (WSL)]]`
 - (line 16): `[[WSL Commands and Installs]]`
 - (line 18): `[[WSL-Notes]]`
 - (line 20): `[[MOC - PowerShell|PowerShell]]`
@@ -352,6 +341,24 @@ No problems found
 [1-Maps-of-Content/MOC - Web Development.md](1-Maps-of-Content/MOC%20-%20Web%20Development.md): 
 - (line 12): `[[020 - Development]]`
 - (line 12): `[[050 - Computer]]`
+
+
+[1-Maps-of-Content/020 - Development.md](1-Maps-of-Content/020%20-%20Development.md): 
+- (line 40): `[[DotNet Framework]]`
+- (line 50): `[[MOC - R|R]]`
+- (line 68): `[[DotNet Framework]]`
+- (line 76): `[[MOC - Command Line]]`
+- (line 99): `[[MOC - Command Line]]`
+- (line 148): `[[MOC - R|R]]`
+- (line 162): `[[gcloud SDK]]`
+- (line 181): `[[Google Cloud Platform - GCP|GCP]]`
+- (line 182): `[[Azure CLI]]`
+- (line 182): `[[Microsoft Azure]]`
+- (line 183): `[[AWS-CLI]]`
+- (line 184): `[[Heroku-CLI]]`
+- (line 185): `[[Github-CLI]]`
+- (line 189): `[[MkDocs]]`
+- (line 190): `[[Hexo]]`
 
 
 
