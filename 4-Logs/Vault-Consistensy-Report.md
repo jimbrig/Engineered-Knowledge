@@ -1,8 +1,4 @@
-# Bad links (19 files)
-[2-Slipbox/Time Management.md](2-Slipbox/Time%20Management.md): 
-- (line 31): `time block planner`
-
-
+# Bad links (17 files)
 [2-Slipbox/SSH and SCP.md](2-Slipbox/SSH%20and%20SCP.md): 
 - (line 14): `WinSCP`
 - (line 16): `Virtual Machines`
@@ -10,18 +6,11 @@
 
 
 [2-Slipbox/Obsidian Setup.md](2-Slipbox/Obsidian%20Setup.md): 
-- (line 36): `../3-Resources/Templates/README.me`
-- (line 37): `Unresolved Somethings`
-- (line 38): `Vault Statistics`
-- (line 40): `About`
+- (line 37): `Unresolved-Links`
 
 
 [2-Slipbox/Obsidian Links List.md](2-Slipbox/Obsidian%20Links%20List.md): 
 - (line 112): `PKM`
-
-
-[2-Slipbox/Notes on Finishing Projects.md](2-Slipbox/Notes%20on%20Finishing%20Projects.md): 
-- (line 11): `desired outcome`
 
 
 [2-Slipbox/Mermaid Diagrams.md](2-Slipbox/Mermaid%20Diagrams.md): 
@@ -154,7 +143,7 @@ No problems found
 # Bad embeds 
 No problems found
 
-# Wiki links (31 files)
+# Wiki links (36 files)
 [2-Slipbox/You Need a Status Page.md](2-Slipbox/You%20Need%20a%20Status%20Page.md): 
 - (line 72): `[[Dann Felker.md]]`
 
@@ -313,6 +302,10 @@ No problems found
 - (line 132): `[[Tools Package Hidden Gems in R.md]]`
 
 
+[2-Slipbox/Time Management.md](2-Slipbox/Time%20Management.md): 
+- (line 31): `[[Time Block Planner]]`
+
+
 [2-Slipbox/Project Management Pipeline.md](2-Slipbox/Project%20Management%20Pipeline.md): 
 - (line 61): `[[../1-Maps-of-Content/MOC - PKM.md]]`
 - (line 61): `[[../1-Maps-of-Content/010 - Productivity.md]]`
@@ -329,9 +322,13 @@ No problems found
 
 
 [2-Slipbox/Obsidian Setup.md](2-Slipbox/Obsidian%20Setup.md): 
-- (line 20): `[[../1-Maps-of-Content/MOC - Obsidian.md]]`
-- (line 21): `[[../1-Maps-of-Content/MOC - R.md]]`
-- (line 22): `[[../1-Maps-of-Content/020 - Development.md]]`
+- (line 20): `[[MOC - Obsidian.md]]`
+- (line 21): `[[MOC - R]]`
+- (line 22): `[[020 - Development]]`
+
+
+[2-Slipbox/Notes on Finishing Projects.md](2-Slipbox/Notes%20on%20Finishing%20Projects.md): 
+- (line 11): `[[GTD - Desired Outcome|desired outcome]]`
 
 
 [2-Slipbox/How to Ship Side Projects.md](2-Slipbox/How%20to%20Ship%20Side%20Projects.md): 
@@ -376,6 +373,18 @@ No problems found
 - (line 185): `[[../0-Inbox/Placeholders/Github-CLI.md]]`
 - (line 189): `[[../2-Slipbox/MkDocs.md]]`
 - (line 190): `[[../0-Inbox/Placeholders/Hexo.md]]`
+
+
+[0-Inbox/Cloud Hosted Environments.md](0-Inbox/Cloud%20Hosted%20Environments.md): 
+- (line 12): `[[SSH and SCP]]`
+
+
+[0-Inbox/Virtual Machines.md](0-Inbox/Virtual%20Machines.md): 
+- (line 12): `[[SSH and SCP]]`
+
+
+[0-Inbox/WinSCP.md](0-Inbox/WinSCP.md): 
+- (line 12): `[[SSH and SCP]]`
 
 
 [0-Inbox/Placeholders/Yarn.md](0-Inbox/Placeholders/Yarn.md): 

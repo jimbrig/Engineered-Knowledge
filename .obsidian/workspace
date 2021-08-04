@@ -17,7 +17,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Obsidian Setup.md",
+            "file": "3-Resources/Highlights/Untitled.md",
             "mode": "source"
           }
         }
@@ -80,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Obsidian Setup.md",
+                "file": "3-Resources/Highlights/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Obsidian Setup.md",
+                "file": "3-Resources/Highlights/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Obsidian Setup.md"
+                "file": "3-Resources/Highlights/Untitled.md"
               }
             }
           },
@@ -211,15 +210,15 @@
   },
   "active": "49d8b34d7bfd46f9",
   "lastOpenFiles": [
-    "2-Slipbox/Obsidian Setup.md",
-    "3-Resources/README.md",
+    "3-Resources/Highlights/Untitled.md",
+    "3-Resources/Highlights/README.md",
+    "4-Logs/README.md",
+    "2-Slipbox/Mindfulness - The Key to Success.md",
+    "0-Inbox/Building a Second Brain.md",
+    "0-Inbox/Collectors Fallacy.md",
+    "0-Inbox/Information Overload.md",
     "4-Logs/Vault-Consistensy-Report.md",
-    "4-Logs/Untitled.md",
-    "2-Slipbox/SSH and SCP.md",
-    "0-Inbox/Cloud Hosted Environments.md",
-    "0-Inbox/Virtual Machines.md",
-    "0-Inbox/WinSCP.md",
-    "0-Inbox/GTD - Desired Outcome.md",
-    "2-Slipbox/Notes on Finishing Projects.md"
+    "2-Slipbox/Mermaid Diagrams.md",
+    "2-Slipbox/Obsidian Links List.md"
   ]
 }

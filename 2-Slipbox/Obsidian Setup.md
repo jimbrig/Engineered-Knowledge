@@ -36,9 +36,8 @@ Notes with a specific job or purpose:
 - [Mindsweeps](../3-Resources/Mindsweeps/README.md)
 - [Templates](../3-Resources/Templates/README.md)
 - [Unlinked-Files](../4-Logs/Unlinked-Files.md) & [Unresolved Links](Unresolved-Links)
-- [Vault Statistics](../4-Logs/Vault-Statistics.md) | []
-- [000 - INDEX](../1-Maps-of-Content/000%20-%20INDEX.md)
-- [About](About)
+- [Vault Statistics](../4-Logs/Vault%20Statistics.md) | [vault-statistics.json](../vault-statistics.json)
+- [MASTER INDEX](../1-Maps-of-Content/000%20-%20INDEX.md)
 - [README](README.md)
 
 

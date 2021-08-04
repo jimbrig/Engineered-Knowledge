@@ -5787,7 +5787,7 @@
     "2-Slipbox/Mermaid Diagrams.md": {
       "size": 2673,
       "tags": 6,
-      "links": 2
+      "links": 3
     },
     "2-Slipbox/Windows Developer Environment.md": {
       "size": 2789,
@@ -6002,7 +6002,7 @@
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
       "tags": 3,
-      "links": 13
+      "links": 10
     },
     "4-Logs/Unlinked-Files.md": {
       "size": 2234,
@@ -6517,7 +6517,7 @@
     "4-Logs/Vault-Consistensy-Report.md": {
       "size": 14218,
       "tags": 0,
-      "links": 48
+      "links": 51
     },
     "3-Resources/Daily-Notes/2020-08-20.md": {
       "size": 0,
@@ -7247,29 +7247,44 @@
     "0-Inbox/WinSCP.md": {
       "size": 0,
       "tags": 0,
-      "links": 0
+      "links": 1
     },
     "0-Inbox/Virtual Machines.md": {
       "size": 0,
       "tags": 0,
-      "links": 0
+      "links": 1
     },
     "0-Inbox/Cloud Hosted Environments.md": {
       "size": 0,
       "tags": 0,
-      "links": 0
+      "links": 1
     },
     "4-Logs/Vault Statistics.md": {
       "size": 46550,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Information Overload.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Collectors Fallacy.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Building a Second Brain.md": {
+      "size": 0,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 881,
-      "Create": 639,
-      "Link": 685,
+      "Refactor": 882,
+      "Create": 642,
+      "Link": 690,
       "Expand": 81
     }
   },
@@ -7291,7 +7306,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 364,
+      "16": 373,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7305,7 +7320,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 792,
+      "Wed": 801,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7368,6 +7383,9 @@
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Building a Second Brain.md\"> Building a Second Brain </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Collectors Fallacy.md\"> Collectors Fallacy </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Information Overload.md\"> Information Overload </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>",
@@ -7415,10 +7433,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/PHP.md\"> PHP </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/pgcli.md\"> pgcli </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/pgAdmin 4.md\"> pgAdmin 4 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Perl.md\"> Perl </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/OneGet.md\"> OneGet </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/OneDrive.md\"> OneDrive </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Objective-C.md\"> Objective-C </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Perl.md\"> Perl </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
@@ -7593,6 +7608,11 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/WinSCP.md\"> WinSCP </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Yarn.md\"> Yarn </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
@@ -7638,12 +7658,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal.md\"> Windows Terminal </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -7669,6 +7684,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
@@ -7718,8 +7734,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
       ]
     }
   },

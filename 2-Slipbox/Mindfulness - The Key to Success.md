@@ -21,9 +21,9 @@ Tags: ["#Productivity", "#PKM", "#Journal"]
 
 The problems stemming from a lack of staying mindful and in-tune with one's actions have tremendous negative consequences, yet the ease of falling down the path of **Information Overload & The Rabbit Hole Trap** is seemingly more difficult than ever to avoid.
 
-- [Addiction to information](Addiction%20to%20information) can cause a complete breakdown of one's ability to stay mindful and focused on staying accountable, [getting results](getting%20results), and [finishing your work](finishing%20your%20work).
+- ==*Addiction to Information* can cause a complete breakdown of one's ability to stay mindful and focused on staying accountable, getting results, and finishing your work*==.
 
-- It is very easy to get lost down a rabbit hole and create an unhealthy environment consumed by insignificant, yet vast amounts of unnecessary information, overloading your ability to stay mindful and on-task. 
+- ==It is very easy to get lost down a rabbit hole and create an unhealthy environment consumed by insignificant, yet vast amounts of unnecessary information, overloading your ability to stay mindful and on-task. ==
 
 - **Stay focused on direct production of results. If something is not helpful to your initial desired outcome STOP**. 
 		- In order to accomplish this you must first build the habit of actually *thinking about what you are doing* on a persistent basis.
@@ -61,7 +61,7 @@ A typical *rabbit hole trap situation* usually follows a progression similar to 
 "Change the way you think in order to think about the ways you act"
 ```
 
-Mindfulness requires more than action, it require deep behavioral and psychological strength and stability to build up over time. In other words, **change the way you think in order to think about the ways you act**.
+==Mindfulness requires more than action, it require deep behavioral and psychological strength and stability to build up over time. In other words, **change the way you think in order to think about the ways you act**.==
 
 Staying mindful requires deep habitual and mental changes as well as self discipline.
 	
@@ -101,9 +101,9 @@ Aside from the adds the simple links in articles to every ephemeral resource rel
 
 ## Concluding Thoughts
 
-Counter-intuitive and often simple solutions frequently solve the grandest farthest reaching problems. Thinking and forcing deep mental endeavors is more valuable, healthy, and efficient than deciding to find an easy, shallow, thoughtless solution. 
+==Counter-intuitive and often simple solutions frequently solve the grandest farthest reaching problems. Thinking and forcing deep mental endeavors is more valuable, healthy, and efficient than deciding to find an easy, shallow, thoughtless solution. ==
 
-Irrational thinking due to addiction to technology and information. Dive deeper into the things I am already pursuing myself. Stop consuming redundant information phrased differently. Instead, building on what I already know and using the resources I have mentally retained due to actual helpfulness stems a much quicker and elegant solution.  
+==Irrational thinking due to addiction to technology and information. Dive deeper into the things I am already pursuing myself. Stop consuming redundant information phrased differently. Instead, building on what I already know and using the resources I have mentally retained due to actual helpfulness stems a much quicker and elegant solution.==
 
 Instead of always reverting to online resources - stay mindful and in-tune with your own personal priorities. Don't try and solve everything at once, but tackle one thing at a time and **be disciplined in your fight against mindlessness**. 
 

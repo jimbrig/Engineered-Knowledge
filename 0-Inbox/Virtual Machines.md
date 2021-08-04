@@ -10,7 +10,7 @@ Tags: []
 
 ***
 
-Links: 
+Links: [[SSH and SCP]]
 
 Sources:
 
