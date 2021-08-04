@@ -18,7 +18,7 @@ SCP is also helpful when dealing with [Virtual Machines](Virtual%20Machines) and
 
 ***
 
-Links:  [2021-07-28](../3-Resources/Daily-Notes/2021-07-28.md) I  [020 - Development](../1-Maps-of-Content/020%20-%20Development.md) l [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL))
+Links:  [2021-07-28](../3-Resources/Daily-Notes/2021-07-28.md) I  [020 - Development](../1-Maps-of-Content/020%20-%20Development.md) l [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL).md)
 
 Sources:
 - YouTube video

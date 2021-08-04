@@ -74,7 +74,7 @@ I hope you enjoyed today’s email. If you find content like this entertaining a
 
 ***
 
-Links: [[Dann Felker]]
+Links: [[Dann Felker.md]]
 
 Sources: [Why you need to step out of your comfort zone - DONN FELKER](https://www.donnfelker.com/why-you-need-to-step-out-of-your-comfort-zone/)
 

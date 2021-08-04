@@ -47,7 +47,7 @@ So the next time someone trolls you online about something you’ve done, **just
 
 ***
 
-Links: [[Dann Felker]] | [[010 - Productivity|Productivity]]
+Links: [[Dann Felker.md]] | [[../1-Maps-of-Content/010 - Productivity.md]]
 
 Sources: [The Three Buckets (The Rule of Thirds) - DONN FELKER](https://www.donnfelker.com/the-rule-of-thirds/)
 

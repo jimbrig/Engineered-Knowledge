@@ -18,7 +18,7 @@ A [SMART Goal](app://obsidian.md/S.M.A.R.T.%20Goals) is …
 
 ***
 
-Links: [[What Gets Measured, Gets Managed]]
+Links: [[What Gets Measured, Gets Managed.md]]
 
 Sources:
 

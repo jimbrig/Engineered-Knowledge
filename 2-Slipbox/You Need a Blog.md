@@ -241,7 +241,7 @@ your not sure even what you’d talk about please hit the comment section below 
 
 ***
 
-Links: [[Dann Felker]] 
+Links: [[Dann Felker.md]] 
 
 Sources: [You Need a Blog - DONN FELKER](https://www.donnfelker.com/you-need-a-blog/)
 

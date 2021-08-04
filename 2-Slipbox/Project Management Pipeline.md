@@ -59,7 +59,7 @@ Based on David Allen’s GTD methodology, consider these four things:
 
 
 ***
-Links: [MOC - Project Management](../1-Maps-of-Content/MOC%20-%20Project%20Management.md) | [[MOC - PKM]] | [[010 - Productivity]]
+Links: [MOC - Project Management](../1-Maps-of-Content/MOC%20-%20Project%20Management.md) | [[../1-Maps-of-Content/MOC - PKM.md]] | [[../1-Maps-of-Content/010 - Productivity.md]]
 
 Source: [Five Steps to Getting a Project Done | LiquidPlanner](https://www.liquidplanner.com/blog/5-steps-to-getting-a-project-done/#:~:text=Five%20Steps%20to%20Getting%20a%20Project%20Done.%201,to%20review.%205%205.%20Just%20do%20it%21%20)
 

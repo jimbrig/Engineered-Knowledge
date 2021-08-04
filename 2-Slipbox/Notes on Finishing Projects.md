@@ -9,7 +9,7 @@ author: Jimmy Briggs
 
 ## **Set Limitations**
 
-- **Time**: Force time constraints on yourself to avoid wasting useless time that does not reach you closer to your end [desired outcome](desired%20outcome).
+- **Time**: Force time constraints on yourself to avoid wasting useless time that does not reach you closer to your end [[GTD - Desired Outcome|desired outcome]].
 
 - **Tools**: Limit the number of possible tools at your disposal. There's never enough time to try them all out and is a perfect excuse for you to trick yourself into thinking you're *being productive* when you are just **procrastinating**.
 

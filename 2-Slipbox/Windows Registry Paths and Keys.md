@@ -30,6 +30,6 @@ Tags: [ "#Windows", "#Configuration", "#Computer", "#Lists" ]
 
 Links: [Windows Registry](Windows%20Registry.md) | [How To Change Explorer Drive Icons via Registry](How%20To%20Change%20Explorer%20Drive%20Icons%20via%20Registry.md)
 
-Sources: See [Windows Registry > Resources](Windows%20Registry#Resources).
+Sources: See [[Windows Registry#Resources]]
 
 

@@ -20,7 +20,7 @@ There are many reasons why I feel that Flutter might have a chance of succeeding
 
 I’m sure everyone is thinking … “well you can already do that with X”. 
 
-You’re right, you can build an app with [[React Native]], [[Kotlin]] Multi-Platform/Native, [[Xamarin]] and as a [[Progressive Web App (PWA)]].
+You’re right, you can build an app with [[../0-Inbox/Placeholders/React Native.md]], [[Kotlin]] Multi-Platform/Native, [[../0-Inbox/Placeholders/Xamarin.md]] and as a [[Progressive Web App (PWA)]].
 
 I’ll talk about each of this later in this article, but first let’s talk about Flutter.
 
@@ -82,9 +82,9 @@ I don’t recommend folks going this route. If they are evaluating this route I 
 
 ![React Native](https://www.donnfelker.com/wp-content/uploads/2019/05/reactnative-300x49.png)
 
-[[React Native]] get’s us **really close** but it still falls a bit short …
+[[../0-Inbox/Placeholders/React Native.md]] get’s us **really close** but it still falls a bit short …
 
-We still have this weird latency issue (sometimes), and a [[JavaScript]] bridge we that we have to deal with on both platforms if we need to get into lower level stuff.
+We still have this weird latency issue (sometimes), and a [[Javascript.md]] bridge we that we have to deal with on both platforms if we need to get into lower level stuff.
 
 We are using the native UI widgets under the hood (sorta), so we do get the true “native” feel which is nice.
 
@@ -108,11 +108,11 @@ As usual, it’s all about tradeoffs.
 
 ![](https://www.donnfelker.com/wp-content/uploads/2019/05/xamarin-300x126.png)
 
-[[Xamarin]] works amazingly well, the problem here is that while I was able to achieve feature parity with Xamarin I felt that I had to learn both platforms due to the design nature of both platforms. This was rather painful. I was able to share 80% of the code, but the last 20% made it almost unbearable as I was having to learn both platforms again to create the UI. 
+[[../0-Inbox/Placeholders/Xamarin.md]] works amazingly well, the problem here is that while I was able to achieve feature parity with Xamarin I felt that I had to learn both platforms due to the design nature of both platforms. This was rather painful. I was able to share 80% of the code, but the last 20% made it almost unbearable as I was having to learn both platforms again to create the UI. 
 
 Learning both platforms is a show-stopper. I want to write the app once and be done with it.
 
-That said, this technology is quite viable if your team is a [[DotNet Framework|.NET]] based team and you need an app that is not a game. I know many companies in the mid-west who use Xamarin to their success. [[Microsoft]] has done a great job of supporting this tool over the years. This, with Xamarin Forms, makes it super easy to build and ship a cross-platform app, that “just works”.
+That said, this technology is quite viable if your team is a [[../0-Inbox/Placeholders/DotNet Framework.md]] based team and you need an app that is not a game. I know many companies in the mid-west who use Xamarin to their success. [[Microsoft]] has done a great job of supporting this tool over the years. This, with Xamarin Forms, makes it super easy to build and ship a cross-platform app, that “just works”.
 
 However, for me, I can’t rely on it as I need to know .NET, iOS and Android systems and widgets. Under the hood these things map to existing widgets and while you can get featured parity quickly, you do have to maintain two platforms at some level and know the intricacies of each.
 
@@ -374,7 +374,7 @@ Flutter a new way to write cross platform apps that is not encumbered by previou
 
 ***
 
-Links: [[Dann Felker]] | [[React Native]] | [[Kotlin]] | [[Dart]] | [[Xamarin]]
+Links: [[Dann Felker.md]] | [[../0-Inbox/Placeholders/React Native.md]] | [[Kotlin]] | [[Dart]] | [[../0-Inbox/Placeholders/Xamarin.md]]
 
 Sources: 
 - [Flutter Just Might Work - DONN FELKER](https://www.donnfelker.com/flutter-just-might-work/)

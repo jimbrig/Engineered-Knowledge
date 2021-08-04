@@ -43,7 +43,7 @@ tgrosinger.
 
 ***
 
-Links: [[Obsidian Setup]]
+Links: [[Obsidian Setup.md]]
 
 Sources: [advanced-tables-obsidian/help.md at main · tgrosinger/advanced-tables-obsidian (github.com)](https://github.com/tgrosinger/advanced-tables-obsidian/blob/main/docs/help.md)
 

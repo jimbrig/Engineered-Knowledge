@@ -34,7 +34,7 @@ _Why 30 seconds?_
 
 ***
 
-Links: [[Dann Felker]] | [[Highlights - Code Comments|Highlights-Code-Comments]]
+Links: [[Dann Felker.md]] | [[../3-Resources/Highlights/Highlights - Code Comments.md]]
 
 Sources: [Code Comments - DONN FELKER](https://www.donnfelker.com/code-comments/)
 

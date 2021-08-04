@@ -38,7 +38,7 @@ The root cause doesn’t have to be financial reward, fame, or anything like tha
 
 If you want to start managing your goals with a common framework, you can use the S.M.A.R.T. goal framework.
 
-A [[S.M.A.R.T. Goals|SMART Goal]] is …
+A [[S.M.A.R.T. Goals.md]] is …
 
 -   **S**pecific (can’t be general, has to
 -   **M**easurable (has to be a way to measure it)
@@ -62,6 +62,6 @@ Photo by [Miguel A. Amutio](https://unsplash.com/@amutiomi?utm_source=unsplash&u
 
 ***
 
-Links: [[Dann Felker]]
+Links: [[Dann Felker.md]]
 
 Sources: [What Gets Measured, Gets Managed - DONN FELKER](https://www.donnfelker.com/what-gets-measured-gets-managed/)

@@ -55,7 +55,7 @@ minikube help
 
 ###  kubectl
 
-- `kubectl` is the primary tool to interact with any [Kubernetes](Kubernetes) cluster.
+- `kubectl` is the primary tool to interact with any [Kubernetes](../0-Inbox/Placeholders/Kubernetes.md) cluster.
 
 In our simplified `minikube` setup, `kubectl` is the powerhouse that works with and submits commands to create, destroy, and manipulate resources within the `minikube` cluster.
 
@@ -237,7 +237,7 @@ kubernetes create --help
 
 Pod needs to be based on a certain deployment-based *image*:
 
-Here I will create a deployment based off the default [Nginx](Nginx.md) docker image called `nginx-depl`:
+Here I will create a deployment based off the default [Nginx](../0-Inbox/Placeholders/Nginx.md) docker image called `nginx-depl`:
 
 ```powershell
 kubectl create deployment nginx-depl --image=nginx

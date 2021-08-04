@@ -17,7 +17,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4-Logs/Unlinked-Files.md",
+            "file": "2-Slipbox/Notes on Finishing Projects.md",
             "mode": "preview"
           }
         }
@@ -91,8 +91,24 @@
     "type": "split",
     "children": [
       {
+        "id": "a5521459b17bb53b",
+        "type": "tabs",
+        "dimension": 80.0796812749004,
+        "children": [
+          {
+            "id": "1aa3d02a7a4b6690",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "a78fdcb98e3c4b49",
         "type": "tabs",
+        "dimension": 19.9203187250996,
         "children": [
           {
             "id": "013d2629d1c76a67",
@@ -100,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4-Logs/Unlinked-Files.md",
+                "file": "2-Slipbox/Notes on Finishing Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4-Logs/Unlinked-Files.md",
+                "file": "2-Slipbox/Notes on Finishing Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4-Logs/Unlinked-Files.md"
+                "file": "2-Slipbox/Notes on Finishing Projects.md"
               }
             }
           },
@@ -193,15 +209,15 @@
   },
   "active": "49d8b34d7bfd46f9",
   "lastOpenFiles": [
-    "4-Logs/Unlinked-Files.md",
+    "2-Slipbox/Notes on Finishing Projects.md",
+    "4-Logs/Vault-Consistensy-Report.md",
+    "0-Inbox/Time Block Planner.md",
+    "2-Slipbox/Time Management.md",
+    "2-Slipbox/Windows Registry Paths and Keys.md",
+    "2-Slipbox/Windows Registry.md",
+    "4-Logs/README.md",
+    "0-Inbox/Placeholders/README.md",
     "README.md",
-    "0-Inbox/You Need a Status Page.md",
-    "0-Inbox/You Need a Blog.md",
-    "0-Inbox/Windows APK.md",
-    "0-Inbox/Windows 11.md",
-    "0-Inbox/Windows 10.md",
-    "0-Inbox/Why you need to step out of your comfort zone.md",
-    "0-Inbox/What Blog Platform Should I Use.md",
-    "0-Inbox/Uninstall Tool.md"
+    "1-Maps-of-Content/010 - Productivity.md"
   ]
 }

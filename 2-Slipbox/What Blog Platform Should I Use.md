@@ -14,7 +14,7 @@ In a very recent email I wrote about how you need to have a blog.
 
 The question that pops up next is usually …
 
-> What blog platform should I use? [[Medium]]? [[WordPress]]? [[Gatsby]]? [[Jekyll]]? Or something else?
+> What blog platform should I use? [[../0-Inbox/Placeholders/Medium.md]]? [[../0-Inbox/Placeholders/WordPress.md]]? [[../0-Inbox/Placeholders/Gatsby.md]]? [[../0-Inbox/Placeholders/Jekyll.md]]? Or something else?
 
 This is a HUGELY important question that needs a bit of thought put into it … but first things first …
 
@@ -32,7 +32,7 @@ Then put your ego away and start writing.
 
 If your goal is to learn a new technology then stop reading this and go learn a new technology.
 
-Far too often I see software folks lose all of their time “building” something like a blog with technology X, Y and Z and then never ship a blog post because they were too busy optimizing [[CSS]], [[HTML]], [[JavaScript]], [[deployment]] methods with integrated [[CICD pipelines]].
+Far too often I see software folks lose all of their time “building” something like a blog with technology X, Y and Z and then never ship a blog post because they were too busy optimizing [[../0-Inbox/Placeholders/CSS.md]], [[../0-Inbox/Placeholders/HTML.md]], [[Javascript.md]], [[deployment]] methods with integrated [[CICD pipelines]].
 
 ==All of that is a waste of time if your goal is to start writing a blog.==
 
@@ -44,12 +44,12 @@ Far too often I see software folks lose all of their time “building” somethi
 
 At this time I’m going to compare the following blog systems that you can use.
 
-- [[Medium]]
-- [[WordPress]]
-- [[Ghost]]
+- [[../0-Inbox/Placeholders/Medium.md]]
+- [[../0-Inbox/Placeholders/WordPress.md]]
+- [[../0-Inbox/Placeholders/Ghost.md]]
 - [[Static Sites]]
-	- [[Jekyll]]
-	- [[Gatsby]]
+	- [[../0-Inbox/Placeholders/Jekyll.md]]
+	- [[../0-Inbox/Placeholders/Gatsby.md]]
 	- etc.
 
 I’m not going to cover [[SquareSpace]], [[Wix]] or [[Blogger]] or any of those because I don’t feel they’re in the top three choices for the folks that read this blog (mainly software engineers and entrepreneurs).
@@ -258,7 +258,7 @@ Just go with WordPress now and save yourself the trouble.
 
 ***
 
-Links: [[Dann Felker]]
+Links: [[Dann Felker.md]]
 
 Sources: [What Blog Platform Should I Use? - DONN FELKER](https://www.donnfelker.com/what-blog-platform-should-i-use/)
 

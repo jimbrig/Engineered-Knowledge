@@ -247,7 +247,7 @@ I will teach you about how to start freelancing and consulting from a software d
 
 ***
 
-Links: [[Dann Felker]]
+Links: [[Dann Felker.md]]
 
 Sources: [Search for "ship side projects" - DONN FELKER](https://www.donnfelker.com/?s=ship+side+projects)
 

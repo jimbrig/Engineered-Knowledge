@@ -101,7 +101,7 @@ Source: e
 
 ***
 
-Links: [[020 - Development]] | [[MOC - Web Development]] | [[MOC - System Design]] | [[System Design Primer]]
+Links: [[../1-Maps-of-Content/020 - Development.md]] | [[../1-Maps-of-Content/MOC - Web Development.md]] | [[../1-Maps-of-Content/MOC - System Design.md]] | [[System Design Primer.md]]
 
 Sources: https://www.codecademy.com/articles/back-end-architectur
 

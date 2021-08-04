@@ -22,7 +22,7 @@ The reason for this is simple; prototype code is ugly, messy, and nasty. It’s 
 
 ***
 
-Links: [[020 - Development]] | [[MOC - PKM]] | [[MOC - System Design|System Design]] | [[Dann Felker]]
+Links: [[../1-Maps-of-Content/020 - Development.md]] | [[../1-Maps-of-Content/MOC - PKM.md]] | [[../1-Maps-of-Content/MOC - System Design.md]] | [[Dann Felker.md]]
 
 Sources: [Prototype/Proof of Concept code is not production code! - DONN FELKER](https://www.donnfelker.com/prototypeproof-of-concept-code-is-not-production-code/)
 

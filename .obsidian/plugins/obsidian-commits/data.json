@@ -6295,9 +6295,9 @@
       "links": 23
     },
     "1-Maps-of-Content/020 - Development.md": {
-      "size": 7072,
+      "size": 10879,
       "tags": 3,
-      "links": 168
+      "links": 165
     },
     "1-Maps-of-Content/030 - Professional.md": {
       "size": 224,
@@ -6515,9 +6515,9 @@
       "links": 16
     },
     "4-Logs/Vault-Consistensy-Report.md": {
-      "size": 9645,
+      "size": 14218,
       "tags": 0,
-      "links": 29
+      "links": 48
     },
     "3-Resources/Daily-Notes/2020-08-20.md": {
       "size": 0,
@@ -7074,11 +7074,6 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/Placeholders/README.md": {
-      "size": 309,
-      "tags": 1,
-      "links": 0
-    },
     "0-Inbox/Placeholders/ReadTheDocs.md": {
       "size": 210,
       "tags": 0,
@@ -7233,14 +7228,24 @@
       "size": 202,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/README.md": {
+      "size": 309,
+      "tags": 1,
+      "links": 0
+    },
+    "0-Inbox/Time Block Planner.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 879,
-      "Create": 633,
-      "Link": 684,
-      "Expand": 78
+      "Refactor": 881,
+      "Create": 634,
+      "Link": 685,
+      "Expand": 80
     }
   },
   "dailyCommits": {
@@ -7261,7 +7266,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 352,
+      "16": 358,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7275,7 +7280,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 780,
+      "Wed": 786,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7285,6 +7290,8 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/You Need a Status Page.md\"> You Need a Status Page </a>",
@@ -7333,11 +7340,10 @@
         "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"Notes/Johnny Decimal System.md\"> Johnny Decimal System </a>"
+        "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Time Block Planner.md\"> Time Block Planner </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Xamarin.md\"> Xamarin </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WordPress.md\"> WordPress </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinGet.md\"> WinGet </a>",
@@ -7387,10 +7393,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/npm.md\"> npm </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Nodejs.md\"> Nodejs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Ninite.md\"> Ninite </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Nginx.md\"> Nginx </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/NextJS.md\"> NextJS </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Nginx.md\"> Nginx </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/You Need a Status Page.md\"> You Need a Status Page </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/You Need a Blog.md\"> You Need a Blog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
@@ -7440,8 +7446,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/MOC - PowerShell.md\"> MOC - PowerShell </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments.md\"> Windows Terminal Command Line Arguments </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal.md\"> Windows Terminal </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/Web Development.md\"> Web Development </a>"
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/README.md\"> README </a>",
@@ -7563,6 +7568,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Yarn.md\"> Yarn </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
@@ -7612,8 +7618,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal.md\"> Windows Terminal </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -7639,6 +7644,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
@@ -7688,8 +7694,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ]
     }
   },

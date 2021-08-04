@@ -91,7 +91,7 @@ Photo Credit – [Tim Gouw](https://unsplash.com/photos/1K9T5YiZ2WU)
 
 ***
 
-Links: [[Dann Felker]] | 
+Links: [[Dann Felker.md]] | 
 
 Source: [Learning To Program Sucks - DONN FELKER](https://www.donnfelker.com/learning-program-sucks/)
 

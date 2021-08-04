@@ -401,7 +401,7 @@ function testInfo(phoneInput) {
 
 ***
 
-Links: [[020 - Development]] | [[MOC - Web Development]] | [[Regular Expressions]] | [[Javascript]]
+Links: [[../1-Maps-of-Content/020 - Development.md]] | [[../1-Maps-of-Content/MOC - Web Development.md]] | [[Regular Expressions]] | [[Javascript.md]]
 
 Sources: [Regular expressions - JavaScript | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 

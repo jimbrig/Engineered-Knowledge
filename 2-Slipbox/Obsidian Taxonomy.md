@@ -21,7 +21,7 @@ For example, common types of source's include:
 - Online Articles with a link back to original source URL
 - Local Files and Directories such as images, PDFs, diagrams, spreadsheets, data files, code, projects, etc.
 - Attachments local to obsidian vault
-- Links to tasks in [[Tools - Todoist|Todoist]], [[Tools - Outlook|Outlook]], [[Tools - Github|Github]], etc.
+- Links to tasks in [[../0-Inbox/Placeholders/Tools - Todoist.md]], [[../0-Inbox/Placeholders/Tools - Outlook.md]], [[../0-Inbox/Placeholders/Tools - Github.md]], etc.
 - People (with a possible link to a reference person note)
 
 

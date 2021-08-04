@@ -10,7 +10,7 @@ Tags: []
 
 ***
 
-Links: [[npm]] | [[Nodejs]] | [[Javascript]] | [[020 - Development]] | [[Package Managers]]
+Links: [[npm.md]] | [[Nodejs.md]] | [[../../2-Slipbox/Javascript.md]] | [[../../1-Maps-of-Content/020 - Development.md]] | [[Package Managers]]
 
 Sources:
 

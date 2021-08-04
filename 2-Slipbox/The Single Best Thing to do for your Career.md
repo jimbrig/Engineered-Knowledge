@@ -34,7 +34,7 @@ I challenge you to go out and speak. Find a local user group, a code camp, a mee
 
 ***
 
-Links: [[Dann Felker]] | [[030 - Professional]]
+Links: [[Dann Felker.md]] | [[../1-Maps-of-Content/030 - Professional.md]]
 
 Sources: [The Single Best Thing You Can Do For Your Career - DONN FELKER](https://www.donnfelker.com/the-single-best-thing-you-can-do-for-your-career/)
 

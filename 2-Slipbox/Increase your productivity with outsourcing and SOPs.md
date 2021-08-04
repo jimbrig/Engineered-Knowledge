@@ -115,7 +115,7 @@ Photo by [Remy\_Loz](https://unsplash.com/@axellvak?utm_source=unsplash&utm_medi
 
 ***
 
-Links: [[Dann Felker]]
+Links: [[Dann Felker.md]]
 
 Sources: [How to increase your productivity with outsourcing and SOPs - DONN FELKER](https://www.donnfelker.com/increase-your-productivity-with-outsourcing-and-sops/)
 

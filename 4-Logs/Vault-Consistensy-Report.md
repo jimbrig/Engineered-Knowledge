@@ -1,29 +1,12 @@
-# Bad links (24 files)
-[2-Slipbox/Windows Registry Paths and Keys.md](2-Slipbox/Windows%20Registry%20Paths%20and%20Keys.md): 
-- (line 32): `Windows Registry#Resources`
-
-
-[2-Slipbox/Views vs. Materialized Views.md](2-Slipbox/Views%20vs.%20Materialized%20Views.md): 
-- (line 32): `MOC - Web Development.md`
-
-
+# Bad links (19 files)
 [2-Slipbox/Time Management.md](2-Slipbox/Time%20Management.md): 
 - (line 31): `time block planner`
-
-
-[2-Slipbox/System Design Primer.md](2-Slipbox/System%20Design%20Primer.md): 
-- (line 70): `MOC - Web Development.md`
 
 
 [2-Slipbox/SSH and SCP.md](2-Slipbox/SSH%20and%20SCP.md): 
 - (line 14): `WinSCP`
 - (line 16): `Virtual Machines`
 - (line 16): `Cloud Hosted Environments`
-- (line 20): `Windows Subsystem for Linux (WSL)`
-
-
-[2-Slipbox/Reset OneDrive with Command Line.md](2-Slipbox/Reset%20OneDrive%20with%20Command%20Line.md): 
-- (line 17): `MOC - PowerShell.md`
 
 
 [2-Slipbox/Obsidian Setup.md](2-Slipbox/Obsidian%20Setup.md): 
@@ -83,8 +66,6 @@
 - (line 30): `kubernetes-cli`
 - (line 30): `kubectl`
 - (line 31): `minikube`
-- (line 57): `Kubernetes`
-- (line 239): `nginx`
 - (line 259): `YAML`
 
 
@@ -94,10 +75,6 @@
 
 [2-Slipbox/How To Change Explorer Drive Icons via Registry.md](2-Slipbox/How%20To%20Change%20Explorer%20Drive%20Icons%20via%20Registry.md): 
 - (line 10): `Windows Registry Paths and Keys#Explorer Drive Icons`
-
-
-[2-Slipbox/Enhanced CleanMgr Command.md](2-Slipbox/Enhanced%20CleanMgr%20Command.md): 
-- (line 18): `MOC - PowerShell.md`
 
 
 [2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md](2-Slipbox/Debugging%20Windows%20Search%20Issues%20and%20High%20CPU%20Usage.md): 
@@ -140,160 +117,31 @@
 
 
 [1-Maps-of-Content/020 - Development.md](1-Maps-of-Content/020%20-%20Development.md): 
-- (line 38): `Windows Subsystem for Linux (WSL)`
-- (line 40): `Windows Terminal.md`
-- (line 40): `Visual Studio`
-- (line 40): `Visual Studio Code`
-- (line 40): `NuGet`
-- (line 42): `Windows SDK`
-- (line 42): `Windows APK`
-- (line 42): `WindowsPE`
-- (line 44): `DISM`
-- (line 44): `SFC`
-- (line 44): `Drivers`
-- (line 44): `BIOS`
-- (line 44): `Disk Partitions`
-- (line 46): `Windows Insider`
-- (line 46): `Windows 10`
-- (line 46): `Windows 11`
-- (line 51): `SQL`
-- (line 52): `Visual Basic`
-- (line 53): `Nodejs`
-- (line 56): `CSS`
-- (line 56): `SASS`
-- (line 57): `HTML`
-- (line 58): `SSH`
-- (line 59): `Ruby`
-- (line 60): `Rust`
-- (line 61): `Go`
-- (line 62): `PHP`
-- (line 63): `C++`
-- (line 63): `C`
-- (line 63): `C-Sharp`
-- (line 64): `Assembly`
-- (line 65): `Swift`
-- (line 65): `Objective-C`
-- (line 66): `Java`
-- (line 67): `Groovy`
-- (line 69): `Xamarin`
-- (line 70): `Perl`
-- (line 71): `Scala`
-- (line 72): `Lua`
-- (line 73): `Clojure`
-- (line 74): `LaTex`
-- (line 74): `TeX`
-- (line 77): `Windows Subsystem for Linux (WSL).md`
-- (line 77): `Ubuntu`
-- (line 78): `Bash`
-- (line 78): `Git`
-- (line 83): `Kubernetes`
-- (line 84): `nginx`
-- (line 88): `React`
-- (line 88): `React Native`
 - (line 88): `Redux`
 - (line 89): `Vue.js`
 - (line 90): `Bulma.js`
 - (line 91): `Next.js`
-- (line 97): `Windows Terminal.md`
-- (line 100): `Windows Subsystem for Linux (WSL).md`
-- (line 100): `Ubuntu`
-- (line 101): `Bash`
-- (line 101): `Git`
-- (line 105): `Visual Studio Code`
-- (line 106): `RStudio`
-- (line 107): `Atom`
-- (line 111): `Typora`
-- (line 113): `R-Markdown`
-- (line 114): `Jupiter Notebooks`
-- (line 118): `Git`
-- (line 119): `GitHub`
-- (line 120): `GitKraken`
-- (line 122): `HTTPS`
-- (line 122): `SSH`
-- (line 122): `GPG`
-- (line 122): `Git`
-- (line 130): `NuGet`
-- (line 130): `OneGet`
-- (line 130): `PowerShell Modules`
-- (line 131): `Chocolatey`
-- (line 131): `Scoop`
-- (line 131): `WinGet`
-- (line 132): `Cygwin`
-- (line 133): `Ninite`
 - (line 134): `Pacman`
 - (line 134): `MSYS2`
 - (line 135): `vcpkg`
 - (line 136): `Homebrew`
-- (line 136): `Windows Subsystem for Linux (WSL).md`
 - (line 140): `apt-get`
-- (line 140): `Ubuntu`
 - (line 140): `Debian`
 - (line 141): `Homebrew`
-- (line 145): `npm`
-- (line 145): `yarn`
 - (line 145): `Node.js`
-- (line 146): `pip`
 - (line 146): `Conda`
-- (line 147): `Cargo`
-- (line 147): `Rust`
-- (line 148): `CRAN`
 - (line 149): `CPAN`
-- (line 149): `PERL`
 - (line 150): `Gradle`
-- (line 150): `Groovy`
-- (line 150): `C++`
 - (line 151): `Maven`
-- (line 151): `Java`
-- (line 152): `Go`
-- (line 152): `Go`
 - (line 153): `Composer`
-- (line 153): `PHP`
 - (line 154): `Conan`
-- (line 154): `C++`
-- (line 155): `Helm`
-- (line 155): `Kubernetes`
 - (line 156): `RubyGems`
-- (line 156): `Ruby`
 - (line 157): `BPKG`
-- (line 157): `Bash`
 - (line 158): `CocoaPods`
-- (line 158): `Swift`
-- (line 162): `Google Cloud Platform - GCP`
-- (line 162): `Firebase`
-- (line 163): `Microsoft Azure`
-- (line 163): `Azure CLI`
-- (line 164): `Amazon Web Services - AWS`
-- (line 165): `Heroku`
-- (line 166): `Digital Ocean`
-- (line 167): `Linode`
-- (line 168): `Netlify`
-- (line 169): `Github Pages`
-- (line 170): `WordPress`
-- (line 174): `Google Drive`
-- (line 175): `OneDrive`
-- (line 176): `Amazon Drive`
-- (line 177): `iCloud Drive`
-- (line 181): `gcloud SDK`
-- (line 191): `NextJS`
-- (line 192): `Ghost`
-- (line 193): `Gatsby`
-- (line 194): `GitBook`
-- (line 195): `ReadTheDocs`
 - (line 200): `MongoDB`
 - (line 201): `CockroachDB`
 - (line 202): `MySQL`
 - (line 203): `SQLITE`
-- (line 207): `pgAdmin 4`
-- (line 208): `DBeaver`
-- (line 209): `Beekeeper`
-- (line 213): `psql`
-- (line 214): `pgcli`
-- (line 218): `Microsoft PowerToys`
-- (line 219): `RapidEE`
-- (line 220): `Lepton`
-- (line 221): `Uninstall Tool`
-- (line 222): `EaseUS`
-- (line 223): `Iobit`
 
 
 
@@ -306,59 +154,236 @@ No problems found
 # Bad embeds 
 No problems found
 
-# Wiki links (7 files)
+# Wiki links (31 files)
+[2-Slipbox/You Need a Status Page.md](2-Slipbox/You%20Need%20a%20Status%20Page.md): 
+- (line 72): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/You Need a Blog.md](2-Slipbox/You%20Need%20a%20Blog.md): 
+- (line 243): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/Why You Should Never Quit too Early.md](2-Slipbox/Why%20You%20Should%20Never%20Quit%20too%20Early.md): 
+- (line 171): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/Why you need to step out of your comfort zone.md](2-Slipbox/Why%20you%20need%20to%20step%20out%20of%20your%20comfort%20zone.md): 
+- (line 76): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/What Gets Measured, Gets Managed.md](2-Slipbox/What%20Gets%20Measured,%20Gets%20Managed.md): 
+- (line 40): `[[S.M.A.R.T. Goals.md]]`
+- (line 64): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/What Blog Platform Should I Use.md](2-Slipbox/What%20Blog%20Platform%20Should%20I%20Use.md): 
+- (line 16): `[[../0-Inbox/Placeholders/Medium.md]]`
+- (line 16): `[[../0-Inbox/Placeholders/WordPress.md]]`
+- (line 16): `[[../0-Inbox/Placeholders/Gatsby.md]]`
+- (line 16): `[[../0-Inbox/Placeholders/Jekyll.md]]`
+- (line 20): `[[Focus on Writing]]`
+- (line 34): `[[../0-Inbox/Placeholders/CSS.md]]`
+- (line 34): `[[../0-Inbox/Placeholders/HTML.md]]`
+- (line 34): `[[Javascript.md]]`
+- (line 34): `[[deployment]]`
+- (line 34): `[[CICD pipelines]]`
+- (line 46): `[[../0-Inbox/Placeholders/Medium.md]]`
+- (line 47): `[[../0-Inbox/Placeholders/WordPress.md]]`
+- (line 48): `[[../0-Inbox/Placeholders/Ghost.md]]`
+- (line 49): `[[Static Sites]]`
+- (line 50): `[[../0-Inbox/Placeholders/Jekyll.md]]`
+- (line 51): `[[../0-Inbox/Placeholders/Gatsby.md]]`
+- (line 54): `[[SquareSpace]]`
+- (line 54): `[[Wix]]`
+- (line 54): `[[Blogger]]`
+- (line 260): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/The Three Buckets - Rule of Thirds.md](2-Slipbox/The%20Three%20Buckets%20-%20Rule%20of%20Thirds.md): 
+- (line 49): `[[Dann Felker.md]]`
+- (line 49): `[[../1-Maps-of-Content/010 - Productivity.md]]`
+
+
+[2-Slipbox/The Single Best Thing to do for your Career.md](2-Slipbox/The%20Single%20Best%20Thing%20to%20do%20for%20your%20Career.md): 
+- (line 36): `[[Dann Felker.md]]`
+- (line 36): `[[../1-Maps-of-Content/030 - Professional.md]]`
+
+
+[2-Slipbox/S.M.A.R.T. Goals.md](2-Slipbox/S.M.A.R.T.%20Goals.md): 
+- (line 20): `[[What Gets Measured, Gets Managed.md]]`
+
+
+[2-Slipbox/Regular expressions - JavaScript - MDN.md](2-Slipbox/Regular%20expressions%20-%20JavaScript%20-%20MDN.md): 
+- (line 403): `[[../1-Maps-of-Content/020 - Development.md]]`
+- (line 403): `[[../1-Maps-of-Content/MOC - Web Development.md]]`
+- (line 403): `[[Regular Expressions]]`
+- (line 403): `[[Javascript.md]]`
+
+
+[2-Slipbox/Obsidian Advanced Tables Plugin.md](2-Slipbox/Obsidian%20Advanced%20Tables%20Plugin.md): 
+- (line 45): `[[Obsidian Setup.md]]`
+
+
+[2-Slipbox/Learning to Program Sucks.md](2-Slipbox/Learning%20to%20Program%20Sucks.md): 
+- (line 93): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/Increase your productivity with outsourcing and SOPs.md](2-Slipbox/Increase%20your%20productivity%20with%20outsourcing%20and%20SOPs.md): 
+- (line 117): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/Flutter.md](2-Slipbox/Flutter.md): 
+- (line 22): `[[../0-Inbox/Placeholders/React Native.md]]`
+- (line 22): `[[Kotlin]]`
+- (line 22): `[[../0-Inbox/Placeholders/Xamarin.md]]`
+- (line 22): `[[Progressive Web App (PWA)]]`
+- (line 84): `[[../0-Inbox/Placeholders/React Native.md]]`
+- (line 86): `[[Javascript.md]]`
+- (line 110): `[[../0-Inbox/Placeholders/Xamarin.md]]`
+- (line 114): `[[../0-Inbox/Placeholders/DotNet Framework.md]]`
+- (line 114): `[[Microsoft]]`
+- (line 124): `[[Kotlin]]`
+- (line 237): `[[Dart]]`
+- (line 376): `[[Dann Felker.md]]`
+- (line 376): `[[../0-Inbox/Placeholders/React Native.md]]`
+- (line 376): `[[Kotlin]]`
+- (line 376): `[[Dart]]`
+- (line 376): `[[../0-Inbox/Placeholders/Xamarin.md]]`
+
+
+[2-Slipbox/Dann Felker.md](2-Slipbox/Dann%20Felker.md): 
+- (line 23): `[[Code is not Production Code.md]]`
+- (line 24): `[[How to Ship Side Projects.md]]`
+- (line 25): `[[Increase your productivity with outsourcing and SOPs.md]]`
+- (line 26): `[[Why you need to step out of your comfort zone.md]]`
+- (line 27): `[[Why You Should Never Quit too Early.md]]`
+- (line 28): `[[Flutter.md]]`
+- (line 29): `[[The Three Buckets - Rule of Thirds.md]]`
+- (line 30): `[[The Single Best Thing to do for your Career.md]]`
+- (line 31): `[[Learning to Program Sucks.md]]`
+- (line 32): `[[What Gets Measured, Gets Managed.md]]`
+- (line 33): `[[You Need a Status Page.md]]`
+- (line 34): `[[Achieving Your Goals Feels Good.md]]`
+- (line 35): `[[You Need a Blog.md]]`
+- (line 36): `[[What Blog Platform Should I Use.md]]`
+- (line 37): `[[Code Comments.md]]`
+- (line 42): `[[../1-Maps-of-Content/MOC - People.md]]`
+- (line 42): `[[Blogging]]`
+
+
+[2-Slipbox/Code Comments.md](2-Slipbox/Code%20Comments.md): 
+- (line 36): `[[Dann Felker.md]]`
+- (line 36): `[[../3-Resources/Highlights/Highlights - Code Comments.md]]`
+
+
+[2-Slipbox/Achieving Your Goals Feels Good.md](2-Slipbox/Achieving%20Your%20Goals%20Feels%20Good.md): 
+- (line 123): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/Code is not Production Code.md](2-Slipbox/Code%20is%20not%20Production%20Code.md): 
+- (line 10): `[[Prototype]]`
+- (line 24): `[[../1-Maps-of-Content/020 - Development.md]]`
+- (line 24): `[[../1-Maps-of-Content/MOC - PKM.md]]`
+- (line 24): `[[../1-Maps-of-Content/MOC - System Design.md]]`
+- (line 24): `[[Dann Felker.md]]`
+
+
 [2-Slipbox/Windows Terminal.md](2-Slipbox/Windows%20Terminal.md): 
-- (line 10): `[[Windows Terminal Command Line Arguments]]`
-- (line 12): `[[WinGet CLI Setup and Settings]]`
-- (line 14): `[[Windows Subsystem for Linux (WSL)]]`
-- (line 16): `[[WSL Commands and Installs]]`
-- (line 18): `[[WSL-Notes]]`
-- (line 20): `[[MOC - PowerShell|PowerShell]]`
-- (line 24): `[[Start an Offline Scan with Windows Defender from PowerShell]]`
+- (line 10): `[[Windows Terminal Command Line Arguments.md]]`
+- (line 12): `[[WinGet CLI Setup and Settings.md]]`
+- (line 14): `[[Windows Subsystem for Linux (WSL).md]]`
+- (line 16): `[[WSL Commands and Installs.md]]`
+- (line 18): `[[WSL-Notes.md]]`
+- (line 20): `[[../1-Maps-of-Content/MOC - PowerShell.md]]`
+- (line 24): `[[Start an Offline Scan with Windows Defender from PowerShell.md]]`
+
+
+[2-Slipbox/Windows Registry Paths and Keys.md](2-Slipbox/Windows%20Registry%20Paths%20and%20Keys.md): 
+- (line 32): `[[Windows Registry#Resources]]`
+
+
+[2-Slipbox/Utils Package Hidden Gems in R.md](2-Slipbox/Utils%20Package%20Hidden%20Gems%20in%20R.md): 
+- (line 12): `[[#readClipboard and writeClipboard|readClipboard and writeClipboard]]`
+- (line 13): `[[#combn|combn]]`
+- (line 14): `[[#fileSnapshot|fileSnapshot]]`
+- (line 15): `[[#download.file|download.file]]`
+- (line 16): `[[#fix - modify an object on the fly|fix - modify an object on the fly]]`
+- (line 132): `[[../1-Maps-of-Content/020 - Development.md]]`
+- (line 132): `[[../1-Maps-of-Content/MOC - R.md]]`
+- (line 132): `[[Tools Package Hidden Gems in R.md]]`
 
 
 [2-Slipbox/Project Management Pipeline.md](2-Slipbox/Project%20Management%20Pipeline.md): 
-- (line 61): `[[MOC - PKM]]`
-- (line 61): `[[010 - Productivity]]`
+- (line 61): `[[../1-Maps-of-Content/MOC - PKM.md]]`
+- (line 61): `[[../1-Maps-of-Content/010 - Productivity.md]]`
 
 
 [2-Slipbox/Obsidian Templater Plugin Notes.md](2-Slipbox/Obsidian%20Templater%20Plugin%20Notes.md): 
-- (line 13): `[[MOC - PKM]]`
+- (line 13): `[[../1-Maps-of-Content/MOC - PKM.md]]`
 
 
 [2-Slipbox/Obsidian Taxonomy.md](2-Slipbox/Obsidian%20Taxonomy.md): 
-- (line 23): `[[Tools - Todoist|Todoist]]`
-- (line 23): `[[Tools - Outlook|Outlook]]`
-- (line 23): `[[Tools - Github|Github]]`
+- (line 23): `[[../0-Inbox/Placeholders/Tools - Todoist.md]]`
+- (line 23): `[[../0-Inbox/Placeholders/Tools - Outlook.md]]`
+- (line 23): `[[../0-Inbox/Placeholders/Tools - Github.md]]`
 
 
 [2-Slipbox/Obsidian Setup.md](2-Slipbox/Obsidian%20Setup.md): 
-- (line 20): `[[MOC - Obsidian]]`
-- (line 21): `[[MOC - R]]`
-- (line 22): `[[020 - Development]]`
+- (line 20): `[[../1-Maps-of-Content/MOC - Obsidian.md]]`
+- (line 21): `[[../1-Maps-of-Content/MOC - R.md]]`
+- (line 22): `[[../1-Maps-of-Content/020 - Development.md]]`
+
+
+[2-Slipbox/How to Ship Side Projects.md](2-Slipbox/How%20to%20Ship%20Side%20Projects.md): 
+- (line 249): `[[Dann Felker.md]]`
+
+
+[2-Slipbox/Backend Web Architecture.md](2-Slipbox/Backend%20Web%20Architecture.md): 
+- (line 103): `[[../1-Maps-of-Content/020 - Development.md]]`
+- (line 103): `[[../1-Maps-of-Content/MOC - Web Development.md]]`
+- (line 103): `[[../1-Maps-of-Content/MOC - System Design.md]]`
+- (line 103): `[[System Design Primer.md]]`
+
+
+[1-Maps-of-Content/MOC - People.md](1-Maps-of-Content/MOC%20-%20People.md): 
+- (line 12): `[[David Allen]]`
+- (line 16): `[[Tiago Forte]]`
+- (line 18): `[[Jarold Jarke]]`
+- (line 24): `[[Albert Einstein]]`
+- (line 26): `[[Leonard Susskind]]`
+- (line 28): `[[G'ard T'fuft]]`
+- (line 30): `[[Stephen Weinberg]]`
 
 
 [1-Maps-of-Content/MOC - Web Development.md](1-Maps-of-Content/MOC%20-%20Web%20Development.md): 
-- (line 12): `[[020 - Development]]`
-- (line 12): `[[050 - Computer]]`
+- (line 12): `[[020 - Development.md]]`
+- (line 12): `[[050 - Computer.md]]`
 
 
 [1-Maps-of-Content/020 - Development.md](1-Maps-of-Content/020%20-%20Development.md): 
-- (line 40): `[[DotNet Framework]]`
-- (line 50): `[[MOC - R|R]]`
-- (line 68): `[[DotNet Framework]]`
-- (line 76): `[[MOC - Command Line]]`
-- (line 99): `[[MOC - Command Line]]`
-- (line 148): `[[MOC - R|R]]`
-- (line 162): `[[gcloud SDK]]`
-- (line 181): `[[Google Cloud Platform - GCP|GCP]]`
-- (line 182): `[[Azure CLI]]`
-- (line 182): `[[Microsoft Azure]]`
-- (line 183): `[[AWS-CLI]]`
-- (line 184): `[[Heroku-CLI]]`
-- (line 185): `[[Github-CLI]]`
-- (line 189): `[[MkDocs]]`
-- (line 190): `[[Hexo]]`
+- (line 40): `[[../0-Inbox/Placeholders/DotNet Framework.md]]`
+- (line 50): `[[MOC - R.md]]`
+- (line 68): `[[../0-Inbox/Placeholders/DotNet Framework.md]]`
+- (line 76): `[[MOC - Command Line.md]]`
+- (line 99): `[[MOC - Command Line.md]]`
+- (line 148): `[[MOC - R.md]]`
+- (line 162): `[[../0-Inbox/Placeholders/gcloud SDK.md]]`
+- (line 181): `[[../0-Inbox/Placeholders/Google Cloud Platform - GCP.md]]`
+- (line 182): `[[../0-Inbox/Placeholders/Azure CLI.md]]`
+- (line 182): `[[../0-Inbox/Placeholders/Microsoft Azure.md]]`
+- (line 183): `[[../0-Inbox/Placeholders/AWS-CLI.md]]`
+- (line 184): `[[../0-Inbox/Placeholders/Heroku-CLI.md]]`
+- (line 185): `[[../0-Inbox/Placeholders/Github-CLI.md]]`
+- (line 189): `[[../2-Slipbox/MkDocs.md]]`
+- (line 190): `[[../0-Inbox/Placeholders/Hexo.md]]`
+
+
+[0-Inbox/Placeholders/Yarn.md](0-Inbox/Placeholders/Yarn.md): 
+- (line 12): `[[npm.md]]`
+- (line 12): `[[Nodejs.md]]`
+- (line 12): `[[../../2-Slipbox/Javascript.md]]`
+- (line 12): `[[../../1-Maps-of-Content/020 - Development.md]]`
+- (line 12): `[[Package Managers]]`
 
 
 

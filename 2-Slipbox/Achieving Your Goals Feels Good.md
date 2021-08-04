@@ -121,7 +121,7 @@ Photo: [Glenn Carstens-Peters](https://unsplash.com/photos/RLw-UC03Gwc)
 
 ***
 
-Links: [[Dann Felker]]
+Links: [[Dann Felker.md]]
 
 Sources: [Achieving Your Goals Feels Good - DONN FELKER](https://www.donnfelker.com/achieving-your-goals-feels-good/)
 

@@ -10,7 +10,7 @@ Tags: ["#MOC", "#Index", "#Development"]
 
 ***
 
-Links: [[020 - Development]] | [[050 - Computer]]
+Links: [[020 - Development.md]] | [[050 - Computer.md]]
 
 Sources:
 

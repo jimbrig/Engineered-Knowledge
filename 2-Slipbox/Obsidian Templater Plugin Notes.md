@@ -11,7 +11,7 @@ Tags: ["#Obsidian", "#Setup"]
 
 ***
 
-Links: [[MOC - PKM]] | [Obsidian Links List](Obsidian%20Links%20List.md)
+Links: [[../1-Maps-of-Content/MOC - PKM.md]] | [Obsidian Links List](Obsidian%20Links%20List.md)
 
 Source: [Introduction | Templater (silentvoid13.github.io)](https://silentvoid13.github.io/Templater/docs/)
 

@@ -18,9 +18,9 @@ Home Note: [000 - INDEX](../1-Maps-of-Content/000%20-%20INDEX.md)
 
 Maps of Content and Index Notes:
 
-- [[MOC - Obsidian]]
-- [[MOC - R]]
-- [[020 - Development]]
+- [[../1-Maps-of-Content/MOC - Obsidian.md]]
+- [[../1-Maps-of-Content/MOC - R.md]]
+- [[../1-Maps-of-Content/020 - Development.md]]
 
 Folders:
 

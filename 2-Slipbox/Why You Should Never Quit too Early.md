@@ -169,7 +169,7 @@ Thanks for reading.
 
 ***
 
-Links: [[Dann Felker]]
+Links: [[Dann Felker.md]]
 
 Sources: [Why you should never quit too early ... - DONN FELKER](https://www.donnfelker.com/why-you-should-never-quit-too-early/)
 

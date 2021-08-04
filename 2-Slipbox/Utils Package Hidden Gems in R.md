@@ -130,7 +130,7 @@ fix(iris)
 
 ***
 
-Links: [[020 - Development]] | [[MOC - R]] | [[Tools Package Hidden Gems in R]]
+Links: [[../1-Maps-of-Content/020 - Development.md]] | [[../1-Maps-of-Content/MOC - R.md]] | [[Tools Package Hidden Gems in R.md]]
 
 Sources:
 

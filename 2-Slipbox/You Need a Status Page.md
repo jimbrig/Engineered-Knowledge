@@ -70,7 +70,7 @@ Just having a status page alone puts you ahead of your competition ten fold and 
 
 ***
 
-Links: [[Dann Felker]]
+Links: [[Dann Felker.md]]
 
 Sources: [You Need a Status Page (donnfelker.com)](https://www.donnfelker.com/you-need-a-status-page/)
 

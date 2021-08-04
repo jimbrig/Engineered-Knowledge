@@ -29,7 +29,7 @@ Get clear on your priorities.
 
 ## Batch Tasks and Time Blocks
 
-Use your calendar, task manager coupled with labels, or a [time block planner](time%20block%20planner) to block your time into chunks that contain similar tasks.
+Use your calendar, task manager coupled with labels, or a [[Time Block Planner]] to block your time into chunks that contain similar tasks.
 
 
 ## Learn how to say **NO**
