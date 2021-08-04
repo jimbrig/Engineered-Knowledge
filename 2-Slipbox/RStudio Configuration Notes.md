@@ -60,21 +60,27 @@ As an R developer, we come across many  other various technologies during develo
 	- `reticulate` package for interacting with Python
 	- `radian` - A python package providing a much more developer friendly interface than the native `rterm` R-Terminal. (recommended) 
 - R Tools (required)
-- Git (required) + Git Client and Git LFS (optional)
+- Git (required) + Git-Bash + a Git Client + Git LFS (optional)
 - SSH (required) + SSH Keys in default location: `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub`
 - GPG (optional)
-- LaTeX / TeX Distribution (required)
+- LaTeX / TeX Distribution + `pdfLaTex` or `XeLaTeX` (required)
 	- Tinytex (recommended) - `install.packages(tinytex)`
 	- MikeTex
 	- TexLive
-- Java (recommended)
-- Pandoc (optional - comes with RStudio - but nice to have external install in your system's PATH to use from terminal)
+- Java (recommended) - `openjdk` - will need to set environment variable `JAVA_HOME`
+- Pandoc (optional - comes with RStudio - but nice to have external install in your system's `PATH` to use from terminal)
 - NodeJS (optional) - useful for various `npm` packages
 - VSCode (recommended) - alternative editor/IDE with extension support for R
 - Hugo (recommended for `blogdown` use)
-- Inno (optional) - can turn 
-- 7Zip (optional)
-- 
+- Inno (optional) - can turn Shiny apps into distributable executables
+- 7Zip (optional) - comes built in with RStudio
+- `cygwin` (optional)
+- `GhostScript` and `qPDF` for Package Maintainers
+- Sumatra PDF - comes with RStudio
+- Zotero (optional) - RStudio integrates with Zotero for bibliographies in R Markdown
+- WSL or BASH on Windows (optional)
+- `jetpack` Package Manager (CLI) (optional) (useful if used in conjunction with `topgrade`)
+- `cmake` / `make`
 
 ## Configure RStudio Settings
 
