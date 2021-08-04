@@ -6,7 +6,7 @@ Alias: Side-Projects
 Tags: ["Productivity"]
 ---
 
-# How to Ship Side Projects by Dann Felker
+# How to Ship Side Projects
 
 ![How to Ship Side Projects](https://www.donnfelker.com/wp-content/uploads/2021/06/nasa-dCgbRAQmTQA-unsplash-1024x590.jpg)
 
@@ -247,8 +247,8 @@ I will teach you about how to start freelancing and consulting from a software d
 
 ***
 
-Links: 
+Links: [[Dann Felker]]
 
-Sources:
+Sources: [Search for "ship side projects" - DONN FELKER](https://www.donnfelker.com/?s=ship+side+projects)
 
 

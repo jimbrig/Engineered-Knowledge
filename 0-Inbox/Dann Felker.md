@@ -19,10 +19,13 @@ Tags: ["#People"]
 Notes from Posts and original URLs:
 
 
-| Note                                                            | URL |
-| --------------------------------------------------------------- | --- |
-| [[Code is not Production Code]] | https://www.donnfelker.com/prototypeproof-of-concept-code-is-not-production-code/)|
-| [[How to Ship Side Projects]]                                   |     |
+| Note                                                     | URL                                                                                |     |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------- | --- |
+| [[Code is not Production Code]]                          | https://www.donnfelker.com/prototypeproof-of-concept-code-is-not-production-code/) |     |
+| [[How to Ship Side Projects]]                            | https://www.donnfelker.com/?s=ship+side+projects                                   |     |
+| [[Increase your productivity with outsourcing and SOPs]] | https://www.donnfelker.com/increase-your-productivity-with-outsourcing-and-sops/   |     |
+| [[Why you need to step out of your comfort zone]]        | https://www.donnfelker.com/why-you-need-to-step-out-of-your-comfort-zone/          |     |
+|                                                          |                                                                                    |     |
 
 
 

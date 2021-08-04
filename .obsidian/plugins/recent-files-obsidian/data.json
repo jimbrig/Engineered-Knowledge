@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Why you need to step out of your comfort zone",
+      "path": "0-Inbox/Why you need to step out of your comfort zone.md"
+    },
+    {
       "basename": "Dann Felker",
       "path": "0-Inbox/Dann Felker.md"
     },
     {
+      "basename": "How to Ship Side Projects",
+      "path": "2-Slipbox/How to Ship Side Projects.md"
+    },
+    {
       "basename": "Code is not Production Code",
       "path": "2-Slipbox/Code is not Production Code.md"
+    },
+    {
+      "basename": "Increase your productivity with outsourcing and SOPs",
+      "path": "0-Inbox/Increase your productivity with outsourcing and SOPs.md"
     },
     {
       "basename": "Utils Package Hidden Gems in R",
@@ -187,18 +199,6 @@
     {
       "basename": "MOC - R",
       "path": "1-Maps-of-Content/MOC - R.md"
-    },
-    {
-      "basename": "Cargo",
-      "path": "0-Inbox/Cargo.md"
-    },
-    {
-      "basename": "pip",
-      "path": "0-Inbox/pip.md"
-    },
-    {
-      "basename": "yarn",
-      "path": "0-Inbox/yarn.md"
     }
   ],
   "omittedPaths": [],
