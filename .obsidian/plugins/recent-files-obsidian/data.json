@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Unlinked-Files",
+      "path": "4-Logs/Unlinked-Files.md"
+    },
+    {
       "basename": "2021-08-04",
       "path": "3-Resources/Daily-Notes/2021-08-04.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Project-Note-Template",
       "path": "3-Resources/Templates/Project-Note-Template.md"
-    },
-    {
-      "basename": "MOC-Template",
-      "path": "3-Resources/Templates/MOC-Template.md"
     }
   ],
   "omittedPaths": [],
