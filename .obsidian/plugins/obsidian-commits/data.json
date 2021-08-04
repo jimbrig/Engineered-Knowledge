@@ -7131,15 +7131,15 @@
     },
     "0-Inbox/Dann Felker.md": {
       "size": 0,
-      "tags": 0,
-      "links": 0
+      "tags": 1,
+      "links": 2
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 734,
       "Create": 512,
-      "Link": 637,
+      "Link": 639,
       "Expand": 62
     }
   },
@@ -7160,7 +7160,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 21,
+      "15": 23,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7175,7 +7175,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 451,
+      "Wed": 453,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7344,6 +7344,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
@@ -7393,8 +7394,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL.md\"> WSL </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL Commands and Installs.md\"> WSL Commands and Installs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Github/Github Actions for R.md\"> Github Actions for R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker.md\"> Docker </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker Compose Reference Docs.md\"> Docker Compose Reference Docs </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker.md\"> Docker </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7463,6 +7463,7 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
@@ -7512,7 +7513,6 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>"
       ],
       "Removed Tags from": [

@@ -10,7 +10,11 @@ Tags: ["#People"]
 
 Blog: [DONN FELKER - Lessons Learned From the Software Industry](https://www.donnfelker.com/)
 
-Notes from Post
+Notes from Posts:
+
+[[Proof of Concept code is not production code! - DONN FELKER]]
+
+[[How to Ship Side Projects]]
 
 ***
 
