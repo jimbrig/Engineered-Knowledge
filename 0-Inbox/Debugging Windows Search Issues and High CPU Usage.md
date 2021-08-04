@@ -50,6 +50,25 @@ net start "WSearch"
 Alternatively, you can use the more advanced `sc` command:
 
 ```powershell
+# start / stop
+sc stop "WSearch"
+sc start "WSearch"
+
+# various startup options:
+sc config "WSearch" start=disabled
+sc config "WSearch" start=auto
+sc config "WSearch" start=demand
+sc config "WSearch" start=delayed-auto
+```
+
+### Method 2) Rename korwbrkr.sll to korwbrkr.bak
+
+Stop the "WSearch" service, and then run the following:
+
+```powershell
+cd %windir%\system32
+ren korwbrkr.sll korwbrkr.bak
+```
 
 ***
 
