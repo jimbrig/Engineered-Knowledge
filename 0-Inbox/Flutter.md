@@ -64,9 +64,9 @@ From a financial point of view, for a business, writing an app twice doesn’t m
 
 Since the inception of the two major players in mobile (iOS and Android) various cross-platform systems have attempted to solve the problem of creating two of the same app. Below are a number of options that folks have used.
 
-#### ![Phonegap](https://www.donnfelker.com/wp-content/uploads/2019/05/phonegap-300x93.png)
-
 #### **PhoneGap/Cordova**
+
+![Phonegap](https://www.donnfelker.com/wp-content/uploads/2019/05/phonegap-300x93.png)
 
 This didn’t really work out.
 
@@ -78,9 +78,9 @@ Overall the solution aways felt half baked and the user experience was never top
 
 I don’t recommend folks going this route. If they are evaluating this route I often will point them to just using. A PWA (Progressive Web App).
 
-#### ![React Native](https://www.donnfelker.com/wp-content/uploads/2019/05/reactnative-300x49.png)
-
 #### **React Native**
+
+![React Native](https://www.donnfelker.com/wp-content/uploads/2019/05/reactnative-300x49.png)
 
 [[React Native]] get’s us **really close** but it still falls a bit short …
 
@@ -104,23 +104,25 @@ Great apps for this are LOB apps (Line of Business), simple forms over data, etc
 
 As usual, it’s all about tradeoffs.
 
-![](https://www.donnfelker.com/wp-content/uploads/2019/05/xamarin-300x126.png)
-
 **Xamarin**
+
+![](https://www.donnfelker.com/wp-content/uploads/2019/05/xamarin-300x126.png)
 
 [[Xamarin]] works amazingly well, the problem here is that while I was able to achieve feature parity with Xamarin I felt that I had to learn both platforms due to the design nature of both platforms. This was rather painful. I was able to share 80% of the code, but the last 20% made it almost unbearable as I was having to learn both platforms again to create the UI. 
 
 Learning both platforms is a show-stopper. I want to write the app once and be done with it.
 
-That said, this technology is quite viable if your team is a .NET based team and you need an app that is not a game. I know many companies in the mid-west who use Xamarin to their success. Microsoft has done a great job of supporting this tool over the years. This, with Xamarin Forms, makes it super easy to build and ship a cross-platform app, that “just works”.
+That said, this technology is quite viable if your team is a [[DotNet Framework|.NET]] based team and you need an app that is not a game. I know many companies in the mid-west who use Xamarin to their success. [[Microsoft]] has done a great job of supporting this tool over the years. This, with Xamarin Forms, makes it super easy to build and ship a cross-platform app, that “just works”.
 
 However, for me, I can’t rely on it as I need to know .NET, iOS and Android systems and widgets. Under the hood these things map to existing widgets and while you can get featured parity quickly, you do have to maintain two platforms at some level and know the intricacies of each.
 
-**![Kotlin](https://www.donnfelker.com/wp-content/uploads/2019/05/kotlin-300x67.png)**
+
 
 #### **Kotlin Multiplatform / Native**
 
-I love Kotlin. In fact, I can’t imagine writing another Android only app in Java ever again.
+**![Kotlin](https://www.donnfelker.com/wp-content/uploads/2019/05/kotlin-300x67.png)**
+
+I love [[Kotlin]]. In fact, I can’t imagine writing another Android only app in Java ever again.
 
 However, I don’t think Kotlin native is where it’s at. I feel that Kotlin native is a distraction and many industry leaders are talking about how great it is and without a doubt it is a great technical feat … but … here’s where it falls down …
 
@@ -136,9 +138,10 @@ In other words, you’re going to peel Swift away from a iOS developers cold dea
 
 I feel that Kotlin Multiplatform and Kotlin to JavaScript are cool pieces of tech, but the user adoption might not be there. JavaScript already has a huge jump start on Kotlin in regards to adoption, but ultimately we get back to the same argument – what one person loves the other person hates. It is what it is.
 
-![PWA - Progressive Web App](https://www.donnfelker.com/wp-content/uploads/2019/05/pwa-logo-300x113.png "PWA - Progressive Web App")
 
-**PWA – Progressive Web Apps**
+#### **PWA – Progressive Web Apps**
+
+![PWA - Progressive Web App](https://www.donnfelker.com/wp-content/uploads/2019/05/pwa-logo-300x113.png)
 
 This one is interesting because I’m in a very small camp of people who believe that the web will win one day. It’s the ultimate platform.
 
@@ -232,11 +235,7 @@ Overall, I found the experience of setting up a new project easy, fast and I was
 
 ### **The Dart Programming Language**
 
-Flutter apps are written in Dart.
-
-I like Dart.
-
-That said, I’m not a raving fan of it either.
+Flutter apps are written in [[Dart]]. I like Dart. That said, I’m not a raving fan of it either.
 
 I think [Matt Sullivan](https://twitter.com/mjohnsullivan?lang=en) put it best in one of his talks (sorry can’t find the link) … and this is paraphrased …
 
@@ -375,7 +374,7 @@ Flutter a new way to write cross platform apps that is not encumbered by previou
 
 ***
 
-Links: [[Dann Felker]] | [[React Native]]
+Links: [[Dann Felker]] | [[React Native]] | [[Kotlin]] | [[Dart]] | [[Xamarin]]
 
 Sources: 
 - [Flutter Just Might Work - DONN FELKER](https://www.donnfelker.com/flutter-just-might-work/)

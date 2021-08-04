@@ -7125,9 +7125,9 @@
       "links": 4
     },
     "0-Inbox/Dann Felker.md": {
-      "size": 0,
+      "size": 2009,
       "tags": 1,
-      "links": 6
+      "links": 7
     },
     "2-Slipbox/Code is not Production Code.md": {
       "size": 2779,
@@ -7152,20 +7152,25 @@
     "0-Inbox/Flutter.md": {
       "size": 31343,
       "tags": 1,
-      "links": 6
+      "links": 9
     },
     "0-Inbox/React Native.md": {
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/The Three Buckets - Rule of Thirds.md": {
+      "size": 2451,
+      "tags": 1,
+      "links": 2
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 735,
-      "Create": 517,
-      "Link": 647,
-      "Expand": 66
+      "Create": 518,
+      "Link": 651,
+      "Expand": 68
     }
   },
   "dailyCommits": {
@@ -7185,7 +7190,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 41,
+      "15": 48,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7200,7 +7205,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 471,
+      "Wed": 478,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7210,6 +7215,8 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
@@ -7258,11 +7265,10 @@
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
-        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
-        "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>"
+        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/React Native.md\"> React Native </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
@@ -7312,8 +7318,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/CRAN.md\"> CRAN </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/R.md\"> R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cargo.md\"> Cargo </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/pip.md\"> pip </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/yarn.md\"> yarn </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/pip.md\"> pip </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
@@ -7369,6 +7374,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
@@ -7418,8 +7424,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/EDA Packages in R.md\"> EDA Packages in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Git/Git Tools.md\"> Git Tools </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL.md\"> WSL </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL Commands and Installs.md\"> WSL Commands and Installs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Github/Github Actions for R.md\"> Github Actions for R </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL Commands and Installs.md\"> WSL Commands and Installs </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7489,6 +7494,9 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
@@ -7535,10 +7543,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>"
+        "<a class=\"internal-link\" href=\"README.md\"> README </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

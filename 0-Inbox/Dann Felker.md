@@ -26,7 +26,8 @@ Notes from Posts and original URLs:
 | [[Increase your productivity with outsourcing and SOPs]] | https://www.donnfelker.com/increase-your-productivity-with-outsourcing-and-sops/   |     |
 | [[Why you need to step out of your comfort zone]]        | https://www.donnfelker.com/why-you-need-to-step-out-of-your-comfort-zone/          |     |
 | [[Why You Should Never Quit too Early]]                  | https://www.donnfelker.com/why-you-should-never-quit-too-early/                    |     |
-| [[Flutter]]                                                         |  https://www.donnfelker.com/flutter-just-might-work/                                                                                  |     |
+| [[Flutter]]                                              | https://www.donnfelker.com/flutter-just-might-work/                                |     |
+| [[The Three Buckets - Rule of Thirds]]                   | https://www.donnfelker.com/the-rule-of-thirds/                                                                                   |     |
 
 
 

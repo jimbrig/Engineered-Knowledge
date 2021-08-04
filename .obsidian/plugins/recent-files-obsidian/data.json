@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "The Three Buckets - Rule of Thirds",
+      "path": "0-Inbox/The Three Buckets - Rule of Thirds.md"
+    },
+    {
+      "basename": "Dann Felker",
+      "path": "0-Inbox/Dann Felker.md"
+    },
+    {
       "basename": "Flutter",
       "path": "0-Inbox/Flutter.md"
     },
     {
       "basename": "React Native",
       "path": "0-Inbox/React Native.md"
-    },
-    {
-      "basename": "Dann Felker",
-      "path": "0-Inbox/Dann Felker.md"
     },
     {
       "basename": "Why You Should Never Quit too Early",
@@ -195,10 +199,6 @@
     {
       "basename": "Microsoft Azure",
       "path": "0-Inbox/Microsoft Azure.md"
-    },
-    {
-      "basename": "Firebase",
-      "path": "0-Inbox/Firebase.md"
     }
   ],
   "omittedPaths": [],
