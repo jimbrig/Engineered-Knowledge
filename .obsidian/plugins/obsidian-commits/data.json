@@ -5997,7 +5997,7 @@
     "4-Logs/Changelog.md": {
       "size": 4933,
       "tags": 0,
-      "links": 88
+      "links": 92
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6284,11 +6284,6 @@
       "tags": 3,
       "links": 0
     },
-    "2-Slipbox/WSL.md": {
-      "size": 185,
-      "tags": 1,
-      "links": 0
-    },
     "3-Resources/Daily-Notes/2021-08-02.md": {
       "size": 0,
       "tags": 1,
@@ -6307,7 +6302,7 @@
     "1-Maps-of-Content/020 - Development.md": {
       "size": 7072,
       "tags": 3,
-      "links": 169
+      "links": 171
     },
     "1-Maps-of-Content/030 - Professional.md": {
       "size": 224,
@@ -6588,13 +6583,113 @@
       "size": 4163,
       "tags": 4,
       "links": 18
+    },
+    "2-Slipbox/Windows Subsystem for Linux (WSL).md": {
+      "size": 185,
+      "tags": 1,
+      "links": 0
+    },
+    "0-Inbox/DotNet Framework.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Visual Studio.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Visual Studio Code.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/NuGet.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Windows SDK.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Windows APK.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/WindowsPE.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/DISM.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/SFC.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Drivers.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/BIOS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Disk Partitions.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Windows Insider.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Windows 10.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Windows 11.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/SQL.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Visual Basic.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Node.js.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/CSS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 727,
-      "Create": 400,
-      "Link": 625,
+      "Refactor": 728,
+      "Create": 419,
+      "Link": 627,
       "Expand": 62
     }
   },
@@ -6614,7 +6709,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 46,
+      "14": 68,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -6630,7 +6725,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 320,
+      "Wed": 342,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6693,6 +6788,25 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/CSS.md\"> CSS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Node.js.md\"> Node.js </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Visual Basic.md\"> Visual Basic </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/SQL.md\"> SQL </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Windows 11.md\"> Windows 11 </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Windows 10.md\"> Windows 10 </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Windows Insider.md\"> Windows Insider </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Disk Partitions.md\"> Disk Partitions </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/BIOS.md\"> BIOS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Drivers.md\"> Drivers </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/SFC.md\"> SFC </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/DISM.md\"> DISM </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/WindowsPE.md\"> WindowsPE </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Windows APK.md\"> Windows APK </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Windows SDK.md\"> Windows SDK </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/NuGet.md\"> NuGet </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Visual Studio Code.md\"> Visual Studio Code </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Visual Studio.md\"> Visual Studio </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/DotNet Framework.md\"> DotNet Framework </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Tools - Github.md\"> Tools - Github </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Tools - Outlook.md\"> Tools - Outlook </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Tools - Todoist.md\"> Tools - Todoist </a>",
@@ -6724,28 +6838,10 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Gyroscope.md\"> Gyroscope </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Archive.md\"> Archive </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Index.md\"> Index </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Fleeting.md\"> Fleeting </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Ephemeral.md\"> Ephemeral </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Wisdom.md\"> Wisdom </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Knowledge.md\"> Knowledge </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Dictionary.md\"> Dictionary </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"images/terminal-command-args.gif.md\"> terminal-command-args.gif </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-02.md\"> 2021-08-02 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Archive.md\"> Archive </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Subsystem for Linux (WSL).md\"> Windows Subsystem for Linux (WSL) </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Obsidian.md\"> MOC - Obsidian </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/MOC - PowerShell.md\"> MOC - PowerShell </a>",
@@ -6795,8 +6891,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/APIs.md\"> APIs </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/APIs.md\"> APIs </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>"
+        "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
@@ -6917,6 +7012,8 @@
         "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal.md\"> Windows Terminal </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
@@ -6963,8 +7060,6 @@
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"

@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Obsidian Setup.md",
+            "file": "0-Inbox/Nodejs.md",
             "mode": "source"
           }
         }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "terminal",
+                "query": ".Net Framework",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Obsidian Setup.md",
+                "file": "0-Inbox/Nodejs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Obsidian Setup.md",
+                "file": "0-Inbox/Nodejs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Obsidian Setup.md"
+                "file": "0-Inbox/Nodejs.md"
               }
             }
           },
@@ -211,15 +211,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "2-Slipbox/Obsidian Setup.md",
-    "4-Logs/README.md",
+    "0-Inbox/Nodejs.md",
+    "1-Maps-of-Content/020 - Development.md",
     "0-Inbox/README.md",
-    "1-Maps-of-Content/MOC - Obsidian Resources.md",
-    "4-Logs/Vault-Consistensy-Report.md",
-    "2-Slipbox/Obsidian Taxonomy.md",
-    "0-Inbox/Tools - Github.md",
-    "0-Inbox/Tools - Outlook.md",
-    "0-Inbox/Tools - Todoist.md",
-    "2-Slipbox/Obsidian Templater Plugin Notes.md"
+    "0-Inbox/CSS.md",
+    "0-Inbox/Node.js.md",
+    "0-Inbox/Visual Basic.md",
+    "0-Inbox/SQL.md",
+    "0-Inbox/Windows 11.md",
+    "0-Inbox/Windows 10.md",
+    "0-Inbox/Windows Insider.md"
   ]
 }

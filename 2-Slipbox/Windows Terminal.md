@@ -12,7 +12,7 @@ Tags: []
 
 [[WinGet CLI Setup and Settings]]
 
-[[WSL]]
+[[Windows Subsystem for Linux (WSL)]]
 
 [[WSL Commands and Installs]]
 

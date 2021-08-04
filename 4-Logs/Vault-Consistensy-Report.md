@@ -1,4 +1,4 @@
-e# Bad links (27 files)
+# Bad links (24 files)
 [2-Slipbox/Windows Registry Paths and Keys.md](2-Slipbox/Windows%20Registry%20Paths%20and%20Keys.md): 
 - (line 32): `Windows Registry#Resources`
 
@@ -23,32 +23,14 @@ e# Bad links (27 files)
 
 
 [2-Slipbox/Reset OneDrive with Command Line.md](2-Slipbox/Reset%20OneDrive%20with%20Command%20Line.md): 
-- (line 17): `PowerShell`
-
-
-[2-Slipbox/Project Management Pipeline.md](2-Slipbox/Project%20Management%20Pipeline.md): 
-- (line 60): `PKM`
-- (line 60): `Productivity`
-
-
-[2-Slipbox/Obsidian Templater Plugin Notes.md](2-Slipbox/Obsidian%20Templater%20Plugin%20Notes.md): 
-- (line 13): `PKM`
-
-
-[2-Slipbox/Obsidian Taxonomy.md](2-Slipbox/Obsidian%20Taxonomy.md): 
-- (line 23): `Todoist`
-- (line 23): `Outlook`
-- (line 23): `Github`
+- (line 17): `MOC - PowerShell.md`
 
 
 [2-Slipbox/Obsidian Setup.md](2-Slipbox/Obsidian%20Setup.md): 
-- (line 20): `Obsidian - MOC`
-- (line 21): `R - MOC`
-- (line 37): `Mindsweeps`
-- (line 38): `Templates`
-- (line 39): `Unresolved Somethings`
-- (line 40): `Vault Statistics`
-- (line 42): `About`
+- (line 36): `../3-Resources/Templates/README.me`
+- (line 37): `Unresolved Somethings`
+- (line 38): `Vault Statistics`
+- (line 40): `About`
 
 
 [2-Slipbox/Obsidian Links List.md](2-Slipbox/Obsidian%20Links%20List.md): 
@@ -115,7 +97,7 @@ e# Bad links (27 files)
 
 
 [2-Slipbox/Enhanced CleanMgr Command.md](2-Slipbox/Enhanced%20CleanMgr%20Command.md): 
-- (line 18): `PowerShell`
+- (line 18): `MOC - PowerShell.md`
 
 
 [2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md](2-Slipbox/Debugging%20Windows%20Search%20Issues%20and%20High%20CPU%20Usage.md): 
@@ -131,7 +113,7 @@ e# Bad links (27 files)
 - (line 61): `.Rprofile`
 
 
-[1-Maps-of-Content/MOC - Obsidian Resources.md](MOC%20-%20Obsidian.md): 
+[1-Maps-of-Content/MOC - Obsidian.md](1-Maps-of-Content/MOC%20-%20Obsidian.md): 
 - (line 94): `Obsidian Taxonomy#Links`
 - (line 95): `Obsidian Taxonomy#Sources`
 
@@ -160,7 +142,6 @@ e# Bad links (27 files)
 [1-Maps-of-Content/020 - Development.md](1-Maps-of-Content/020%20-%20Development.md): 
 - (line 38): `Windows Subsystem for Linux (WSL)`
 - (line 40): `.Net Framework`
-- (line 40): `PowerShell`
 - (line 40): `Windows Terminal.md`
 - (line 40): `Visual Studio`
 - (line 40): `Visual Studio Code`
@@ -204,7 +185,6 @@ e# Bad links (27 files)
 - (line 73): `Clojure`
 - (line 74): `LaTex`
 - (line 74): `TeX`
-- (line 75): `PowerShell`
 - (line 76): `Command Line - CMD`
 - (line 77): `Ubuntu`
 - (line 78): `Bash`
@@ -218,7 +198,6 @@ e# Bad links (27 files)
 - (line 90): `Bulma.js`
 - (line 91): `Next.js`
 - (line 97): `Windows Terminal.md`
-- (line 98): `PowerShell`
 - (line 99): `Command Line - CMD`
 - (line 100): `Ubuntu`
 - (line 101): `Bash`
@@ -338,14 +317,36 @@ No problems found
 # Bad embeds 
 No problems found
 
-# Wiki links (2 files)
+# Wiki links (6 files)
 [2-Slipbox/Windows Terminal.md](2-Slipbox/Windows%20Terminal.md): 
 - (line 10): `[[Windows Terminal Command Line Arguments]]`
 - (line 12): `[[WinGet CLI Setup and Settings]]`
 - (line 14): `[[WSL]]`
 - (line 16): `[[WSL Commands and Installs]]`
 - (line 18): `[[WSL-Notes]]`
-- (line 22): `[[Start an Offline Scan with Windows Defender from PowerShell]]`
+- (line 20): `[[MOC - PowerShell|PowerShell]]`
+- (line 24): `[[Start an Offline Scan with Windows Defender from PowerShell]]`
+
+
+[2-Slipbox/Project Management Pipeline.md](2-Slipbox/Project%20Management%20Pipeline.md): 
+- (line 61): `[[MOC - PKM]]`
+- (line 61): `[[010 - Productivity]]`
+
+
+[2-Slipbox/Obsidian Templater Plugin Notes.md](2-Slipbox/Obsidian%20Templater%20Plugin%20Notes.md): 
+- (line 13): `[[MOC - PKM]]`
+
+
+[2-Slipbox/Obsidian Taxonomy.md](2-Slipbox/Obsidian%20Taxonomy.md): 
+- (line 23): `[[Tools - Todoist|Todoist]]`
+- (line 23): `[[Tools - Outlook|Outlook]]`
+- (line 23): `[[Tools - Github|Github]]`
+
+
+[2-Slipbox/Obsidian Setup.md](2-Slipbox/Obsidian%20Setup.md): 
+- (line 20): `[[MOC - Obsidian]]`
+- (line 21): `[[MOC - R]]`
+- (line 22): `[[020 - Development]]`
 
 
 [1-Maps-of-Content/MOC - Web Development.md](1-Maps-of-Content/MOC%20-%20Web%20Development.md): 

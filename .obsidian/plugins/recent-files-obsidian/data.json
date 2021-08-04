@@ -1,28 +1,140 @@
 {
   "recentFiles": [
     {
-      "basename": "Obsidian Setup",
-      "path": "2-Slipbox/Obsidian Setup.md"
+      "basename": "Nodejs",
+      "path": "0-Inbox/Nodejs.md"
     },
     {
-      "basename": "README",
-      "path": "4-Logs/README.md"
+      "basename": "020 - Development",
+      "path": "1-Maps-of-Content/020 - Development.md"
     },
     {
       "basename": "README",
       "path": "0-Inbox/README.md"
     },
     {
-      "basename": "MOC - Obsidian",
-      "path": "1-Maps-of-Content/MOC - Obsidian.md"
+      "basename": "CSS",
+      "path": "0-Inbox/CSS.md"
+    },
+    {
+      "basename": "Node.js",
+      "path": "0-Inbox/Node.js.md"
+    },
+    {
+      "basename": "Visual Basic",
+      "path": "0-Inbox/Visual Basic.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "0-Inbox/SQL.md"
+    },
+    {
+      "basename": "Windows 11",
+      "path": "0-Inbox/Windows 11.md"
+    },
+    {
+      "basename": "Windows 10",
+      "path": "0-Inbox/Windows 10.md"
+    },
+    {
+      "basename": "Windows Insider",
+      "path": "0-Inbox/Windows Insider.md"
+    },
+    {
+      "basename": "Disk Partitions",
+      "path": "0-Inbox/Disk Partitions.md"
+    },
+    {
+      "basename": "BIOS",
+      "path": "0-Inbox/BIOS.md"
+    },
+    {
+      "basename": "Drivers",
+      "path": "0-Inbox/Drivers.md"
+    },
+    {
+      "basename": "SFC",
+      "path": "0-Inbox/SFC.md"
+    },
+    {
+      "basename": "DISM",
+      "path": "0-Inbox/DISM.md"
+    },
+    {
+      "basename": "WindowsPE",
+      "path": "0-Inbox/WindowsPE.md"
+    },
+    {
+      "basename": "Windows APK",
+      "path": "0-Inbox/Windows APK.md"
+    },
+    {
+      "basename": "Windows SDK",
+      "path": "0-Inbox/Windows SDK.md"
+    },
+    {
+      "basename": "NuGet",
+      "path": "0-Inbox/NuGet.md"
+    },
+    {
+      "basename": "Visual Studio Code",
+      "path": "0-Inbox/Visual Studio Code.md"
+    },
+    {
+      "basename": "Visual Studio",
+      "path": "0-Inbox/Visual Studio.md"
+    },
+    {
+      "basename": "DotNet Framework",
+      "path": "0-Inbox/DotNet Framework.md"
     },
     {
       "basename": "Vault-Consistensy-Report",
       "path": "4-Logs/Vault-Consistensy-Report.md"
     },
     {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+    },
+    {
+      "basename": "Windows Subsystem for Linux (WSL)",
+      "path": "2-Slipbox/Windows Subsystem for Linux (WSL).md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "Windows Terminal",
+      "path": "2-Slipbox/Windows Terminal.md"
+    },
+    {
+      "basename": "Obsidian Templater Plugin Notes",
+      "path": "2-Slipbox/Obsidian Templater Plugin Notes.md"
+    },
+    {
       "basename": "Obsidian Taxonomy",
       "path": "2-Slipbox/Obsidian Taxonomy.md"
+    },
+    {
+      "basename": "Obsidian Setup",
+      "path": "2-Slipbox/Obsidian Setup.md"
+    },
+    {
+      "basename": "MOC - Web Development",
+      "path": "1-Maps-of-Content/MOC - Web Development.md"
+    },
+    {
+      "basename": "050 - Computer",
+      "path": "1-Maps-of-Content/050 - Computer.md"
+    },
+    {
+      "basename": "README",
+      "path": "4-Logs/README.md"
+    },
+    {
+      "basename": "MOC - Obsidian",
+      "path": "1-Maps-of-Content/MOC - Obsidian.md"
     },
     {
       "basename": "Tools - Github",
@@ -35,10 +147,6 @@
     {
       "basename": "Tools - Todoist",
       "path": "0-Inbox/Tools - Todoist.md"
-    },
-    {
-      "basename": "Obsidian Templater Plugin Notes",
-      "path": "2-Slipbox/Obsidian Templater Plugin Notes.md"
     },
     {
       "basename": "Project Management Pipeline",
@@ -57,14 +165,6 @@
       "path": "2-Slipbox/Reset OneDrive with Command Line.md"
     },
     {
-      "basename": "Windows Terminal",
-      "path": "2-Slipbox/Windows Terminal.md"
-    },
-    {
-      "basename": "MOC - Web Development",
-      "path": "1-Maps-of-Content/MOC - Web Development.md"
-    },
-    {
       "basename": "System Design Primer",
       "path": "2-Slipbox/System Design Primer.md"
     },
@@ -77,20 +177,12 @@
       "path": "2-Slipbox/Windows Terminal Command Line Arguments.md"
     },
     {
-      "basename": "WSL",
-      "path": "2-Slipbox/WSL.md"
-    },
-    {
       "basename": "README",
       "path": "2-Slipbox/README.md"
     },
     {
       "basename": "Time Management",
       "path": "2-Slipbox/Time Management.md"
-    },
-    {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
     },
     {
       "basename": "Views vs. Materialized Views",
@@ -107,98 +199,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Dictionaries/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Daily-Notes/README.md"
-    },
-    {
-      "basename": "About the AppxProvisioning.xml File in Windows",
-      "path": "2-Slipbox/About the AppxProvisioning.xml File in Windows.md"
-    },
-    {
-      "basename": "How To Change Explorer Drive Icons via Registry",
-      "path": "2-Slipbox/How To Change Explorer Drive Icons via Registry.md"
-    },
-    {
-      "basename": "2021-08-02",
-      "path": "3-Resources/Daily-Notes/2021-08-02.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/README.md"
-    },
-    {
-      "basename": "XML",
-      "path": "2-Slipbox/XML.md"
-    },
-    {
-      "basename": "WSL-Notes",
-      "path": "2-Slipbox/WSL-Notes.md"
-    },
-    {
-      "basename": "Bootstrapping Dotfiles",
-      "path": "2-Slipbox/Bootstrapping Dotfiles.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "2-Slipbox/Linux.md"
-    },
-    {
-      "basename": "SFC and DISM Commands",
-      "path": "2-Slipbox/SFC and DISM Commands.md"
-    },
-    {
-      "basename": "Unlinked-Files",
-      "path": "4-Logs/Unlinked-Files.md"
-    },
-    {
-      "basename": "Mindsweep Trigger List",
-      "path": "3-Resources/Mindsweeps/Mindsweep Trigger List.md"
-    },
-    {
-      "basename": "Mindsweep-Note-Template",
-      "path": "3-Resources/Templates/Mindsweep-Note-Template.md"
-    },
-    {
-      "basename": "2020-04-20",
-      "path": "3-Resources/Daily-Notes/2020-04-20.md"
-    },
-    {
-      "basename": "2020-08-20",
-      "path": "3-Resources/Daily-Notes/2020-08-20.md"
-    },
-    {
-      "basename": "Windows Command Line Commands Overview",
-      "path": "2-Slipbox/Windows Command Line Commands Overview.md"
-    },
-    {
-      "basename": "AutoHotKey Scripts",
-      "path": "2-Slipbox/AutoHotKey Scripts.md"
-    },
-    {
-      "basename": "Using diskusage Command in Windows",
-      "path": "2-Slipbox/Using diskusage Command in Windows.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Unresolved-Links",
-      "path": "4-Logs/Unresolved-Links.md"
-    },
-    {
-      "basename": "SyncLog",
-      "path": "4-Logs/SyncLog.md"
-    },
-    {
-      "basename": "Changelog",
-      "path": "4-Logs/Changelog.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Gallery/README.md"
     }
   ],
   "omittedPaths": [],

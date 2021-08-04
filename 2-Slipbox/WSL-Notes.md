@@ -16,7 +16,7 @@ I will install the following:
 
 ## Prerequisites
 
-By far the best resources for getting started with [WSL](WSL.md) is the [Microsoft Docs](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+By far the best resources for getting started with [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL).md) is the [Microsoft Docs](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 - You need to be on Windows version 1903 or higher, Build 18362 or higher.
 

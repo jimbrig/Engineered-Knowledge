@@ -38,7 +38,7 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 
 [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL))
 
-[.Net Framework](.Net%20Framework) | [MOC - PowerShell](MOC%20-%20PowerShell.md) | [Windows Terminal](Windows%20Terminal.md) | [Visual Studio](Visual%20Studio) | [Visual Studio Code](Visual%20Studio%20Code) | [NuGet](NuGet)
+[[DotNet Framework]] | [MOC - PowerShell](MOC%20-%20PowerShell.md) | [Windows Terminal](Windows%20Terminal.md) | [Visual Studio](Visual%20Studio) | [Visual Studio Code](Visual%20Studio%20Code) | [NuGet](NuGet)
 
 [Windows SDK](Windows%20SDK) | [Windows APK](Windows%20APK) | [WindowsPE](WindowsPE)
 
@@ -48,10 +48,10 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 
 ## Languages and Command Line Interfaces (CLI)
 
-- [R](R)
+- [[MOC - R|R]]
 - [SQL](SQL)
 - [Visual Basic](Visual%20Basic)
-- [Node.js](Node.js)
+- [Nodejs](Nodejs)
 - [Python](../2-Slipbox/Python.md)
 - [Javascript](../2-Slipbox/Javascript.md)
 - [CSS](CSS) | [SASS](SASS)
@@ -75,7 +75,7 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 - [Markdown](../2-Slipbox/Markdown.md) | [LaTex](LaTex) | [TeX](TeX)
 - [MOC - PowerShell](MOC%20-%20PowerShell.md)
 - [Command Line - CMD](Command%20Line%20-%20CMD) (DOS)
-- [WSL](../2-Slipbox/WSL.md) | [Ubuntu](Ubuntu)
+- [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL).md) | [Ubuntu](Ubuntu)
 - [Bash](Bash) | [Git-Bash](Git)
 
 ### Containers and Orchestration
@@ -98,7 +98,7 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 - [Windows Terminal](Windows%20Terminal.md)
 - [MOC - PowerShell](MOC%20-%20PowerShell.md)
 - [Command Line - CMD](Command%20Line%20-%20CMD) (DOS)
-- [WSL](../2-Slipbox/WSL.md) | [Ubuntu](Ubuntu)
+- [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL).md) | [Ubuntu](Ubuntu)
 - [Bash](Bash) | [Git-Bash](Git)
 
 ### Text Editors & IDEs
@@ -134,7 +134,7 @@ Also: [HTTPS](HTTPS), [SSH](SSH), and [GPG](GPG) for integration with [Git](Git)
 - [Ninite](Ninite)
 - [Pacman](Pacman) - [MSYS2](MSYS2)-ported Windows version of the Arch Linux package Manager.
 - [vcpkg](vcpkg)
-- [Homebrew](Homebrew) - only with [WSL](../2-Slipbox/WSL.md)
+- [Homebrew](Homebrew) - only with [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL).md)
 
 #### UNIX Package Managers
 
