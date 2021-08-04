@@ -1,11 +1,32 @@
 ---
-creation date: 2021-04-28 10:25
-modification date: Wednesday 28th April 2021 10:25:57
-tags: ["#R"
-author: Jimmy Briggs
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Wednesday 4th August 2021 16:53:16
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Shiny-Apps-as-Packages
+Tags: ["#R", "#Development"]
 ---
 
 # Shiny Apps as Packages in R
+
+## Contents
+
+- [[#Books|Books]]
+- [[#Blog Posts|Blog Posts]]
+- [[#Articles|Articles]]
+- [[#Further Reading|Further Reading]]
+- [[#R Package Development|R Package Development]]
+	- [[#R-Core & CRAN|R-Core & CRAN]]
+	- [[#rOpenSci|rOpenSci]]
+	- [[#BioConductor|BioConductor]]
+	- [[#RStudio|RStudio]]
+	- [[#Books|Books]]
+	- [[#Tutorials|Tutorials]]
+	- [[#Workshops|Workshops]]
+	- [[#Blogs|Blogs]]
+	- [[#Style|Style]]
+- [[#Shiny Modules|Shiny Modules]]
+- [[#Desktop Applications|Desktop Applications]]
+
 
 ### Books
 
@@ -118,6 +139,6 @@ These resources are for general package development within the R ecosystem.
 - <https://www.travishinkelman.com/deploy-shiny-electron/>
 
 ***
-Links: 
-Source:
+Links: [[MOC - R]] | [[020 - Development]] | [[WebDev Resource List]]
+
 

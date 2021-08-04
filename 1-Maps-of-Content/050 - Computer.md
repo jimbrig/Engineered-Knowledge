@@ -32,6 +32,10 @@ Tags: []
 
 ## Windows Notes
 
+[[SFC and DISM Commands]]
+
+[[Run Com]]
+
 ### Developer Environment
 
 [Windows Developer Environment](../2-Slipbox/Windows%20Developer%20Environment.md) | [Windows-Development-Environment.pdf](assets/Windows-Development-Environment.pdf)

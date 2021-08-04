@@ -1,6 +1,4 @@
 - [[Tools - Resilio Sync]]
-- [[Shiny Apps as Packages in R]]
-- [[SFC and DISM Commands]]
 - [[Run Command to Edit Environment Variables]]
 - [[RStudio Configuration Notes]]
 - [[R Miscellaneous Notes]]

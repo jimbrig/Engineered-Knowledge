@@ -1,3 +1,11 @@
+---
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Wednesday 4th August 2021 14:12:14
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: SFC and DISM Commands
+Tags: ["#Windows"]
+---
+
 # SFC Scannow and DISM Commands
 
 On Windows 10, when you start noticing random errors, problems booting up, or features not working as expected, there's a good chance that one or multiple system files might have gone missing or corrupted for unknown reasons. Usually, problems with system files could occur as a result of an issue installing a system update, driver, or application, or while making changes to the installation manually.
@@ -142,7 +150,8 @@ Windows Registry Editor Version 5.00
 
 ***
 
-JIMMY BRIGGS - 2021
+Links : [[020 - Development]] | [[050 - Computer]] | [[Windows Developer Environment]] | [[Windows Registry]] | [[MOC - PowerShell]] | [[MOC - Setup]] 
+
 
 
 

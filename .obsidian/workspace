@@ -54,6 +54,28 @@
           "type": "markdown",
           "state": {
             "file": "2-Slipbox/Shiny Apps as Packages in R.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "d23f750ac5f9ecd0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1-Maps-of-Content/050 - Computer.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "f703e17ac5174fcb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1-Maps-of-Content/050 - Computer.md",
             "mode": "source"
           }
         }
@@ -152,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Shiny Apps as Packages in R.md",
+                "file": "1-Maps-of-Content/050 - Computer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Shiny Apps as Packages in R.md",
+                "file": "1-Maps-of-Content/050 - Computer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Shiny Apps as Packages in R.md"
+                "file": "1-Maps-of-Content/050 - Computer.md"
               }
             }
           },
@@ -244,17 +266,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c59828ff5f8babe8",
+  "active": "f703e17ac5174fcb",
   "lastOpenFiles": [
-    "2-Slipbox/Shiny Apps as Packages in R.md",
+    "1-Maps-of-Content/050 - Computer.md",
+    "2-Slipbox/Run Command to Edit Environment Variables.md",
     "4-Logs/Unlinked-Files.md",
+    "2-Slipbox/SFC and DISM Commands.md",
+    "1-Maps-of-Content/README.md",
+    "2-Slipbox/Shiny Apps as Packages in R.md",
     "2-Slipbox/Taming a Chaotic Project.md",
     "2-Slipbox/Useful Packages in R List.md",
     "2-Slipbox/Web Browsers.md",
-    "0-Inbox/Google Chrome.md",
-    "0-Inbox/Mozilla Firefox.md",
-    "0-Inbox/Microsoft Edge.md",
-    "2-Slipbox/Web terms 101 – Google Domains.md",
-    "3-Resources/Daily-Notes/2021-08-04.md"
+    "0-Inbox/Google Chrome.md"
   ]
 }

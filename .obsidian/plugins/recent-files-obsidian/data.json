@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Shiny Apps as Packages in R",
-      "path": "2-Slipbox/Shiny Apps as Packages in R.md"
+      "basename": "050 - Computer",
+      "path": "1-Maps-of-Content/050 - Computer.md"
+    },
+    {
+      "basename": "Run Command to Edit Environment Variables",
+      "path": "2-Slipbox/Run Command to Edit Environment Variables.md"
     },
     {
       "basename": "Unlinked-Files",
       "path": "4-Logs/Unlinked-Files.md"
+    },
+    {
+      "basename": "SFC and DISM Commands",
+      "path": "2-Slipbox/SFC and DISM Commands.md"
+    },
+    {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+    },
+    {
+      "basename": "Shiny Apps as Packages in R",
+      "path": "2-Slipbox/Shiny Apps as Packages in R.md"
     },
     {
       "basename": "Taming a Chaotic Project",
@@ -183,22 +199,6 @@
     {
       "basename": "GTD - Desired Outcome",
       "path": "0-Inbox/GTD - Desired Outcome.md"
-    },
-    {
-      "basename": "Notes on Finishing Projects",
-      "path": "2-Slipbox/Notes on Finishing Projects.md"
-    },
-    {
-      "basename": "Time Block Planner",
-      "path": "0-Inbox/Time Block Planner.md"
-    },
-    {
-      "basename": "Time Management",
-      "path": "2-Slipbox/Time Management.md"
-    },
-    {
-      "basename": "Windows Registry Paths and Keys",
-      "path": "2-Slipbox/Windows Registry Paths and Keys.md"
     }
   ],
   "omittedPaths": [],

@@ -6007,7 +6007,7 @@
     "4-Logs/Unlinked-Files.md": {
       "size": 2234,
       "tags": 0,
-      "links": 40
+      "links": 37
     },
     "4-Logs/Unresolved-Links.md": {
       "size": 14517,
@@ -6066,8 +6066,8 @@
     },
     "2-Slipbox/SFC and DISM Commands.md": {
       "size": 6771,
-      "tags": 0,
-      "links": 2
+      "tags": 1,
+      "links": 8
     },
     "2-Slipbox/Using diskusage Command in Windows.md": {
       "size": 1837,
@@ -6162,7 +6162,7 @@
     "2-Slipbox/Shiny Apps as Packages in R.md": {
       "size": 5858,
       "tags": 2,
-      "links": 0
+      "links": 18
     },
     "2-Slipbox/Tools Package Hidden Gems in R.md": {
       "size": 307,
@@ -6312,7 +6312,7 @@
     "1-Maps-of-Content/050 - Computer.md": {
       "size": 901,
       "tags": 0,
-      "links": 17
+      "links": 18
     },
     "1-Maps-of-Content/MOC - Databases.md": {
       "size": 301,
@@ -7307,9 +7307,9 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 886,
+      "Refactor": 887,
       "Create": 647,
-      "Link": 702,
+      "Link": 706,
       "Expand": 82
     }
   },
@@ -7331,7 +7331,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 395,
+      "16": 400,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7345,7 +7345,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 823,
+      "Wed": 828,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7514,6 +7514,7 @@
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/SFC and DISM Commands.md\"> SFC and DISM Commands </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Useful Packages in R List.md\"> Useful Packages in R List </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/README.md\"> README </a>",
@@ -7563,8 +7564,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-30.md\"> 2021-07-30 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Resources.md\"> Plumber Resources </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Databases with R Resources.md\"> Databases with R Resources </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Data Validation Packages in R.md\"> Data Validation Packages in R </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Databases with R Resources.md\"> Databases with R Resources </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7633,6 +7633,9 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/050 - Computer.md\"> 050 - Computer </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/SFC and DISM Commands.md\"> SFC and DISM Commands </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Shiny Apps as Packages in R.md\"> Shiny Apps as Packages in R </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Useful Packages in R List.md\"> Useful Packages in R List </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
@@ -7680,10 +7683,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -7710,6 +7710,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
@@ -7759,8 +7760,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
       ]
     }
   },
