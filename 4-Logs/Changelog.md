@@ -1,4 +1,4 @@
-- 2021-08-04 at 17h17 · [[RStudio Configuration Notes]]
+- 2021-08-04 at 17h22 · [[RStudio Configuration Notes]]
 - 2021-08-04 at 17h13 · [[Package Managers]]
 - 2021-08-04 at 16h58 · [[Unlinked-Files]]
 - 2021-08-04 at 16h58 · [[050 - Computer]]

@@ -37,7 +37,20 @@ scoop install rstudio # --global if want system-wide
 winget install RStudio.RStudio.OpenSource
 ```
 
-You can also install various versions of RStudio such as the daily release using the R Bucket for Scoop](https://github.com/cderv/r-bucket) or 
+### Daily and Preview Builds
+
+You can also install various versions of RStudio such as the daily release using the [R Bucket for Scoop](https://github.com/cderv/r-bucket):
+
+- [RStudio Preview](https://rstudio.com/products/rstudio/download/preview/)
+- [RStudio Daily](https://dailies.rstudio.com/)
+
+```powershell
+scoop bucket add r-bucket https://github.com/cderv/r-bucket.git
+scoop install r-devel
+scoop install rstudio-preview
+scoop install rstudio-pro-preview
+scoop install rstudio-daily
+```
 
 ## Configure RStudio Settings
 
@@ -60,6 +73,8 @@ usethis::use_blank_slate(scope = "user")
 
 _See `?usethis::use_blank_slate` for more information._
 
+### Other Preferences
+
 - GIT/SVN project settings allow RStudio to provide a graphical interface to your version control system.
 - R version settings allow RStudio to ‘point’ to different R versions/interpreters, which may be faster for some projects.
 - Code editing options can make RStudio adapt to your coding style, for example, by preventing the autocompletion of braces, which some experienced programmers may find annoying. Enabling Vim mode makes RStudio act as a (partial) Vim emulator.
@@ -68,12 +83,19 @@ _See `?usethis::use_blank_slate` for more information._
 	- Other options in this area relate more to aesthetics. Settings such as font type and background color are also important because feeling comfortable in your programming environment can boost productivity. Go to `Tools > Global Options` to modify these.
 
 
+## Advanced Configuration Workflows
 
+- Note that RStudio's Preference files on windows are stored:
+	- `%localappdata%\RStudio-Desktop` - RStudio Desktop Internal State
+	- `%appdata%\RStudio` - RStudio Configuration Directory (Preferences)
+
+Configuration files to backup:
+- 
 
 
 ## Windows Directories
-* `%localappdata%\RStudio-Desktop` - RStudio Desktop Internal State
-* `%appdata%\RStudio` - RStudio Configuration Directory (Preferences)
+* `
+* 
 
 
 ***
