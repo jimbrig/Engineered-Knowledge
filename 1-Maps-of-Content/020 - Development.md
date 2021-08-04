@@ -61,12 +61,12 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 - [Rust](Rust)
 - [Go](Go)
 - [PHP](PHP)
-- [C++](C++) | [C](C) | [C-Sharp](C-Sharp)
+- [C++](C++) | [C](C) | [C#](C-Sharp)
 - [Assembly](Assembly)
 - [Swift](Swift) | [Objective-C](Objective-C)
 - [Java](Java)
 - [Groovy](Groovy)
-- [.Net Framework](.Net%20Framework)
+- [[DotNet Framework]]
 - [Xamarin](Xamarin)
 - [Perl](Perl)
 - [Scala](Scala)
@@ -74,7 +74,7 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 - [Clojure](Clojure)
 - [Markdown](../2-Slipbox/Markdown.md) | [LaTex](LaTex) | [TeX](TeX)
 - [MOC - PowerShell](MOC%20-%20PowerShell.md)
-- [Command Line - CMD](Command%20Line%20-%20CMD) (DOS)
+- [[MOC - Command Line]] (DOS)
 - [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL).md) | [Ubuntu](Ubuntu)
 - [Bash](Bash) | [Git-Bash](Git)
 
@@ -97,7 +97,7 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 
 - [Windows Terminal](Windows%20Terminal.md)
 - [MOC - PowerShell](MOC%20-%20PowerShell.md)
-- [Command Line - CMD](Command%20Line%20-%20CMD) (DOS)
+- [[MOC - Command Line]]
 - [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL).md) | [Ubuntu](Ubuntu)
 - [Bash](Bash) | [Git-Bash](Git)
 
@@ -146,7 +146,7 @@ Also: [HTTPS](HTTPS), [SSH](SSH), and [GPG](GPG) for integration with [Git](Git)
 - [npm](npm) and [yarn](yarn) for [Node.js](Node.js) and [Javascript](../2-Slipbox/Javascript.md)
 - [pip](pip) for [Python](../2-Slipbox/Python.md) (also [Conda](Conda))
 - [Cargo](Cargo) for [Rust](Rust)
-- [CRAN](CRAN) for [R](R)
+- [CRAN](CRAN) for [[MOC - R]]
 - [CPAN](CPAN) for [PERL](PERL)
 - [Gradle](Gradle) for [Groovy](Groovy) and other JVM Languages plus [C++](C++)
 - [Maven](Maven) for [Java](Java)

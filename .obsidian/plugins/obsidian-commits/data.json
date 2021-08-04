@@ -5995,9 +5995,9 @@
       "links": 0
     },
     "4-Logs/Changelog.md": {
-      "size": 4933,
+      "size": 4065,
       "tags": 0,
-      "links": 92
+      "links": 100
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6302,7 +6302,7 @@
     "1-Maps-of-Content/020 - Development.md": {
       "size": 7072,
       "tags": 3,
-      "links": 171
+      "links": 170
     },
     "1-Maps-of-Content/030 - Professional.md": {
       "size": 224,
@@ -6346,7 +6346,7 @@
     },
     "1-Maps-of-Content/MOC - R.md": {
       "size": 38,
-      "tags": 0,
+      "tags": 2,
       "links": 1
     },
     "1-Maps-of-Content/MOC - Setup.md": {
@@ -6683,13 +6683,263 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/Nodejs.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/SASS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/HTML.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/SSH.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Ruby.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Rust.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Go.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/PHP.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/C++.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/C.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/C-Sharp.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Assembly.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Swift.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Objective-C.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Java.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Groovy.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Xamarin.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Perl.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Scala.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Lua.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Clojure.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/LaTex.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/TeX.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps-of-Content/MOC - Command Line.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Ubuntu.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Bash.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Git.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Kubernetes.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/nginx.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/React.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/RStudio.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Atom.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Typora.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/GitHub.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/GitKraken.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Jupiter Notebooks.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/R-Markdown.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/HTTPS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/GPG.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/OneGet.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/PowerShell Modules.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Chocolatey.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Scoop.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/WinGet.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Cygwin.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Ninite.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/npm.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/yarn.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/pip.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Cargo.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 728,
-      "Create": 419,
-      "Link": 627,
+      "Refactor": 730,
+      "Create": 469,
+      "Link": 629,
       "Expand": 62
     }
   },
@@ -6709,7 +6959,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 68,
+      "14": 122,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -6725,7 +6975,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 342,
+      "Wed": 396,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6788,57 +7038,57 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
-        "<a class=\"internal-link\" href=\"0-Inbox/CSS.md\"> CSS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Node.js.md\"> Node.js </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Visual Basic.md\"> Visual Basic </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/SQL.md\"> SQL </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows 11.md\"> Windows 11 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows 10.md\"> Windows 10 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Insider.md\"> Windows Insider </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Disk Partitions.md\"> Disk Partitions </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/BIOS.md\"> BIOS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Drivers.md\"> Drivers </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/SFC.md\"> SFC </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/DISM.md\"> DISM </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/WindowsPE.md\"> WindowsPE </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows APK.md\"> Windows APK </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows SDK.md\"> Windows SDK </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/NuGet.md\"> NuGet </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Visual Studio Code.md\"> Visual Studio Code </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Visual Studio.md\"> Visual Studio </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/DotNet Framework.md\"> DotNet Framework </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Tools - Github.md\"> Tools - Github </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Tools - Outlook.md\"> Tools - Outlook </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Tools - Todoist.md\"> Tools - Todoist </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/PowerShell.md\"> PowerShell </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Windows Terminal.md\"> Windows Terminal </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Web Development.md\"> Web Development </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Bootstrapping Dotfiles.md\"> Bootstrapping Dotfiles </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/bootstrap.md\"> bootstrap </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Linux.md\"> Linux </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/2020-08-20.md\"> 2020-08-20 </a>",
-        "<a class=\"internal-link\" href=\"4-LogsVault-Consistentsy-Report.md\"> 4-LogsVault-Consistentsy-Report </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-03.md\"> 2021-08-03 </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Gallery/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Cargo.md\"> Cargo </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/pip.md\"> pip </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/yarn.md\"> yarn </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/npm.md\"> npm </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Ninite.md\"> Ninite </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Cygwin.md\"> Cygwin </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/WinGet.md\"> WinGet </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Scoop.md\"> Scoop </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Chocolatey.md\"> Chocolatey </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/PowerShell Modules.md\"> PowerShell Modules </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/OneGet.md\"> OneGet </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/GPG.md\"> GPG </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/HTTPS.md\"> HTTPS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/R-Markdown.md\"> R-Markdown </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Jupiter Notebooks.md\"> Jupiter Notebooks </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/GitKraken.md\"> GitKraken </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/GitHub.md\"> GitHub </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Typora.md\"> Typora </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Atom.md\"> Atom </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/RStudio.md\"> RStudio </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/nginx.md\"> nginx </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Kubernetes.md\"> Kubernetes </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Git.md\"> Git </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Bash.md\"> Bash </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Ubuntu.md\"> Ubuntu </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Kanban.md\"> Kanban </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Kanbans/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Gyroscope.md\"> Gyroscope </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Archive.md\"> Archive </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/TeX.md\"> TeX </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/LaTex.md\"> LaTex </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Clojure.md\"> Clojure </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Lua.md\"> Lua </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Scala.md\"> Scala </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Perl.md\"> Perl </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Xamarin.md\"> Xamarin </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Groovy.md\"> Groovy </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Java.md\"> Java </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Objective-C.md\"> Objective-C </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Swift.md\"> Swift </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Assembly.md\"> Assembly </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/C-Sharp.md\"> C-Sharp </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/C.md\"> C </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/C++.md\"> C++ </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/PHP.md\"> PHP </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Go.md\"> Go </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Rust.md\"> Rust </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Ruby.md\"> Ruby </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/SSH.md\"> SSH </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/HTML.md\"> HTML </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/SASS.md\"> SASS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/CSS.md\"> CSS </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Subsystem for Linux (WSL).md\"> Windows Subsystem for Linux (WSL) </a>",
@@ -6894,6 +7144,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - R.md\"> MOC - R </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
@@ -6943,8 +7194,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Python/Python.md\"> Python </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Powwater/Database Documentation.md\"> Database Documentation </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Templater Plugin Notes.md\"> Templater Plugin Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Publishing Workflow.md\"> Publishing Workflow </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Templater Plugin Notes.md\"> Templater Plugin Notes </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6956,7 +7206,8 @@
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"0-Inbox/bootstrap.md\"> bootstrap </a>",
@@ -7012,6 +7263,7 @@
         "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
@@ -7061,7 +7313,6 @@
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Removed Tags from": [
@@ -7088,6 +7339,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Time Management.md\"> Time Management </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7137,8 +7389,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>"
       ]
     }
   },

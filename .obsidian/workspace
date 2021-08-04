@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Nodejs.md",
+            "file": "1-Maps-of-Content/MOC - R.md",
             "mode": "source"
           }
         }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Nodejs.md",
+                "file": "1-Maps-of-Content/MOC - R.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Nodejs.md",
+                "file": "1-Maps-of-Content/MOC - R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Nodejs.md"
+                "file": "1-Maps-of-Content/MOC - R.md"
               }
             }
           },
@@ -211,15 +211,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "0-Inbox/Nodejs.md",
+    "1-Maps-of-Content/MOC - R.md",
     "1-Maps-of-Content/020 - Development.md",
-    "0-Inbox/README.md",
-    "0-Inbox/CSS.md",
-    "0-Inbox/Node.js.md",
-    "0-Inbox/Visual Basic.md",
-    "0-Inbox/SQL.md",
-    "0-Inbox/Windows 11.md",
-    "0-Inbox/Windows 10.md",
-    "0-Inbox/Windows Insider.md"
+    "0-Inbox/Cargo.md",
+    "0-Inbox/pip.md",
+    "0-Inbox/yarn.md",
+    "0-Inbox/npm.md",
+    "0-Inbox/Ninite.md",
+    "0-Inbox/Cygwin.md",
+    "0-Inbox/WinGet.md",
+    "0-Inbox/Scoop.md"
   ]
 }

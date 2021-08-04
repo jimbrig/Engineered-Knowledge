@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Nodejs",
-      "path": "0-Inbox/Nodejs.md"
+      "basename": "MOC - R",
+      "path": "1-Maps-of-Content/MOC - R.md"
     },
     {
       "basename": "020 - Development",
       "path": "1-Maps-of-Content/020 - Development.md"
     },
     {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
+      "basename": "Cargo",
+      "path": "0-Inbox/Cargo.md"
     },
     {
-      "basename": "CSS",
-      "path": "0-Inbox/CSS.md"
+      "basename": "pip",
+      "path": "0-Inbox/pip.md"
     },
     {
-      "basename": "Node.js",
-      "path": "0-Inbox/Node.js.md"
+      "basename": "yarn",
+      "path": "0-Inbox/yarn.md"
     },
     {
-      "basename": "Visual Basic",
-      "path": "0-Inbox/Visual Basic.md"
+      "basename": "npm",
+      "path": "0-Inbox/npm.md"
     },
     {
-      "basename": "SQL",
-      "path": "0-Inbox/SQL.md"
+      "basename": "Ninite",
+      "path": "0-Inbox/Ninite.md"
     },
     {
-      "basename": "Windows 11",
-      "path": "0-Inbox/Windows 11.md"
+      "basename": "Cygwin",
+      "path": "0-Inbox/Cygwin.md"
     },
     {
-      "basename": "Windows 10",
-      "path": "0-Inbox/Windows 10.md"
+      "basename": "WinGet",
+      "path": "0-Inbox/WinGet.md"
     },
     {
-      "basename": "Windows Insider",
-      "path": "0-Inbox/Windows Insider.md"
+      "basename": "Scoop",
+      "path": "0-Inbox/Scoop.md"
     },
     {
-      "basename": "Disk Partitions",
-      "path": "0-Inbox/Disk Partitions.md"
+      "basename": "Chocolatey",
+      "path": "0-Inbox/Chocolatey.md"
     },
     {
-      "basename": "BIOS",
-      "path": "0-Inbox/BIOS.md"
+      "basename": "PowerShell Modules",
+      "path": "0-Inbox/PowerShell Modules.md"
     },
     {
-      "basename": "Drivers",
-      "path": "0-Inbox/Drivers.md"
+      "basename": "OneGet",
+      "path": "0-Inbox/OneGet.md"
     },
     {
-      "basename": "SFC",
-      "path": "0-Inbox/SFC.md"
+      "basename": "GPG",
+      "path": "0-Inbox/GPG.md"
     },
     {
-      "basename": "DISM",
-      "path": "0-Inbox/DISM.md"
+      "basename": "HTTPS",
+      "path": "0-Inbox/HTTPS.md"
     },
     {
-      "basename": "WindowsPE",
-      "path": "0-Inbox/WindowsPE.md"
+      "basename": "R-Markdown",
+      "path": "0-Inbox/R-Markdown.md"
     },
     {
-      "basename": "Windows APK",
-      "path": "0-Inbox/Windows APK.md"
+      "basename": "Jupiter Notebooks",
+      "path": "0-Inbox/Jupiter Notebooks.md"
     },
     {
-      "basename": "Windows SDK",
-      "path": "0-Inbox/Windows SDK.md"
+      "basename": "GitKraken",
+      "path": "0-Inbox/GitKraken.md"
     },
     {
-      "basename": "NuGet",
-      "path": "0-Inbox/NuGet.md"
+      "basename": "GitHub",
+      "path": "0-Inbox/GitHub.md"
     },
     {
-      "basename": "Visual Studio Code",
-      "path": "0-Inbox/Visual Studio Code.md"
+      "basename": "Typora",
+      "path": "0-Inbox/Typora.md"
     },
     {
-      "basename": "Visual Studio",
-      "path": "0-Inbox/Visual Studio.md"
+      "basename": "Atom",
+      "path": "0-Inbox/Atom.md"
     },
     {
-      "basename": "DotNet Framework",
-      "path": "0-Inbox/DotNet Framework.md"
+      "basename": "RStudio",
+      "path": "0-Inbox/RStudio.md"
     },
     {
-      "basename": "Vault-Consistensy-Report",
-      "path": "4-Logs/Vault-Consistensy-Report.md"
+      "basename": "React",
+      "path": "0-Inbox/React.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "0-Inbox/nginx.md"
+    },
+    {
+      "basename": "Kubernetes",
+      "path": "0-Inbox/Kubernetes.md"
+    },
+    {
+      "basename": "Git",
+      "path": "0-Inbox/Git.md"
+    },
+    {
+      "basename": "Bash",
+      "path": "0-Inbox/Bash.md"
+    },
+    {
+      "basename": "Ubuntu",
+      "path": "0-Inbox/Ubuntu.md"
     },
     {
       "basename": "README",
       "path": "1-Maps-of-Content/README.md"
     },
     {
-      "basename": "Windows Subsystem for Linux (WSL)",
-      "path": "2-Slipbox/Windows Subsystem for Linux (WSL).md"
+      "basename": "MOC - Command Line",
+      "path": "1-Maps-of-Content/MOC - Command Line.md"
     },
     {
-      "basename": "README",
-      "path": "3-Resources/README.md"
+      "basename": "TeX",
+      "path": "0-Inbox/TeX.md"
     },
     {
-      "basename": "Windows Terminal",
-      "path": "2-Slipbox/Windows Terminal.md"
+      "basename": "LaTex",
+      "path": "0-Inbox/LaTex.md"
     },
     {
-      "basename": "Obsidian Templater Plugin Notes",
-      "path": "2-Slipbox/Obsidian Templater Plugin Notes.md"
+      "basename": "Clojure",
+      "path": "0-Inbox/Clojure.md"
     },
     {
-      "basename": "Obsidian Taxonomy",
-      "path": "2-Slipbox/Obsidian Taxonomy.md"
+      "basename": "Lua",
+      "path": "0-Inbox/Lua.md"
     },
     {
-      "basename": "Obsidian Setup",
-      "path": "2-Slipbox/Obsidian Setup.md"
+      "basename": "Scala",
+      "path": "0-Inbox/Scala.md"
     },
     {
-      "basename": "MOC - Web Development",
-      "path": "1-Maps-of-Content/MOC - Web Development.md"
+      "basename": "Perl",
+      "path": "0-Inbox/Perl.md"
     },
     {
-      "basename": "050 - Computer",
-      "path": "1-Maps-of-Content/050 - Computer.md"
+      "basename": "Xamarin",
+      "path": "0-Inbox/Xamarin.md"
     },
     {
-      "basename": "README",
-      "path": "4-Logs/README.md"
+      "basename": "Groovy",
+      "path": "0-Inbox/Groovy.md"
     },
     {
-      "basename": "MOC - Obsidian",
-      "path": "1-Maps-of-Content/MOC - Obsidian.md"
+      "basename": "Java",
+      "path": "0-Inbox/Java.md"
     },
     {
-      "basename": "Tools - Github",
-      "path": "0-Inbox/Tools - Github.md"
+      "basename": "Objective-C",
+      "path": "0-Inbox/Objective-C.md"
     },
     {
-      "basename": "Tools - Outlook",
-      "path": "0-Inbox/Tools - Outlook.md"
+      "basename": "Swift",
+      "path": "0-Inbox/Swift.md"
     },
     {
-      "basename": "Tools - Todoist",
-      "path": "0-Inbox/Tools - Todoist.md"
+      "basename": "Assembly",
+      "path": "0-Inbox/Assembly.md"
     },
     {
-      "basename": "Project Management Pipeline",
-      "path": "2-Slipbox/Project Management Pipeline.md"
+      "basename": "C-Sharp",
+      "path": "0-Inbox/C-Sharp.md"
     },
     {
-      "basename": "MOC - Project Management",
-      "path": "1-Maps-of-Content/MOC - Project Management.md"
+      "basename": "C",
+      "path": "0-Inbox/C.md"
     },
     {
-      "basename": "MOC - PowerShell",
-      "path": "1-Maps-of-Content/MOC - PowerShell.md"
+      "basename": "C++",
+      "path": "0-Inbox/C++.md"
     },
     {
-      "basename": "Reset OneDrive with Command Line",
-      "path": "2-Slipbox/Reset OneDrive with Command Line.md"
+      "basename": "PHP",
+      "path": "0-Inbox/PHP.md"
     },
     {
-      "basename": "System Design Primer",
-      "path": "2-Slipbox/System Design Primer.md"
+      "basename": "Go",
+      "path": "0-Inbox/Go.md"
     },
     {
-      "basename": "Start an Offline Scan with Windows Defender from PowerShell",
-      "path": "2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md"
+      "basename": "Rust",
+      "path": "0-Inbox/Rust.md"
     },
     {
-      "basename": "Windows Terminal Command Line Arguments",
-      "path": "2-Slipbox/Windows Terminal Command Line Arguments.md"
+      "basename": "Ruby",
+      "path": "0-Inbox/Ruby.md"
     },
     {
-      "basename": "README",
-      "path": "2-Slipbox/README.md"
-    },
-    {
-      "basename": "Time Management",
-      "path": "2-Slipbox/Time Management.md"
-    },
-    {
-      "basename": "Views vs. Materialized Views",
-      "path": "2-Slipbox/Views vs. Materialized Views.md"
-    },
-    {
-      "basename": "Windows Registry Paths and Keys",
-      "path": "2-Slipbox/Windows Registry Paths and Keys.md"
-    },
-    {
-      "basename": "Windows Registry",
-      "path": "2-Slipbox/Windows Registry.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Dictionaries/README.md"
+      "basename": "SSH",
+      "path": "0-Inbox/SSH.md"
     }
   ],
   "omittedPaths": [],
