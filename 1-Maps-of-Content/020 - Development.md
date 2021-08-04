@@ -146,7 +146,7 @@ Also: [HTTPS](HTTPS), [SSH](SSH), and [GPG](GPG) for integration with [Git](Git)
 - [npm](npm) and [yarn](yarn) for [Node.js](Node.js) and [Javascript](../2-Slipbox/Javascript.md)
 - [pip](pip) for [Python](../2-Slipbox/Python.md) (also [Conda](Conda))
 - [Cargo](Cargo) for [Rust](Rust)
-- [CRAN](CRAN) for [[MOC - R]]
+- [CRAN](CRAN) for [[MOC - R|R]]
 - [CPAN](CPAN) for [PERL](PERL)
 - [Gradle](Gradle) for [Groovy](Groovy) and other JVM Languages plus [C++](C++)
 - [Maven](Maven) for [Java](Java)
@@ -160,7 +160,7 @@ Also: [HTTPS](HTTPS), [SSH](SSH), and [GPG](GPG) for integration with [Git](Git)
 
 ### Hosting and Cloud Service Providers
 
-- [Google Cloud Platform - GCP](Google%20Cloud%20Platform%20-%20GCP) | [gcloud](gcloud) | [Firebase](Firebase)
+- [Google Cloud Platform - GCP](Google%20Cloud%20Platform%20-%20GCP) | [[gcloud SDK]] | [Firebase](Firebase)
 - [Microsoft Azure](Microsoft%20Azure) | [Azure CLI](Azure%20CLI)
 - [Amazon Web Services - AWS](Amazon%20Web%20Services%20-%20AWS)
 - [Heroku](Heroku)
@@ -179,17 +179,17 @@ For Storage:
 
 ### Command Line Interfaces for the Cloud:
 
-- [gcloud SDK](gcloud%20SDK) for [GCP](GCP)
-- [Azure-CLI](Azure-CLI) for [Azure](Azure)
-- [AWS-CLI](AWS-CLI)
-- [heroku-cli](heroku-cli)
-- [gh-cli](gh-cli)
+- [gcloud SDK](gcloud%20SDK) for [[Google Cloud Platform - GCP|GCP]]
+- [[Azure CLI]] for [[Microsoft Azure]]
+- [[AWS-CLI]]
+- [[Heroku-CLI]]
+- [[Github-CLI]]
 
 ### Static Site Generators
 
-- [2-Slipbox/MkDocs](../2-Slipbox/MkDocs.md)
-- [Hexo](Hexo)
-- [Next.js](Next.js)
+- [[MkDocs]]
+- [[Hexo]]
+- [NextJS](NextJS)
 - [Ghost](Ghost)
 - [Gatsby](Gatsby)
 - [GitBook](GitBook)

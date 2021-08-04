@@ -6302,7 +6302,7 @@
     "1-Maps-of-Content/020 - Development.md": {
       "size": 7072,
       "tags": 3,
-      "links": 170
+      "links": 167
     },
     "1-Maps-of-Content/030 - Professional.md": {
       "size": 224,
@@ -6933,12 +6933,162 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/CRAN.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Helm.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Google Cloud Platform - GCP.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Firebase.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Microsoft Azure.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Azure CLI.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Amazon Web Services - AWS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Heroku.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Digital Ocean.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Linode.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Netlify.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Github Pages.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/WordPress.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Google Drive.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/OneDrive.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Amazon Drive.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/iCloud Drive.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/gcloud SDK.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Github-CLI.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Heroku-CLI.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/AWS-CLI.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Hexo.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/NextJS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Ghost.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Gatsby.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/GitBook.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/ReadTheDocs.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/pgAdmin 4.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/DBeaver.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Beekeeper.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 730,
-      "Create": 469,
+      "Refactor": 733,
+      "Create": 501,
       "Link": 629,
       "Expand": 62
     }
@@ -6959,7 +7109,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 122,
+      "14": 157,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -6975,7 +7125,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 396,
+      "Wed": 431,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7038,6 +7188,38 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Beekeeper.md\"> Beekeeper </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/DBeaver.md\"> DBeaver </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/pgAdmin 4.md\"> pgAdmin 4 </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/ReadTheDocs.md\"> ReadTheDocs </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/GitBook.md\"> GitBook </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Gatsby.md\"> Gatsby </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Ghost.md\"> Ghost </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Hexo.md\"> Hexo </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/AWS-CLI.md\"> AWS-CLI </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Heroku-CLI.md\"> Heroku-CLI </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Github-CLI.md\"> Github-CLI </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/gcloud SDK.md\"> gcloud SDK </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/iCloud Drive.md\"> iCloud Drive </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Amazon Drive.md\"> Amazon Drive </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/OneDrive.md\"> OneDrive </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Google Drive.md\"> Google Drive </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/WordPress.md\"> WordPress </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Github Pages.md\"> Github Pages </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Netlify.md\"> Netlify </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Linode.md\"> Linode </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Digital Ocean.md\"> Digital Ocean </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Heroku.md\"> Heroku </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Amazon Web Services - AWS.md\"> Amazon Web Services - AWS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Azure CLI.md\"> Azure CLI </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Microsoft Azure.md\"> Microsoft Azure </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Firebase.md\"> Firebase </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/gcloud.md\"> gcloud </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Google Cloud Platform - GCP.md\"> Google Cloud Platform - GCP </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Helm.md\"> Helm </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/CRAN.md\"> CRAN </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/R.md\"> R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cargo.md\"> Cargo </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/pip.md\"> pip </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/yarn.md\"> yarn </a>",
@@ -7056,39 +7238,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitKraken.md\"> GitKraken </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitHub.md\"> GitHub </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Typora.md\"> Typora </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Atom.md\"> Atom </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/RStudio.md\"> RStudio </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/nginx.md\"> nginx </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Kubernetes.md\"> Kubernetes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Git.md\"> Git </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Bash.md\"> Bash </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Ubuntu.md\"> Ubuntu </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/TeX.md\"> TeX </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/LaTex.md\"> LaTex </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Clojure.md\"> Clojure </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Lua.md\"> Lua </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Scala.md\"> Scala </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Perl.md\"> Perl </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Xamarin.md\"> Xamarin </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Groovy.md\"> Groovy </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Java.md\"> Java </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Objective-C.md\"> Objective-C </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Swift.md\"> Swift </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Assembly.md\"> Assembly </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/C-Sharp.md\"> C-Sharp </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/C.md\"> C </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/C++.md\"> C++ </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/PHP.md\"> PHP </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Go.md\"> Go </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Rust.md\"> Rust </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Ruby.md\"> Ruby </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/SSH.md\"> SSH </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/HTML.md\"> HTML </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/SASS.md\"> SASS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/CSS.md\"> CSS </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Atom.md\"> Atom </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Subsystem for Linux (WSL).md\"> Windows Subsystem for Linux (WSL) </a>",
@@ -7210,6 +7360,8 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"0-Inbox/gcloud.md\"> gcloud </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/R.md\"> R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/bootstrap.md\"> bootstrap </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
@@ -7258,9 +7410,7 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-25.md\"> 2021-07-25 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-20.md\"> 2021-07-20 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>",
-        "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>",
-        "<a class=\"internal-link\" href=\"Notes/Git Links.md\"> Git Links </a>",
-        "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>"
+        "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7341,6 +7491,7 @@
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Time Management.md\"> Time Management </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7388,8 +7539,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
       ]
     }
   },

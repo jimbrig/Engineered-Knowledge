@@ -31,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-Maps-of-Content/MOC - R.md",
-            "mode": "source"
+            "file": "1-Maps-of-Content/020 - Development.md",
+            "mode": "preview"
           }
         }
       },
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Maps-of-Content/MOC - R.md",
+                "file": "1-Maps-of-Content/020 - Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Maps-of-Content/MOC - R.md",
+                "file": "1-Maps-of-Content/020 - Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Maps-of-Content/MOC - R.md"
+                "file": "1-Maps-of-Content/020 - Development.md"
               }
             }
           },
@@ -211,15 +211,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "1-Maps-of-Content/MOC - R.md",
     "1-Maps-of-Content/020 - Development.md",
-    "0-Inbox/Cargo.md",
-    "0-Inbox/pip.md",
-    "0-Inbox/yarn.md",
-    "0-Inbox/npm.md",
-    "0-Inbox/Ninite.md",
-    "0-Inbox/Cygwin.md",
-    "0-Inbox/WinGet.md",
-    "0-Inbox/Scoop.md"
+    "0-Inbox/RapidEE.md",
+    "0-Inbox/Microsoft PowerToys.md",
+    "0-Inbox/pgcli.md",
+    "0-Inbox/psql.md",
+    "0-Inbox/Beekeeper.md",
+    "0-Inbox/DBeaver.md",
+    "0-Inbox/pgAdmin 4.md",
+    "0-Inbox/ReadTheDocs.md",
+    "0-Inbox/GitBook.md"
   ]
 }

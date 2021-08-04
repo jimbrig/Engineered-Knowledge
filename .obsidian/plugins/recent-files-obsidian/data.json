@@ -1,12 +1,152 @@
 {
   "recentFiles": [
     {
-      "basename": "MOC - R",
-      "path": "1-Maps-of-Content/MOC - R.md"
+      "basename": "Lepton",
+      "path": "0-Inbox/Lepton.md"
     },
     {
       "basename": "020 - Development",
       "path": "1-Maps-of-Content/020 - Development.md"
+    },
+    {
+      "basename": "RapidEE",
+      "path": "0-Inbox/RapidEE.md"
+    },
+    {
+      "basename": "Microsoft PowerToys",
+      "path": "0-Inbox/Microsoft PowerToys.md"
+    },
+    {
+      "basename": "pgcli",
+      "path": "0-Inbox/pgcli.md"
+    },
+    {
+      "basename": "psql",
+      "path": "0-Inbox/psql.md"
+    },
+    {
+      "basename": "Beekeeper",
+      "path": "0-Inbox/Beekeeper.md"
+    },
+    {
+      "basename": "DBeaver",
+      "path": "0-Inbox/DBeaver.md"
+    },
+    {
+      "basename": "pgAdmin 4",
+      "path": "0-Inbox/pgAdmin 4.md"
+    },
+    {
+      "basename": "ReadTheDocs",
+      "path": "0-Inbox/ReadTheDocs.md"
+    },
+    {
+      "basename": "GitBook",
+      "path": "0-Inbox/GitBook.md"
+    },
+    {
+      "basename": "Gatsby",
+      "path": "0-Inbox/Gatsby.md"
+    },
+    {
+      "basename": "Ghost",
+      "path": "0-Inbox/Ghost.md"
+    },
+    {
+      "basename": "NextJS",
+      "path": "0-Inbox/NextJS.md"
+    },
+    {
+      "basename": "Hexo",
+      "path": "0-Inbox/Hexo.md"
+    },
+    {
+      "basename": "AWS-CLI",
+      "path": "0-Inbox/AWS-CLI.md"
+    },
+    {
+      "basename": "Heroku-CLI",
+      "path": "0-Inbox/Heroku-CLI.md"
+    },
+    {
+      "basename": "Github-CLI",
+      "path": "0-Inbox/Github-CLI.md"
+    },
+    {
+      "basename": "Google Cloud Platform - GCP",
+      "path": "0-Inbox/Google Cloud Platform - GCP.md"
+    },
+    {
+      "basename": "gcloud SDK",
+      "path": "0-Inbox/gcloud SDK.md"
+    },
+    {
+      "basename": "iCloud Drive",
+      "path": "0-Inbox/iCloud Drive.md"
+    },
+    {
+      "basename": "Amazon Drive",
+      "path": "0-Inbox/Amazon Drive.md"
+    },
+    {
+      "basename": "OneDrive",
+      "path": "0-Inbox/OneDrive.md"
+    },
+    {
+      "basename": "Google Drive",
+      "path": "0-Inbox/Google Drive.md"
+    },
+    {
+      "basename": "WordPress",
+      "path": "0-Inbox/WordPress.md"
+    },
+    {
+      "basename": "Github Pages",
+      "path": "0-Inbox/Github Pages.md"
+    },
+    {
+      "basename": "Netlify",
+      "path": "0-Inbox/Netlify.md"
+    },
+    {
+      "basename": "Linode",
+      "path": "0-Inbox/Linode.md"
+    },
+    {
+      "basename": "Digital Ocean",
+      "path": "0-Inbox/Digital Ocean.md"
+    },
+    {
+      "basename": "Heroku",
+      "path": "0-Inbox/Heroku.md"
+    },
+    {
+      "basename": "Amazon Web Services - AWS",
+      "path": "0-Inbox/Amazon Web Services - AWS.md"
+    },
+    {
+      "basename": "Azure CLI",
+      "path": "0-Inbox/Azure CLI.md"
+    },
+    {
+      "basename": "Microsoft Azure",
+      "path": "0-Inbox/Microsoft Azure.md"
+    },
+    {
+      "basename": "Firebase",
+      "path": "0-Inbox/Firebase.md"
+    },
+    {
+      "basename": "Helm",
+      "path": "0-Inbox/Helm.md"
+    },
+    {
+      "basename": "CRAN",
+      "path": "0-Inbox/CRAN.md"
+    },
+    {
+      "basename": "MOC - R",
+      "path": "1-Maps-of-Content/MOC - R.md"
     },
     {
       "basename": "Cargo",
@@ -59,146 +199,6 @@
     {
       "basename": "HTTPS",
       "path": "0-Inbox/HTTPS.md"
-    },
-    {
-      "basename": "R-Markdown",
-      "path": "0-Inbox/R-Markdown.md"
-    },
-    {
-      "basename": "Jupiter Notebooks",
-      "path": "0-Inbox/Jupiter Notebooks.md"
-    },
-    {
-      "basename": "GitKraken",
-      "path": "0-Inbox/GitKraken.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "0-Inbox/GitHub.md"
-    },
-    {
-      "basename": "Typora",
-      "path": "0-Inbox/Typora.md"
-    },
-    {
-      "basename": "Atom",
-      "path": "0-Inbox/Atom.md"
-    },
-    {
-      "basename": "RStudio",
-      "path": "0-Inbox/RStudio.md"
-    },
-    {
-      "basename": "React",
-      "path": "0-Inbox/React.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "0-Inbox/nginx.md"
-    },
-    {
-      "basename": "Kubernetes",
-      "path": "0-Inbox/Kubernetes.md"
-    },
-    {
-      "basename": "Git",
-      "path": "0-Inbox/Git.md"
-    },
-    {
-      "basename": "Bash",
-      "path": "0-Inbox/Bash.md"
-    },
-    {
-      "basename": "Ubuntu",
-      "path": "0-Inbox/Ubuntu.md"
-    },
-    {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
-    },
-    {
-      "basename": "MOC - Command Line",
-      "path": "1-Maps-of-Content/MOC - Command Line.md"
-    },
-    {
-      "basename": "TeX",
-      "path": "0-Inbox/TeX.md"
-    },
-    {
-      "basename": "LaTex",
-      "path": "0-Inbox/LaTex.md"
-    },
-    {
-      "basename": "Clojure",
-      "path": "0-Inbox/Clojure.md"
-    },
-    {
-      "basename": "Lua",
-      "path": "0-Inbox/Lua.md"
-    },
-    {
-      "basename": "Scala",
-      "path": "0-Inbox/Scala.md"
-    },
-    {
-      "basename": "Perl",
-      "path": "0-Inbox/Perl.md"
-    },
-    {
-      "basename": "Xamarin",
-      "path": "0-Inbox/Xamarin.md"
-    },
-    {
-      "basename": "Groovy",
-      "path": "0-Inbox/Groovy.md"
-    },
-    {
-      "basename": "Java",
-      "path": "0-Inbox/Java.md"
-    },
-    {
-      "basename": "Objective-C",
-      "path": "0-Inbox/Objective-C.md"
-    },
-    {
-      "basename": "Swift",
-      "path": "0-Inbox/Swift.md"
-    },
-    {
-      "basename": "Assembly",
-      "path": "0-Inbox/Assembly.md"
-    },
-    {
-      "basename": "C-Sharp",
-      "path": "0-Inbox/C-Sharp.md"
-    },
-    {
-      "basename": "C",
-      "path": "0-Inbox/C.md"
-    },
-    {
-      "basename": "C++",
-      "path": "0-Inbox/C++.md"
-    },
-    {
-      "basename": "PHP",
-      "path": "0-Inbox/PHP.md"
-    },
-    {
-      "basename": "Go",
-      "path": "0-Inbox/Go.md"
-    },
-    {
-      "basename": "Rust",
-      "path": "0-Inbox/Rust.md"
-    },
-    {
-      "basename": "Ruby",
-      "path": "0-Inbox/Ruby.md"
-    },
-    {
-      "basename": "SSH",
-      "path": "0-Inbox/SSH.md"
     }
   ],
   "omittedPaths": [],
