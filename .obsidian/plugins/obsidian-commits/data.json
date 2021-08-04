@@ -7127,7 +7127,7 @@
     "0-Inbox/Dann Felker.md": {
       "size": 0,
       "tags": 1,
-      "links": 4
+      "links": 6
     },
     "2-Slipbox/Code is not Production Code.md": {
       "size": 2779,
@@ -7140,17 +7140,32 @@
       "links": 1
     },
     "0-Inbox/Why you need to step out of your comfort zone.md": {
-      "size": 0,
+      "size": 4675,
       "tags": 0,
       "links": 1
+    },
+    "0-Inbox/Why You Should Never Quit too Early.md": {
+      "size": 8232,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Flutter.md": {
+      "size": 31343,
+      "tags": 1,
+      "links": 6
+    },
+    "0-Inbox/React Native.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 735,
-      "Create": 514,
-      "Link": 643,
-      "Expand": 63
+      "Create": 517,
+      "Link": 647,
+      "Expand": 66
     }
   },
   "dailyCommits": {
@@ -7170,7 +7185,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 31,
+      "15": 41,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7185,7 +7200,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 461,
+      "Wed": 471,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7195,6 +7210,9 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
@@ -7242,12 +7260,12 @@
         "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
         "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
         "<a class=\"internal-link\" href=\"Notes/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
-        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
+        "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/React Native.md\"> React Native </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
@@ -7295,10 +7313,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/R.md\"> R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cargo.md\"> Cargo </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/pip.md\"> pip </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/yarn.md\"> yarn </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/npm.md\"> npm </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Ninite.md\"> Ninite </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Cygwin.md\"> Cygwin </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/yarn.md\"> yarn </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
@@ -7354,6 +7369,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
@@ -7403,8 +7419,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Git/Git Tools.md\"> Git Tools </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL.md\"> WSL </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL Commands and Installs.md\"> WSL Commands and Installs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Github/Github Actions for R.md\"> Github Actions for R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker.md\"> Docker </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Github/Github Actions for R.md\"> Github Actions for R </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7474,6 +7489,9 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Ship Side Projects.md\"> How to Ship Side Projects </a>",
@@ -7520,10 +7538,7 @@
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-02.md\"> 2021-08-02 </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

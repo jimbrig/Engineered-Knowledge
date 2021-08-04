@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Why you need to step out of your comfort zone",
-      "path": "0-Inbox/Why you need to step out of your comfort zone.md"
+      "basename": "Flutter",
+      "path": "0-Inbox/Flutter.md"
+    },
+    {
+      "basename": "React Native",
+      "path": "0-Inbox/React Native.md"
     },
     {
       "basename": "Dann Felker",
       "path": "0-Inbox/Dann Felker.md"
+    },
+    {
+      "basename": "Why You Should Never Quit too Early",
+      "path": "0-Inbox/Why You Should Never Quit too Early.md"
+    },
+    {
+      "basename": "Why you need to step out of your comfort zone",
+      "path": "0-Inbox/Why you need to step out of your comfort zone.md"
     },
     {
       "basename": "How to Ship Side Projects",
@@ -187,18 +199,6 @@
     {
       "basename": "Firebase",
       "path": "0-Inbox/Firebase.md"
-    },
-    {
-      "basename": "Helm",
-      "path": "0-Inbox/Helm.md"
-    },
-    {
-      "basename": "CRAN",
-      "path": "0-Inbox/CRAN.md"
-    },
-    {
-      "basename": "MOC - R",
-      "path": "1-Maps-of-Content/MOC - R.md"
     }
   ],
   "omittedPaths": [],

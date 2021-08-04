@@ -31,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Why you need to step out of your comfort zone.md",
-            "mode": "preview"
+            "file": "0-Inbox/Flutter.md",
+            "mode": "source"
           }
         }
       },
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Why you need to step out of your comfort zone.md",
+                "file": "0-Inbox/Flutter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Why you need to step out of your comfort zone.md",
+                "file": "0-Inbox/Flutter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Why you need to step out of your comfort zone.md"
+                "file": "0-Inbox/Flutter.md"
               }
             }
           },
@@ -219,15 +219,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "0-Inbox/Why you need to step out of your comfort zone.md",
+    "0-Inbox/Flutter.md",
+    "0-Inbox/React Native.md",
     "0-Inbox/Dann Felker.md",
+    "0-Inbox/Why You Should Never Quit too Early.md",
+    "0-Inbox/Why you need to step out of your comfort zone.md",
     "2-Slipbox/How to Ship Side Projects.md",
     "2-Slipbox/Code is not Production Code.md",
     "0-Inbox/Increase your productivity with outsourcing and SOPs.md",
     "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md",
-    "2-Slipbox/Utils Package Hidden Gems in R.md",
-    "0-Inbox/R.md",
-    "0-Inbox/Regular expressions - JavaScript - MDN.md",
-    "2-Slipbox/Backend Web Architecture.md"
+    "2-Slipbox/Utils Package Hidden Gems in R.md"
   ]
 }
