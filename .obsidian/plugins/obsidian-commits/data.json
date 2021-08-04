@@ -6542,14 +6542,14 @@
     "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md": {
       "size": 5709,
       "tags": 1,
-      "links": 3
+      "links": 4
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 692,
       "Create": 389,
-      "Link": 614,
+      "Link": 615,
       "Expand": 59
     }
   },
@@ -6568,7 +6568,7 @@
       "10": 0,
       "11": 42,
       "12": 24,
-      "13": 13,
+      "13": 14,
       "14": 2,
       "15": 14,
       "16": 101,
@@ -6585,7 +6585,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 260,
+      "Wed": 261,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6870,6 +6870,7 @@
       "Linked": [
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
@@ -6917,8 +6918,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Logging.md\"> Plumber Logging </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Git/Git Tools.md\"> Git Tools </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/SFC and DISM Commands.md\"> SFC and DISM Commands </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

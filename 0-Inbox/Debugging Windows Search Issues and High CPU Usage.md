@@ -123,10 +123,16 @@ Open an admin Command Prompt window, and run these commands:
 ```powershell
 sc config wsearch start= disabled
 net stop wsearch
-esentUtl.exe /d %AllUsersProfile%\Microsoft\Search\Data\Applications\Windows\Windows.edb
+esentUtl.exe /d "$env:allusersprofile\Microsoft\Search\Data\Applications\Windows\Windows.edb"
 sc config wsearch start= delayed-auto
 net start wsearch
 ```
+
+The above commands stop/disable Windows Search, compact (defrag) the search index database, and then start Windows Search. Compaction of the `Windows.edb` database has reduced the size to 200 MB from 310 MB on my computer — ~30% savings.
+
+Resetting the Search index, or removing unwanted folder locations from the search index, and compacting the database would certainly improve the search performance in your system.
+
+![[Pasted image 20210804134010.png]]
 
 ### Notes
 

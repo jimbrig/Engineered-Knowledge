@@ -12,7 +12,7 @@
   "newFileFolderPath": "0-Inbox",
   "attachmentFolderPath": "./assets",
   "emacsyKeys": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "spellcheckDictionary": [
     "Pomodoro",
     "Backlinks",
