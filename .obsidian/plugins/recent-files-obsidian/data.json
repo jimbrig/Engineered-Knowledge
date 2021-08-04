@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "What Blog Platform Should I Use",
+      "path": "0-Inbox/What Blog Platform Should I Use.md"
+    },
+    {
+      "basename": "Dann Felker",
+      "path": "0-Inbox/Dann Felker.md"
+    },
+    {
+      "basename": "You Need a Blog",
+      "path": "0-Inbox/You Need a Blog.md"
+    },
+    {
+      "basename": "Achieving Your Goals Feels Good",
+      "path": "0-Inbox/Achieving Your Goals Feels Good.md"
+    },
+    {
+      "basename": "You Need a Status Page",
+      "path": "0-Inbox/You Need a Status Page.md"
+    },
+    {
       "basename": "What Gets Measured, Gets Managed",
       "path": "0-Inbox/What Gets Measured, Gets Managed.md"
     },
     {
       "basename": "S.M.A.R.T. Goals",
       "path": "0-Inbox/S.M.A.R.T. Goals.md"
-    },
-    {
-      "basename": "Dann Felker",
-      "path": "0-Inbox/Dann Felker.md"
     },
     {
       "basename": "Learning to Program Sucks",
@@ -183,22 +199,6 @@
     {
       "basename": "WordPress",
       "path": "0-Inbox/WordPress.md"
-    },
-    {
-      "basename": "Github Pages",
-      "path": "0-Inbox/Github Pages.md"
-    },
-    {
-      "basename": "Netlify",
-      "path": "0-Inbox/Netlify.md"
-    },
-    {
-      "basename": "Linode",
-      "path": "0-Inbox/Linode.md"
-    },
-    {
-      "basename": "Digital Ocean",
-      "path": "0-Inbox/Digital Ocean.md"
     }
   ],
   "omittedPaths": [],

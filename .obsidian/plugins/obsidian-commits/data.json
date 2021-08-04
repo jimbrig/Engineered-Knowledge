@@ -7125,9 +7125,9 @@
       "links": 4
     },
     "0-Inbox/Dann Felker.md": {
-      "size": 2603,
+      "size": 3086,
       "tags": 1,
-      "links": 10
+      "links": 14
     },
     "2-Slipbox/Code is not Production Code.md": {
       "size": 2779,
@@ -7182,15 +7182,35 @@
     "0-Inbox/S.M.A.R.T. Goals.md": {
       "size": 0,
       "tags": 0,
-      "links": 0
+      "links": 1
+    },
+    "0-Inbox/You Need a Status Page.md": {
+      "size": 7020,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Achieving Your Goals Feels Good.md": {
+      "size": 5379,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/You Need a Blog.md": {
+      "size": 8346,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/What Blog Platform Should I Use.md": {
+      "size": 14061,
+      "tags": 0,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 735,
-      "Create": 522,
-      "Link": 656,
-      "Expand": 72
+      "Create": 526,
+      "Link": 662,
+      "Expand": 77
     }
   },
   "dailyCommits": {
@@ -7210,7 +7230,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 61,
+      "15": 76,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7225,7 +7245,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 491,
+      "Wed": 506,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7235,6 +7255,11 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/You Need a Status Page.md\"> You Need a Status Page </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Achieving Your Goals Feels Good.md\"> Achieving Your Goals Feels Good </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/You Need a Blog.md\"> You Need a Blog </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
@@ -7280,14 +7305,13 @@
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"Notes/Johnny Decimal System.md\"> Johnny Decimal System </a>",
-        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
-        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
-        "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
-        "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
-        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>"
+        "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/You Need a Blog.md\"> You Need a Blog </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Achieving Your Goals Feels Good.md\"> Achieving Your Goals Feels Good </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/You Need a Status Page.md\"> You Need a Status Page </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S.M.A.R.T. Goals.md\"> S.M.A.R.T. Goals </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
@@ -7334,11 +7358,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Heroku.md\"> Heroku </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Amazon Web Services - AWS.md\"> Amazon Web Services - AWS </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Azure CLI.md\"> Azure CLI </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Microsoft Azure.md\"> Microsoft Azure </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Firebase.md\"> Firebase </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/gcloud.md\"> gcloud </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Google Cloud Platform - GCP.md\"> Google Cloud Platform - GCP </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Helm.md\"> Helm </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Microsoft Azure.md\"> Microsoft Azure </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
@@ -7514,6 +7534,12 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/S.M.A.R.T. Goals.md\"> S.M.A.R.T. Goals </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/You Need a Status Page.md\"> You Need a Status Page </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Achieving Your Goals Feels Good.md\"> Achieving Your Goals Feels Good </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/You Need a Blog.md\"> You Need a Blog </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
@@ -7557,13 +7583,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

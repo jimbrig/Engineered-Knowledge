@@ -19,19 +19,22 @@ Tags: ["#People"]
 Notes from Posts and original URLs:
 
 
-| Note                                                     | URL                                                                                           |     |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --- |
-| [[Code is not Production Code]]                          | https://www.donnfelker.com/prototypeproof-of-concept-code-is-not-production-code/)            |     |
-| [[How to Ship Side Projects]]                            | https://www.donnfelker.com/?s=ship+side+projects                                              |     |
-| [[Increase your productivity with outsourcing and SOPs]] | https://www.donnfelker.com/increase-your-productivity-with-outsourcing-and-sops/              |     |
-| [[Why you need to step out of your comfort zone]]        | https://www.donnfelker.com/why-you-need-to-step-out-of-your-comfort-zone/                     |     |
-| [[Why You Should Never Quit too Early]]                  | https://www.donnfelker.com/why-you-should-never-quit-too-early/                               |     |
-| [[Flutter]]                                              | https://www.donnfelker.com/flutter-just-might-work/                                           |     |
-| [[The Three Buckets - Rule of Thirds]]                   | https://www.donnfelker.com/the-rule-of-thirds/                                                |     |
-| [[The Single Best Thing to do for your Career]]          | https://www.donnfelker.com/the-single-best-thing-you-can-do-for-your-career/                  |     |
-| [[Learning to Program Sucks]]                            | https://www.donnfelker.com/learning-program-sucks/ |     |
-| [[What Gets Measured, Gets Managed]]                                                         | https://www.donnfelker.com/what-gets-measured-gets-managed/                                                                                              |     |
-
+| Note                                                     | URL                                                                                |     |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------- | --- |
+| [[Code is not Production Code]]                          | https://www.donnfelker.com/prototypeproof-of-concept-code-is-not-production-code/) |     |
+| [[How to Ship Side Projects]]                            | https://www.donnfelker.com/?s=ship+side+projects                                   |     |
+| [[Increase your productivity with outsourcing and SOPs]] | https://www.donnfelker.com/increase-your-productivity-with-outsourcing-and-sops/   |     |
+| [[Why you need to step out of your comfort zone]]        | https://www.donnfelker.com/why-you-need-to-step-out-of-your-comfort-zone/          |     |
+| [[Why You Should Never Quit too Early]]                  | https://www.donnfelker.com/why-you-should-never-quit-too-early/                    |     |
+| [[Flutter]]                                              | https://www.donnfelker.com/flutter-just-might-work/                                |     |
+| [[The Three Buckets - Rule of Thirds]]                   | https://www.donnfelker.com/the-rule-of-thirds/                                     |     |
+| [[The Single Best Thing to do for your Career]]          | https://www.donnfelker.com/the-single-best-thing-you-can-do-for-your-career/       |     |
+| [[Learning to Program Sucks]]                            | https://www.donnfelker.com/learning-program-sucks/                                 |     |
+| [[What Gets Measured, Gets Managed]]                     | https://www.donnfelker.com/what-gets-measured-gets-managed/                        |     |
+| [[You Need a Status Page]]                               | https://www.donnfelker.com/you-need-a-status-page/                                 |     |
+| [[Achieving Your Goals Feels Good]]                      | https://www.donnfelker.com/achieving-your-goals-feels-good/                        |     |
+| [[You Need a Blog]]                                      | https://www.donnfelker.com/you-need-a-blog/                                        |     |
+| [[What Blog Platform Should I Use]]                      | https://www.donnfelker.com/what-blog-platform-should-i-use/                                                                                    |     |
 
 
 ***

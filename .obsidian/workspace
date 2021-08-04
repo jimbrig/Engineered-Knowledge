@@ -31,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/What Gets Measured, Gets Managed.md",
-            "mode": "source"
+            "file": "0-Inbox/What Blog Platform Should I Use.md",
+            "mode": "preview"
           }
         }
       },
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/What Gets Measured, Gets Managed.md",
+                "file": "0-Inbox/What Blog Platform Should I Use.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/What Gets Measured, Gets Managed.md",
+                "file": "0-Inbox/What Blog Platform Should I Use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/What Gets Measured, Gets Managed.md"
+                "file": "0-Inbox/What Blog Platform Should I Use.md"
               }
             }
           },
@@ -219,15 +219,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
+    "0-Inbox/What Blog Platform Should I Use.md",
+    "0-Inbox/Dann Felker.md",
+    "0-Inbox/You Need a Blog.md",
+    "0-Inbox/Achieving Your Goals Feels Good.md",
+    "0-Inbox/You Need a Status Page.md",
     "0-Inbox/What Gets Measured, Gets Managed.md",
     "0-Inbox/S.M.A.R.T. Goals.md",
-    "0-Inbox/Dann Felker.md",
     "0-Inbox/Learning to Program Sucks.md",
     "0-Inbox/The Single Best Thing to do for your Career.md",
-    "0-Inbox/The Three Buckets - Rule of Thirds.md",
-    "0-Inbox/Flutter.md",
-    "0-Inbox/React Native.md",
-    "0-Inbox/Why You Should Never Quit too Early.md",
-    "0-Inbox/Why you need to step out of your comfort zone.md"
+    "0-Inbox/The Three Buckets - Rule of Thirds.md"
   ]
 }
