@@ -1,4 +1,4 @@
-- 2021-08-04 at 17h37 · [[RStudio Configuration Notes]]
+- 2021-08-04 at 17h42 · [[RStudio Configuration Notes]]
 - 2021-08-04 at 17h34 · [[RStudio Tips and Tricks]]
 - 2021-08-04 at 17h28 · [[Memory in R]]
 - 2021-08-04 at 17h13 · [[Package Managers]]

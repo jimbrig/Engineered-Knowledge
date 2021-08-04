@@ -55,6 +55,14 @@
     "Dotfiles",
     "environement",
     "dotfiles",
-    "addins"
+    "addins",
+    "Tinytex",
+    "MikeTex",
+    "TexLive",
+    "Pandoc",
+    "optinoal",
+    "NodeJS",
+    "VSCode",
+    "Inno"
   ]
 }

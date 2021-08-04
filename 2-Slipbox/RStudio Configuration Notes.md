@@ -56,16 +56,25 @@ scoop install rstudio-daily
 
 As an R developer, we come across many  other various technologies during development and it can be useful to automate the process of setting up your [[Windows Developer Environment|Developer Environment]]:
 
+- Python (recommended)
+	- `reticulate` package for interacting with Python
+	- `radian` - A python package providing a much more developer friendly interface than the native `rterm` R-Terminal. (recommended) 
 - R Tools (required)
 - Git (required) + Git Client and Git LFS (optional)
-- SSH (required)
+- SSH (required) + SSH Keys in default location: `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub`
 - GPG (optional)
 - LaTeX / TeX Distribution (required)
-	- Tinytex (recommended)
+	- Tinytex (recommended) - `install.packages(tinytex)`
 	- MikeTex
 	- TexLive
 - Java (recommended)
-- Pandoc (optinoal - comes with RSt)
+- Pandoc (optional - comes with RStudio - but nice to have external install in your system's PATH to use from terminal)
+- NodeJS (optional) - useful for various `npm` packages
+- VSCode (recommended) - alternative editor/IDE with extension support for R
+- Hugo (recommended for `blogdown` use)
+- Inno (optional) - can turn 
+- 7Zip (optional)
+- 
 
 ## Configure RStudio Settings
 
