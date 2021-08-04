@@ -1,12 +1,12 @@
 ---
 Creation Date: 2021-08-04 16:06
-Last Modified Date: Wednesday 4th August 2021 16:06:05
+Last Modified Date: Wednesday 4th August 2021 16:08:11
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: MOC - People
-Tags: []
+Tags: ["#MOC", "#Index"]
 ---
 
-# MOC - People
+# People - Map of Content `fas:Sitemap`
 
 ## Productivity
 
@@ -29,6 +29,12 @@ Tags: []
 [[G'ard T'fuft]]
 
 [[Stephen Weinberg]]
+
+***
+
+Links: 
+
+Sources:
 
 ***
 

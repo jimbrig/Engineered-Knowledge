@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-Maps-of-Content/MOC - People.md",
+            "file": "2-Slipbox/You Need a Status Page.md",
             "mode": "source"
           }
         }
@@ -42,7 +42,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/What Blog Platform Should I Use.md",
+            "file": "2-Slipbox/What Blog Platform Should I Use.md",
             "mode": "preview"
           }
         }
@@ -144,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251
+    "width": 642
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Maps-of-Content/MOC - People.md",
+                "file": "2-Slipbox/You Need a Status Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Maps-of-Content/MOC - People.md",
+                "file": "2-Slipbox/You Need a Status Page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Maps-of-Content/MOC - People.md"
+                "file": "2-Slipbox/You Need a Status Page.md"
               }
             }
           },
@@ -253,15 +253,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "0-Inbox/MOC - People.md",
-    "0-Inbox/Dann Felker.md",
-    "0-Inbox/Untitled.md",
-    "0-Inbox/What Gets Measured, Gets Managed.md",
+    "0-Inbox/You Need a Status Page.md",
+    "0-Inbox/You Need a Blog.md",
+    "0-Inbox/Windows APK.md",
+    "0-Inbox/Windows 11.md",
+    "0-Inbox/Windows 10.md",
+    "0-Inbox/Why you need to step out of your comfort zone.md",
     "0-Inbox/What Blog Platform Should I Use.md",
-    "0-Inbox/What gets Measured gets Managed.md",
-    "0-Inbox/Code Comments.md",
-    "3-Resources/Highlights/Untitled.md",
-    "0-Inbox/The Single Best Thing to do for your Career.md",
-    "0-Inbox/README.md"
+    "0-Inbox/Uninstall Tool.md",
+    "0-Inbox/Ubuntu.md",
+    "0-Inbox/Typora.md"
   ]
 }

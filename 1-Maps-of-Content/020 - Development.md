@@ -42,7 +42,7 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 
 [Windows SDK](Windows%20SDK) | [Windows APK](Windows%20APK) | [WindowsPE](WindowsPE)
 
-[DISM](DISM) | [SFC](SFC) | [Drivers](Drivers) | [BIOS](BIOS) | [Disk Partitions](Disk%20Partitions)
+[DISM](DISM) | [SFC](SFC) | [Drivers](Drivers) | [BIOS](BIOS.md) | [Disk Partitions](Disk%20Partitions)
 
 [Windows Insider](Windows%20Insider) | [Windows 10](Windows%2010) | [Windows 11](Windows%2011)
 
@@ -54,15 +54,15 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 - [Nodejs](Nodejs)
 - [Python](../2-Slipbox/Python.md)
 - [Javascript](../2-Slipbox/Javascript.md)
-- [CSS](CSS) | [SASS](SASS)
+- [CSS](CSS.md) | [SASS](SASS)
 - [HTML](HTML)
 - [SSH](SSH)
 - [Ruby](Ruby)
 - [Rust](Rust)
 - [Go](Go)
 - [PHP](PHP)
-- [C++](C++) | [C](C) | [C#](C-Sharp)
-- [Assembly](Assembly)
+- [C++](C++.md) | [C](C.md) | [C#](C-Sharp.md)
+- [Assembly](Assembly.md)
 - [Swift](Swift) | [Objective-C](Objective-C)
 - [Java](Java)
 - [Groovy](Groovy)
@@ -71,18 +71,18 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 - [Perl](Perl)
 - [Scala](Scala)
 - [Lua](Lua)
-- [Clojure](Clojure)
+- [Clojure](Clojure.md)
 - [Markdown](../2-Slipbox/Markdown.md) | [LaTex](LaTex) | [TeX](TeX)
 - [MOC - PowerShell](MOC%20-%20PowerShell.md)
 - [[MOC - Command Line]] (DOS)
 - [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL).md) | [Ubuntu](Ubuntu)
-- [Bash](Bash) | [Git-Bash](Git)
+- [Bash](Bash.md) | [Git-Bash](Git)
 
 ### Containers and Orchestration
 
 - [Docker Best Practices](../2-Slipbox/Docker%20Best%20Practices.md)
 - [Kubernetes](Kubernetes)
-- [nginx](nginx)
+- [Nginx](Nginx.md)
 
 ### Javascript Frameworks
 
@@ -99,13 +99,13 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 - [MOC - PowerShell](MOC%20-%20PowerShell.md)
 - [[MOC - Command Line]]
 - [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL).md) | [Ubuntu](Ubuntu)
-- [Bash](Bash) | [Git-Bash](Git)
+- [Bash](Bash.md) | [Git-Bash](Git)
 
 ### Text Editors & IDEs
 
 - [Visual Studio Code](Visual%20Studio%20Code)
 - [RStudio](RStudio)
-- [Atom](Atom)
+- [Atom](Atom.md)
 
 #### Markdown Editors and Documentation
 
@@ -129,8 +129,8 @@ Also: [HTTPS](HTTPS), [SSH](SSH), and [GPG](GPG) for integration with [Git](Git)
 #### Windows Package Managers
 
 - [NuGet](NuGet) | [PowerShellGet](../2-Slipbox/PowerShellGet.md) | [OneGet](OneGet) | [PowerShell Modules](PowerShell%20Modules)
-- [Chocolatey](Chocolatey) | [Scoop](Scoop) | [WinGet](WinGet)
-- [Cygwin](Cygwin)
+- [Chocolatey](Chocolatey.md) | [Scoop](Scoop) | [WinGet](WinGet)
+- [Cygwin](Cygwin.md)
 - [Ninite](Ninite)
 - [Pacman](Pacman) - [MSYS2](MSYS2)-ported Windows version of the Arch Linux package Manager.
 - [vcpkg](vcpkg)
@@ -145,24 +145,24 @@ Also: [HTTPS](HTTPS), [SSH](SSH), and [GPG](GPG) for integration with [Git](Git)
 
 - [npm](npm) and [Yarn](Yarn.md) for [Node.js](Node.js) and [Javascript](../2-Slipbox/Javascript.md)
 - [pip](pip) for [Python](../2-Slipbox/Python.md) (also [Conda](Conda))
-- [Cargo](Cargo) for [Rust](Rust)
-- [CRAN](CRAN) for [[MOC - R|R]]
+- [Cargo](Cargo.md) for [Rust](Rust)
+- [CRAN](CRAN.md) for [[MOC - R|R]]
 - [CPAN](CPAN) for [PERL](PERL)
-- [Gradle](Gradle) for [Groovy](Groovy) and other JVM Languages plus [C++](C++)
+- [Gradle](Gradle) for [Groovy](Groovy) and other JVM Languages plus [C++](C++.md)
 - [Maven](Maven) for [Java](Java)
 - [Go](Go) has its own intern provider for [Go](Go)
 - [Composer](Composer) for [PHP](PHP)
-- [Conan](Conan) for [C++](C++)
+- [Conan](Conan) for [C++](C++.md)
 - [Helm](Helm) for [Kubernetes](Kubernetes)
 - [RubyGems](RubyGems) for [Ruby](Ruby)
-- [BPKG](BPKG) for [Bash](Bash)
+- [BPKG](BPKG) for [Bash](Bash.md)
 - [CocoaPods](CocoaPods) for [Swift](Swift)
 
 ### Hosting and Cloud Service Providers
 
 - [Google Cloud Platform - GCP](Google%20Cloud%20Platform%20-%20GCP) | [[gcloud SDK]] | [Firebase](Firebase)
-- [Microsoft Azure](Microsoft%20Azure) | [Azure CLI](Azure%20CLI)
-- [Amazon Web Services - AWS](Amazon%20Web%20Services%20-%20AWS)
+- [Microsoft Azure](Microsoft%20Azure) | [Azure CLI](Azure%20CLI.md)
+- [Amazon Web Services - AWS](Amazon%20Web%20Services%20-%20AWS.md)
 - [Heroku](Heroku)
 - [Digital Ocean](Digital%20Ocean)
 - [Linode](Linode)
@@ -174,7 +174,7 @@ For Storage:
 
 - [Google Drive](Google%20Drive)
 - [OneDrive](OneDrive)
-- [Amazon Drive](Amazon%20Drive)
+- [Amazon Drive](Amazon%20Drive.md)
 - [iCloud Drive](iCloud%20Drive)
 
 ### Command Line Interfaces for the Cloud:
@@ -207,7 +207,7 @@ For Storage:
 
 - [pgAdmin 4](pgAdmin%204)
 - [DBeaver](DBeaver)
-- [Beekeeper](Beekeeper)
+- [Beekeeper](Beekeeper.md)
 
 #### Database CLIs
 

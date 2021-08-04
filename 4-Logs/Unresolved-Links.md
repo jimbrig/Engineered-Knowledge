@@ -63,7 +63,7 @@ Don't forget that creating the file from here may create the file in the wrong d
 - [[Bash]] in [[1-Maps-of-Content/020 - Development]]
 - [[Git]] in [[1-Maps-of-Content/020 - Development]]
 - [[Kubernetes]] in [[1-Maps-of-Content/020 - Development]], [[2-Slipbox/Kubernetes Sandbox with minikube and kubectl]]
-- [[nginx]] in [[1-Maps-of-Content/020 - Development]], [[2-Slipbox/Kubernetes Sandbox with minikube and kubectl]]
+- [[Nginx]] in [[1-Maps-of-Content/020 - Development]], [[2-Slipbox/Kubernetes Sandbox with minikube and kubectl]]
 - [[React]] in [[1-Maps-of-Content/020 - Development]]
 - [[React Native]] in [[1-Maps-of-Content/020 - Development]]
 - [[Redux]] in [[1-Maps-of-Content/020 - Development]]

@@ -6297,7 +6297,7 @@
     "1-Maps-of-Content/020 - Development.md": {
       "size": 7072,
       "tags": 3,
-      "links": 167
+      "links": 168
     },
     "1-Maps-of-Content/030 - Professional.md": {
       "size": 224,
@@ -6634,11 +6634,6 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/BIOS.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/Disk Partitions.md": {
       "size": 0,
       "tags": 0,
@@ -6665,16 +6660,6 @@
       "links": 0
     },
     "0-Inbox/Visual Basic.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Node.js.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/CSS.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -6719,26 +6704,6 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/C++.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/C.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/C-Sharp.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Assembly.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/Swift.md": {
       "size": 0,
       "tags": 0,
@@ -6779,11 +6744,6 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/Clojure.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/LaTex.md": {
       "size": 0,
       "tags": 0,
@@ -6804,11 +6764,6 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/Bash.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/Git.md": {
       "size": 0,
       "tags": 0,
@@ -6819,22 +6774,12 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/nginx.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/React.md": {
       "size": 0,
       "tags": 0,
       "links": 0
     },
     "0-Inbox/RStudio.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Atom.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -6884,22 +6829,12 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/Chocolatey.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/Scoop.md": {
       "size": 0,
       "tags": 0,
       "links": 0
     },
     "0-Inbox/WinGet.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Cygwin.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -6915,16 +6850,6 @@
       "links": 0
     },
     "0-Inbox/pip.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Cargo.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/CRAN.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -6945,16 +6870,6 @@
       "links": 0
     },
     "0-Inbox/Microsoft Azure.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Azure CLI.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Amazon Web Services - AWS.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -6999,11 +6914,6 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/Amazon Drive.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/iCloud Drive.md": {
       "size": 0,
       "tags": 0,
@@ -7020,11 +6930,6 @@
       "links": 0
     },
     "0-Inbox/Heroku-CLI.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/AWS-CLI.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -7069,11 +6974,6 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/Beekeeper.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/psql.md": {
       "size": 0,
       "tags": 0,
@@ -7114,95 +7014,15 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/Regular expressions - JavaScript - MDN.md": {
-      "size": 20730,
-      "tags": 1,
-      "links": 4
-    },
-    "0-Inbox/Dann Felker.md": {
-      "size": 3086,
-      "tags": 1,
-      "links": 17
-    },
     "2-Slipbox/Code is not Production Code.md": {
       "size": 2779,
       "tags": 1,
       "links": 5
     },
-    "0-Inbox/Increase your productivity with outsourcing and SOPs.md": {
-      "size": 7311,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Why you need to step out of your comfort zone.md": {
-      "size": 4675,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Why You Should Never Quit too Early.md": {
-      "size": 8232,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Flutter.md": {
-      "size": 31343,
-      "tags": 1,
-      "links": 9
-    },
     "0-Inbox/React Native.md": {
       "size": 0,
       "tags": 0,
       "links": 0
-    },
-    "0-Inbox/The Three Buckets - Rule of Thirds.md": {
-      "size": 2451,
-      "tags": 1,
-      "links": 2
-    },
-    "0-Inbox/The Single Best Thing to do for your Career.md": {
-      "size": 5377,
-      "tags": 1,
-      "links": 2
-    },
-    "0-Inbox/Learning to Program Sucks.md": {
-      "size": 10853,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/What Gets Measured, Gets Managed.md": {
-      "size": 2978,
-      "tags": 0,
-      "links": 2
-    },
-    "0-Inbox/S.M.A.R.T. Goals.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/You Need a Status Page.md": {
-      "size": 7020,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/Achieving Your Goals Feels Good.md": {
-      "size": 5379,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/You Need a Blog.md": {
-      "size": 8346,
-      "tags": 0,
-      "links": 1
-    },
-    "0-Inbox/What Blog Platform Should I Use.md": {
-      "size": 14061,
-      "tags": 0,
-      "links": 16
-    },
-    "0-Inbox/Focus on Writing.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 1
     },
     "0-Inbox/Medium.md": {
       "size": 0,
@@ -7224,32 +7044,202 @@
       "tags": 1,
       "links": 1
     },
-    "0-Inbox/Code Comments.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 2
-    },
     "3-Resources/Highlights/Highlights - Code Comments.md": {
       "size": 0,
       "tags": 1,
       "links": 1
     },
-    "0-Inbox/Obsidian Advanced Tables Plugin.md": {
+    "1-Maps-of-Content/MOC - People.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 7
+    },
+    "2-Slipbox/Achieving Your Goals Feels Good.md": {
+      "size": 5379,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Placeholders/Amazon Drive.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Amazon Web Services - AWS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Assembly.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Atom.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/AWS-CLI.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Azure CLI.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Bash.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Beekeeper.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/BIOS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/C.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/C-Sharp.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/C++.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Cargo.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Chocolatey.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Clojure.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Code Comments.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
+    },
+    "0-Inbox/Placeholders/CRAN.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/CSS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Placeholders/Cygwin.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Dann Felker.md": {
+      "size": 3086,
+      "tags": 1,
+      "links": 17
+    },
+    "2-Slipbox/Flutter.md": {
+      "size": 31343,
+      "tags": 1,
+      "links": 9
+    },
+    "2-Slipbox/Increase your productivity with outsourcing and SOPs.md": {
+      "size": 7311,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/Learning to Program Sucks.md": {
+      "size": 10853,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Nginx.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Obsidian Advanced Tables Plugin.md": {
       "size": 0,
       "tags": 0,
       "links": 1
     },
-    "1-Maps-of-Content/MOC - People.md": {
+    "2-Slipbox/Regular expressions - JavaScript - MDN.md": {
+      "size": 20730,
+      "tags": 1,
+      "links": 4
+    },
+    "2-Slipbox/S.M.A.R.T. Goals.md": {
       "size": 0,
       "tags": 0,
-      "links": 7
+      "links": 1
+    },
+    "2-Slipbox/The Single Best Thing to do for your Career.md": {
+      "size": 5377,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/The Three Buckets - Rule of Thirds.md": {
+      "size": 2451,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/What Blog Platform Should I Use.md": {
+      "size": 14061,
+      "tags": 0,
+      "links": 16
+    },
+    "2-Slipbox/What Gets Measured, Gets Managed.md": {
+      "size": 2978,
+      "tags": 0,
+      "links": 2
+    },
+    "2-Slipbox/Why you need to step out of your comfort zone.md": {
+      "size": 4675,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/Why You Should Never Quit too Early.md": {
+      "size": 8232,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/You Need a Blog.md": {
+      "size": 8346,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/You Need a Status Page.md": {
+      "size": 7020,
+      "tags": 0,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 745,
+      "Refactor": 785,
       "Create": 539,
-      "Link": 679,
+      "Link": 681,
       "Expand": 77
     }
   },
@@ -7271,7 +7261,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 118,
+      "16": 160,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7285,7 +7275,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 546,
+      "Wed": 588,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7401,6 +7391,44 @@
         "<a class=\"internal-link\" href=\"0-Inbox/gcloud SDK.md\"> gcloud SDK </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/You Need a Status Page.md\"> You Need a Status Page </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/You Need a Blog.md\"> You Need a Blog </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/S.M.A.R.T. Goals.md\"> S.M.A.R.T. Goals </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Advanced Tables Plugin.md\"> Obsidian Advanced Tables Plugin </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Nginx.md\"> Nginx </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Flutter.md\"> Flutter </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Cygwin.md\"> Cygwin </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/CSS.md\"> CSS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/CRAN.md\"> CRAN </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Code Comments.md\"> Code Comments </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Code Comments.md\"> Code Comments </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Code Comments.md\"> Code Comments </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Clojure.md\"> Clojure </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Chocolatey.md\"> Chocolatey </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Cargo.md\"> Cargo </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C++.md\"> C++ </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C-Sharp.md\"> C-Sharp </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C.md\"> C </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/BIOS.md\"> BIOS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Beekeeper.md\"> Beekeeper </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Bash.md\"> Bash </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Azure CLI.md\"> Azure CLI </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/AWS-CLI.md\"> AWS-CLI </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Atom.md\"> Atom </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Assembly.md\"> Assembly </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Amazon Web Services - AWS.md\"> Amazon Web Services - AWS </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Amazon Drive.md\"> Amazon Drive </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Achieving Your Goals Feels Good.md\"> Achieving Your Goals Feels Good </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Yarn.md\"> Yarn </a>",
@@ -7413,47 +7441,10 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments.md\"> Windows Terminal Command Line Arguments </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal.md\"> Windows Terminal </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/Web Development.md\"> Web Development </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Bootstrapping Dotfiles.md\"> Bootstrapping Dotfiles </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Linux.md\"> Linux </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2020-08-20.md\"> 2020-08-20 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/2020-08-20.md\"> 2020-08-20 </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"Vault-Consistentsy-Report.md\"> Vault-Consistentsy-Report </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/XML.md\"> XML </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Reset OneDrive with Command Line.md\"> Reset OneDrive with Command Line </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success 1.md\"> Mindfulness - The Key to Success 1 </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - System Design.md\"> MOC - System Design </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Setup.md\"> MOC - Setup </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - R.md\"> MOC - R </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Project Management.md\"> MOC - Project Management </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Obsidian Resources.md\"> MOC - Obsidian Resources </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Links.md\"> MOC - Links </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Databases.md\"> MOC - Databases </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/050 - Computer.md\"> 050 - Computer </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/040 - Personal.md\"> 040 - Personal </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/030 - Professional.md\"> 030 - Professional </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/010 - Productivity.md\"> 010 - Productivity </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/000 - INDEX.md\"> 000 - INDEX </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/030 - Professional 1.md\"> 030 - Professional 1 </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/WSL.md\"> WSL </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/WSL.md\"> WSL </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/CLI Tools.md\"> CLI Tools </a>"
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/Web Development.md\"> Web Development </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Code Comments.md\"> Highlights - Code Comments </a>",
@@ -7503,8 +7494,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Data Validation Packages in R.md\"> Data Validation Packages in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Logging.md\"> Plumber Logging </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/R Miscellaneous Notes.md\"> R Miscellaneous Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Shiny Apps as Packages in R.md\"> Shiny Apps as Packages in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Shiny Apps as Packages in R.md\"> Shiny Apps as Packages in R </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7520,6 +7510,8 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Node.js.md\"> Node.js </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Focus on Writing.md\"> Focus on Writing </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/What gets Measured gets Managed.md\"> What gets Measured gets Managed </a>",
         "<a class=\"internal-link\" href=\"Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG.md\"> YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG </a>",
@@ -7568,11 +7560,10 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-05-02.md\"> 2021-05-02 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-28.md\"> 2021-07-28 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-27.md\"> 2021-07-27 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-24.md\"> 2021-07-24 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-21.md\"> 2021-07-21 </a>"
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Obsidian Advanced Tables Plugin.md\"> Obsidian Advanced Tables Plugin </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
@@ -7622,8 +7613,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

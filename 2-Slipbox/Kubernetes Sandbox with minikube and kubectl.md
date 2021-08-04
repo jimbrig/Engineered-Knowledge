@@ -237,7 +237,7 @@ kubernetes create --help
 
 Pod needs to be based on a certain deployment-based *image*:
 
-Here I will create a deployment based off the default [nginx](nginx) docker image called `nginx-depl`:
+Here I will create a deployment based off the default [Nginx](Nginx.md) docker image called `nginx-depl`:
 
 ```powershell
 kubectl create deployment nginx-depl --image=nginx
