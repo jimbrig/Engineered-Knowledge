@@ -7278,13 +7278,23 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "3-Resources/Highlights/Highlights - Mindfulness.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/Static Site Generators.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 882,
-      "Create": 642,
-      "Link": 690,
+      "Create": 644,
+      "Link": 691,
       "Expand": 81
     }
   },
@@ -7306,7 +7316,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 373,
+      "16": 376,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7320,7 +7330,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 801,
+      "Wed": 804,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7383,6 +7393,8 @@
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Static Site Generators.md\"> Static Site Generators </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Building a Second Brain.md\"> Building a Second Brain </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Collectors Fallacy.md\"> Collectors Fallacy </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Information Overload.md\"> Information Overload </a>",
@@ -7431,9 +7443,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/PowerShell Modules.md\"> PowerShell Modules </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/pip.md\"> pip </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/PHP.md\"> PHP </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/pgcli.md\"> pgcli </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/pgAdmin 4.md\"> pgAdmin 4 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Perl.md\"> Perl </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/pgcli.md\"> pgcli </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
@@ -7608,6 +7618,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Mindfulness.md\"> Highlights - Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/WinSCP.md\"> WinSCP </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
@@ -7657,8 +7668,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

@@ -17,7 +17,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Highlights/Untitled.md",
+            "file": "0-Inbox/README.md",
             "mode": "source"
           }
         }
@@ -47,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".Net Framework",
+                "query": "blog",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Highlights/Untitled.md",
+                "file": "0-Inbox/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Highlights/Untitled.md",
+                "file": "0-Inbox/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Highlights/Untitled.md"
+                "file": "0-Inbox/README.md"
               }
             }
           },
@@ -210,15 +210,15 @@
   },
   "active": "49d8b34d7bfd46f9",
   "lastOpenFiles": [
-    "3-Resources/Highlights/Untitled.md",
-    "3-Resources/Highlights/README.md",
-    "4-Logs/README.md",
-    "2-Slipbox/Mindfulness - The Key to Success.md",
-    "0-Inbox/Building a Second Brain.md",
-    "0-Inbox/Collectors Fallacy.md",
-    "0-Inbox/Information Overload.md",
+    "0-Inbox/README.md",
+    "0-Inbox/Placeholders/Medium.md",
+    "2-Slipbox/What Blog Platform Should I Use.md",
+    "2-Slipbox/Dann Felker.md",
+    "0-Inbox/Static Site Generators.md",
+    "2-Slipbox/Markdown.md",
     "4-Logs/Vault-Consistensy-Report.md",
-    "2-Slipbox/Mermaid Diagrams.md",
-    "2-Slipbox/Obsidian Links List.md"
+    "4-Logs/README.md",
+    "0-Inbox/Building a Second Brain.md",
+    "3-Resources/README.md"
   ]
 }

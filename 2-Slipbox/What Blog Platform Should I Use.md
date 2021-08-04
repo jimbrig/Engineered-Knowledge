@@ -44,7 +44,7 @@ Far too often I see software folks lose all of their time “building” somethi
 
 At this time I’m going to compare the following blog systems that you can use.
 
-- [[../0-Inbox/Placeholders/Medium.md]]
+- [[Medium]]
 - [[../0-Inbox/Placeholders/WordPress.md]]
 - [[../0-Inbox/Placeholders/Ghost.md]]
 - [[Static Sites]]

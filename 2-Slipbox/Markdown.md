@@ -14,7 +14,7 @@ Markdown is a markup language used by developers and computer scientists to writ
 
 [2-Slipbox/MkDocs](MkDocs.md)
 
-[Static Site Generators](Static%20Site%20Generators)
+[[Static Site Generators]]
 
 [Obsidian Links List](Obsidian%20Links%20List.md)
 
