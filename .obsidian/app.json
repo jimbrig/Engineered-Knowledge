@@ -38,6 +38,10 @@
     "Backend",
     "middleware",
     "ve",
-    "SuperCoolShop"
+    "SuperCoolShop",
+    "readClipboard",
+    "writeClipboard",
+    "fileSnapshot",
+    "Utils"
   ]
 }

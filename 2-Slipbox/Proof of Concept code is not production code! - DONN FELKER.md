@@ -1,5 +1,14 @@
-One thing that should be burned into the heads of many  
-developers is that Prototype/[Proof of Concept (PoC)](http://en.wikipedia.org/wiki/Proof_of_concept)  
+---
+Creation Date: 2021-07-21 11:39
+Last Modified Date: Wednesday 4th August 2021 15:02:05
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: production-code
+Tags: ["#Development"]
+---
+
+# Proof of Concept: Code is not production code!
+
+One thing that should be burned into the heads of many developers is that a [[Prototype]] or [Proof of Concept (PoC)](http://en.wikipedia.org/wiki/Proof_of_concept)  
 code is **NOT** production code. Proof of Concept code is not production  
 code.
 
@@ -38,3 +47,9 @@ Everything I share on my site will get sent out to my email newsletter first. Th
 What kind of stuff am I going to be sharing?
 
 I will teach you about how to start freelancing and consulting from a software developer perspective, how to work for yourself, increase productivity, find clients and make more as a freelancer/consultant. I'll also share the lessons I've learned in over 20 years in freelancing and consulting that will save you time, money and frustration. I look forward to chatting with you via email.
+***
+
+Links: 
+
+Sources:
+

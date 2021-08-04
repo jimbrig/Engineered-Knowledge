@@ -6051,7 +6051,7 @@
     },
     "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md": {
       "size": 2779,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "2-Slipbox/Google Cloud Setup Notes.md": {
@@ -6181,8 +6181,8 @@
     },
     "2-Slipbox/Utils Package Hidden Gems in R.md": {
       "size": 4834,
-      "tags": 0,
-      "links": 0
+      "tags": 2,
+      "links": 8
     },
     "2-Slipbox/Python.md": {
       "size": 176,
@@ -7132,9 +7132,9 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 733,
-      "Create": 510,
-      "Link": 633,
+      "Refactor": 734,
+      "Create": 511,
+      "Link": 636,
       "Expand": 62
     }
   },
@@ -7155,7 +7155,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 14,
+      "15": 19,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7170,7 +7170,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 444,
+      "Wed": 449,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7233,6 +7233,7 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/R.md\"> R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Iobit.md\"> Iobit </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/EaseUS.md\"> EaseUS </a>",
@@ -7282,8 +7283,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Cygwin.md\"> Cygwin </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/WinGet.md\"> WinGet </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Scoop.md\"> Scoop </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Chocolatey.md\"> Chocolatey </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/PowerShell Modules.md\"> PowerShell Modules </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Chocolatey.md\"> Chocolatey </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Subsystem for Linux (WSL).md\"> Windows Subsystem for Linux (WSL) </a>",
@@ -7339,6 +7339,8 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - R.md\"> MOC - R </a>",
@@ -7387,9 +7389,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL Commands and Installs.md\"> WSL Commands and Installs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Github/Github Actions for R.md\"> Github Actions for R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker.md\"> Docker </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker Compose Reference Docs.md\"> Docker Compose Reference Docs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Python/Python.md\"> Python </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker Compose Reference Docs.md\"> Docker Compose Reference Docs </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7405,6 +7405,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"0-Inbox/R.md\"> R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/gcloud.md\"> gcloud </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/R.md\"> R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/bootstrap.md\"> bootstrap </a>",
@@ -7454,10 +7455,10 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-26.md\"> 2021-07-26 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-25.md\"> 2021-07-25 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-20.md\"> 2021-07-20 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>",
-        "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>"
+        "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7507,8 +7508,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

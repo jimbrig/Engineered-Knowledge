@@ -1,8 +1,27 @@
+---
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Friday 30th July 2021 01:42:43
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Utils-Package-Hidden-Gems-in-R
+Tags: ["#R", "#Development"]
+---
+
+# Utils Package Hidden Gems in R
+
+## Contents
+
+- [[#readClipboard and writeClipboard|readClipboard and writeClipboard]]
+- [[#combn|combn]]
+- [[#fileSnapshot|fileSnapshot]]
+- [[#download.file|download.file]]
+- [[#fix - modify an object on the fly|fix - modify an object on the fly]]
 
 
-# Utils Package Hidden Gems
 
-### `readClipboard` and` writeClipboard`
+
+### readClipboard and writeClipboard
+
+`readClipboard` and` writeClipboard`:
 
 One of my favorite duo of functions from **utils** is _readCLipboard_ and _writeClipboard_. If you’re doing some manipulation to get a quick answer between R and Excel, these functions can come in handy. _readClipboard_ reads in whatever is currently on the Clipboard.
 
@@ -25,7 +44,7 @@ Now, the vector **test** has been copied to the clipboard. If you paste the resu
 
 ![writeClipboard result in R](https://i1.wp.com/theautomatic.net/wp-content/uploads/2019/03/writeClipboard-result-in-R.png?w=640)
 
-### `combn`
+### combn
 
 The _combn_ function is useful for getting the possible combinations of an input vector. For instance, let’s say we want to get all of the possible 2-element combinations of a vector, we could do this:
 
@@ -49,7 +68,7 @@ We can also add a parameter called **simplify** to make the function return a li
 combn(food, 3, simplify = FALSE)
 ```
 
-### `fileSnapshot`
+### fileSnapshot
 
 The _fileSnapshot_ function is one R’s collection of file manipulation functions. To learn more about file manipulation and getting information on files in R, [check out this post](http://theautomatic.net/2018/07/11/manipulate-files-r/).
 
@@ -77,7 +96,7 @@ Here, snapshot$info is a data frame showing information about the files in the i
 - atime ==> time stamp last accessed
 - exe ==> type of executable (or “no” if not an executable)
 
-### `download.file`
+### download.file
 
 _download.file_ does just what it sounds like – downloads a file from the internet to the destination provided in the function’s input. The first parameter is the URL of the file you wish to download. The second parameter is the name you want to give to the downloaded file. Below, we download a file and call it “census\_data.csv”.
 
@@ -85,7 +104,7 @@ _download.file_ does just what it sounds like – downloads a file from the inte
 download.file("https://www2.census.gov/programs-surveys/popest/datasets/2010/2010-eval-estimates/cc-est2010-alldata.csv", "census_data.csv")
 ```
 
-### `fix` - **modify an object on the fly**
+### fix - modify an object on the fly
 
 The **utils** package also has the ability to modify objects on the fly with the _fix_ function. For instance, let’s say you define a function interactively, and you want to make some modification.
 
@@ -108,3 +127,10 @@ fix(iris)
 ```
 
 ![fix data frame in r](https://i1.wp.com/theautomatic.net/wp-content/uploads/2019/04/fix-data-frame-in-r.png?w=640)
+
+***
+
+Links: [[020 - Development]] | [[MOC - R]] | [[Tools Package Hidden Gems in R]]
+
+Sources:
+

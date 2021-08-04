@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Proof of Concept code is not production code! - DONN FELKER",
+      "path": "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md"
+    },
+    {
       "basename": "Utils Package Hidden Gems in R",
       "path": "2-Slipbox/Utils Package Hidden Gems in R.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "npm",
       "path": "0-Inbox/npm.md"
-    },
-    {
-      "basename": "Ninite",
-      "path": "0-Inbox/Ninite.md"
     }
   ],
   "omittedPaths": [],
