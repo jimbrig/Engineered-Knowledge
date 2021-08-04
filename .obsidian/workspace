@@ -4,134 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "81b45848071cd797",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Templates/Daily-Note-Template.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "c9954522cd97d641",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Templates/MOC-Template.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "3ab418a24e6f5157",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/README.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "fead54bacb4c91a5",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Dictionaries/Dictionary.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "6007bd0132ed42fb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Dictionaries/Knowledge.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "b9c5e55bf31e3c4f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Dictionaries/Wisdom.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "f80cbb37fba17535",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Dictionaries/Ephemeral.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "61ff9c0ac0768a8c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Dictionaries/Fleeting.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "8663e952edd2d967",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Dictionaries/Index.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "a225e33461b733f4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2-Slipbox/Mindfulness - The Key to Success.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "1361fb9b65722455",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Windows Developer Environment.md",
+            "file": "0-Inbox/How to fix Issues with Windows File Type Associations.md",
             "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "dbbccc7758c8cd4e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Dictionaries/Kanban.md",
-            "mode": "source"
           }
         }
       }
@@ -160,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "how to ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Windows Developer Environment.md",
+                "file": "0-Inbox/How to fix Issues with Windows File Type Associations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Windows Developer Environment.md",
+                "file": "0-Inbox/How to fix Issues with Windows File Type Associations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Windows Developer Environment.md"
+                "file": "0-Inbox/How to fix Issues with Windows File Type Associations.md"
               }
             }
           },
@@ -298,15 +177,15 @@
   },
   "active": "1361fb9b65722455",
   "lastOpenFiles": [
-    "2-Slipbox/Windows Developer Environment.md",
-    "2-Slipbox/WinGet CLI Setup and Settings.md",
-    "2-Slipbox/WSL.md",
-    "2-Slipbox/WSL Commands and Installs.md",
-    "2-Slipbox/WSL-Notes.md",
-    "2-Slipbox/README.md",
-    "3-Resources/Daily-Notes/2021-08-03.md",
-    "README.md",
+    "0-Inbox/How to fix Issues with Windows File Type Associations.md",
     "0-Inbox/README.md",
-    "1-Maps-of-Content/010 - Productivity.md"
+    "2-Slipbox/How To Change Explorer Drive Icons via Registry.md",
+    "2-Slipbox/README.md",
+    "3-Resources/Daily-Notes/2021-07-30.md",
+    "3-Resources/Daily-Notes/2021-08-02.md",
+    "3-Resources/Daily-Notes/2021-08-03.md",
+    "3-Resources/Daily-Notes/2021-08-04.md",
+    "3-Resources/Daily-Notes/README.md",
+    "2-Slipbox/Windows Developer Environment.md"
   ]
 }

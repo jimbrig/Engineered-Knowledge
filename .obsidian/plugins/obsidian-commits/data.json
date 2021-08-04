@@ -6503,13 +6503,23 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "3-Resources/Daily-Notes/2021-08-04.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 3
+    },
+    "0-Inbox/How to fix Issues with Windows File Type Associations.md": {
+      "size": 861,
+      "tags": 0,
+      "links": 5
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 683,
-      "Create": 380,
-      "Link": 594,
+      "Create": 382,
+      "Link": 596,
       "Expand": 53
     }
   },
@@ -6517,7 +6527,7 @@
     "/": {
       "0": 100,
       "1": 767,
-      "2": 43,
+      "2": 47,
       "3": 150,
       "4": 7,
       "5": 0,
@@ -6545,7 +6555,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 216,
+      "Wed": 220,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6608,6 +6618,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-03.md\"> 2021-08-03 </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/Untitled.md\"> Untitled </a>",
@@ -6656,9 +6668,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Templates Index.md\"> Templates Index </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
@@ -6828,6 +6838,8 @@
         "<a class=\"internal-link\" href=\"Notes/PowerShell Tips.md\"> PowerShell Tips </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
@@ -6876,9 +6888,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Views vs. Materialized Views.md\"> Views vs. Materialized Views </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL.md\"> PostgreSQL </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Notes on Finishing Projects.md\"> Notes on Finishing Projects </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Time Management.md\"> Time Management </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/System Design/System Design Primer.md\"> System Design Primer </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Documentation/MkDocs.md\"> MkDocs </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Time Management.md\"> Time Management </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

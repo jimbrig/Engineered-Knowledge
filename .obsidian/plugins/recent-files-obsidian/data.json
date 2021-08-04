@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "How to fix Issues with Windows File Type Associations",
+      "path": "0-Inbox/How to fix Issues with Windows File Type Associations.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "How To Change Explorer Drive Icons via Registry",
+      "path": "2-Slipbox/How To Change Explorer Drive Icons via Registry.md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "2021-07-30",
+      "path": "3-Resources/Daily-Notes/2021-07-30.md"
+    },
+    {
+      "basename": "2021-08-02",
+      "path": "3-Resources/Daily-Notes/2021-08-02.md"
+    },
+    {
+      "basename": "2021-08-03",
+      "path": "3-Resources/Daily-Notes/2021-08-03.md"
+    },
+    {
+      "basename": "2021-08-04",
+      "path": "3-Resources/Daily-Notes/2021-08-04.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Daily-Notes/README.md"
+    },
+    {
       "basename": "Windows Developer Environment",
       "path": "2-Slipbox/Windows Developer Environment.md"
     },
@@ -22,19 +58,7 @@
     },
     {
       "basename": "README",
-      "path": "2-Slipbox/README.md"
-    },
-    {
-      "basename": "2021-08-03",
-      "path": "3-Resources/Daily-Notes/2021-08-03.md"
-    },
-    {
-      "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "010 - Productivity",
@@ -67,10 +91,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Dictionaries/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Daily-Notes/README.md"
     },
     {
       "basename": "README-Template",
@@ -179,26 +199,6 @@
     {
       "basename": "MkDocs",
       "path": "2-Slipbox/MkDocs.md"
-    },
-    {
-      "basename": "030 - Professional",
-      "path": "1-Maps-of-Content/030 - Professional.md"
-    },
-    {
-      "basename": "Windows Terminal Command Line Arguments - Windows Docs",
-      "path": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md"
-    },
-    {
-      "basename": "2021-08-02",
-      "path": "3-Resources/Daily-Notes/2021-08-02.md"
-    },
-    {
-      "basename": "020 - Development",
-      "path": "1-Maps-of-Content/020 - Development.md"
-    },
-    {
-      "basename": "RStudio Configuration Notes",
-      "path": "2-Slipbox/RStudio Configuration Notes.md"
     }
   ],
   "omittedPaths": [],
