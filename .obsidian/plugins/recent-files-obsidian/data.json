@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Dann Felker",
+      "path": "0-Inbox/Dann Felker.md"
+    },
+    {
       "basename": "Proof of Concept code is not production code! - DONN FELKER",
       "path": "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "yarn",
       "path": "0-Inbox/yarn.md"
-    },
-    {
-      "basename": "npm",
-      "path": "0-Inbox/npm.md"
     }
   ],
   "omittedPaths": [],

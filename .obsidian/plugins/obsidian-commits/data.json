@@ -6052,7 +6052,7 @@
     "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md": {
       "size": 2779,
       "tags": 1,
-      "links": 0
+      "links": 5
     },
     "2-Slipbox/Google Cloud Setup Notes.md": {
       "size": 1027,
@@ -7128,13 +7128,18 @@
       "size": 20730,
       "tags": 1,
       "links": 4
+    },
+    "0-Inbox/Dann Felker.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 734,
-      "Create": 511,
-      "Link": 636,
+      "Create": 512,
+      "Link": 637,
       "Expand": 62
     }
   },
@@ -7155,7 +7160,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 19,
+      "15": 21,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7170,7 +7175,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 449,
+      "Wed": 451,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7233,6 +7238,7 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/R.md\"> R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Iobit.md\"> Iobit </a>",
@@ -7282,8 +7288,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Ninite.md\"> Ninite </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cygwin.md\"> Cygwin </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/WinGet.md\"> WinGet </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Scoop.md\"> Scoop </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Chocolatey.md\"> Chocolatey </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Scoop.md\"> Scoop </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Subsystem for Linux (WSL).md\"> Windows Subsystem for Linux (WSL) </a>",
@@ -7458,6 +7463,7 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
@@ -7506,7 +7512,6 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/040 - Personal.md\"> 040 - Personal </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>"
       ],

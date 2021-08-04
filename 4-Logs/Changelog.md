@@ -1,4 +1,5 @@
-- 2021-08-04 at 15h02 · [[Proof of Concept code is not production code! - DONN FELKER]]
+- 2021-08-04 at 15h07 · [[Dann Felker]]
+- 2021-08-04 at 15h07 · [[Proof of Concept code is not production code! - DONN FELKER]]
 - 2021-08-04 at 15h01 · [[Utils Package Hidden Gems in R]]
 - 2021-08-04 at 14h57 · [[Regular expressions - JavaScript - MDN]]
 - 2021-08-04 at 14h56 · [[Backend Web Architecture]]
@@ -97,4 +98,3 @@
 - 2021-08-04 at 14h37 · [[Node.js]]
 - 2021-08-04 at 14h37 · [[Visual Basic]]
 - 2021-08-04 at 14h37 · [[SQL]]
-- 2021-08-04 at 14h37 · [[Windows 11]]

@@ -42,6 +42,7 @@
     "readClipboard",
     "writeClipboard",
     "fileSnapshot",
-    "Utils"
+    "Utils",
+    "PoC"
   ]
 }

@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md",
+            "file": "0-Inbox/Dann Felker.md",
             "mode": "source"
           }
         }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md",
+                "file": "0-Inbox/Dann Felker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md",
+                "file": "0-Inbox/Dann Felker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md"
+                "file": "0-Inbox/Dann Felker.md"
               }
             }
           },
@@ -211,6 +211,7 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
+    "0-Inbox/Dann Felker.md",
     "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md",
     "2-Slipbox/Utils Package Hidden Gems in R.md",
     "0-Inbox/R.md",
@@ -219,7 +220,6 @@
     "3-Resources/Daily-Notes/README.md",
     "4-Logs/Vault-Consistensy-Report.md",
     "1-Maps-of-Content/020 - Development.md",
-    "0-Inbox/Iobit.md",
-    "0-Inbox/EaseUS.md"
+    "0-Inbox/Iobit.md"
   ]
 }
