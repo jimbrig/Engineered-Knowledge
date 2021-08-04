@@ -25,7 +25,7 @@ Tags: [ "#Development", "#Scripts", "#Configuration" ]
 
 - 📂 __C:\\Users\\jimbr\\Dev\\scripts\\AutoHotKey__
   - 📂 __Custom__
-    - 📄 [Custom\-Text\-Expanders.ahk](Custom/Custom-Text-Expanders.ahk)
+    - 📄 [Custom\-Text\-Expanders.ahk](https://github.com/jimbrig/Scripts/AutoHotKey/Custom/Custom-Text-Expanders.ahk)
     - 📄 [Toggle\-Hidden\-Files\-and\-Folders.ahk](Custom/Toggle-Hidden-Files-and-Folders.ahk)
   - 📂 __Global\-Shortcuts__
     - 📄 [Keeper\-Global\-Shortcut.ahk](Global-Shortcuts/Keeper-Global-Shortcut.ahk)

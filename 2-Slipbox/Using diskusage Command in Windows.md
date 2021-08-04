@@ -1,9 +1,12 @@
-Links: [010-PROGRAMMING](010-PROGRAMMING.md)
-Tags: #windows #dev #cli #tool
-
+---
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Wednesday 4th August 2021 13:55:04
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: diskusage
+Tags: ["#Windows", "#Development", "#Computer", "#Command-Line"]
 ---
 
-# Windows New Command Line Tool - `diskusage`
+# Using diskusage Command in Windows
 
 If you are running a Windows Insider Preview build (20277, 21277, or later) you can now utilize a great new Windows CLI feature: `diskusage`. Note that I am writing this as of December 17, 2020.
 

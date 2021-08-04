@@ -1,34 +1,8 @@
 # Bad links (6 files)
 
-[4-Logs/README.md](README.md): 
-- (line 14): `Synclog.md`
-- (line 15): `./Unlinked-Files`
-- (line 16): `./Unresolved-Links`
 
 
-[3-Resources/README.md](../3-Resources/README.md): 
-- (line 10): `./Daily-Notes`
-- (line 12): `2020-04-20.md`
-- (line 12): `2020-08-20.md`
-- (line 14): `./Dictionaries`
-- (line 18): `./Highlights`
-- (line 22): `./Templates`
-- (line 26): `Daily-Note-Template.md`
-- (line 27): `Default-Note-Template.md`
-- (line 28): `Mindsweep-Note-Template.md`
-- (line 29): `MOC-Template.md`
-- (line 30): `Project-Note-Template.md`
-- (line 31): `README-Template.md`
-- (line 34): `./Kanbans`
 
-
-[2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md](../2-Slipbox/Windows%20Terminal%20Command%20Line%20Arguments%20-%20Windows%20Docs.md): 
-- (line 79): `/windows-server/administration/windows-commands/ping`
-- (line 85): `/powershell/module/microsoft.powershell.management/start-service`
-
-
-[2-Slipbox/Using diskusage Command in Windows.md](../2-Slipbox/Using%20diskusage%20Command%20in%20Windows.md): 
-- (line 0): `010-PROGRAMMING.md`
 
 
 [2-Slipbox/AutoHotKey Scripts.md](../2-Slipbox/AutoHotKey%20Scripts.md): 

@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "AutoHotKey Scripts",
+      "path": "2-Slipbox/AutoHotKey Scripts.md"
+    },
+    {
+      "basename": "Vault-Consistensy-Report",
+      "path": "4-Logs/Vault-Consistensy-Report.md"
+    },
+    {
+      "basename": "Using diskusage Command in Windows",
+      "path": "2-Slipbox/Using diskusage Command in Windows.md"
+    },
+    {
+      "basename": "Windows Terminal Command Line Arguments - Windows Docs",
+      "path": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md"
+    },
+    {
       "basename": "README",
       "path": "4-Logs/README.md"
     },
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Vault-Consistensy-Report",
-      "path": "4-Logs/Vault-Consistensy-Report.md"
     },
     {
       "basename": "Unresolved-Links",
@@ -187,18 +199,6 @@
     {
       "basename": "Fleeting",
       "path": "3-Resources/Dictionaries/Fleeting.md"
-    },
-    {
-      "basename": "Ephemeral",
-      "path": "3-Resources/Dictionaries/Ephemeral.md"
-    },
-    {
-      "basename": "Wisdom",
-      "path": "3-Resources/Dictionaries/Wisdom.md"
-    },
-    {
-      "basename": "Knowledge",
-      "path": "3-Resources/Dictionaries/Knowledge.md"
     }
   ],
   "omittedPaths": [],

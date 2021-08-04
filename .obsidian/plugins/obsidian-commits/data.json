@@ -5987,7 +5987,7 @@
     "2-Slipbox/AutoHotKey Scripts.md": {
       "size": 58746,
       "tags": 3,
-      "links": 22
+      "links": 21
     },
     "4-Logs/SyncLog.md": {
       "size": 86660,
@@ -6077,7 +6077,7 @@
     "2-Slipbox/Using diskusage Command in Windows.md": {
       "size": 1837,
       "tags": 4,
-      "links": 1
+      "links": 0
     },
     "2-Slipbox/Windows Command Line Commands Overview.md": {
       "size": 32091,
@@ -6297,7 +6297,7 @@
     "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md": {
       "size": 20840,
       "tags": 4,
-      "links": 9
+      "links": 7
     },
     "1-Maps-of-Content/000 - INDEX.md": {
       "size": 557,
@@ -6382,7 +6382,7 @@
     "4-Logs/README.md": {
       "size": 0,
       "tags": 1,
-      "links": 4
+      "links": 5
     },
     "3-Resources/Templates/README-Template.md": {
       "size": 0,
@@ -6542,14 +6542,14 @@
     "4-Logs/Vault-Consistensy-Report.md": {
       "size": 58737,
       "tags": 0,
-      "links": 90
+      "links": 87
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 696,
+      "Refactor": 700,
       "Create": 390,
-      "Link": 618,
+      "Link": 619,
       "Expand": 61
     }
   },
@@ -6568,7 +6568,7 @@
       "10": 0,
       "11": 42,
       "12": 24,
-      "13": 24,
+      "13": 29,
       "14": 2,
       "15": 14,
       "16": 101,
@@ -6585,7 +6585,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 271,
+      "Wed": 276,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6868,6 +6868,7 @@
         "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
@@ -6917,8 +6918,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-30.md\"> 2021-07-30 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/R Development.md\"> R Development </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Logging.md\"> Plumber Logging </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/R Development.md\"> R Development </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6981,7 +6981,11 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ]
     }
   },

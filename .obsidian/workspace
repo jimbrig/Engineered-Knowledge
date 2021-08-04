@@ -31,9 +31,17 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4-Logs/README.md",
+            "file": "2-Slipbox/AutoHotKey Scripts.md",
             "mode": "source"
           }
+        }
+      },
+      {
+        "id": "d56e9d083172c860",
+        "type": "leaf",
+        "state": {
+          "type": "Search on Internet",
+          "state": {}
         }
       }
     ],
@@ -114,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4-Logs/README.md",
+                "file": "2-Slipbox/AutoHotKey Scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4-Logs/README.md",
+                "file": "2-Slipbox/AutoHotKey Scripts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4-Logs/README.md"
+                "file": "2-Slipbox/AutoHotKey Scripts.md"
               }
             }
           },
@@ -200,15 +208,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
+    "2-Slipbox/AutoHotKey Scripts.md",
+    "4-Logs/Vault-Consistensy-Report.md",
+    "2-Slipbox/Using diskusage Command in Windows.md",
+    "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
     "4-Logs/README.md",
     "README.md",
-    "4-Logs/Vault-Consistensy-Report.md",
     "4-LogsVault-Consistentsy-Report.md",
     "4-Logs/Unresolved-Links.md",
     "4-Logs/Unlinked-Files.md",
-    "4-Logs/SyncLog.md",
-    "4-Logs/Changelog.md",
-    "3-Resources/Gallery/README.md",
-    "3-Resources/Highlights/README.md"
+    "4-Logs/SyncLog.md"
   ]
 }
