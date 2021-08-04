@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Web terms 101 – Google Domains",
-      "path": "2-Slipbox/Web terms 101 – Google Domains.md"
+      "basename": "Web Browsers",
+      "path": "2-Slipbox/Web Browsers.md"
     },
     {
       "basename": "Unlinked-Files",
       "path": "4-Logs/Unlinked-Files.md"
+    },
+    {
+      "basename": "Web terms 101 – Google Domains",
+      "path": "2-Slipbox/Web terms 101 – Google Domains.md"
     },
     {
       "basename": "2021-08-04",
@@ -195,10 +199,6 @@
     {
       "basename": "You Need a Blog",
       "path": "2-Slipbox/You Need a Blog.md"
-    },
-    {
-      "basename": "Why you need to step out of your comfort zone",
-      "path": "2-Slipbox/Why you need to step out of your comfort zone.md"
     }
   ],
   "omittedPaths": [],

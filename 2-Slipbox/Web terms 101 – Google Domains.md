@@ -81,7 +81,7 @@ Ready to get online? Start searching for your domain name at [domains.google](ht
 
 ***
 
-Links: [[Google Cloud Setup Notes]] | [[Google]]
+Links: [[Google Cloud Setup Notes]] | [[Google Cloud Platform - GCP]] | [[MOC - Web Development]]
 
-Sources:
+Sources: [Web terms 101 – Find out the meanings of website terminology. - Google Domains](https://domains.google/learn/web-terms-101/)
 

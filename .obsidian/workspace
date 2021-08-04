@@ -9,7 +9,29 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Web terms 101 – Google Domains.md",
+            "file": "4-Logs/Unlinked-Files.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "49fac356f1577925",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "4-Logs/Unlinked-Files.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "c22bb7b0161b4d5d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2-Slipbox/Web Browsers.md",
             "mode": "source"
           }
         }
@@ -108,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Web terms 101 – Google Domains.md",
+                "file": "2-Slipbox/Web Browsers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Web terms 101 – Google Domains.md",
+                "file": "2-Slipbox/Web Browsers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Web terms 101 – Google Domains.md"
+                "file": "2-Slipbox/Web Browsers.md"
               }
             }
           },
@@ -200,17 +222,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4a4a40bb4d671253",
+  "active": "c22bb7b0161b4d5d",
   "lastOpenFiles": [
-    "2-Slipbox/Web terms 101 – Google Domains.md",
+    "2-Slipbox/Web Browsers.md",
     "4-Logs/Unlinked-Files.md",
+    "2-Slipbox/Web terms 101 – Google Domains.md",
     "3-Resources/Daily-Notes/2021-08-04.md",
     "3-Resources/Daily-Notes/README.md",
     "3-Resources/Dictionaries/Index.md",
     "3-Resources/Dictionaries/Knowledge.md",
     "1-Maps-of-Content/MOC - PKM.md",
     "3-Resources/Gallery/README.md",
-    "2-Slipbox/Windows Command Line Commands Overview.md",
-    "3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md"
+    "2-Slipbox/Windows Command Line Commands Overview.md"
   ]
 }

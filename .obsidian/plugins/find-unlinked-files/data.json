@@ -1,17 +1,21 @@
 {
   "outputFileName": "4-Logs/Unlinked-Files",
-  "disableWorkingLinks": true,
+  "disableWorkingLinks": false,
   "directoriesToIgnore": [
-    ""
+    "3-Resources/",
+    "4-Logs/"
   ],
   "filesToIgnore": [
     "4-Logs/Changelog.md",
     "4-Logs/SyncLog.md"
   ],
-  "fileTypesToIgnore": [],
+  "fileTypesToIgnore": [
+    "txt",
+    " json"
+  ],
   "linksToIgnore": [],
   "tagsToIgnore": [
-    "txt"
+    ""
   ],
   "fileTypesToDelete": [
     ""

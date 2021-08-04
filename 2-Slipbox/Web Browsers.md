@@ -1,11 +1,13 @@
 ---
-creation date: 2021-05-01 12:35
-modification date: Saturday 1st May 2021 12:35:12
-tags: ["#moc"]
-author: Jimmy Briggs
+Creation Date: 2021-05-01 12:35
+Last Modified Date: Saturday 1st May 2021 12:35:12
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Web-Browsers
+Tags: ["#MOC", "#Index"]
 ---
 
-# Web Browsers
+# Web Browsers - Map of Content `fas:Sitemap`
+
 ![](assets/Pasted%20image%2020210501123611.png)
 
 ![](assets/Pasted%20image%2020210501123655.png)
@@ -13,12 +15,22 @@ author: Jimmy Briggs
 ![](assets/Pasted%20image%2020210501123722.png)
 
 Currently my primary web browsers are:
-- [Microsoft Edge Canary]
-- [Mozilla Firefox Developer Edition]
+
+- [[Microsoft Edge]] | [[Microsoft Edge Canary]]
+- [[Mozilla Firefox]] | [[Mozilla Firefox Developer Edition]] 
+- [[Google Chrome]] | [[Google Chrome Developer Edition]]
 
 
 
 ***
 Links: 
 Source:
+
+
+
+***
+
+Links: 
+
+Sources:
 

@@ -5822,7 +5822,7 @@
     "2-Slipbox/Web terms 101 – Google Domains.md": {
       "size": 4847,
       "tags": 0,
-      "links": 6
+      "links": 9
     },
     "2-Slipbox/Classification of Note Types.md": {
       "size": 4963,
@@ -6007,7 +6007,7 @@
     "4-Logs/Unlinked-Files.md": {
       "size": 2234,
       "tags": 0,
-      "links": 57
+      "links": 42
     },
     "4-Logs/Unresolved-Links.md": {
       "size": 14517,
@@ -6256,8 +6256,8 @@
     },
     "2-Slipbox/Web Browsers.md": {
       "size": 383,
-      "tags": 1,
-      "links": 3
+      "tags": 2,
+      "links": 8
     },
     "2-Slipbox/Views vs. Materialized Views.md": {
       "size": 1962,
@@ -7292,9 +7292,9 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 883,
+      "Refactor": 884,
       "Create": 644,
-      "Link": 695,
+      "Link": 698,
       "Expand": 82
     }
   },
@@ -7316,7 +7316,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 382,
+      "16": 386,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7330,7 +7330,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 810,
+      "Wed": 814,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7499,6 +7499,7 @@
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
@@ -7548,8 +7549,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Resources.md\"> Plumber Resources </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Databases with R Resources.md\"> Databases with R Resources </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Data Validation Packages in R.md\"> Data Validation Packages in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Logging.md\"> Plumber Logging </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/R Miscellaneous Notes.md\"> R Miscellaneous Notes </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Logging.md\"> Plumber Logging </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7618,6 +7618,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
@@ -7666,9 +7668,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Ship Side Projects.md\"> How to Ship Side Projects </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -7694,6 +7694,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
@@ -7743,8 +7744,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>"
       ]
     }
   },
