@@ -8,9 +8,27 @@ Tags: []
 
 # How to fix Issues with Windows File Type Associations
 
-Import and export default file association template [[XML]] Files via `DISM` command line commands;
+## Contents
 
-## Export Defaults
+- [[#Registry|Registry]]
+- [[#DISM XML Templates|DISM XML Templates]]
+	- [[#Export Defaults|Export Defaults]]
+	- [[#Import|Import]]
+
+
+View and tweak [[Windows Registry]] entries for File Associations.
+
+## Registry
+
+```powershell
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts
+```
+
+## DISM XML Templates
+
+Import and export default file association template [[XML]] Files via `DISM` command line commands.
+
+### Export Defaults
 
 ```powershell
 
@@ -18,7 +36,7 @@ dism /online /Export-DefaultAppAssociations:"%UserProfile%\Desktop\DefaultAppAss
 
 ```
 
-## Import
+### Import
 
 ```powershell
 

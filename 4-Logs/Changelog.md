@@ -1,4 +1,4 @@
-- 2021-08-04 at 02h09 · [[How to fix Issues with Windows File Type Associations]]
+- 2021-08-04 at 02h18 · [[How to fix Issues with Windows File Type Associations]]
 - 2021-08-04 at 02h09 · [[2021-08-04]]
 - 2021-08-04 at 02h03 · [[README]]
 - 2021-08-03 at 12h54 · [[2021-08-03]]

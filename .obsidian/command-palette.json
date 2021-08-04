@@ -8,6 +8,7 @@
     "backlink:toggle-backlinks-in-document",
     "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links",
     "obsidian-admonition:insert-admonition",
-    "templater-obsidian:create-new-note-from-template"
+    "templater-obsidian:create-new-note-from-template",
+    "obsidian-plugin-toc:create-toc"
   ]
 }
