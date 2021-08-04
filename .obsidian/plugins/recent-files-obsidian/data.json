@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
+      "basename": "XML",
+      "path": "2-Slipbox/XML.md"
+    },
+    {
       "basename": "Hot to force remove Windows store Apps (UWP)",
-      "path": "0-Inbox/Hot to force remove Windows store Apps (UWP).md"
+      "path": "2-Slipbox/Hot to force remove Windows store Apps (UWP).md"
     },
     {
       "basename": "README",
@@ -10,11 +14,7 @@
     },
     {
       "basename": "About the AppxProvisioning.xml File in Windows",
-      "path": "0-Inbox/About the AppxProvisioning.xml File in Windows.md"
-    },
-    {
-      "basename": "XML",
-      "path": "0-Inbox/XML.md"
+      "path": "2-Slipbox/About the AppxProvisioning.xml File in Windows.md"
     },
     {
       "basename": "2021-08-04",
