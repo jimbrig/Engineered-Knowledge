@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "The Three Buckets - Rule of Thirds",
-      "path": "0-Inbox/The Three Buckets - Rule of Thirds.md"
+      "basename": "What Gets Measured, Gets Managed",
+      "path": "0-Inbox/What Gets Measured, Gets Managed.md"
+    },
+    {
+      "basename": "S.M.A.R.T. Goals",
+      "path": "0-Inbox/S.M.A.R.T. Goals.md"
     },
     {
       "basename": "Dann Felker",
       "path": "0-Inbox/Dann Felker.md"
+    },
+    {
+      "basename": "Learning to Program Sucks",
+      "path": "0-Inbox/Learning to Program Sucks.md"
+    },
+    {
+      "basename": "The Single Best Thing to do for your Career",
+      "path": "0-Inbox/The Single Best Thing to do for your Career.md"
+    },
+    {
+      "basename": "The Three Buckets - Rule of Thirds",
+      "path": "0-Inbox/The Three Buckets - Rule of Thirds.md"
     },
     {
       "basename": "Flutter",
@@ -183,22 +199,6 @@
     {
       "basename": "Digital Ocean",
       "path": "0-Inbox/Digital Ocean.md"
-    },
-    {
-      "basename": "Heroku",
-      "path": "0-Inbox/Heroku.md"
-    },
-    {
-      "basename": "Amazon Web Services - AWS",
-      "path": "0-Inbox/Amazon Web Services - AWS.md"
-    },
-    {
-      "basename": "Azure CLI",
-      "path": "0-Inbox/Azure CLI.md"
-    },
-    {
-      "basename": "Microsoft Azure",
-      "path": "0-Inbox/Microsoft Azure.md"
     }
   ],
   "omittedPaths": [],

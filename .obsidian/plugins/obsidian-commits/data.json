@@ -7125,9 +7125,9 @@
       "links": 4
     },
     "0-Inbox/Dann Felker.md": {
-      "size": 2009,
+      "size": 2603,
       "tags": 1,
-      "links": 7
+      "links": 10
     },
     "2-Slipbox/Code is not Production Code.md": {
       "size": 2779,
@@ -7163,14 +7163,34 @@
       "size": 2451,
       "tags": 1,
       "links": 2
+    },
+    "0-Inbox/The Single Best Thing to do for your Career.md": {
+      "size": 5377,
+      "tags": 1,
+      "links": 2
+    },
+    "0-Inbox/Learning to Program Sucks.md": {
+      "size": 10853,
+      "tags": 0,
+      "links": 1
+    },
+    "0-Inbox/What Gets Measured, Gets Managed.md": {
+      "size": 2978,
+      "tags": 0,
+      "links": 2
+    },
+    "0-Inbox/S.M.A.R.T. Goals.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 735,
-      "Create": 518,
-      "Link": 651,
-      "Expand": 68
+      "Create": 522,
+      "Link": 656,
+      "Expand": 72
     }
   },
   "dailyCommits": {
@@ -7190,7 +7210,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 48,
+      "15": 61,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7205,7 +7225,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 478,
+      "Wed": 491,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7215,6 +7235,10 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
@@ -7261,13 +7285,13 @@
         "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
         "<a class=\"internal-link\" href=\"Notes/Windows Registry.md\"> Windows Registry </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>",
-        "<a class=\"internal-link\" href=\"Notes/Tools - Resilio Sync.md\"> Tools - Resilio Sync </a>"
+        "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/S.M.A.R.T. Goals.md\"> S.M.A.R.T. Goals </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/React Native.md\"> React Native </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
@@ -7314,11 +7338,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Firebase.md\"> Firebase </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/gcloud.md\"> gcloud </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Google Cloud Platform - GCP.md\"> Google Cloud Platform - GCP </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Helm.md\"> Helm </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/CRAN.md\"> CRAN </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/R.md\"> R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Cargo.md\"> Cargo </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/pip.md\"> pip </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Helm.md\"> Helm </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
@@ -7374,6 +7394,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
@@ -7423,8 +7444,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/EDA Packages in R.md\"> EDA Packages in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Git/Git Tools.md\"> Git Tools </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL.md\"> WSL </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL Commands and Installs.md\"> WSL Commands and Installs </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL.md\"> WSL </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7494,6 +7514,10 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
@@ -7539,11 +7563,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

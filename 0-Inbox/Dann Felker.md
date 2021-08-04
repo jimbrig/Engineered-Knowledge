@@ -19,15 +19,18 @@ Tags: ["#People"]
 Notes from Posts and original URLs:
 
 
-| Note                                                     | URL                                                                                |     |
-| -------------------------------------------------------- | ---------------------------------------------------------------------------------- | --- |
-| [[Code is not Production Code]]                          | https://www.donnfelker.com/prototypeproof-of-concept-code-is-not-production-code/) |     |
-| [[How to Ship Side Projects]]                            | https://www.donnfelker.com/?s=ship+side+projects                                   |     |
-| [[Increase your productivity with outsourcing and SOPs]] | https://www.donnfelker.com/increase-your-productivity-with-outsourcing-and-sops/   |     |
-| [[Why you need to step out of your comfort zone]]        | https://www.donnfelker.com/why-you-need-to-step-out-of-your-comfort-zone/          |     |
-| [[Why You Should Never Quit too Early]]                  | https://www.donnfelker.com/why-you-should-never-quit-too-early/                    |     |
-| [[Flutter]]                                              | https://www.donnfelker.com/flutter-just-might-work/                                |     |
-| [[The Three Buckets - Rule of Thirds]]                   | https://www.donnfelker.com/the-rule-of-thirds/                                                                                   |     |
+| Note                                                     | URL                                                                                           |     |
+| -------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --- |
+| [[Code is not Production Code]]                          | https://www.donnfelker.com/prototypeproof-of-concept-code-is-not-production-code/)            |     |
+| [[How to Ship Side Projects]]                            | https://www.donnfelker.com/?s=ship+side+projects                                              |     |
+| [[Increase your productivity with outsourcing and SOPs]] | https://www.donnfelker.com/increase-your-productivity-with-outsourcing-and-sops/              |     |
+| [[Why you need to step out of your comfort zone]]        | https://www.donnfelker.com/why-you-need-to-step-out-of-your-comfort-zone/                     |     |
+| [[Why You Should Never Quit too Early]]                  | https://www.donnfelker.com/why-you-should-never-quit-too-early/                               |     |
+| [[Flutter]]                                              | https://www.donnfelker.com/flutter-just-might-work/                                           |     |
+| [[The Three Buckets - Rule of Thirds]]                   | https://www.donnfelker.com/the-rule-of-thirds/                                                |     |
+| [[The Single Best Thing to do for your Career]]          | https://www.donnfelker.com/the-single-best-thing-you-can-do-for-your-career/                  |     |
+| [[Learning to Program Sucks]]                            | https://www.donnfelker.com/learning-program-sucks/ |     |
+| [[What Gets Measured, Gets Managed]]                                                         | https://www.donnfelker.com/what-gets-measured-gets-managed/                                                                                              |     |
 
 
 
