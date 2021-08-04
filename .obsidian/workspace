@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md",
-            "mode": "preview"
+            "file": "3-Resources/Daily-Notes/2021-08-04.md",
+            "mode": "source"
           }
         }
       }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md",
+                "file": "3-Resources/Daily-Notes/2021-08-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md",
+                "file": "3-Resources/Daily-Notes/2021-08-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md"
+                "file": "3-Resources/Daily-Notes/2021-08-04.md"
               }
             }
           },
@@ -178,10 +178,10 @@
   },
   "active": "16622d32b941ab3a",
   "lastOpenFiles": [
-    "0-Inbox/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-04.md",
-    "0-Inbox/XML.md",
     "0-Inbox/README.md",
+    "0-Inbox/Untitled.md",
+    "0-Inbox/XML.md",
     "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
     "2-Slipbox/Untitled.md",
     "1-Maps-of-Content/README.md",

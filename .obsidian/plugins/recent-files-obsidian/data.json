@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Debugging Windows Search Issues and High CPU Usage",
-      "path": "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md"
-    },
-    {
       "basename": "2021-08-04",
       "path": "3-Resources/Daily-Notes/2021-08-04.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "Debugging Windows Search Issues and High CPU Usage",
+      "path": "2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md"
     },
     {
       "basename": "XML",
@@ -15,10 +19,6 @@
     {
       "basename": "Hot to force remove Windows store Apps (UWP)",
       "path": "2-Slipbox/Hot to force remove Windows store Apps (UWP).md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "About the AppxProvisioning.xml File in Windows",

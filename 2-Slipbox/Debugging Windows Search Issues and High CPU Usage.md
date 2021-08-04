@@ -8,6 +8,19 @@ Tags: ["#Windows"]
 
 # Debugging Windows Search Issues and High CPU Usage
 
+## Contents
+
+- [[#Diagnosing and Repairing High CPU Usage|Diagnosing and Repairing High CPU Usage]]
+	- [[#Restart the Windows Search Service|Restart the Windows Search Service]]
+	- [[#Run the Search Diagnostic Troubleshooter|Run the Search Diagnostic Troubleshooter]]
+	- [[#Manually Reset Windows Search and Rebuild the Index|Manually Reset Windows Search and Rebuild the Index]]
+		- [[#Reset via Registry|Reset via Registry]]
+		- [[#Reset Service and Rebuild via Batch File|Reset Service and Rebuild via Batch File]]
+		- [[#Rebuild without Resetting via Batch File|Rebuild without Resetting via Batch File]]
+	- [[#Defrag the Search index database Windows.edb to reduce the file size|Defrag the Search index database Windows.edb to reduce the file size]]
+	- [[#Notes|Notes]]
+
+
 ## Diagnosing and Repairing High CPU Usage
 
 ![[Pasted image 20210804131025.png]]
@@ -140,10 +153,31 @@ Resetting the Search index, or removing unwanted folder locations from the searc
 
 ***
 
-Links: 
+Links: [[Windows Developer Environment|WindowsDevEnv]] | [[MOC - Setup|Computer-Setup]] | [[Windows Command Line Commands Overview]]
 
 Sources:
-- [Search indexing in Windows 10: FAQ (microsoft.com)](https://support.microsoft.com/en-us/windows/search-indexing-in-windows-10-faq-da061c83-af6b-095c-0f7a-4dfecda4d15a)
+
+* [Windows Search Indexer suddenly using too much CPU, help please - Windows 10 Forums](https://www.tenforums.com/performance-maintenance/110422-windows-search-indexer-suddenly-using-too-much-cpu-help-please.html)
+* [Fix: High CPU Usage By searchindexer.exe - Appuals.com](https://appuals.com/high-cpu-usage-by-searchindexer-exe/)
+* [High processor usage by indexer - Windows 10 Forums](https://www.tenforums.com/performance-maintenance/60534-high-processor-usage-indexer.html)
+* [searchindexer.exe extermemly high cpu usage - for days - Microsoft Community](https://answers.microsoft.com/en-us/windows/forum/windows_8-performance/searchindexerexe-extermemly-high-cpu-usage-for/362fdc15-48f3-42d2-9c09-b2af07c198fd)
+* [SearchIndexer.exe taking up 15-20% CPU after indexing complete](https://social.technet.microsoft.com/Forums/windows/en-US/b73b6db7-117f-4985-8c53-9cb610173b1d/searchindexerexe-taking-up-1520-cpu-after-indexing-complete?forum=w7itproperf)
+* [Enable or Disable Search Indexing in Windows | Tutorials](https://www.tenforums.com/tutorials/93666-enable-disable-search-indexing-windows.html)
+* [Indexing Process in Windows Search - Win32 apps | Microsoft Docs](https://docs.microsoft.com/en-us/windows/win32/search/-search-indexing-process-overview#stage-3-updating-the-index)
+* [Search indexing in Windows 10: FAQ](https://support.microsoft.com/en-us/windows/search-indexing-in-windows-10-faq-da061c83-af6b-095c-0f7a-4dfecda4d15a)
+* [Use Indexer Diagnostics App for Windows Search Issues in Windows 10 | Tutorials](https://www.tenforums.com/tutorials/148377-use-indexer-diagnostics-app-windows-search-issues-windows-10-a.html)
+* [Windows Search Indexer suddenly using too much CPU, help please - Windows 10 Forums](https://www.tenforums.com/performance-maintenance/110422-windows-search-indexer-suddenly-using-too-much-cpu-help-please.html)
+* [Microsoft windows search indexer is constantly running and using - Microsoft Community](https://answers.microsoft.com/en-us/windows/forum/all/microsoft-windows-search-indexer-is-constantly/c17d1531-c891-4e1f-9fe6-2e6868ba9237)
+* [How to perform a clean boot in Windows](https://support.microsoft.com/en-us/topic/how-to-perform-a-clean-boot-in-windows-da2f9573-6eec-00ad-2f8a-a97a1807f3dd)
+* [jimbrig - Microsoft Community](https://answers.microsoft.com/en-us/profile/b2d7a85b-c14c-40f3-b739-5bf0934992f1?sort=LastReplyDate&dir=Desc&tab=Threads&forum=allcategories&meta=&status=&mod=&advFil=&postedAfter=undefined&postedBefore=undefined&threadType=All&page=1)
+* [Microsoft Support](https://support.microsoft.com/)
+* [Windows Search is not working; Search Failed to Initialize in Windows 10](https://www.thewindowsclub.com/windows-search-indexer-not-working)
+* [What is the Windows.edb file in Windows 10](https://www.thewindowsclub.com/windows-edb-file)
+* [How to start and stop services manually on Windows 10 | Windows Central](https://www.windowscentral.com/how-start-and-stop-services-windows-10#mange_services_powershell_windows10)
+* [korwbrkr.dll - What is korwbrkr.dll?](https://www.processlibrary.com/en/directory/files/korwbrkr/337581/)
+* [How to Reset & Rebuild Windows Search Index Completely » Winhelponline](https://www.winhelponline.com/blog/reset-rebuild-windows-search-index-fix-problems/#:~:text=%20Rebuild%20Search%20Index%20using%20Batch%20file%20%28without,reset_search.bat%20and%20click%20Run%20as%20administrator.%20More%20)
+* [What is Enhanced Search (Indexing Options) in Windows 10? » Winhelponline](https://www.winhelponline.com/blog/what-is-enhanced-search-in-windows-10/)
+* [Search indexing in Windows 10: FAQ (microsoft.com)](https://support.microsoft.com/en-us/windows/search-indexing-in-windows-10-faq-da061c83-af6b-095c-0f7a-4dfecda4d15a)
 - [Fix: High CPU Usage By searchindexer.exe - Appuals.com](https://appuals.com/high-cpu-usage-by-searchindexer-exe/)
 - [Windows Search Indexer suddenly using too much CPU, help please - Windows 10 Forums (tenforums.com)](https://www.tenforums.com/performance-maintenance/110422-windows-search-indexer-suddenly-using-too-much-cpu-help-please.html)
 - [Enable or Disable Search Indexing in Windows | Tutorials (tenforums.com)](https://www.tenforums.com/tutorials/93666-enable-disable-search-indexing-windows.html)
