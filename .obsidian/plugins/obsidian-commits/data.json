@@ -6540,7 +6540,7 @@
       "links": 1
     },
     "0-Inbox/Debugging Windows Search Issues and High CPU Usage.md": {
-      "size": 2535,
+      "size": 4171,
       "tags": 1,
       "links": 3
     }
@@ -6550,7 +6550,7 @@
       "Refactor": 692,
       "Create": 389,
       "Link": 614,
-      "Expand": 57
+      "Expand": 58
     }
   },
   "dailyCommits": {
@@ -6568,7 +6568,7 @@
       "10": 0,
       "11": 42,
       "12": 24,
-      "13": 11,
+      "13": 12,
       "14": 2,
       "15": 14,
       "16": 101,
@@ -6585,7 +6585,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 258,
+      "Wed": 259,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6595,6 +6595,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
@@ -6644,8 +6645,7 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
         "<a class=\"internal-link\" href=\"Notes/External/Keyboard shortcuts for Gmail - Computer.md\"> Keyboard shortcuts for Gmail - Computer </a>",
         "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Notes/Windows Developer Environment.md\"> Windows Developer Environment </a>"
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",

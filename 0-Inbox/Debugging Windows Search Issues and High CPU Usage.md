@@ -12,7 +12,7 @@ Tags: ["#Windows"]
 
 ![[Pasted image 20210804131025.png]]
 
-### Method 1) Restart the Windows Search Service
+### Restart the Windows Search Service
 
 To get a listing of *all* available services, both running and stopped run `Get-Service`:
 
@@ -61,13 +61,42 @@ sc config "WSearch" start=demand
 sc config "WSearch" start=delayed-auto
 ```
 
-### Method 2) Rename korwbrkr.sll to korwbrkr.bak
-
-Stop the "WSearch" service, and then run the following:
+### Run the Search Diagnostic Troubleshooter
 
 ```powershell
-cd %windir%\system32
-ren korwbrkr.sll korwbrkr.bak
+msdt.exe -ep SystemSettings_Troubleshoot_L2 -id SearchDiagnostic
+```
+
+If necessary, the troubleshooter fixes the NTFS permissions for the Windows Search data folder so that the `NT AUTHORITY\SYSTEM` account has the required permissions. By default, the search data folder is located at `%ProgramData%\Microsoft\Search\Data\`. The troubleshooter can also reset the Windows Search settings and force a rebuild of the Search index if deemed necessary.
+
+### Manually Reset Windows Search and Rebuild the Index
+
+The Search troubleshooter is the most preferred way to troubleshoot search and indexing issues, as it automates many things (depending upon the checkbox options you selected).
+
+However, if you want to manually reset Windows Search, delete and rebuild the index, use these steps:
+
+#### Reset via Registry
+
+1. Start the Registry Editor `regedit.exe` and go to:    `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search`
+2. Change the registry value `SetupCompletedSuccessfully` data from `1` to `0`.
+3.  Exit the Registry Editor.
+4. Open the Services MMC (`services.msc`)
+5. Restart the Windows Search service
+
+#### Reset via Batch File
+
+- [linktobatchfile]() - saved as `rebuild-search-index.bat` in my `C:\bin` directory:
+
+```batch
+sc config wsearch start= disabled
+net stop wsearch
+REG ADD "HKLM\SOFTWARE\Microsoft\Windows Search" /v SetupCompletedSuccessfully /t REG_DWORD /d 0 /f
+del "%ProgramData%\Microsoft\Search\Data\Applications\Windows\Windows.edb"
+:wsearch
+sc config wsearch start= delayed-auto
+net start wsearch
+IF NOT %ERRORLEVEL%==0 (goto :wsearch) ELSE goto :END
+:END
 ```
 
 ***
