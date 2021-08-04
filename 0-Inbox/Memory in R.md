@@ -2,8 +2,8 @@
 Creation Date: 2021-08-04 17:26
 Last Modified Date: Wednesday 4th August 2021 17:26:32
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: Memory in R
-Tags: []
+Alias: Memory-in-R
+Tags: ["#R", "#Development"]
 ---
 
 # Memory in R
@@ -16,4 +16,8 @@ A helpful function one can use for this is `pryr::mem_used` which wraps around `
 
 `pryr::object_size()` is another helpful function which works similarly to `utils::object.size()` but counts more accurately and includes the size of environments. 
 
-`pryr::compare_size` makes it easy to compare the output of object_size and object.size.
+`pryr::compare_size` makes it easy to compare the output of `object_size` and `object.size`.
+
+***
+
+Links: [[MOC - R]] | [[RStudio Configuration Notes]]

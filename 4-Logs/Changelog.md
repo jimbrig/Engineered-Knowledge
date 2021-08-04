@@ -1,5 +1,5 @@
-- 2021-08-04 at 17h27 · [[Memory in R]]
-- 2021-08-04 at 17h26 · [[RStudio Configuration Notes]]
+- 2021-08-04 at 17h32 · [[RStudio Configuration Notes]]
+- 2021-08-04 at 17h28 · [[Memory in R]]
 - 2021-08-04 at 17h13 · [[Package Managers]]
 - 2021-08-04 at 16h58 · [[Unlinked-Files]]
 - 2021-08-04 at 16h58 · [[050 - Computer]]

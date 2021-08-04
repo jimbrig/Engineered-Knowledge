@@ -86,7 +86,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Memory in R.md",
+            "file": "2-Slipbox/RStudio Configuration Notes.md",
             "mode": "source"
           }
         }
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Memory in R.md",
+                "file": "2-Slipbox/RStudio Configuration Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Memory in R.md",
+                "file": "2-Slipbox/RStudio Configuration Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Memory in R.md"
+                "file": "2-Slipbox/RStudio Configuration Notes.md"
               }
             }
           },
@@ -279,8 +279,8 @@
   },
   "active": "29f29b5c8c6b46df",
   "lastOpenFiles": [
-    "0-Inbox/Untitled.md",
     "2-Slipbox/RStudio Configuration Notes.md",
+    "0-Inbox/Untitled.md",
     "0-Inbox/Package Managers.md",
     "4-Logs/Unlinked-Files.md",
     "1-Maps-of-Content/050 - Computer.md",

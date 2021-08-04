@@ -95,23 +95,38 @@ For more advanced R developers you may want to further configure your developmen
 
 ### Environment and %PATH% Variables
 
+`%appdata%\RStudio` - RStudio Configuration Directory (Preferences)
+`%localappdata%\RStudio-Desktop` - RStudio Desktop Internal State
+
+To add your system [[R-Tools]] `%PATH%` to your  `.Renviron` (easier than manually configuring within windows system settings) run the code:
+
+```R
+cat('PATH = ${RTOOLS40_HOME}\\usr\\bin;${PATH}',
+    file = fs::path(Sys.getenv("R_USER"), "/.Renviron"),
+    append = TRUE)
+```
+
+alternatively use the command prompt or powershell:
+
+```cmd
+setx PATH "<path to rtools>"
+```
+
+```powershell
+$env:PATH = $env:PATH + "<path to rtools>"
+```
 
 
-Additionally, you can configure keybinding for RStudio addins from RStudio and store them within the .R folder located in your R_USER path. To view this path run `Sys.getenv("R_USER")`.
 
 ### My Setup
 
 Here is what my minimal setup includes:
 
+Additionally, you can configure keybinding for RStudio addins from RStudio and store them within the .R folder located in your R_USER path. To view this path run `Sys.getenv("R_USER")`.
 
 
 
 
-To add your system RTOOLS PATH to your .Renviron (easier than manually configuring within windows system settings) run the code:
-
-cat('PATH = ${RTOOLS40_HOME}\\usr\\bin;${PATH}',
-    file = fs::path(Sys.getenv("R_USER"), "/.Renviron"),
-    append = TRUE)
 
 ### RStudio Dotfiles
 
@@ -128,9 +143,9 @@ Configuration files to backup:
 - Project Lists
 
 
-## Windows Directories
-* `
-* 
+## Tips and Tricks
+
+1. If you have more than one version or architecture of [[MOC - R|R]] installed on your machine, you can hold down the `Ctrl` key when opening RStudio and a dialog box will appear allowing you to select the version of R to run 
 
 
 ***
