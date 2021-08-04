@@ -6513,12 +6513,22 @@
       "size": 8739,
       "tags": 0,
       "links": 11
+    },
+    "2-Slipbox/Reset OneDrive with Command Line.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Enhanced CleanMgr Command.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 687,
-      "Create": 382,
+      "Refactor": 689,
+      "Create": 385,
       "Link": 600,
       "Expand": 54
     }
@@ -6528,7 +6538,7 @@
       "0": 100,
       "1": 767,
       "2": 55,
-      "3": 151,
+      "3": 156,
       "4": 7,
       "5": 0,
       "6": 0,
@@ -6555,7 +6565,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 229,
+      "Wed": 234,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6618,6 +6628,9 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-03.md\"> 2021-08-03 </a>",
@@ -6665,12 +6678,10 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker Compose Reference Docs.md\"> Docker Compose Reference Docs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/Backend Web Architecture.md\"> Backend Web Architecture </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Project Management/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Reset OneDrive with Command Line.md\"> Reset OneDrive with Command Line </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success 1.md\"> Mindfulness - The Key to Success 1 </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
@@ -6720,8 +6731,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/030 - Professional.md\"> 030 - Professional </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>"
+        "<a class=\"internal-link\" href=\"1-Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
@@ -6785,6 +6795,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/MkDocs 1.md\"> MkDocs 1 </a>",
         "<a class=\"internal-link\" href=\"images/terminal-command-args.gif.md\"> terminal-command-args.gif </a>",
@@ -6834,8 +6845,7 @@
         "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>",
         "<a class=\"internal-link\" href=\"Notes/Git Links.md\"> Git Links </a>",
         "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/PowerShell Tips.md\"> PowerShell Tips </a>"
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",

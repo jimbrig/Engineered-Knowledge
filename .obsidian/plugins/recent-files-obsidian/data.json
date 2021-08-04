@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "Enhanced CleanMgr Command",
+      "path": "2-Slipbox/Enhanced CleanMgr Command.md"
+    },
+    {
+      "basename": "Reset OneDrive with Command Line",
+      "path": "2-Slipbox/Reset OneDrive with Command Line.md"
+    },
+    {
       "basename": "2021-08-04",
       "path": "3-Resources/Daily-Notes/2021-08-04.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "How to fix Issues with Windows File Type Associations",
       "path": "2-Slipbox/How to fix Issues with Windows File Type Associations.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "How To Change Explorer Drive Icons via Registry",
@@ -187,18 +195,6 @@
     {
       "basename": "Obsidian Templater Plugin Notes",
       "path": "2-Slipbox/Obsidian Templater Plugin Notes.md"
-    },
-    {
-      "basename": "Obsidian Links List",
-      "path": "2-Slipbox/Obsidian Links List.md"
-    },
-    {
-      "basename": "Obsidian Taxonomy",
-      "path": "2-Slipbox/Obsidian Taxonomy.md"
-    },
-    {
-      "basename": "Obsidian Setup",
-      "path": "2-Slipbox/Obsidian Setup.md"
     }
   ],
   "omittedPaths": [],
