@@ -7,9 +7,9 @@ author: Jimmy Briggs
 
 # APIs
 
-![[zapier-introduction-to-apis.pdf]]
+![](assets/zapier-introduction-to-apis.pdf)
 
 ***
-Links: [[MOC - System Design]]
+Links: [MOC - System Design](../1-Maps-of-Content/MOC%20-%20System%20Design.md)
 Source: [An Introduction to APIs | Zapier](https://zapier.com/learn/apis/)
 

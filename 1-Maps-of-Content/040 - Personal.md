@@ -8,11 +8,11 @@ Tags: []
 
 # 040 - Personal
 
-[[MOC - Setup]]
+[MOC - Setup](MOC%20-%20Setup.md)
 
-[[050 - Computer]]
+[050 - Computer](050%20-%20Computer.md)
 
-[[Personal Finances]]
+[Personal Finances](Personal%20Finances)
 
 
 ***

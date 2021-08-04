@@ -12,7 +12,7 @@ Tags: ["#Development", "#Windows", "#Configuration", "#Code"]
 
 ***
 
-Links: [[050 - Computer]] | [[020 - Development]] | [[Windows Developer Environment]]
+Links: [050 - Computer](../1-Maps-of-Content/050%20-%20Computer.md) | [020 - Development](../1-Maps-of-Content/020%20-%20Development.md) | [Windows Developer Environment](Windows%20Developer%20Environment.md)
 
 Sources:
 - [batch - Windows 7 - Shortcut - Target Attributes too long - Super User](https://superuser.com/questions/545400/windows-7-shortcut-target-attributes-too-long)

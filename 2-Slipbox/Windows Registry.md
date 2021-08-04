@@ -12,8 +12,8 @@ The registry is a hierarchical database that contains data that is critical for 
 
 ## Internal Note Links
 
-- [[Windows Registry Paths and Keys]]
-- [[How To Change Explorer Drive Icons via Registry]]
+- [Windows Registry Paths and Keys](Windows%20Registry%20Paths%20and%20Keys.md)
+- [How To Change Explorer Drive Icons via Registry](How%20To%20Change%20Explorer%20Drive%20Icons%20via%20Registry.md)
 
 ## Resources
 

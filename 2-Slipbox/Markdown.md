@@ -10,13 +10,13 @@ Tags: ["#MOC", "#Index", "#Development", "#Documentation"]
 
 Markdown is a markup language used by developers and computer scientists to write human readable text in a machine/computer driven syntax.
 
-[[Mermaid Diagrams]]
+[Mermaid Diagrams](Mermaid%20Diagrams.md)
 
-[[2-Slipbox/MkDocs]]
+[2-Slipbox/MkDocs](MkDocs.md)
 
-[[Static Site Generators]]
+[Static Site Generators](Static%20Site%20Generators)
 
-[[Obsidian Links List]]
+[Obsidian Links List](Obsidian%20Links%20List.md)
 
 ***
 

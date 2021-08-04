@@ -10,26 +10,26 @@ Tags: ["#Windows"]
 
 ## Contents
 
-- [[#Diagnosing and Repairing High CPU Usage|Diagnosing and Repairing High CPU Usage]]
-	- [[#Restart the Windows Search Service|Restart the Windows Search Service]]
-	- [[#Run the Search Diagnostic Troubleshooter|Run the Search Diagnostic Troubleshooter]]
-	- [[#Manually Reset Windows Search and Rebuild the Index|Manually Reset Windows Search and Rebuild the Index]]
-		- [[#Reset via Registry|Reset via Registry]]
-		- [[#Reset Service and Rebuild via Batch File|Reset Service and Rebuild via Batch File]]
-		- [[#Rebuild without Resetting via Batch File|Rebuild without Resetting via Batch File]]
-	- [[#Defrag the Search index database Windows.edb to reduce the file size|Defrag the Search index database Windows.edb to reduce the file size]]
-	- [[#Notes|Notes]]
+- [Diagnosing and Repairing High CPU Usage](#Diagnosing%20and%20Repairing%20High%20CPU%20Usage)
+	- [Restart the Windows Search Service](#Restart%20the%20Windows%20Search%20Service)
+	- [Run the Search Diagnostic Troubleshooter](#Run%20the%20Search%20Diagnostic%20Troubleshooter)
+	- [Manually Reset Windows Search and Rebuild the Index](#Manually%20Reset%20Windows%20Search%20and%20Rebuild%20the%20Index)
+		- [Reset via Registry](#Reset%20via%20Registry)
+		- [Reset Service and Rebuild via Batch File](#Reset%20Service%20and%20Rebuild%20via%20Batch%20File)
+		- [Rebuild without Resetting via Batch File](#Rebuild%20without%20Resetting%20via%20Batch%20File)
+	- [Defrag the Search index database Windows.edb to reduce the file size](#Defrag%20the%20Search%20index%20database%20Windows.edb%20to%20reduce%20the%20file%20size)
+	- [Notes](#Notes)
 
 
 ## Diagnosing and Repairing High CPU Usage
 
-![[Pasted image 20210804131025.png]]
+![](assets/Pasted%20image%2020210804131025.png)
 
 ### Restart the Windows Search Service
 
 To get a listing of *all* available services, both running and stopped run `Get-Service`:
 
-![[Pasted image 20210804131401.png]]
+![](assets/Pasted%20image%2020210804131401.png)
 
 Can disable the service through `services.msc` or using powershell:
 
@@ -44,7 +44,7 @@ Set-Service -Name "WSearch" -StartupType automatic
 
 ```
 
-Alternatively, use [[Command Prompt - CMD]]:
+Alternatively, use [Command Prompt - CMD](Command%20Prompt%20-%20CMD):
 
 Get a list of all running services:
 
@@ -145,7 +145,7 @@ The above commands stop/disable Windows Search, compact (defrag) the search inde
 
 Resetting the Search index, or removing unwanted folder locations from the search index, and compacting the database would certainly improve the search performance in your system.
 
-![[Pasted image 20210804134010.png]]
+![](assets/Pasted%20image%2020210804134010.png)
 
 ### Notes
 
@@ -153,7 +153,7 @@ Resetting the Search index, or removing unwanted folder locations from the searc
 
 ***
 
-Links: [[Windows Developer Environment|WindowsDevEnv]] | [[MOC - Setup|Computer-Setup]] | [[Windows Command Line Commands Overview]]
+Links: [WindowsDevEnv](Windows%20Developer%20Environment.md) | [Computer-Setup](../1-Maps-of-Content/MOC%20-%20Setup.md) | [Windows Command Line Commands Overview](Windows%20Command%20Line%20Commands%20Overview.md)
 
 Sources:
 

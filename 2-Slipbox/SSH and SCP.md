@@ -12,13 +12,13 @@ SSH stands for *Secure Shell* while SCP stands for *Secure Copt* where both comm
 
 ## SCP
 
-SCP is used a lot in deployments to legacy, on-prem servers allowing one to transfer application code files onto the server in a secure fashion. For example the program on Windows [[WinSCP]] utilizes SCP protocols to setup a secure connection between the local client and remote server and transfers files using SCP commands.
+SCP is used a lot in deployments to legacy, on-prem servers allowing one to transfer application code files onto the server in a secure fashion. For example the program on Windows [WinSCP](WinSCP) utilizes SCP protocols to setup a secure connection between the local client and remote server and transfers files using SCP commands.
 
-SCP is also helpful when dealing with [[Virtual Machines]] and [[Cloud Hosted Environments]].
+SCP is also helpful when dealing with [Virtual Machines](Virtual%20Machines) and [Cloud Hosted Environments](Cloud%20Hosted%20Environments).
 
 ***
 
-Links:  [[2021-07-28]] I  [[020 - Development]] l [[Windows Subsystem for Linux (WSL)]]
+Links:  [2021-07-28](../3-Resources/Daily-Notes/2021-07-28.md) I  [020 - Development](../1-Maps-of-Content/020%20-%20Development.md) l [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL))
 
 Sources:
 - YouTube video

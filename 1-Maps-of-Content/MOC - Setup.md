@@ -18,26 +18,26 @@ Tags:
 
 ## Contents
 
-- [[#Specifications|Specifications]]
-- [[#Apps & Software|Apps & Software]]
-- [[#Drivers|Drivers]]
-- [[#External Hardware|External Hardware]]
-- [[#Settings & Configuration|Settings & Configuration]]
-- [[#User Profile Customization|User Profile Customization]]
-- [[#Directory Infrastructure|Directory Infrastructure]]
-- [[#Backup Infrastructure|Backup Infrastructure]]
-- [[#Cloud Storage|Cloud Storage]]
-- [[#Developer Environment|Developer Environment]]
-	- [[#Tools|Tools]]
-	- [[#WSL|WSL]]
-	- [[#Automation & Customization|Automation & Customization]]
-		- [[#Tweaks|Tweaks]]
-		- [[#Scripts|Scripts]]
-		- [[#Hotkeys|Hotkeys]]
-		- [[#Aliases|Aliases]]
-- [[#Productivity System|Productivity System]]
-	- [[#Tools|Tools]]
-	- [[#Email|Email]]
+- [Specifications](#Specifications)
+- [Apps & Software](#Apps%20&%20Software)
+- [Drivers](#Drivers)
+- [External Hardware](#External%20Hardware)
+- [Settings & Configuration](#Settings%20&%20Configuration)
+- [User Profile Customization](#User%20Profile%20Customization)
+- [Directory Infrastructure](#Directory%20Infrastructure)
+- [Backup Infrastructure](#Backup%20Infrastructure)
+- [Cloud Storage](#Cloud%20Storage)
+- [Developer Environment](#Developer%20Environment)
+	- [Tools](#Tools)
+	- [WSL](#WSL)
+	- [Automation & Customization](#Automation%20&%20Customization)
+		- [Tweaks](#Tweaks)
+		- [Scripts](#Scripts)
+		- [Hotkeys](#Hotkeys)
+		- [Aliases](#Aliases)
+- [Productivity System](#Productivity%20System)
+	- [Tools](#Tools)
+	- [Email](#Email)
 
 
 ## Specifications

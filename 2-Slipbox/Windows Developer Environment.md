@@ -44,7 +44,7 @@ Tags:
 
 ## PDF `fas:FilePdf`
 
-![[Windows-Development-Environment.pdf]]
+![](assets/Windows-Development-Environment.pdf)
 
 ***
 

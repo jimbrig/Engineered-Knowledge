@@ -55,7 +55,7 @@ and more...
 
 
 ***
-Links: [[MOC - PostgreSQL]] | [[PostgreSQL Tools]] | [[MOC - System Design]] | [[MOC - Databases]]
+Links: [MOC - PostgreSQL](../1-Maps-of-Content/MOC%20-%20PostgreSQL.md) | [PostgreSQL Tools](PostgreSQL%20Tools.md) | [MOC - System Design](../1-Maps-of-Content/MOC%20-%20System%20Design.md) | [MOC - Databases](../1-Maps-of-Content/MOC%20-%20Databases.md)
 Source: <https://techdocs.powwater.org>
 
 

@@ -9,8 +9,8 @@ author: Jimmy Briggs
 
 ## Contents
 
-- [[Obsidian Templater Plugin Notes|Templater]]
-- [[Obsidian Git Plugin Notes|Obsidian Git]]
+- [Templater](Obsidian%20Templater%20Plugin%20Notes.md)
+- [Obsidian Git](Obsidian%20Git%20Plugin%20Notes.md)
 
 ## Github 
 
@@ -110,6 +110,6 @@ author: Jimmy Briggs
 - 
 
 ***
-Links: [[PKM]] 
+Links: [PKM](PKM) 
 Source:
 

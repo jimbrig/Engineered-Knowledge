@@ -6,11 +6,11 @@ author: Jimmy Briggs
 ---
 
 # Web Browsers
-![[Pasted image 20210501123611.png]]
+![](assets/Pasted%20image%2020210501123611.png)
 
-![[Pasted image 20210501123655.png]]
+![](assets/Pasted%20image%2020210501123655.png)
 
-![[Pasted image 20210501123722.png]]
+![](assets/Pasted%20image%2020210501123722.png)
 
 Currently my primary web browsers are:
 - [Microsoft Edge Canary]

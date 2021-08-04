@@ -15,7 +15,7 @@ Tags: [ "#Windows", "#Configuration", "#Computer", "#Lists" ]
 - Key Value Type: `REG_DWORD`
 - Key Value Data: `1`
 
-![[WinReg-LongPathSupport-Screenshot.png]]
+![](assets/WinReg-LongPathSupport-Screenshot.png)
 
 ## Explorer Drive Icons
 
@@ -28,8 +28,8 @@ Tags: [ "#Windows", "#Configuration", "#Computer", "#Lists" ]
 
 ***
 
-Links: [[Windows Registry]] | [[How To Change Explorer Drive Icons via Registry]]
+Links: [Windows Registry](Windows%20Registry.md) | [How To Change Explorer Drive Icons via Registry](How%20To%20Change%20Explorer%20Drive%20Icons%20via%20Registry.md)
 
-Sources: See [[Windows Registry#Resources]].
+Sources: See [Windows Registry > Resources](Windows%20Registry#Resources).
 
 

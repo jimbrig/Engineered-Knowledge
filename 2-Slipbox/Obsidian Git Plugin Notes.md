@@ -20,7 +20,7 @@ git push --set-upstream origin master
 ```
 
 ***
-Links: [[Obsidian Links List]]
+Links: [Obsidian Links List](Obsidian%20Links%20List.md)
 ***
 Source:
 

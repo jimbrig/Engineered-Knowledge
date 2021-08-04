@@ -10,18 +10,18 @@ Tags: [ "#Obsidian", "#PKM", "#Lists", "#Resources" ]
 
 ## Contents
 
-- [[#Obsidian.md Official Resources|Obsidian.md Official Resources]]
-- [[#GitHub Repositories]]
-- [[#Forum and Reddit Posts|Forum and Reddit Posts]]
-- [[#Vaults|Vaults]]
-- [[#Books|Books]]
-- [[#YouTube|YouTube]]
-- [[#Blogs|Blogs]]
-- [[#Articles from the Web|Articles from the Web]]
-- [[#Appendix|Appendix]]
-	- [[#Links 2|Links]]
-	- [[#Sources 3|Sources]]
-	- [[#Footnotes]]
+- [Obsidian.md Official Resources](#Obsidian.md%20Official%20Resources)
+- [GitHub Repositories](#GitHub%20Repositories)
+- [Forum and Reddit Posts](#Forum%20and%20Reddit%20Posts)
+- [Vaults](#Vaults)
+- [Books](#Books)
+- [YouTube](#YouTube)
+- [Blogs](#Blogs)
+- [Articles from the Web](#Articles%20from%20the%20Web)
+- [Appendix](#Appendix)
+	- [Links](#Links%202)
+	- [Sources](#Sources%203)
+	- [Footnotes](#Footnotes)
 
 ### Obsidian.md Official Resources
 
@@ -80,7 +80,7 @@ https://youtu.be/_04ar07Mdac
 
 ### Links [^2]
 
- [[Obsidian Setup]] | [[Obsidian Taxonomy]] | [[Classification of Note Types]] | [[MOC - PKM]]
+ [Obsidian Setup](../2-Slipbox/Obsidian%20Setup.md) | [Obsidian Taxonomy](../2-Slipbox/Obsidian%20Taxonomy.md) | [Classification of Note Types](../2-Slipbox/Classification%20of%20Note%20Types.md) | [MOC - PKM](MOC%20-%20PKM.md)
 ***
 
 ### Sources [^3]
@@ -92,7 +92,7 @@ Various.
 ### Footnotes
 
 [^1]: This links utilizes the [Obsidian URI Schema]() to open the Help Vault directly in Obsidian - <obsidian://vaults/Obsidian%20Help>.
-[^2]: See [[Obsidian Taxonomy#Links]] for details about links. 
-[^3]: See [[Obsidian Taxonomy#Sources]] for details about sources.
+[^2]: See [Obsidian Taxonomy > Links](Obsidian%20Taxonomy#Links) for details about links. 
+[^3]: See [Obsidian Taxonomy > Sources](Obsidian%20Taxonomy#Sources) for details about sources.
 
 

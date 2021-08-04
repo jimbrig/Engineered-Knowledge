@@ -526,7 +526,7 @@ However, these methods are _not_ recommended currently, as PowerShell will wait 
 
 ***
 
-Links: [[020 - Development]] | [[2021-08-02]]
+Links: [020 - Development](../1-Maps-of-Content/020%20-%20Development.md) | [2021-08-02](../3-Resources/Daily-Notes/2021-08-02.md)
 
 Sources: [Raw GitHub Markdown File](https://raw.githubusercontent.com/MicrosoftDocs/terminal/master/TerminalDocs/command-line-arguments.md) | [Windows Terminal command line arguments | Microsoft Docs](https://docs.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows)
 

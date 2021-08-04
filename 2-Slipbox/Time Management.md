@@ -22,8 +22,6 @@ Simply gathering data is not enough, you should reflect on the collected times a
 - Clockify
 - etc.
 
-[Manual Tracking]() - at [[Tychobra]] we utilize an internal application we created ourselves called *T3* for this, but anything works the key is to consistently and thorouly track you time regardless of the medium used to track it.
-
 
 ## Get Clear On Priorities
 
@@ -31,7 +29,7 @@ Get clear on your priorities.
 
 ## Batch Tasks and Time Blocks
 
-Use your calendar, task manager coupled with labels, or a [[time block planner]] to block your time into chunks that contain similar tasks.
+Use your calendar, task manager coupled with labels, or a [time block planner](time%20block%20planner) to block your time into chunks that contain similar tasks.
 
 
 ## Learn how to say **NO**

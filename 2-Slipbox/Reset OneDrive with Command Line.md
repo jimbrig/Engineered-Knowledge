@@ -15,7 +15,7 @@ Start-Process "$env:programfiles\Microsoft OneDrive\OneDrive.exe" /reset
 
 ***
 
-Links: [[PowerShell Tips]] | [[PowerShell]] | [[Windows Developer Environment|WindowsDevEnv]]
+Links: [PowerShell Tips](PowerShell%20Tips.md) | [PowerShell](PowerShell) | [WindowsDevEnv](Windows%20Developer%20Environment.md)
 
 Sources:
 - [How to Reset OneDrive, or Uninstall and Reinstall it in Windows 10 » Winhelponline](https://www.winhelponline.com/blog/reset-onedrive-windows-10/)

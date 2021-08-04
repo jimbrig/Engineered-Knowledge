@@ -10,13 +10,13 @@ Tags: ["#Windows", "#Configuration", "#Guide", "#Development"]
 
 ## Contents
 
-- [[#Registry|Registry]]
-- [[#DISM XML Templates|DISM XML Templates]]
-	- [[#Export Defaults|Export Defaults]]
-	- [[#Import|Import]]
+- [Registry](#Registry)
+- [DISM XML Templates](#DISM%20XML%20Templates)
+	- [Export Defaults](#Export%20Defaults)
+	- [Import](#Import)
 
 
-View and tweak [[Windows Registry]] entries for File Associations.
+View and tweak [Windows Registry](Windows%20Registry.md) entries for File Associations.
 
 ## Registry
 
@@ -26,7 +26,7 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts
 
 ## DISM XML Templates
 
-Import and export default file association template [[XML]] Files via `DISM` command line commands.
+Import and export default file association template [XML](XML.md) Files via `DISM` command line commands.
 
 ### Export Defaults
 
@@ -103,10 +103,10 @@ ftype InternetShortcut="<PATH to Edge>" "%1"
 
 ***
 
-Links: [[Command Line - CMD]]
-[[Windows Developer Environment|WindowsDevEnv]]
-[[Windows Registry]]
-[[Windows Command Line Commands Overview]]
+Links: [Command Line - CMD](Command%20Line%20-%20CMD)
+[WindowsDevEnv](Windows%20Developer%20Environment.md)
+[Windows Registry](Windows%20Registry.md)
+[Windows Command Line Commands Overview](Windows%20Command%20Line%20Commands%20Overview.md)
 
 Sources:
 -  https://thegeekpage.com/fix-file-type-association-error-in-windows-10/

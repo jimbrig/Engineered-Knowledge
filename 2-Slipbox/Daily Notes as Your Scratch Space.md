@@ -14,7 +14,7 @@ See https://youtu.be/_04ar07Mdac
 
 ***
 
-Links:  [[2021-07-29]]
+Links:  [2021-07-29](../3-Resources/Daily-Notes/2021-07-29.md)
 
 Sources:
 

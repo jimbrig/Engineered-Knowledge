@@ -24,7 +24,7 @@ In this article, you will find detailed AppxProvisioning.xml information, a [XML
 
 ***
 
-Links: [[XML]]
+Links: [XML](XML.md)
 
 Sources:
 - [Repair AppxProvisioning.xml Issues (How to Download and Fix) (exefiles.com)](https://www.exefiles.com/en/xml/appxprovisioning-xml/)

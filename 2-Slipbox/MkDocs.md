@@ -12,7 +12,7 @@ MkDocs is a Markdown conversion tool written using Python, which provides the ab
 
 ## Installation
 
-`mkdocs` is a [[Python]] library and can be installed via `pip`, Python's package manager. 
+`mkdocs` is a [Python](Python.md) library and can be installed via `pip`, Python's package manager. 
 
 ```powershell
 pip install mkdocs

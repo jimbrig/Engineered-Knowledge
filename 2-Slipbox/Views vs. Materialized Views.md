@@ -30,7 +30,7 @@ A materialized view, on the other hand, is a **physical copy** of those original
 
 ***
 
-Links: [[MOC - Databases]] | [[MOC - PostgreSQL]] | [[MOC - System Design]] | [[Web Development]]
+Links: [MOC - Databases](../1-Maps-of-Content/MOC%20-%20Databases.md) | [MOC - PostgreSQL](../1-Maps-of-Content/MOC%20-%20PostgreSQL.md) | [MOC - System Design](../1-Maps-of-Content/MOC%20-%20System%20Design.md) | [MOC - Web Development](MOC%20-%20Web%20Development.md)
 
 Source: [What are Materialized Views? A 5 Minute Introduction (educative.io)](https://www.educative.io/blog/materialized-view-introduction)
 

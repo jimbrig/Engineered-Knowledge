@@ -10,15 +10,15 @@ Tags: [ "#Development", "#Scripts", "#Configuration" ]
 
 ## Contents
 
-- [[#Master Run Script|Master Run Script]]
-- [[#Custom Scripts|Custom Scripts]]
-	- [[#Text Expansion Hot Strings|Text Expansion Hot Strings]]
-	- [[#Toggle Hidden Files and Folders|Toggle Hidden Files and Folders]]
-- [[#Global Shortcut Scripts|Global Shortcut Scripts]]
-	- [[#Obsidian Global Shortcuts|Obsidian Global Shortcuts]]
-	- [[#Todoist Global Shortcuts|Todoist Global Shortcuts]]
-	- [[#Keeper Global Shortcuts|Keeper Global Shortcuts]]
-- [[#Hotkey Help Script|Hotkey Help Script]]
+- [Master Run Script](#Master%20Run%20Script)
+- [Custom Scripts](#Custom%20Scripts)
+	- [Text Expansion Hot Strings](#Text%20Expansion%20Hot%20Strings)
+	- [Toggle Hidden Files and Folders](#Toggle%20Hidden%20Files%20and%20Folders)
+- [Global Shortcut Scripts](#Global%20Shortcut%20Scripts)
+	- [Obsidian Global Shortcuts](#Obsidian%20Global%20Shortcuts)
+	- [Todoist Global Shortcuts](#Todoist%20Global%20Shortcuts)
+	- [Keeper Global Shortcuts](#Keeper%20Global%20Shortcuts)
+- [Hotkey Help Script](#Hotkey%20Help%20Script)
 
 
 ## Directory Structure
@@ -428,7 +428,7 @@ return
 
 - *Win + F1*: Open HotKeyHelp:
 
-![[HotKey Help Screenshot.png]]
+![](assets/HotKey%20Help%20Screenshot.png)
 
 Script:
 

@@ -101,6 +101,6 @@ pr
 ```
 
 ***
-Links: [[MOC - R]]
+Links: [MOC - R](../1-Maps-of-Content/MOC%20-%20R.md)
 Source: [Plumber Logging · R Views (rstudio.com)](https://rviews.rstudio.com/2019/08/13/plumber-logging/)
 

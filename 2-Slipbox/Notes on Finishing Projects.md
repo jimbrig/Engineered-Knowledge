@@ -9,7 +9,7 @@ author: Jimmy Briggs
 
 ## **Set Limitations**
 
-- **Time**: Force time constraints on yourself to avoid wasting useless time that does not reach you closer to your end [[desired outcome]].
+- **Time**: Force time constraints on yourself to avoid wasting useless time that does not reach you closer to your end [desired outcome](desired%20outcome).
 
 - **Tools**: Limit the number of possible tools at your disposal. There's never enough time to try them all out and is a perfect excuse for you to trick yourself into thinking you're *being productive* when you are just **procrastinating**.
 
@@ -19,7 +19,7 @@ author: Jimmy Briggs
 
 
 ***
-Links:  [[020 - Development]] [[Ludicrously Complex Projects in Software Development]]
+Links:  [020 - Development](../1-Maps-of-Content/020%20-%20Development.md) [Ludicrously Complex Projects in Software Development](Ludicrously%20Complex%20Projects%20in%20Software%20Development.md)
 
 Source:
 

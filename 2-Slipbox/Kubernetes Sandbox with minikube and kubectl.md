@@ -9,17 +9,17 @@ Tags: ["#Development", "#Code", "#CLI", "#Learning", "#PowerShell", "#Tools", "#
 # Kubernetes Sandbox with Docker, `minikube` and `kubectl`
 ## Contents
 
-- [[#Video|Video]]
-- [[#Installations and Setup|Installations and Setup]]
-		- [[#Install Script|Install Script]]
-		- [[#Review Help and Validate Versions|Review Help and Validate Versions]]
-- [[#Minikube and Kubernetes CLI|Minikube and Kubernetes CLI]]
-	- [[#Minikube|Minikube]]
-	- [[#kubectl|kubectl]]
-	- [[#Start Services|Start Services]]
-	- [[#Verify Setup Runtime|Verify Setup Runtime]]
-	- [[#Review `kubectl get --help` Information|Review `kubectl get --help` Information]]
-	- [[#Nodes, Pods, Services|Nodes, Pods, Services]]
+- [Video](#Video)
+- [Installations and Setup](#Installations%20and%20Setup)
+		- [Install Script](#Install%20Script)
+		- [Review Help and Validate Versions](#Review%20Help%20and%20Validate%20Versions)
+- [Minikube and Kubernetes CLI](#Minikube%20and%20Kubernetes%20CLI)
+	- [Minikube](#Minikube)
+	- [kubectl](#kubectl)
+	- [Start Services](#Start%20Services)
+	- [Verify Setup Runtime](#Verify%20Setup%20Runtime)
+	- [Review `kubectl get --help` Information](#Review%20`kubectl%20get%20--help`%20Information)
+	- [Nodes, Pods, Services](#Nodes,%20Pods,%20Services)
 
 ## Video
 
@@ -28,9 +28,9 @@ Tags: ["#Development", "#Code", "#CLI", "#Learning", "#PowerShell", "#Tools", "#
 ## Installations and Setup
 
 - Pre-Requisite Installations:
-	- [[kubernetes-cli]] (aka [[kubectl]])
-	- [[minikube]]
-	- [[Docker Best Practices]]
+	- [kubernetes-cli](kubernetes-cli) (aka [kubectl](kubectl))
+	- [minikube](minikube)
+	- [Docker Best Practices](Docker%20Best%20Practices.md)
 
 #### Install Script
 
@@ -55,7 +55,7 @@ minikube help
 
 ###  kubectl
 
-- `kubectl` is the primary tool to interact with any [[Kubernetes]] cluster.
+- `kubectl` is the primary tool to interact with any [Kubernetes](Kubernetes) cluster.
 
 In our simplified `minikube` setup, `kubectl` is the powerhouse that works with and submits commands to create, destroy, and manipulate resources within the `minikube` cluster.
 
@@ -94,13 +94,13 @@ minikube start --kubernetes-version=v1.21.2
 
 Upon Successful start of the minikube service in the docker daemon:
 
-![[Pasted image 20210727005711.png]]
+![](assets/Pasted%20image%2020210727005711.png)
 
 Also, note the docker container and new volume:
 
-![[Pasted image 20210727010634.png]]
+![](assets/Pasted%20image%2020210727010634.png)
 
-![[Pasted image 20210727010607.png]]
+![](assets/Pasted%20image%2020210727010607.png)
 
 ## Verify Setup Runtime
 
@@ -114,7 +114,7 @@ minikube status
 
 Output: 
 
-![[Pasted image 20210727011517.png]]
+![](assets/Pasted%20image%2020210727011517.png)
 
 ### Review `kubectl get --help` Information
 
@@ -233,11 +233,11 @@ kubectl get pod
 kubernetes create --help
 ```
 
-![[Pasted image 20210727014027.png]]
+![](assets/Pasted%20image%2020210727014027.png)
 
 Pod needs to be based on a certain deployment-based *image*:
 
-Here I will create a deployment based off the default [[nginx]] docker image called `nginx-depl`:
+Here I will create a deployment based off the default [nginx](nginx) docker image called `nginx-depl`:
 
 ```powershell
 kubectl create deployment nginx-depl --image=nginx
@@ -249,7 +249,7 @@ kubectl get pod
 kubectl get replicaset
 ```
 
-![[Pasted image 20210727014450.png]]
+![](assets/Pasted%20image%2020210727014450.png)
 
 ## Edit Nginx Deployment
 
@@ -257,7 +257,7 @@ kubectl get replicaset
 kubectl edit deployment nginx-depl
 ```
 
-Opens a [[YAML]] configuration file: *kubectl.exe-edit-3fcpn.yaml* which we can edit:
+Opens a [YAML](YAML) configuration file: *kubectl.exe-edit-3fcpn.yaml* which we can edit:
 
 ```text
 # Please edit the object below. Lines beginning with a '#' will be ignored,
@@ -331,7 +331,7 @@ status:
 
 ## Logs
 
-![[Pasted image 20210727015314.png]]
+![](assets/Pasted%20image%2020210727015314.png)
 
 ## MongoDB Deployment
 

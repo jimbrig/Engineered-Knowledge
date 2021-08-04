@@ -38,7 +38,7 @@ The definitions that can be generated the Live-Editor are also backwards-compati
 
 ***
 
-Links: [[020 - Development]] | [[Javascript Frameworks]] | [[]]
+Links: [020 - Development](../1-Maps-of-Content/020%20-%20Development.md) | [Javascript Frameworks](Javascript%20Frameworks) | [[]]
 
 Sources:
 - 🌐 [CDN](https://unpkg.com/mermaid/) | 📖 [Documentation](https://mermaidjs.github.io/) | 🙌 [Contribution](https://github.com/mermaid-js/mermaid/blob/develop/CONTRIBUTING.md) | 📜 [Changelog](https://github.com/mermaid-js/mermaid/blob/develop/docs/CHANGELOG.md)

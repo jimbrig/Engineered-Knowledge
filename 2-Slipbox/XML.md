@@ -10,7 +10,7 @@ Tags: ["Development", "#Dictionary"]
 
 ***
 
-Links: [[About the AppxProvisioning.xml File in Windows]]
+Links: [About the AppxProvisioning.xml File in Windows](About%20the%20AppxProvisioning.xml%20File%20in%20Windows.md)
 
 Sources:
 - [Repair AppxProvisioning.xml Issues (How to Download and Fix) (exefiles.com)](https://www.exefiles.com/en/xml/appxprovisioning-xml/)

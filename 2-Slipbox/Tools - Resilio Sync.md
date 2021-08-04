@@ -22,7 +22,7 @@ Learn how to get started with Resilio Sync. A fast, reliable, and simple file sy
 
 Here's the Video:
 
-![[Resilio-Sync-Getting-Started-Guide.mp4]]
+![](assets/Resilio-Sync-Getting-Started-Guide.mp4)
 
 ### Share a Folder Using a Link  
 
@@ -31,7 +31,7 @@ With Resilio Sync you can share files using a link.  Sharing files and folders 
 
 Here's the Video:
 
-![[Share-a-folder-Using-a-Link.mp4]]
+![](assets/Share-a-folder-Using-a-Link.mp4)
 
 ### Sync a Folder Using a Secret Key  
 
@@ -39,7 +39,7 @@ Tutorial #2: Learn how to share and sync Standard Folders using a Secret Key. Th
 
 Here's the Video:
 
-![[Sync-Folder-with-Secret-Key.mp4]]
+![](assets/Sync-Folder-with-Secret-Key.mp4)
 
 ### Share & Sync an Encrypted Folder  
 
@@ -47,7 +47,7 @@ Tutorial #4: The whole idea behind encrypted folders is to have your own peer on
 
 Here's the Video:
 
-![[Share-and-Sync-Encrypted-Folder.mp4]]
+![](assets/Share-and-Sync-Encrypted-Folder.mp4)
 
 ### Sync a Placeholder File to Your Device  
 
@@ -55,7 +55,7 @@ Tutorial #1: Learn how to use Selective Sync to sync a placeholder file to your 
 
 Here's the Video:
 
-![[Sync-Placeholder-File.mp4]]
+![](assets/Sync-Placeholder-File.mp4)
 
 
 ### Sync an Entire Folder to Your Device  
@@ -64,7 +64,7 @@ Tutorial #3: Learn how to use Selective Sync to sync an entire folder to your de
 
 Here's the Video:
 
-![[Sync-Entire-Folder-to-Device.mp4]]
+![](assets/Sync-Entire-Folder-to-Device.mp4)
 
 ### Link Your Devices  
 
@@ -72,11 +72,11 @@ Tutorial #1: Learn how to link all of your devices so when you add a folder to o
 
 Here's the Video:
 
-![[Link-Devices.mp4]]
+![](assets/Link-Devices.mp4)
 
 ***
 
-Links: [[050 - Computer]] | [[MOC - Setup]] | [[Computer Backup System]] | [[Windows Developer Environment]]
+Links: [050 - Computer](../1-Maps-of-Content/050%20-%20Computer.md) | [MOC - Setup](../1-Maps-of-Content/MOC%20-%20Setup.md) | [Computer Backup System](Computer%20Backup%20System.md) | [Windows Developer Environment](Windows%20Developer%20Environment.md)
 
 Sources:
 - [Resilio File Sync Software](https://www.resilio.com/)

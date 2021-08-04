@@ -11,7 +11,7 @@ Tags: ["#Obsidian", "#Setup"]
 
 ***
 
-Links: [[PKM|Personal Knowledge Management]] | [[Obsidian Links List]]
+Links: [Personal Knowledge Management](PKM) | [Obsidian Links List](Obsidian%20Links%20List.md)
 
 Source: [Introduction | Templater (silentvoid13.github.io)](https://silentvoid13.github.io/Templater/docs/)
 

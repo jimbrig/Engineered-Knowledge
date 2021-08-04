@@ -24,7 +24,7 @@ This progression forms the central, core notebase within the vault composed of t
 
 Permanent notes have their own secondary passage in which the continuation and development of knowledge is manifested. In stages of increasing complexity:
 
-1. Bridge Notes - notes used to create nodes which connect the knowledge network through implicitly defined backlinks. Similar to maps of content or index notes, these notes help improve the vaults core navigational structure . Examples include [[Obsidian Setup]], [[Podcasts]], etc.
+1. Bridge Notes - notes used to create nodes which connect the knowledge network through implicitly defined backlinks. Similar to maps of content or index notes, these notes help improve the vaults core navigational structure . Examples include [Obsidian Setup](Obsidian%20Setup.md), [Podcasts](Podcasts), etc.
 2. Definition Notes - atomic bits of information such as a definition or code snippet how-to. These note's titles should be detailed and informative to help with note [Discoverability](https://en.wikipedia.org/wiki/Discoverability) and searching. 
 3. Precise Declarative Notes - these are the larger, more complex notes that can potentially breach the principle of atomicity by including information across many realms and topics. Examples include How to Guides, Blog Posts, Workflow and Project Support Notes, Checklists, etc. 
 
@@ -50,8 +50,8 @@ From [Andy Matuschak's Published Notes Vault](https://notes.andymatuschak.org/):
 
 ## Other Common Note Types
 
-- Maps of Content and Index Notes - see [[000 - INDEX]] for this vault's global INDEX.
-- Source Notes - see [[Obsidian Taxonomy#Sources]]
+- Maps of Content and Index Notes - see [000 - INDEX](../1-Maps-of-Content/000%20-%20INDEX.md) for this vault's global INDEX.
+- Source Notes - see [Obsidian Taxonomy > Sources](Obsidian%20Taxonomy#Sources)
 - Literature Notes - Notes summarizing my reading endeavors with associated source's
 - Person Notes - notes summarizing information about specific people (i.e. *experts* and people commonly mentioned throughout vault).
 - Daily Notes - similar to transient notes but classified into a time-oriented separate note type. These notes are essential if I want to maintain a record of my personal historical thoughts as a chronological reference system.
@@ -67,7 +67,7 @@ From [Andy Matuschak's Published Notes Vault](https://notes.andymatuschak.org/):
 
 ***
 
-Links: [[Obsidian Setup]] | [[Obsidian Taxonomy]]
+Links: [Obsidian Setup](Obsidian%20Setup.md) | [Obsidian Taxonomy](Obsidian%20Taxonomy.md)
 
 Sources:
 - https://notes.andymatuschak.org/

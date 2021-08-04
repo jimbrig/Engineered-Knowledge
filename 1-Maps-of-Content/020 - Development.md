@@ -10,117 +10,117 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 
 ## Contents
 
-- [[#Windows Developer Environment|Windows Developer Environment]]
-- [[#Languages and Command Line Interfaces (CLI)|Languages and Command Line Interfaces (CLI)]]
-	- [[#Containers and Orchestration|Containers and Orchestration]]
-	- [[#Javascript Frameworks|Javascript Frameworks]]
-- [[#Software, Apps, and Tools|Software, Apps, and Tools]]
-	- [[#Terminals and Shells|Terminals and Shells]]
-	- [[#Text Editors & IDEs|Text Editors & IDEs]]
-		- [[#Markdown Editors and Documentation|Markdown Editors and Documentation]]
-	- [[#Version Control|Version Control]]
-	- [[#Package Managers|Package Managers]]
-		- [[#Windows Package Managers|Windows Package Managers]]
-		- [[#UNIX Package Managers|UNIX Package Managers]]
-		- [[#Language or Application Level Specific Package Managers|Language or Application Level Specific Package Managers]]
-	- [[#Hosting and Cloud Service Providers|Hosting and Cloud Service Providers]]
-	- [[#Command Line Interfaces for the Cloud:|Command Line Interfaces for the Cloud:]]
-	- [[#Static Site Generators|Static Site Generators]]
-	- [[#Databases|Databases]]
-		- [[#Database GUIs|Database GUIs]]
-		- [[#Database CLIs|Database CLIs]]
-	- [[#Utilities|Utilities]]
+- [Windows Developer Environment](#Windows%20Developer%20Environment)
+- [Languages and Command Line Interfaces (CLI)](#Languages%20and%20Command%20Line%20Interfaces%20(CLI))
+	- [Containers and Orchestration](#Containers%20and%20Orchestration)
+	- [Javascript Frameworks](#Javascript%20Frameworks)
+- [Software, Apps, and Tools](#Software,%20Apps,%20and%20Tools)
+	- [Terminals and Shells](#Terminals%20and%20Shells)
+	- [Text Editors & IDEs](#Text%20Editors%20&%20IDEs)
+		- [Markdown Editors and Documentation](#Markdown%20Editors%20and%20Documentation)
+	- [Version Control](#Version%20Control)
+	- [Package Managers](#Package%20Managers)
+		- [Windows Package Managers](#Windows%20Package%20Managers)
+		- [UNIX Package Managers](#UNIX%20Package%20Managers)
+		- [Language or Application Level Specific Package Managers](#Language%20or%20Application%20Level%20Specific%20Package%20Managers)
+	- [Hosting and Cloud Service Providers](#Hosting%20and%20Cloud%20Service%20Providers)
+	- [Command Line Interfaces for the Cloud:](#Command%20Line%20Interfaces%20for%20the%20Cloud:)
+	- [Static Site Generators](#Static%20Site%20Generators)
+	- [Databases](#Databases)
+		- [Database GUIs](#Database%20GUIs)
+		- [Database CLIs](#Database%20CLIs)
+	- [Utilities](#Utilities)
 
 
 ## Windows Developer Environment
 
-[[Windows Developer Environment]] | [[Windows-Development-Environment.pdf]]
+[Windows Developer Environment](../2-Slipbox/Windows%20Developer%20Environment.md) | [Windows-Development-Environment.pdf](../2-Slipbox/assets/Windows-Development-Environment.pdf)
 
-[[Windows Subsystem for Linux (WSL)]]
+[Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL))
 
-[[.Net Framework]] | [[PowerShell]] | [[Windows Terminal]] | [[Visual Studio]] | [[Visual Studio Code]] | [[NuGet]]
+[.Net Framework](.Net%20Framework) | [PowerShell](PowerShell) | [Windows Terminal](Windows%20Terminal) | [Visual Studio](Visual%20Studio) | [Visual Studio Code](Visual%20Studio%20Code) | [NuGet](NuGet)
 
-[[Windows SDK]] | [[Windows APK]] | [[WindowsPE]]
+[Windows SDK](Windows%20SDK) | [Windows APK](Windows%20APK) | [WindowsPE](WindowsPE)
 
-[[DISM]] | [[SFC]] | [[Drivers]] | [[BIOS]] | [[Disk Partitions]]
+[DISM](DISM) | [SFC](SFC) | [Drivers](Drivers) | [BIOS](BIOS) | [Disk Partitions](Disk%20Partitions)
 
-[[Windows Insider]] | [[Windows 10]] | [[Windows 11]]
+[Windows Insider](Windows%20Insider) | [Windows 10](Windows%2010) | [Windows 11](Windows%2011)
 
 ## Languages and Command Line Interfaces (CLI)
 
-- [[R]]
-- [[SQL]]
-- [[Visual Basic]]
-- [[Node.js]]
-- [[Python]]
-- [[Javascript]]
-- [[CSS]] | [[SASS]]
-- [[HTML]]
-- [[SSH]]
-- [[Ruby]]
-- [[Rust]]
-- [[Go]]
-- [[PHP]]
-- [[C++]] | [[C]] | [[C-Sharp]]
-- [[Assembly]]
-- [[Swift]] | [[Objective-C]]
-- [[Java]]
-- [[Groovy]]
-- [[.Net Framework]]
-- [[Xamarin]]
-- [[Perl]]
-- [[Scala]]
-- [[Lua]]
-- [[Clojure]]
-- [[Markdown]] | [[LaTex]] | [[TeX]]
-- [[PowerShell]]
-- [[Command Line - CMD]] (DOS)
-- [[WSL]] | [[Ubuntu]]
-- [[Bash]] | [[Git|Git-Bash]]
+- [R](R)
+- [SQL](SQL)
+- [Visual Basic](Visual%20Basic)
+- [Node.js](Node.js)
+- [Python](../2-Slipbox/Python.md)
+- [Javascript](../2-Slipbox/Javascript.md)
+- [CSS](CSS) | [SASS](SASS)
+- [HTML](HTML)
+- [SSH](SSH)
+- [Ruby](Ruby)
+- [Rust](Rust)
+- [Go](Go)
+- [PHP](PHP)
+- [C++](C++) | [C](C) | [C-Sharp](C-Sharp)
+- [Assembly](Assembly)
+- [Swift](Swift) | [Objective-C](Objective-C)
+- [Java](Java)
+- [Groovy](Groovy)
+- [.Net Framework](.Net%20Framework)
+- [Xamarin](Xamarin)
+- [Perl](Perl)
+- [Scala](Scala)
+- [Lua](Lua)
+- [Clojure](Clojure)
+- [Markdown](../2-Slipbox/Markdown.md) | [LaTex](LaTex) | [TeX](TeX)
+- [PowerShell](PowerShell)
+- [Command Line - CMD](Command%20Line%20-%20CMD) (DOS)
+- [WSL](../2-Slipbox/WSL.md) | [Ubuntu](Ubuntu)
+- [Bash](Bash) | [Git-Bash](Git)
 
 ### Containers and Orchestration
 
-- [[Docker Best Practices]]
-- [[Kubernetes]]
-- [[nginx]]
+- [Docker Best Practices](../2-Slipbox/Docker%20Best%20Practices.md)
+- [Kubernetes](Kubernetes)
+- [nginx](nginx)
 
 ### Javascript Frameworks
 
-- [[React]] | [[React Native]] | [[Redux]]
-- [[Vue.js]]
-- [[Bulma.js]]
-- [[Next.js]]
+- [React](React) | [React Native](React%20Native) | [Redux](Redux)
+- [Vue.js](Vue.js)
+- [Bulma.js](Bulma.js)
+- [Next.js](Next.js)
 
 ## Software, Apps, and Tools
 
 ### Terminals and Shells
 
-- [[Windows Terminal]]
-- [[PowerShell]]
-- [[Command Line - CMD]] (DOS)
-- [[WSL]] | [[Ubuntu]]
-- [[Bash]] | [[Git|Git-Bash]]
+- [Windows Terminal](Windows%20Terminal)
+- [PowerShell](PowerShell)
+- [Command Line - CMD](Command%20Line%20-%20CMD) (DOS)
+- [WSL](../2-Slipbox/WSL.md) | [Ubuntu](Ubuntu)
+- [Bash](Bash) | [Git-Bash](Git)
 
 ### Text Editors & IDEs
 
-- [[Visual Studio Code]]
-- [[RStudio]]
-- [[Atom]]
+- [Visual Studio Code](Visual%20Studio%20Code)
+- [RStudio](RStudio)
+- [Atom](Atom)
 
 #### Markdown Editors and Documentation
 
-- [[Typora]]
-- [[Obsidian Links List]]
-- [[R-Markdown]]
-- [[Jupiter Notebooks]]
+- [Typora](Typora)
+- [Obsidian Links List](../2-Slipbox/Obsidian%20Links%20List.md)
+- [R-Markdown](R-Markdown)
+- [Jupiter Notebooks](Jupiter%20Notebooks)
 
 ### Version Control
 
-- [[Git]]
-- [[GitHub]]
-- [[GitKraken]]
+- [Git](Git)
+- [GitHub](GitHub)
+- [GitKraken](GitKraken)
 
-Also: [[HTTPS]], [[SSH]], and [[GPG]] for integration with [[Git]]. 
+Also: [HTTPS](HTTPS), [SSH](SSH), and [GPG](GPG) for integration with [Git](Git). 
 
 ### Package Managers
 
@@ -128,104 +128,104 @@ Also: [[HTTPS]], [[SSH]], and [[GPG]] for integration with [[Git]].
 
 #### Windows Package Managers
 
-- [[NuGet]] | [[PowerShellGet]] | [[OneGet]] | [[PowerShell Modules]]
-- [[Chocolatey]] | [[Scoop]] | [[WinGet]]
-- [[Cygwin]]
-- [[Ninite]]
-- [[Pacman]] - [[MSYS2]]-ported Windows version of the Arch Linux package Manager.
-- [[vcpkg]]
-- [[Homebrew]] - only with [[WSL]]
+- [NuGet](NuGet) | [PowerShellGet](../2-Slipbox/PowerShellGet.md) | [OneGet](OneGet) | [PowerShell Modules](PowerShell%20Modules)
+- [Chocolatey](Chocolatey) | [Scoop](Scoop) | [WinGet](WinGet)
+- [Cygwin](Cygwin)
+- [Ninite](Ninite)
+- [Pacman](Pacman) - [MSYS2](MSYS2)-ported Windows version of the Arch Linux package Manager.
+- [vcpkg](vcpkg)
+- [Homebrew](Homebrew) - only with [WSL](../2-Slipbox/WSL.md)
 
 #### UNIX Package Managers
 
-- [[apt-get]] for [[Ubuntu]] and [[Debian]] Based OS's
-- [[Homebrew]] for MacOS and most Linux OS's
+- [apt-get](apt-get) for [Ubuntu](Ubuntu) and [Debian](Debian) Based OS's
+- [Homebrew](Homebrew) for MacOS and most Linux OS's
 
 #### Language or Application Level Specific Package Managers
 
-- [[npm]] and [[yarn]] for [[Node.js]] and [[Javascript]]
-- [[pip]] for [[Python]] (also [[Conda]])
-- [[Cargo]] for [[Rust]]
-- [[CRAN]] for [[R]]
-- [[CPAN]] for [[PERL]]
-- [[Gradle]] for [[Groovy]] and other JVM Languages plus [[C++]]
-- [[Maven]] for [[Java]]
-- [[Go]] has its own intern provider for [[Go]]
-- [[Composer]] for [[PHP]]
-- [[Conan]] for [[C++]]
-- [[Helm]] for [[Kubernetes]]
-- [[RubyGems]] for [[Ruby]]
-- [[BPKG]] for [[Bash]]
-- [[CocoaPods]] for [[Swift]]
+- [npm](npm) and [yarn](yarn) for [Node.js](Node.js) and [Javascript](../2-Slipbox/Javascript.md)
+- [pip](pip) for [Python](../2-Slipbox/Python.md) (also [Conda](Conda))
+- [Cargo](Cargo) for [Rust](Rust)
+- [CRAN](CRAN) for [R](R)
+- [CPAN](CPAN) for [PERL](PERL)
+- [Gradle](Gradle) for [Groovy](Groovy) and other JVM Languages plus [C++](C++)
+- [Maven](Maven) for [Java](Java)
+- [Go](Go) has its own intern provider for [Go](Go)
+- [Composer](Composer) for [PHP](PHP)
+- [Conan](Conan) for [C++](C++)
+- [Helm](Helm) for [Kubernetes](Kubernetes)
+- [RubyGems](RubyGems) for [Ruby](Ruby)
+- [BPKG](BPKG) for [Bash](Bash)
+- [CocoaPods](CocoaPods) for [Swift](Swift)
 
 ### Hosting and Cloud Service Providers
 
-- [[Google Cloud Platform - GCP]] | [[gcloud]] | [[Firebase]]
-- [[Microsoft Azure]] | [[Azure CLI]]
-- [[Amazon Web Services - AWS]]
-- [[Heroku]]
-- [[Digital Ocean]]
-- [[Linode]]
-- [[Netlify]]
-- [[Github Pages]]
-- [[WordPress]]
+- [Google Cloud Platform - GCP](Google%20Cloud%20Platform%20-%20GCP) | [gcloud](gcloud) | [Firebase](Firebase)
+- [Microsoft Azure](Microsoft%20Azure) | [Azure CLI](Azure%20CLI)
+- [Amazon Web Services - AWS](Amazon%20Web%20Services%20-%20AWS)
+- [Heroku](Heroku)
+- [Digital Ocean](Digital%20Ocean)
+- [Linode](Linode)
+- [Netlify](Netlify)
+- [Github Pages](Github%20Pages)
+- [WordPress](WordPress)
 
 For Storage:
 
-- [[Google Drive]]
-- [[OneDrive]]
-- [[Amazon Drive]]
-- [[iCloud Drive]]
+- [Google Drive](Google%20Drive)
+- [OneDrive](OneDrive)
+- [Amazon Drive](Amazon%20Drive)
+- [iCloud Drive](iCloud%20Drive)
 
 ### Command Line Interfaces for the Cloud:
 
-- [[gcloud SDK]] for [[GCP]]
-- [[Azure-CLI]] for [[Azure]]
-- [[AWS-CLI]]
-- [[heroku-cli]]
-- [[gh-cli]]
+- [gcloud SDK](gcloud%20SDK) for [GCP](GCP)
+- [Azure-CLI](Azure-CLI) for [Azure](Azure)
+- [AWS-CLI](AWS-CLI)
+- [heroku-cli](heroku-cli)
+- [gh-cli](gh-cli)
 
 ### Static Site Generators
 
-- [[2-Slipbox/MkDocs]]
-- [[Hexo]]
-- [[Next.js]]
-- [[Ghost]]
-- [[Gatsby]]
-- [[GitBook]]
-- [[ReadTheDocs]]
+- [2-Slipbox/MkDocs](../2-Slipbox/MkDocs.md)
+- [Hexo](Hexo)
+- [Next.js](Next.js)
+- [Ghost](Ghost)
+- [Gatsby](Gatsby)
+- [GitBook](GitBook)
+- [ReadTheDocs](ReadTheDocs)
 
 ### Databases
 
-- [[MOC - PostgreSQL]]
-- [[MongoDB]]
-- [[CockroachDB]]
-- [[MySQL]]
-- [[SQLITE]]
+- [MOC - PostgreSQL](MOC%20-%20PostgreSQL.md)
+- [MongoDB](MongoDB)
+- [CockroachDB](CockroachDB)
+- [MySQL](MySQL)
+- [SQLITE](SQLITE)
 
 #### Database GUIs
 
-- [[pgAdmin 4]]
-- [[DBeaver]]
-- [[Beekeeper]]
+- [pgAdmin 4](pgAdmin%204)
+- [DBeaver](DBeaver)
+- [Beekeeper](Beekeeper)
 
 #### Database CLIs
 
-- [[psql]]
-- [[pgcli]]
+- [psql](psql)
+- [pgcli](pgcli)
 
 ### Utilities
 
-- [[Microsoft PowerToys]]
-- [[RapidEE]]
-- [[Lepton]]
-- [[Uninstall Tool]]
-- [[EaseUS]] Suite
-- [[Iobit]] Suite
+- [Microsoft PowerToys](Microsoft%20PowerToys)
+- [RapidEE](RapidEE)
+- [Lepton](Lepton)
+- [Uninstall Tool](Uninstall%20Tool)
+- [EaseUS](EaseUS) Suite
+- [Iobit](Iobit) Suite
 
 ***
 
-![[Development-LocalGraphView.png]]
+![](assets/Development-LocalGraphView.png)
 
 ***
 

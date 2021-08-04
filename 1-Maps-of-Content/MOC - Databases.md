@@ -8,15 +8,15 @@ author: Jimmy Briggs
 # Databases - MOC
 
 ## Database Engines
-- [[MOC - PostgreSQL]]
+- [MOC - PostgreSQL](MOC%20-%20PostgreSQL.md)
 
 ## Database Design
 
-- [[Views vs. Materialized Views]]
+- [Views vs. Materialized Views](../2-Slipbox/Views%20vs.%20Materialized%20Views.md)
 
 ## Tools
 
-- [[PostgreSQL Tools]]
+- [PostgreSQL Tools](../2-Slipbox/PostgreSQL%20Tools.md)
 
 ***
 Backlinks:

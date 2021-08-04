@@ -14,13 +14,13 @@ Tags: [ "#Obsidian", "#PKM", "#Guides" ]
 
 ## Current Setup
 
-Home Note: [[000 - INDEX]]
+Home Note: [000 - INDEX](../1-Maps-of-Content/000%20-%20INDEX.md)
 
 Maps of Content and Index Notes:
 
-- [[Obsidian - MOC]]
-- [[R - MOC]]
-- [[020 - Development]]
+- [Obsidian - MOC](Obsidian%20-%20MOC)
+- [R - MOC](R%20-%20MOC)
+- [020 - Development](../1-Maps-of-Content/020%20-%20Development.md)
 
 
 Folders:
@@ -34,13 +34,13 @@ Folders:
 
 Notes with a specific job or purpose:
 
-- [[Changelog]]
-- [[Mindsweeps]]
-- [[Templates]]
-- [[Unlinked-Files]] & [[Unresolved Somethings]]
-- [[Vault Statistics]]
-- [[000 - INDEX]]
-- [[About]]
-- [[README]]
+- [Changelog](../4-Logs/Changelog.md)
+- [Mindsweeps](Mindsweeps)
+- [Templates](Templates)
+- [Unlinked-Files](../4-Logs/Unlinked-Files.md) & [Unresolved Somethings](Unresolved%20Somethings)
+- [Vault Statistics](Vault%20Statistics)
+- [000 - INDEX](../1-Maps-of-Content/000%20-%20INDEX.md)
+- [About](About)
+- [README](README.md)
 
 

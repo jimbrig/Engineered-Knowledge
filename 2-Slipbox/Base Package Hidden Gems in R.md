@@ -59,7 +59,7 @@ detach("package:splines")
 
 ### My Take
 
-I find `autoload` extremely useful for incorporating functions from packages in my [[.Rprofile|`Rprofile`]].  For example, I like to utilized magrittr's `%>%` pipe and usually do not want to have to library it in for ad-hoc analysis on the fly; therefore by including `autoload("%>%", "magrittr")` in my `.Rprofile`, I have complete access to `%>%` without `magrittr` cluttering up my search path or namespaced environment (especially useful on Windows).
+I find `autoload` extremely useful for incorporating functions from packages in my [`Rprofile`](.Rprofile).  For example, I like to utilized magrittr's `%>%` pipe and usually do not want to have to library it in for ad-hoc analysis on the fly; therefore by including `autoload("%>%", "magrittr")` in my `.Rprofile`, I have complete access to `%>%` without `magrittr` cluttering up my search path or namespaced environment (especially useful on Windows).
 
 With that snippet included in my `.Rprofile` I can use `%>%` later on in the same R session and `magrittr` will not get attached until I use it.
 

@@ -33,7 +33,7 @@ A[Taking Notes] --> B[Processing Notes] --> C[Connecting Thinking] --> D[Summari
 
 ## Structure
 
-![[Pasted image 20210726182405.png]]
+![](assets/Pasted%20image%2020210726182405.png)
 
 
 ***

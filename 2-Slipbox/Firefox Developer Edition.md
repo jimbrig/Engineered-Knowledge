@@ -15,7 +15,7 @@ The key killer feature of Firefox is *containers*.
 - General:
 	- Enable `Ctrl + Tab` to cycle through tabs in recently used order:
 
-![[Pasted image 20210501120642.png]]
+![](assets/Pasted%20image%2020210501120642.png)
 
 	- 
 

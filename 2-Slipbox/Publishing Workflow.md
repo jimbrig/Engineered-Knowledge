@@ -38,7 +38,7 @@ Configure the published site's [mkdocs.yml]() configuration file located in the 
 https://www.mkdocs.org/#adding-pages
 
 ***
-Links:  [[2-Slipbox/MkDocs]]  [[020 - Development]] [[Markdown]]
+Links:  [2-Slipbox/MkDocs](MkDocs.md)  [020 - Development](../1-Maps-of-Content/020%20-%20Development.md) [Markdown](Markdown.md)
 
 Source:
 
