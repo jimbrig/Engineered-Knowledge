@@ -22,7 +22,7 @@ This is a HUGELY important question that needs a bit of thought put into it … 
 
 Before I get into comparing the vast array of options that you have out there I want to state that if your goal is to start bogging then ….
 
-**==YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG==**
+==YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG==
 
 ==In other words, if you’re a software engineer (and some of you are) you should not get consumed with “building my blog” with some latest and greatest technology that you can learn along the way.==
 
@@ -32,28 +32,31 @@ Then put your ego away and start writing.
 
 If your goal is to learn a new technology then stop reading this and go learn a new technology.
 
-Far too often I see software folks lose all of their time “building” something like a blog with technology X, Y and Z and then never ship a blog post because they were too busy optimizing CSS, HTML, JavaScript, deployment methods with integrated CI/CD pipelines.
+Far too often I see software folks lose all of their time “building” something like a blog with technology X, Y and Z and then never ship a blog post because they were too busy optimizing [[CSS]], [[HTML]], [[JavaScript]], [[deployment]] methods with integrated [[CICD pipelines]].
 
-All of that is a waste of time if your goal is to start writing a blog.
+==All of that is a waste of time if your goal is to start writing a blog.==
 
-So focus on writing – not on building a blog engine.
+==So focus on writing – not on building a blog engine.==
 
 ## Choosing a Platform
 
-Choosing a platform can turn into a serious case of analysis paralysis. I hope to solve that for you today by comparing some of the top platforms and what they have to offer (on the good and bad front).
+==Choosing a platform can turn into a serious case of analysis paralysis. I hope to solve that for you today by comparing some of the top platforms and what they have to offer (on the good and bad front).==
 
 At this time I’m going to compare the following blog systems that you can use.
 
--   Medium
--   WordPress
--   Ghost
--   Static Sites (Jekyll, Gatsby, etc)
+- [[Medium]]
+- [[WordPress]]
+- [[Ghost]]
+- [[Static Sites]]
+	- [[Jekyll]]
+	- [[Gatsby]]
+	- etc.
 
-I’m not going to cover SquareSpace or Wix or Blogger or any of those because I don’t feel they’re in the top three choices for the folks that read this blog (mainly software engineers and entrepreneurs).
+I’m not going to cover [[SquareSpace]], [[Wix]] or [[Blogger]] or any of those because I don’t feel they’re in the top three choices for the folks that read this blog (mainly software engineers and entrepreneurs).
 
 ## Medium
 
-Everyone loves Medium because it’s drop dead simple to get started with blogging. You can sign up for a free account and then start writing in their editor in less than a minute.
+==Everyone loves Medium because it’s drop dead simple to get started with blogging. You can sign up for a free account and then start writing in their editor in less than a minute.==
 
 The tooling that they have is top notch. The editor is gorgeous and they make it really simple to craft your content quickly. They also have a very powerful recommendation engine for readers. Meaning that if you have a blog on Dog Grooming and you write about Dog Shampoos then another reader who is reading another dog blog about walking dogs (on Medium) then there is a very high chance that Medium will recommend your article to them to read next. Again this is only for other blogs on Medium. Medium will not recommend other sites to visit for you to find similar content. Just doesn’t work way. The power of their network recommendation engines for exposing your content to others is fantastic.
 
@@ -85,9 +88,9 @@ They own everything on the site and can do that they want with it (to an extent 
 
 Lastly, one of the things that REALLY bugs me about Medium is that you cannot have your own domain (they use allow this, but not anymore). That means your blog will be [medium.com/@yourusername](http://medium.com/@yourusername)
 
-So … thats kind of lame.
+So … that's kind of lame.
 
-Thats like having a business and then printing your AOL email address on your business card.
+That's like having a business and then printing your AOL email address on your business card.
 
 In other words – it looks like shit it makes you and your brand look half-assed.
 
@@ -111,7 +114,7 @@ That said, Medium is simply a “easy to get going” blog. Game over.
 
 WordPress is the 800 pound gorilla in the blogging world (and internet in general). It has been reported that [WordPress powers over 1/3 of the internet](https://wordpress.org/about/features/).
 
-Thats wild. That’s a lot of sites. Apparently WordPress is doing something right.
+That's wild. That’s a lot of sites. Apparently WordPress is doing something right.
 
 To get set up with WordPress, you have a couple of options:
 
@@ -243,13 +246,7 @@ As you can imagine, since Gatsby is very customizable and can be hosted anywhere
 
 **WordPress.**
 
-WordPress is the market leader for these types of sites (blogs). It has a rich plugin ecosystem that will be ready for you to grow when you need it and hosting with companies like WpEngine ensure your website is fast and secure.
-
-You’ll find that as you need more from WordPress, it can offer almost anything you need.
-
-Last piece of advice – try to build everything without code first.
-
-WordPress allowed me to do that. It forced me to focus on my content and not on some cool engineering that ultimately would have acted as a distraction.
+==WordPress is the market leader for these types of sites (blogs). It has a rich plugin ecosystem that will be ready for you to grow when you need it and hosting with companies like WpEngine ensure your website is fast and secure. You’ll find that as you need more from WordPress, it can offer almost anything you need. Last piece of advice – try to build everything without code first. WordPress allowed me to do that. It forced me to focus on my content and not on some cool engineering that ultimately would have acted as a distraction.==
 
 ### But … Can I go from X to WordPress if I like X better initially?
 

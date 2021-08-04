@@ -5997,7 +5997,7 @@
     "4-Logs/Changelog.md": {
       "size": 4065,
       "tags": 0,
-      "links": 100
+      "links": 99
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7202,7 +7202,7 @@
     "0-Inbox/What Blog Platform Should I Use.md": {
       "size": 14061,
       "tags": 0,
-      "links": 6
+      "links": 16
     },
     "0-Inbox/Focus on Writing.md": {
       "size": 0,
@@ -7213,13 +7213,33 @@
       "size": 369,
       "tags": 0,
       "links": 5
+    },
+    "0-Inbox/Medium.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Jekyll.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Highlights for What Blog Platform Should I Use.md": {
+      "size": 907,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 736,
-      "Create": 528,
-      "Link": 665,
+      "Refactor": 737,
+      "Create": 532,
+      "Link": 666,
       "Expand": 77
     }
   },
@@ -7240,7 +7260,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 82,
+      "15": 88,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7255,7 +7275,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 512,
+      "Wed": 518,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7318,6 +7338,10 @@
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG.md\"> YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG </a>",
+        "<a class=\"internal-link\" href=\"Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Jekyll.md\"> Jekyll </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Medium.md\"> Medium </a>",
         "<a class=\"internal-link\" href=\"Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Focus on Writing.md\"> Focus on Writing </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
@@ -7364,11 +7388,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Google Drive.md\"> Google Drive </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/WordPress.md\"> WordPress </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Github Pages.md\"> Github Pages </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Netlify.md\"> Netlify </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Linode.md\"> Linode </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Digital Ocean.md\"> Digital Ocean </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Heroku.md\"> Heroku </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Amazon Web Services - AWS.md\"> Amazon Web Services - AWS </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Netlify.md\"> Netlify </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
@@ -7544,6 +7564,7 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Focus on Writing.md\"> Focus on Writing </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
@@ -7592,8 +7613,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Reset OneDrive with Command Line.md\"> Reset OneDrive with Command Line </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -7619,6 +7639,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
@@ -7668,8 +7689,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>"
       ]
     }
   },

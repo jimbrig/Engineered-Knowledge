@@ -32,7 +32,18 @@
           "type": "markdown",
           "state": {
             "file": "0-Inbox/What Blog Platform Should I Use.md",
-            "mode": "preview"
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "5206e6abac0933db",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md",
+            "mode": "source"
           }
         }
       },
@@ -40,11 +51,16 @@
         "id": "576a5e3ed137630b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-Inbox/What Blog Platform Should I Use.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
+        "id": "89216e7115155633",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       },
       {
@@ -120,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256
+    "width": 586
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -136,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/What Blog Platform Should I Use.md",
+                "file": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/What Blog Platform Should I Use.md",
+                "file": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/What Blog Platform Should I Use.md"
+                "file": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md"
               }
             }
           },
@@ -228,17 +244,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "576a5e3ed137630b",
+  "active": "5206e6abac0933db",
   "lastOpenFiles": [
-    "0-Inbox/What Blog Platform Should I Use.md",
+    "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md",
+    "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md",
     "Highlights for What Blog Platform Should I Use.md",
+    "0-Inbox/What Blog Platform Should I Use.md",
     "0-Inbox/You Need a Blog.md",
-    "0-Inbox/Increase your productivity with outsourcing and SOPs.md",
-    "0-Inbox/README.md",
-    "2-Slipbox/README.md",
-    "3-Resources/Daily-Notes/README.md",
-    "3-Resources/Dictionaries/README.md",
-    "3-Resources/Gallery/README.md",
-    "README.md"
+    "0-Inbox/YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG.md",
+    "0-Inbox/Jekyll.md",
+    "0-Inbox/Gatsby.md",
+    "0-Inbox/WordPress.md",
+    "0-Inbox/Medium.md"
   ]
 }

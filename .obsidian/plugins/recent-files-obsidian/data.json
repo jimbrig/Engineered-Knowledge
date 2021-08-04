@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "What Blog Platform Should I Use",
-      "path": "0-Inbox/What Blog Platform Should I Use.md"
+      "basename": "README",
+      "path": "3-Resources/Highlights/README.md"
     },
     {
       "basename": "Highlights for What Blog Platform Should I Use",
       "path": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md"
     },
     {
+      "basename": "Highlights - Pay off Your Debt - Tools and Tips",
+      "path": "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md"
+    },
+    {
+      "basename": "Highlights for What Blog Platform Should I Use",
+      "path": "Highlights for What Blog Platform Should I Use.md"
+    },
+    {
+      "basename": "What Blog Platform Should I Use",
+      "path": "0-Inbox/What Blog Platform Should I Use.md"
+    },
+    {
       "basename": "You Need a Blog",
       "path": "0-Inbox/You Need a Blog.md"
+    },
+    {
+      "basename": "YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG",
+      "path": "0-Inbox/YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG.md"
+    },
+    {
+      "basename": "Jekyll",
+      "path": "0-Inbox/Jekyll.md"
+    },
+    {
+      "basename": "Gatsby",
+      "path": "0-Inbox/Gatsby.md"
+    },
+    {
+      "basename": "WordPress",
+      "path": "0-Inbox/WordPress.md"
+    },
+    {
+      "basename": "Medium",
+      "path": "0-Inbox/Medium.md"
     },
     {
       "basename": "Increase your productivity with outsourcing and SOPs",
@@ -55,14 +87,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Mindsweeps/README.md"
-    },
-    {
-      "basename": "Highlights - Pay off Your Debt - Tools and Tips",
-      "path": "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Highlights/README.md"
     },
     {
       "basename": "Focus on Writing",
@@ -175,30 +199,6 @@
     {
       "basename": "psql",
       "path": "0-Inbox/psql.md"
-    },
-    {
-      "basename": "Beekeeper",
-      "path": "0-Inbox/Beekeeper.md"
-    },
-    {
-      "basename": "DBeaver",
-      "path": "0-Inbox/DBeaver.md"
-    },
-    {
-      "basename": "pgAdmin 4",
-      "path": "0-Inbox/pgAdmin 4.md"
-    },
-    {
-      "basename": "ReadTheDocs",
-      "path": "0-Inbox/ReadTheDocs.md"
-    },
-    {
-      "basename": "GitBook",
-      "path": "0-Inbox/GitBook.md"
-    },
-    {
-      "basename": "Gatsby",
-      "path": "0-Inbox/Gatsby.md"
     }
   ],
   "omittedPaths": [],
