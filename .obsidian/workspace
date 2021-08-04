@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-Maps-of-Content/README.md",
+            "file": "3-Resources/Daily-Notes/2021-08-04.md",
             "mode": "source"
           }
         }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Maps-of-Content/README.md",
+                "file": "3-Resources/Daily-Notes/2021-08-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Maps-of-Content/README.md",
+                "file": "3-Resources/Daily-Notes/2021-08-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Maps-of-Content/README.md"
+                "file": "3-Resources/Daily-Notes/2021-08-04.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "ee8c109cecc1584f",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-08-04.md",
     "1-Maps-of-Content/README.md",
     "2-Slipbox/README.md",
     "2-Slipbox/Computer Backup System.md",
@@ -186,7 +187,6 @@
     "2-Slipbox/How To Change Explorer Drive Icons via Registry.md",
     "3-Resources/Daily-Notes/2021-07-30.md",
     "3-Resources/Daily-Notes/2021-08-02.md",
-    "3-Resources/Daily-Notes/2021-08-03.md",
-    "3-Resources/Daily-Notes/2021-08-04.md"
+    "3-Resources/Daily-Notes/2021-08-03.md"
   ]
 }
