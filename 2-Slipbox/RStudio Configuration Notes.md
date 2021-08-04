@@ -52,6 +52,21 @@ scoop install rstudio-pro-preview
 scoop install rstudio-daily
 ```
 
+### Additional Installations and Utilities
+
+As an R developer, we come across many  other various technologies during development and it can be useful to automate the process of setting up your [[Windows Developer Environment|Developer Environment]]:
+
+- R Tools (required)
+- Git (required) + Git Client and Git LFS (optional)
+- SSH (required)
+- GPG (optional)
+- LaTeX / TeX Distribution (required)
+	- Tinytex (recommended)
+	- MikeTex
+	- TexLive
+- Java (recommended)
+- Pandoc (optinoal - comes with RSt)
+
 ## Configure RStudio Settings
 
 A range of Project Options and Global Options are available in RStudio from the Tools menu (accessible from the keyboard via Alt+T).
@@ -145,7 +160,11 @@ Configuration files to backup:
 
 ## Tips and Tricks
 
-1. If you have more than one version or architecture of [[MOC - R|R]] installed on your machine, you can hold down the `Ctrl` key when opening RStudio and a dialog box will appear allowing you to select the version of R to run 
+> See [[RStudio Tips and Tricks]]
+
+1. If you have more than one version or architecture of [[MOC - R|R]] installed on your machine, you can hold down the `Ctrl` key when opening RStudio and a dialog box will appear allowing you to select the version of R to run in RStudio's native session. 
+2. On major updates, it is best practice to keep your old version of R on your machine until you are comfortable with the updated R version.
+3. When migrating R versions between major patch updates, you will need to re-install you library of R packages. This process can be vastly expedited utilizing `installr`’s helpful `installr::copy.packages.between.libraries()` function.
 
 
 ***

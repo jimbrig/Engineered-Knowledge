@@ -5,6 +5,10 @@
       "path": "2-Slipbox/RStudio Configuration Notes.md"
     },
     {
+      "basename": "RStudio Tips and Tricks",
+      "path": "0-Inbox/RStudio Tips and Tricks.md"
+    },
+    {
       "basename": "Memory in R",
       "path": "0-Inbox/Memory in R.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Virtual Machines",
       "path": "0-Inbox/Virtual Machines.md"
-    },
-    {
-      "basename": "WinSCP",
-      "path": "0-Inbox/WinSCP.md"
     }
   ],
   "omittedPaths": [],

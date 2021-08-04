@@ -280,6 +280,7 @@
   "active": "29f29b5c8c6b46df",
   "lastOpenFiles": [
     "2-Slipbox/RStudio Configuration Notes.md",
+    "0-Inbox/RStudio Tips and Tricks.md",
     "0-Inbox/Untitled.md",
     "0-Inbox/Package Managers.md",
     "4-Logs/Unlinked-Files.md",
@@ -287,7 +288,6 @@
     "2-Slipbox/Run Command to Edit Environment Variables.md",
     "2-Slipbox/SFC and DISM Commands.md",
     "1-Maps-of-Content/README.md",
-    "2-Slipbox/Shiny Apps as Packages in R.md",
-    "2-Slipbox/Taming a Chaotic Project.md"
+    "2-Slipbox/Shiny Apps as Packages in R.md"
   ]
 }
