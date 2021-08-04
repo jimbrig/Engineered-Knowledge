@@ -6533,14 +6533,19 @@
       "size": 0,
       "tags": 1,
       "links": 1
+    },
+    "0-Inbox/Hot to force remove Windows store Apps (UWP).md": {
+      "size": 11647,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 689,
-      "Create": 387,
-      "Link": 610,
-      "Expand": 54
+      "Create": 388,
+      "Link": 611,
+      "Expand": 55
     }
   },
   "dailyCommits": {
@@ -6557,7 +6562,7 @@
       "9": 0,
       "10": 0,
       "11": 42,
-      "12": 18,
+      "12": 21,
       "13": 5,
       "14": 2,
       "15": 14,
@@ -6575,7 +6580,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 246,
+      "Wed": 249,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6585,6 +6590,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>",
@@ -6634,10 +6640,10 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Windows Developer Environment.md\"> Windows Developer Environment </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
@@ -6687,8 +6693,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/EDA Packages in R.md\"> EDA Packages in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md\"> Obsidian Links </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to Ship Side Projects 🚀 - DONN FELKER.md\"> How to Ship Side Projects 🚀 - DONN FELKER </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker Compose Reference Docs.md\"> Docker Compose Reference Docs </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Reset OneDrive with Command Line.md\"> Reset OneDrive with Command Line </a>",
@@ -6744,6 +6749,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Enhanced CleanMgr Command.md\"> Enhanced CleanMgr Command </a>",
@@ -6793,8 +6799,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Publishing Workflow.md\"> Publishing Workflow </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md\"> Obsidian Links </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Git Plugin Notes.md\"> Obsidian Git Plugin Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Databases.md\"> Databases </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Views vs. Materialized Views.md\"> Views vs. Materialized Views </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Databases.md\"> Databases </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",

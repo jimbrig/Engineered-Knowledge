@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e276452f25868391",
+        "id": "16622d32b941ab3a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
+            "file": "0-Inbox/Hot to force remove Windows store Apps (UWP).md",
             "mode": "preview"
           }
         }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
+                "file": "0-Inbox/Hot to force remove Windows store Apps (UWP).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
+                "file": "0-Inbox/Hot to force remove Windows store Apps (UWP).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/About the AppxProvisioning.xml File in Windows.md"
+                "file": "0-Inbox/Hot to force remove Windows store Apps (UWP).md"
               }
             }
           },
@@ -173,16 +173,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "e276452f25868391",
+  "active": "16622d32b941ab3a",
   "lastOpenFiles": [
+    "0-Inbox/Untitled.md",
+    "0-Inbox/README.md",
     "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
     "0-Inbox/XML.md",
     "3-Resources/Daily-Notes/2021-08-04.md",
-    "0-Inbox/README.md",
-    "0-Inbox/Untitled.md",
     "2-Slipbox/Untitled.md",
     "1-Maps-of-Content/README.md",
     "2-Slipbox/README.md",

@@ -1,3 +1,4 @@
+- 2021-08-04 at 12h39 · [[Hot to force remove Windows store Apps (UWP)]]
 - 2021-08-04 at 12h34 · [[About the AppxProvisioning.xml File in Windows]]
 - 2021-08-04 at 12h32 · [[XML]]
 - 2021-08-04 at 12h31 · [[2021-08-04]]
@@ -97,4 +98,3 @@
 - 2021-07-30 at 01h42 · [[MOC - Setup]]
 - 2021-07-30 at 01h42 · [[2020-04-20]]
 - 2021-07-30 at 01h42 · [[2021-07-19-Mindsweep]]
-- 2021-07-30 at 01h42 · [[Mindsweep Trigger List]]

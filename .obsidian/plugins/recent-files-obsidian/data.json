@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Hot to force remove Windows store Apps (UWP)",
+      "path": "0-Inbox/Hot to force remove Windows store Apps (UWP).md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
       "basename": "About the AppxProvisioning.xml File in Windows",
       "path": "0-Inbox/About the AppxProvisioning.xml File in Windows.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "2021-08-04",
       "path": "3-Resources/Daily-Notes/2021-08-04.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "Enhanced CleanMgr Command",
@@ -195,10 +199,6 @@
     {
       "basename": "Mindsweep-Note-Template",
       "path": "3-Resources/Templates/Mindsweep-Note-Template.md"
-    },
-    {
-      "basename": "Default-Note-Template",
-      "path": "3-Resources/Templates/Default-Note-Template.md"
     }
   ],
   "omittedPaths": [],
