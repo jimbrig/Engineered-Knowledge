@@ -7122,7 +7122,7 @@
     "0-Inbox/Dann Felker.md": {
       "size": 3086,
       "tags": 1,
-      "links": 14
+      "links": 16
     },
     "2-Slipbox/Code is not Production Code.md": {
       "size": 2779,
@@ -7218,13 +7218,33 @@
       "size": 0,
       "tags": 0,
       "links": 5
+    },
+    "3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
+    },
+    "0-Inbox/Code Comments.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Highlights/Highlights - Code Comments.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
+    },
+    "0-Inbox/What gets Measured gets Managed.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 742,
-      "Create": 533,
-      "Link": 668,
+      "Refactor": 743,
+      "Create": 537,
+      "Link": 676,
       "Expand": 77
     }
   },
@@ -7245,8 +7265,8 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 96,
-      "16": 101,
+      "15": 99,
+      "16": 111,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7260,7 +7280,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 526,
+      "Wed": 539,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7323,6 +7343,10 @@
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/What gets Measured gets Managed.md\"> What gets Measured gets Managed </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG.md\"> YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG </a>",
         "<a class=\"internal-link\" href=\"Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
@@ -7369,13 +7393,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Github-CLI.md\"> Github-CLI </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/gcloud SDK.md\"> gcloud SDK </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/iCloud Drive.md\"> iCloud Drive </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Amazon Drive.md\"> Amazon Drive </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/OneDrive.md\"> OneDrive </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Google Drive.md\"> Google Drive </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/WordPress.md\"> WordPress </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Github Pages.md\"> Github Pages </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Amazon Drive.md\"> Amazon Drive </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Yarn.md\"> Yarn </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
@@ -7425,10 +7446,12 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/WSL.md\"> WSL </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/WSL.md\"> WSL </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/CLI Tools.md\"> CLI Tools </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/CLI Tools.md\"> CLI Tools </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/APIs.md\"> APIs </a>"
+        "<a class=\"internal-link\" href=\"1-Maps of Content/CLI Tools.md\"> CLI Tools </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Code Comments.md\"> Highlights - Code Comments </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
@@ -7476,10 +7499,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Logging.md\"> Plumber Logging </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/R Miscellaneous Notes.md\"> R Miscellaneous Notes </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Shiny Apps as Packages in R.md\"> Shiny Apps as Packages in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/EDA Packages in R.md\"> EDA Packages in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Git/Git Tools.md\"> Git Tools </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/WSL/WSL.md\"> WSL </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7548,6 +7568,11 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-22.md\"> 2021-07-22 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/What gets Measured gets Managed.md\"> What gets Measured gets Managed </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Code Comments.md\"> Highlights - Code Comments </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Yarn.md\"> Yarn </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
@@ -7593,12 +7618,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Enhanced CleanMgr Command.md\"> Enhanced CleanMgr Command </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Reset OneDrive with Command Line.md\"> Reset OneDrive with Command Line </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

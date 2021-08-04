@@ -34,8 +34,10 @@ Notes from Posts and original URLs:
 | [[You Need a Status Page]]                               | https://www.donnfelker.com/you-need-a-status-page/                                 |     |
 | [[Achieving Your Goals Feels Good]]                      | https://www.donnfelker.com/achieving-your-goals-feels-good/                        |     |
 | [[You Need a Blog]]                                      | https://www.donnfelker.com/you-need-a-blog/                                        |     |
-| [[What Blog Platform Should I Use]]                      | https://www.donnfelker.com/what-blog-platform-should-i-use/                                                                                    |     |
-
+| [[What Blog Platform Should I Use]]                      | https://www.donnfelker.com/what-blog-platform-should-i-use/                        |     |
+| [[Code Comments]]                                        | https://www.donnfelker.com/code-comments/                                          |     |
+| [[What gets Measured gets Managed]]                      | https://www.donnfelker.com/what-gets-measured-gets-managed/                        |     |
+|                                                          |                                                                                    |     |
 
 ***
 
