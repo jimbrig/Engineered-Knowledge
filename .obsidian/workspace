@@ -31,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/XML.md",
-            "mode": "source"
+            "file": "2-Slipbox/Windows Registry Paths and Keys.md",
+            "mode": "preview"
           }
         }
       },
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/XML.md",
+                "file": "2-Slipbox/Windows Registry Paths and Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/XML.md",
+                "file": "2-Slipbox/Windows Registry Paths and Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/XML.md"
+                "file": "2-Slipbox/Windows Registry Paths and Keys.md"
               }
             }
           },
@@ -211,15 +211,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "2-Slipbox/XML.md",
+    "2-Slipbox/Windows Registry Paths and Keys.md",
+    "2-Slipbox/Windows Registry.md",
     "4-Logs/Vault-Consistensy-Report.md",
+    "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
+    "3-Resources/Daily-Notes/2021-08-02.md",
+    "0-Inbox/README.md",
+    "3-Resources/README.md",
+    "1-Maps-of-Content/README.md",
     "2-Slipbox/About the AppxProvisioning.xml File in Windows.md",
-    "2-Slipbox/SFC and DISM Commands.md",
-    "2-Slipbox/README.md",
-    "4-Logs/Unlinked-Files.md",
-    "3-Resources/Mindsweeps/Mindsweep Trigger List.md",
-    "3-Resources/Templates/Mindsweep-Note-Template.md",
-    "4-Logs/README.md",
-    "3-Resources/README.md"
+    "2-Slipbox/XML.md"
   ]
 }

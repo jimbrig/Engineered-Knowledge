@@ -17,9 +17,8 @@ No problems found
 
 
 [2-Slipbox/WSL-Notes.md](2-Slipbox/WSL-Notes.md): 
-- (line 5): `[[linux|]]`
-- (line 5): `[[bootstrap]]`
-- (line 18): `[[getting started]]`
+- (line 5): `[[Linux]]`
+- (line 5): `[[Bootstrapping Dotfiles|bootstrap]]`
 - (line 18): `[[WSL]]`
 
 

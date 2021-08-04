@@ -201,7 +201,7 @@ Don't forget that creating the file from here may create the file in the wrong d
 - [[Tychobra]] in [[2-Slipbox/Time Management]]
 - [[time block planner]] in [[2-Slipbox/Time Management]]
 - [[010-PROGRAMMING]] in [[2-Slipbox/Using diskusage Command in Windows]]
-- [[linux]] in [[2-Slipbox/WSL-Notes]]
+- [[Linux]] in [[2-Slipbox/WSL-Notes]]
 - [[bootstrap]] in [[2-Slipbox/WSL-Notes]]
 - [[getting started]] in [[2-Slipbox/WSL-Notes]]
 - [[images/dFGFl.png]] in [[2-Slipbox/Windows Command Line Commands Overview]]

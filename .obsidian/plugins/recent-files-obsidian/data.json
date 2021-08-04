@@ -1,24 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "XML",
-      "path": "2-Slipbox/XML.md"
+      "basename": "Windows Registry Paths and Keys",
+      "path": "2-Slipbox/Windows Registry Paths and Keys.md"
+    },
+    {
+      "basename": "Windows Registry",
+      "path": "2-Slipbox/Windows Registry.md"
     },
     {
       "basename": "Vault-Consistensy-Report",
       "path": "4-Logs/Vault-Consistensy-Report.md"
     },
     {
+      "basename": "Windows Terminal Command Line Arguments - Windows Docs",
+      "path": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md"
+    },
+    {
+      "basename": "2021-08-02",
+      "path": "3-Resources/Daily-Notes/2021-08-02.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+    },
+    {
       "basename": "About the AppxProvisioning.xml File in Windows",
       "path": "2-Slipbox/About the AppxProvisioning.xml File in Windows.md"
     },
     {
-      "basename": "SFC and DISM Commands",
-      "path": "2-Slipbox/SFC and DISM Commands.md"
+      "basename": "XML",
+      "path": "2-Slipbox/XML.md"
+    },
+    {
+      "basename": "README",
+      "path": "4-Logs/README.md"
     },
     {
       "basename": "README",
       "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "WSL-Notes",
+      "path": "2-Slipbox/WSL-Notes.md"
+    },
+    {
+      "basename": "Bootstrapping Dotfiles",
+      "path": "2-Slipbox/Bootstrapping Dotfiles.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "2-Slipbox/Linux.md"
+    },
+    {
+      "basename": "SFC and DISM Commands",
+      "path": "2-Slipbox/SFC and DISM Commands.md"
     },
     {
       "basename": "Unlinked-Files",
@@ -33,28 +77,16 @@
       "path": "3-Resources/Templates/Mindsweep-Note-Template.md"
     },
     {
-      "basename": "README",
-      "path": "4-Logs/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/README.md"
-    },
-    {
       "basename": "2020-04-20",
       "path": "3-Resources/Daily-Notes/2020-04-20.md"
     },
     {
       "basename": "2020-08-20",
-      "path": "0-Inbox/2020-08-20.md"
+      "path": "3-Resources/Daily-Notes/2020-08-20.md"
     },
     {
       "basename": "Windows Command Line Commands Overview",
       "path": "2-Slipbox/Windows Command Line Commands Overview.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "AutoHotKey Scripts",
@@ -63,10 +95,6 @@
     {
       "basename": "Using diskusage Command in Windows",
       "path": "2-Slipbox/Using diskusage Command in Windows.md"
-    },
-    {
-      "basename": "Windows Terminal Command Line Arguments - Windows Docs",
-      "path": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md"
     },
     {
       "basename": "README",
@@ -117,10 +145,6 @@
       "path": "2-Slipbox/Reset OneDrive with Command Line.md"
     },
     {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
-    },
-    {
       "basename": "Computer Backup System",
       "path": "2-Slipbox/Computer Backup System.md"
     },
@@ -135,10 +159,6 @@
     {
       "basename": "2021-07-30",
       "path": "3-Resources/Daily-Notes/2021-07-30.md"
-    },
-    {
-      "basename": "2021-08-02",
-      "path": "3-Resources/Daily-Notes/2021-08-02.md"
     },
     {
       "basename": "2021-08-03",
@@ -165,10 +185,6 @@
       "path": "2-Slipbox/WSL Commands and Installs.md"
     },
     {
-      "basename": "WSL-Notes",
-      "path": "2-Slipbox/WSL-Notes.md"
-    },
-    {
       "basename": "010 - Productivity",
       "path": "1-Maps-of-Content/010 - Productivity.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Kanbans/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Dictionaries/README.md"
-    },
-    {
-      "basename": "README-Template",
-      "path": "3-Resources/Templates/README-Template.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "3-Resources/Dictionaries/Kanban.md"
-    },
-    {
-      "basename": "WebDev Resource List",
-      "path": "2-Slipbox/WebDev Resource List.md"
     }
   ],
   "omittedPaths": [],

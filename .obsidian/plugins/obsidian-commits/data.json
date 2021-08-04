@@ -5777,7 +5777,7 @@
     "2-Slipbox/WSL-Notes.md": {
       "size": 1667,
       "tags": 0,
-      "links": 4
+      "links": 3
     },
     "2-Slipbox/Focused Note Taking via the Cornell Notes Method.md": {
       "size": 2459,
@@ -6544,7 +6544,17 @@
       "tags": 0,
       "links": 54
     },
-    "0-Inbox/2020-08-20.md": {
+    "3-Resources/Daily-Notes/2020-08-20.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Linux.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Bootstrapping Dotfiles.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -6552,8 +6562,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 709,
-      "Create": 391,
+      "Refactor": 715,
+      "Create": 394,
       "Link": 619,
       "Expand": 61
     }
@@ -6574,7 +6584,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 12,
+      "14": 21,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -6590,7 +6600,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 286,
+      "Wed": 295,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6653,6 +6663,9 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Bootstrapping Dotfiles.md\"> Bootstrapping Dotfiles </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/bootstrap.md\"> bootstrap </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Linux.md\"> Linux </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/2020-08-20.md\"> 2020-08-20 </a>",
         "<a class=\"internal-link\" href=\"4-LogsVault-Consistentsy-Report.md\"> 4-LogsVault-Consistentsy-Report </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
@@ -6700,12 +6713,13 @@
         "<a class=\"internal-link\" href=\"0-Inbox/New Markdown Document.md\"> New Markdown Document </a>",
         "<a class=\"internal-link\" href=\"4-Logs/SyncLog.md\"> SyncLog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL.md\"> PostgreSQL </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/Javascript.md\"> Javascript </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/EDA Packages in R.md\"> EDA Packages in R </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Bootstrapping Dotfiles.md\"> Bootstrapping Dotfiles </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Linux.md\"> Linux </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2020-08-20.md\"> 2020-08-20 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/2020-08-20.md\"> 2020-08-20 </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"Vault-Consistentsy-Report.md\"> Vault-Consistentsy-Report </a>",
@@ -6752,11 +6766,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - WSL.md\"> MOC - WSL </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Databases.md\"> MOC - Databases </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Setup.md\"> MOC - Setup </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - PKM.md\"> MOC - PKM </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Obsidian Resources.md\"> MOC - Obsidian Resources </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Markdown.md\"> MOC - Markdown </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Links.md\"> MOC - Links </a>"
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Setup.md\"> MOC - Setup </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
@@ -6823,6 +6833,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"0-Inbox/bootstrap.md\"> bootstrap </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/MkDocs 1.md\"> MkDocs 1 </a>",
@@ -6872,8 +6883,7 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>",
         "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>",
         "<a class=\"internal-link\" href=\"Notes/Git Links.md\"> Git Links </a>",
-        "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>"
+        "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
@@ -6999,7 +7009,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/WSL-Notes.md\"> WSL-Notes </a>"
       ]
     }
   },
