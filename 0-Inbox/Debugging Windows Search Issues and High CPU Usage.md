@@ -83,7 +83,7 @@ However, if you want to manually reset Windows Search, delete and rebuild the in
 4. Open the Services MMC (`services.msc`)
 5. Restart the Windows Search service
 
-#### Reset via Batch File
+#### Reset Service and Rebuild via Batch File
 
 - [linktobatchfile]() - saved as `rebuild-search-index.bat` in my `C:\bin` directory:
 
@@ -99,6 +99,39 @@ IF NOT %ERRORLEVEL%==0 (goto :wsearch) ELSE goto :END
 :END
 ```
 
+#### Rebuild without Resetting via Batch File
+
+```batch
+sc config wsearch start= disabled
+net stop wsearch
+del "%ProgramData%\Microsoft\Search\Data\Applications\Windows\Windows.edb"
+:wsearch
+sc config wsearch start= delayed-auto
+net start wsearch
+IF NOT %ERRORLEVEL%==0 (goto :wsearch) ELSE goto :END
+:END
+```
+
+### Defrag the Search index database Windows.edb to reduce the file size
+
+If you index too many files & folders and the Outlook PST files, the Windows search index database file Windows.edb would grow huge in size. In some instances, the file size can be larger than 50 GB. That’s because, in Windows 8 and Windows 10, both properties and persistent indexes are stored in Windows.edb. Also, Windows 8, Windows 8.1 and Windows 10 index the entire contents of files, regardless of their size.
+
+To reduce the Windows search index database size, index less content. Another option to reduce the size of Windows.edb is to compact or defrag the file using `esentutl.exe`[^1]. Follow these steps:
+
+Open an admin Command Prompt window, and run these commands:
+
+```powershell
+sc config wsearch start= disabled
+net stop wsearch
+esentUtl.exe /d %AllUsersProfile%\Microsoft\Search\Data\Applications\Windows\Windows.edb
+sc config wsearch start= delayed-auto
+net start wsearch
+```
+
+### Notes
+
+- Access search settings from Control Panel via: `control srchadmin.dll`
+
 ***
 
 Links: 
@@ -111,3 +144,6 @@ Sources:
 - [Use Indexer Diagnostics App for Windows Search Issues in Windows 10 | Tutorials (tenforums.com)](https://www.tenforums.com/tutorials/148377-use-indexer-diagnostics-app-windows-search-issues-windows-10-a.html)
 - [Windows Search Indexer suddenly using too much CPU, help please - Windows 10 Forums (tenforums.com)](https://www.tenforums.com/performance-maintenance/110422-windows-search-indexer-suddenly-using-too-much-cpu-help-please.html)
 - [voidtools](https://www.voidtools.com/)
+
+
+[^1]: [Esentutl | Microsoft Docs](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh875546(v=ws.11))
