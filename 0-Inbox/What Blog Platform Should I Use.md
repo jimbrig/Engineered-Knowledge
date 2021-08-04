@@ -14,17 +14,17 @@ In a very recent email I wrote about how you need to have a blog.
 
 The question that pops up next is usually …
 
-> What blog platform should I use? Medium? WordPress? Gatsby? Jekyll? Or something else?
+> What blog platform should I use? [[Medium]]? [[WordPress]]? [[Gatsby]]? [[Jekyll]]? Or something else?
 
 This is a HUGELY important question that needs a bit of thought put into it … but first things first …
 
-## You Need to Focus on Writing
+## You Need to [[Focus on Writing]]
 
 Before I get into comparing the vast array of options that you have out there I want to state that if your goal is to start bogging then ….
 
-**YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG**
+**==YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG==**
 
-In other words, if you’re a software engineer (and some of you are) you should not get consumed with “building my blog” with some latest and greatest technology that you can learn along the way.
+==In other words, if you’re a software engineer (and some of you are) you should not get consumed with “building my blog” with some latest and greatest technology that you can learn along the way.==
 
 If your goal is to write ….
 

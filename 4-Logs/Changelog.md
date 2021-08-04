@@ -1,4 +1,6 @@
-- 2021-08-04 at 15h42 · [[What Blog Platform Should I Use]]
+- 2021-08-04 at 15h46 · [[Highlights for What Blog Platform Should I Use]]
+- 2021-08-04 at 15h44 · [[What Blog Platform Should I Use]]
+- 2021-08-04 at 15h43 · [[Focus on Writing]]
 - 2021-08-04 at 15h42 · [[Dann Felker]]
 - 2021-08-04 at 15h41 · [[You Need a Blog]]
 - 2021-08-04 at 15h40 · [[Achieving Your Goals Feels Good]]
@@ -96,5 +98,3 @@
 - 2021-08-04 at 14h39 · [[Groovy]]
 - 2021-08-04 at 14h39 · [[Java]]
 - 2021-08-04 at 14h39 · [[Objective-C]]
-- 2021-08-04 at 14h38 · [[Swift]]
-- 2021-08-04 at 14h38 · [[Assembly]]

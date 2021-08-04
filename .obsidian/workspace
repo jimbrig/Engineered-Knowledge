@@ -37,6 +37,17 @@
         }
       },
       {
+        "id": "576a5e3ed137630b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "0-Inbox/What Blog Platform Should I Use.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
         "id": "d56e9d083172c860",
         "type": "leaf",
         "state": {
@@ -217,17 +228,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a20e8038b8f6ba99",
+  "active": "576a5e3ed137630b",
   "lastOpenFiles": [
     "0-Inbox/What Blog Platform Should I Use.md",
-    "0-Inbox/Dann Felker.md",
+    "Highlights for What Blog Platform Should I Use.md",
     "0-Inbox/You Need a Blog.md",
-    "0-Inbox/Achieving Your Goals Feels Good.md",
-    "0-Inbox/You Need a Status Page.md",
-    "0-Inbox/What Gets Measured, Gets Managed.md",
-    "0-Inbox/S.M.A.R.T. Goals.md",
-    "0-Inbox/Learning to Program Sucks.md",
-    "0-Inbox/The Single Best Thing to do for your Career.md",
-    "0-Inbox/The Three Buckets - Rule of Thirds.md"
+    "0-Inbox/Increase your productivity with outsourcing and SOPs.md",
+    "0-Inbox/README.md",
+    "2-Slipbox/README.md",
+    "3-Resources/Daily-Notes/README.md",
+    "3-Resources/Dictionaries/README.md",
+    "3-Resources/Gallery/README.md",
+    "README.md"
   ]
 }

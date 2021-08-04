@@ -5,12 +5,72 @@
       "path": "0-Inbox/What Blog Platform Should I Use.md"
     },
     {
-      "basename": "Dann Felker",
-      "path": "0-Inbox/Dann Felker.md"
+      "basename": "Highlights for What Blog Platform Should I Use",
+      "path": "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md"
     },
     {
       "basename": "You Need a Blog",
       "path": "0-Inbox/You Need a Blog.md"
+    },
+    {
+      "basename": "Increase your productivity with outsourcing and SOPs",
+      "path": "0-Inbox/Increase your productivity with outsourcing and SOPs.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Daily-Notes/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Dictionaries/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Gallery/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Templates/README.md"
+    },
+    {
+      "basename": "2021-07-19-Mindsweep",
+      "path": "3-Resources/Mindsweeps/2021-07-19-Mindsweep.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Mindsweeps/README.md"
+    },
+    {
+      "basename": "Highlights - Pay off Your Debt - Tools and Tips",
+      "path": "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Highlights/README.md"
+    },
+    {
+      "basename": "Focus on Writing",
+      "path": "0-Inbox/Focus on Writing.md"
+    },
+    {
+      "basename": "Dann Felker",
+      "path": "0-Inbox/Dann Felker.md"
     },
     {
       "basename": "Achieving Your Goals Feels Good",
@@ -65,10 +125,6 @@
       "path": "2-Slipbox/Code is not Production Code.md"
     },
     {
-      "basename": "Increase your productivity with outsourcing and SOPs",
-      "path": "0-Inbox/Increase your productivity with outsourcing and SOPs.md"
-    },
-    {
       "basename": "Utils Package Hidden Gems in R",
       "path": "2-Slipbox/Utils Package Hidden Gems in R.md"
     },
@@ -79,10 +135,6 @@
     {
       "basename": "Backend Web Architecture",
       "path": "2-Slipbox/Backend Web Architecture.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Daily-Notes/README.md"
     },
     {
       "basename": "Vault-Consistensy-Report",
@@ -147,58 +199,6 @@
     {
       "basename": "Gatsby",
       "path": "0-Inbox/Gatsby.md"
-    },
-    {
-      "basename": "Ghost",
-      "path": "0-Inbox/Ghost.md"
-    },
-    {
-      "basename": "NextJS",
-      "path": "0-Inbox/NextJS.md"
-    },
-    {
-      "basename": "Hexo",
-      "path": "0-Inbox/Hexo.md"
-    },
-    {
-      "basename": "AWS-CLI",
-      "path": "0-Inbox/AWS-CLI.md"
-    },
-    {
-      "basename": "Heroku-CLI",
-      "path": "0-Inbox/Heroku-CLI.md"
-    },
-    {
-      "basename": "Github-CLI",
-      "path": "0-Inbox/Github-CLI.md"
-    },
-    {
-      "basename": "Google Cloud Platform - GCP",
-      "path": "0-Inbox/Google Cloud Platform - GCP.md"
-    },
-    {
-      "basename": "gcloud SDK",
-      "path": "0-Inbox/gcloud SDK.md"
-    },
-    {
-      "basename": "iCloud Drive",
-      "path": "0-Inbox/iCloud Drive.md"
-    },
-    {
-      "basename": "Amazon Drive",
-      "path": "0-Inbox/Amazon Drive.md"
-    },
-    {
-      "basename": "OneDrive",
-      "path": "0-Inbox/OneDrive.md"
-    },
-    {
-      "basename": "Google Drive",
-      "path": "0-Inbox/Google Drive.md"
-    },
-    {
-      "basename": "WordPress",
-      "path": "0-Inbox/WordPress.md"
     }
   ],
   "omittedPaths": [],

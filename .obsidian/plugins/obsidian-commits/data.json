@@ -7202,14 +7202,24 @@
     "0-Inbox/What Blog Platform Should I Use.md": {
       "size": 14061,
       "tags": 0,
+      "links": 6
+    },
+    "0-Inbox/Focus on Writing.md": {
+      "size": 0,
+      "tags": 0,
       "links": 1
+    },
+    "3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md": {
+      "size": 369,
+      "tags": 0,
+      "links": 5
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 735,
-      "Create": 526,
-      "Link": 662,
+      "Refactor": 736,
+      "Create": 528,
+      "Link": 665,
       "Expand": 77
     }
   },
@@ -7230,7 +7240,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 76,
+      "15": 82,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7245,7 +7255,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 506,
+      "Wed": 512,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7308,6 +7318,8 @@
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Focus on Writing.md\"> Focus on Writing </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/You Need a Blog.md\"> You Need a Blog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Achieving Your Goals Feels Good.md\"> Achieving Your Goals Feels Good </a>",
@@ -7356,11 +7368,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Linode.md\"> Linode </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Digital Ocean.md\"> Digital Ocean </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Heroku.md\"> Heroku </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Amazon Web Services - AWS.md\"> Amazon Web Services - AWS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Azure CLI.md\"> Azure CLI </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Microsoft Azure.md\"> Microsoft Azure </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Amazon Web Services - AWS.md\"> Amazon Web Services - AWS </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Subsystem for Linux (WSL).md\"> Windows Subsystem for Linux (WSL) </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Obsidian.md\"> MOC - Obsidian </a>",
@@ -7410,8 +7421,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/CLI Tools.md\"> CLI Tools </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/CLI Tools.md\"> CLI Tools </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/APIs.md\"> APIs </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/APIs.md\"> APIs </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>"
+        "<a class=\"internal-link\" href=\"1-Maps of Content/APIs.md\"> APIs </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
@@ -7533,6 +7543,9 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/Daily Notes Index.md\"> Daily Notes Index </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Focus on Writing.md\"> Focus on Writing </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S.M.A.R.T. Goals.md\"> S.M.A.R.T. Goals </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/You Need a Status Page.md\"> You Need a Status Page </a>",
@@ -7580,10 +7593,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

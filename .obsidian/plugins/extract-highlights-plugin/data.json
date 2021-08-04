@@ -1,7 +1,7 @@
 {
   "headlineText": "",
   "addFootnotes": true,
-  "useBoldForHighlights": false,
+  "useBoldForHighlights": true,
   "createLinks": true,
   "autoCapitalize": true,
   "createNewFile": true,
