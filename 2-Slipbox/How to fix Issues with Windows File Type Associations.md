@@ -2,8 +2,8 @@
 Creation Date: 2021-08-04 02:00
 Last Modified Date: Wednesday 4th August 2021 02:00:01
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: How to fix Issues with Windows File Type Associations
-Tags: []
+Alias: Windows-File-Type-Associations
+Tags: ["#Windows", "#Configuration", "#Guide", "#Development"]
 ---
 
 # How to fix Issues with Windows File Type Associations
@@ -36,20 +36,49 @@ dism /online /Export-DefaultAppAssociations:"%UserProfile%\Desktop\DefaultAppAss
 
 ```
 
-### Import
+### Import Exported XML File
 
 ```powershell
 
 dism /online /Import-DefaultAppAssociations:"%UserProfile%\Desktop\FileAssociations.xml"
 ```
 
+### Remove to Revert Changes
+
 ```ad-note
 
 In case you want to revert the changes you have made, run this command: 
+
 `Dism.exe /Online /Remove-DefaultAppAssociations`
-```
 
 ```
+
+## ASSOC Commands
+
+Change associations like-so:
+
+```powershell
+assoc .extension_name=file_type
+```
+
+For example, to associate `.scr` file type with `notepad`, execute:
+
+```powershell
+assoc .scr=txtfile
+
+# to revert
+assoc .scr=scrfile
+```
+
+```ad-note
+
+To see , list of file type associations in your system , just type `assoc | more`.
+
+```
+
+## FTYPE Commands
+
+First run
 
 
 ***

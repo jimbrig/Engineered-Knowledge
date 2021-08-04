@@ -6509,17 +6509,17 @@
       "tags": 0,
       "links": 3
     },
-    "0-Inbox/How to fix Issues with Windows File Type Associations.md": {
+    "2-Slipbox/How to fix Issues with Windows File Type Associations.md": {
       "size": 861,
-      "tags": 0,
-      "links": 6
+      "tags": 4,
+      "links": 9
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 684,
+      "Refactor": 685,
       "Create": 382,
-      "Link": 597,
+      "Link": 599,
       "Expand": 53
     }
   },
@@ -6527,7 +6527,7 @@
     "/": {
       "0": 100,
       "1": 767,
-      "2": 49,
+      "2": 52,
       "3": 150,
       "4": 7,
       "5": 0,
@@ -6555,7 +6555,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 222,
+      "Wed": 225,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6671,6 +6671,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
@@ -6720,10 +6721,10 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/000 - INDEX.md\"> 000 - INDEX </a>",
         "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - R.md\"> MOC - R </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - System Design.md\"> MOC - System Design </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/1-Maps of Content/MOC - R.md\"> MOC - R </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
@@ -6773,8 +6774,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Database GUIs.md\"> Database GUIs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL Tools.md\"> PostgreSQL Tools </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL.md\"> PostgreSQL </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Notes on Finishing Projects.md\"> Notes on Finishing Projects </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Time Management.md\"> Time Management </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Notes on Finishing Projects.md\"> Notes on Finishing Projects </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6838,6 +6838,7 @@
         "<a class=\"internal-link\" href=\"Notes/PowerShell Tips.md\"> PowerShell Tips </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
@@ -6887,8 +6888,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Git Plugin Notes.md\"> Obsidian Git Plugin Notes </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Databases.md\"> Databases </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Views vs. Materialized Views.md\"> Views vs. Materialized Views </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL.md\"> PostgreSQL </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Productivity/Notes on Finishing Projects.md\"> Notes on Finishing Projects </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL.md\"> PostgreSQL </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
