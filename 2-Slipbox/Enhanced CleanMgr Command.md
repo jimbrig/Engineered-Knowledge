@@ -16,7 +16,7 @@ sudo cmd.exe /c Cleanmgr /sageset:65535 & Cleanmgr /sagerun:65535
 
 ***
 
-Links: [PowerShell](PowerShell) | [WindowsDevEnv](Windows%20Developer%20Environment.md)
+Links: [MOC - PowerShell](MOC%20-%20PowerShell.md) | [WindowsDevEnv](Windows%20Developer%20Environment.md)
 
 Sources:
 

@@ -38,7 +38,7 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 
 [Windows Subsystem for Linux (WSL)](Windows%20Subsystem%20for%20Linux%20(WSL))
 
-[.Net Framework](.Net%20Framework) | [PowerShell](PowerShell) | [Windows Terminal](Windows%20Terminal) | [Visual Studio](Visual%20Studio) | [Visual Studio Code](Visual%20Studio%20Code) | [NuGet](NuGet)
+[.Net Framework](.Net%20Framework) | [MOC - PowerShell](MOC%20-%20PowerShell.md) | [Windows Terminal](Windows%20Terminal.md) | [Visual Studio](Visual%20Studio) | [Visual Studio Code](Visual%20Studio%20Code) | [NuGet](NuGet)
 
 [Windows SDK](Windows%20SDK) | [Windows APK](Windows%20APK) | [WindowsPE](WindowsPE)
 
@@ -73,7 +73,7 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 - [Lua](Lua)
 - [Clojure](Clojure)
 - [Markdown](../2-Slipbox/Markdown.md) | [LaTex](LaTex) | [TeX](TeX)
-- [PowerShell](PowerShell)
+- [MOC - PowerShell](MOC%20-%20PowerShell.md)
 - [Command Line - CMD](Command%20Line%20-%20CMD) (DOS)
 - [WSL](../2-Slipbox/WSL.md) | [Ubuntu](Ubuntu)
 - [Bash](Bash) | [Git-Bash](Git)
@@ -95,8 +95,8 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 
 ### Terminals and Shells
 
-- [Windows Terminal](Windows%20Terminal)
-- [PowerShell](PowerShell)
+- [Windows Terminal](Windows%20Terminal.md)
+- [MOC - PowerShell](MOC%20-%20PowerShell.md)
 - [Command Line - CMD](Command%20Line%20-%20CMD) (DOS)
 - [WSL](../2-Slipbox/WSL.md) | [Ubuntu](Ubuntu)
 - [Bash](Bash) | [Git-Bash](Git)

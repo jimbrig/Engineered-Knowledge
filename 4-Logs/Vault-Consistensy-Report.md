@@ -1,23 +1,18 @@
-# Bad links (28 files)
+e# Bad links (27 files)
 [2-Slipbox/Windows Registry Paths and Keys.md](2-Slipbox/Windows%20Registry%20Paths%20and%20Keys.md): 
 - (line 32): `Windows Registry#Resources`
 
 
 [2-Slipbox/Views vs. Materialized Views.md](2-Slipbox/Views%20vs.%20Materialized%20Views.md): 
-- (line 32): `Web Development`
+- (line 32): `MOC - Web Development.md`
 
 
 [2-Slipbox/Time Management.md](2-Slipbox/Time%20Management.md): 
-- (line 24): `Tychobra`
-- (line 33): `time block planner`
-
-
-[2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md](2-Slipbox/Start%20an%20Offline%20Scan%20with%20Windows%20Defender%20from%20PowerShell.md): 
-- (line 60): `Windows Terminal`
+- (line 31): `time block planner`
 
 
 [2-Slipbox/System Design Primer.md](2-Slipbox/System%20Design%20Primer.md): 
-- (line 70): `Web Development`
+- (line 70): `MOC - Web Development.md`
 
 
 [2-Slipbox/SSH and SCP.md](2-Slipbox/SSH%20and%20SCP.md): 
@@ -166,7 +161,7 @@
 - (line 38): `Windows Subsystem for Linux (WSL)`
 - (line 40): `.Net Framework`
 - (line 40): `PowerShell`
-- (line 40): `Windows Terminal`
+- (line 40): `Windows Terminal.md`
 - (line 40): `Visual Studio`
 - (line 40): `Visual Studio Code`
 - (line 40): `NuGet`
@@ -222,7 +217,7 @@
 - (line 89): `Vue.js`
 - (line 90): `Bulma.js`
 - (line 91): `Next.js`
-- (line 97): `Windows Terminal`
+- (line 97): `Windows Terminal.md`
 - (line 98): `PowerShell`
 - (line 99): `Command Line - CMD`
 - (line 100): `Ubuntu`
@@ -343,8 +338,20 @@ No problems found
 # Bad embeds 
 No problems found
 
-# Wiki links 
-No problems found
+# Wiki links (2 files)
+[2-Slipbox/Windows Terminal.md](2-Slipbox/Windows%20Terminal.md): 
+- (line 10): `[[Windows Terminal Command Line Arguments]]`
+- (line 12): `[[WinGet CLI Setup and Settings]]`
+- (line 14): `[[WSL]]`
+- (line 16): `[[WSL Commands and Installs]]`
+- (line 18): `[[WSL-Notes]]`
+- (line 22): `[[Start an Offline Scan with Windows Defender from PowerShell]]`
+
+
+[1-Maps-of-Content/MOC - Web Development.md](1-Maps-of-Content/MOC%20-%20Web%20Development.md): 
+- (line 12): `[[020 - Development]]`
+- (line 12): `[[050 - Computer]]`
+
 
 
 

@@ -58,7 +58,7 @@ Winaero greatly relies on your support. You can help the site keep bringing you 
 
 ***
 
-Links: [Windows Developer Environment](Windows%20Developer%20Environment.md) | [Windows Terminal](Windows%20Terminal) | [020 - Development](../1-Maps-of-Content/020%20-%20Development.md)
+Links: [Windows Developer Environment](Windows%20Developer%20Environment.md) | [Windows Terminal](Windows%20Terminal.md) | [020 - Development](../1-Maps-of-Content/020%20-%20Development.md)
 
 Sources: 
 - [Start an Offline Scan with Windows Defender from PowerShell (winaero.com)](https://winaero.com/offline-scan-windows-defender-powershell/#:~:text=The%20same%20can%20be%20done%20with%20PowerShell.%20To,Once%20finished%2C%20it%20will%20start%20Windows%2010%20again.)

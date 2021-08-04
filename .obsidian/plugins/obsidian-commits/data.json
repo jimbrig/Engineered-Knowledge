@@ -6206,7 +6206,7 @@
     },
     "2-Slipbox/Project Management Pipeline.md": {
       "size": 2861,
-      "tags": 3,
+      "tags": 2,
       "links": 3
     },
     "2-Slipbox/Taming a Chaotic Project.md": {
@@ -6293,11 +6293,6 @@
       "size": 0,
       "tags": 1,
       "links": 3
-    },
-    "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md": {
-      "size": 20840,
-      "tags": 4,
-      "links": 7
     },
     "1-Maps-of-Content/000 - INDEX.md": {
       "size": 557,
@@ -6542,7 +6537,7 @@
     "4-Logs/Vault-Consistensy-Report.md": {
       "size": 9645,
       "tags": 0,
-      "links": 28
+      "links": 29
     },
     "3-Resources/Daily-Notes/2020-08-20.md": {
       "size": 0,
@@ -6563,13 +6558,28 @@
       "size": 0,
       "tags": 3,
       "links": 2
+    },
+    "2-Slipbox/Windows Terminal.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 7
+    },
+    "2-Slipbox/Windows Terminal Command Line Arguments.md": {
+      "size": 20840,
+      "tags": 4,
+      "links": 7
+    },
+    "1-Maps-of-Content/MOC - PowerShell.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 721,
-      "Create": 395,
-      "Link": 621,
+      "Refactor": 726,
+      "Create": 397,
+      "Link": 624,
       "Expand": 62
     }
   },
@@ -6589,7 +6599,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 31,
+      "14": 41,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -6605,7 +6615,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 305,
+      "Wed": 315,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6668,6 +6678,8 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/PowerShell.md\"> PowerShell </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Windows Terminal.md\"> Windows Terminal </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Web Development.md\"> Web Development </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Bootstrapping Dotfiles.md\"> Bootstrapping Dotfiles </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/bootstrap.md\"> bootstrap </a>",
@@ -6716,11 +6728,13 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Git Plugin Notes.md\"> Obsidian Git Plugin Notes </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/New Markdown Document.md\"> New Markdown Document </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/SyncLog.md\"> SyncLog </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/New Markdown Document.md\"> New Markdown Document </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/MOC - PowerShell.md\"> MOC - PowerShell </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments.md\"> Windows Terminal Command Line Arguments </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal.md\"> Windows Terminal </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/Web Development.md\"> Web Development </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Bootstrapping Dotfiles.md\"> Bootstrapping Dotfiles </a>",
@@ -6767,13 +6781,10 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - R.md\"> MOC - R </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - System Design.md\"> MOC - System Design </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - APIs.md\"> MOC - APIs </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - WSL.md\"> MOC - WSL </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - PostgreSQL.md\"> MOC - PostgreSQL </a>"
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - R.md\"> MOC - R </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
@@ -6823,8 +6834,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Powwater/Database Documentation.md\"> Database Documentation </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Templater Plugin Notes.md\"> Templater Plugin Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Publishing Workflow.md\"> Publishing Workflow </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md\"> Obsidian Links </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Publishing Workflow.md\"> Publishing Workflow </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -6892,6 +6902,8 @@
         "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal.md\"> Windows Terminal </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
@@ -6940,9 +6952,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-30.md\"> 2021-07-30 </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -6964,7 +6974,8 @@
         "<a class=\"internal-link\" href=\"_daily/2021-06-24.md\"> 2021-06-24 </a>",
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",

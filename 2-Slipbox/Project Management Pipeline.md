@@ -1,8 +1,9 @@
 ---
-creation date: 2021-04-24 09:53
-modification date: Saturday 24th April 2021 09:53:23
-tags: ["#productivity", "#pkm", "#work"]
-author: Jimmy Briggs
+Creation Date: 2021-04-24 09:53
+Last Modified Date: Wednesday 4th August 2021 14:19:52
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Project Management Pipeline
+Tags: ["#Productivity", "#PKM"]
 ---
 
 # Project Management Pipeline
@@ -58,6 +59,7 @@ Based on David Allen’s GTD methodology, consider these four things:
 
 
 ***
-Links: [MOC - Project Management](../1-Maps-of-Content/MOC%20-%20Project%20Management.md) | [PKM](PKM) | [Productivity](Productivity)
+Links: [MOC - Project Management](../1-Maps-of-Content/MOC%20-%20Project%20Management.md) | [[MOC - PKM]] | [[010 - Productivity]]
+
 Source: [Five Steps to Getting a Project Done | LiquidPlanner](https://www.liquidplanner.com/blog/5-steps-to-getting-a-project-done/#:~:text=Five%20Steps%20to%20Getting%20a%20Project%20Done.%201,to%20review.%205%205.%20Just%20do%20it%21%20)
 

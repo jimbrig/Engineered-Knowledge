@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Windows Terminal.md",
+            "file": "2-Slipbox/Project Management Pipeline.md",
             "mode": "source"
           }
         }
@@ -105,12 +105,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 354
+    "width": 636
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Windows Terminal.md",
+                "file": "2-Slipbox/Project Management Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Windows Terminal.md",
+                "file": "2-Slipbox/Project Management Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Windows Terminal.md"
+                "file": "2-Slipbox/Project Management Pipeline.md"
               }
             }
           },
@@ -212,15 +211,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "0-Inbox/Windows Terminal.md",
-    "2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md",
+    "2-Slipbox/Project Management Pipeline.md",
+    "1-Maps-of-Content/MOC - Project Management.md",
     "4-Logs/Vault-Consistensy-Report.md",
-    "2-Slipbox/Time Management.md",
+    "1-Maps-of-Content/MOC - PowerShell.md",
+    "2-Slipbox/Reset OneDrive with Command Line.md",
+    "2-Slipbox/Windows Terminal.md",
+    "0-Inbox/PowerShell.md",
     "1-Maps-of-Content/MOC - Web Development.md",
-    "1-Maps-of-Content/README.md",
-    "0-Inbox/README.md",
-    "0-Inbox/Web Development.md",
-    "2-Slipbox/Views vs. Materialized Views.md",
-    "2-Slipbox/Windows Registry Paths and Keys.md"
+    "2-Slipbox/System Design Primer.md",
+    "2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md"
   ]
 }

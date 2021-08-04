@@ -1,24 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Windows Terminal",
-      "path": "0-Inbox/Windows Terminal.md"
+      "basename": "Project Management Pipeline",
+      "path": "2-Slipbox/Project Management Pipeline.md"
     },
     {
-      "basename": "Start an Offline Scan with Windows Defender from PowerShell",
-      "path": "2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md"
+      "basename": "MOC - Project Management",
+      "path": "1-Maps-of-Content/MOC - Project Management.md"
     },
     {
       "basename": "Vault-Consistensy-Report",
       "path": "4-Logs/Vault-Consistensy-Report.md"
     },
     {
-      "basename": "Time Management",
-      "path": "2-Slipbox/Time Management.md"
+      "basename": "MOC - PowerShell",
+      "path": "1-Maps-of-Content/MOC - PowerShell.md"
+    },
+    {
+      "basename": "Reset OneDrive with Command Line",
+      "path": "2-Slipbox/Reset OneDrive with Command Line.md"
+    },
+    {
+      "basename": "Windows Terminal",
+      "path": "2-Slipbox/Windows Terminal.md"
     },
     {
       "basename": "MOC - Web Development",
       "path": "1-Maps-of-Content/MOC - Web Development.md"
+    },
+    {
+      "basename": "System Design Primer",
+      "path": "2-Slipbox/System Design Primer.md"
+    },
+    {
+      "basename": "Start an Offline Scan with Windows Defender from PowerShell",
+      "path": "2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md"
+    },
+    {
+      "basename": "Windows Terminal Command Line Arguments",
+      "path": "2-Slipbox/Windows Terminal Command Line Arguments.md"
+    },
+    {
+      "basename": "WSL",
+      "path": "2-Slipbox/WSL.md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "Time Management",
+      "path": "2-Slipbox/Time Management.md"
     },
     {
       "basename": "README",
@@ -49,20 +81,12 @@
       "path": "3-Resources/Daily-Notes/README.md"
     },
     {
-      "basename": "README",
-      "path": "2-Slipbox/README.md"
-    },
-    {
       "basename": "About the AppxProvisioning.xml File in Windows",
       "path": "2-Slipbox/About the AppxProvisioning.xml File in Windows.md"
     },
     {
       "basename": "How To Change Explorer Drive Icons via Registry",
       "path": "2-Slipbox/How To Change Explorer Drive Icons via Registry.md"
-    },
-    {
-      "basename": "Windows Terminal Command Line Arguments - Windows Docs",
-      "path": "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md"
     },
     {
       "basename": "2021-08-02",
@@ -173,32 +197,8 @@
       "path": "2-Slipbox/Enhanced CleanMgr Command.md"
     },
     {
-      "basename": "Reset OneDrive with Command Line",
-      "path": "2-Slipbox/Reset OneDrive with Command Line.md"
-    },
-    {
       "basename": "Computer Backup System",
       "path": "2-Slipbox/Computer Backup System.md"
-    },
-    {
-      "basename": "How to fix Issues with Windows File Type Associations",
-      "path": "2-Slipbox/How to fix Issues with Windows File Type Associations.md"
-    },
-    {
-      "basename": "2021-07-30",
-      "path": "3-Resources/Daily-Notes/2021-07-30.md"
-    },
-    {
-      "basename": "2021-08-03",
-      "path": "3-Resources/Daily-Notes/2021-08-03.md"
-    },
-    {
-      "basename": "Windows Developer Environment",
-      "path": "2-Slipbox/Windows Developer Environment.md"
-    },
-    {
-      "basename": "WinGet CLI Setup and Settings",
-      "path": "2-Slipbox/WinGet CLI Setup and Settings.md"
     }
   ],
   "omittedPaths": [],
