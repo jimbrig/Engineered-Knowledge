@@ -6049,11 +6049,6 @@
       "tags": 3,
       "links": 0
     },
-    "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md": {
-      "size": 2779,
-      "tags": 1,
-      "links": 5
-    },
     "2-Slipbox/Google Cloud Setup Notes.md": {
       "size": 1027,
       "tags": 2,
@@ -7133,11 +7128,16 @@
       "size": 0,
       "tags": 1,
       "links": 2
+    },
+    "2-Slipbox/Code is not Production Code.md": {
+      "size": 2779,
+      "tags": 1,
+      "links": 5
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 734,
+      "Refactor": 735,
       "Create": 512,
       "Link": 639,
       "Expand": 62
@@ -7160,7 +7160,7 @@
       "12": 24,
       "13": 29,
       "14": 170,
-      "15": 23,
+      "15": 24,
       "16": 101,
       "17": 67,
       "18": 34,
@@ -7175,7 +7175,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 453,
+      "Wed": 454,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7291,6 +7291,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Scoop.md\"> Scoop </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Code is not Production Code.md\"> Code is not Production Code </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Subsystem for Linux (WSL).md\"> Windows Subsystem for Linux (WSL) </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Obsidian.md\"> MOC - Obsidian </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
@@ -7340,8 +7341,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/CLI Tools.md\"> CLI Tools </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/APIs.md\"> APIs </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/APIs.md\"> APIs </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",

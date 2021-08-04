@@ -8,13 +8,23 @@ Tags: ["#People"]
 
 # Dann Felker
 
-Blog: [DONN FELKER - Lessons Learned From the Software Industry](https://www.donnfelker.com/)
+## Sites
 
-Notes from Posts:
+- GitHub: [donnfelker (Donn Felker) (github.com)](https://github.com/donnfelker)
+- Blog: [DONN FELKER - Lessons Learned From the Software Industry](https://www.donnfelker.com/) | [Donn Felker - About](https://www.donnfelker.com/about/)
+- LinkedIn: [Donn Felker | LinkedIn](https://www.linkedin.com/in/donnfelker/)
 
-[[Proof of Concept code is not production code! - DONN FELKER]]
+## Posts
 
-[[How to Ship Side Projects]]
+Notes from Posts and original URLs:
+
+
+| Note                                                            | URL |
+| --------------------------------------------------------------- | --- |
+| [[Code is not Production Code]] | https://www.donnfelker.com/prototypeproof-of-concept-code-is-not-production-code/)|
+| [[How to Ship Side Projects]]                                   |     |
+
+
 
 ***
 

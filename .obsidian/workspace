@@ -32,7 +32,7 @@
           "type": "markdown",
           "state": {
             "file": "0-Inbox/Dann Felker.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       },
@@ -200,9 +200,17 @@
               "type": "juggl_style",
               "state": {}
             }
+          },
+          {
+            "id": "da4bae5125173aa0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -212,6 +220,7 @@
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
     "0-Inbox/Dann Felker.md",
+    "2-Slipbox/Code is not Production Code.md",
     "2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md",
     "2-Slipbox/Utils Package Hidden Gems in R.md",
     "0-Inbox/R.md",
@@ -219,7 +228,6 @@
     "2-Slipbox/Backend Web Architecture.md",
     "3-Resources/Daily-Notes/README.md",
     "4-Logs/Vault-Consistensy-Report.md",
-    "1-Maps-of-Content/020 - Development.md",
-    "0-Inbox/Iobit.md"
+    "1-Maps-of-Content/020 - Development.md"
   ]
 }
