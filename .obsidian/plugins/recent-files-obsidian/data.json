@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "What gets Measured gets Managed",
-      "path": "0-Inbox/What gets Measured gets Managed.md"
+      "basename": "MOC - People",
+      "path": "1-Maps-of-Content/MOC - People.md"
     },
     {
       "basename": "Dann Felker",
       "path": "0-Inbox/Dann Felker.md"
+    },
+    {
+      "basename": "Obsidian Advanced Tables Plugin",
+      "path": "0-Inbox/Obsidian Advanced Tables Plugin.md"
+    },
+    {
+      "basename": "What Gets Measured, Gets Managed",
+      "path": "0-Inbox/What Gets Measured, Gets Managed.md"
+    },
+    {
+      "basename": "What Blog Platform Should I Use",
+      "path": "0-Inbox/What Blog Platform Should I Use.md"
     },
     {
       "basename": "Code Comments",
@@ -31,10 +43,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Highlights/README.md"
-    },
-    {
-      "basename": "What Blog Platform Should I Use",
-      "path": "0-Inbox/What Blog Platform Should I Use.md"
     },
     {
       "basename": "You Need a Blog",
@@ -117,10 +125,6 @@
       "path": "0-Inbox/You Need a Status Page.md"
     },
     {
-      "basename": "What Gets Measured, Gets Managed",
-      "path": "0-Inbox/What Gets Measured, Gets Managed.md"
-    },
-    {
       "basename": "S.M.A.R.T. Goals",
       "path": "0-Inbox/S.M.A.R.T. Goals.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "RapidEE",
       "path": "0-Inbox/RapidEE.md"
-    },
-    {
-      "basename": "Microsoft PowerToys",
-      "path": "0-Inbox/Microsoft PowerToys.md"
     }
   ],
   "omittedPaths": [],

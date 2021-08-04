@@ -7122,7 +7122,7 @@
     "0-Inbox/Dann Felker.md": {
       "size": 3086,
       "tags": 1,
-      "links": 16
+      "links": 17
     },
     "2-Slipbox/Code is not Production Code.md": {
       "size": 2779,
@@ -7234,17 +7234,22 @@
       "tags": 1,
       "links": 1
     },
-    "0-Inbox/What gets Measured gets Managed.md": {
+    "0-Inbox/Obsidian Advanced Tables Plugin.md": {
       "size": 0,
       "tags": 0,
       "links": 1
+    },
+    "1-Maps-of-Content/MOC - People.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 7
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 743,
-      "Create": 537,
-      "Link": 676,
+      "Refactor": 745,
+      "Create": 539,
+      "Link": 679,
       "Expand": 77
     }
   },
@@ -7266,7 +7271,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 111,
+      "16": 118,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7280,7 +7285,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 539,
+      "Wed": 546,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7343,6 +7348,8 @@
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/MOC - People.md\"> MOC - People </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/What gets Measured gets Managed.md\"> What gets Measured gets Managed </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
@@ -7391,11 +7398,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/AWS-CLI.md\"> AWS-CLI </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Heroku-CLI.md\"> Heroku-CLI </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Github-CLI.md\"> Github-CLI </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/gcloud SDK.md\"> gcloud SDK </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/iCloud Drive.md\"> iCloud Drive </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Amazon Drive.md\"> Amazon Drive </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/gcloud SDK.md\"> gcloud SDK </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Yarn.md\"> Yarn </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
@@ -7445,8 +7451,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/030 - Professional 1.md\"> 030 - Professional 1 </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/WSL.md\"> WSL </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/WSL.md\"> WSL </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/CLI Tools.md\"> CLI Tools </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/CLI Tools.md\"> CLI Tools </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/CLI Tools.md\"> CLI Tools </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
@@ -7515,6 +7520,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"0-Inbox/What gets Measured gets Managed.md\"> What gets Measured gets Managed </a>",
         "<a class=\"internal-link\" href=\"Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG.md\"> YOU SHOULD NOT BE FOCUSING ON BUILDING SOFTWARE TO RUN A BLOG </a>",
         "<a class=\"internal-link\" href=\"Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
@@ -7564,10 +7570,12 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-27.md\"> 2021-07-27 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-19.md\"> 2021-07-19 </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-24.md\"> 2021-07-24 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-21.md\"> 2021-07-21 </a>",
-        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-22.md\"> 2021-07-22 </a>"
+        "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-21.md\"> 2021-07-21 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Obsidian Advanced Tables Plugin.md\"> Obsidian Advanced Tables Plugin </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/What gets Measured gets Managed.md\"> What gets Measured gets Managed </a>",
@@ -7615,10 +7623,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

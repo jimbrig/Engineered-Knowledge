@@ -8,6 +8,8 @@ Tags: []
 
 # What Gets Measured, Gets Managed
 
+![](https://www.donnfelker.com/wp-content/uploads/2020/12/what-gets-measured-gets-managed-1024x623.jpg)
+
 -   Why is this important?
 
 ## **Keep asking Why.**

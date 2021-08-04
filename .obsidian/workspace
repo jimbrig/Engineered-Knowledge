@@ -31,8 +31,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/What gets Measured gets Managed.md",
-            "mode": "preview"
+            "file": "1-Maps-of-Content/MOC - People.md",
+            "mode": "source"
           }
         }
       },
@@ -144,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 586
+    "width": 251
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/What gets Measured gets Managed.md",
+                "file": "1-Maps-of-Content/MOC - People.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/What gets Measured gets Managed.md",
+                "file": "1-Maps-of-Content/MOC - People.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/What gets Measured gets Managed.md"
+                "file": "1-Maps-of-Content/MOC - People.md"
               }
             }
           },
@@ -249,20 +249,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "0-Inbox/What gets Measured gets Managed.md",
+    "0-Inbox/MOC - People.md",
     "0-Inbox/Dann Felker.md",
+    "0-Inbox/Untitled.md",
+    "0-Inbox/What Gets Measured, Gets Managed.md",
+    "0-Inbox/What Blog Platform Should I Use.md",
+    "0-Inbox/What gets Measured gets Managed.md",
     "0-Inbox/Code Comments.md",
     "3-Resources/Highlights/Untitled.md",
     "0-Inbox/The Single Best Thing to do for your Career.md",
-    "0-Inbox/README.md",
-    "3-Resources/Highlights/README.md",
-    "0-Inbox/What Blog Platform Should I Use.md",
-    "Highlights for What Blog Platform Should I Use.md",
-    "0-Inbox/You Need a Blog.md"
+    "0-Inbox/README.md"
   ]
 }
