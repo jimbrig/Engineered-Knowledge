@@ -6157,7 +6157,7 @@
     "2-Slipbox/RStudio Configuration Notes.md": {
       "size": 179,
       "tags": 2,
-      "links": 0
+      "links": 3
     },
     "2-Slipbox/Shiny Apps as Packages in R.md": {
       "size": 5858,
@@ -7309,7 +7309,7 @@
     "/": {
       "Refactor": 888,
       "Create": 647,
-      "Link": 708,
+      "Link": 709,
       "Expand": 82
     }
   },
@@ -7332,7 +7332,7 @@
       "14": 170,
       "15": 99,
       "16": 400,
-      "17": 70,
+      "17": 71,
       "18": 34,
       "19": 23,
       "20": 24,
@@ -7345,7 +7345,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 831,
+      "Wed": 832,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7633,6 +7633,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/050 - Computer.md\"> 050 - Computer </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/050 - Computer.md\"> 050 - Computer </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/SFC and DISM Commands.md\"> SFC and DISM Commands </a>",
@@ -7682,8 +7683,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
