@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "R Packages Install Script",
+      "path": "2-Slipbox/R Packages Install Script.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "Google Cloud Setup Notes",
+      "path": "2-Slipbox/Google Cloud Setup Notes.md"
+    },
+    {
+      "basename": "020 - Development",
+      "path": "1-Maps-of-Content/020 - Development.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
       "basename": "RStudio Configuration Notes",
       "path": "2-Slipbox/RStudio Configuration Notes.md"
     },
@@ -129,10 +149,6 @@
       "path": "0-Inbox/Placeholders/Medium.md"
     },
     {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
-    },
-    {
       "basename": "Dann Felker",
       "path": "2-Slipbox/Dann Felker.md"
     },
@@ -147,10 +163,6 @@
     {
       "basename": "Building a Second Brain",
       "path": "0-Inbox/Building a Second Brain.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/README.md"
     },
     {
       "basename": "README",
@@ -187,18 +199,6 @@
     {
       "basename": "Unresolved-Links",
       "path": "4-Logs/Unresolved-Links.md"
-    },
-    {
-      "basename": "SSH and SCP",
-      "path": "2-Slipbox/SSH and SCP.md"
-    },
-    {
-      "basename": "Cloud Hosted Environments",
-      "path": "0-Inbox/Cloud Hosted Environments.md"
-    },
-    {
-      "basename": "Virtual Machines",
-      "path": "0-Inbox/Virtual Machines.md"
     }
   ],
   "omittedPaths": [],

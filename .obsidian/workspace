@@ -4,89 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4a4a40bb4d671253",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "4-Logs/Unlinked-Files.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "49fac356f1577925",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "4-Logs/Unlinked-Files.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "c22bb7b0161b4d5d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "4-Logs/Unlinked-Files.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "c077bb0ef4958b5e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2-Slipbox/Taming a Chaotic Project.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "c59828ff5f8babe8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2-Slipbox/Shiny Apps as Packages in R.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "d23f750ac5f9ecd0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "1-Maps-of-Content/050 - Computer.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "f703e17ac5174fcb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "1-Maps-of-Content/050 - Computer.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
         "id": "29f29b5c8c6b46df",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/RStudio Configuration Notes.md",
+            "file": "2-Slipbox/R Packages Install Script.md",
             "mode": "source"
           }
         }
@@ -153,23 +76,49 @@
       }
     ],
     "direction": "horizontal",
-    "width": 642
+    "width": 220
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
     "type": "split",
     "children": [
       {
-        "id": "a5521459b17bb53b",
+        "id": "e4afdcbb29c35441",
         "type": "tabs",
-        "dimension": 80.0796812749004,
         "children": [
           {
-            "id": "1aa3d02a7a4b6690",
+            "id": "7358eb1a66059e5c",
             "type": "leaf",
             "state": {
-              "type": "dangling-links",
-              "state": {}
+              "type": "localgraph",
+              "state": {
+                "file": "2-Slipbox/R Packages Install Script.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.2588386562181627,
+                  "close": false
+                }
+              }
             }
           }
         ]
@@ -177,37 +126,7 @@
       {
         "id": "a78fdcb98e3c4b49",
         "type": "tabs",
-        "dimension": 19.9203187250996,
         "children": [
-          {
-            "id": "013d2629d1c76a67",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "2-Slipbox/RStudio Configuration Notes.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "13982722c0f5a0e7",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2-Slipbox/RStudio Configuration Notes.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "9a094dd3a638c51a",
             "type": "leaf",
@@ -218,76 +137,24 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "f4739965a2ebcc4e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2-Slipbox/RStudio Configuration Notes.md"
-              }
-            }
-          },
-          {
-            "id": "213c78859750c94f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "406d0aabbbe64675",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "f87a3f38a063a832",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "f3c5e34170170750",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
-            "id": "da4bae5125173aa0",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 465
   },
   "active": "29f29b5c8c6b46df",
   "lastOpenFiles": [
+    "2-Slipbox/Untitled.md",
+    "0-Inbox/README.md",
+    "2-Slipbox/Google Cloud Setup Notes.md",
+    "1-Maps-of-Content/020 - Development.md",
+    "3-Resources/README.md",
     "2-Slipbox/RStudio Configuration Notes.md",
     "0-Inbox/RStudio Tips and Tricks.md",
     "0-Inbox/Untitled.md",
     "0-Inbox/Package Managers.md",
-    "4-Logs/Unlinked-Files.md",
-    "1-Maps-of-Content/050 - Computer.md",
-    "2-Slipbox/Run Command to Edit Environment Variables.md",
-    "2-Slipbox/SFC and DISM Commands.md",
-    "1-Maps-of-Content/README.md",
-    "2-Slipbox/Shiny Apps as Packages in R.md"
+    "4-Logs/Unlinked-Files.md"
   ]
 }

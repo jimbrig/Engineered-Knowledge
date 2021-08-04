@@ -1,3 +1,5 @@
+- 2021-08-04 at 19h57 · [[R Packages Install Script]]
+- 2021-08-04 at 19h55 · [[Google Cloud Setup Notes]]
 - 2021-08-04 at 18h12 · [[RStudio Configuration Notes]]
 - 2021-08-04 at 17h34 · [[RStudio Tips and Tricks]]
 - 2021-08-04 at 17h28 · [[Memory in R]]
@@ -96,5 +98,3 @@
 - 2021-08-04 at 16h13 · [[Scala]]
 - 2021-08-04 at 16h13 · [[SASS]]
 - 2021-08-04 at 16h13 · [[Rust]]
-- 2021-08-04 at 16h13 · [[Ruby]]
-- 2021-08-04 at 16h13 · [[RStudio]]

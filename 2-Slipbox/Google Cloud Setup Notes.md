@@ -1,9 +1,12 @@
 ---
-creation date: 2021-04-28 10:15
-modification date: Wednesday 28th April 2021 10:15:09
-tags: ["#gcp", "dev"]
-author: Jimmy Briggs
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Wednesday 4th August 2021 19:54:37
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Google Cloud Setup Notes
+Tags: ["#Development", "#Cloud"]
 ---
+
+
 
 # Google Cloud Setup Notes
 
@@ -20,6 +23,8 @@ author: Jimmy Briggs
    - Using a dedicated `service account`
 
 ***
-Links: 
-Source:
+
+Links: [[Google Cloud Platform - GCP]] | [[Cloud Hosted Environments]]
+
+Sources:
 
