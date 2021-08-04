@@ -10,6 +10,8 @@ Tags: ["#Development", "#R"]
 
 *See Also: [My R Setup Guide](https://rtraining.jimbrig.com/articles/setting-up-r.html)*
 
+*Skip to the [setup script]()*
+
 ### Notes on RStudio
 
 -   RStudio is an integrated development environment, or IDE, for R programming.
@@ -73,7 +75,7 @@ As an R developer, we come across many  other various technologies during develo
 
 #### Optional Add On Software
 
-- GPG (optional)
+- GPG / GnuPG (optional)
 - NodeJS (optional) - useful for various `npm` packages
 - Hugo (recommended for `blogdown` use)
 - Inno (optional) - can turn Shiny apps into distributable executables
@@ -87,9 +89,11 @@ As an R developer, we come across many  other various technologies during develo
 - `cmake` / `make`
 - GraphicsMagick / ImageMagick
 - Conda
-- TexMaker
-- Latex2RTF
-- FFT
+- TexMaker - [Texmaker (free cross-platform latex editor) (xm1math.net)](https://www.xm1math.net/texmaker/)
+- Latex2RTF - [rtf2latex2e: (sourceforge.net)](http://latex2rtf.sourceforge.net/)
+- FFMPEG - [FFmpeg](https://ffmpeg.org/)
+- Lyx - [LyX | LyX – The Document Processor](https://www.lyx.org/)
+- Docker / Kubernetes
 
 ## Configure RStudio Settings
 
@@ -164,7 +168,158 @@ Here is what my minimal setup includes:
 Additionally, you can configure keybinding for RStudio addins from RStudio and store them within the .R folder located in your R_USER path. To view this path run `Sys.getenv("R_USER")`.
 
 
+## Setup Script
 
+- PowerShell Script: `r-setup.ps1` - see <https://github.com/jimbrig/>:
+
+```powershell
+
+# R Setup Script
+
+# ensure R, RStudio, and RTools installed
+function Test-Installed( $programName ) {
+  $x86_check = ((Get-ChildItem "HKLM:Software\Microsoft\Windows\CurrentVersion\Uninstall") |
+    Where-Object { $_."Name" -like "*$programName*" } ).Length -gt 0;
+
+  if (Test-Path 'HKLM:Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall') {
+    $x64_check = ((Get-ChildItem "HKLM:Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall") |
+      Where-Object { $_."Name" -like "*$programName*" } ).Length -gt 0;
+  }
+  return $x86_check -or $x64_check;
+}
+
+if (!(Test-Installed("R"))) {
+  cinst R.Project
+}
+
+if (!(Test-Installed("RStudio"))) {
+  cinst R.Studio
+}
+
+if (!(Test-Installed("RTools"))) {
+  cinst rtools
+}
+
+# configure R PATHS
+Write-Host "Review System Environment Variables for R Session" -ForegroundColor Magenta
+RScript -e "Sys.getenv()"
+
+# Environment Variables
+# Note on initial setup of R need to manually set location of .Renviron
+$userhome = [System.Environment]::GetEnvironmentVariable("USERPROFILE")
+$rconfigdir = "$userhome\.config\R"
+$renvironpath = "$rconfigdir\.Renviron"
+$rprofilepath = "$rconfigdir\.Rprofile"
+$rhistpath = "$rconfigdir\.Rhistory"
+$rlibspath = "$rconfigdir\win-library\4.1"
+
+[System.Environment]::SetEnvironmentVariable("R_HOME", $userhome, "User")
+[System.Environment]::SetEnvironmentVariable("R_ENVIRON_USER", $renvironpath, "User")
+[System.Environment]::SetEnvironmentVariable("R_PROFILE_USER", $rprofilepath, "User")
+[System.Environment]::SetEnvironmentVariable("R_LIBS_USER", $rlibspath, "User")
+
+Copy-Item "$env:USERPROFILE\OneDrive\Documents\R\win-library\4.1\*" -Destination "$rlibspath" -Recurse
+
+if (!(Test-Path($rconfigdir))) {
+  mkdir $rconfigdir
+}
+
+if (!(Test-Path($rlibspath))) {
+  mkdir $rlibspath
+}
+
+Copy-Item "~/Dev/Github/jimsdots/R/.Renviron" $renvironpath
+Copy-Item "~/Dev/Github/jimsdots/R/.Rprofile" $rprofilepath
+
+Copy-Item "~/Dev/Github/jimsdots/R/lib/installation.R" "$rconfigdir\win-library\installation.R"
+Copy-Item "~/Dev/Github/jimsdots/R/lib/pkgs.yml" "$rconfigdir\win-library\pkgs.yml"
+
+Copy-Item "$env:APPDATA\RStudio\rstudio-prefs.json" "$env:APPDATA\RStudio\rstudio-prefs-default.json"
+Copy-Item "~/Dev/Github/jimsdots/RStudio/rstudio-prefs.json" "$env:APPDATA\RStudio\rstudio-prefs.json"
+
+mkdir "$env:APPDATA\RStudio\themes"
+Copy-Item "~/Dev/Github/jimsdots/RStudio/themes/*" -Destination "$env:APPDATA\RStudio\themes"
+
+mkdir "$env:APPDATA\RStudio\keybindings"
+Copy-Item "~/Dev/Github/jimsdots/RStudio/keybindings/*" -Destination "$env:APPDATA\RStudio\keybindings"
+
+mkdir "$env:APPDATA\RStudio\snippets"
+Copy-Item "~/Dev/Github/jimsdots/RStudio/snippets/*" -Destination "$env:APPDATA\RStudio\snippets"
+
+Copy-Item "$env:LOCALAPPDATA\RStudio\rstudio-desktop.json" "$env:LOCALAPPDATA\RStudio\rstudio-desktop-default.json"
+Copy-Item "$env:LOCALAPPDATA\RStudio\rstudio-desktop-default.json" "~/Dev/Github/jimsdots/RStudio/localappdata/rstudio-desktop-default.json"
+Copy-Item "~/Dev/Github/jimsdots/RStudio/localappdata/rstudio-desktop.json" "$env:LOCALAPPDATA\RStudio\rstudio-desktop.json"
+```
+
+```R
+if (!require(pacman)) install.packages("pacman")
+
+pacman::p_load(devtools,
+               installr,
+               tinytex,
+               rstudioapi,
+               magrittr,
+               dplyr,
+               pkgbuild)
+
+# configure RStudio settings ----------------------------------------------
+
+# disable reloading of workspace between sessions
+usethis::use_blank_slate(scope = "user")
+
+# review system environment variables:
+Sys.getenv()
+
+# configure your R library path for R packages
+.libPaths()
+
+# copy packages to new R-version's windows library
+libdir_prior <- file.path("<enter prior win-library path here>")
+libdir_current <- file.path("<enter current win-library path here>")
+installr::copy.packages.between.libraries(
+  from = libdir_prior, to = libdir_current
+)
+
+# check
+.libPaths()[1] == libdir
+
+# configure dotfiles .Rprofile & .Renvrion --------------------------------
+
+# review dotfiles
+usethis::edit_r_environ(scope = "user") # (RTools Path, github PAT, keys, etc.)
+usethis::edit_r_profile(scope = "user") # (various options for packages)
+
+# additional software ---------------------------------------------
+pkgbuild::setup_rtools()
+
+# Rtools
+installr::install.rtools()
+rstudioapi::restartSession()
+
+# git
+installr::install.git()
+rstudioapi::restartSession()
+
+# tinytex
+tinytex::install_tinytex()
+rstudioapi::restartSession()
+tinytex::use_tinytex()
+
+# java
+installr::install.java()
+
+# pandoc
+installr::install.pandoc()
+
+# node.js (only if desired)
+installr::install.nodejs()
+
+# github Git Client (only if desired)
+installr::install.github()
+
+# inno (only if desired)
+installr::install.inno()
+```
 
 
 ### RStudio Dotfiles

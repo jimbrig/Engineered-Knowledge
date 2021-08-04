@@ -6155,7 +6155,7 @@
       "links": 0
     },
     "2-Slipbox/RStudio Configuration Notes.md": {
-      "size": 7782,
+      "size": 13153,
       "tags": 2,
       "links": 10
     },
@@ -7325,7 +7325,7 @@
       "Refactor": 888,
       "Create": 650,
       "Link": 717,
-      "Expand": 86
+      "Expand": 87
     }
   },
   "dailyCommits": {
@@ -7347,7 +7347,7 @@
       "14": 170,
       "15": 99,
       "16": 400,
-      "17": 86,
+      "17": 87,
       "18": 34,
       "19": 23,
       "20": 24,
@@ -7360,7 +7360,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 847,
+      "Wed": 848,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7370,6 +7370,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
@@ -7419,8 +7420,7 @@
         "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
         "<a class=\"internal-link\" href=\"Boxstarter.md\"> Boxstarter </a>",
         "<a class=\"internal-link\" href=\"About this Vault.md\"> About this Vault </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>"
+        "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"0-Inbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
