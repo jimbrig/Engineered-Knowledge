@@ -174,10 +174,12 @@ Additionally, you can configure keybinding for RStudio addins from RStudio and s
 
 ```powershell
 
-# R Setup Script
+# ************************************
+# *          R Configuration         *
+# ************************************
 
-# ensure R, RStudio, and RTools installed
-function Test-Installed( $programName ) {
+# Define some helper functions:
+Function Test-Installed( $programName ) {
   $x86_check = ((Get-ChildItem "HKLM:Software\Microsoft\Windows\CurrentVersion\Uninstall") |
     Where-Object { $_."Name" -like "*$programName*" } ).Length -gt 0;
 
@@ -187,6 +189,9 @@ function Test-Installed( $programName ) {
   }
   return $x86_check -or $x64_check;
 }
+
+
+# Ensure R, RStudio, and RTools installed
 
 if (!(Test-Installed("R"))) {
   cinst R.Project
@@ -228,27 +233,27 @@ if (!(Test-Path($rlibspath))) {
   mkdir $rlibspath
 }
 
-Copy-Item "~/Dev/Github/jimsdots/R/.Renviron" $renvironpath
-Copy-Item "~/Dev/Github/jimsdots/R/.Rprofile" $rprofilepath
+Copy-Item "~/Dev/jimbrig/jimsdots/R/.Renviron" $renvironpath
+Copy-Item "~/Dev/jimbrig/jimsdots/R/.Rprofile" $rprofilepath
 
-Copy-Item "~/Dev/Github/jimsdots/R/lib/installation.R" "$rconfigdir\win-library\installation.R"
-Copy-Item "~/Dev/Github/jimsdots/R/lib/pkgs.yml" "$rconfigdir\win-library\pkgs.yml"
+Copy-Item "~/Dev/jimbrig/jimsdots/R/lib/installation.R" "$rconfigdir\win-library\installation.R"
+Copy-Item "~/Dev/jimbrig/jimsdots/R/lib/pkgs.yml" "$rconfigdir\win-library\pkgs.yml"
 
 Copy-Item "$env:APPDATA\RStudio\rstudio-prefs.json" "$env:APPDATA\RStudio\rstudio-prefs-default.json"
-Copy-Item "~/Dev/Github/jimsdots/RStudio/rstudio-prefs.json" "$env:APPDATA\RStudio\rstudio-prefs.json"
+Copy-Item "~/Dev/jimbrig/jimsdots/RStudio/rstudio-prefs.json" "$env:APPDATA\RStudio\rstudio-prefs.json"
 
 mkdir "$env:APPDATA\RStudio\themes"
-Copy-Item "~/Dev/Github/jimsdots/RStudio/themes/*" -Destination "$env:APPDATA\RStudio\themes"
+Copy-Item "~/Dev/jimbrig/jimsdots/RStudio/themes/*" -Destination "$env:APPDATA\RStudio\themes"
 
 mkdir "$env:APPDATA\RStudio\keybindings"
-Copy-Item "~/Dev/Github/jimsdots/RStudio/keybindings/*" -Destination "$env:APPDATA\RStudio\keybindings"
+Copy-Item "~/Dev/jimbrig/jimsdots/RStudio/keybindings/*" -Destination "$env:APPDATA\RStudio\keybindings"
 
 mkdir "$env:APPDATA\RStudio\snippets"
-Copy-Item "~/Dev/Github/jimsdots/RStudio/snippets/*" -Destination "$env:APPDATA\RStudio\snippets"
+Copy-Item "~/Dev/jimbrig/jimsdots/RStudio/snippets/*" -Destination "$env:APPDATA\RStudio\snippets"
 
 Copy-Item "$env:LOCALAPPDATA\RStudio\rstudio-desktop.json" "$env:LOCALAPPDATA\RStudio\rstudio-desktop-default.json"
 Copy-Item "$env:LOCALAPPDATA\RStudio\rstudio-desktop-default.json" "~/Dev/Github/jimsdots/RStudio/localappdata/rstudio-desktop-default.json"
-Copy-Item "~/Dev/Github/jimsdots/RStudio/localappdata/rstudio-desktop.json" "$env:LOCALAPPDATA\RStudio\rstudio-desktop.json"
+Copy-Item "~/Dev/jimbrig/jimsdots/RStudio/localappdata/rstudio-desktop.json" "$env:LOCALAPPDATA\RStudio\rstudio-desktop.json"
 ```
 
 ```R
