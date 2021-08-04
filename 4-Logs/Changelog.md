@@ -1,4 +1,5 @@
-- 2021-08-04 at 17h22 · [[RStudio Configuration Notes]]
+- 2021-08-04 at 17h27 · [[Memory in R]]
+- 2021-08-04 at 17h26 · [[RStudio Configuration Notes]]
 - 2021-08-04 at 17h13 · [[Package Managers]]
 - 2021-08-04 at 16h58 · [[Unlinked-Files]]
 - 2021-08-04 at 16h58 · [[050 - Computer]]
@@ -97,4 +98,3 @@
 - 2021-08-04 at 16h13 · [[Ruby]]
 - 2021-08-04 at 16h13 · [[RStudio]]
 - 2021-08-04 at 16h13 · [[R-Markdown]]
-- 2021-08-04 at 16h13 · [[ReadTheDocs]]

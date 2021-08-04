@@ -6155,7 +6155,7 @@
       "links": 0
     },
     "2-Slipbox/RStudio Configuration Notes.md": {
-      "size": 3661,
+      "size": 5190,
       "tags": 2,
       "links": 7
     },
@@ -7308,14 +7308,19 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/Memory in R.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 888,
-      "Create": 648,
-      "Link": 711,
-      "Expand": 83
+      "Create": 649,
+      "Link": 712,
+      "Expand": 84
     }
   },
   "dailyCommits": {
@@ -7337,7 +7342,7 @@
       "14": 170,
       "15": 99,
       "16": 400,
-      "17": 75,
+      "17": 78,
       "18": 34,
       "19": 23,
       "20": 24,
@@ -7350,7 +7355,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 836,
+      "Wed": 839,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7360,6 +7365,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault Statistics.md\"> Vault Statistics </a>",
@@ -7409,10 +7415,10 @@
         "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
         "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>",
-        "<a class=\"internal-link\" href=\"Notes/Obsidian and PKM Resources.md\"> Obsidian and PKM Resources </a>"
+        "<a class=\"internal-link\" href=\"Notes/Classification of Note Types.md\"> Classification of Note Types </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Package Managers.md\"> Package Managers </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Google Chrome.md\"> Google Chrome </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mozilla Firefox.md\"> Mozilla Firefox </a>",
@@ -7462,8 +7468,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/React.md\"> React </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/React Native.md\"> React Native </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/RapidEE.md\"> RapidEE </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/psql.md\"> psql </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/RapidEE.md\"> RapidEE </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
@@ -7638,6 +7643,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Memory in R.md\"> Memory in R </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
@@ -7687,8 +7693,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/What Gets Measured, Gets Managed.md\"> What Gets Measured, Gets Managed </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

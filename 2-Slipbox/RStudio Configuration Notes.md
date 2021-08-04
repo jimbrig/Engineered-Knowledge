@@ -83,14 +83,49 @@ _See `?usethis::use_blank_slate` for more information._
 	- Other options in this area relate more to aesthetics. Settings such as font type and background color are also important because feeling comfortable in your programming environment can boost productivity. Go to `Tools > Global Options` to modify these.
 
 
-## Advanced Configuration Workflows
+## Advanced Configuration
+
+This section discusses more advanced R related configurations such as:
+- Environment Paths
+- Detailed System Information
+- Dotfiles
+- Common pitfalls
+
+For more advanced R developers you may want to further configure your development environement by customizing you R related dotfiles; specifically, your `.Rprofile` and `.Renviron`.
+
+### Environment and %PATH% Variables
+
+
+
+Additionally, you can configure keybinding for RStudio addins from RStudio and store them within the .R folder located in your R_USER path. To view this path run `Sys.getenv("R_USER")`.
+
+### My Setup
+
+Here is what my minimal setup includes:
+
+
+
+
+
+To add your system RTOOLS PATH to your .Renviron (easier than manually configuring within windows system settings) run the code:
+
+cat('PATH = ${RTOOLS40_HOME}\\usr\\bin;${PATH}',
+    file = fs::path(Sys.getenv("R_USER"), "/.Renviron"),
+    append = TRUE)
+
+### RStudio Dotfiles
 
 - Note that RStudio's Preference files on windows are stored:
 	- `%localappdata%\RStudio-Desktop` - RStudio Desktop Internal State
 	- `%appdata%\RStudio` - RStudio Configuration Directory (Preferences)
 
 Configuration files to backup:
-- 
+- `user-prefs.json`
+- Add-Ins and Hotkeys
+- Snippets
+- Themes
+- Dictionaries
+- Project Lists
 
 
 ## Windows Directories
