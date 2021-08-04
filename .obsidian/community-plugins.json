@@ -63,5 +63,9 @@
   "obsidian-icons-plugin",
   "obsidian-journey-plugin",
   "obsidian-hotkeys-for-templates",
-  "folder-note-plugin"
+  "folder-note-plugin",
+  "obsidian-pandoc",
+  "obsidian-markdown-formatting-assistant-plugin",
+  "obsidian-plugin-prettier",
+  "markdown-prettifier"
 ]

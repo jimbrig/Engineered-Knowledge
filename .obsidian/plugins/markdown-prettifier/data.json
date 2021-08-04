@@ -1,0 +1,9 @@
+{
+  "bullet": "-",
+  "emphasis": "*",
+  "rule": "*",
+  "createHeaderIfNotPresent": false,
+  "updateHeader": false,
+  "newHeaderTemplate": "\ndate updated: '{{date:YYYY-MM-DDTHH:mm:ssZ}}' \n",
+  "listItemIndent": "tab"
+}
