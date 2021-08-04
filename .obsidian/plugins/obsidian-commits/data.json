@@ -6007,7 +6007,7 @@
     "4-Logs/Unlinked-Files.md": {
       "size": 2234,
       "tags": 0,
-      "links": 42
+      "links": 40
     },
     "4-Logs/Unresolved-Links.md": {
       "size": 14517,
@@ -6171,8 +6171,8 @@
     },
     "2-Slipbox/Useful Packages in R List.md": {
       "size": 6180,
-      "tags": 0,
-      "links": 0
+      "tags": 3,
+      "links": 2
     },
     "2-Slipbox/Utils Package Hidden Gems in R.md": {
       "size": 4834,
@@ -6206,8 +6206,8 @@
     },
     "2-Slipbox/Taming a Chaotic Project.md": {
       "size": 8823,
-      "tags": 3,
-      "links": 0
+      "tags": 2,
+      "links": 13
     },
     "2-Slipbox/Database Documentation.md": {
       "size": 1028,
@@ -6257,7 +6257,7 @@
     "2-Slipbox/Web Browsers.md": {
       "size": 383,
       "tags": 2,
-      "links": 8
+      "links": 9
     },
     "2-Slipbox/Views vs. Materialized Views.md": {
       "size": 1962,
@@ -7288,13 +7288,28 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/Microsoft Edge.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Mozilla Firefox.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Google Chrome.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 884,
-      "Create": 644,
-      "Link": 698,
+      "Refactor": 886,
+      "Create": 647,
+      "Link": 702,
       "Expand": 82
     }
   },
@@ -7316,7 +7331,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 386,
+      "16": 395,
       "17": 67,
       "18": 34,
       "19": 23,
@@ -7330,7 +7345,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 814,
+      "Wed": 823,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7393,6 +7408,9 @@
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Google Chrome.md\"> Google Chrome </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Mozilla Firefox.md\"> Mozilla Firefox </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Microsoft Edge.md\"> Microsoft Edge </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Static Site Generators.md\"> Static Site Generators </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Building a Second Brain.md\"> Building a Second Brain </a>",
@@ -7440,10 +7458,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/React Native.md\"> React Native </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/RapidEE.md\"> RapidEE </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/psql.md\"> psql </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/PowerShell Modules.md\"> PowerShell Modules </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/pip.md\"> pip </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/PHP.md\"> PHP </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/pgcli.md\"> pgcli </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/PowerShell Modules.md\"> PowerShell Modules </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
@@ -7499,6 +7514,7 @@
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Useful Packages in R List.md\"> Useful Packages in R List </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
@@ -7548,8 +7564,7 @@
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-30.md\"> 2021-07-30 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Resources.md\"> Plumber Resources </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Databases with R Resources.md\"> Databases with R Resources </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Data Validation Packages in R.md\"> Data Validation Packages in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Logging.md\"> Plumber Logging </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Data Validation Packages in R.md\"> Data Validation Packages in R </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7618,6 +7633,9 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Useful Packages in R List.md\"> Useful Packages in R List </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>",
@@ -7665,10 +7683,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Why You Should Never Quit too Early.md\"> Why You Should Never Quit too Early </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Why you need to step out of your comfort zone.md\"> Why you need to step out of your comfort zone </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to Ship Side Projects.md\"> How to Ship Side Projects </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -7691,9 +7706,11 @@
         "<a class=\"internal-link\" href=\"Notes/How To Change Explorer Drive Icons via Registry.md\"> How To Change Explorer Drive Icons via Registry </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
@@ -7743,8 +7760,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>"
       ]
     }
   },

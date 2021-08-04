@@ -14,23 +14,15 @@ Tags: ["#MOC", "#Index"]
 
 ![](assets/Pasted%20image%2020210501123722.png)
 
-Currently my primary web browsers are:
+
+
+***
+
+Links: 
 
 - [[Microsoft Edge]] | [[Microsoft Edge Canary]]
 - [[Mozilla Firefox]] | [[Mozilla Firefox Developer Edition]] 
 - [[Google Chrome]] | [[Google Chrome Developer Edition]]
-
-
-
-***
-Links: 
-Source:
-
-
-
-***
-
-Links: 
 
 Sources:
 

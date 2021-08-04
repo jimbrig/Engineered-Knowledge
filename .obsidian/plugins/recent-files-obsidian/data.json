@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Web Browsers",
-      "path": "2-Slipbox/Web Browsers.md"
+      "basename": "Shiny Apps as Packages in R",
+      "path": "2-Slipbox/Shiny Apps as Packages in R.md"
     },
     {
       "basename": "Unlinked-Files",
       "path": "4-Logs/Unlinked-Files.md"
+    },
+    {
+      "basename": "Taming a Chaotic Project",
+      "path": "2-Slipbox/Taming a Chaotic Project.md"
+    },
+    {
+      "basename": "Useful Packages in R List",
+      "path": "2-Slipbox/Useful Packages in R List.md"
+    },
+    {
+      "basename": "Web Browsers",
+      "path": "2-Slipbox/Web Browsers.md"
+    },
+    {
+      "basename": "Google Chrome",
+      "path": "0-Inbox/Google Chrome.md"
+    },
+    {
+      "basename": "Mozilla Firefox",
+      "path": "0-Inbox/Mozilla Firefox.md"
+    },
+    {
+      "basename": "Microsoft Edge",
+      "path": "0-Inbox/Microsoft Edge.md"
     },
     {
       "basename": "Web terms 101 – Google Domains",
@@ -175,30 +199,6 @@
     {
       "basename": "Windows Registry Paths and Keys",
       "path": "2-Slipbox/Windows Registry Paths and Keys.md"
-    },
-    {
-      "basename": "Windows Registry",
-      "path": "2-Slipbox/Windows Registry.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "010 - Productivity",
-      "path": "1-Maps-of-Content/010 - Productivity.md"
-    },
-    {
-      "basename": "2021-07-19-Mindsweep",
-      "path": "3-Resources/Mindsweeps/2021-07-19-Mindsweep.md"
-    },
-    {
-      "basename": "You Need a Status Page",
-      "path": "2-Slipbox/You Need a Status Page.md"
-    },
-    {
-      "basename": "You Need a Blog",
-      "path": "2-Slipbox/You Need a Blog.md"
     }
   ],
   "omittedPaths": [],

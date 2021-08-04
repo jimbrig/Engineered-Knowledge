@@ -1,7 +1,4 @@
-- [[Web Browsers]]
-- [[Useful Packages in R List]]
 - [[Tools - Resilio Sync]]
-- [[Taming a Chaotic Project]]
 - [[Shiny Apps as Packages in R]]
 - [[SFC and DISM Commands]]
 - [[Run Command to Edit Environment Variables]]

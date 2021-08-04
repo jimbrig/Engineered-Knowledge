@@ -1,10 +1,18 @@
-# Useful R Packages to Look Into
+---
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Friday 30th July 2021 01:42:53
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Useful-Packages-in-R-List
+Tags: ["#Development", "#R", "#List"]
+---
+
+# Useful Packages in R List
 
 ## Awesome Lists
 
 - [qinwf/awesome-R: A curated list of awesome R packages, frameworks and software](https://github.com/qinwf/awesome-R)
 - [grabear/awesome-rshiny: An awesome R-shiny list!](https://github.com/grabear/awesome-rshiny)
-- 
+
 
 ## R Universe
 
@@ -37,17 +45,24 @@
 
 ## R Shiny Related
 
-- [ThinkR-open/golem: A Framework for Building Robust Shiny Apps](https://github.com/ThinkR-open/golem)
+  - [ThinkR-open/golem: A Framework for Building Robust Shiny Apps](https://github.com/ThinkR-open/golem)
   - [colinfay/golemexamples](https://github.com/ColinFay/golemexamples)
   - [tyronehunt/GolemShinyTemplate](https://github.com/tyronehunt/GolemShinyTemplate)
-  - 
+  - [ColinFay/glouton: 'JS-cookies' in Shiny](https://github.com/ColinFay/glouton)
+  - [ColinFay/cordes: Boilerplate for Wrapping Node Modules in R packages](https://github.com/ColinFay/cordes)
+  - [r4fun/keys: Keyboard Shortcuts for shiny](https://github.com/r4fun/keys)
+  - [ColinFay/crrry: 'crrri' recipes for shiny](https://github.com/ColinFay/crrry)
+  - [ColinFay/dockerfiler: Easy Dockerfile Creation from R](https://github.com/ColinFay/dockerfiler)
+  - [yonicd/whereami: Reliably return location where command is called from in R](https://github.com/yonicd/whereami)
+  - [ColinFay/minifyr: Wrapper around node-minify NodeJS module](https://github.com/ColinFay/minifyr)
+  - [grabear/shiny-pathfinder-loot: An R shiny app used to keep up with loot tables on Google Sheets during Pathfinder/RPG sessions](https://github.com/grabear/shiny-pathfinder-loot)
 
-- [ColinFay/glouton: 'JS-cookies' in Shiny](https://github.com/ColinFay/glouton)
-- [ColinFay/cordes: Boilerplate for Wrapping Node Modules in R packages](https://github.com/ColinFay/cordes)
-- [r4fun/keys: Keyboard Shortcuts for shiny](https://github.com/r4fun/keys)
-- [ColinFay/crrry: 'crrri' recipes for shiny](https://github.com/ColinFay/crrry)
-- [ColinFay/dockerfiler: Easy Dockerfile Creation from R](https://github.com/ColinFay/dockerfiler)
-- [yonicd/whereami: Reliably return location where command is called from in R](https://github.com/yonicd/whereami)
-- [ColinFay/minifyr: Wrapper around node-minify NodeJS module](https://github.com/ColinFay/minifyr)
-- [grabear/shiny-pathfinder-loot: An R shiny app used to keep up with loot tables on Google Sheets during Pathfinder/RPG sessions](https://github.com/grabear/shiny-pathfinder-loot)
-- 
+
+
+
+***
+
+Links: [[020 - Development]] | [[MOC - R]]
+
+Sources:
+

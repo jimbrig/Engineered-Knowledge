@@ -1,11 +1,26 @@
 ---
-creation date: 2021-04-24 10:03
-modification date: Saturday 24th April 2021 10:03:32
-tags: ["#productivity", "#pkm", "#work"]
-author: Jimmy Briggs
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Wednesday 4th August 2021 16:51:26
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Taming a Chaotic Project
+Tags: ["#Productivity", "#PKM"]
 ---
 
 # Taming a Chaotic Project
+
+## Contents
+
+- [[#1. Recognize Warning Signs and Act Fast|1. Recognize Warning Signs and Act Fast]]
+- [[#2. Find Out What’s Gone Wrong|2. Find Out What’s Gone Wrong]]
+- [[#3. Revisit the Original Plan|3. Revisit the Original Plan]]
+- [[#4. Review Your Resources|4. Review Your Resources]]
+- [[#5. Look for new Solutions|5. Look for new Solutions]]
+- [[#6. Talk to your Client|6. Talk to your Client]]
+- [[#7. Review Work Processes|7. Review Work Processes]]
+- [[#8. Check your Dependencies|8. Check your Dependencies]]
+- [[#9. Time for Overtime?|9. Time for Overtime?]]
+- [[#10. Keep Managing|10. Keep Managing]]
+
 
 It happens to projects big and small: one day, you wake up to a mess in your workspace. Sometimes it’s because of a colleague who can’t load-balance, or a budget decision that left you with fewer resources. And in a certain sense, it doesn’t matter why the project got off track – but it definitely matters how you untangle it.
 
@@ -72,5 +87,5 @@ The result is that they end up applying themselves less during the non-overtime 
 It’s much easier to manage a team when everything’s going well. But a lot of best practices can go out the window when it’s an all-hands-to-the-pumps situation to keep things afloat. As a project manager, keep talking to the team and make sure everyone is clear on what’s expected of them. Roles and responsibilities can become woolly when a new plan is quickly put in place. Morale can also suffer when things go awry as team members feel they haven’t delivered—or, even if they have, people get discouraged when they’re part of a potentially unsuccessful venture. So, don’t forget to acknowledge what is going well. Check your own behavior. Leading by example, is the most crucial when times are tough.
 
 ***
-Links: 
+Links: [[010 - Productivity]] | [[MOC - PKM]] | [[MOC - Project Management]]
 Source: [Ten Tips For Taming That Chaotic Project | LiquidPlanner](https://www.liquidplanner.com/blog/10-tips-for-getting-your-chaotic-project-back-on-track/)
