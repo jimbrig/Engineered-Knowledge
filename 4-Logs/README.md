@@ -12,10 +12,10 @@ Tags: ["#Index"]
 Files:
 
 - [Change Log](./Changelog.md)
-- [Sync Log](Synclog.md)
+- [Sync Log](./Synclog.md)
 - [Unlinked Files](./Unlinked-Files)
 - [Unresolved Links](./Unresolved-Links)
-
+- [Vault-Consistency-Report](./Vault-Consistency-R)
 
 
 

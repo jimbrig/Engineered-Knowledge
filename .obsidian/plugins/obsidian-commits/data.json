@@ -5459,11 +5459,6 @@
       "tags": 1,
       "links": 1
     },
-    "Vault-Consistentsy-Report.md": {
-      "size": 37005,
-      "tags": 0,
-      "links": 141
-    },
     "Windows/OneDrive.md": {
       "size": 0,
       "tags": 1,
@@ -6015,9 +6010,9 @@
       "links": 0
     },
     "4-Logs/Unresolved-Links.md": {
-      "size": 9999,
+      "size": 14517,
       "tags": 0,
-      "links": 230
+      "links": 255
     },
     "2-Slipbox/Daily Notes as Your Scratch Space.md": {
       "size": 324,
@@ -6540,17 +6535,22 @@
       "links": 1
     },
     "2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md": {
-      "size": 5709,
+      "size": 10636,
       "tags": 1,
-      "links": 4
+      "links": 16
+    },
+    "4-Logs/Vault-Consistensy-Report.md": {
+      "size": 58737,
+      "tags": 0,
+      "links": 90
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 693,
-      "Create": 389,
-      "Link": 615,
-      "Expand": 59
+      "Refactor": 696,
+      "Create": 390,
+      "Link": 618,
+      "Expand": 61
     }
   },
   "dailyCommits": {
@@ -6568,7 +6568,7 @@
       "10": 0,
       "11": 42,
       "12": 24,
-      "13": 15,
+      "13": 24,
       "14": 2,
       "15": 14,
       "16": 101,
@@ -6585,7 +6585,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 262,
+      "Wed": 271,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6595,6 +6595,8 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
@@ -6643,11 +6645,10 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
-        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
-        "<a class=\"internal-link\" href=\"Notes/External/Keyboard shortcuts for Gmail - Computer.md\"> Keyboard shortcuts for Gmail - Computer </a>",
-        "<a class=\"internal-link\" href=\"Notes/WIP/Focused Note Taking via the Cornell Notes Method.md\"> Focused Note Taking via the Cornell Notes Method </a>"
+        "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"4-LogsVault-Consistentsy-Report.md\"> 4-LogsVault-Consistentsy-Report </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
@@ -6697,10 +6698,12 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL.md\"> PostgreSQL </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Web Development/Javascript.md\"> Javascript </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/EDA Packages in R.md\"> EDA Packages in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md\"> Obsidian Links </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/How to Ship Side Projects 🚀 - DONN FELKER.md\"> How to Ship Side Projects 🚀 - DONN FELKER </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md\"> Obsidian Links </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
+        "<a class=\"internal-link\" href=\"Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
+        "<a class=\"internal-link\" href=\"Vault-Consistentsy-Report.md\"> Vault-Consistentsy-Report </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/XML.md\"> XML </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
@@ -6748,10 +6751,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - PKM.md\"> MOC - PKM </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Obsidian Resources.md\"> MOC - Obsidian Resources </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Markdown.md\"> MOC - Markdown </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Links.md\"> MOC - Links </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - CLI Tools.md\"> MOC - CLI Tools </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/050 - Computer.md\"> 050 - Computer </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/040 - Personal.md\"> 040 - Personal </a>"
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Links.md\"> MOC - Links </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
@@ -6868,6 +6868,9 @@
         "<a class=\"internal-link\" href=\"Notes/Obsidian Setup.md\"> Obsidian Setup </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
@@ -6915,10 +6918,7 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Daily-Notes/2021-07-30.md\"> 2021-07-30 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/R Development.md\"> R Development </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Logging.md\"> Plumber Logging </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Base Package Hidden Gems in R.md\"> Base Package Hidden Gems in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Git/Git Tools.md\"> Git Tools </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/R/Plumber Logging.md\"> Plumber Logging </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

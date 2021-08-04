@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "4-Logs/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Vault-Consistensy-Report",
+      "path": "4-Logs/Vault-Consistensy-Report.md"
+    },
+    {
+      "basename": "Unresolved-Links",
+      "path": "4-Logs/Unresolved-Links.md"
+    },
+    {
       "basename": "Unlinked-Files",
       "path": "4-Logs/Unlinked-Files.md"
+    },
+    {
+      "basename": "SyncLog",
+      "path": "4-Logs/SyncLog.md"
+    },
+    {
+      "basename": "Changelog",
+      "path": "4-Logs/Changelog.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Gallery/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Highlights/README.md"
+    },
+    {
+      "basename": "Highlights - Pay off Your Debt - Tools and Tips",
+      "path": "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md"
     },
     {
       "basename": "2021-08-04",
@@ -93,10 +129,6 @@
       "path": "2-Slipbox/WSL-Notes.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "010 - Productivity",
       "path": "1-Maps-of-Content/010 - Productivity.md"
     },
@@ -118,23 +150,11 @@
     },
     {
       "basename": "README",
-      "path": "3-Resources/Highlights/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Gallery/README.md"
-    },
-    {
-      "basename": "README",
       "path": "3-Resources/Dictionaries/README.md"
     },
     {
       "basename": "README-Template",
       "path": "3-Resources/Templates/README-Template.md"
-    },
-    {
-      "basename": "README",
-      "path": "4-Logs/README.md"
     },
     {
       "basename": "Kanban",
@@ -179,26 +199,6 @@
     {
       "basename": "Knowledge",
       "path": "3-Resources/Dictionaries/Knowledge.md"
-    },
-    {
-      "basename": "Dictionary",
-      "path": "3-Resources/Dictionaries/Dictionary.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "3-Resources/Templates/Daily-Note-Template.md"
-    },
-    {
-      "basename": "2020-04-20",
-      "path": "3-Resources/Daily-Notes/2020-04-20.md"
-    },
-    {
-      "basename": "Managing projects with GTD",
-      "path": "2-Slipbox/Managing projects with GTD.md"
-    },
-    {
-      "basename": "Project-Note-Template",
-      "path": "3-Resources/Templates/Project-Note-Template.md"
     }
   ],
   "omittedPaths": [],

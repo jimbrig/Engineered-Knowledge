@@ -2,11 +2,11 @@
 
 ## Contents
 
-- Inbox: [0-Inbox](./0-Inbox)
-- Maps of Content: [1-Maps of Content](1-Maps-of-Content)
-- Slipbox[^1]:  [2-Slipbox](./2-Slipbox)
-- Resources: [3-Resources](./3-Resources)
-- Logs: [4-Logs](./4-Logs)
+- Inbox: [0-Inbox](./0-Inbox/README.md)
+- Maps of Content: [1-Maps of Content](1-Maps-of-Content/README.md)
+- Slipbox[^1]:  [2-Slipbox](./2-Slipbox/README.md)
+- Resources: [3-Resources](./3-Resources/README.md)
+- Logs: [4-Logs](./4-Logs/README.md)
 
 ```R
 fs::dir_tree("Engineered-Knowledge", recurse = FALSE)

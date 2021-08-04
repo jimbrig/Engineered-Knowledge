@@ -9,7 +9,29 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-04.md",
+            "file": "4-Logs/Unlinked-Files.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "88f39e793c9425f1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "4-Logs/Unlinked-Files.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "a20e8038b8f6ba99",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "4-Logs/README.md",
             "mode": "source"
           }
         }
@@ -92,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-04.md",
+                "file": "4-Logs/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-04.md",
+                "file": "4-Logs/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-04.md"
+                "file": "4-Logs/README.md"
               }
             }
           },
@@ -176,17 +198,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "16622d32b941ab3a",
+  "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "3-Resources/Daily-Notes/2021-08-04.md",
-    "0-Inbox/README.md",
-    "0-Inbox/Untitled.md",
-    "0-Inbox/XML.md",
-    "0-Inbox/About the AppxProvisioning.xml File in Windows.md",
-    "2-Slipbox/Untitled.md",
-    "1-Maps-of-Content/README.md",
-    "2-Slipbox/README.md",
-    "2-Slipbox/Computer Backup System.md",
-    "0-Inbox/How to fix Issues with Windows File Type Associations.md"
+    "4-Logs/README.md",
+    "README.md",
+    "4-Logs/Vault-Consistensy-Report.md",
+    "4-LogsVault-Consistentsy-Report.md",
+    "4-Logs/Unresolved-Links.md",
+    "4-Logs/Unlinked-Files.md",
+    "4-Logs/SyncLog.md",
+    "4-Logs/Changelog.md",
+    "3-Resources/Gallery/README.md",
+    "3-Resources/Highlights/README.md"
   ]
 }
