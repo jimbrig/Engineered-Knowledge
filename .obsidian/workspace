@@ -17,8 +17,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Notes on Finishing Projects.md",
-            "mode": "preview"
+            "file": "2-Slipbox/Obsidian Setup.md",
+            "mode": "source"
           }
         }
       }
@@ -80,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Notes on Finishing Projects.md",
+                "file": "2-Slipbox/Obsidian Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Notes on Finishing Projects.md",
+                "file": "2-Slipbox/Obsidian Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Notes on Finishing Projects.md"
+                "file": "2-Slipbox/Obsidian Setup.md"
               }
             }
           },
@@ -205,19 +206,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "49d8b34d7bfd46f9",
   "lastOpenFiles": [
-    "2-Slipbox/Notes on Finishing Projects.md",
+    "2-Slipbox/Obsidian Setup.md",
+    "3-Resources/README.md",
     "4-Logs/Vault-Consistensy-Report.md",
-    "0-Inbox/Time Block Planner.md",
-    "2-Slipbox/Time Management.md",
-    "2-Slipbox/Windows Registry Paths and Keys.md",
-    "2-Slipbox/Windows Registry.md",
-    "4-Logs/README.md",
-    "0-Inbox/Placeholders/README.md",
-    "README.md",
-    "1-Maps-of-Content/010 - Productivity.md"
+    "4-Logs/Untitled.md",
+    "2-Slipbox/SSH and SCP.md",
+    "0-Inbox/Cloud Hosted Environments.md",
+    "0-Inbox/Virtual Machines.md",
+    "0-Inbox/WinSCP.md",
+    "0-Inbox/GTD - Desired Outcome.md",
+    "2-Slipbox/Notes on Finishing Projects.md"
   ]
 }

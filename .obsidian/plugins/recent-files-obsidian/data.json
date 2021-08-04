@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Notes on Finishing Projects",
-      "path": "2-Slipbox/Notes on Finishing Projects.md"
+      "basename": "Obsidian Setup",
+      "path": "2-Slipbox/Obsidian Setup.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
     },
     {
       "basename": "Vault-Consistensy-Report",
       "path": "4-Logs/Vault-Consistensy-Report.md"
+    },
+    {
+      "basename": "Vault Statistics",
+      "path": "4-Logs/Vault Statistics.md"
+    },
+    {
+      "basename": "SSH and SCP",
+      "path": "2-Slipbox/SSH and SCP.md"
+    },
+    {
+      "basename": "Cloud Hosted Environments",
+      "path": "0-Inbox/Cloud Hosted Environments.md"
+    },
+    {
+      "basename": "Virtual Machines",
+      "path": "0-Inbox/Virtual Machines.md"
+    },
+    {
+      "basename": "WinSCP",
+      "path": "0-Inbox/WinSCP.md"
+    },
+    {
+      "basename": "GTD - Desired Outcome",
+      "path": "0-Inbox/GTD - Desired Outcome.md"
+    },
+    {
+      "basename": "Notes on Finishing Projects",
+      "path": "2-Slipbox/Notes on Finishing Projects.md"
     },
     {
       "basename": "Time Block Planner",
