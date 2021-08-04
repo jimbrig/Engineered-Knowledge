@@ -56,21 +56,25 @@ scoop install rstudio-daily
 
 As an R developer, we come across many  other various technologies during development and it can be useful to automate the process of setting up your [[Windows Developer Environment|Developer Environment]]:
 
-- Python (recommended)
-	- `reticulate` package for interacting with Python
-	- `radian` - A python package providing a much more developer friendly interface than the native `rterm` R-Terminal. (recommended) 
+#### Required and Recommended Additional Software and Libraries
+
 - R Tools (required)
 - Git (required) + Git-Bash + a Git Client + Git LFS (optional)
+- Python (recommended) - will need `reticulate` package for interacting with Python
+- `radian` - A python package providing a much more developer friendly interface than the native `rterm` R-Terminal. (recommended): install via `pip install radian`
 - SSH (required) + SSH Keys in default location: `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub`
-- GPG (optional)
 - LaTeX / TeX Distribution + `pdfLaTex` or `XeLaTeX` (required)
 	- Tinytex (recommended) - `install.packages(tinytex)`
 	- MikeTex
 	- TexLive
-- Java (recommended) - `openjdk` - will need to set environment variable `JAVA_HOME`
 - Pandoc (optional - comes with RStudio - but nice to have external install in your system's `PATH` to use from terminal)
-- NodeJS (optional) - useful for various `npm` packages
+- Java (recommended) - `openjdk` - will need to set environment variable `JAVA_HOME`
 - VSCode (recommended) - alternative editor/IDE with extension support for R
+
+#### Optional Add On Software
+
+- GPG (optional)
+- NodeJS (optional) - useful for various `npm` packages
 - Hugo (recommended for `blogdown` use)
 - Inno (optional) - can turn Shiny apps into distributable executables
 - 7Zip (optional) - comes built in with RStudio
@@ -81,6 +85,11 @@ As an R developer, we come across many  other various technologies during develo
 - WSL or BASH on Windows (optional)
 - `jetpack` Package Manager (CLI) (optional) (useful if used in conjunction with `topgrade`)
 - `cmake` / `make`
+- GraphicsMagick / ImageMagick
+- Conda
+- TexMaker
+- Latex2RTF
+- FFT
 
 ## Configure RStudio Settings
 

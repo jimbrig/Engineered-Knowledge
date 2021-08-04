@@ -65,6 +65,9 @@
     "VSCode",
     "Inno",
     "Zotero",
-    "distributable"
+    "distributable",
+    "executables",
+    "GraphicsMagick",
+    "ImageMagick"
   ]
 }
