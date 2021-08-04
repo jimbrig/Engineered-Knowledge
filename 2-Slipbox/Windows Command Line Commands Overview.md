@@ -122,7 +122,7 @@ tree /?
 >        /A   Use ASCII instead of extended characters.
 ```
 
-Features(https://riptutorial.com/cmd#features)
+[Features](https://riptutorial.com/cmd#features)
 
 -----------------------------------------------------
 
@@ -138,7 +138,7 @@ Like other shells, cmd can read batch of instructions from a file. In this case 
 
 Note that the instructions entered interactively might have a slightly different syntax from those submitted as a script, but the general principle is that what can be entered from the command line can be also put in a file for later reuse.
 
-Hello World[#](https://riptutorial.com/cmd#hello-world)
+[Hello World](https://riptutorial.com/cmd#hello-world)
 
 
 -----------------------------------------------------------
@@ -149,9 +149,10 @@ To create a hello-word-script, you first need a place where to type it. For simp
 
 In your designated editor type:
 
-    echo Hello World
-    pause
-
+```powershell
+echo Hello World
+pause
+```
 
 Save it as `hello.cmd`
 
@@ -160,28 +161,17 @@ If you are using "Notepad" as an editor, you should pay much attention to the sa
 1.  In the `File name` field enter the name in double quotes, e.g. `"hello.cmd"`
 2.  In the `Save as type` field select All Files, instead of the default Text Document option.
 
-If the file has been saved properly, its icon should be similar to (Windows Vista):
-
-[![cmd icon](images/dFGFl.png)](http://i.stack.imgur.com/dFGFl.png)
-
 You may also consider to disable the option "Hide extension for known file types" in File Explorer folder view options. In this case, file names are always displayed with their extensions.
 
 To execute `hello.cmd` there are two possibilities. If you are using the Windows graphical shell, just double click on its icon.
 
-If you want to use the Command Prompt itself, you must first identify the directory where you saved `hello.cmd` . In this regard, if you open File Explorer with [![](images/B8Zit.png)](http://i.stack.imgur.com/B8Zit.png)+E. In the windows listing files, you normally read the name of the directory path containing them. You can therefore identify the directory of `hello.cmd` . Windows directory names tend to be quite long and typing them is error prone. It is better if you select and copy the directory path in the clipboard for later pasting.
-
-Start the Command Prompt. You read a line similar to this.
-
-    Microsoft Windows [Version ...]
-    (c) ... Microsoft Corporation. All rights reserved.
-     
-    C:\Users\...>
-
+If you want to use the Command Prompt itself, you must first identify the directory where you saved `hello.cmd` . In this regard, if you open File Explorer with `fas:Windows`+E. In the windows listing files, you normally read the name of the directory path containing them. You can therefore identify the directory of `hello.cmd` . Windows directory names tend to be quite long and typing them is error prone. It is better if you select and copy the directory path in the clipboard for later pasting.
 
 The version/year of Windows of course depends on yours. In the the final line, before `>` , you read the path of the directory which is current. You should make current the directory where your script is. For this reason enter the change directory command `cd` , using a line similar to the following:
 
-    cd <dirpath>
-
+```powershell
+cd <dirpath>
+```
 
 Instead of `<dirpath>` , paste the name of the directory you previously copied.  
 To paste the directory path, in Windows 10, you just need to type Ctrl\-C, as you would in an editor. For older systems you should be able to do this by right clicking in the `cmd` window.  
@@ -189,110 +179,13 @@ After entering the command, note that current path, before `>` , changes accordi
 
 You can now run your hello script by simply entering:
 
-    hello
+```powershell
+hello
+```
 
-
-Comments[#](https://riptutorial.com/cmd#undefined)
-
+[Comments](https://riptutorial.com/cmd#undefined)
 
 ------------------------------------------------------
-
-The script prints an output similar to:
-
-    C:\Users\...>echo Hello World
-    Hello World
-    
-    C:\Users\...>pause
-    Press any key to continue . . .
-
-
-The lines hosting the symbol `>` restate the script instructions as if you had entered interactively. This can be disabled writing:
-
-    @echo off
-
-
-as the first line of your script. This might reduce the clutter, but you have less hints on what is going on, with respect to those script commands that do not give visible outputs.
-
-The last command, `pause` , prompts you to hit any key. When you do, you exit `hello` .  
-If you run `hello` from the console, you don't really need it, because, when `hello` terminates its execution, `cmd.exe` remains open and you can to read `hello` output. When double-clicking in Explorer, you start `cmd.exe` for the time necessary to execute `hello` . When `hello` terminates, `cmd.exe` does the same and you have no possibility to read `hello` output. `pause` command prevents `hello` from exiting until you hit a key, which gives also the possibility to read the output.
-
-Finally, despite the name of the script is `hello.cmd` , it is not necessary to type the whole name, its `hello` stem is sufficient. This mechanism works for executables too, with extension `.exe` . What if there is a script `hello.cmd` and an executable `hello.exe` in the same directory? The former has priority in the Command Prompt, so `hello.cmd` will be executed.
-
-Navigating in cmd[#](https://riptutorial.com/cmd#navigating-in-cmd)
-
-
------------------------------------------------------------------------
-
-One of the most common things you'll need to do in the command prompt is navigate your file system. To do this, we'll utilize the `cd` and `dir` keywords. Start by opening up a command prompt using one of the methods mentioned [here](https://riptutorial.com/cmd/example/8433/opening-a-command-prompt). You most likely see something similar to what's below, where `UserName` is your user.
-
-    C:\Users\UserName>
-
-
-Regardless of where in your file structure you are, if your system is like most, we can start with this command:
-
-    cd C:\
-
-
-This will change your current directory to the `C:\` drive. Notice how the screen now looks like this
-
-    C:\>
-
-
-Next, run a `dir` so we can see anything in the `C:\` drive
-
-    dir
-
-
-This will show you a list of files and folders with some information about them, similar to this:
-
-[![dir command](images/f2XTr.png)](http://i.stack.imgur.com/f2XTr.png)
-
-There's lots of good info here, but for basic navigation, we just care about the right-most column. Notice how we have a `Users` folder. That means we can run this
-
-    cd Users
-
-
-Now if you run `dir` again, you'll see all the files and folders in your `C:\Users` directory. Now, we didn't find what we wanted here, so let's go back to the parent folder. Rather than type the path to it, we can use `..` to go up one folder like so
-
-    cd ..
-
-
-Now we are back in `C:\` . If you want to go up multiple folders at once, you can put a backslash and another set of periods like so: `cd ..\..` , but we only needed one folder.
-
-Now we want to look in that `Program Files` folder. To avoid confusing the system, it's a good idea to put quotes around the directories, especially when there are spaces in the name. So this time, we'll use this command
-
-    C:\>cd "Program Files"
-
-
-Now you are in `C:\Program Files>` and a `dir` command now will tell you anything that's in here.
-
-So, say we get tired of wandering around to find the folder and looked up exactly where we were needing to go. Turns out it's `C:\Windows\Logs` Rather than do a `..` to `Windows` to `Logs` , we can just put the full path like so:
-
-    cd "C:\Windows\Logs"
-
-
-And that's the basics of navigating the command prompt. You can now move through all your folders so you can run your other commands in the proper places.
-
-Opening a Command Prompt[#](https://riptutorial.com/cmd#opening-a-command-prompt)
-
-
--------------------------------------------------------------------------------------
-
-The command prompt comes pre-installed on all Windows NT, Windows CE, OS/2 and eComStation operating systems, and exists as `cmd.exe` , typically located in `C:\Windows\system32\cmd.exe`
-
-On Windows 7 the fastest ways to open the command prompt are:
-
-*   Press [![enter image description here](images/B8Zit.png)](http://i.stack.imgur.com/B8Zit.png), type "cmd" and then press Enter.
-    
-*   Press [![enter image description here](images/B8Zit.png)](http://i.stack.imgur.com/B8Zit.png)+R, type "cmd" then then press Enter.
-    
-
-It can also be opened by navigating to the executable and double-clicking on it.
-
-In some cases you might need to run `cmd` with elevated permissions, in this case right click and select "Run as administrator". This can also be achieved by pressing Control\+ Shift+Enter instead of Enter.
-
-[Source](https://riptutorial.com/cmd)
-
 
 
 ### Must Know Commands

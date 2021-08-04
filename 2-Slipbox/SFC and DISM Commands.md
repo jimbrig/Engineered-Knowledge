@@ -8,7 +8,7 @@ Use the System File Checker tool to repair damaged system files automatically or
 
 ***
 
-On windows these commands are crucial for keeping a clean system. I run these commands so often that I made a `.reg` registry entry script to add them to my Desktop’s Context Menu (see below for details or visit [my dotfiles repo]() for the actual `.reg` scripts to run:
+On windows these commands are crucial for keeping a clean system. I run these commands so often that I made a `.reg` registry entry script to add them to my Desktop’s Context Menu (see below for details or visit [my dotfiles repo](https://github.com/jimbrig/jimsdots) for the actual `.reg` scripts to run:
 
 ***
 

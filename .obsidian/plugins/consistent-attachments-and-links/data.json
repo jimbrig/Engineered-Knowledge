@@ -7,10 +7,14 @@
   "changeNoteBacklinksAlt": true,
   "ignoreFolders": [
     ".git/",
-    ".obsidian/"
+    ".obsidian/",
+    "4-Logs/"
   ],
   "ignoreFiles": [
-    "consistant-report.md"
+    "4-Logs/Changelog.md",
+    "4-Logs/Unresolved-Links.md",
+    "4-Logs/*.md",
+    "README"
   ],
   "attachmentsSubfolder": "assets",
   "consistentReportFile": "4-Logs/Vault-Consistensy-Report.md"

@@ -6080,9 +6080,9 @@
       "links": 0
     },
     "2-Slipbox/Windows Command Line Commands Overview.md": {
-      "size": 32091,
+      "size": 27074,
       "tags": 0,
-      "links": 3
+      "links": 0
     },
     "2-Slipbox/WinGet CLI Setup and Settings.md": {
       "size": 3153,
@@ -6540,14 +6540,14 @@
       "links": 16
     },
     "4-Logs/Vault-Consistensy-Report.md": {
-      "size": 58737,
+      "size": 48494,
       "tags": 0,
-      "links": 86
+      "links": 85
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 703,
+      "Refactor": 707,
       "Create": 390,
       "Link": 619,
       "Expand": 61
@@ -6569,7 +6569,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 5,
+      "14": 9,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -6585,7 +6585,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 279,
+      "Wed": 283,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6812,7 +6812,9 @@
         "<a class=\"internal-link\" href=\"consistant-report.md\"> consistant-report </a>",
         "<a class=\"internal-link\" href=\"Notes/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
@@ -6988,7 +6990,9 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>"
       ]
     }
   },

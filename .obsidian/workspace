@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Windows Command Line Commands Overview.md",
+            "file": "4-Logs/Vault-Consistensy-Report.md",
             "mode": "source"
           }
         }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Windows Command Line Commands Overview.md",
+                "file": "4-Logs/Vault-Consistensy-Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Windows Command Line Commands Overview.md",
+                "file": "4-Logs/Vault-Consistensy-Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Windows Command Line Commands Overview.md"
+                "file": "4-Logs/Vault-Consistensy-Report.md"
               }
             }
           },
@@ -208,15 +208,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "2-Slipbox/Windows Command Line Commands Overview.md",
     "4-Logs/Vault-Consistensy-Report.md",
+    "2-Slipbox/SFC and DISM Commands.md",
+    "2-Slipbox/Windows Command Line Commands Overview.md",
     "0-Inbox/README.md",
     "2-Slipbox/AutoHotKey Scripts.md",
     "2-Slipbox/Using diskusage Command in Windows.md",
     "2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md",
     "4-Logs/README.md",
     "README.md",
-    "4-LogsVault-Consistentsy-Report.md",
-    "4-Logs/Unresolved-Links.md"
+    "4-LogsVault-Consistentsy-Report.md"
   ]
 }

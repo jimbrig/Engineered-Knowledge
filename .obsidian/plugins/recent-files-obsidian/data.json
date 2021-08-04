@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Windows Command Line Commands Overview",
-      "path": "2-Slipbox/Windows Command Line Commands Overview.md"
-    },
-    {
       "basename": "Vault-Consistensy-Report",
       "path": "4-Logs/Vault-Consistensy-Report.md"
+    },
+    {
+      "basename": "SFC and DISM Commands",
+      "path": "2-Slipbox/SFC and DISM Commands.md"
+    },
+    {
+      "basename": "Windows Command Line Commands Overview",
+      "path": "2-Slipbox/Windows Command Line Commands Overview.md"
     },
     {
       "basename": "README",
@@ -195,10 +199,6 @@
     {
       "basename": "Mindfulness - The Key to Success",
       "path": "2-Slipbox/Mindfulness - The Key to Success.md"
-    },
-    {
-      "basename": "Archive",
-      "path": "3-Resources/Dictionaries/Archive.md"
     }
   ],
   "omittedPaths": [],
