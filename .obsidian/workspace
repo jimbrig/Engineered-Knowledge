@@ -29,8 +29,11 @@
         "id": "a20e8038b8f6ba99",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-Slipbox/Utils Package Hidden Gems in R.md",
+            "mode": "source"
+          }
         }
       },
       {
@@ -122,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-Slipbox/Utils Package Hidden Gems in R.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-Slipbox/Utils Package Hidden Gems in R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-Slipbox/Utils Package Hidden Gems in R.md"
+              }
             }
           },
           {
@@ -204,15 +211,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
+    "2-Slipbox/Utils Package Hidden Gems in R.md",
+    "0-Inbox/Regular expressions - JavaScript - MDN.md",
+    "2-Slipbox/Backend Web Architecture.md",
+    "3-Resources/Daily-Notes/README.md",
     "4-Logs/Vault-Consistensy-Report.md",
     "1-Maps-of-Content/020 - Development.md",
     "0-Inbox/Iobit.md",
     "0-Inbox/EaseUS.md",
     "0-Inbox/Uninstall Tool.md",
-    "0-Inbox/Lepton.md",
-    "0-Inbox/RapidEE.md",
-    "0-Inbox/Microsoft PowerToys.md",
-    "0-Inbox/pgcli.md",
-    "0-Inbox/psql.md"
+    "0-Inbox/Lepton.md"
   ]
 }

@@ -1,6 +1,10 @@
-```yaml
-Source: https://www.codecademy.com/articles/back-end-architecture
-```
+---
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Wednesday 4th August 2021 14:54:34
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Backend-Web-Architecture
+Tags: ["#Development"]
+---
 
 # Backend Web Architecture
 
@@ -91,3 +95,13 @@ SuperCoolShop has an huge number of products, and many different categories for 
 8. The response travels across the internet, back to Alice’s computer.
 
 9. Alice’s browser receives the response and uses that information to create and render the view that Alice ultimately sees!
+
+***
+Source: e
+
+***
+
+Links: [[020 - Development]] | [[MOC - Web Development]] | [[MOC - System Design]] | [[System Design Primer]]
+
+Sources: https://www.codecademy.com/articles/back-end-architectur
+

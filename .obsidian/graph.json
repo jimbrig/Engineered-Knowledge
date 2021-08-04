@@ -1,11 +1,11 @@
 {
   "collapse-filter": true,
-  "search": "(-path:4-Logs)",
+  "search": "(-path:4-Logs) (-file:README)",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:0-Inbox",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "tag",
+      "query": "tag:#DailyNotes",
       "color": {
         "a": 1,
         "rgb": 5431473
@@ -53,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.16454114471722095,
+  "scale": 0.08371226304170316,
   "close": false
 }

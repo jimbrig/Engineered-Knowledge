@@ -1,3 +1,13 @@
+---
+Creation Date: 2021-08-04 14:49
+Last Modified Date: Wednesday 4th August 2021 14:56:39
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Regular expressions - JavaScript - MDN
+Tags: ["#Development"]
+---
+
+# Regular expressions - JavaScript - MDN
+
 ## [Creating a regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#creating_a_regular_expression "Permalink to Creating a regular expression")
 
 You construct a regular expression in one of two ways:
@@ -388,3 +398,10 @@ function testInfo(phoneInput) {
 ```
 
 #### Result
+
+***
+
+Links: [[020 - Development]] | [[MOC - Web Development]] | [[Regular Expressions]] | [[Javascript]]
+
+Sources: [Regular expressions - JavaScript | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Utils Package Hidden Gems in R",
+      "path": "2-Slipbox/Utils Package Hidden Gems in R.md"
+    },
+    {
+      "basename": "Regular expressions - JavaScript - MDN",
+      "path": "0-Inbox/Regular expressions - JavaScript - MDN.md"
+    },
+    {
+      "basename": "Backend Web Architecture",
+      "path": "2-Slipbox/Backend Web Architecture.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Daily-Notes/README.md"
+    },
+    {
       "basename": "Vault-Consistensy-Report",
       "path": "4-Logs/Vault-Consistensy-Report.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Ninite",
       "path": "0-Inbox/Ninite.md"
-    },
-    {
-      "basename": "Cygwin",
-      "path": "0-Inbox/Cygwin.md"
-    },
-    {
-      "basename": "WinGet",
-      "path": "0-Inbox/WinGet.md"
-    },
-    {
-      "basename": "Scoop",
-      "path": "0-Inbox/Scoop.md"
-    },
-    {
-      "basename": "Chocolatey",
-      "path": "0-Inbox/Chocolatey.md"
     }
   ],
   "omittedPaths": [],

@@ -6091,8 +6091,8 @@
     },
     "2-Slipbox/Backend Web Architecture.md": {
       "size": 8773,
-      "tags": 0,
-      "links": 0
+      "tags": 1,
+      "links": 4
     },
     "2-Slipbox/HTTP Requests Notes.md": {
       "size": 8399,
@@ -7126,15 +7126,15 @@
     },
     "0-Inbox/Regular expressions - JavaScript - MDN.md": {
       "size": 20730,
-      "tags": 0,
-      "links": 0
+      "tags": 1,
+      "links": 4
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 733,
       "Create": 510,
-      "Link": 629,
+      "Link": 633,
       "Expand": 62
     }
   },
@@ -7154,7 +7154,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 166,
+      "14": 170,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -7170,7 +7170,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 440,
+      "Wed": 444,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -7339,6 +7339,8 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - R.md\"> MOC - R </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
@@ -7387,9 +7389,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker.md\"> Docker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Docker/Docker Compose Reference Docs.md\"> Docker Compose Reference Docs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Python/Python.md\"> Python </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Powwater/Database Documentation.md\"> Database Documentation </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Templater Plugin Notes.md\"> Templater Plugin Notes </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Windows/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7458,6 +7458,8 @@
         "<a class=\"internal-link\" href=\"Notes/MkDocs.md\"> MkDocs </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7506,9 +7508,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
