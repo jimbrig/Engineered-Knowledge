@@ -82,18 +82,19 @@ First run, `assoc <file_type_you_are_facing_problem_with>`
 
 ```powershell
 assoc .exe
-.exe=exefile
+> .exe=exefile
 
 assoc .yml
-.yml=yml
+> .yml=yml
 
 assoc .url
-.url=InternetShortcut
+> .url=InternetShortcut
 ```
 
-Note down the output to the right of `=` and run:
+Note down the output to the right of = and run:
 
-`ftype output_obtained="<absolute_path_of_application>" "%1"`
+`ftype output_obtained=<absolute_path_of_application> %1`
+
 
 ```powershell
 # url associate with edge

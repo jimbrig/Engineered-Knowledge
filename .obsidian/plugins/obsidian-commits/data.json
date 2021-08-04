@@ -6512,14 +6512,14 @@
     "2-Slipbox/How to fix Issues with Windows File Type Associations.md": {
       "size": 2146,
       "tags": 4,
-      "links": 6
+      "links": 9
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 686,
       "Create": 382,
-      "Link": 599,
+      "Link": 600,
       "Expand": 54
     }
   },
@@ -6527,7 +6527,7 @@
     "/": {
       "0": 100,
       "1": 767,
-      "2": 54,
+      "2": 55,
       "3": 150,
       "4": 7,
       "5": 0,
@@ -6555,7 +6555,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 227,
+      "Wed": 228,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6839,6 +6839,7 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-04.md\"> 2021-08-04 </a>",
@@ -6887,8 +6888,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Links.md\"> Obsidian Links </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Git Plugin Notes.md\"> Obsidian Git Plugin Notes </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Databases.md\"> Databases </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Views vs. Materialized Views.md\"> Views vs. Materialized Views </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/PostgreSQL.md\"> PostgreSQL </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Databases/Views vs. Materialized Views.md\"> Views vs. Materialized Views </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
