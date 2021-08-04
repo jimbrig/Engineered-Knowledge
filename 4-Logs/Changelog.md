@@ -1,4 +1,5 @@
-- 2021-08-04 at 17h12 · [[RStudio Configuration Notes]]
+- 2021-08-04 at 17h17 · [[RStudio Configuration Notes]]
+- 2021-08-04 at 17h13 · [[Package Managers]]
 - 2021-08-04 at 16h58 · [[Unlinked-Files]]
 - 2021-08-04 at 16h58 · [[050 - Computer]]
 - 2021-08-04 at 16h57 · [[SFC and DISM Commands]]
@@ -97,4 +98,3 @@
 - 2021-08-04 at 16h13 · [[RStudio]]
 - 2021-08-04 at 16h13 · [[R-Markdown]]
 - 2021-08-04 at 16h13 · [[ReadTheDocs]]
-- 2021-08-04 at 16h13 · [[README]]

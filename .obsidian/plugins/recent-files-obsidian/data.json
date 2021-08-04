@@ -5,6 +5,10 @@
       "path": "2-Slipbox/RStudio Configuration Notes.md"
     },
     {
+      "basename": "Package Managers",
+      "path": "0-Inbox/Package Managers.md"
+    },
+    {
       "basename": "Unlinked-Files",
       "path": "4-Logs/Unlinked-Files.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Kanbans/README.md"
-    },
-    {
-      "basename": "Vault Statistics",
-      "path": "4-Logs/Vault Statistics.md"
     }
   ],
   "omittedPaths": [],
