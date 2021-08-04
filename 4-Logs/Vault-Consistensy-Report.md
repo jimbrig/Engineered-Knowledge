@@ -131,7 +131,7 @@ e# Bad links (27 files)
 - (line 61): `.Rprofile`
 
 
-[1-Maps-of-Content/MOC - Obsidian Resources.md](1-Maps-of-Content/MOC%20-%20Obsidian%20Resources.md): 
+[1-Maps-of-Content/MOC - Obsidian Resources.md](MOC%20-%20Obsidian.md): 
 - (line 94): `Obsidian Taxonomy#Links`
 - (line 95): `Obsidian Taxonomy#Sources`
 

@@ -5757,7 +5757,7 @@
     "2-Slipbox/Obsidian Setup.md": {
       "size": 685,
       "tags": 3,
-      "links": 12
+      "links": 17
     },
     "2-Slipbox/Obsidian Taxonomy.md": {
       "size": 806,
@@ -6334,11 +6334,6 @@
       "tags": 2,
       "links": 0
     },
-    "1-Maps-of-Content/MOC - Obsidian Resources.md": {
-      "size": 4163,
-      "tags": 4,
-      "links": 18
-    },
     "1-Maps-of-Content/MOC - PKM.md": {
       "size": 297,
       "tags": 2,
@@ -6573,13 +6568,33 @@
       "size": 0,
       "tags": 2,
       "links": 0
+    },
+    "0-Inbox/Tools - Todoist.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Tools - Outlook.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "0-Inbox/Tools - Github.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "1-Maps-of-Content/MOC - Obsidian.md": {
+      "size": 4163,
+      "tags": 4,
+      "links": 18
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 726,
-      "Create": 397,
-      "Link": 624,
+      "Refactor": 727,
+      "Create": 400,
+      "Link": 625,
       "Expand": 62
     }
   },
@@ -6599,7 +6614,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 41,
+      "14": 46,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -6615,7 +6630,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 315,
+      "Wed": 320,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6678,6 +6693,9 @@
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Tools - Github.md\"> Tools - Github </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Tools - Outlook.md\"> Tools - Outlook </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Tools - Todoist.md\"> Tools - Todoist </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/PowerShell.md\"> PowerShell </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Windows Terminal.md\"> Windows Terminal </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Web Development.md\"> Web Development </a>",
@@ -6725,12 +6743,10 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unresolved-Links.md\"> Unresolved-Links </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GitJournal-export/Obsidian/Obsidian Git Plugin Notes.md\"> Obsidian Git Plugin Notes </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/New Markdown Document.md\"> New Markdown Document </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Obsidian.md\"> MOC - Obsidian </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/MOC - PowerShell.md\"> MOC - PowerShell </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments.md\"> Windows Terminal Command Line Arguments </a>",
@@ -6780,8 +6796,7 @@
         "<a class=\"internal-link\" href=\"1-Maps of Content/APIs.md\"> APIs </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Markdown.md\"> Markdown </a>",
         "<a class=\"internal-link\" href=\"1-Maps of Content/Markdown.md\"> Markdown </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>",
-        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - R.md\"> MOC - R </a>"
+        "<a class=\"internal-link\" href=\"1-Maps of Content/MOC - Project Management.md\"> MOC - Project Management </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
@@ -6902,6 +6917,7 @@
         "<a class=\"internal-link\" href=\"Notes/WSL-Notes.md\"> WSL-Notes </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal.md\"> Windows Terminal </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
@@ -6947,7 +6963,6 @@
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Maps of Content/010 - Productivity.md\"> 010 - Productivity </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Mindfulness - The Key to Success.md\"> Mindfulness - The Key to Success </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mindfulness.md\"> Mindfulness </a>",

@@ -23,7 +23,7 @@ Tags: ["#Index"]
 
 - [MOC - Databases](MOC%20-%20Databases.md)
 - [MOC - Links](MOC%20-%20Links.md)
-- [MOC - Obsidian Resources](MOC%20-%20Obsidian%20Resources.md)
+- [MOC - Obsidian](MOC%20-%20Obsidian.md)
 - [MOC - PKM](MOC%20-%20PKM.md)
 - [MOC - PostgreSQL](MOC%20-%20PostgreSQL.md)
 - [MOC - Project Management](MOC%20-%20Project%20Management.md)

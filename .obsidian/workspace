@@ -31,7 +31,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Project Management Pipeline.md",
+            "file": "2-Slipbox/Obsidian Setup.md",
             "mode": "source"
           }
         }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Project Management Pipeline.md",
+                "file": "2-Slipbox/Obsidian Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Project Management Pipeline.md",
+                "file": "2-Slipbox/Obsidian Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Project Management Pipeline.md"
+                "file": "2-Slipbox/Obsidian Setup.md"
               }
             }
           },
@@ -211,15 +211,15 @@
   },
   "active": "a20e8038b8f6ba99",
   "lastOpenFiles": [
-    "2-Slipbox/Project Management Pipeline.md",
-    "1-Maps-of-Content/MOC - Project Management.md",
+    "2-Slipbox/Obsidian Setup.md",
+    "4-Logs/README.md",
+    "0-Inbox/README.md",
+    "1-Maps-of-Content/MOC - Obsidian Resources.md",
     "4-Logs/Vault-Consistensy-Report.md",
-    "1-Maps-of-Content/MOC - PowerShell.md",
-    "2-Slipbox/Reset OneDrive with Command Line.md",
-    "2-Slipbox/Windows Terminal.md",
-    "0-Inbox/PowerShell.md",
-    "1-Maps-of-Content/MOC - Web Development.md",
-    "2-Slipbox/System Design Primer.md",
-    "2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell.md"
+    "2-Slipbox/Obsidian Taxonomy.md",
+    "0-Inbox/Tools - Github.md",
+    "0-Inbox/Tools - Outlook.md",
+    "0-Inbox/Tools - Todoist.md",
+    "2-Slipbox/Obsidian Templater Plugin Notes.md"
   ]
 }

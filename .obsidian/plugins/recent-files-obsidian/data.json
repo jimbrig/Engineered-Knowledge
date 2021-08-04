@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian Setup",
+      "path": "2-Slipbox/Obsidian Setup.md"
+    },
+    {
+      "basename": "README",
+      "path": "4-Logs/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "MOC - Obsidian",
+      "path": "1-Maps-of-Content/MOC - Obsidian.md"
+    },
+    {
+      "basename": "Vault-Consistensy-Report",
+      "path": "4-Logs/Vault-Consistensy-Report.md"
+    },
+    {
+      "basename": "Obsidian Taxonomy",
+      "path": "2-Slipbox/Obsidian Taxonomy.md"
+    },
+    {
+      "basename": "Tools - Github",
+      "path": "0-Inbox/Tools - Github.md"
+    },
+    {
+      "basename": "Tools - Outlook",
+      "path": "0-Inbox/Tools - Outlook.md"
+    },
+    {
+      "basename": "Tools - Todoist",
+      "path": "0-Inbox/Tools - Todoist.md"
+    },
+    {
+      "basename": "Obsidian Templater Plugin Notes",
+      "path": "2-Slipbox/Obsidian Templater Plugin Notes.md"
+    },
+    {
       "basename": "Project Management Pipeline",
       "path": "2-Slipbox/Project Management Pipeline.md"
     },
     {
       "basename": "MOC - Project Management",
       "path": "1-Maps-of-Content/MOC - Project Management.md"
-    },
-    {
-      "basename": "Vault-Consistensy-Report",
-      "path": "4-Logs/Vault-Consistensy-Report.md"
     },
     {
       "basename": "MOC - PowerShell",
@@ -57,10 +93,6 @@
       "path": "1-Maps-of-Content/README.md"
     },
     {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
-    },
-    {
       "basename": "Views vs. Materialized Views",
       "path": "2-Slipbox/Views vs. Materialized Views.md"
     },
@@ -99,10 +131,6 @@
     {
       "basename": "XML",
       "path": "2-Slipbox/XML.md"
-    },
-    {
-      "basename": "README",
-      "path": "4-Logs/README.md"
     },
     {
       "basename": "WSL-Notes",
@@ -171,34 +199,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Gallery/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Highlights/README.md"
-    },
-    {
-      "basename": "Highlights - Pay off Your Debt - Tools and Tips",
-      "path": "3-Resources/Highlights/Highlights - Pay off Your Debt - Tools and Tips.md"
-    },
-    {
-      "basename": "2021-08-04",
-      "path": "3-Resources/Daily-Notes/2021-08-04.md"
-    },
-    {
-      "basename": "Debugging Windows Search Issues and High CPU Usage",
-      "path": "2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md"
-    },
-    {
-      "basename": "Hot to force remove Windows store Apps (UWP)",
-      "path": "2-Slipbox/Hot to force remove Windows store Apps (UWP).md"
-    },
-    {
-      "basename": "Enhanced CleanMgr Command",
-      "path": "2-Slipbox/Enhanced CleanMgr Command.md"
-    },
-    {
-      "basename": "Computer Backup System",
-      "path": "2-Slipbox/Computer Backup System.md"
     }
   ],
   "omittedPaths": [],
