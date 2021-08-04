@@ -5987,7 +5987,7 @@
     "2-Slipbox/AutoHotKey Scripts.md": {
       "size": 58746,
       "tags": 3,
-      "links": 21
+      "links": 10
     },
     "4-Logs/SyncLog.md": {
       "size": 86660,
@@ -6377,7 +6377,7 @@
     "0-Inbox/README.md": {
       "size": 0,
       "tags": 1,
-      "links": 1
+      "links": 0
     },
     "4-Logs/README.md": {
       "size": 0,
@@ -6542,12 +6542,12 @@
     "4-Logs/Vault-Consistensy-Report.md": {
       "size": 58737,
       "tags": 0,
-      "links": 87
+      "links": 86
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 700,
+      "Refactor": 703,
       "Create": 390,
       "Link": 619,
       "Expand": 61
@@ -6569,7 +6569,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 2,
+      "14": 5,
       "15": 14,
       "16": 101,
       "17": 67,
@@ -6585,7 +6585,7 @@
     "/": {
       "Mon": 429,
       "Tue": 146,
-      "Wed": 276,
+      "Wed": 279,
       "Thu": 99,
       "Fri": 636,
       "Sat": 0,
@@ -6985,7 +6985,10 @@
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Using diskusage Command in Windows.md\"> Using diskusage Command in Windows </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/AutoHotKey Scripts.md\"> AutoHotKey Scripts </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>"
       ]
     }
   },

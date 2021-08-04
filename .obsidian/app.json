@@ -4,7 +4,7 @@
   "spellcheck": true,
   "foldHeading": true,
   "showLineNumber": true,
-  "tabSize": 3,
+  "tabSize": 4,
   "showUnsupportedFiles": true,
   "promptDelete": false,
   "fileSortOrder": "alphabetical",
@@ -29,6 +29,10 @@
     "Defrag",
     "edb",
     "defrag",
-    "diskusage"
+    "diskusage",
+    "Expanders",
+    "jimbr",
+    "Dev",
+    "AutoHotKey"
   ]
 }

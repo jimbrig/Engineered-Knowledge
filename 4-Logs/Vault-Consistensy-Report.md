@@ -5,29 +5,9 @@
 
 
 
-[2-Slipbox/AutoHotKey Scripts.md](../2-Slipbox/AutoHotKey%20Scripts.md): 
-- (line 27): `Custom/Custom-Text-Expanders.ahk`
-- (line 28): `Custom/Toggle-Hidden-Files-and-Folders.ahk`
-- (line 30): `Global-Shortcuts/Keeper-Global-Shortcut.ahk`
-- (line 31): `Global-Shortcuts/Obsidian-Global-Shortcut.ahk`
-- (line 32): `Global-Shortcuts/Todoist-Global-Shortcut.ahk`
-- (line 34): `HotKeyHelp/HotKey Help - Dialog.txt`
-- (line 35): `HotKeyHelp/HotkeyHelp.ahk`
-- (line 36): `HotKeyHelp/HotkeyHelp.ini`
-- (line 37): `Master.ahk`
-- (line 42): `WinClip/WinClip.ahk`
-- (line 43): `WinClip/WinClipAPI.ahk`
-- (line 44): `WinClip/test.ahk`
-
-
-[0-Inbox/README.md](../0-Inbox/README.md): 
-- (line 12): `Mindfulness - The Key to Success 1.md`
 
 
 
-
-# Bad note link sections
-No problems found
 
 
 

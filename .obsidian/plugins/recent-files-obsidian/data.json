@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "AutoHotKey Scripts",
-      "path": "2-Slipbox/AutoHotKey Scripts.md"
+      "basename": "Windows Command Line Commands Overview",
+      "path": "2-Slipbox/Windows Command Line Commands Overview.md"
     },
     {
       "basename": "Vault-Consistensy-Report",
       "path": "4-Logs/Vault-Consistensy-Report.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "AutoHotKey Scripts",
+      "path": "2-Slipbox/AutoHotKey Scripts.md"
     },
     {
       "basename": "Using diskusage Command in Windows",
@@ -55,10 +63,6 @@
     {
       "basename": "2021-08-04",
       "path": "3-Resources/Daily-Notes/2021-08-04.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "Debugging Windows Search Issues and High CPU Usage",
@@ -195,10 +199,6 @@
     {
       "basename": "Archive",
       "path": "3-Resources/Dictionaries/Archive.md"
-    },
-    {
-      "basename": "Fleeting",
-      "path": "3-Resources/Dictionaries/Fleeting.md"
     }
   ],
   "omittedPaths": [],

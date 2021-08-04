@@ -25,24 +25,24 @@ Tags: [ "#Development", "#Scripts", "#Configuration" ]
 
 - 📂 __C:\\Users\\jimbr\\Dev\\scripts\\AutoHotKey__
   - 📂 __Custom__
-    - 📄 [Custom\-Text\-Expanders.ahk](https://github.com/jimbrig/Scripts/AutoHotKey/Custom/Custom-Text-Expanders.ahk)
-    - 📄 [Toggle\-Hidden\-Files\-and\-Folders.ahk](Custom/Toggle-Hidden-Files-and-Folders.ahk)
+    - 📄 [Custom\-Text\-Expanders.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/Custom/Custom-Text-Expanders.ahk)
+    - 📄 [Toggle\-Hidden\-Files\-and\-Folders.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/Custom/Toggle-Hidden-Files-and-Folders.ahk)
   - 📂 __Global\-Shortcuts__
-    - 📄 [Keeper\-Global\-Shortcut.ahk](Global-Shortcuts/Keeper-Global-Shortcut.ahk)
-    - 📄 [Obsidian\-Global\-Shortcut.ahk](Global-Shortcuts/Obsidian-Global-Shortcut.ahk)
-    - 📄 [Todoist\-Global\-Shortcut.ahk](Global-Shortcuts/Todoist-Global-Shortcut.ahk)
+    - 📄 [Keeper\-Global\-Shortcut.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/Global-Shortcuts/Keeper-Global-Shortcut.ahk)
+    - 📄 [Obsidian\-Global\-Shortcut.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/Global-Shortcuts/Obsidian-Global-Shortcut.ahk)
+    - 📄 [Todoist\-Global\-Shortcut.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/Global-Shortcuts/Todoist-Global-Shortcut.ahk)
   - 📂 __HotKeyHelp__
-    - 📄 [HotKey Help \- Dialog.txt](HotKeyHelp/HotKey%20Help%20-%20Dialog.txt)
-    - 📄 [HotkeyHelp.ahk](HotKeyHelp/HotkeyHelp.ahk)
-    - 📄 [HotkeyHelp.ini](HotKeyHelp/HotkeyHelp.ini)
-  - 📄 [Master.ahk](Master.ahk)
+    - 📄 [HotKey Help \- Dialog.txt](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/HotKeyHelp/HotKey%20Help%20-%20Dialog.txt)
+    - 📄 [HotkeyHelp.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/HotKeyHelp/HotkeyHelp.ahk)
+    - 📄 [HotkeyHelp.ini](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/HotKeyHelp/HotkeyHelp.ini)
+  - 📄 [Master.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/Master.ahk)
 
 *Deprecated*
 
   	- 📂 __WinClip__
-    	- 📄 [WinClip.ahk](WinClip/WinClip.ahk)
-    	- 📄 [WinClipAPI.ahk](WinClip/WinClipAPI.ahk)
-    	- 📄 [test.ahk](WinClip/test.ahk)
+    	- 📄 [WinClip.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/WinClip/WinClip.ahk)
+    	- 📄 [WinClipAPI.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/WinClip/WinClipAPI.ahk)
+    	- 📄 [test.ahk](https://github.com/jimbrig/Scripts/tree/main/AutoHotKey/WinClip/test.ahk)
 
 ## Master Run Script
 
