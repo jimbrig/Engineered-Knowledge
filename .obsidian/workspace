@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "29f29b5c8c6b46df",
+        "id": "d07aa109c637cb80",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-Inbox/Placeholders/WinSCP.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220
+    "width": 220,
+    "collapsed": true
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -92,7 +90,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-Inbox/Placeholders/WinSCP.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,7 +141,7 @@
     "direction": "horizontal",
     "width": 465
   },
-  "active": "29f29b5c8c6b46df",
+  "active": "d07aa109c637cb80",
   "lastOpenFiles": [
     "0-Inbox/WinSCP.md",
     "0-Inbox/Virtual Machines.md",
