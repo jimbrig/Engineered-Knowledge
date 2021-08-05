@@ -1,12 +1,19 @@
 {
   "collapse-filter": true,
-  "search": "(-path:4-Logs) (-file:README)",
+  "search": "",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
+    {
+      "query": "tag:#MOC",
+      "color": {
+        "a": 1,
+        "rgb": 13241356
+      }
+    },
     {
       "query": "path:0-Inbox",
       "color": {
@@ -15,17 +22,10 @@
       }
     },
     {
-      "query": "path:1-Maps-of-Content",
-      "color": {
-        "a": 1,
-        "rgb": 15991065
-      }
-    },
-    {
       "query": "path:2-Slipbox",
       "color": {
         "a": 1,
-        "rgb": 5405920
+        "rgb": 5401056
       }
     },
     {
@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "tag:#DailyNotes",
+      "query": "path:4-Logs",
       "color": {
         "a": 1,
         "rgb": 5431473
@@ -53,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2306838708740468,
+  "scale": 0.33013149254651764,
   "close": false
 }

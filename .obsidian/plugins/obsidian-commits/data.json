@@ -7247,7 +7247,7 @@
     "2-Slipbox/R Packages Install Script.md": {
       "size": 4817,
       "tags": 3,
-      "links": 0
+      "links": 3
     },
     "0-Inbox/Placeholders/Building a Second Brain.md": {
       "size": 0,
@@ -7323,13 +7323,28 @@
       "size": 0,
       "tags": 0,
       "links": 1
+    },
+    "3-Resources/Daily-Notes/2021-08-05.md": {
+      "size": 966,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Kubernetes.md": {
+      "size": 2754,
+      "tags": 0,
+      "links": 1
+    },
+    "2-Slipbox/HashiCorp Terraform.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 904,
-      "Create": 651,
-      "Link": 719,
+      "Create": 654,
+      "Link": 721,
       "Expand": 88
     }
   },
@@ -7354,7 +7369,7 @@
       "16": 400,
       "17": 87,
       "18": 34,
-      "19": 43,
+      "19": 48,
       "20": 24,
       "21": 2,
       "22": 160,
@@ -7366,7 +7381,7 @@
       "Mon": 429,
       "Tue": 146,
       "Wed": 868,
-      "Thu": 99,
+      "Thu": 104,
       "Fri": 636,
       "Sat": 0,
       "Sun": 184
@@ -7429,6 +7444,9 @@
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes.md\"> Kubernetes </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-05.md\"> 2021-08-05 </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Package Managers.md\"> Package Managers </a>",
@@ -7475,10 +7493,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Rust.md\"> Rust </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Ruby.md\"> Ruby </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/RStudio.md\"> RStudio </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/R-Markdown.md\"> R-Markdown </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/ReadTheDocs.md\"> ReadTheDocs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/React.md\"> React </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/R-Markdown.md\"> R-Markdown </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinSCP.md\"> WinSCP </a>",
@@ -7653,6 +7668,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/R Packages Install Script.md\"> R Packages Install Script </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes.md\"> Kubernetes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Google Cloud Setup Notes.md\"> Google Cloud Setup Notes </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
@@ -7701,9 +7718,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights for What Blog Platform Should I Use.md\"> Highlights for What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S.M.A.R.T. Goals.md\"> S.M.A.R.T. Goals </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/You Need a Status Page.md\"> You Need a Status Page </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Achieving Your Goals Feels Good.md\"> Achieving Your Goals Feels Good </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/You Need a Blog.md\"> You Need a Blog </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/You Need a Status Page.md\"> You Need a Status Page </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

@@ -19,7 +19,7 @@ Don't forget that creating the file from here may create the file in the wrong d
 - [[Windows Terminal]] in [[1-Maps-of-Content/020 - Development]], [[2-Slipbox/Start an Offline Scan with Windows Defender from PowerShell]]
 - [[Visual Studio]] in [[1-Maps-of-Content/020 - Development]]
 - [[Visual Studio Code]] in [[1-Maps-of-Content/020 - Development]]
-- [[NuGet]] in [[1-Maps-of-Content/020 - Development]]
+- [[2-Slipbox/NuGet]] in [[1-Maps-of-Content/020 - Development]]
 - [[Windows SDK]] in [[1-Maps-of-Content/020 - Development]]
 - [[Windows APK]] in [[1-Maps-of-Content/020 - Development]]
 - [[WindowsPE]] in [[1-Maps-of-Content/020 - Development]]

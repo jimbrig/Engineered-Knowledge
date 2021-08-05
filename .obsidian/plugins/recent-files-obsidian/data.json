@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "HashiCorp Terraform",
+      "path": "2-Slipbox/HashiCorp Terraform.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
       "basename": "WinSCP",
       "path": "0-Inbox/Placeholders/WinSCP.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "RStudio Tips and Tricks",
       "path": "2-Slipbox/RStudio Tips and Tricks.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "Package Managers",
@@ -191,14 +199,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Highlights/README.md"
-    },
-    {
-      "basename": "Highlights - Mindfulness",
-      "path": "3-Resources/Highlights/Highlights - Mindfulness.md"
-    },
-    {
-      "basename": "Mindfulness - The Key to Success",
-      "path": "2-Slipbox/Mindfulness - The Key to Success.md"
     }
   ],
   "omittedPaths": [],

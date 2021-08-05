@@ -7,8 +7,11 @@
         "id": "d07aa109c637cb80",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-Slipbox/README.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220,
-    "collapsed": true
+    "width": 220
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -90,6 +92,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "2-Slipbox/README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -117,6 +120,69 @@
                 }
               }
             }
+          },
+          {
+            "id": "5a7000957941e105",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "958571cd2a579890",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2-Slipbox/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8dcfe208c8a5d5c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2-Slipbox/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47872885fb45fac2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2-Slipbox/README.md"
+              }
+            }
+          },
+          {
+            "id": "e61f4369f3a3b596",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "b369b054551d6181",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
         ]
       },
@@ -143,15 +209,15 @@
   },
   "active": "d07aa109c637cb80",
   "lastOpenFiles": [
+    "2-Slipbox/README.md",
+    "2-Slipbox/Untitled.md",
+    "0-Inbox/README.md",
     "0-Inbox/WinSCP.md",
     "0-Inbox/Virtual Machines.md",
     "0-Inbox/Time Block Planner.md",
     "0-Inbox/Static Site Generators.md",
     "0-Inbox/RStudio Tips and Tricks.md",
-    "0-Inbox/README.md",
     "0-Inbox/Package Managers.md",
-    "0-Inbox/Mozilla Firefox.md",
-    "0-Inbox/Microsoft Edge.md",
-    "0-Inbox/Placeholders/Memory in R.md"
+    "0-Inbox/Mozilla Firefox.md"
   ]
 }
