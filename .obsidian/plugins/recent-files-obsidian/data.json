@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "HashiCorp Terraform",
+      "path": "0-Inbox/HashiCorp Terraform.md"
+    },
+    {
       "basename": "README",
       "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "2021-08-05",
+      "path": "3-Resources/Daily-Notes/2021-08-05.md"
     },
     {
       "basename": "HashiCorp Terraform",
@@ -79,10 +91,6 @@
     {
       "basename": "020 - Development",
       "path": "1-Maps-of-Content/020 - Development.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/README.md"
     },
     {
       "basename": "RStudio Configuration Notes",
@@ -191,14 +199,6 @@
     {
       "basename": "Markdown",
       "path": "2-Slipbox/Markdown.md"
-    },
-    {
-      "basename": "README",
-      "path": "4-Logs/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Highlights/README.md"
     }
   ],
   "omittedPaths": [],

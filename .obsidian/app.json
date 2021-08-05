@@ -69,6 +69,11 @@
     "executables",
     "GraphicsMagick",
     "ImageMagick",
-    "Kubernetes"
+    "Kubernetes",
+    "HashiCorp",
+    "Terraform",
+    "Splunk",
+    "DataDog",
+    "APIs"
   ]
 }

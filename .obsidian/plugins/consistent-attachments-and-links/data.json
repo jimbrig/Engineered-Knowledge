@@ -8,7 +8,8 @@
   "ignoreFolders": [
     ".git/",
     ".obsidian/",
-    "3-Resources/",
+    "3-Resources/Templates/",
+    "3-Resources/Dictionaries/",
     "4-Logs/"
   ],
   "ignoreFiles": [

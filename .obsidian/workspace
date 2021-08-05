@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/README.md",
+            "file": "0-Inbox/HashiCorp Terraform.md",
             "mode": "source"
           }
         }
@@ -92,7 +92,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-Slipbox/README.md",
+                "file": "0-Inbox/HashiCorp Terraform.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/README.md",
+                "file": "0-Inbox/HashiCorp Terraform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/README.md",
+                "file": "0-Inbox/HashiCorp Terraform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/README.md"
+                "file": "0-Inbox/HashiCorp Terraform.md"
               }
             }
           },
@@ -209,15 +209,15 @@
   },
   "active": "d07aa109c637cb80",
   "lastOpenFiles": [
+    "0-Inbox/Untitled.md",
     "2-Slipbox/README.md",
+    "3-Resources/README.md",
+    "3-Resources/Daily-Notes/2021-08-05.md",
     "2-Slipbox/Untitled.md",
     "0-Inbox/README.md",
     "0-Inbox/WinSCP.md",
     "0-Inbox/Virtual Machines.md",
     "0-Inbox/Time Block Planner.md",
-    "0-Inbox/Static Site Generators.md",
-    "0-Inbox/RStudio Tips and Tricks.md",
-    "0-Inbox/Package Managers.md",
-    "0-Inbox/Mozilla Firefox.md"
+    "0-Inbox/Static Site Generators.md"
   ]
 }
