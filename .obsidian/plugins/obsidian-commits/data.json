@@ -5995,9 +5995,9 @@
       "links": 0
     },
     "4-Logs/Changelog.md": {
-      "size": 4683,
+      "size": 15325,
       "tags": 0,
-      "links": 99
+      "links": 323
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7372,7 +7372,7 @@
     "3-Resources/Daily-Notes/2021-08-06.md": {
       "size": 1200,
       "tags": 0,
-      "links": 0
+      "links": 6
     },
     "2-Slipbox/Obsidian Mobile.md": {
       "size": 215,
@@ -7395,22 +7395,32 @@
       "links": 3
     },
     "3-Reference/Obsidian Chrome Clipper.md": {
+      "size": 4450,
+      "tags": 6,
+      "links": 1
+    },
+    "3-Resources/Highlights/How to Handle Inbox Infinity.md": {
+      "size": 2587,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Daily-Notes/2021-08-07.md": {
       "size": 0,
       "tags": 0,
-      "links": 0
+      "links": 3
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 906,
-      "Create": 667,
-      "Link": 741,
-      "Expand": 91
+      "Create": 669,
+      "Link": 748,
+      "Expand": 93
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 126,
+      "0": 137,
       "1": 767,
       "2": 55,
       "3": 156,
@@ -7444,12 +7454,14 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 210
+      "Sun": 221
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
         "<a class=\"internal-link\" href=\"4-Logs/SyncLog.md\"> SyncLog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
@@ -7498,11 +7510,11 @@
         "<a class=\"internal-link\" href=\"Keyboard Shortcuts in Microsoft Edge.md\"> Keyboard Shortcuts in Microsoft Edge </a>",
         "<a class=\"internal-link\" href=\"Windows/index-windows.md\"> index-windows </a>",
         "<a class=\"internal-link\" href=\"Development/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Development/Command Line/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Desired State Oriented Programming.md\"> Desired State Oriented Programming </a>"
+        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-07.md\"> 2021-08-07 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Instapaper.md\"> Instapaper </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/iOS Shortcuts for Obsidian.md\"> iOS Shortcuts for Obsidian </a>",
@@ -7551,9 +7563,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Visual Basic.md\"> Visual Basic </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Uninstall Tool.md\"> Uninstall Tool </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Ubuntu.md\"> Ubuntu </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Typora.md\"> Typora </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Tools - Todoist.md\"> Tools - Todoist </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Tools - Outlook.md\"> Tools - Outlook </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Typora.md\"> Typora </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinSCP.md\"> WinSCP </a>",
@@ -7609,6 +7619,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Atom.md\"> Atom </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
+        "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform 1.md\"> HashiCorp Terraform 1 </a>",
@@ -7657,9 +7669,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7728,6 +7738,11 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Nginx.md\"> Nginx </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-07.md\"> 2021-08-07 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
+        "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
@@ -7773,12 +7788,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Yarn.md\"> Yarn </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Obsidian Advanced Tables Plugin.md\"> Obsidian Advanced Tables Plugin </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/What gets Measured gets Managed.md\"> What gets Measured gets Managed </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
