@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Reference/Obsidian Chrome Clipper.md",
+            "file": "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md",
             "mode": "source"
           }
         }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Reference/Obsidian Chrome Clipper.md",
+                "file": "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Reference/Obsidian Chrome Clipper.md",
+                "file": "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Reference/Obsidian Chrome Clipper.md"
+                "file": "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md"
               }
             }
           },
@@ -174,6 +174,7 @@
   },
   "active": "55465ee10c1a2f44",
   "lastOpenFiles": [
+    "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md",
     "3-Reference/Obsidian Chrome Clipper.md",
     "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper.md",
     "3-Reference/Edge-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md",
@@ -182,7 +183,6 @@
     "2-Slipbox/README.md",
     "3-Resources/README.md",
     "3-Resources/Daily-Notes/2021-08-07.md",
-    "3-Reference/Untitled.md",
-    "0-Inbox/Untitled.md"
+    "3-Reference/Untitled.md"
   ]
 }
