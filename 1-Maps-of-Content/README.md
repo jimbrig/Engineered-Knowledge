@@ -21,6 +21,10 @@ Tags: ["#Index"]
 
 ### Topic Based Maps of Content ("MOC -")
 
+```query
+tag:MOC
+```
+
 - [MOC - Databases](MOC%20-%20Databases.md)
 - [MOC - Links](MOC%20-%20Links.md)
 - [MOC - Obsidian](MOC%20-%20Obsidian.md)

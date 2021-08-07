@@ -110,7 +110,7 @@
 2021-07-28 19:57 - Downloading complete .obsidian/plugins/obsidian-journey-plugin/main.js
 2021-07-28 19:57 - Accepted .obsidian/plugins/obsidian-journey-plugin/main.js
 2021-07-28 19:57 - Downloading file .obsidian/plugins/better-word-count/main.js
-2021-07-28 19:57 - Downloading complete .obsidian/plugins/better-word-count/main.js
+2021-07-28 19:57 - Downloading complete .obsidian/plugins/5better-word-count/main.js
 2021-07-28 19:57 - Accepted .obsidian/plugins/better-word-count/main.js
 2021-07-28 19:57 - Downloading file .obsidian/plugins/obsidian-git/main.js
 2021-07-28 19:57 - Downloading complete .obsidian/plugins/obsidian-git/main.js
@@ -988,4 +988,548 @@
 2021-07-28 20:15 - Upload complete .obsidian/app.json
 2021-07-28 20:15 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/app.json
 2021-07-28 20:15 - Fully synced
+
+## UPDATED
+
+2021-08-06 02:18 - Connecting to server
+2021-08-06 02:18 - Uploading file .obsidian/plugins/obsidian-readwise/data.json
+2021-08-06 02:18 - Upload complete .obsidian/plugins/obsidian-readwise/data.json
+2021-08-06 02:18 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-readwise/data.json
+2021-08-06 02:18 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:18 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:18 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:18 - Fully synced
+2021-08-06 02:18 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:18 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:18 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:18 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:18 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:18 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:18 - Fully synced
+2021-08-06 02:18 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:18 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:18 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:18 - Fully synced
+2021-08-06 02:21 - Connecting to server
+2021-08-06 02:21 - Uploading file .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:21 - Upload complete .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:21 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:21 - Fully synced
+2021-08-06 02:24 - Connecting to server
+2021-08-06 02:24 - Fully synced
+2021-08-06 02:26 - Connecting to server
+2021-08-06 02:26 - Fully synced
+2021-08-06 02:26 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:26 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:26 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:26 - Fully synced
+2021-08-06 02:27 - Connecting to server
+2021-08-06 02:27 - Fully synced
+2021-08-06 02:30 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:30 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:30 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:30 - Fully synced
+2021-08-06 02:30 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:30 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:30 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:30 - Fully synced
+2021-08-06 02:30 - Uploading Untitled
+2021-08-06 02:31 - Deleting remote folder Untitled
+2021-08-06 02:31 - Uploading Shares
+2021-08-06 02:31 - Deleting remote folder Shares
+2021-08-06 02:31 - Uploading 3-Resources/Shares
+2021-08-06 02:31 - Deleting remote folder 3-Resources/Shares
+2021-08-06 02:31 - Fully synced
+2021-08-06 02:31 - Uploading file 3-Resources/Untitled.md
+2021-08-06 02:31 - Upload complete 3-Resources/Untitled.md
+2021-08-06 02:31 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Untitled.md
+2021-08-06 02:31 - Rejected server change 3-Resources/Untitled.md
+2021-08-06 02:31 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:31 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:31 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:31 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:31 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:31 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:31 - Deleting remote file 3-Resources/Untitled.md
+2021-08-06 02:31 - Uploading file 3-Resources/Mobile-Shares.md
+2021-08-06 02:31 - Upload complete 3-Resources/Mobile-Shares.md
+2021-08-06 02:31 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Mobile-Shares.md
+2021-08-06 02:31 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:31 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:31 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:31 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:31 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:31 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:31 - Fully synced
+2021-08-06 02:31 - Uploading file 3-Resources/Mobile-Shares.md
+2021-08-06 02:31 - Upload complete 3-Resources/Mobile-Shares.md
+2021-08-06 02:31 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Mobile-Shares.md
+2021-08-06 02:31 - Fully synced
+2021-08-06 02:31 - Uploading file .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:31 - Upload complete .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:31 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:32 - Uploading file 3-Resources/Mobile-Shares.md
+2021-08-06 02:32 - Upload complete 3-Resources/Mobile-Shares.md
+2021-08-06 02:32 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Mobile-Shares.md
+2021-08-06 02:32 - Fully synced
+2021-08-06 02:32 - Uploading file 3-Resources/Mobile-Shares.md
+2021-08-06 02:32 - Upload complete 3-Resources/Mobile-Shares.md
+2021-08-06 02:32 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Mobile-Shares.md
+2021-08-06 02:32 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:32 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:32 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:32 - Fully synced
+2021-08-06 02:35 - Connecting to server
+2021-08-06 02:35 - Uploading file .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:35 - Upload complete .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:35 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:35 - Uploading file .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:35 - Upload complete .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:35 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:35 - Fully synced
+2021-08-06 02:35 - Uploading file 3-Resources/Mobile-Shares.md
+2021-08-06 02:35 - Upload complete 3-Resources/Mobile-Shares.md
+2021-08-06 02:35 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Mobile-Shares.md
+2021-08-06 02:35 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:36 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:36 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:36 - Fully synced
+2021-08-06 02:36 - Uploading file 3-Resources/Mobile-Shares.md
+2021-08-06 02:36 - Upload complete 3-Resources/Mobile-Shares.md
+2021-08-06 02:36 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Mobile-Shares.md
+2021-08-06 02:36 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:36 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:36 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:36 - Fully synced
+2021-08-06 02:36 - Uploading file 3-Resources/Mobile-Shares.md
+2021-08-06 02:36 - Upload complete 3-Resources/Mobile-Shares.md
+2021-08-06 02:36 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Mobile-Shares.md
+2021-08-06 02:36 - Fully synced
+2021-08-06 02:37 - Uploading file 3-Resources/Mobile-Shares.md
+2021-08-06 02:37 - Upload complete 3-Resources/Mobile-Shares.md
+2021-08-06 02:37 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Mobile-Shares.md
+2021-08-06 02:37 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:37 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:37 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:37 - Fully synced
+2021-08-06 02:39 - Connecting to server
+2021-08-06 02:39 - Fully synced
+2021-08-06 02:39 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:39 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:39 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:39 - Fully synced
+2021-08-06 02:39 - Uploading file .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:39 - Upload complete .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:39 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:39 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:39 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:39 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:39 - Fully synced
+2021-08-06 02:39 - Uploading file 2-Slipbox/Plumber Logging.md
+2021-08-06 02:39 - Upload complete 2-Slipbox/Plumber Logging.md
+2021-08-06 02:39 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Plumber Logging.md
+2021-08-06 02:39 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:39 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:39 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:39 - Fully synced
+2021-08-06 02:39 - Uploading file 2-Slipbox/Plumber Logging.md
+2021-08-06 02:39 - Upload complete 2-Slipbox/Plumber Logging.md
+2021-08-06 02:39 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Plumber Logging.md
+2021-08-06 02:39 - Fully synced
+2021-08-06 02:40 - Uploading file 2-Slipbox/Plumber Logging.md
+2021-08-06 02:40 - Upload complete 2-Slipbox/Plumber Logging.md
+2021-08-06 02:40 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Plumber Logging.md
+2021-08-06 02:40 - Fully synced
+2021-08-06 02:40 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:40 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:40 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:40 - Fully synced
+2021-08-06 02:40 - Uploading file 2-Slipbox/Base Package Hidden Gems in R.md
+2021-08-06 02:40 - Upload complete 2-Slipbox/Base Package Hidden Gems in R.md
+2021-08-06 02:40 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Base Package Hidden Gems in R.md
+2021-08-06 02:40 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:40 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:40 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:40 - Fully synced
+2021-08-06 02:40 - Uploading file 2-Slipbox/Base Package Hidden Gems in R.md
+2021-08-06 02:40 - Upload complete 2-Slipbox/Base Package Hidden Gems in R.md
+2021-08-06 02:40 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Base Package Hidden Gems in R.md
+2021-08-06 02:40 - Fully synced
+2021-08-06 02:41 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:41 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:41 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:41 - Fully synced
+2021-08-06 02:42 - Uploading file .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:42 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:42 - Upload complete .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:42 - Fully synced
+2021-08-06 02:42 - Uploading file .obsidian/graph.json
+2021-08-06 02:42 - Upload complete .obsidian/graph.json
+2021-08-06 02:42 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:42 - Fully synced
+2021-08-06 02:42 - Uploading file .obsidian/graph.json
+2021-08-06 02:42 - Upload complete .obsidian/graph.json
+2021-08-06 02:42 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:42 - Fully synced
+2021-08-06 02:43 - Uploading file .obsidian/graph.json
+2021-08-06 02:43 - Upload complete .obsidian/graph.json
+2021-08-06 02:43 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:43 - Fully synced
+2021-08-06 02:43 - Uploading file .obsidian/graph.json
+2021-08-06 02:43 - Upload complete .obsidian/graph.json
+2021-08-06 02:43 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:43 - Fully synced
+2021-08-06 02:43 - Uploading file .obsidian/graph.json
+2021-08-06 02:43 - Upload complete .obsidian/graph.json
+2021-08-06 02:43 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:43 - Fully synced
+2021-08-06 02:43 - Uploading file .obsidian/graph.json
+2021-08-06 02:43 - Upload complete .obsidian/graph.json
+2021-08-06 02:43 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:43 - Uploading file .obsidian/graph.json
+2021-08-06 02:43 - Upload complete .obsidian/graph.json
+2021-08-06 02:43 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:43 - Fully synced
+2021-08-06 02:44 - Uploading file .obsidian/graph.json
+2021-08-06 02:44 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:44 - Upload complete .obsidian/graph.json
+2021-08-06 02:44 - Fully synced
+2021-08-06 02:44 - Uploading file .obsidian/graph.json
+2021-08-06 02:44 - Upload complete .obsidian/graph.json
+2021-08-06 02:44 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:44 - Fully synced
+2021-08-06 02:44 - Uploading file .obsidian/graph.json
+2021-08-06 02:44 - Upload complete .obsidian/graph.json
+2021-08-06 02:44 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:44 - Fully synced
+2021-08-06 02:44 - Uploading file .obsidian/graph.json
+2021-08-06 02:44 - Upload complete .obsidian/graph.json
+2021-08-06 02:44 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:44 - Merging conflicted file .obsidian/graph.json
+2021-08-06 02:44 - Merge successful .obsidian/graph.json
+2021-08-06 02:44 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:44 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:44 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:44 - Uploading file .obsidian/graph.json
+2021-08-06 02:44 - Upload complete .obsidian/graph.json
+2021-08-06 02:44 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:44 - Fully synced
+2021-08-06 02:45 - Uploading file 3-Resources/Daily-Notes/assets/2020-08-06-Graph-View.png
+2021-08-06 02:46 - Upload complete 3-Resources/Daily-Notes/assets/2020-08-06-Graph-View.png
+2021-08-06 02:46 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/assets/2020-08-06-Graph-View.png
+2021-08-06 02:46 - Fully synced
+2021-08-06 02:46 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:46 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:46 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:46 - Fully synced
+2021-08-06 02:46 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:46 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:46 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:46 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:46 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:46 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:46 - Fully synced
+2021-08-06 02:47 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Fully synced
+2021-08-06 02:47 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:47 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:47 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:47 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Rejected server change 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Fully synced
+2021-08-06 02:47 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:47 - Fully synced
+2021-08-06 02:47 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Rejected server change 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:48 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:48 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:48 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Rejected server change 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Rejected server change 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Uploading file 0-Inbox/Obsidian Mobile.md
+2021-08-06 02:48 - Upload complete 0-Inbox/Obsidian Mobile.md
+2021-08-06 02:48 - Rejected server change 0-Inbox/Obsidian Mobile.md
+2021-08-06 02:48 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:48 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:48 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:48 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:48 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:48 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:48 - Uploading file 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Upload complete 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Server pushed [Jimmy Briggs IPhone 11] 3-Resources/Daily-Notes/2021-08-06.md
+2021-08-06 02:48 - Uploading file 0-Inbox/Obsidian Mobile.md
+2021-08-06 02:48 - Upload complete 0-Inbox/Obsidian Mobile.md
+2021-08-06 02:48 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Obsidian Mobile.md
+2021-08-06 02:48 - Fully synced
+2021-08-06 02:49 - Deleting remote file 2-Slipbox/assets/IMG_0959.PNG
+2021-08-06 02:49 - Deleting remote file 2-Slipbox/assets/Checklist for When I'm Stuck.PNG
+2021-08-06 02:49 - Fully synced
+2021-08-06 02:49 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:49 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:49 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:49 - Fully synced
+2021-08-06 02:49 - Uploading file .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:49 - Upload complete .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:49 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:49 - Fully synced
+2021-08-06 02:49 - Uploading file .obsidian/graph.json
+2021-08-06 02:49 - Upload complete .obsidian/graph.json
+2021-08-06 02:49 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:49 - Fully synced
+2021-08-06 02:49 - Uploading file .obsidian/graph.json
+2021-08-06 02:49 - Upload complete .obsidian/graph.json
+2021-08-06 02:49 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:49 - Fully synced
+2021-08-06 02:49 - Uploading file .obsidian/graph.json
+2021-08-06 02:49 - Upload complete .obsidian/graph.json
+2021-08-06 02:49 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:49 - Fully synced
+2021-08-06 02:50 - Uploading file .obsidian/graph.json
+2021-08-06 02:50 - Upload complete .obsidian/graph.json
+2021-08-06 02:50 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:50 - Fully synced
+2021-08-06 02:50 - Uploading file .obsidian/graph.json
+2021-08-06 02:50 - Upload complete .obsidian/graph.json
+2021-08-06 02:50 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:50 - Fully synced
+2021-08-06 02:50 - Uploading file .obsidian/graph.json
+2021-08-06 02:50 - Upload complete .obsidian/graph.json
+2021-08-06 02:50 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:50 - Fully synced
+2021-08-06 02:50 - Uploading file .obsidian/graph.json
+2021-08-06 02:50 - Upload complete .obsidian/graph.json
+2021-08-06 02:50 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:50 - Fully synced
+2021-08-06 02:50 - Uploading file .obsidian/graph.json
+2021-08-06 02:50 - Upload complete .obsidian/graph.json
+2021-08-06 02:50 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:50 - Fully synced
+2021-08-06 02:50 - Uploading file .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:50 - Upload complete .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:50 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:51 - Fully synced
+2021-08-06 02:51 - Uploading file .obsidian/graph.json
+2021-08-06 02:51 - Upload complete .obsidian/graph.json
+2021-08-06 02:51 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:51 - Fully synced
+2021-08-06 02:51 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:51 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:51 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:51 - Uploading file .obsidian/graph.json
+2021-08-06 02:51 - Upload complete .obsidian/graph.json
+2021-08-06 02:51 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:51 - Fully synced
+2021-08-06 02:51 - Uploading file 0-Inbox/Untitled.md
+2021-08-06 02:51 - Upload complete 0-Inbox/Untitled.md
+2021-08-06 02:51 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Untitled.md
+2021-08-06 02:51 - Rejected server change 0-Inbox/Untitled.md
+2021-08-06 02:51 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:51 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:51 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:51 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:51 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:51 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:51 - Uploading file 0-Inbox/Untitled.md
+2021-08-06 02:51 - Upload complete 0-Inbox/Untitled.md
+2021-08-06 02:51 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Untitled.md
+2021-08-06 02:51 - Rejected server change 0-Inbox/Untitled.md
+2021-08-06 02:52 - Uploading file 0-Inbox/Untitled.md
+2021-08-06 02:52 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Untitled.md
+2021-08-06 02:52 - Upload complete 0-Inbox/Untitled.md
+2021-08-06 02:52 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:52 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:52 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:52 - Uploading file 0-Inbox/Untitled.md
+2021-08-06 02:52 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Untitled.md
+2021-08-06 02:52 - Upload complete 0-Inbox/Untitled.md
+2021-08-06 02:52 - Fully synced
+2021-08-06 02:52 - Uploading file 0-Inbox/Untitled.md
+2021-08-06 02:52 - Upload complete 0-Inbox/Untitled.md
+2021-08-06 02:52 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Untitled.md
+2021-08-06 02:52 - Fully synced
+2021-08-06 02:52 - Uploading file .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:52 - Upload complete .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:52 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:52 - Fully synced
+2021-08-06 02:53 - Uploading file .obsidian/graph.json
+2021-08-06 02:53 - Upload complete .obsidian/graph.json
+2021-08-06 02:53 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:53 - Fully synced
+2021-08-06 02:53 - Uploading file .obsidian/graph.json
+2021-08-06 02:53 - Upload complete .obsidian/graph.json
+2021-08-06 02:53 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:53 - Fully synced
+2021-08-06 02:53 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:53 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:53 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:53 - Uploading file .obsidian/graph.json
+2021-08-06 02:53 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:53 - Upload complete .obsidian/graph.json
+2021-08-06 02:53 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:53 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:53 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:53 - Fully synced
+2021-08-06 02:53 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:53 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:53 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:53 - Fully synced
+2021-08-06 02:53 - Uploading file 0-Inbox/Untitled.md
+2021-08-06 02:53 - Upload complete 0-Inbox/Untitled.md
+2021-08-06 02:53 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Untitled.md
+2021-08-06 02:53 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:53 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:53 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:53 - Fully synced
+2021-08-06 02:53 - Uploading file .obsidian/graph.json
+2021-08-06 02:53 - Upload complete .obsidian/graph.json
+2021-08-06 02:53 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:53 - Fully synced
+2021-08-06 02:54 - Uploading file .obsidian/graph.json
+2021-08-06 02:54 - Upload complete .obsidian/graph.json
+2021-08-06 02:54 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:54 - Fully synced
+2021-08-06 02:54 - Uploading file .obsidian/graph.json
+2021-08-06 02:54 - Upload complete .obsidian/graph.json
+2021-08-06 02:54 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/graph.json
+2021-08-06 02:54 - Fully synced
+2021-08-06 02:54 - Deleting remote file 0-Inbox/Untitled.md
+2021-08-06 02:54 - Uploading file 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:54 - Upload complete 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:54 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:54 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:54 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:54 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:54 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:54 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:54 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:54 - Fully synced
+2021-08-06 02:54 - Uploading file 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:54 - Upload complete 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:54 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:54 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:54 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:54 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:55 - Uploading file 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Upload complete 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:55 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:55 - Fully synced
+2021-08-06 02:55 - Uploading file 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Upload complete 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Rejected server change 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Uploading file 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Upload complete 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Fully synced
+2021-08-06 02:55 - Deleting remote file 0-Inbox/Obsidian Mobile.md
+2021-08-06 02:55 - Uploading file 2-Slipbox/Obsidian Mobile.md
+2021-08-06 02:55 - Upload complete 2-Slipbox/Obsidian Mobile.md
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Obsidian Mobile.md
+2021-08-06 02:55 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:55 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:55 - Uploading file .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:55 - Upload complete .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:55 - Fully synced
+2021-08-06 02:55 - Deleting remote file 0-Inbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Uploading file 2-Slipbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Upload complete 2-Slipbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Obsidian Graph Filters.md
+2021-08-06 02:55 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:55 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:55 - Deleting remote file 0-Inbox/iOS Shortcuts for Obsidian.md
+2021-08-06 02:55 - Uploading file 2-Slipbox/iOS Shortcuts for Obsidian.md
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/iOS Shortcuts for Obsidian.md
+2021-08-06 02:55 - Upload complete 2-Slipbox/iOS Shortcuts for Obsidian.md
+2021-08-06 02:55 - Uploading file .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:55 - Upload complete .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:55 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-activity-history/data.json
+2021-08-06 02:56 - Deleting remote file 0-Inbox/Instapaper.md
+2021-08-06 02:56 - Uploading file 2-Slipbox/Instapaper.md
+2021-08-06 02:56 - Upload complete 2-Slipbox/Instapaper.md
+2021-08-06 02:56 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Instapaper.md
+2021-08-06 02:56 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Uploading file .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:56 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:56 - Upload complete .obsidian/plugins/obsidian-commits/data.json
+2021-08-06 02:56 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Fully synced
+2021-08-06 02:56 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Fully synced
+2021-08-06 02:56 - Uploading file 2-Slipbox/Windows Developer Environment.md
+2021-08-06 02:56 - Upload complete 2-Slipbox/Windows Developer Environment.md
+2021-08-06 02:56 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Windows Developer Environment.md
+2021-08-06 02:56 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:56 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:56 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:56 - Fully synced
+2021-08-06 02:56 - Uploading file 2-Slipbox/Windows Developer Environment.md
+2021-08-06 02:56 - Upload complete 2-Slipbox/Windows Developer Environment.md
+2021-08-06 02:56 - Server pushed [Jimmy Briggs IPhone 11] 2-Slipbox/Windows Developer Environment.md
+2021-08-06 02:56 - Fully synced
+2021-08-06 02:56 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:56 - Fully synced
+2021-08-06 02:57 - Uploading file 4-Logs/README.md
+2021-08-06 02:57 - Upload complete 4-Logs/README.md
+2021-08-06 02:57 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/README.md
+2021-08-06 02:57 - Uploading file 4-Logs/Changelog.md
+2021-08-06 02:57 - Upload complete 4-Logs/Changelog.md
+2021-08-06 02:57 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/Changelog.md
+2021-08-06 02:57 - Fully synced
+2021-08-06 02:57 - Uploading file 4-Logs/README.md
+2021-08-06 02:57 - Upload complete 4-Logs/README.md
+2021-08-06 02:57 - Server pushed [Jimmy Briggs IPhone 11] 4-Logs/README.md
+2021-08-06 02:57 - Fully synced
+2021-08-06 02:57 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:57 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:57 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:57 - Fully synced
+2021-08-06 02:57 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:57 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:57 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:57 - Fully synced
+2021-08-06 02:58 - Uploading file .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:58 - Upload complete .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:58 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/recent-files-obsidian/data.json
+2021-08-06 02:58 - Fully synced
+2021-08-06 02:58 - Uploading file .obsidian/plugins/obsidian-vault-changelog/data.json
+2021-08-06 02:58 - Upload complete .obsidian/plugins/obsidian-vault-changelog/data.json
+2021-08-06 02:58 - Server pushed [Jimmy Briggs IPhone 11] .obsidian/plugins/obsidian-vault-changelog/data.json
+2021-08-06 02:58 - Fully synced
+
+
 

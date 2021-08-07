@@ -51,7 +51,7 @@ Now that we’ve defined two endpoints (`/echo` and `/plot`), we can use `entryp
 
 First, we need to configure the logger package:
 
-```
+```R
 # entrypoint.R
 library(plumber)
 
@@ -68,7 +68,7 @@ The `log_appender()` function is used to specify which appender method is used f
 
 Now, we need to create a helper function that we will use when creating log entries:
 
-```
+```r
 convert_empty <- function(string) {
   if (string == "") {
     "-"
@@ -80,7 +80,7 @@ convert_empty <- function(string) {
 
 This function takes an empty string and converts it into a dash (`"-"`). We will use this to ensure that empty log values still get recorded so that it is easy to read the log files. We’re now ready to create our plumber router and register the hooks necessary for logging:
 
-```
+```r
 pr <- plumb("plumber.R")
 
 pr$registerHooks(

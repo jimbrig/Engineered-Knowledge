@@ -5757,7 +5757,7 @@
     "2-Slipbox/Obsidian Setup.md": {
       "size": 685,
       "tags": 3,
-      "links": 17
+      "links": 18
     },
     "2-Slipbox/Obsidian Taxonomy.md": {
       "size": 806,
@@ -5990,7 +5990,7 @@
       "links": 10
     },
     "4-Logs/SyncLog.md": {
-      "size": 86660,
+      "size": 123203,
       "tags": 0,
       "links": 0
     },
@@ -6060,9 +6060,9 @@
       "links": 0
     },
     "2-Slipbox/How to Cleanup Windows from Command Line.md": {
-      "size": 2468,
-      "tags": 0,
-      "links": 0
+      "size": 2842,
+      "tags": 3,
+      "links": 3
     },
     "2-Slipbox/SFC and DISM Commands.md": {
       "size": 6771,
@@ -7349,23 +7349,68 @@
       "tags": 1,
       "links": 1
     },
-    "0-Inbox/HashiCorp Terraform.md": {
+    "2-Slipbox/Automate Getting Help.md": {
+      "size": 767,
+      "tags": 1,
+      "links": 2
+    },
+    "2-Slipbox/HashiCorp Terraform 1.md": {
       "size": 4332,
       "tags": 1,
       "links": 1
+    },
+    "3-Resources/Templates/Highlight-Template.md": {
+      "size": 8,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Mobile-Shares.md": {
+      "size": 437,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Daily-Notes/2021-08-06.md": {
+      "size": 1200,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Obsidian Mobile.md": {
+      "size": 215,
+      "tags": 0,
+      "links": 0
+    },
+    "2-Slipbox/Obsidian Graph Filters.md": {
+      "size": 365,
+      "tags": 2,
+      "links": 1
+    },
+    "2-Slipbox/iOS Shortcuts for Obsidian.md": {
+      "size": 1075,
+      "tags": 4,
+      "links": 6
+    },
+    "2-Slipbox/Instapaper.md": {
+      "size": 540,
+      "tags": 1,
+      "links": 3
+    },
+    "3-Reference/Obsidian Chrome Clipper.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 905,
-      "Create": 657,
-      "Link": 728,
-      "Expand": 89
+      "Refactor": 906,
+      "Create": 667,
+      "Link": 741,
+      "Expand": 91
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 100,
+      "0": 126,
       "1": 767,
       "2": 55,
       "3": 156,
@@ -7399,12 +7444,14 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 184
+      "Sun": 210
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/SyncLog.md\"> SyncLog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Packages Install Script.md\"> R Packages Install Script </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
@@ -7453,11 +7500,19 @@
         "<a class=\"internal-link\" href=\"Development/index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"Development/Command Line/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Desired State Oriented Programming.md\"> Desired State Oriented Programming </a>",
-        "<a class=\"internal-link\" href=\"Development/Web Development/Web Browsers/Microsoft Edge/Edge - Automatic HTTPS Feature.md\"> Edge - Automatic HTTPS Feature </a>",
-        "<a class=\"internal-link\" href=\"Boxstarter.md\"> Boxstarter </a>"
+        "<a class=\"internal-link\" href=\"Development/Fundamentals/Programming/Desired State Oriented Programming.md\"> Desired State Oriented Programming </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Reference/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Instapaper.md\"> Instapaper </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/iOS Shortcuts for Obsidian.md\"> iOS Shortcuts for Obsidian </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Graph Filters.md\"> Obsidian Graph Filters </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Mobile.md\"> Obsidian Mobile </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Mobile-Shares.md\"> Mobile-Shares </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Highlight-Template.md\"> Highlight-Template </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform 1.md\"> HashiCorp Terraform 1 </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>",
@@ -7498,17 +7553,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Ubuntu.md\"> Ubuntu </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Typora.md\"> Typora </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Tools - Todoist.md\"> Tools - Todoist </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Tools - Outlook.md\"> Tools - Outlook </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Tools - Github.md\"> Tools - Github </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/TeX.md\"> TeX </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Swift.md\"> Swift </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/SSH.md\"> SSH </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/SQL.md\"> SQL </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/SFC.md\"> SFC </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Scoop.md\"> Scoop </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Scala.md\"> Scala </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/SASS.md\"> SASS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Rust.md\"> Rust </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Tools - Outlook.md\"> Tools - Outlook </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinSCP.md\"> WinSCP </a>",
@@ -7564,6 +7609,12 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Atom.md\"> Atom </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform 1.md\"> HashiCorp Terraform 1 </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Graph Filters.md\"> Obsidian Graph Filters </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/iOS Shortcuts for Obsidian.md\"> iOS Shortcuts for Obsidian </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Instapaper.md\"> Instapaper </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>",
@@ -7608,13 +7659,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Managing projects with GTD.md\"> Managing projects with GTD </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-02.md\"> 2021-08-02 </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Managing projects with GTD.md\"> Managing projects with GTD </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Tools Package Hidden Gems in R.md\"> Tools Package Hidden Gems in R </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Daily Notes as Your Scratch Space.md\"> Daily Notes as Your Scratch Space </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7630,6 +7675,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Xamarin.md\"> Xamarin </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/WordPress.md\"> WordPress </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/WinGet.md\"> WinGet </a>",
@@ -7679,10 +7725,16 @@
         "<a class=\"internal-link\" href=\"0-Inbox/npm.md\"> npm </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Ninite.md\"> Ninite </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Nginx.md\"> Nginx </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/NextJS.md\"> NextJS </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Nginx.md\"> Nginx </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform 1.md\"> HashiCorp Terraform 1 </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Graph Filters.md\"> Obsidian Graph Filters </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/iOS Shortcuts for Obsidian.md\"> iOS Shortcuts for Obsidian </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Instapaper.md\"> Instapaper </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-05.md\"> 2021-08-05 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>",
@@ -7726,14 +7778,7 @@
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/What gets Measured gets Managed.md\"> What gets Measured gets Managed </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Code Comments.md\"> Highlights - Code Comments </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Yarn.md\"> Yarn </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Focus on Writing.md\"> Focus on Writing </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/What gets Measured gets Managed.md\"> What gets Measured gets Managed </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

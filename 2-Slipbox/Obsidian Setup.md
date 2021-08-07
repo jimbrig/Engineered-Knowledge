@@ -8,11 +8,9 @@ Tags: [ "#Obsidian", "#PKM", "#Guides" ]
 
 # Obsidian Setup
 
-## Requirements
-
 ## Goals
 
-## Current Setup
+## Vault Infrastructure 
 
 Home Note: [000 - INDEX](../1-Maps-of-Content/000%20-%20INDEX.md)
 
@@ -40,4 +38,19 @@ Notes with a specific job or purpose:
 - [MASTER INDEX](../1-Maps-of-Content/000%20-%20INDEX.md)
 - [README](README.md)
 
+## Knowledge Management 
+
+## Workflows
+
+### Mobile
+
+ I have implemented a suite of [[iOS Shortcuts for Obsidian]] that help automate my Workflows on a mobile device. 
+
+Typical scenarios:
+
+- Send and Append a link from browser to bullet list in an Obsidian daily note (or note of my choosing?)
+
+
+
+[iOS Shortcuts - Share your ideas! - Share & showcase - Obsidian Forum](https://forum.obsidian.md/t/ios-shortcuts-share-your-ideas/15149)
 

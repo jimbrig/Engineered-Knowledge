@@ -1,3 +1,13 @@
+---
+Creation Date: 2021-05-02 19:42
+Last Modified Date: Friday 6th August 2021 00:15:46
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: How-to-Cleanup-Windows-from Command-Line
+Tags: ["#Windows", "#Computer", "#Article"]
+---
+
+# How to Cleanup Windows from the Command Line
+
 A clean and tidy computer is hard to maintain over time on windows, and therefore one must be tediously maintaining their system for optimal performance. This means running a scan for malware, cleaning your hard drive using [cleanmgr](https://www.file.net/info/command.html?q=cleanmgr) and [sfc /scannow](https://www.file.net/info/command.html?q=sfc%20%2Fscannow), [uninstalling programs](https://www.file.net/info/uninstall.html?q=unnecessary%20programs) that you no longer need, checking for *autostart* programs (using [msconfig](https://www.file.net/info/command.html?q=msconfig)) and enabling Windows' [Automatic Update](https://www.file.net/info/command.html?q=wuauclt%20%2FShowWindowsUpdate). Always remember to perform periodic backups, or at least to set restore points.
 
 Should you experience an actual problem, try to recall the last thing you did, or the last thing you installed before the problem appeared for the first time. Use the [resmon](https://www.file.net/info/command.html?q=resmon) command to identify the processes that are causing your problem. Even for serious problems, rather than reinstalling Windows, you are better off repairing of your installation or, for Windows 8 and later versions, executing the [DISM.exe /Online /Cleanup-image /Restorehealth](https://www.file.net/info/command.html?q=DISM.exe%20%2FOnline%20%2FCleanup-image%20%2FRestorehealth) command. This allows you to repair the operating system without losing data.
@@ -23,3 +33,10 @@ Commands:
 - `cleanmgr`
 - `sfc /scannow`
 - `DISM.exe /Online /Cleanup-image /Restorehealth`
+
+***
+
+Links:  [[Windows Terminal]] | [[050 - Computer]]  | [[MOC - Command Line]]
+
+Sources:
+

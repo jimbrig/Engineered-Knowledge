@@ -7,8 +7,11 @@
         "id": "55465ee10c1a2f44",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "3-Reference/Obsidian Chrome Clipper.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -89,8 +92,9 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "3-Reference/Obsidian Chrome Clipper.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -131,6 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3-Reference/Obsidian Chrome Clipper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3-Reference/Obsidian Chrome Clipper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "3-Reference/Obsidian Chrome Clipper.md"
+              }
             }
           },
           {
@@ -201,15 +209,15 @@
   },
   "active": "55465ee10c1a2f44",
   "lastOpenFiles": [
-    "0-Inbox/Untitled.md",
+    "3-Reference/Untitled.md",
     "2-Slipbox/README.md",
+    "0-Inbox/Untitled.md",
     "3-Resources/README.md",
     "3-Resources/Daily-Notes/2021-08-05.md",
     "2-Slipbox/Untitled.md",
     "0-Inbox/README.md",
     "0-Inbox/WinSCP.md",
     "0-Inbox/Virtual Machines.md",
-    "0-Inbox/Time Block Planner.md",
-    "0-Inbox/Static Site Generators.md"
+    "0-Inbox/Time Block Planner.md"
   ]
 }

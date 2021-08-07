@@ -15,7 +15,7 @@ Files:
 - [Sync Log](./Synclog.md)
 - [Unlinked Files](./Unlinked-Files.md)
 - [Unresolved Links](./Unresolved-Links.md)
-- [Vault-Consistency-Report](./Vault-Consistency-Report.md)
+- [Vault-Consistensy-Report](./Vault-Consistensy-Report.md)
 
 
 
