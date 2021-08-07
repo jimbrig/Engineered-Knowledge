@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d07aa109c637cb80",
+        "id": "55465ee10c1a2f44",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-Inbox/HashiCorp Terraform.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -92,7 +89,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-Inbox/HashiCorp Terraform.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -135,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/HashiCorp Terraform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/HashiCorp Terraform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,9 +157,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "0-Inbox/HashiCorp Terraform.md"
-              }
+              "state": {}
             }
           },
           {
@@ -207,7 +199,7 @@
     "direction": "horizontal",
     "width": 465
   },
-  "active": "d07aa109c637cb80",
+  "active": "55465ee10c1a2f44",
   "lastOpenFiles": [
     "0-Inbox/Untitled.md",
     "2-Slipbox/README.md",
