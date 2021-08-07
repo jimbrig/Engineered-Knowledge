@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-08-07-Obsidian Clipper 2",
+      "path": "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md"
+    },
+    {
       "basename": "Obsidian Chrome Clipper",
       "path": "3-Reference/Obsidian Chrome Clipper.md"
+    },
+    {
+      "basename": "2021-08-07-Obsidian Clipper",
+      "path": "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper.md"
+    },
+    {
+      "basename": "2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support",
+      "path": "3-Reference/Edge-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md"
+    },
+    {
+      "basename": "2021-08-07-Obsidian Clipper 1",
+      "path": "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 1.md"
     },
     {
       "basename": "README",
@@ -183,22 +199,6 @@
     {
       "basename": "MOC - Setup",
       "path": "1-Maps-of-Content/MOC - Setup.md"
-    },
-    {
-      "basename": "Windows Developer Environment",
-      "path": "2-Slipbox/Windows Developer Environment.md"
-    },
-    {
-      "basename": "Vault-Consistensy-Report",
-      "path": "4-Logs/Vault-Consistensy-Report.md"
-    },
-    {
-      "basename": "Medium",
-      "path": "0-Inbox/Placeholders/Medium.md"
-    },
-    {
-      "basename": "Dann Felker",
-      "path": "2-Slipbox/Dann Felker.md"
     }
   ],
   "omittedPaths": [],
