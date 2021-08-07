@@ -6,11 +6,19 @@
     },
     {
       "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+    },
+    {
+      "basename": "README",
       "path": "2-Slipbox/README.md"
     },
     {
       "basename": "README",
       "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "2021-08-07",
+      "path": "3-Resources/Daily-Notes/2021-08-07.md"
     },
     {
       "basename": "2021-08-05",
@@ -113,10 +121,6 @@
       "path": "2-Slipbox/SFC and DISM Commands.md"
     },
     {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
-    },
-    {
       "basename": "Shiny Apps as Packages in R",
       "path": "2-Slipbox/Shiny Apps as Packages in R.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Dann Felker",
       "path": "2-Slipbox/Dann Felker.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "2-Slipbox/Markdown.md"
     }
   ],
   "omittedPaths": [],
