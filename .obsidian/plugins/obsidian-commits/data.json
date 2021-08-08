@@ -5997,7 +5997,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 329
+      "links": 332
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7438,19 +7438,34 @@
       "size": 0,
       "tags": 0,
       "links": 3
+    },
+    "3-Resources/Dictionaries/Realization.md": {
+      "size": 914,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Derivation.md": {
+      "size": 725,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Deduction.md": {
+      "size": 796,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 912,
-      "Create": 677,
-      "Link": 752,
+      "Create": 680,
+      "Link": 753,
       "Expand": 94
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 148,
+      "0": 152,
       "1": 767,
       "2": 55,
       "3": 156,
@@ -7484,7 +7499,7 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 240
+      "Sun": 244
     }
   },
   "recentCommits": {
@@ -7543,6 +7558,9 @@
         "<a class=\"internal-link\" href=\"Development/index.md\"> index </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Deduction.md\"> Deduction </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Derivation.md\"> Derivation </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Realization.md\"> Realization </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md\"> 2021-08-07-Obsidian Clipper 2 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper.md\"> 2021-08-07-Obsidian Clipper </a>",
@@ -7590,10 +7608,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Xamarin.md\"> Xamarin </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WordPress.md\"> WordPress </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinGet.md\"> WinGet </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WindowsPE.md\"> WindowsPE </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Windows SDK.md\"> Windows SDK </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Windows Insider.md\"> Windows Insider </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Windows APK.md\"> Windows APK </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WindowsPE.md\"> WindowsPE </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"3-Reference/Subscriptions.md\"> Subscriptions </a>",
@@ -7768,6 +7783,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7817,8 +7833,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Yarn.md\"> Yarn </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
