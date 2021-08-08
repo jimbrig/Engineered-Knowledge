@@ -7409,28 +7409,8 @@
       "tags": 0,
       "links": 3
     },
-    "0-Inbox/Subscriptions.md": {
-      "size": 1453,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Tweaking.com Windows Repair Checklist.md": {
-      "size": 1412,
-      "tags": 0,
-      "links": 0
-    },
-    "0-Inbox/Windows Links.md": {
-      "size": 2231,
-      "tags": 0,
-      "links": 0
-    },
     "3-Reference/Edge-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md": {
       "size": 322,
-      "tags": 0,
-      "links": 0
-    },
-    "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 1.md": {
-      "size": 118,
       "tags": 0,
       "links": 0
     },
@@ -7439,7 +7419,22 @@
       "tags": 0,
       "links": 0
     },
-    "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md": {
+    "2-Slipbox/Tweaking.com Windows Repair Checklist.md": {
+      "size": 1412,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Windows Links.md": {
+      "size": 2231,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Subscriptions.md": {
+      "size": 1453,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Resources/Daily-Notes/2021-08-08.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -7447,15 +7442,15 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 907,
-      "Create": 676,
+      "Refactor": 912,
+      "Create": 677,
       "Link": 748,
       "Expand": 93
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 137,
+      "0": 143,
       "1": 767,
       "2": 55,
       "3": 156,
@@ -7489,7 +7484,7 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 229
+      "Sun": 235
     }
   },
   "recentCommits": {
@@ -7548,6 +7543,7 @@
         "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md\"> 2021-08-07-Obsidian Clipper 2 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper.md\"> 2021-08-07-Obsidian Clipper </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 1.md\"> 2021-08-07-Obsidian Clipper 1 </a>",
@@ -7597,10 +7593,12 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WindowsPE.md\"> WindowsPE </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Windows SDK.md\"> Windows SDK </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Windows Insider.md\"> Windows Insider </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Windows APK.md\"> Windows APK </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Windows 11.md\"> Windows 11 </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Windows APK.md\"> Windows APK </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"3-Reference/Subscriptions.md\"> Subscriptions </a>",
+        "<a class=\"internal-link\" href=\"3-Reference/Windows Links.md\"> Windows Links </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Tweaking.com Windows Repair Checklist.md\"> Tweaking.com Windows Repair Checklist </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinSCP.md\"> WinSCP </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Virtual Machines.md\"> Virtual Machines </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Time Block Planner.md\"> Time Block Planner </a>",
@@ -7648,10 +7646,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C.md\"> C </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/BIOS.md\"> BIOS </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Beekeeper.md\"> Beekeeper </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Bash.md\"> Bash </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Azure CLI.md\"> Azure CLI </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/AWS-CLI.md\"> AWS-CLI </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Atom.md\"> Atom </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Bash.md\"> Bash </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
@@ -7720,6 +7715,8 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 1.md\"> 2021-08-07-Obsidian Clipper 1 </a>",
+        "<a class=\"internal-link\" href=\"3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md\"> 2021-08-07-Obsidian Clipper 2 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Xamarin.md\"> Xamarin </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/WordPress.md\"> WordPress </a>",
@@ -7768,9 +7765,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Objective-C.md\"> Objective-C </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/NuGet.md\"> NuGet </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/npm.md\"> npm </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Ninite.md\"> Ninite </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Nginx.md\"> Nginx </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>",

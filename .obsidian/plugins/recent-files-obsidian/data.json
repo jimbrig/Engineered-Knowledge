@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "2021-08-07-Obsidian Clipper 2",
-      "path": "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md"
+      "basename": "GPG",
+      "path": "0-Inbox/Placeholders/GPG.md"
+    },
+    {
+      "basename": "Git",
+      "path": "0-Inbox/Placeholders/Git.md"
+    },
+    {
+      "basename": "020 - Development",
+      "path": "1-Maps-of-Content/020 - Development.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "Mobile-Shares",
+      "path": "3-Resources/Mobile-Shares.md"
+    },
+    {
+      "basename": "2021-08-08",
+      "path": "3-Resources/Daily-Notes/2021-08-08.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "Windows Links",
+      "path": "3-Reference/Windows Links.md"
+    },
+    {
+      "basename": "Tweaking.com Windows Repair Checklist",
+      "path": "2-Slipbox/Tweaking.com Windows Repair Checklist.md"
+    },
+    {
+      "basename": "Subscriptions",
+      "path": "3-Reference/Subscriptions.md"
     },
     {
       "basename": "Obsidian Chrome Clipper",
@@ -17,22 +61,6 @@
       "path": "3-Reference/Edge-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md"
     },
     {
-      "basename": "2021-08-07-Obsidian Clipper 1",
-      "path": "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 1.md"
-    },
-    {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "2-Slipbox/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/README.md"
-    },
-    {
       "basename": "2021-08-07",
       "path": "3-Resources/Daily-Notes/2021-08-07.md"
     },
@@ -43,10 +71,6 @@
     {
       "basename": "HashiCorp Terraform",
       "path": "2-Slipbox/HashiCorp Terraform.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "WinSCP",
@@ -113,10 +137,6 @@
       "path": "2-Slipbox/Google Cloud Setup Notes.md"
     },
     {
-      "basename": "020 - Development",
-      "path": "1-Maps-of-Content/020 - Development.md"
-    },
-    {
       "basename": "RStudio Configuration Notes",
       "path": "2-Slipbox/RStudio Configuration Notes.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "README",
       "path": "3-Resources/Gallery/README.md"
-    },
-    {
-      "basename": "Windows Command Line Commands Overview",
-      "path": "2-Slipbox/Windows Command Line Commands Overview.md"
-    },
-    {
-      "basename": "Highlights - What Blog Platform Should I Use",
-      "path": "3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md"
-    },
-    {
-      "basename": "What Blog Platform Should I Use",
-      "path": "2-Slipbox/What Blog Platform Should I Use.md"
-    },
-    {
-      "basename": "Debugging Windows Search Issues and High CPU Usage",
-      "path": "2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md"
-    },
-    {
-      "basename": "MOC - Setup",
-      "path": "1-Maps-of-Content/MOC - Setup.md"
     }
   ],
   "omittedPaths": [],

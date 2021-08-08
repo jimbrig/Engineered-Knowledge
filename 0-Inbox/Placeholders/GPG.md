@@ -8,6 +8,8 @@ Tags: []
 
 # GPG
 
+[GPG](), also known as [GnuPG]()
+
 ***
 
 Links: 
