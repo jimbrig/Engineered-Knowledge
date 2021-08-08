@@ -5997,7 +5997,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 332
+      "links": 333
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7455,23 +7455,23 @@
       "links": 0
     },
     "0-Inbox/S-CLI.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
+      "size": 6190,
+      "tags": 3,
+      "links": 5
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 913,
       "Create": 681,
-      "Link": 753,
-      "Expand": 94
+      "Link": 756,
+      "Expand": 95
     }
   },
   "dailyCommits": {
     "/": {
       "0": 152,
-      "1": 769,
+      "1": 773,
       "2": 55,
       "3": 156,
       "4": 7,
@@ -7504,12 +7504,13 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 246
+      "Sun": 250
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7559,8 +7560,7 @@
         "<a class=\"internal-link\" href=\"Development/Azure/Principles of Azure Resource Groups.md\"> Principles of Azure Resource Groups </a>",
         "<a class=\"internal-link\" href=\"Development/PowerShell/What is PowerShell.md\"> What is PowerShell </a>",
         "<a class=\"internal-link\" href=\"Keyboard Shortcuts in Microsoft Edge.md\"> Keyboard Shortcuts in Microsoft Edge </a>",
-        "<a class=\"internal-link\" href=\"Windows/index-windows.md\"> index-windows </a>",
-        "<a class=\"internal-link\" href=\"Development/index.md\"> index </a>"
+        "<a class=\"internal-link\" href=\"Windows/index-windows.md\"> index-windows </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
@@ -7669,6 +7669,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Beekeeper.md\"> Beekeeper </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
@@ -7718,8 +7719,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Kanbans/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7788,6 +7788,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>",
@@ -7836,9 +7838,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/WinSCP.md\"> WinSCP </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

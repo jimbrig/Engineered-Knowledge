@@ -328,11 +328,11 @@ Custom providers require a few things:
 * [Eray Aydın (erayaydin)](https://github.com/erayaydin/)
 * [Murilo Santana (mvrilo)](https://github.com/mvrilo/)
 * [Jun He (knarfeh)](https://github.com/knarfeh/)
-* [Xavier Bruhiere (hackliff)](github.com/hackliff)
+* [Xavier Bruhiere (hackliff)](https://github.com/hackliff)
 
 ***
 
-Links: [[CLI Tools]] | [[Command Line - CMD]]
+Links: [[CLI Tools]] | [[MOC - Command Line]] | [[Tools - Github]] | [[020 - Development]]
 
 Sources:
 
