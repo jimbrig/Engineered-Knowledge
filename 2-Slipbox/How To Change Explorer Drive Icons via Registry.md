@@ -3,7 +3,7 @@ Creation Date: 2021-07-22 16:13
 Last Modified Date: Thursday 22nd July 2021 16:13:24
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: RegistryDriveIcons
-Tags: [ "#Windows", "#Guides", "#Configuration", "#Computer" ]
+Tags: [ "#Windows", "#Guide", "#Configuration", "#Computer" ]
 ---
 
 # How To Change Explorer Drive Icons via Registry

@@ -7,8 +7,11 @@
         "id": "55465ee10c1a2f44",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-Slipbox/Database Documentation.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#API",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +72,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-Slipbox/Database Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-Slipbox/Database Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +129,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-Slipbox/Database Documentation.md"
+              }
             }
           },
           {
@@ -175,15 +183,15 @@
   },
   "active": "55465ee10c1a2f44",
   "lastOpenFiles": [
+    "2-Slipbox/Database Documentation.md",
+    "1-Maps-of-Content/README.md",
+    "0-Inbox/Placeholders/gcloud SDK.md",
     "0-Inbox/S-CLI.md",
     "0-Inbox/Untitled.md",
     "2-Slipbox/You Need a Status Page.md",
     "2-Slipbox/You Need a Blog.md",
     "2-Slipbox/Why you need to step out of your comfort zone.md",
     "2-Slipbox/What Blog Platform Should I Use.md",
-    "2-Slipbox/Web Browsers.md",
-    "2-Slipbox/Using diskusage Command in Windows.md",
-    "0-Inbox/Placeholders/GPG.md",
-    "3-Resources/Dictionaries/Deduction.md"
+    "2-Slipbox/Web Browsers.md"
   ]
 }

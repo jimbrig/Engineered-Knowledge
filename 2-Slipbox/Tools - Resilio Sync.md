@@ -7,7 +7,7 @@ Tags:
   [
     "#Tools",
     "#Windows",
-    "#Resources",
+    "#Resource",
     "#Computer",
     "#Systems",
     "#Videos"

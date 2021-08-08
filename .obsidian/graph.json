@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-file: Vault-Consistensy-Report -file:Changelog -file:Unresolved-Links -file:Unlinked-Files",
   "showTags": true,
   "showAttachments": true,
@@ -53,6 +53,6 @@
   "repelStrength": 9.45054945054945,
   "linkStrength": 0.296703296703297,
   "linkDistance": 247,
-  "scale": 0.09578019222924646,
+  "scale": 0.09578019222924651,
   "close": true
 }

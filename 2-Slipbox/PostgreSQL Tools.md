@@ -1,7 +1,7 @@
 ---
 creation date: 2021-04-24 11:37
 modification date: Saturday 24th April 2021 11:37:38
-tags: ["#dba", "#postgres", "#dev"]
+tags: [ "#Database", "#PostgreSQL", "#Development" ]
 author: Jimmy Briggs
 ---
 

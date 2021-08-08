@@ -3,7 +3,7 @@ Creation Date: 2021-07-21 00:13
 Last Modified Date: Wednesday 21st July 2021 00:13:27
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Obsidian and PKM Resources
-Tags: [ "#Obsidian", "#PKM", "#Lists", "#Resources" ]
+Tags: [ "#Obsidian", "#PKM", "#List", "#Resource" ]
 ---
 
 # Obsidian & PKM Resources

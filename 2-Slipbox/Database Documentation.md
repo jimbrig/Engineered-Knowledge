@@ -1,7 +1,7 @@
 ---
 creation date: 2021-04-20 10:59
 modification date: Tuesday 20th April 2021 10:59:08
-tags: ["#work", "#pow", "#r"]
+tags: ["#Work", "#R", "#Database", "#PostgreSQL"]
 author: Jimmy Briggs
 ---
 

@@ -3,7 +3,7 @@ Creation Date: 2021-07-26 17:39
 Last Modified Date: Monday 26th July 2021 17:40:26
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Focused Note Taking via the Cornell Notes Method
-Tags: [ "#Productivity", "#PKM", "#NoteTaking", "#Guides" ]
+Tags: [ "#Productivity", "#PKM", "#NoteTaking", "#Guide" ]
 ---
 
 # Focused Note Taking via the Cornell Notes Method

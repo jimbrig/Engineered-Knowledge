@@ -3,7 +3,7 @@ Creation Date: 2021-07-22 16:04
 Last Modified Date: Thursday 22nd July 2021 16:04:24
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Windows Registry Locations
-Tags: [ "#Windows", "#Configuration", "#Computer", "#Lists" ]
+Tags: [ "#Windows", "#Configuration", "#Computer", "#List" ]
 ---
 
 # Windows Registry Locations `fas:Windows`

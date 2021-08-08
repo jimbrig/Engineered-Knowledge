@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Database Documentation",
+      "path": "2-Slipbox/Database Documentation.md"
+    },
+    {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
+    },
+    {
+      "basename": "gcloud SDK",
+      "path": "0-Inbox/Placeholders/gcloud SDK.md"
+    },
+    {
       "basename": "S-CLI",
       "path": "0-Inbox/S-CLI.md"
     },
@@ -55,10 +67,6 @@
     {
       "basename": "README",
       "path": "3-Resources/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
     },
     {
       "basename": "README",
@@ -191,14 +199,6 @@
     {
       "basename": "Run Command to Edit Environment Variables",
       "path": "2-Slipbox/Run Command to Edit Environment Variables.md"
-    },
-    {
-      "basename": "SFC and DISM Commands",
-      "path": "2-Slipbox/SFC and DISM Commands.md"
-    },
-    {
-      "basename": "Shiny Apps as Packages in R",
-      "path": "2-Slipbox/Shiny Apps as Packages in R.md"
     }
   ],
   "omittedPaths": [],

@@ -10,7 +10,7 @@ Tags:
     "#Tools",
     "#Systems",
     "#Configuration",
-    "#Guides"
+    "#Guide"
   ]
 ---
 

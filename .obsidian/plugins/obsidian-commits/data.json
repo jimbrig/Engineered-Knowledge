@@ -5997,7 +5997,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 333
+      "links": 275
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6126,7 +6126,7 @@
     },
     "2-Slipbox/Plumber Logging.md": {
       "size": 4200,
-      "tags": 3,
+      "tags": 2,
       "links": 1
     },
     "2-Slipbox/Plumber Resources.md": {
@@ -6211,7 +6211,7 @@
     },
     "2-Slipbox/Database Documentation.md": {
       "size": 1028,
-      "tags": 3,
+      "tags": 4,
       "links": 4
     },
     "2-Slipbox/Obsidian Git Plugin Notes.md": {
@@ -7462,9 +7462,9 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 914,
+      "Refactor": 916,
       "Create": 681,
-      "Link": 756,
+      "Link": 757,
       "Expand": 95
     }
   },
@@ -7486,7 +7486,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 400,
+      "16": 403,
       "17": 95,
       "18": 34,
       "19": 60,
@@ -7504,7 +7504,7 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 251
+      "Sun": 254
     }
   },
   "recentCommits": {
@@ -7669,6 +7669,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Beekeeper.md\"> Beekeeper </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Database Documentation.md\"> Database Documentation </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
@@ -7718,8 +7719,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Kanbans/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7862,9 +7862,11 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Mindsweep-Note-Template.md\"> Mindsweep-Note-Template </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Project Management Pipeline.md\"> Project Management Pipeline </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Plumber Logging.md\"> Plumber Logging </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7914,7 +7916,6 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ]
     }
