@@ -7,11 +7,8 @@
         "id": "55465ee10c1a2f44",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-Inbox/S-CLI.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220
+    "width": 417
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -100,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/S-CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/S-CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +123,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "0-Inbox/S-CLI.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,8 +150,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "a78fdcb98e3c4b49",
@@ -179,10 +171,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465
+    "width": 354
   },
   "active": "55465ee10c1a2f44",
   "lastOpenFiles": [
+    "0-Inbox/S-CLI.md",
     "0-Inbox/Untitled.md",
     "2-Slipbox/You Need a Status Page.md",
     "2-Slipbox/You Need a Blog.md",
@@ -191,7 +184,6 @@
     "2-Slipbox/Web Browsers.md",
     "2-Slipbox/Using diskusage Command in Windows.md",
     "0-Inbox/Placeholders/GPG.md",
-    "3-Resources/Dictionaries/Deduction.md",
-    "3-Resources/Dictionaries/Realization.md"
+    "3-Resources/Dictionaries/Deduction.md"
   ]
 }
