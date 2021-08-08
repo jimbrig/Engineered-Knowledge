@@ -1,24 +1,24 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-file: Vault-Consistensy-Report -file:Changelog -file:Unresolved-Links -file:Unlinked-Files",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:0-Inbox",
       "color": {
         "a": 1,
-        "rgb": 16052716
+        "rgb": 12841942
       }
     },
     {
       "query": "path:1-Maps-of-Content",
       "color": {
         "a": 1,
-        "rgb": 15475234
+        "rgb": 16056320
       }
     },
     {
@@ -43,7 +43,7 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -1.6,
   "nodeSizeMultiplier": 1.16647058823529,
@@ -53,6 +53,6 @@
   "repelStrength": 13.4117647058824,
   "linkStrength": 0.141176470588235,
   "linkDistance": 257,
-  "scale": 0.04872931119969541,
-  "close": false
+  "scale": 0.13428219145111142,
+  "close": true
 }
