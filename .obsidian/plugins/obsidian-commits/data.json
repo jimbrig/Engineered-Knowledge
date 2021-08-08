@@ -7457,12 +7457,12 @@
     "0-Inbox/S-CLI.md": {
       "size": 6190,
       "tags": 3,
-      "links": 5
+      "links": 4
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 913,
+      "Refactor": 914,
       "Create": 681,
       "Link": 756,
       "Expand": 95
@@ -7471,7 +7471,7 @@
   "dailyCommits": {
     "/": {
       "0": 152,
-      "1": 773,
+      "1": 774,
       "2": 55,
       "3": 156,
       "4": 7,
@@ -7504,7 +7504,7 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 250
+      "Sun": 251
     }
   },
   "recentCommits": {
@@ -7865,6 +7865,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
@@ -7913,7 +7914,6 @@
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ]
