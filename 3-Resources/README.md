@@ -16,7 +16,7 @@ Daily notes ranging from [2020-04-20](2020-04-20.md) through [2020-08-20](2020-0
 
 Custom dictionary items from the Dictionary Plugin: [GitHub - phibr0/obsidian-dictionary](https://github.com/phibr0/obsidian-dictionary)
 
-catalogue 
+classification
 ## [Highlights](./Highlights/README.md)
 
 Extracted highlights from the 

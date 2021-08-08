@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Library Classification System",
+      "path": "0-Inbox/Library Classification System.md"
+    },
+    {
+      "basename": "Notational",
+      "path": "3-Resources/Dictionaries/Notational.md"
+    },
+    {
+      "basename": "Classification",
+      "path": "3-Resources/Dictionaries/Classification.md"
+    },
+    {
       "basename": "README",
       "path": "3-Resources/Dictionaries/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "Catalogue",
+      "path": "3-Resources/Dictionaries/Catalogue.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "3-Resources/Dictionaries/Archive.md"
+    },
+    {
+      "basename": "Wisdom",
+      "path": "3-Resources/Dictionaries/Wisdom.md"
+    },
+    {
+      "basename": "Realization",
+      "path": "3-Resources/Dictionaries/Realization.md"
     },
     {
       "basename": "Knowledge",
@@ -39,18 +71,6 @@
     {
       "basename": "Deduction",
       "path": "3-Resources/Dictionaries/Deduction.md"
-    },
-    {
-      "basename": "Archive",
-      "path": "3-Resources/Dictionaries/Archive.md"
-    },
-    {
-      "basename": "Catalogue",
-      "path": "3-Resources/Dictionaries/Catalogue.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/README.md"
     },
     {
       "basename": "2021-08-08",
@@ -107,10 +127,6 @@
     {
       "basename": "GPG",
       "path": "0-Inbox/Placeholders/GPG.md"
-    },
-    {
-      "basename": "Realization",
-      "path": "3-Resources/Dictionaries/Realization.md"
     },
     {
       "basename": "Git",
@@ -183,22 +199,6 @@
     {
       "basename": "RStudio Tips and Tricks",
       "path": "2-Slipbox/RStudio Tips and Tricks.md"
-    },
-    {
-      "basename": "Package Managers",
-      "path": "0-Inbox/Placeholders/Package Managers.md"
-    },
-    {
-      "basename": "Mozilla Firefox",
-      "path": "0-Inbox/Placeholders/Mozilla Firefox.md"
-    },
-    {
-      "basename": "Microsoft Edge",
-      "path": "0-Inbox/Placeholders/Microsoft Edge.md"
-    },
-    {
-      "basename": "Memory in R",
-      "path": "2-Slipbox/Memory in R.md"
     }
   ],
   "omittedPaths": [],

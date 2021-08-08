@@ -15,13 +15,35 @@
         }
       },
       {
+        "id": "cc2aca1bb35b10ed",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "0-Inbox/Library Classification System.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ade5d29ac6be74f3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "3-Resources/Dictionaries/Notational.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
         "id": "6eb6d735f537f7ef",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Dictionaries/README.md",
-            "mode": "source"
+            "file": "3-Resources/Dictionaries/Archive.md",
+            "mode": "preview"
           }
         }
       }
@@ -111,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Dictionaries/README.md",
+                "file": "0-Inbox/Library Classification System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Dictionaries/README.md",
+                "file": "0-Inbox/Library Classification System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Dictionaries/README.md"
+                "file": "0-Inbox/Library Classification System.md"
               }
             }
           },
@@ -192,17 +214,17 @@
     "direction": "horizontal",
     "width": 354
   },
-  "active": "6eb6d735f537f7ef",
+  "active": "cc2aca1bb35b10ed",
   "lastOpenFiles": [
+    "0-Inbox/Library Classification System.md",
+    "3-Resources/Dictionaries/Notational.md",
+    "0-Inbox/Untitled.md",
+    "3-Resources/Dictionaries/Classification.md",
     "3-Resources/Dictionaries/README.md",
-    "3-Resources/Dictionaries/Knowledge.md",
-    "3-Resources/Dictionaries/Kanban.md",
-    "3-Resources/Dictionaries/Index.md",
-    "3-Resources/Dictionaries/Gyroscope.md",
-    "3-Resources/Dictionaries/Fleeting.md",
-    "3-Resources/Dictionaries/Ephemeral.md",
-    "3-Resources/Dictionaries/Dictionary.md",
-    "3-Resources/Dictionaries/Derivation.md",
-    "3-Resources/Dictionaries/Deduction.md"
+    "3-Resources/README.md",
+    "3-Resources/Dictionaries/Catalogue.md",
+    "3-Resources/Dictionaries/Archive.md",
+    "3-Resources/Dictionaries/Wisdom.md",
+    "3-Resources/Dictionaries/Realization.md"
   ]
 }

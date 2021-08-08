@@ -5997,7 +5997,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 275
+      "links": 338
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6381,47 +6381,47 @@
     },
     "3-Resources/Dictionaries/Dictionary.md": {
       "size": 649,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "3-Resources/Dictionaries/Knowledge.md": {
       "size": 741,
-      "tags": 0,
+      "tags": 1,
       "links": 1
     },
     "3-Resources/Dictionaries/Wisdom.md": {
       "size": 684,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "3-Resources/Dictionaries/Ephemeral.md": {
       "size": 538,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "3-Resources/Dictionaries/Fleeting.md": {
       "size": 620,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "3-Resources/Dictionaries/Index.md": {
       "size": 1586,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "3-Resources/Dictionaries/Archive.md": {
       "size": 732,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "3-Resources/Dictionaries/Gyroscope.md": {
       "size": 769,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "3-Resources/Dictionaries/README.md": {
       "size": 0,
-      "tags": 1,
+      "tags": 2,
       "links": 0
     },
     "3-Resources/Highlights/README.md": {
@@ -6446,7 +6446,7 @@
     },
     "3-Resources/Dictionaries/Kanban.md": {
       "size": 552,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "1-Maps-of-Content/README.md": {
@@ -7441,30 +7441,60 @@
     },
     "3-Resources/Dictionaries/Realization.md": {
       "size": 914,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "3-Resources/Dictionaries/Derivation.md": {
       "size": 725,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "3-Resources/Dictionaries/Deduction.md": {
       "size": 796,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "0-Inbox/S-CLI.md": {
       "size": 6190,
       "tags": 3,
       "links": 4
+    },
+    "3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md": {
+      "size": 1287,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md": {
+      "size": 3513,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Dictionaries/Catalogue.md": {
+      "size": 675,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Resources/Dictionaries/Classification.md": {
+      "size": 562,
+      "tags": 1,
+      "links": 0
+    },
+    "0-Inbox/Library Classification System.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "3-Resources/Dictionaries/Notational.md": {
+      "size": 401,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 916,
-      "Create": 681,
-      "Link": 757,
+      "Create": 687,
+      "Link": 779,
       "Expand": 95
     }
   },
@@ -7486,7 +7516,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 403,
+      "16": 431,
       "17": 95,
       "18": 34,
       "19": 60,
@@ -7504,7 +7534,7 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 254
+      "Sun": 282
     }
   },
   "recentCommits": {
@@ -7563,6 +7593,12 @@
         "<a class=\"internal-link\" href=\"Windows/index-windows.md\"> index-windows </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Notational.md\"> Notational </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Classification.md\"> Classification </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Catalogue.md\"> Catalogue </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md\"> Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md\"> Cloud Based Computing Business Ideas for 2021 [Top 50 Picks] </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Deduction.md\"> Deduction </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Derivation.md\"> Derivation </a>",
@@ -7607,13 +7643,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Information Overload.md\"> Information Overload </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/WinSCP.md\"> WinSCP </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/GTD - Desired Outcome.md\"> GTD - Desired Outcome </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Time Block Planner.md\"> Time Block Planner </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Xamarin.md\"> Xamarin </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WordPress.md\"> WordPress </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinGet.md\"> WinGet </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
@@ -7669,6 +7699,24 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Beekeeper.md\"> Beekeeper </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Library Classification System.md\"> Library Classification System </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Archive.md\"> Archive </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Deduction.md\"> Deduction </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Derivation.md\"> Derivation </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Dictionary.md\"> Dictionary </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Ephemeral.md\"> Ephemeral </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Fleeting.md\"> Fleeting </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Gyroscope.md\"> Gyroscope </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Index.md\"> Index </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Kanban.md\"> Kanban </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Knowledge.md\"> Knowledge </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Realization.md\"> Realization </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Wisdom.md\"> Wisdom </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Catalogue.md\"> Catalogue </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Classification.md\"> Classification </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md\"> Cloud Based Computing Business Ideas for 2021 [Top 50 Picks] </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md\"> Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Database Documentation.md\"> Database Documentation </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
@@ -7701,25 +7749,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - R.md\"> MOC - R </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PowerShell.md\"> MOC - PowerShell </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Web Development.md\"> MOC - Web Development </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/XML.md\"> XML </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/About the AppxProvisioning.xml File in Windows.md\"> About the AppxProvisioning.xml File in Windows </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Enhanced CleanMgr Command.md\"> Enhanced CleanMgr Command </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Reset OneDrive with Command Line.md\"> Reset OneDrive with Command Line </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Gallery/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Kanbans/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7788,6 +7818,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Library Classification System.md\"> Library Classification System </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md\"> Cloud Based Computing Business Ideas for 2021 [Top 50 Picks] </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md\"> Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7834,11 +7868,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Knowledge.md\"> Knowledge </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Mindfulness.md\"> Highlights - Mindfulness </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/WinSCP.md\"> WinSCP </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Mindfulness.md\"> Highlights - Mindfulness </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
