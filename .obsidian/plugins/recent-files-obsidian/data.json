@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SQL",
+      "path": "0-Inbox/Placeholders/SQL.md"
+    },
+    {
+      "basename": "020 - Development",
+      "path": "1-Maps-of-Content/020 - Development.md"
+    },
+    {
       "basename": "README",
       "path": "4-Logs/README.md"
     },
@@ -133,10 +141,6 @@
       "path": "0-Inbox/Placeholders/Git.md"
     },
     {
-      "basename": "020 - Development",
-      "path": "1-Maps-of-Content/020 - Development.md"
-    },
-    {
       "basename": "README",
       "path": "2-Slipbox/README.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Static Site Generators",
       "path": "0-Inbox/Placeholders/Static Site Generators.md"
-    },
-    {
-      "basename": "RStudio Tips and Tricks",
-      "path": "2-Slipbox/RStudio Tips and Tricks.md"
     }
   ],
   "omittedPaths": [],
