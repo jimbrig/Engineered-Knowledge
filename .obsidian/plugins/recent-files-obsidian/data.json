@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "You Need a Status Page",
+      "path": "2-Slipbox/You Need a Status Page.md"
+    },
+    {
+      "basename": "You Need a Blog",
+      "path": "2-Slipbox/You Need a Blog.md"
+    },
+    {
+      "basename": "Why you need to step out of your comfort zone",
+      "path": "2-Slipbox/Why you need to step out of your comfort zone.md"
+    },
+    {
+      "basename": "What Blog Platform Should I Use",
+      "path": "2-Slipbox/What Blog Platform Should I Use.md"
+    },
+    {
+      "basename": "Web Browsers",
+      "path": "2-Slipbox/Web Browsers.md"
+    },
+    {
+      "basename": "Using diskusage Command in Windows",
+      "path": "2-Slipbox/Using diskusage Command in Windows.md"
+    },
+    {
       "basename": "GPG",
       "path": "0-Inbox/Placeholders/GPG.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Taming a Chaotic Project",
       "path": "2-Slipbox/Taming a Chaotic Project.md"
-    },
-    {
-      "basename": "Useful Packages in R List",
-      "path": "2-Slipbox/Useful Packages in R List.md"
-    },
-    {
-      "basename": "Web Browsers",
-      "path": "2-Slipbox/Web Browsers.md"
-    },
-    {
-      "basename": "Web terms 101 – Google Domains",
-      "path": "2-Slipbox/Web terms 101 – Google Domains.md"
-    },
-    {
-      "basename": "2021-08-04",
-      "path": "3-Resources/Daily-Notes/2021-08-04.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Daily-Notes/README.md"
-    },
-    {
-      "basename": "Index",
-      "path": "3-Resources/Dictionaries/Index.md"
     }
   ],
   "omittedPaths": [],
