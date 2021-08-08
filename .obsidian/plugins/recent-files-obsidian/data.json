@@ -5,6 +5,18 @@
       "path": "0-Inbox/Placeholders/GPG.md"
     },
     {
+      "basename": "Deduction",
+      "path": "3-Resources/Dictionaries/Deduction.md"
+    },
+    {
+      "basename": "Realization",
+      "path": "3-Resources/Dictionaries/Realization.md"
+    },
+    {
+      "basename": "Derivation",
+      "path": "3-Resources/Dictionaries/Derivation.md"
+    },
+    {
       "basename": "Git",
       "path": "0-Inbox/Placeholders/Git.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Index",
       "path": "3-Resources/Dictionaries/Index.md"
-    },
-    {
-      "basename": "Knowledge",
-      "path": "3-Resources/Dictionaries/Knowledge.md"
-    },
-    {
-      "basename": "MOC - PKM",
-      "path": "1-Maps-of-Content/MOC - PKM.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Gallery/README.md"
     }
   ],
   "omittedPaths": [],

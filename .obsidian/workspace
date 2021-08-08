@@ -4,15 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "55465ee10c1a2f44",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-Inbox/Placeholders/GPG.md",
-            "mode": "source"
+        "id": "6c6ad2532a48d60b",
+        "type": "split",
+        "children": [
+          {
+            "id": "05276897fc1a8ae0",
+            "type": "leaf",
+            "state": {
+              "type": "Search on Internet",
+              "state": {}
+            }
+          },
+          {
+            "id": "55465ee10c1a2f44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-Inbox/Placeholders/GPG.md",
+                "mode": "source"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -149,8 +164,17 @@
               "type": "juggl_style",
               "state": {}
             }
+          },
+          {
+            "id": "1f1a00ef98def91c",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "a78fdcb98e3c4b49",
@@ -176,14 +200,14 @@
   "active": "55465ee10c1a2f44",
   "lastOpenFiles": [
     "0-Inbox/Placeholders/GPG.md",
+    "3-Resources/Dictionaries/Deduction.md",
+    "3-Resources/Dictionaries/Realization.md",
+    "3-Resources/Dictionaries/Derivation.md",
     "0-Inbox/Placeholders/Git.md",
     "1-Maps-of-Content/020 - Development.md",
     "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 1.md",
     "3-Reference/Edge-Clippings/2021-08-07-Obsidian Clipper 2.md",
     "3-Resources/README.md",
-    "1-Maps-of-Content/README.md",
-    "2-Slipbox/README.md",
-    "3-Resources/Mobile-Shares.md",
-    "3-Resources/Daily-Notes/2021-08-08.md"
+    "1-Maps-of-Content/README.md"
   ]
 }

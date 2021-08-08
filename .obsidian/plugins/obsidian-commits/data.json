@@ -5997,7 +5997,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 276
+      "links": 329
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -6825,9 +6825,9 @@
       "links": 0
     },
     "0-Inbox/Placeholders/Git.md": {
-      "size": 194,
-      "tags": 0,
-      "links": 0
+      "size": 3923,
+      "tags": 1,
+      "links": 11
     },
     "0-Inbox/Placeholders/GitBook.md": {
       "size": 202,
@@ -7437,20 +7437,20 @@
     "3-Resources/Daily-Notes/2021-08-08.md": {
       "size": 0,
       "tags": 0,
-      "links": 0
+      "links": 3
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 912,
       "Create": 677,
-      "Link": 748,
-      "Expand": 93
+      "Link": 752,
+      "Expand": 94
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 143,
+      "0": 148,
       "1": 767,
       "2": 55,
       "3": 156,
@@ -7484,12 +7484,13 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 235
+      "Sun": 240
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
@@ -7539,8 +7540,7 @@
         "<a class=\"internal-link\" href=\"Development/PowerShell/What is PowerShell.md\"> What is PowerShell </a>",
         "<a class=\"internal-link\" href=\"Keyboard Shortcuts in Microsoft Edge.md\"> Keyboard Shortcuts in Microsoft Edge </a>",
         "<a class=\"internal-link\" href=\"Windows/index-windows.md\"> index-windows </a>",
-        "<a class=\"internal-link\" href=\"Development/index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"Scratch/_assets/index.md\"> index </a>"
+        "<a class=\"internal-link\" href=\"Development/index.md\"> index </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>",
@@ -7649,6 +7649,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Bash.md\"> Bash </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
@@ -7698,8 +7699,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Templater Plugin Notes.md\"> Obsidian Templater Plugin Notes </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/README.md\"> README </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7768,6 +7768,9 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-07.md\"> 2021-08-07 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
@@ -7815,10 +7818,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Mermaid Diagrams.md\"> Mermaid Diagrams </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Yarn.md\"> Yarn </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Unlinked-Files.md\"> Unlinked-Files </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Yarn.md\"> Yarn </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

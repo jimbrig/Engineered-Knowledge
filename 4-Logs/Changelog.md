@@ -1,4 +1,7 @@
-- 2021-08-08 at 00h11 · [[GPG]]
+- 2021-08-08 at 00h14 · [[GPG]]
+- 2021-08-08 at 00h12 · [[Deduction]]
+- 2021-08-08 at 00h12 · [[Derivation]]
+- 2021-08-08 at 00h12 · [[Realization]]
 - 2021-08-08 at 00h09 · [[Git]]
 - 2021-08-08 at 00h07 · [[2021-08-08]]
 - 2021-08-08 at 00h05 · [[How to Handle Inbox Infinity]]

@@ -8,7 +8,7 @@ Tags: []
 
 # GPG
 
-[GPG](), also known as [GnuPG]()
+[GPG](), also known as [GnuPG]() or [GNU Privacy Guard](), is the derivation of the [PGP]() (Pretty Good Privacy) standard of [asymmetric encryption]() or [public-key cryptography]()
 
 ***
 
