@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "3-Resources/Dictionaries/README.md"
+    },
+    {
+      "basename": "Knowledge",
+      "path": "3-Resources/Dictionaries/Knowledge.md"
+    },
+    {
+      "basename": "Kanban",
+      "path": "3-Resources/Dictionaries/Kanban.md"
+    },
+    {
+      "basename": "Index",
+      "path": "3-Resources/Dictionaries/Index.md"
+    },
+    {
+      "basename": "Gyroscope",
+      "path": "3-Resources/Dictionaries/Gyroscope.md"
+    },
+    {
+      "basename": "Fleeting",
+      "path": "3-Resources/Dictionaries/Fleeting.md"
+    },
+    {
+      "basename": "Ephemeral",
+      "path": "3-Resources/Dictionaries/Ephemeral.md"
+    },
+    {
+      "basename": "Dictionary",
+      "path": "3-Resources/Dictionaries/Dictionary.md"
+    },
+    {
+      "basename": "Derivation",
+      "path": "3-Resources/Dictionaries/Derivation.md"
+    },
+    {
+      "basename": "Deduction",
+      "path": "3-Resources/Dictionaries/Deduction.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "3-Resources/Dictionaries/Archive.md"
+    },
+    {
+      "basename": "Catalogue",
+      "path": "3-Resources/Dictionaries/Catalogue.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "2021-08-08",
+      "path": "3-Resources/Daily-Notes/2021-08-08.md"
+    },
+    {
+      "basename": "README",
+      "path": "4-Logs/README.md"
+    },
+    {
+      "basename": "S-CLI",
+      "path": "0-Inbox/S-CLI.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
       "basename": "Database Documentation",
       "path": "2-Slipbox/Database Documentation.md"
     },
@@ -11,10 +79,6 @@
     {
       "basename": "gcloud SDK",
       "path": "0-Inbox/Placeholders/gcloud SDK.md"
-    },
-    {
-      "basename": "S-CLI",
-      "path": "0-Inbox/S-CLI.md"
     },
     {
       "basename": "You Need a Status Page",
@@ -45,16 +109,8 @@
       "path": "0-Inbox/Placeholders/GPG.md"
     },
     {
-      "basename": "Deduction",
-      "path": "3-Resources/Dictionaries/Deduction.md"
-    },
-    {
       "basename": "Realization",
       "path": "3-Resources/Dictionaries/Realization.md"
-    },
-    {
-      "basename": "Derivation",
-      "path": "3-Resources/Dictionaries/Derivation.md"
     },
     {
       "basename": "Git",
@@ -66,23 +122,11 @@
     },
     {
       "basename": "README",
-      "path": "3-Resources/README.md"
-    },
-    {
-      "basename": "README",
       "path": "2-Slipbox/README.md"
     },
     {
       "basename": "Mobile-Shares",
       "path": "3-Resources/Mobile-Shares.md"
-    },
-    {
-      "basename": "2021-08-08",
-      "path": "3-Resources/Daily-Notes/2021-08-08.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "Windows Links",
@@ -155,50 +199,6 @@
     {
       "basename": "Memory in R",
       "path": "2-Slipbox/Memory in R.md"
-    },
-    {
-      "basename": "GTD - Desired Outcome",
-      "path": "0-Inbox/Placeholders/GTD - Desired Outcome.md"
-    },
-    {
-      "basename": "Google Chrome",
-      "path": "0-Inbox/Placeholders/Google Chrome.md"
-    },
-    {
-      "basename": "Collectors Fallacy",
-      "path": "0-Inbox/Placeholders/Collectors Fallacy.md"
-    },
-    {
-      "basename": "Cloud Hosted Environments",
-      "path": "0-Inbox/Placeholders/Cloud Hosted Environments.md"
-    },
-    {
-      "basename": "Building a Second Brain",
-      "path": "0-Inbox/Placeholders/Building a Second Brain.md"
-    },
-    {
-      "basename": "R Packages Install Script",
-      "path": "2-Slipbox/R Packages Install Script.md"
-    },
-    {
-      "basename": "Google Cloud Setup Notes",
-      "path": "2-Slipbox/Google Cloud Setup Notes.md"
-    },
-    {
-      "basename": "RStudio Configuration Notes",
-      "path": "2-Slipbox/RStudio Configuration Notes.md"
-    },
-    {
-      "basename": "Unlinked-Files",
-      "path": "4-Logs/Unlinked-Files.md"
-    },
-    {
-      "basename": "050 - Computer",
-      "path": "1-Maps-of-Content/050 - Computer.md"
-    },
-    {
-      "basename": "Run Command to Edit Environment Variables",
-      "path": "2-Slipbox/Run Command to Edit Environment Variables.md"
     }
   ],
   "omittedPaths": [],
