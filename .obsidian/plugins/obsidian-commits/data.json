@@ -7453,12 +7453,17 @@
       "size": 796,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/S-CLI.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 912,
-      "Create": 680,
+      "Refactor": 913,
+      "Create": 681,
       "Link": 753,
       "Expand": 94
     }
@@ -7466,7 +7471,7 @@
   "dailyCommits": {
     "/": {
       "0": 152,
-      "1": 767,
+      "1": 769,
       "2": 55,
       "3": 156,
       "4": 7,
@@ -7499,7 +7504,7 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 244
+      "Sun": 246
     }
   },
   "recentCommits": {
@@ -7558,6 +7563,7 @@
         "<a class=\"internal-link\" href=\"Development/index.md\"> index </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Deduction.md\"> Deduction </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Derivation.md\"> Derivation </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Realization.md\"> Realization </a>",
@@ -7607,10 +7613,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Time Block Planner.md\"> Time Block Planner </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Xamarin.md\"> Xamarin </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WordPress.md\"> WordPress </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinGet.md\"> WinGet </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WindowsPE.md\"> WindowsPE </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/WinGet.md\"> WinGet </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Subscriptions.md\"> Subscriptions </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Windows Links.md\"> Windows Links </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Tweaking.com Windows Repair Checklist.md\"> Tweaking.com Windows Repair Checklist </a>",
@@ -7660,8 +7666,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C-Sharp.md\"> C-Sharp </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C.md\"> C </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/BIOS.md\"> BIOS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Beekeeper.md\"> Beekeeper </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Bash.md\"> Bash </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Beekeeper.md\"> Beekeeper </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",

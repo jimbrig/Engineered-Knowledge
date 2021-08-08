@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "S-CLI",
+      "path": "0-Inbox/S-CLI.md"
+    },
+    {
       "basename": "You Need a Status Page",
       "path": "2-Slipbox/You Need a Status Page.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Shiny Apps as Packages in R",
       "path": "2-Slipbox/Shiny Apps as Packages in R.md"
-    },
-    {
-      "basename": "Taming a Chaotic Project",
-      "path": "2-Slipbox/Taming a Chaotic Project.md"
     }
   ],
   "omittedPaths": [],
