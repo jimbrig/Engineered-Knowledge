@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Library Classification System",
-      "path": "0-Inbox/Library Classification System.md"
+      "basename": "README",
+      "path": "4-Logs/README.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "3-Resources/Dictionaries/Archive.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
     },
     {
       "basename": "Notational",
       "path": "3-Resources/Dictionaries/Notational.md"
+    },
+    {
+      "basename": "Library Classification System",
+      "path": "3-Reference/Library Classification System.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
     },
     {
       "basename": "Classification",
@@ -17,16 +33,8 @@
       "path": "3-Resources/Dictionaries/README.md"
     },
     {
-      "basename": "README",
-      "path": "3-Resources/README.md"
-    },
-    {
       "basename": "Catalogue",
       "path": "3-Resources/Dictionaries/Catalogue.md"
-    },
-    {
-      "basename": "Archive",
-      "path": "3-Resources/Dictionaries/Archive.md"
     },
     {
       "basename": "Wisdom",
@@ -77,16 +85,8 @@
       "path": "3-Resources/Daily-Notes/2021-08-08.md"
     },
     {
-      "basename": "README",
-      "path": "4-Logs/README.md"
-    },
-    {
       "basename": "S-CLI",
       "path": "0-Inbox/S-CLI.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "Database Documentation",

@@ -3,10 +3,28 @@ Creation Date: 2021-08-08 16:33
 Last Modified Date: Sunday 8th August 2021 16:33:10
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Untitled
-Tags: ["#PKM"]
+Tags: ["#PKM", "#Reference", "#System"]
 ---
 
 # Library Classification System
+
+## Contents
+
+- [[#Description|Description]]
+- [[#Types|Types]]
+	- [[#Universal Schemes|Universal Schemes]]
+	- [[#Specific Classification Schemes|Specific Classification Schemes]]
+	- [[#National Schemes|National Schemes]]
+- [[#Methods or Systems|Methods or Systems]]
+	- [[#English Language Universal Classification Systems|English Language Universal Classification Systems]]
+	- [[#Non-English Universal Classification Systems|Non-English Universal Classification Systems]]
+	- [[#Universal Classification Systems that Rely on Synthesis (faceted systems)|Universal Classification Systems that Rely on Synthesis (faceted systems)]]
+- [[#The Practice of Classifying|The Practice of Classifying]]
+- [[#Comparing Library Classification Systems|Comparing Library Classification Systems]]
+- [[#See Also|See Also]]
+
+
+## Description
 
 A **library classification** is a system of knowledge organization by which library resources are arranged and ordered systematically. Library classifications use a notational system that represents the order of topics in the classification and allows items to be stored in that order. Library classification systems group related materials together, typically arranged as a hierarchical tree structure. A different kind of classification system, called a [faceted classification](https://en.wikipedia.org/wiki/Faceted_classification) system, is also widely used, which allows the assignment of multiple classifications to an object, enabling the classifications to be ordered in many ways.
 
@@ -40,13 +58,13 @@ Subjects are divided hierarchically, from most general to most specific.
 
 Subjects are divided into mutually exclusive orthogonal facets.
 
-There are few completely enumerative systems or faceted systems; most systems are a blend but favouring one type or the other. The most common classification systems, LCC and DDC, are essentially enumerative, though with some hierarchical and faceted elements (more so for DDC), especially at the broadest and most general level. The first true faceted system was the [colon classification](https://en.wikipedia.org/wiki/Colon_classification "Colon classification") of [S. R. Ranganathan](https://en.wikipedia.org/wiki/S._R._Ranganathan "S. R. Ranganathan").
+There are few completely enumerative systems or faceted systems; most systems are a blend but favoring one type or the other. The most common classification systems, LCC and DDC, are essentially enumerative, though with some hierarchical and faceted elements (more so for DDC), especially at the broadest and most general level. The first true faceted system was the [colon classification](https://en.wikipedia.org/wiki/Colon_classification "Colon classification") of [S. R. Ranganathan](https://en.wikipedia.org/wiki/S._R._Ranganathan "S. R. Ranganathan").
 
-## Methods or systems[[edit](https://en.wikipedia.org/w/index.php?title=Library_classification&action=edit&section=4 "Edit section: Methods or systems")]
+## Methods or Systems
 
 Classification types denote the classification or categorization according to the form or characteristics or qualities of a classification scheme or schemes. Method and system has similar meaning. Method or methods or system means the classification schemes like Dewey Decimal Classification or Universal Decimal Classification. The types of classification is for identifying and understanding or education or research purposes while classification method means those classification schemes like DDC, UDC.
 
-### English language universal classification systems[[edit](https://en.wikipedia.org/w/index.php?title=Library_classification&action=edit&section=5 "Edit section: English language universal classification systems")]
+### English Language Universal Classification Systems
 
 The most common systems in [English](https://en.wikipedia.org/wiki/English_language "English language")-speaking countries are:
 
@@ -63,7 +81,7 @@ Other systems include:
 -   [Garside classification](https://en.wikipedia.org/wiki/Garside_classification "Garside classification") used in most libraries of [University College London](https://en.wikipedia.org/wiki/University_College_London "University College London")[[11]](https://en.wikipedia.org/wiki/Library_classification#cite_note-11)
 -   [Bliss bibliographic classification](https://en.wikipedia.org/wiki/Bliss_bibliographic_classification "Bliss bibliographic classification") used in some British libraries
 
-### Non-English universal classification systems[[edit](https://en.wikipedia.org/w/index.php?title=Library_classification&action=edit&section=6 "Edit section: Non-English universal classification systems")]
+### Non-English Universal Classification Systems
 
 -   German [Regensburger Verbundklassifikation](https://de.wikipedia.org/wiki/Regensburger_Verbundklassifikation "de:Regensburger Verbundklassifikation") (RVK)
 -   A system of book classification for Chinese libraries (Liu's Classification) library classification for user
@@ -73,7 +91,7 @@ Other systems include:
 -   [Korean Decimal Classification](https://en.wikipedia.org/wiki/Korean_Decimal_Classification "Korean Decimal Classification") (KDC)
 -   Russian [Library-Bibliographical Classification](https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D1%87%D0%BD%D0%BE-%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F "ru:Библиотечно-библиографическая классификация") (BBK)
 
-### Universal classification systems that rely on synthesis (faceted systems)[[edit](https://en.wikipedia.org/w/index.php?title=Library_classification&action=edit&section=7 "Edit section: Universal classification systems that rely on synthesis (faceted systems)")]
+### Universal Classification Systems that Rely on Synthesis (faceted systems)
 
 -   [Bliss bibliographic classification](https://en.wikipedia.org/wiki/Bliss_bibliographic_classification "Bliss bibliographic classification")
 -   [Colon classification](https://en.wikipedia.org/wiki/Colon_classification "Colon classification")
@@ -82,7 +100,7 @@ Other systems include:
 
 Newer classification systems tend to use the principle of synthesis (combining codes from different lists to represent the different attributes of a work) heavily, which is comparatively lacking in LC or DDC.
 
-## The practice of classifying[[edit](https://en.wikipedia.org/w/index.php?title=Library_classification&action=edit&section=8 "Edit section: The practice of classifying")]
+## The Practice of Classifying
 
 Library classification is associated with library (descriptive) cataloging under the rubric of _cataloging and classification_, sometimes grouped together as _technical services_. The library professional who engages in the process of cataloging and classifying library materials is called a _cataloger_ or _catalog librarian_. Library classification systems are one of the two tools used to facilitate [subject access](https://en.wikipedia.org/wiki/Subject_access "Subject access"). The other consists of alphabetical indexing languages such as Thesauri and Subject Headings systems.
 
@@ -98,7 +116,7 @@ Some classification systems are more suitable for aiding subject access, rather 
 
 Depending on the size of the library collection, some libraries might use classification systems solely for one purpose or the other. In extreme cases, a public library with a small collection might just use a classification system for location of resources but might not use a complicated subject classification system. Instead all resources might just be put into a couple of wide classes (travel, crime, magazines etc.). This is known as a "mark and park" classification method, more formally called reader interest classification.[[13]](https://en.wikipedia.org/wiki/Library_classification#cite_note-13)
 
-## Comparing Library classification systems[[edit](https://en.wikipedia.org/w/index.php?title=Library_classification&action=edit&section=9 "Edit section: Comparing Library classification systems")]
+## Comparing Library Classification Systems
 
 As a result of differences in notation, history, use of enumeration, hierarchy, and facets, classification systems can differ in the following ways:
 
@@ -112,7 +130,7 @@ As a result of differences in notation, history, use of enumeration, hierarchy, 
 -   Simplicity
 -   Usability
 
-## See also[[edit](https://en.wikipedia.org/w/index.php?title=Library_classification&action=edit&section=10 "Edit section: See also")]
+## See Also
 
 -   [Attribute-value system](https://en.wikipedia.org/wiki/Attribute-value_system "Attribute-value system")
 -   [Categorization](https://en.wikipedia.org/wiki/Categorization "Categorization")

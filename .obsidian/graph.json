@@ -8,38 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#MOC",
+      "query": "path:1-Maps-of-Content",
       "color": {
         "a": 1,
-        "rgb": 13241356
-      }
-    },
-    {
-      "query": "path:0-Inbox",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
+        "rgb": 14701138
       }
     },
     {
       "query": "path:2-Slipbox",
       "color": {
         "a": 1,
-        "rgb": 5401056
-      }
-    },
-    {
-      "query": "path:3-Resources",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "path:4-Logs",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
+        "rgb": 14725458
       }
     }
   ],
@@ -53,6 +32,6 @@
   "repelStrength": 9.45054945054945,
   "linkStrength": 0.296703296703297,
   "linkDistance": 247,
-  "scale": 0.09578019222924651,
-  "close": true
+  "scale": 0.09578019222924657,
+  "close": false
 }

@@ -5997,7 +5997,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 338
+      "links": 339
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7479,23 +7479,23 @@
       "tags": 1,
       "links": 0
     },
-    "0-Inbox/Library Classification System.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 3
-    },
     "3-Resources/Dictionaries/Notational.md": {
       "size": 401,
       "tags": 0,
       "links": 0
+    },
+    "3-Reference/Library Classification System.md": {
+      "size": 15656,
+      "tags": 3,
+      "links": 18
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 916,
+      "Refactor": 917,
       "Create": 687,
-      "Link": 779,
-      "Expand": 95
+      "Link": 782,
+      "Expand": 96
     }
   },
   "dailyCommits": {
@@ -7516,7 +7516,7 @@
       "13": 29,
       "14": 170,
       "15": 99,
-      "16": 431,
+      "16": 436,
       "17": 95,
       "18": 34,
       "19": 60,
@@ -7534,12 +7534,13 @@
       "Thu": 116,
       "Fri": 636,
       "Sat": 0,
-      "Sun": 282
+      "Sun": 287
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
@@ -7589,8 +7590,7 @@
         "<a class=\"internal-link\" href=\"Development/Azure/Use tagging to organize resources.md\"> Use tagging to organize resources </a>",
         "<a class=\"internal-link\" href=\"Development/Azure/Principles of Azure Resource Groups.md\"> Principles of Azure Resource Groups </a>",
         "<a class=\"internal-link\" href=\"Development/PowerShell/What is PowerShell.md\"> What is PowerShell </a>",
-        "<a class=\"internal-link\" href=\"Keyboard Shortcuts in Microsoft Edge.md\"> Keyboard Shortcuts in Microsoft Edge </a>",
-        "<a class=\"internal-link\" href=\"Windows/index-windows.md\"> index-windows </a>"
+        "<a class=\"internal-link\" href=\"Keyboard Shortcuts in Microsoft Edge.md\"> Keyboard Shortcuts in Microsoft Edge </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Notational.md\"> Notational </a>",
@@ -7646,6 +7646,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Subscriptions.md\"> Subscriptions </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Windows Links.md\"> Windows Links </a>",
@@ -7695,10 +7696,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C++.md\"> C++ </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C-Sharp.md\"> C-Sharp </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C.md\"> C </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/BIOS.md\"> BIOS </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Beekeeper.md\"> Beekeeper </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/BIOS.md\"> BIOS </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Archive.md\"> Archive </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Deduction.md\"> Deduction </a>",
@@ -7748,8 +7749,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7818,6 +7818,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md\"> Cloud Based Computing Business Ideas for 2021 [Top 50 Picks] </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md\"> Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights </a>",
@@ -7866,9 +7868,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Knowledge.md\"> Knowledge </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Mindfulness.md\"> Highlights - Mindfulness </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
