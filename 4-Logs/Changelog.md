@@ -1,4 +1,4 @@
-- 2021-08-09 at 00h32 · [[Create a Personal Website 📝]]
+- 2021-08-09 at 00h37 · [[Create a Personal Website 📝]]
 - 2021-08-08 at 21h29 · [[How to Handle Inbox Infinity]]
 - 2021-08-08 at 16h38 · [[Library Classification System]]
 - 2021-08-08 at 16h34 · [[Notational]]

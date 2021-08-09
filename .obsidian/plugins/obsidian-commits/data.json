@@ -7492,20 +7492,20 @@
     "5-Projects/Create a Personal Website 📝.md": {
       "size": 0,
       "tags": 1,
-      "links": 2
+      "links": 4
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 918,
       "Create": 688,
-      "Link": 785,
+      "Link": 786,
       "Expand": 96
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 157,
+      "0": 158,
       "1": 774,
       "2": 55,
       "3": 156,
@@ -7533,7 +7533,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 434,
+      "Mon": 435,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7823,6 +7823,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
@@ -7872,8 +7873,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Useful Packages in R List.md\"> Useful Packages in R List </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

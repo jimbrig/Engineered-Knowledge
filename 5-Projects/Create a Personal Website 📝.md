@@ -12,12 +12,31 @@ Tags: [ "#Project" ]
 
 ### Desired Outcome
 
-Simple yet elegant personal website hosted via [[Google Domains]] under domain <https://jimbrig.com> that includes the following:
-- Blog <https://jimbrig.com/blog>
-- Portfolio <https://jimbrig.com/projects>
+Simple yet elegant personal website hosted via [[Google Domains]] under domain <https://jimbrig.com>.
+
+### Requirements
+
+#### Tech Stack
+
+- [[NextJS]] / [[React]] - primary framework running the website platform 
+- [[MkDocs]]
+- [[Obsidian]]
+- [[Vercel]]
 - 
 
-Description: Create
+#### Routing
+*Landing Page at root domain: <https://jimbrig.com>*
+
+- Blog <https://jimbrig.com/blog>
+- Project Portfolio <https://jimbrig.com/projects>
+	- Specific Shiny App Section:  <https://jimbrig.com/projects/shinyapps
+	- Specific R Package Section:  <https://jimbrig.com/projects/rpackages>
+	- etc.
+- Resources <https://jimbrig.com/resources>
+	- Notes
+	- Links
+- Knowledge Base <https://jimbrig.com/knowledge>
+	- Obsidian Vault Published via [[MkDocs]]
 
 ## Project Support 
 
