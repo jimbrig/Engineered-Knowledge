@@ -18,6 +18,8 @@ Tags: ["#Development", "#Microsoft", "#Cloud", "#MOC"]
 
 [[Organizing Resources in Azure]]
 
+[[Organize and Manage your Azure Subscriptions]]
+
 [[Hosting R Shiny Apps on Azure]]
 
 [[Azure Container Registry (acr)]]

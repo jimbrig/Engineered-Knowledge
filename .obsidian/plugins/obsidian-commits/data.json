@@ -7481,20 +7481,20 @@
     },
     "3-Reference/Organizing Resources in Azure.md": {
       "size": 10870,
-      "tags": 4,
-      "links": 15
+      "tags": 5,
+      "links": 17
     },
     "3-Reference/Organize and Manage your Azure Subscriptions.md": {
       "size": 4820,
       "tags": 5,
-      "links": 5
+      "links": 6
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 933,
       "Create": 694,
-      "Link": 805,
+      "Link": 808,
       "Expand": 101
     }
   },
@@ -7517,7 +7517,7 @@
       "14": 190,
       "15": 104,
       "16": 436,
-      "17": 114,
+      "17": 117,
       "18": 34,
       "19": 60,
       "20": 24,
@@ -7528,7 +7528,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 480,
+      "Mon": 483,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7699,6 +7699,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Code Comments.md\"> Code Comments </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Microsoft Azure.md\"> Microsoft Azure </a>",
@@ -7748,8 +7749,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Code Comments.md\"> Highlights - Code Comments </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7818,6 +7818,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/pgAdmin 4.md\"> pgAdmin 4 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
+        "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
@@ -7866,8 +7868,6 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes.md\"> Kubernetes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Google Cloud Setup Notes.md\"> Google Cloud Setup Notes </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Memory in R.md\"> Memory in R </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>"
       ],
       "Removed Tags from": [

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MOC - Microsoft Azure",
+      "path": "1-Maps-of-Content/MOC - Microsoft Azure.md"
+    },
+    {
       "basename": "Organizing Resources in Azure",
       "path": "3-Reference/Organizing Resources in Azure.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "README",
       "path": "1-Maps-of-Content/README.md"
-    },
-    {
-      "basename": "MOC - Microsoft Azure",
-      "path": "1-Maps-of-Content/MOC - Microsoft Azure.md"
     },
     {
       "basename": "azure-management-group-hierarchy",
