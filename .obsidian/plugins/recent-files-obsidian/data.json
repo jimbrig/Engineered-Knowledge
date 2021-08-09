@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
+      "basename": "Organizing Resources in Azure",
+      "path": "0-Inbox/Organizing Resources in Azure.md"
     },
     {
       "basename": "MOC - Microsoft Azure",
       "path": "1-Maps-of-Content/MOC - Microsoft Azure.md"
+    },
+    {
+      "basename": "MOC - PostgreSQL",
+      "path": "1-Maps-of-Content/MOC - PostgreSQL.md"
+    },
+    {
+      "basename": "MOC - People",
+      "path": "1-Maps-of-Content/MOC - People.md"
+    },
+    {
+      "basename": "MOC - Obsidian",
+      "path": "1-Maps-of-Content/MOC - Obsidian.md"
+    },
+    {
+      "basename": "MOC - Links",
+      "path": "1-Maps-of-Content/MOC - Links.md"
+    },
+    {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
     },
     {
       "basename": "Azure CLI",
@@ -179,26 +199,6 @@
     {
       "basename": "Git",
       "path": "0-Inbox/Placeholders/Git.md"
-    },
-    {
-      "basename": "Mobile-Shares",
-      "path": "3-Resources/Mobile-Shares.md"
-    },
-    {
-      "basename": "Windows Links",
-      "path": "3-Reference/Windows Links.md"
-    },
-    {
-      "basename": "Tweaking.com Windows Repair Checklist",
-      "path": "2-Slipbox/Tweaking.com Windows Repair Checklist.md"
-    },
-    {
-      "basename": "Subscriptions",
-      "path": "3-Reference/Subscriptions.md"
-    },
-    {
-      "basename": "Obsidian Chrome Clipper",
-      "path": "3-Reference/Obsidian Chrome Clipper.md"
     }
   ],
   "omittedPaths": [],

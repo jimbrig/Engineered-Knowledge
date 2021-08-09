@@ -1,6 +1,7 @@
+- 2021-08-09 at 17h34 · [[Organizing Resources in Azure]]
+- 2021-08-09 at 17h33 · [[MOC - Microsoft Azure]]
 - 2021-08-09 at 17h29 · [[Unresolved-Links]]
 - 2021-08-09 at 17h29 · [[020 - Development]]
-- 2021-08-09 at 17h28 · [[MOC - Microsoft Azure]]
 - 2021-08-09 at 15h01 · [[Keyboard shortcuts for Gmail - Gmail Help]]
 - 2021-08-09 at 15h01 · [[Unlinked-Files]]
 - 2021-08-09 at 14h48 · [[2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help]]
