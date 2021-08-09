@@ -1,3 +1,13 @@
+---
+Creation Date: 2021-08-09 17:33
+Last Modified Date: Monday 9th August 2021 17:43:20
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Organizing Resources in Azure
+Tags: []
+---
+
+# Organizing Resources in Azure
+
 # Organize your Azure resources effectively
 
 Organizing your cloud-based resources is critical to securing, managing, and tracking the costs related to your workloads. To organize your resources, define a management group hierarchy, follow a well-considered naming convention and apply resource tagging.
@@ -187,3 +197,12 @@ To apply a tag to a resource group:
 ::: form action="OpenBlade[#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2FSubscriptions%2FResourceGroups]" submitText="Go to resource groups" :::
 
 ::: zone-end
+
+
+
+***
+
+Links: [[020 - Development]] | [[MOC - Setup]] | [[Cloud Hosted Environments]] | [[Organize and Manage your Azure Subscriptions]]
+
+Sources: [Organize your Azure resources effectively - Cloud Adoption Framework | Microsoft Docs](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources?tabs=AzureManagementGroupsAndHierarchy)
+

@@ -7485,8 +7485,8 @@
       "links": 15
     },
     "3-Reference/Organize and Manage your Azure Subscriptions.md": {
-      "size": 4035,
-      "tags": 0,
+      "size": 4820,
+      "tags": 5,
       "links": 5
     }
   },
@@ -7494,8 +7494,8 @@
     "/": {
       "Refactor": 933,
       "Create": 694,
-      "Link": 804,
-      "Expand": 100
+      "Link": 805,
+      "Expand": 101
     }
   },
   "dailyCommits": {
@@ -7517,7 +7517,7 @@
       "14": 190,
       "15": 104,
       "16": 436,
-      "17": 112,
+      "17": 114,
       "18": 34,
       "19": 60,
       "20": 24,
@@ -7528,7 +7528,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 478,
+      "Mon": 480,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7540,6 +7540,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Keyboard shortcuts for Gmail - Computer.md\"> Keyboard shortcuts for Gmail - Computer </a>",
@@ -7589,8 +7590,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"Development/Azure/Use policies to enforce standards.md\"> Use policies to enforce standards </a>"
+        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"0-Inbox/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
@@ -7699,6 +7699,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Code Comments.md\"> Code Comments </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Microsoft Azure.md\"> Microsoft Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md\"> Keyboard shortcuts for Gmail - Gmail Help </a>",
@@ -7748,8 +7749,7 @@
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Code Comments.md\"> Highlights - Code Comments </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Code Comments.md\"> Highlights - Code Comments </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",

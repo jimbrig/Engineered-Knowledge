@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Organize and Manage your Azure Subscriptions",
-      "path": "3-Reference/Organize and Manage your Azure Subscriptions.md"
-    },
-    {
       "basename": "Organizing Resources in Azure",
       "path": "3-Reference/Organizing Resources in Azure.md"
     },
     {
-      "basename": "azure-organize-resources-scope-levels",
-      "path": "3-Reference/assets/azure-organize-resources-scope-levels.png"
+      "basename": "Organize and Manage your Azure Subscriptions",
+      "path": "3-Reference/Organize and Manage your Azure Subscriptions.md"
+    },
+    {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
     },
     {
       "basename": "MOC - Microsoft Azure",
       "path": "1-Maps-of-Content/MOC - Microsoft Azure.md"
+    },
+    {
+      "basename": "azure-management-group-hierarchy",
+      "path": "3-Reference/assets/azure-management-group-hierarchy.png"
+    },
+    {
+      "basename": "azure-organize-resources-scope-levels",
+      "path": "3-Reference/assets/azure-organize-resources-scope-levels.png"
     },
     {
       "basename": "MOC - PostgreSQL",
@@ -31,10 +39,6 @@
     {
       "basename": "MOC - Links",
       "path": "1-Maps-of-Content/MOC - Links.md"
-    },
-    {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
     },
     {
       "basename": "Azure CLI",
@@ -195,10 +199,6 @@
     {
       "basename": "Web Browsers",
       "path": "2-Slipbox/Web Browsers.md"
-    },
-    {
-      "basename": "Using diskusage Command in Windows",
-      "path": "2-Slipbox/Using diskusage Command in Windows.md"
     }
   ],
   "omittedPaths": [],
