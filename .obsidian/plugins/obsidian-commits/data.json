@@ -5997,7 +5997,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 339
+      "links": 340
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7488,19 +7488,24 @@
       "size": 15656,
       "tags": 3,
       "links": 18
+    },
+    "5-Projects/Create a Personal Website 📝.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 917,
-      "Create": 687,
-      "Link": 782,
+      "Refactor": 918,
+      "Create": 688,
+      "Link": 785,
       "Expand": 96
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 152,
+      "0": 157,
       "1": 774,
       "2": 55,
       "3": 156,
@@ -7528,7 +7533,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 429,
+      "Mon": 434,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7593,6 +7598,7 @@
         "<a class=\"internal-link\" href=\"Keyboard Shortcuts in Microsoft Edge.md\"> Keyboard Shortcuts in Microsoft Edge </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"5-Projects/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Notational.md\"> Notational </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Classification.md\"> Classification </a>",
@@ -7642,10 +7648,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Collectors Fallacy.md\"> Collectors Fallacy </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Information Overload.md\"> Information Overload </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Virtual Machines.md\"> Virtual Machines </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Cloud Hosted Environments.md\"> Cloud Hosted Environments </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Subscriptions.md\"> Subscriptions </a>",
@@ -7695,10 +7701,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Cargo.md\"> Cargo </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C++.md\"> C++ </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C-Sharp.md\"> C-Sharp </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C.md\"> C </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/BIOS.md\"> BIOS </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C.md\"> C </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Archive.md\"> Archive </a>",
@@ -7748,8 +7754,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7818,6 +7823,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Nodejs.md\"> Nodejs </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Library Classification System.md\"> Library Classification System </a>",
@@ -7866,9 +7873,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Web terms 101 – Google Domains.md\"> Web terms 101 – Google Domains </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>"
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - PKM.md\"> MOC - PKM </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

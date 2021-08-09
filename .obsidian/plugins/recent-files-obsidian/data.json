@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Create a Personal Website 📝",
+      "path": "5-Projects/Create a Personal Website 📝.md"
+    },
+    {
       "basename": "SQL",
       "path": "0-Inbox/Placeholders/SQL.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Time Block Planner",
       "path": "0-Inbox/Placeholders/Time Block Planner.md"
-    },
-    {
-      "basename": "Static Site Generators",
-      "path": "0-Inbox/Placeholders/Static Site Generators.md"
     }
   ],
   "omittedPaths": [],
