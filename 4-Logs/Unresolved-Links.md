@@ -111,7 +111,7 @@ Don't forget that creating the file from here may create the file in the wrong d
 - [[Google Cloud Platform - GCP]] in [[1-Maps-of-Content/020 - Development]]
 - [[gcloud]] in [[1-Maps-of-Content/020 - Development]]
 - [[Firebase]] in [[1-Maps-of-Content/020 - Development]]
-- [[Microsoft Azure]] in [[1-Maps-of-Content/020 - Development]]
+- [[MOC - Microsoft Azure]] in [[1-Maps-of-Content/020 - Development]]
 - [[Azure CLI]] in [[1-Maps-of-Content/020 - Development]]
 - [[Amazon Web Services - AWS]] in [[1-Maps-of-Content/020 - Development]]
 - [[Heroku]] in [[1-Maps-of-Content/020 - Development]]

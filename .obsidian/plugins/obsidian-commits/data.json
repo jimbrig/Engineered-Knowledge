@@ -6277,7 +6277,7 @@
     "1-Maps-of-Content/020 - Development.md": {
       "size": 10879,
       "tags": 3,
-      "links": 165
+      "links": 170
     },
     "1-Maps-of-Content/030 - Professional.md": {
       "size": 224,
@@ -6939,11 +6939,6 @@
       "tags": 0,
       "links": 0
     },
-    "0-Inbox/Placeholders/Microsoft Azure.md": {
-      "size": 218,
-      "tags": 0,
-      "links": 0
-    },
     "0-Inbox/Placeholders/Microsoft PowerToys.md": {
       "size": 226,
       "tags": 0,
@@ -7478,13 +7473,18 @@
       "size": 16516,
       "tags": 2,
       "links": 3
+    },
+    "1-Maps-of-Content/MOC - Microsoft Azure.md": {
+      "size": 218,
+      "tags": 4,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 928,
+      "Refactor": 930,
       "Create": 692,
-      "Link": 796,
+      "Link": 798,
       "Expand": 98
     }
   },
@@ -7507,7 +7507,7 @@
       "14": 190,
       "15": 104,
       "16": 436,
-      "17": 95,
+      "17": 99,
       "18": 34,
       "19": 60,
       "20": 24,
@@ -7518,7 +7518,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 461,
+      "Mon": 465,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7636,6 +7636,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Building a Second Brain.md\"> Building a Second Brain </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/Microsoft Azure.md\"> Microsoft Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md\"> Keyboard shortcuts for Gmail - Gmail Help </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Keyboard shortcuts for Gmail - Gmail Help.md\"> Keyboard shortcuts for Gmail - Gmail Help </a>",
         "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
@@ -7684,11 +7686,10 @@
         "<a class=\"internal-link\" href=\"3-Resources/Code Comments.md\"> Code Comments </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Code Comments.md\"> Code Comments </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Clojure.md\"> Clojure </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Chocolatey.md\"> Chocolatey </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Cargo.md\"> Cargo </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C++.md\"> C++ </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Chocolatey.md\"> Chocolatey </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Microsoft Azure.md\"> Microsoft Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md\"> Keyboard shortcuts for Gmail - Gmail Help </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Keyboard shortcuts for Gmail - Computer.md\"> Keyboard shortcuts for Gmail - Computer </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Prioritize these 5 essentials of healthy achievement.md\"> Prioritize these 5 essentials of healthy achievement </a>",
@@ -7738,8 +7739,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Code Comments.md\"> Highlights - Code Comments </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7808,6 +7808,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/pgAdmin 4.md\"> pgAdmin 4 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md\"> Keyboard shortcuts for Gmail - Gmail Help </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7857,7 +7858,6 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/050 - Computer.md\"> 050 - Computer </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/050 - Computer.md\"> 050 - Computer </a>"
       ],
       "Removed Tags from": [

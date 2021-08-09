@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "8e1363a57ebffa59",
+        "id": "bc38833d909921f2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md",
-            "mode": "preview"
+            "file": "1-Maps-of-Content/README.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "azure",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md",
+                "file": "1-Maps-of-Content/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md",
+                "file": "1-Maps-of-Content/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md"
+                "file": "1-Maps-of-Content/README.md"
               }
             }
           },
@@ -181,17 +181,17 @@
     "direction": "horizontal",
     "width": 354
   },
-  "active": "8e1363a57ebffa59",
+  "active": "bc38833d909921f2",
   "lastOpenFiles": [
+    "1-Maps-of-Content/README.md",
+    "0-Inbox/Placeholders/Microsoft Azure.md",
+    "0-Inbox/Placeholders/Azure CLI.md",
+    "2-Slipbox/README.md",
+    "0-Inbox/README.md",
+    "1-Maps-of-Content/020 - Development.md",
     "0-Inbox/Keyboard shortcuts for Gmail - Computer.md",
     "3-Reference/Edge-Clippings/2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help.md",
     "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md",
-    "0-Inbox/Prioritize these 5 essentials of healthy achievement.md",
-    "0-Inbox/README.md",
-    "3-Resources/Daily-Notes/2021-08-09.md",
-    "0-Inbox/Untitled.md",
-    "1-Maps-of-Content/010 - Productivity.md",
-    "3-Resources/README.md",
-    "5-Projects/Untitled.md"
+    "0-Inbox/Prioritize these 5 essentials of healthy achievement.md"
   ]
 }

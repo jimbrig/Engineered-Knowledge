@@ -38,7 +38,7 @@ Tags: [ "#Development", "#MOC", "#Index" ]
 
 [Windows Subsystem for Linux (WSL)](../2-Slipbox/Windows%20Subsystem%20for%20Linux%20(WSL).md)
 
-[[../0-Inbox/Placeholders/DotNet Framework.md]] | [MOC - PowerShell](MOC%20-%20PowerShell.md) | [Windows Terminal](../2-Slipbox/Windows%20Terminal.md) | [Visual Studio](../0-Inbox/Placeholders/Visual%20Studio.md) | [Visual Studio Code](../0-Inbox/Placeholders/Visual%20Studio%20Code.md) | [NuGet](../0-Inbox/Placeholders/NuGet.md)
+[[DotNet Framework]] | [MOC - PowerShell](MOC%20-%20PowerShell.md) | [Windows Terminal](../2-Slipbox/Windows%20Terminal.md) | [Visual Studio](../0-Inbox/Placeholders/Visual%20Studio.md) | [Visual Studio Code](../0-Inbox/Placeholders/Visual%20Studio%20Code.md) | [NuGet](../0-Inbox/Placeholders/NuGet.md)
 
 [Windows SDK](../0-Inbox/Placeholders/Windows%20SDK.md) | [Windows APK](../0-Inbox/Placeholders/Windows%20APK.md) | [WindowsPE](../0-Inbox/Placeholders/WindowsPE.md)
 
@@ -160,8 +160,8 @@ Also: [HTTPS](../0-Inbox/Placeholders/HTTPS.md), [SSH](../0-Inbox/Placeholders/S
 
 ### Hosting and Cloud Service Providers
 
-- [Google Cloud Platform - GCP](../0-Inbox/Placeholders/Google%20Cloud%20Platform%20-%20GCP.md) | [[../0-Inbox/Placeholders/gcloud SDK.md]] | [Firebase](../0-Inbox/Placeholders/Firebase.md)
-- [Microsoft Azure](../0-Inbox/Placeholders/Microsoft%20Azure.md) | [Azure CLI](../0-Inbox/Placeholders/Azure%20CLI.md)
+- [[Google Cloud Platform - GCP]] | [[gcloud SDK]] | [[Firebase]]
+- [[MOC - Microsoft Azure]] | [[Azure CLI]]
 - [Amazon Web Services - AWS](../0-Inbox/Placeholders/Amazon%20Web%20Services%20-%20AWS.md)
 - [Heroku](../0-Inbox/Placeholders/Heroku.md)
 - [Digital Ocean](../0-Inbox/Placeholders/Digital%20Ocean.md)
@@ -180,7 +180,7 @@ For Storage:
 ### Command Line Interfaces for the Cloud:
 
 - [gcloud SDK](../0-Inbox/Placeholders/gcloud%20SDK.md) for [[../0-Inbox/Placeholders/Google Cloud Platform - GCP.md]]
-- [[../0-Inbox/Placeholders/Azure CLI.md]] for [[../0-Inbox/Placeholders/Microsoft Azure.md]]
+- [[../0-Inbox/Placeholders/Azure CLI.md]] for [[MOC - Microsoft Azure]]
 - [[../0-Inbox/Placeholders/AWS-CLI.md]]
 - [[../0-Inbox/Placeholders/Heroku-CLI.md]]
 - [[../0-Inbox/Placeholders/Github-CLI.md]]
