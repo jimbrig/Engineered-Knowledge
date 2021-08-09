@@ -6006,7 +6006,7 @@
     },
     "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md": {
       "size": 3374,
-      "tags": 0,
+      "tags": 2,
       "links": 0
     },
     "2-Slipbox/Managing projects with GTD.md": {
@@ -7474,7 +7474,7 @@
     "/": {
       "Refactor": 926,
       "Create": 690,
-      "Link": 791,
+      "Link": 792,
       "Expand": 96
     }
   },
@@ -7494,7 +7494,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 184,
+      "14": 185,
       "15": 99,
       "16": 436,
       "17": 95,
@@ -7508,7 +7508,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 450,
+      "Mon": 451,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7679,6 +7679,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C.md\"> C </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Keyboard shortcuts for Gmail - Computer.md\"> Keyboard shortcuts for Gmail - Computer </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Prioritize these 5 essentials of healthy achievement.md\"> Prioritize these 5 essentials of healthy achievement </a>",
         "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
@@ -7728,8 +7729,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",

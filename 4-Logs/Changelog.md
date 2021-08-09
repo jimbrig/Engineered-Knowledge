@@ -1,4 +1,5 @@
-- 2021-08-09 at 14h44 · [[Keyboard shortcuts for Gmail - Computer]]
+- 2021-08-09 at 14h48 · [[2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help]]
+- 2021-08-09 at 14h48 · [[Keyboard shortcuts for Gmail - Computer]]
 - 2021-08-09 at 14h24 · [[Prioritize these 5 essentials of healthy achievement]]
 - 2021-08-09 at 14h22 · [[How to Handle Inbox Infinity]]
 - 2021-08-09 at 00h42 · [[2021-08-09]]

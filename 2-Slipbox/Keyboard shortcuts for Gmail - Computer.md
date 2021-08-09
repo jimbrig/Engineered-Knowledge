@@ -8,20 +8,20 @@ Tags: ["#Productivity", "#Computer"]
 
 # Keyboard shortcuts for Gmail
 
-|Action|	Shortcut|
-Previous message in an open conversation	p
-Next message in an open conversation	n
-Focus main window	Shift + Esc
-Focus latest chat or compose	Esc
-Advance to the next chat or compose	Ctrl + .
-Advance to previous chat or compose	Ctrl + ,
-Send	⌘/Ctrl + Enter
-Add cc recipients	⌘/Ctrl + Shift + c
-Add bcc recipients	⌘/Ctrl + Shift + b
-Access custom from	⌘/Ctrl + Shift + f
-Insert a link	⌘/Ctrl + k
-Go to next misspelled word (Mac only)	⌘ + ;
-Open spelling suggestions	⌘/Ctrl + m
+|                  Action                  |  Shortcut   |
+|:----------------------------------------:|:-----------:|
+| Previous message in an open conversation |      p      |
+|   Next message in an open conversation   |      n      |
+|            Focus main window             | Shift + Esc |
+|       Focus latest chat or compose       |     Esc     |
+|   Advance to the next chat or compose    |  Ctrl + .   |
+|   Advance to previous chat or compose    |             |
+|                   Send                   |             |
+|            Add cc recipients             |             |
+|            Add bcc recipients            |             |
+|            Access custom from            |             |
+|              Insert a link               |             |
+|        Open spelling suggestions         |             |
 
 
 **Note**: To learn how to customize keyboard shortcuts like in Outlook, visit section 2.6 of the [Learning Center](https://gsuite.google.com/learning-center/products/gmail/switch-from-outlook/#!/).
@@ -74,6 +74,6 @@ You can change your default keyboard shortcuts in Gmail.
 
 Links: 
 
-Sources:
+Sources: [Keyboard shortcuts for Gmail - Computer - Gmail Help (google.com)](https://support.google.com/mail/answer/6594?hl=en&co=GENIE.Platform%3DDesktop)
 
 
