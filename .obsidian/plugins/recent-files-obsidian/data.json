@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "2021-08-09",
-      "path": "3-Resources/Daily-Notes/2021-08-09.md"
+      "basename": "Prioritize these 5 essentials of healthy achievement",
+      "path": "0-Inbox/Prioritize these 5 essentials of healthy achievement.md"
     },
     {
       "basename": "README",
       "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "2021-08-09",
+      "path": "3-Resources/Daily-Notes/2021-08-09.md"
+    },
+    {
+      "basename": "010 - Productivity",
+      "path": "1-Maps-of-Content/010 - Productivity.md"
     },
     {
       "basename": "README",
@@ -181,24 +189,8 @@
       "path": "3-Reference/Edge-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md"
     },
     {
-      "basename": "2021-08-07",
-      "path": "3-Resources/Daily-Notes/2021-08-07.md"
-    },
-    {
-      "basename": "2021-08-05",
-      "path": "3-Resources/Daily-Notes/2021-08-05.md"
-    },
-    {
       "basename": "HashiCorp Terraform",
       "path": "2-Slipbox/HashiCorp Terraform.md"
-    },
-    {
-      "basename": "WinSCP",
-      "path": "0-Inbox/Placeholders/WinSCP.md"
-    },
-    {
-      "basename": "Virtual Machines",
-      "path": "0-Inbox/Placeholders/Virtual Machines.md"
     }
   ],
   "omittedPaths": [],
