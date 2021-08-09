@@ -3,10 +3,10 @@ Creation Date: 2021-07-27 12:29
 Last Modified Date: Tuesday 27th July 2021 12:30:40
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
 Alias: Keyboard shortcuts for Gmail - Computer
-Tags: []
+Tags: ["#Productivity", "#Computer"]
 ---
 
-# Keyboard shortcuts for Gmail - Computer
+# Keyboard shortcuts for Gmail
 
 |Action|	Shortcut|
 Previous message in an open conversation	p

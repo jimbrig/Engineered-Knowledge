@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Prioritize these 5 essentials of healthy achievement.md",
+            "file": "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gmail",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Prioritize these 5 essentials of healthy achievement.md",
+                "file": "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Prioritize these 5 essentials of healthy achievement.md",
+                "file": "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Prioritize these 5 essentials of healthy achievement.md"
+                "file": "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md"
               }
             }
           },
@@ -183,6 +184,7 @@
   },
   "active": "8e1363a57ebffa59",
   "lastOpenFiles": [
+    "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md",
     "0-Inbox/Prioritize these 5 essentials of healthy achievement.md",
     "0-Inbox/README.md",
     "3-Resources/Daily-Notes/2021-08-09.md",
@@ -191,7 +193,6 @@
     "3-Resources/README.md",
     "5-Projects/Untitled.md",
     "0-Inbox/Placeholders/SQL.md",
-    "1-Maps-of-Content/020 - Development.md",
-    "4-Logs/README.md"
+    "1-Maps-of-Content/020 - Development.md"
   ]
 }

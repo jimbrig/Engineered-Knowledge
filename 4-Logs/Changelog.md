@@ -1,3 +1,4 @@
+- 2021-08-09 at 14h44 · [[Keyboard shortcuts for Gmail - Computer]]
 - 2021-08-09 at 14h24 · [[Prioritize these 5 essentials of healthy achievement]]
 - 2021-08-09 at 14h22 · [[How to Handle Inbox Infinity]]
 - 2021-08-09 at 00h42 · [[2021-08-09]]
@@ -333,7 +334,6 @@
 - 2021-07-30 at 01h42 · [[2021-04-28]]
 - 2021-07-30 at 01h42 · [[2021-05-02]]
 - 2021-07-30 at 01h42 · [[R Miscellaneous Notes]]
-- 2021-07-30 at 01h42 · [[Keyboard shortcuts for Gmail - Computer]]
 - 2021-07-30 at 01h42 · [[WinGet CLI Setup and Settings]]
 - 2021-07-30 at 01h42 · [[R Books List]]
 - 2021-07-30 at 01h42 · [[Data Validation Packages in R]]
