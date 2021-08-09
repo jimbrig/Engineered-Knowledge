@@ -6,7 +6,7 @@
 - [[Plumber REST APIs in R]]
 - [[Plumber Resources]]
 - [[Managing projects with GTD]]
-- [[Keyboard shortcuts for Gmail - Computer]]
+- [[Keyboard shortcuts for Gmail - Gmail Help]]
 - [[Johnny Decimal System]]
 - [[HTTP Requests Notes]]
 - [[How to Pay off Debt]]
