@@ -1,3 +1,4 @@
+- 2021-08-08 at 21h29 · [[How to Handle Inbox Infinity]]
 - 2021-08-08 at 16h38 · [[Library Classification System]]
 - 2021-08-08 at 16h34 · [[Notational]]
 - 2021-08-08 at 16h32 · [[Classification]]
@@ -45,7 +46,6 @@
 - 2021-08-08 at 16h23 · [[MOC - Setup]]
 - 2021-08-08 at 16h23 · [[WSL Commands and Installs]]
 - 2021-08-08 at 16h23 · [[System Design Primer]]
-- 2021-08-08 at 16h06 · [[How to Handle Inbox Infinity]]
 - 2021-08-08 at 16h06 · [[Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights]]
 - 2021-08-08 at 16h06 · [[Cloud Based Computing Business Ideas for 2021 [Top 50 Picks]]]
 - 2021-08-08 at 01h07 · [[S-CLI]]
