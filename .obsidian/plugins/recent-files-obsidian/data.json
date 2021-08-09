@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-08-09",
+      "path": "3-Resources/Daily-Notes/2021-08-09.md"
+    },
+    {
+      "basename": "README",
+      "path": "0-Inbox/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
       "basename": "Create a Personal Website 📝",
       "path": "5-Projects/Create a Personal Website 📝.md"
     },
@@ -21,20 +33,12 @@
       "path": "3-Resources/Dictionaries/Archive.md"
     },
     {
-      "basename": "README",
-      "path": "3-Resources/README.md"
-    },
-    {
       "basename": "Notational",
       "path": "3-Resources/Dictionaries/Notational.md"
     },
     {
       "basename": "Library Classification System",
       "path": "3-Reference/Library Classification System.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
     },
     {
       "basename": "Classification",
@@ -195,10 +199,6 @@
     {
       "basename": "Virtual Machines",
       "path": "0-Inbox/Placeholders/Virtual Machines.md"
-    },
-    {
-      "basename": "Time Block Planner",
-      "path": "0-Inbox/Placeholders/Time Block Planner.md"
     }
   ],
   "omittedPaths": [],

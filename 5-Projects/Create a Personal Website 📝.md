@@ -8,9 +8,7 @@ Tags: [ "#Project" ]
 
 # Create a Personal Website 📝
 
-## Project Details
-
-### Desired Outcome
+## Desired Outcome
 
 Simple yet elegant personal website hosted via [[Google Domains]] under domain <https://jimbrig.com>.
 
@@ -19,10 +17,13 @@ Simple yet elegant personal website hosted via [[Google Domains]] under domain <
 #### Tech Stack
 
 - [[NextJS]] / [[React]] - primary framework running the website platform 
-- [[MkDocs]]
-- [[Obsidian]]
-- [[Vercel]]
-- 
+- [[MkDocs]] - Used to create simplified version of my [[Publishing Workflow|Published Vault]]
+- [[Obsidian]] - [[PKM]], [[Peronal Knowedge Base]], and notes
+- [[Vercel]] - Hosting Platform
+- [[Auto0]] - [[Authentication]] Backend Service
+- [[R]] and [[RShiny]] apps listed in gallery/portfolio pages
+- [[Markdown]], [[Git]], [[GitHub]], etc.  - no need to explain
+- [[Docker]] and [[GCP]] including [[Cloud Run]], [[Cloud Build]], [[Cloud SQL]], [[Secret Manager]], etc.
 
 #### Routing
 *Landing Page at root domain: <https://jimbrig.com>*
