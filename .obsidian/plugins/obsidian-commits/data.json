@@ -5977,7 +5977,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 340
+      "links": 335
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7457,24 +7457,24 @@
     "5-Projects/Create a Personal Website 📝.md": {
       "size": 0,
       "tags": 1,
-      "links": 18
+      "links": 24
     },
     "0-Inbox/Prioritize these 5 essentials of healthy achievement.md": {
       "size": 0,
-      "tags": 0,
-      "links": 0
+      "tags": 1,
+      "links": 2
     },
     "3-Resources/Daily-Notes/2021-08-09.md": {
       "size": 692,
       "tags": 0,
-      "links": 0
+      "links": 3
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 925,
+      "Refactor": 926,
       "Create": 690,
-      "Link": 787,
+      "Link": 791,
       "Expand": 96
     }
   },
@@ -7494,7 +7494,7 @@
       "11": 42,
       "12": 24,
       "13": 29,
-      "14": 179,
+      "14": 184,
       "15": 99,
       "16": 436,
       "17": 95,
@@ -7508,7 +7508,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 445,
+      "Mon": 450,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7679,6 +7679,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/C.md\"> C </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Prioritize these 5 essentials of healthy achievement.md\"> Prioritize these 5 essentials of healthy achievement </a>",
         "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Library Classification System.md\"> Library Classification System </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Library Classification System.md\"> Library Classification System </a>",
@@ -7728,8 +7729,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Flutter.md\"> Flutter </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Dann Felker.md\"> Dann Felker </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Utils Package Hidden Gems in R.md\"> Utils Package Hidden Gems in R </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Proof of Concept code is not production code! - DONN FELKER.md\"> Proof of Concept code is not production code! - DONN FELKER </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7798,6 +7798,9 @@
         "<a class=\"internal-link\" href=\"0-Inbox/pgAdmin 4.md\"> pgAdmin 4 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Prioritize these 5 essentials of healthy achievement.md\"> Prioritize these 5 essentials of healthy achievement </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-09.md\"> 2021-08-09 </a>",
+        "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"5-Projects/Create a Personal Website 📝.md\"> Create a Personal Website 📝 </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7845,10 +7848,7 @@
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/050 - Computer.md\"> 050 - Computer </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/SFC and DISM Commands.md\"> SFC and DISM Commands </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Shiny Apps as Packages in R.md\"> Shiny Apps as Packages in R </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Useful Packages in R List.md\"> Useful Packages in R List </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Taming a Chaotic Project.md\"> Taming a Chaotic Project </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
@@ -7876,6 +7876,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Plumber Logging.md\"> Plumber Logging </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7925,8 +7926,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/README.md\"> README </a>"
       ]
     }
   },
