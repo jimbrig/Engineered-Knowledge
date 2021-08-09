@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Organize and Manage your Azure Subscriptions",
+      "path": "3-Reference/Organize and Manage your Azure Subscriptions.md"
+    },
+    {
       "basename": "Organizing Resources in Azure",
-      "path": "0-Inbox/Organizing Resources in Azure.md"
+      "path": "3-Reference/Organizing Resources in Azure.md"
+    },
+    {
+      "basename": "azure-organize-resources-scope-levels",
+      "path": "3-Reference/assets/azure-organize-resources-scope-levels.png"
     },
     {
       "basename": "MOC - Microsoft Azure",
@@ -191,14 +199,6 @@
     {
       "basename": "Using diskusage Command in Windows",
       "path": "2-Slipbox/Using diskusage Command in Windows.md"
-    },
-    {
-      "basename": "GPG",
-      "path": "0-Inbox/Placeholders/GPG.md"
-    },
-    {
-      "basename": "Git",
-      "path": "0-Inbox/Placeholders/Git.md"
     }
   ],
   "omittedPaths": [],

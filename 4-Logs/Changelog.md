@@ -1,4 +1,5 @@
-- 2021-08-09 at 17h34 · [[Organizing Resources in Azure]]
+- 2021-08-09 at 17h39 · [[Organize and Manage your Azure Subscriptions]]
+- 2021-08-09 at 17h37 · [[Organizing Resources in Azure]]
 - 2021-08-09 at 17h33 · [[MOC - Microsoft Azure]]
 - 2021-08-09 at 17h29 · [[Unresolved-Links]]
 - 2021-08-09 at 17h29 · [[020 - Development]]

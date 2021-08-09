@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bc38833d909921f2",
+        "id": "5a815c85b6ae4874",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Organizing Resources in Azure.md",
+            "file": "3-Reference/Organize and Manage your Azure Subscriptions.md",
             "mode": "source"
           }
         }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Organizing Resources in Azure.md",
+                "file": "3-Reference/Organize and Manage your Azure Subscriptions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Organizing Resources in Azure.md",
+                "file": "3-Reference/Organize and Manage your Azure Subscriptions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Organizing Resources in Azure.md"
+                "file": "3-Reference/Organize and Manage your Azure Subscriptions.md"
               }
             }
           },
@@ -181,17 +181,17 @@
     "direction": "horizontal",
     "width": 354
   },
-  "active": "bc38833d909921f2",
+  "active": "5a815c85b6ae4874",
   "lastOpenFiles": [
+    "0-Inbox/Organize and Manage your Azure Subscriptions.md",
+    "3-Reference/Organizing Resources in Azure.md",
     "0-Inbox/Organizing Resources in Azure.md",
+    "0-Inbox/assets/azure-organize-resources-scope-levels.png.png",
+    "0-Inbox/assets/Pasted image 20210809173535.png",
     "1-Maps-of-Content/MOC - Microsoft Azure.md",
     "1-Maps-of-Content/MOC - PostgreSQL.md",
     "1-Maps-of-Content/MOC - People.md",
     "1-Maps-of-Content/MOC - Obsidian.md",
-    "1-Maps-of-Content/MOC - Links.md",
-    "1-Maps-of-Content/README.md",
-    "0-Inbox/Placeholders/Microsoft Azure.md",
-    "0-Inbox/Placeholders/Azure CLI.md",
-    "2-Slipbox/README.md"
+    "1-Maps-of-Content/MOC - Links.md"
   ]
 }
