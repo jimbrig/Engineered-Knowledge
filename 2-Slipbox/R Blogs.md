@@ -2150,3 +2150,12 @@ This listing is derived from <https://www.r-bloggers.com/blogs-list/>:
 <img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=tomizonor.wordpress.com" />[tomizonor.wordpress.com](https://tomizonor.wordpress.com/)
 
 ***
+
+Links: [[020 - Development]] | [[MOC - R]] | [[R Books List]]
+
+Sources:
+- [The R Dispatch Feed (feedly.com)](https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Ffeedly.com%2Ff%2FqOVW62nvaI7U3Fp6BLtRqKnY)
+- [Blogs list | R-bloggers](https://www.r-bloggers.com/blogs-list/)
+
+
+
