@@ -7451,15 +7451,15 @@
     },
     "2-Slipbox/R Blogs.md": {
       "size": 159005,
-      "tags": 0,
-      "links": 0
+      "tags": 1,
+      "links": 5
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 943,
       "Create": 695,
-      "Link": 809,
+      "Link": 811,
       "Expand": 102
     }
   },
@@ -7485,7 +7485,7 @@
       "17": 118,
       "18": 34,
       "19": 60,
-      "20": 36,
+      "20": 38,
       "21": 2,
       "22": 160,
       "23": 161
@@ -7493,7 +7493,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 496,
+      "Mon": 498,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7664,6 +7664,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Code Comments.md\"> Code Comments </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
@@ -7713,8 +7714,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - What Blog Platform Should I Use.md\"> Highlights - What Blog Platform Should I Use </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7784,6 +7784,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
@@ -7833,8 +7834,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Packages Install Script.md\"> R Packages Install Script </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes.md\"> Kubernetes </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Google Cloud Setup Notes.md\"> Google Cloud Setup Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Google Cloud Setup Notes.md\"> Google Cloud Setup Notes </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
