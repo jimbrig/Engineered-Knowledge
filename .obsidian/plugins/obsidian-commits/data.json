@@ -5962,7 +5962,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 339
+      "links": 332
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7448,14 +7448,19 @@
       "size": 4820,
       "tags": 5,
       "links": 6
+    },
+    "2-Slipbox/R Blogs.md": {
+      "size": 621199,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 941,
-      "Create": 694,
+      "Refactor": 942,
+      "Create": 695,
       "Link": 809,
-      "Expand": 101
+      "Expand": 102
     }
   },
   "dailyCommits": {
@@ -7480,7 +7485,7 @@
       "17": 118,
       "18": 34,
       "19": 60,
-      "20": 32,
+      "20": 35,
       "21": 2,
       "22": 160,
       "23": 161
@@ -7488,7 +7493,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 492,
+      "Mon": 495,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7500,6 +7505,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
@@ -7549,10 +7555,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>",
-        "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Keyboard shortcuts for Gmail - Computer.md\"> Keyboard shortcuts for Gmail - Computer </a>",
@@ -7602,8 +7608,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Package Managers.md\"> Package Managers </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Google Chrome.md\"> Google Chrome </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Mozilla Firefox.md\"> Mozilla Firefox </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Microsoft Edge.md\"> Microsoft Edge </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Static Site Generators.md\"> Static Site Generators </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Microsoft Edge.md\"> Microsoft Edge </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
@@ -7856,6 +7861,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Plumber Logging.md\"> Plumber Logging </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7905,8 +7911,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>"
       ]
     }
   },

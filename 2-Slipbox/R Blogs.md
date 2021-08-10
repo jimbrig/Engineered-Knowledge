@@ -1,12 +1,3 @@
----
-Creation Date: 2021-08-09 20:07
-Last Modified Date: Monday 9th August 2021 20:07:33
-Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: R Blogs
-Tags: ["#Development", "#R", "#List"]
----
-
-
 # R Blogs
 
 
@@ -17,8 +8,7 @@ This list is extracted from my personal R Development Feed on Feedly: [The R Dis
 
 
 
-![img](https://s2.googleusercontent.com/s2/favicons?sz=32&domain=developer.r-project.org) 
-[developer.r-project.org](https://developer.r-project.org/Blog/public/)
+![img](https://s2.googleusercontent.com/s2/favicons?sz=32&domain=developer.r-project.org) [developer.r-project.org](https://developer.r-project.org/Blog/public/)
 
 ![img](https://s2.googleusercontent.com/s2/favicons?sz=32&domain=topics-in-r.blogspot.com) [topics-in-r.blogspot.com](https://topics-in-r.blogspot.com/)
 
@@ -2146,12 +2136,4 @@ This listing is derived from <https://www.r-bloggers.com/blogs-list/>:
 
 
 
-
-
-
-***
-
-Links: 
-
-Sources:
 
