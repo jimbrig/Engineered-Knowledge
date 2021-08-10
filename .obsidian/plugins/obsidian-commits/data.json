@@ -5899,11 +5899,6 @@
       "tags": 1,
       "links": 0
     },
-    "3-Resources/Mindsweeps/2021-07-19-Mindsweep.md": {
-      "size": 307,
-      "tags": 1,
-      "links": 2
-    },
     "3-Resources/Daily-Notes/2021-07-24.md": {
       "size": 1212,
       "tags": 1,
@@ -5948,16 +5943,6 @@
       "size": 365,
       "tags": 0,
       "links": 1
-    },
-    "3-Resources/Templates/Project-Note-Template.md": {
-      "size": 453,
-      "tags": 1,
-      "links": 2
-    },
-    "3-Resources/Templates/Daily-Note-Template.md": {
-      "size": 640,
-      "tags": 0,
-      "links": 3
     },
     "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md": {
       "size": 12070,
@@ -6338,11 +6323,6 @@
       "size": 0,
       "tags": 1,
       "links": 5
-    },
-    "3-Resources/Templates/README-Template.md": {
-      "size": 0,
-      "tags": 1,
-      "links": 0
     },
     "2-Slipbox/Obsidian Templater Plugin Notes.md": {
       "size": 332,
@@ -7324,11 +7304,6 @@
       "tags": 1,
       "links": 1
     },
-    "3-Resources/Templates/Highlight-Template.md": {
-      "size": 8,
-      "tags": 0,
-      "links": 0
-    },
     "3-Resources/Mobile-Shares.md": {
       "size": 437,
       "tags": 0,
@@ -7399,11 +7374,6 @@
       "tags": 0,
       "links": 3
     },
-    "3-Resources/Dictionaries/Realization.md": {
-      "size": 914,
-      "tags": 1,
-      "links": 0
-    },
     "3-Resources/Dictionaries/Derivation.md": {
       "size": 725,
       "tags": 1,
@@ -7432,16 +7402,6 @@
     "3-Resources/Dictionaries/Catalogue.md": {
       "size": 675,
       "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Classification.md": {
-      "size": 562,
-      "tags": 1,
-      "links": 0
-    },
-    "3-Resources/Dictionaries/Notational.md": {
-      "size": 401,
-      "tags": 0,
       "links": 0
     },
     "3-Reference/Library Classification System.md": {
@@ -7477,7 +7437,7 @@
     "1-Maps-of-Content/MOC - Microsoft Azure.md": {
       "size": 218,
       "tags": 4,
-      "links": 11
+      "links": 12
     },
     "3-Reference/Organizing Resources in Azure.md": {
       "size": 10870,
@@ -7492,9 +7452,9 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 933,
+      "Refactor": 941,
       "Create": 694,
-      "Link": 808,
+      "Link": 809,
       "Expand": 101
     }
   },
@@ -7517,10 +7477,10 @@
       "14": 190,
       "15": 104,
       "16": 436,
-      "17": 117,
+      "17": 118,
       "18": 34,
       "19": 60,
-      "20": 24,
+      "20": 32,
       "21": 2,
       "22": 160,
       "23": 161
@@ -7528,7 +7488,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 483,
+      "Mon": 492,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7765,6 +7725,14 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Notational.md\"> Notational </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Realization.md\"> Realization </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Classification.md\"> Classification </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Highlight-Template.md\"> Highlight-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Mindsweeps/2021-07-19-Mindsweep.md\"> 2021-07-19-Mindsweep </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-20.md\"> 2021-07-20 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-05.md\"> 2021-08-05 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-07-28.md\"> 2021-07-28 </a>",
@@ -7807,17 +7775,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/R-Markdown.md\"> R-Markdown </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/ReadTheDocs.md\"> ReadTheDocs </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/React Native.md\"> React Native </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/RapidEE.md\"> RapidEE </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/psql.md\"> psql </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/PowerShell Modules.md\"> PowerShell Modules </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/pip.md\"> pip </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/PHP.md\"> PHP </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/pgcli.md\"> pgcli </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/pgAdmin 4.md\"> pgAdmin 4 </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
@@ -7867,8 +7828,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/R Packages Install Script.md\"> R Packages Install Script </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes.md\"> Kubernetes </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Google Cloud Setup Notes.md\"> Google Cloud Setup Notes </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
