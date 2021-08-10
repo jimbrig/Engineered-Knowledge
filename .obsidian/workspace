@@ -181,6 +181,22 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "e012d53ab36e82b1",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "6c99f5f4377e3e70",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
