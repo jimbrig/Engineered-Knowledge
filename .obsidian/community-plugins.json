@@ -67,5 +67,6 @@
   "obsidian-pandoc",
   "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-plugin-prettier",
-  "markdown-prettifier"
+  "markdown-prettifier",
+  "obsidian-style-settings"
 ]

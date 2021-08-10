@@ -1,4 +1,18 @@
+---
+Creation Date: 2021-08-04 12:32
+Last Modified Date: Wednesday 4th August 2021 12:32:50
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: R Blogs
+Tags: ["#Windows"]
+cssclass: left-align-images
+---
+
 # R Blogs
+
+## Contents
+
+- [[#From Feedly|From Feedly]]
+- [[#R-Bloggers Sources|R-Bloggers Sources]]
 
 
 
@@ -2135,6 +2149,4 @@ This listing is derived from <https://www.r-bloggers.com/blogs-list/>:
 
 <img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=tomizonor.wordpress.com" />[tomizonor.wordpress.com](https://tomizonor.wordpress.com/)
 
-
-
-
+***

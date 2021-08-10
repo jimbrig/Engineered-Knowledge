@@ -5,6 +5,18 @@
       "path": "2-Slipbox/R Blogs.md"
     },
     {
+      "basename": "About the AppxProvisioning.xml File in Windows",
+      "path": "2-Slipbox/About the AppxProvisioning.xml File in Windows.md"
+    },
+    {
+      "basename": "Achieving Your Goals Feels Good",
+      "path": "2-Slipbox/Achieving Your Goals Feels Good.md"
+    },
+    {
+      "basename": "Automate Getting Help",
+      "path": "2-Slipbox/Automate Getting Help.md"
+    },
+    {
       "basename": "README",
       "path": "2-Slipbox/README.md"
     },
@@ -187,10 +199,6 @@
     {
       "basename": "What Blog Platform Should I Use",
       "path": "2-Slipbox/What Blog Platform Should I Use.md"
-    },
-    {
-      "basename": "Web Browsers",
-      "path": "2-Slipbox/Web Browsers.md"
     }
   ],
   "omittedPaths": [],

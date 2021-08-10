@@ -1,4 +1,4 @@
-.markdown-preview-view img {
+.markdown-preview-view, .left-align-images img {
   float: left;
   padding-right: 1%;
 }
