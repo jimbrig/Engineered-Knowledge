@@ -7458,12 +7458,17 @@
       "size": 6190,
       "tags": 3,
       "links": 4
+    },
+    "3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md": {
+      "size": 1248,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 948,
-      "Create": 696,
+      "Create": 697,
       "Link": 811,
       "Expand": 102
     }
@@ -7476,7 +7481,7 @@
       "3": 156,
       "4": 7,
       "5": 0,
-      "6": 0,
+      "6": 1,
       "7": 0,
       "8": 2,
       "9": 0,
@@ -7499,7 +7504,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 498,
-      "Tue": 152,
+      "Tue": 153,
       "Wed": 868,
       "Thu": 116,
       "Fri": 636,
@@ -7563,6 +7568,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
         "<a class=\"internal-link\" href=\"index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
@@ -7612,8 +7618,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Package Managers.md\"> Package Managers </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Google Chrome.md\"> Google Chrome </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Mozilla Firefox.md\"> Mozilla Firefox </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Google Chrome.md\"> Google Chrome </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"3-Reference/S-CLI.md\"> S-CLI </a>",
