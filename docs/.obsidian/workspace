@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "f3b9c7c9385c86a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a815c85b6ae4874",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2-Slipbox/R Blogs.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7708f8755be42da9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c0a7bb98b367c94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31c64668c765f72d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2cf2f31276047996",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "azure",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "75f74f1f2280a404",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "65ae0609966c41da",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "369963e47892a9b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 417
+  },
+  "right": {
+    "id": "8cf9c4afdc8b874f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4afdcbb29c35441",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a7000957941e105",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "958571cd2a579890",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2-Slipbox/R Blogs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8dcfe208c8a5d5c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2-Slipbox/R Blogs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47872885fb45fac2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2-Slipbox/R Blogs.md"
+              }
+            }
+          },
+          {
+            "id": "e61f4369f3a3b596",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "b369b054551d6181",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "1f1a00ef98def91c",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a78fdcb98e3c4b49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a094dd3a638c51a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 357.5
+  },
+  "active": "5a815c85b6ae4874",
+  "lastOpenFiles": [
+    "2-Slipbox/R Blogs.md",
+    "2-Slipbox/About the AppxProvisioning.xml File in Windows.md",
+    "2-Slipbox/Achieving Your Goals Feels Good.md",
+    "2-Slipbox/Automate Getting Help.md",
+    "2-Slipbox/Untitled.md",
+    "2-Slipbox/README.md",
+    "3-Resources/Daily-Notes/2021-08-09.md",
+    "1-Maps-of-Content/MOC - Microsoft Azure.md",
+    "3-Reference/Organizing Resources in Azure.md",
+    "3-Reference/Organize and Manage your Azure Subscriptions.md"
+  ]
+}

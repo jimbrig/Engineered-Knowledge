@@ -1,0 +1,20 @@
+{
+  "moveAttachmentsWithNote": true,
+  "deleteAttachmentsWithNote": true,
+  "updateLinks": true,
+  "deleteEmptyFolders": true,
+  "deleteExistFilesWhenMoveNote": true,
+  "changeNoteBacklinksAlt": true,
+  "ignoreFolders": [
+    ".git/",
+    ".obsidian/",
+    "3-Resources/Templates/",
+    "3-Resources/Dictionaries/",
+    "4-Logs/"
+  ],
+  "ignoreFiles": [
+    "README"
+  ],
+  "attachmentsSubfolder": "assets",
+  "consistentReportFile": "4-Logs/Vault-Consistensy-Report.md"
+}

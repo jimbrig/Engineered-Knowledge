@@ -1,0 +1,9 @@
+{
+  "folderNoteHide": false,
+  "folderNoteType": "index",
+  "folderNoteName": "README",
+  "folderNoteKey": "ctrl",
+  "folderNoteAutoRename": false,
+  "folderDelete2Note": false,
+  "folderNoteStrInit": "# {{FOLDER_NAME}}\n\n{{FOLDER_BRIEF_LIVE}} \n\n## Contents\n\n\n"
+}

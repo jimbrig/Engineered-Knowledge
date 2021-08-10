@@ -1,0 +1,28 @@
+# Engineered Knowledge Vault
+
+## Contents
+
+- Inbox: [0-Inbox](./0-Inbox/README.md)
+- Maps of Content: [1-Maps of Content](1-Maps-of-Content/README.md)
+- Slipbox[^1]:  [2-Slipbox](./2-Slipbox/README.md)
+- Resources: [3-Resources](./3-Resources/README.md)
+- Logs: [4-Logs](./4-Logs/README.md)
+
+```R
+fs::dir_tree("Engineered-Knowledge", recurse = FALSE)
+~/Dev/docs/obsidian/vaults/Engineered-Knowledge
+	+-- 0-Inbox
+	+-- 1-Maps of Content
+	+-- 2-Slipbox
+	+-- 3-Resources
+	+-- 4-Logs
+	\-- README.md
+```
+
+
+***
+
+**Footnotes**
+
+
+[^1]: See [View of Niklas Luhmann’s Card Index: The Fabrication of Serendipity | Sociologica (unibo.it)](https://sociologica.unibo.it/article/view/8350/8270)

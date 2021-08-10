@@ -1,0 +1,142 @@
+{
+  "firstRun": false,
+  "initialized": [
+    {
+      "path": "/",
+      "initialized": true
+    }
+  ],
+  "trackedProjects": [
+    "/"
+  ],
+  "checkpointList": [
+    {
+      "path": "/",
+      "date": "2021-08-09",
+      "size": 1182681
+    }
+  ],
+  "activityHistory": [
+    {
+      "path": "/",
+      "size": [
+        {
+          "date": "2021-06-24",
+          "value": 66536
+        },
+        {
+          "date": "2021-06-25",
+          "value": 37017
+        },
+        {
+          "date": "2021-06-26",
+          "value": 363
+        },
+        {
+          "date": "2021-06-27",
+          "value": 15559
+        },
+        {
+          "date": "2021-06-28",
+          "value": 511096
+        },
+        {
+          "date": "2021-06-29",
+          "value": 159
+        },
+        {
+          "date": "2021-07-03",
+          "value": 8837
+        },
+        {
+          "date": "2021-07-06",
+          "value": 0
+        },
+        {
+          "date": "2021-07-07",
+          "value": 163
+        },
+        {
+          "date": "2021-07-08",
+          "value": 147
+        },
+        {
+          "date": "2021-07-11",
+          "value": 133
+        },
+        {
+          "date": "2021-07-12",
+          "value": 1222
+        },
+        {
+          "date": "2021-07-13",
+          "value": 149
+        },
+        {
+          "date": "2021-07-15",
+          "value": 170
+        },
+        {
+          "date": "2021-07-16",
+          "value": 0
+        },
+        {
+          "date": "2021-07-18",
+          "value": 4353
+        },
+        {
+          "date": "2021-07-19",
+          "value": 5561124
+        },
+        {
+          "date": "2021-07-28",
+          "value": 500170
+        },
+        {
+          "date": "2021-07-29",
+          "value": 6723
+        },
+        {
+          "date": "2021-07-30",
+          "value": 53485
+        },
+        {
+          "date": "2021-08-02",
+          "value": 10103
+        },
+        {
+          "date": "2021-08-03",
+          "value": 34287
+        },
+        {
+          "date": "2021-08-04",
+          "value": 391142
+        },
+        {
+          "date": "2021-08-05",
+          "value": 88859
+        },
+        {
+          "date": "2021-08-07",
+          "value": 121970
+        },
+        {
+          "date": "2021-08-08",
+          "value": 206174
+        },
+        {
+          "date": "2021-08-09",
+          "value": 1129691
+        }
+      ]
+    }
+  ],
+  "activityColor1": "#c6e48b",
+  "activityColor2": "#7bc96f",
+  "activityColor3": "#239a3b",
+  "activityColor4": "#196127",
+  "textColor": "#000000",
+  "emptyColor": "#ecedf0",
+  "cellRadius": 1,
+  "type": "yearly"
+}

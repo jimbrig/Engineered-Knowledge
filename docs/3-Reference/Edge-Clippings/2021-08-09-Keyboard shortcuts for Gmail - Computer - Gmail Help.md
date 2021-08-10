@@ -1,0 +1,2 @@
+> 
+Clipped from [Keyboard shortcuts for Gmail - Computer - Gmail Help](https://support.google.com/mail/answer/6594?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccompose-chat%2Cformatting-text%2Cactions%2Changouts%2Cjumping%2Cthreadlist-selection%2Cnavigation%2Capplication) at 2021-08-09.

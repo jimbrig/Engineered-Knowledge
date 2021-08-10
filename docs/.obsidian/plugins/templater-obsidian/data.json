@@ -1,0 +1,16 @@
+{
+  "command_timeout": 5,
+  "template_folder": "3-Resources/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "script_folder": "",
+  "empty_file_template": "3-Resources/Templates/Default-Note-Template",
+  "syntax_highlighting": true
+}
