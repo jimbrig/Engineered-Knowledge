@@ -7463,13 +7463,18 @@
       "size": 1248,
       "tags": 0,
       "links": 0
+    },
+    "0-Inbox/How to Use Sysprep in Windows.md": {
+      "size": 5937,
+      "tags": 5,
+      "links": 5
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 948,
-      "Create": 697,
-      "Link": 811,
+      "Create": 698,
+      "Link": 813,
       "Expand": 102
     }
   },
@@ -7483,7 +7488,7 @@
       "5": 0,
       "6": 1,
       "7": 0,
-      "8": 2,
+      "8": 5,
       "9": 0,
       "10": 0,
       "11": 42,
@@ -7504,7 +7509,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 498,
-      "Tue": 153,
+      "Tue": 156,
       "Wed": 868,
       "Thu": 116,
       "Fri": 636,
@@ -7568,6 +7573,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"0-Inbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
         "<a class=\"internal-link\" href=\"index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
@@ -7617,8 +7623,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/RStudio Tips and Tricks.md\"> RStudio Tips and Tricks </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Package Managers.md\"> Package Managers </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Google Chrome.md\"> Google Chrome </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Package Managers.md\"> Package Managers </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"3-Reference/S-CLI.md\"> S-CLI </a>",
@@ -7674,6 +7679,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/CSS.md\"> CSS </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
@@ -7723,8 +7729,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Useful Packages in R List.md\"> Useful Packages in R List </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Web Browsers.md\"> Web Browsers </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/README.md\"> README </a>",
-        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Code Comments.md\"> Code Comments </a>"
+        "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - People.md\"> MOC - People </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7794,6 +7799,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"0-Inbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/MOC - Microsoft Azure.md\"> MOC - Microsoft Azure </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
@@ -7843,8 +7849,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Packages Install Script.md\"> R Packages Install Script </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes.md\"> Kubernetes </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Google Cloud Setup Notes.md\"> Google Cloud Setup Notes </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes.md\"> Kubernetes </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
