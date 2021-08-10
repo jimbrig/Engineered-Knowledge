@@ -60,7 +60,7 @@
             "id": "65ae0609966c41da",
             "type": "leaf",
             "state": {
-              "type": "recent-files",
+              "type": "empty",
               "state": {}
             }
           },
@@ -68,11 +68,28 @@
             "id": "369963e47892a9b7",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4a1b33565ceed294",
+            "type": "leaf",
+            "state": {
               "type": "file-tree-view",
               "state": {}
             }
+          },
+          {
+            "id": "f788f87c6ce6373f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -90,7 +107,7 @@
             "id": "5a7000957941e105",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "empty",
               "state": {}
             }
           },
@@ -137,7 +154,7 @@
             "id": "e61f4369f3a3b596",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
+              "type": "empty",
               "state": {}
             }
           },
@@ -145,7 +162,7 @@
             "id": "b369b054551d6181",
             "type": "leaf",
             "state": {
-              "type": "juggl_style",
+              "type": "empty",
               "state": {}
             }
           },
@@ -153,7 +170,15 @@
             "id": "1f1a00ef98def91c",
             "type": "leaf",
             "state": {
-              "type": "dictionary-view",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d51c38020ab4e945",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
