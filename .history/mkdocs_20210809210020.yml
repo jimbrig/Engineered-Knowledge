@@ -62,20 +62,21 @@ theme:
     - search.highlight
 nav:
   - Home: index.md
-  - Inbox:
-      - ... | 0-Inbox/*.md
-  - MOCs:
-      - ... | 1-Maps-of-Content/*.md
-  - Slipbox:
-      - ... | 2-Slipbox/*.md
-  - Reference:
-      - ... | 3-Reference/*.md
-  - Resources:
-      - ... | 3-Resources/*.md
-  - Logs:
-      - ... | 4-Logs/*.md
-  - Projects:
-      - ... | 5-Projects/*.md
+  - Inbox: 0-Inbox/*
+
+
+      - Daily Notes:
+          - ... | _daily/*.md
+      - Featured:
+          - ... | R/*.md
+          - ... | GCP/*.md
+          - ... | Databases/*.md
+          - ... | Windows/*.md
+          - ... | WSL/*.md
+          - ... | System Design/*.md
+      - Everything:
+          - ...
+  - Changelog: Changelog.md
 # extra_css:
 #   - stylesheets/extra.css
 #   - stylesheets/links.css

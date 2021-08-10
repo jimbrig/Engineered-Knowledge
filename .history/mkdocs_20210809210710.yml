@@ -66,16 +66,11 @@ nav:
       - ... | 0-Inbox/*.md
   - MOCs:
       - ... | 1-Maps-of-Content/*.md
-  - Slipbox:
-      - ... | 2-Slipbox/*.md
-  - Reference:
-      - ... | 3-Reference/*.md
-  - Resources:
-      - ... | 3-Resources/*.md
-  - Logs:
-      - ... | 4-Logs/*.md
-  - Projects:
-      - ... | 5-Projects/*.md
+  - Slipbox: ... | 2-Slipbox/*.md
+  - Reference: ... | 3-Reference/*.md
+  - Resources: ... | 3-Resources/*.md
+  - Logs: ... | 4-Logs/*.md
+  - Projects: ... | 5-Projects/*.md
 # extra_css:
 #   - stylesheets/extra.css
 #   - stylesheets/links.css
