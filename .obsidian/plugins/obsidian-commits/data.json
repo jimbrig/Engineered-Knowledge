@@ -5962,7 +5962,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 332
+      "links": 284
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7462,7 +7462,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 947,
+      "Refactor": 948,
       "Create": 696,
       "Link": 811,
       "Expand": 102
@@ -7471,7 +7471,7 @@
   "dailyCommits": {
     "/": {
       "0": 159,
-      "1": 779,
+      "1": 780,
       "2": 55,
       "3": 156,
       "4": 7,
@@ -7499,7 +7499,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 498,
-      "Tue": 151,
+      "Tue": 152,
       "Wed": 868,
       "Thu": 116,
       "Fri": 636,
@@ -7868,6 +7868,7 @@
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7916,8 +7917,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ]
     }
   },
