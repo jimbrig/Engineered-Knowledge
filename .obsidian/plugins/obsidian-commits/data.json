@@ -7450,14 +7450,14 @@
       "links": 6
     },
     "2-Slipbox/R Blogs.md": {
-      "size": 621199,
+      "size": 159005,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 942,
+      "Refactor": 943,
       "Create": 695,
       "Link": 809,
       "Expand": 102
@@ -7485,7 +7485,7 @@
       "17": 118,
       "18": 34,
       "19": 60,
-      "20": 35,
+      "20": 36,
       "21": 2,
       "22": 160,
       "23": 161
@@ -7493,7 +7493,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 495,
+      "Mon": 496,
       "Tue": 146,
       "Wed": 868,
       "Thu": 116,
@@ -7727,7 +7727,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Windows Command Line Commands Overview.md\"> Windows Command Line Commands Overview </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Vault-Consistensy-Report.md\"> Vault-Consistensy-Report </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"3-Resources/Dictionaries/Notational.md\"> Notational </a>",
