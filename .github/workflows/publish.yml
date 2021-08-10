@@ -2,8 +2,7 @@ name: Publish Vault
 on:
   push:
     branches:
-      - master
-      - main
+      - publish
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -19,4 +18,4 @@ jobs:
       - run: pip install mkdocs-monorepo-plugin
       - run: pip install mkdocs-minify-plugin
       - run: mkdocs build --clean
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy -b gh-pages --force
