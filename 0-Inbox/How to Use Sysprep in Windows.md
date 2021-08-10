@@ -4,6 +4,11 @@ Tags: ["#Windows", "#Setup", "#Config", "#Tools", "#Guide"]
 
 # How to Use Sysprep in Windows
 
+```powershell
+# (Admin/Sudo)
+Start-Process "$env:windir/system32/sysprep/sysprep.exe"
+```
+
 ## What is Sysprep?
 
 [[Sysprep]] (System Preparation) in Windows is a built in feature that is often used to prepare a system [[ISO Image]], which can be deployed to multiple computers.
