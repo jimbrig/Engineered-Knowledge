@@ -6,9 +6,13 @@ Alias: Index-Inbox
 Tags: ["#Index"]
 ---
 
-# Inbox
+# 0-Inbox
 
 This folder houses all *inbox* notes. Currently the inbox contains the following notes in need of further processing:
+
+```query
+path:0-Inbox
+```
 
 
 

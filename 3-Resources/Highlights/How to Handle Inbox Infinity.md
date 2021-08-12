@@ -1,7 +1,7 @@
 - **URL:** http://rtalbert.org/how-to-handle-inbox-infinity/
 - **Author:** Robert Talbert
 - **Tags:** #articles
-- **Date:** [[2021-08-06]]
+- **Date:** [[2021-08-10]]
 ---
 
 Let's say you're this reader, and make a series of questionable assumptions: (1) you've already got a system of tags and folders set up for housing processed emails; (2) you are fluent with the workflow for Clarifying what's in the inbox, so that the only real work involved is actually processing the emails and not figuring out the process of processing; and especially (3) you work fast when processing emails, spending only 5 seconds on average to Clarify each item and get it to the right place. %% highlight_id: 209857919 %%

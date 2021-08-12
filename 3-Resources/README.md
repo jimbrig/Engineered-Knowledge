@@ -36,3 +36,8 @@ Current Templates Include:
 ## [Kanbans](./Kanbans/README.md)
 
 Kanban boards built from the kanban plugin: [GitHub - mgmeyers/obsidian-kanban](https://github.com/mgmeyers/obsidian-kanban)
+
+```query
+path:3-Resources
+```
+

@@ -1,22 +1,65 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "-file: Vault-Consistensy-Report -file:Changelog -file:Unresolved-Links -file:Unlinked-Files",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:1-Maps-of-Content",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:2-Slipbox",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:3-Reference",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:3-Resources",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:4-Logs",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:5-Projects",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 0.676470588235294,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 0.471910112359551,
   "linkDistance": 250,
-  "scale": 0.18826133589035496,
-  "close": false
+  "scale": 0.09578019222924719,
+  "close": true
 }

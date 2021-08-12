@@ -20,7 +20,7 @@ Tags:
 ### Tools 🔨
 
 - [Boxstarter](https://boxstarter.org/WhyBoxstarter)
-	- [chocolatey/boxstarter: Repeatable, reboot resilient windows environment installations made easy using Chocolatey packages (github.com)](https://github.com/chocolatey/boxstarter)
+	- [[[chocolatey]]/boxstarter: Repeatable, reboot resilient windows environment installations made easy using [[Chocolatey]] packages (github.com)](https://github.com/chocolatey/boxstarter)
 
 - [niklasrast/Windows-10-Bloatware-Removal-Tool: This repo contains an powershell scripts to remove bloatware applications from any windows 10 installation. (github.com)](https://github.com/niklasrast/Windows-10-Bloatware-Removal-Tool)
 

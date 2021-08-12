@@ -6,22 +6,9 @@
       {
         "id": "13dd88685aa09059",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "empty",
-          "state": {},
-          "pinned": true
-        }
-      },
-      {
-        "id": "d9c42a59d1e2cd4d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2-Slipbox/Database GUIs.md",
-            "mode": "preview"
-          }
+          "state": {}
         }
       }
     ],
@@ -105,65 +92,10 @@
             }
           },
           {
-            "id": "958571cd2a579890",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "2-Slipbox/Database GUIs.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "b8dcfe208c8a5d5c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2-Slipbox/Database GUIs.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "47872885fb45fac2",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2-Slipbox/Database GUIs.md"
-              }
-            }
-          },
-          {
-            "id": "e61f4369f3a3b596",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "b369b054551d6181",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
-            "id": "1f1a00ef98def91c",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
               "state": {}
             }
           },
@@ -191,14 +123,50 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "958571cd2a579890",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8dcfe208c8a5d5c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1f1a00ef98def91c",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 357.5
   },
-  "active": "d9c42a59d1e2cd4d",
+  "active": "13dd88685aa09059",
   "lastOpenFiles": [
     "2-Slipbox/Database GUIs.md",
     "2-Slipbox/Database Documentation.md",
