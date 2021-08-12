@@ -19,7 +19,7 @@ author: Jimmy Briggs
 
 ## PostgreSQL Specific
 
-*⭐ = Recommended*
+* *⭐ = Recommended*
 
 -   [Adminer](https://www.adminer.org/) - Full-featured database management tool written in PHP.
 -   [Beekeeper Studio](https://www.beekeeperstudio.io/) - Free and open source SQL client with a modern UI and great Postgres support. Cross platform. ⭐

@@ -8,6 +8,19 @@ Tags: ["#Development"]
 
 # Backend Web Architecture
 
+## Contents
+
+- [[#What are the clients?|What are the clients?]]
+- [[#What is a back-end?|What is a back-end?]]
+- [[#What is a server?|What is a server?]]
+- [[#What are the core functions of the app?|What are the core functions of the app?]]
+- [[#What kinds of responses can a server send?|What kinds of responses can a server send?]]
+- [[#What is a database, and why do we need to use them?|What is a database, and why do we need to use them?]]
+- [[#What is a Web API, really?|What is a Web API, really?]]
+- [[#Other principles of the request-response cycle:|Other principles of the request-response cycle:]]
+- [[#Mapping out a request|Mapping out a request]]
+
+
 Software engineers seem to always be discussing the front-end and the back-end of their apps. But what exactly does this mean?
 
 The front-end is the code that is executed on the client side. This code (typically HTML, CSS, and JavaScript) runs in the user’s browser and creates the user interface.

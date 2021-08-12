@@ -17,8 +17,11 @@
         "id": "d9c42a59d1e2cd4d",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-Slipbox/Database GUIs.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -107,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-Slipbox/Database GUIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-Slipbox/Database GUIs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-Slipbox/Database GUIs.md"
+              }
             }
           },
           {
@@ -193,15 +200,15 @@
   },
   "active": "d9c42a59d1e2cd4d",
   "lastOpenFiles": [
-    "0-Inbox/README.md",
-    "README.md",
-    "2-Slipbox/README.md",
-    "0-Inbox/S-CLI.md",
-    "0-Inbox/Prioritize these 5 essentials of healthy achievement.md",
-    "1-Maps-of-Content/MOC - R.md",
-    "index.md",
-    "2-Slipbox/R Blogs.md",
-    "2-Slipbox/About the AppxProvisioning.xml File in Windows.md",
-    "2-Slipbox/Achieving Your Goals Feels Good.md"
+    "2-Slipbox/Database GUIs.md",
+    "2-Slipbox/Database Documentation.md",
+    "2-Slipbox/Data Validation Packages in R.md",
+    "2-Slipbox/Dann Felker.md",
+    "2-Slipbox/Daily Notes as Your Scratch Space.md",
+    "2-Slipbox/Computer Backup System.md",
+    "2-Slipbox/Code is not Production Code.md",
+    "2-Slipbox/Code Comments.md",
+    "2-Slipbox/CLI Tools.md",
+    "2-Slipbox/Classification of Note Types.md"
   ]
 }

@@ -1,7 +1,5 @@
 {
   "baseFontSize": 14,
   "cssTheme": "Reverie",
-  "enabledCssSnippets": [
-    "images"
-  ]
+  "enabledCssSnippets": []
 }

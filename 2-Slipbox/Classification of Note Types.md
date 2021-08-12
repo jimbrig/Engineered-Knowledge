@@ -8,6 +8,14 @@ Tags: [ "#Obsidian", "#PKM", "#Metadata" ]
 
 # Classification of Note Types
 
+## Contents
+
+- [[#Core Note Type Progression|Core Note Type Progression]]
+	- [[#Permanent Notes|Permanent Notes]]
+	- [[#Implementing an Evergreen Note Practice|Implementing an Evergreen Note Practice]]
+- [[#Other Common Note Types|Other Common Note Types]]
+
+
 Throughout my personal knowledge management (PKM) system there can be a variety of note types. 
 
 ## Core Note Type Progression
