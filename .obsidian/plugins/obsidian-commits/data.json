@@ -5962,7 +5962,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 337
+      "links": 340
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7483,13 +7483,28 @@
       "size": 6211,
       "tags": 3,
       "links": 4
+    },
+    "3-Resources/Templates/Daily-Note-Template.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 3
+    },
+    "3-Resources/Templates/Project-Note-Template.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
+    },
+    "3-Resources/Templates/README-Template.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 950,
-      "Create": 701,
-      "Link": 826,
+      "Create": 704,
+      "Link": 831,
       "Expand": 102
     }
   },
@@ -7513,7 +7528,7 @@
       "15": 104,
       "16": 436,
       "17": 132,
-      "18": 37,
+      "18": 45,
       "19": 60,
       "20": 38,
       "21": 2,
@@ -7526,7 +7541,7 @@
       "Mon": 498,
       "Tue": 157,
       "Wed": 868,
-      "Thu": 133,
+      "Thu": 141,
       "Fri": 636,
       "Sat": 0,
       "Sun": 287
@@ -7588,6 +7603,9 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Ansible for the Windows System Admin.md\"> Ansible for the Windows System Admin </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-10.md\"> 2021-08-10 </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
@@ -7635,9 +7653,6 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Kubernetes.md\"> Kubernetes </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-05.md\"> 2021-08-05 </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
@@ -7694,6 +7709,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Dann Felker.md\"> Dann Felker </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Ansible for the Windows System Admin.md\"> Ansible for the Windows System Admin </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
@@ -7742,9 +7759,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Packages Install Script.md\"> R Packages Install Script </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Memory in R.md\"> Memory in R </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/SFC and DISM Commands.md\"> SFC and DISM Commands </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Useful Packages in R List.md\"> Useful Packages in R List </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7814,6 +7829,9 @@
         "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
@@ -7861,10 +7879,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-07.md\"> 2021-08-07 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
