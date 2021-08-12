@@ -7464,16 +7464,6 @@
       "tags": 1,
       "links": 1
     },
-    "0-Inbox/How to Use Sysprep in Windows.md": {
-      "size": 5937,
-      "tags": 5,
-      "links": 5
-    },
-    "0-Inbox/S-CLI.md": {
-      "size": 6211,
-      "tags": 3,
-      "links": 4
-    },
     "3-Resources/Daily-Notes/2021-08-10.md": {
       "size": 1080,
       "tags": 0,
@@ -7483,13 +7473,23 @@
       "size": 2285,
       "tags": 6,
       "links": 7
+    },
+    "2-Slipbox/How to Use Sysprep in Windows.md": {
+      "size": 5937,
+      "tags": 5,
+      "links": 11
+    },
+    "2-Slipbox/S-CLI.md": {
+      "size": 6211,
+      "tags": 3,
+      "links": 4
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 948,
+      "Refactor": 950,
       "Create": 701,
-      "Link": 825,
+      "Link": 826,
       "Expand": 102
     }
   },
@@ -7513,7 +7513,7 @@
       "15": 104,
       "16": 436,
       "17": 132,
-      "18": 34,
+      "18": 37,
       "19": 60,
       "20": 38,
       "21": 2,
@@ -7526,7 +7526,7 @@
       "Mon": 498,
       "Tue": 157,
       "Wed": 868,
-      "Thu": 130,
+      "Thu": 133,
       "Fri": 636,
       "Sat": 0,
       "Sun": 287
@@ -7641,6 +7641,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/S-CLI.md\"> S-CLI </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
         "<a class=\"internal-link\" href=\"3-Reference/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Prioritize these 5 essentials of healthy achievement.md\"> Prioritize these 5 essentials of healthy achievement </a>",
         "<a class=\"internal-link\" href=\"3-Reference/mkdocs-docs.md\"> mkdocs-docs </a>",
@@ -7689,9 +7691,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Flutter.md\"> Flutter </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Dann Felker.md\"> Dann Felker </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Cygwin.md\"> Cygwin </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/CSS.md\"> CSS </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Dann Felker.md\"> Dann Felker </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
@@ -7814,6 +7814,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Backend Web Architecture.md\"> Backend Web Architecture </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Classification of Note Types.md\"> Classification of Note Types </a>",
@@ -7863,8 +7864,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Cleanup Windows from Command Line.md\"> How to Cleanup Windows from Command Line </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Setup.md\"> Obsidian Setup </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform 1.md\"> HashiCorp Terraform 1 </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

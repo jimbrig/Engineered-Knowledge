@@ -1,12 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "4-Logs/README.md"
+      "basename": "S-CLI",
+      "path": "2-Slipbox/S-CLI.md"
     },
     {
-      "basename": "README",
-      "path": "3-Resources/README.md"
+      "basename": "How to Use Sysprep in Windows",
+      "path": "2-Slipbox/How to Use Sysprep in Windows.md"
+    },
+    {
+      "basename": "2021-08-03",
+      "path": "3-Resources/Daily-Notes/2021-08-03.md"
+    },
+    {
+      "basename": "Useful Packages in R List",
+      "path": "2-Slipbox/Useful Packages in R List.md"
+    },
+    {
+      "basename": "Database GUIs",
+      "path": "2-Slipbox/Database GUIs.md"
+    },
+    {
+      "basename": "Database Documentation",
+      "path": "2-Slipbox/Database Documentation.md"
+    },
+    {
+      "basename": "Data Validation Packages in R",
+      "path": "2-Slipbox/Data Validation Packages in R.md"
+    },
+    {
+      "basename": "Dann Felker",
+      "path": "2-Slipbox/Dann Felker.md"
+    },
+    {
+      "basename": "Daily Notes as Your Scratch Space",
+      "path": "2-Slipbox/Daily Notes as Your Scratch Space.md"
+    },
+    {
+      "basename": "Computer Backup System",
+      "path": "2-Slipbox/Computer Backup System.md"
+    },
+    {
+      "basename": "Code is not Production Code",
+      "path": "2-Slipbox/Code is not Production Code.md"
+    },
+    {
+      "basename": "Code Comments",
+      "path": "2-Slipbox/Code Comments.md"
+    },
+    {
+      "basename": "CLI Tools",
+      "path": "2-Slipbox/CLI Tools.md"
+    },
+    {
+      "basename": "Classification of Note Types",
+      "path": "2-Slipbox/Classification of Note Types.md"
+    },
+    {
+      "basename": "Bootstrapping Dotfiles",
+      "path": "2-Slipbox/Bootstrapping Dotfiles.md"
+    },
+    {
+      "basename": "Base Package Hidden Gems in R",
+      "path": "2-Slipbox/Base Package Hidden Gems in R.md"
+    },
+    {
+      "basename": "AutoHotKey Scripts",
+      "path": "2-Slipbox/AutoHotKey Scripts.md"
+    },
+    {
+      "basename": "Automate Getting Help",
+      "path": "2-Slipbox/Automate Getting Help.md"
+    },
+    {
+      "basename": "Backend Web Architecture",
+      "path": "2-Slipbox/Backend Web Architecture.md"
     },
     {
       "basename": "README",
@@ -14,27 +82,27 @@
     },
     {
       "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
-    },
-    {
-      "basename": "README",
       "path": "0-Inbox/README.md"
-    },
-    {
-      "basename": "Windows Developer Environment",
-      "path": "2-Slipbox/Windows Developer Environment.md"
     },
     {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "Ansible for the Windows System Admin",
-      "path": "3-Reference/Ansible for the Windows System Admin.md"
+      "basename": "S-CLI",
+      "path": "3-Reference/S-CLI.md"
     },
     {
-      "basename": "2021-08-10",
-      "path": "3-Resources/Daily-Notes/2021-08-10.md"
+      "basename": "Prioritize these 5 essentials of healthy achievement",
+      "path": "2-Slipbox/Prioritize these 5 essentials of healthy achievement.md"
+    },
+    {
+      "basename": "MOC - R",
+      "path": "1-Maps-of-Content/MOC - R.md"
+    },
+    {
+      "basename": "mkdocs-docs",
+      "path": "3-Reference/mkdocs-docs.md"
     },
     {
       "basename": "R Blogs",
@@ -47,10 +115,6 @@
     {
       "basename": "Achieving Your Goals Feels Good",
       "path": "2-Slipbox/Achieving Your Goals Feels Good.md"
-    },
-    {
-      "basename": "Automate Getting Help",
-      "path": "2-Slipbox/Automate Getting Help.md"
     },
     {
       "basename": "2021-08-09",
@@ -67,6 +131,10 @@
     {
       "basename": "Organize and Manage your Azure Subscriptions",
       "path": "3-Reference/Organize and Manage your Azure Subscriptions.md"
+    },
+    {
+      "basename": "README",
+      "path": "1-Maps-of-Content/README.md"
     },
     {
       "basename": "azure-management-group-hierarchy",
@@ -109,12 +177,16 @@
       "path": "3-Reference/Edge-Clippings/2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help.md"
     },
     {
-      "basename": "Prioritize these 5 essentials of healthy achievement",
-      "path": "0-Inbox/Prioritize these 5 essentials of healthy achievement.md"
+      "basename": "Keyboard shortcuts for Gmail - Computer",
+      "path": "2-Slipbox/Keyboard shortcuts for Gmail - Computer.md"
     },
     {
       "basename": "010 - Productivity",
       "path": "1-Maps-of-Content/010 - Productivity.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
     },
     {
       "basename": "Create a Personal Website 📝",
@@ -125,80 +197,8 @@
       "path": "0-Inbox/Placeholders/SQL.md"
     },
     {
-      "basename": "Archive",
-      "path": "3-Resources/Dictionaries/Archive.md"
-    },
-    {
-      "basename": "Library Classification System",
-      "path": "3-Reference/Library Classification System.md"
-    },
-    {
       "basename": "README",
-      "path": "3-Resources/Dictionaries/README.md"
-    },
-    {
-      "basename": "Catalogue",
-      "path": "3-Resources/Dictionaries/Catalogue.md"
-    },
-    {
-      "basename": "Wisdom",
-      "path": "3-Resources/Dictionaries/Wisdom.md"
-    },
-    {
-      "basename": "Knowledge",
-      "path": "3-Resources/Dictionaries/Knowledge.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "3-Resources/Dictionaries/Kanban.md"
-    },
-    {
-      "basename": "Index",
-      "path": "3-Resources/Dictionaries/Index.md"
-    },
-    {
-      "basename": "Gyroscope",
-      "path": "3-Resources/Dictionaries/Gyroscope.md"
-    },
-    {
-      "basename": "Fleeting",
-      "path": "3-Resources/Dictionaries/Fleeting.md"
-    },
-    {
-      "basename": "Ephemeral",
-      "path": "3-Resources/Dictionaries/Ephemeral.md"
-    },
-    {
-      "basename": "Dictionary",
-      "path": "3-Resources/Dictionaries/Dictionary.md"
-    },
-    {
-      "basename": "Derivation",
-      "path": "3-Resources/Dictionaries/Derivation.md"
-    },
-    {
-      "basename": "Deduction",
-      "path": "3-Resources/Dictionaries/Deduction.md"
-    },
-    {
-      "basename": "2021-08-08",
-      "path": "3-Resources/Daily-Notes/2021-08-08.md"
-    },
-    {
-      "basename": "S-CLI",
-      "path": "0-Inbox/S-CLI.md"
-    },
-    {
-      "basename": "Database Documentation",
-      "path": "2-Slipbox/Database Documentation.md"
-    },
-    {
-      "basename": "gcloud SDK",
-      "path": "0-Inbox/Placeholders/gcloud SDK.md"
-    },
-    {
-      "basename": "You Need a Status Page",
-      "path": "2-Slipbox/You Need a Status Page.md"
+      "path": "4-Logs/README.md"
     }
   ],
   "omittedPaths": [],

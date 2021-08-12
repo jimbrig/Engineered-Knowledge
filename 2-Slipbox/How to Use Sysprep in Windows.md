@@ -1,8 +1,23 @@
 ---
-Tags: ["#Windows", "#Setup", "#Config", "#Tools", "#Guide"]
+Creation Date: 2021-08-08 01:04
+Last Modified Date: Sunday 8th August 2021 01:04:36
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: How to User Sysprep in Windows
+Tags: ["#Windows", "#Setup", "#Configuration", "#Tools", "#Guide"]
 ---
 
+
 # How to Use Sysprep in Windows
+
+## Contents
+
+- [[#What is Sysprep?|What is Sysprep?]]
+- [[#How to run Sysprep?|How to run Sysprep?]]
+- [[#Sysprep Tips|Sysprep Tips]]
+- [[#Sysprep Limitations|Sysprep Limitations]]
+- [[#Deploy System Without Sysprep|Deploy System Without Sysprep]]
+	- [[#Preparations|Preparations]]
+
 
 ```powershell
 # (Admin/Sudo)
@@ -21,7 +36,7 @@ If you want to install the same OS on many computers simultaneously, you can cre
 
 Note that the SID information will be copied to other devices at the same time.
 
-However, SID duplications on the same network may cause many problems, for example, WSUS incompatibility. 
+However, SID duplication on the same network may cause many problems, for example, WSUS incompatibility. 
 
 Thus, you must remove the computer-specific information before deployment. 
 

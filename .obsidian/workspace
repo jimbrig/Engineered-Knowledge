@@ -7,8 +7,11 @@
         "id": "13dd88685aa09059",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-Slipbox/S-CLI.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "azure",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-Slipbox/S-CLI.md"
+              }
             }
           },
           {
@@ -106,13 +111,7 @@
               "type": "side-panel-control-view",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "a78fdcb98e3c4b49",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "9a094dd3a638c51a",
             "type": "leaf",
@@ -123,13 +122,21 @@
                 "useHierarchy": true
               }
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "a78fdcb98e3c4b49",
+        "type": "tabs",
+        "children": [
           {
             "id": "958571cd2a579890",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-Slipbox/S-CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-Slipbox/S-CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +166,14 @@
               "type": "dictionary-view",
               "state": {}
             }
+          },
+          {
+            "id": "22f4664c5b6dd1b8",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -168,15 +184,15 @@
   },
   "active": "13dd88685aa09059",
   "lastOpenFiles": [
+    "0-Inbox/S-CLI.md",
+    "0-Inbox/How to Use Sysprep in Windows.md",
+    "3-Resources/Daily-Notes/2021-08-03.md",
+    "2-Slipbox/Useful Packages in R List.md",
     "2-Slipbox/Database GUIs.md",
     "2-Slipbox/Database Documentation.md",
     "2-Slipbox/Data Validation Packages in R.md",
     "2-Slipbox/Dann Felker.md",
     "2-Slipbox/Daily Notes as Your Scratch Space.md",
-    "2-Slipbox/Computer Backup System.md",
-    "2-Slipbox/Code is not Production Code.md",
-    "2-Slipbox/Code Comments.md",
-    "2-Slipbox/CLI Tools.md",
-    "2-Slipbox/Classification of Note Types.md"
+    "2-Slipbox/Computer Backup System.md"
   ]
 }
