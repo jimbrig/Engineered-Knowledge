@@ -20,5 +20,6 @@
   "open-with-default-app",
   "workspaces",
   "file-recovery",
+  "publish",
   "sync"
 ]

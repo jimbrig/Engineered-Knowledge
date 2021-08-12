@@ -7498,13 +7498,18 @@
       "size": 0,
       "tags": 1,
       "links": 0
+    },
+    "5-Projects/README.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 950,
-      "Create": 704,
-      "Link": 831,
+      "Create": 705,
+      "Link": 833,
       "Expand": 102
     }
   },
@@ -7528,7 +7533,7 @@
       "15": 104,
       "16": 436,
       "17": 132,
-      "18": 45,
+      "18": 48,
       "19": 60,
       "20": 38,
       "21": 2,
@@ -7541,7 +7546,7 @@
       "Mon": 498,
       "Tue": 157,
       "Wed": 868,
-      "Thu": 141,
+      "Thu": 144,
       "Fri": 636,
       "Sat": 0,
       "Sun": 287
@@ -7603,6 +7608,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"5-Projects/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
@@ -7652,8 +7658,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/S-CLI.md\"> S-CLI </a>",
@@ -7709,6 +7714,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Dann Felker.md\"> Dann Felker </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"5-Projects/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/README-Template.md\"> README-Template </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
@@ -7758,8 +7764,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Packages Install Script.md\"> R Packages Install Script </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Memory in R.md\"> Memory in R </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/RStudio Configuration Notes.md\"> RStudio Configuration Notes </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Memory in R.md\"> Memory in R </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7829,6 +7834,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"5-Projects/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Daily-Note-Template.md\"> Daily-Note-Template </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7878,8 +7884,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-07.md\"> 2021-08-07 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
-        "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"3-Reference/Obsidian Chrome Clipper.md\"> Obsidian Chrome Clipper </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
