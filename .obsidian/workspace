@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "13dd88685aa09059",
+        "id": "4eb9b4c398b9db0a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Templates/README.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Templates/README.md"
+                "file": "README.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Templates/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Templates/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,17 +182,17 @@
     "direction": "horizontal",
     "width": 357.5
   },
-  "active": "13dd88685aa09059",
+  "active": "4eb9b4c398b9db0a",
   "lastOpenFiles": [
+    "README.md",
+    "2-Slipbox/Achieving Your Goals Feels Good.md",
+    "2-Slipbox/README.md",
+    "5-Projects/README.md",
+    "1-Maps-of-Content/assets/Development-LocalGraphView.png",
     "3-Resources/Templates/README.md",
     "5-Projects/Untitled.md",
     "4-Logs/README.md",
     "3-Resources/Templates/README-Template.md",
-    "3-Resources/Kanbans/README.md",
-    "3-Resources/Highlights/README.md",
-    "3-Resources/Templates/Untitled.md",
-    "0-Inbox/S-CLI.md",
-    "0-Inbox/How to Use Sysprep in Windows.md",
-    "3-Resources/Daily-Notes/2021-08-03.md"
+    "3-Resources/Kanbans/README.md"
   ]
 }

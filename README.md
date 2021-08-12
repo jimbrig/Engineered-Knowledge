@@ -1,3 +1,11 @@
+---
+Creation Date: 2021-08-04 15:40
+Last Modified Date: Wednesday 4th August 2021 15:40:14
+Author: Jimmy Briggs <jimbrig1993@outlook.com>
+Alias: Engineered Knowledge Vault
+Tags: ["#README", "#INDEX"]
+---
+
 # Engineered Knowledge Vault
 
 ## Contents

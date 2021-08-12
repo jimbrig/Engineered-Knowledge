@@ -2,11 +2,27 @@
   "recentFiles": [
     {
       "basename": "README",
-      "path": "3-Resources/Templates/README.md"
+      "path": "README.md"
+    },
+    {
+      "basename": "Achieving Your Goals Feels Good",
+      "path": "2-Slipbox/Achieving Your Goals Feels Good.md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
     },
     {
       "basename": "README",
       "path": "5-Projects/README.md"
+    },
+    {
+      "basename": "Development-LocalGraphView",
+      "path": "1-Maps-of-Content/assets/Development-LocalGraphView.png"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/Templates/README.md"
     },
     {
       "basename": "README",
@@ -110,15 +126,7 @@
     },
     {
       "basename": "README",
-      "path": "2-Slipbox/README.md"
-    },
-    {
-      "basename": "README",
       "path": "0-Inbox/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "S-CLI",
@@ -143,10 +151,6 @@
     {
       "basename": "About the AppxProvisioning.xml File in Windows",
       "path": "2-Slipbox/About the AppxProvisioning.xml File in Windows.md"
-    },
-    {
-      "basename": "Achieving Your Goals Feels Good",
-      "path": "2-Slipbox/Achieving Your Goals Feels Good.md"
     },
     {
       "basename": "2021-08-09",
@@ -195,10 +199,6 @@
     {
       "basename": "Azure CLI",
       "path": "0-Inbox/Placeholders/Azure CLI.md"
-    },
-    {
-      "basename": "020 - Development",
-      "path": "1-Maps-of-Content/020 - Development.md"
     }
   ],
   "omittedPaths": [],
