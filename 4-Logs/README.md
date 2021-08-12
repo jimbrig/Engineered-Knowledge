@@ -1,36 +1,12 @@
 ---
 Creation Date: 2021-07-19 17:38
-Last Modified Date: Tuesday 3rd August 2021 00:58:50
+Last Modified Date: Thursday 12th August 2021 18:08:26
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: Index-Inbox
+Alias: Index-4-Logs
 Tags: ["#Index"]
 ---
 
 # 4-Logs
-> Logs Directory
-
-Files:
-
-- [Change Log](./Changelog.md)
-- [Sync Log](./Synclog.md)
-- [Unlinked Files](./Unlinked-Files.md)
-- [Unresolved Links](./Unresolved-Links.md)
-- [Vault-Consistensy-Report](./Vault-Consistensy-Report.md)
-
-
-
-
-
----
-Creation Date: 2021-07-19 17:38
-Last Modified Date: Tuesday 3rd August 2021 00:58:50
-Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: Index-Inbox
-Tags: ["#Index"]
----
-
-# 4-Logs
-> Logs Directory
 
 Files:
 
@@ -44,9 +20,3 @@ Files:
 ```query
 path:4-Logs
 ```
-
-
-
-
-
-

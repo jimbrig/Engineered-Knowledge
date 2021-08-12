@@ -1,10 +1,12 @@
 ---
 Creation Date: 2021-07-19 17:38
-Last Modified Date: Tuesday 3rd August 2021 01:13:09
+Last Modified Date: Thursday 12th August 2021 18:07:56
 Author: Jimmy Briggs <jimbrig1993@outlook.com>
-Alias: Index-Inbox
+Alias: Index-Templates
 Tags: ["#Index"]
 ---
+
+# Templates
 
 ## Templates
 
@@ -20,13 +22,6 @@ Tags: ["#Index"]
 
 - [README-Template](README-Template.md)
 
-
-## Contents
-
-< Place Directory Contents Here >
-
-
-
-
-
-
+```query
+path:Templates
+```
