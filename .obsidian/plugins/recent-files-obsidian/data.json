@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows Reset Definitive Checklist (YouTube)",
+      "path": "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
+    },
+    {
+      "basename": "README",
+      "path": "2-Slipbox/README.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
     {
       "basename": "Achieving Your Goals Feels Good",
       "path": "2-Slipbox/Achieving Your Goals Feels Good.md"
-    },
-    {
-      "basename": "README",
-      "path": "2-Slipbox/README.md"
     },
     {
       "basename": "README",
@@ -195,10 +199,6 @@
     {
       "basename": "MOC - Links",
       "path": "1-Maps-of-Content/MOC - Links.md"
-    },
-    {
-      "basename": "Azure CLI",
-      "path": "0-Inbox/Placeholders/Azure CLI.md"
     }
   ],
   "omittedPaths": [],

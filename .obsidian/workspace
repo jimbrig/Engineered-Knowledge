@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
             "mode": "preview"
           }
         }
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,15 +200,15 @@
   },
   "active": "4eb9b4c398b9db0a",
   "lastOpenFiles": [
+    "3-Reference/Untitled.md",
+    "2-Slipbox/README.md",
     "README.md",
     "2-Slipbox/Achieving Your Goals Feels Good.md",
-    "2-Slipbox/README.md",
     "5-Projects/README.md",
     "1-Maps-of-Content/assets/Development-LocalGraphView.png",
     "3-Resources/Templates/README.md",
     "5-Projects/Untitled.md",
     "4-Logs/README.md",
-    "3-Resources/Templates/README-Template.md",
-    "3-Resources/Kanbans/README.md"
+    "3-Resources/Templates/README-Template.md"
   ]
 }

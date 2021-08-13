@@ -5962,7 +5962,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 341
+      "links": 288
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7508,13 +7508,28 @@
       "size": 183,
       "tags": 0,
       "links": 1
+    },
+    "0-Inbox/Cloud Run - Serverless Applications.md": {
+      "size": 885,
+      "tags": 1,
+      "links": 0
+    },
+    "3-Reference/Windows Reset Definitive Checklist (YouTube).md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "3-Reference/Untitled.md": {
+      "size": 248,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 950,
-      "Create": 706,
-      "Link": 836,
+      "Refactor": 951,
+      "Create": 709,
+      "Link": 837,
       "Expand": 102
     }
   },
@@ -7531,7 +7546,7 @@
       "8": 6,
       "9": 0,
       "10": 0,
-      "11": 42,
+      "11": 47,
       "12": 24,
       "13": 29,
       "14": 190,
@@ -7552,7 +7567,7 @@
       "Tue": 157,
       "Wed": 868,
       "Thu": 148,
-      "Fri": 636,
+      "Fri": 641,
       "Sat": 0,
       "Sun": 287
     }
@@ -7613,6 +7628,9 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Reference/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Reference/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"0-Inbox/Cloud Run - Serverless Applications.md\"> Cloud Run - Serverless Applications </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/Development-LocalGraphView.md\"> Development-LocalGraphView </a>",
         "<a class=\"internal-link\" href=\"5-Projects/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Untitled.md\"> Untitled </a>",
@@ -7660,10 +7678,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Mobile-Shares.md\"> Mobile-Shares </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Highlight-Template.md\"> Highlight-Template </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform 1.md\"> HashiCorp Terraform 1 </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Automate Getting Help.md\"> Automate Getting Help </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform 1.md\"> HashiCorp Terraform 1 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/S-CLI.md\"> S-CLI </a>",
@@ -7719,6 +7734,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Dann Felker.md\"> Dann Felker </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"0-Inbox/Cloud Run - Serverless Applications.md\"> Cloud Run - Serverless Applications </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"5-Projects/README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Templates/Project-Note-Template.md\"> Project-Note-Template </a>",
@@ -7768,8 +7784,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Instapaper.md\"> Instapaper </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/R Packages Install Script.md\"> R Packages Install Script </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7919,6 +7934,7 @@
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"1-Maps-of-Content/020 - Development.md\"> 020 - Development </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7964,7 +7980,6 @@
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
         "<a class=\"internal-link\" href=\"Notes/Kubernetes Sandbox with minikube and kubectl.md\"> Kubernetes Sandbox with minikube and kubectl </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
