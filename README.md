@@ -16,15 +16,14 @@ Tags: ["#README", "#INDEX"]
 - Resources: [3-Resources](./3-Resources/README.md)
 - Logs: [4-Logs](./4-Logs/README.md)
 
-```R
-fs::dir_tree("Engineered-Knowledge", recurse = FALSE)
+```powershell
 ~/Dev/docs/obsidian/vaults/Engineered-Knowledge
-	+-- 0-Inbox
-	+-- 1-Maps of Content
-	+-- 2-Slipbox
-	+-- 3-Resources
-	+-- 4-Logs
-	\-- README.md
+  +-- 0-Inbox
+  +-- 1-Maps of Content
+  +-- 2-Slipbox
+  +-- 3-Resources
+  +-- 4-Logs
+  \-- README.md
 ```
 
 

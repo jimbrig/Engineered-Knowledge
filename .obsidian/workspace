@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "README.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -121,6 +121,22 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
+            }
+          },
+          {
+            "id": "ed84086db81a3e54",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "6aba83c4be3236e5",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
             }
           }
         ],
