@@ -5962,7 +5962,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 288
+      "links": 346
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7523,13 +7523,23 @@
       "size": 248,
       "tags": 0,
       "links": 0
+    },
+    "2-Slipbox/Organizing Disk Partitions on Windows.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "3-Resources/Daily-Notes/2021-08-13.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 3
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 951,
-      "Create": 709,
-      "Link": 837,
+      "Create": 711,
+      "Link": 840,
       "Expand": 102
     }
   },
@@ -7549,7 +7559,7 @@
       "11": 47,
       "12": 24,
       "13": 29,
-      "14": 190,
+      "14": 195,
       "15": 104,
       "16": 436,
       "17": 132,
@@ -7567,7 +7577,7 @@
       "Tue": 157,
       "Wed": 868,
       "Thu": 148,
-      "Fri": 641,
+      "Fri": 646,
       "Sat": 0,
       "Sun": 287
     }
@@ -7628,6 +7638,8 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Run - Serverless Applications.md\"> Cloud Run - Serverless Applications </a>",
@@ -7676,9 +7688,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Graph Filters.md\"> Obsidian Graph Filters </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Mobile.md\"> Obsidian Mobile </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Mobile-Shares.md\"> Mobile-Shares </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Templates/Highlight-Template.md\"> Highlight-Template </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/HashiCorp Terraform 1.md\"> HashiCorp Terraform 1 </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Mobile-Shares.md\"> Mobile-Shares </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"2-Slipbox/S-CLI.md\"> S-CLI </a>",
@@ -7734,6 +7744,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Dann Felker.md\"> Dann Felker </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Run - Serverless Applications.md\"> Cloud Run - Serverless Applications </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"5-Projects/README.md\"> README </a>",
@@ -7783,8 +7794,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/iOS Shortcuts for Obsidian.md\"> iOS Shortcuts for Obsidian </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Instapaper.md\"> Instapaper </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Why We Sleep.md\"> Why We Sleep </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7854,6 +7864,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/Development-LocalGraphView.md\"> Development-LocalGraphView </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"5-Projects/README.md\"> README </a>",
@@ -7902,9 +7914,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-07.md\"> 2021-08-07 </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

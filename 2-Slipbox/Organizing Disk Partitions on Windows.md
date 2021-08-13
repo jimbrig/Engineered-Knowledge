@@ -27,9 +27,30 @@ I generally follow a more broad approach and split out my partitions into someth
 
 Plus the default Windows partitions which include not only the default C drive primary boot partition, but also:
 
-- Reserved System Partition (Hidden
+- Reserved System Partition (Hidden)
 
-On my netbook, I have a partition for work related data, one for personal and one for archive.
+## Solid State Drives (SSD)
+
+A solid-state drive (SSD) is a hard drive that uses solid-state memory to store persistent data. An SSD must have a minimum of 16 gigabytes (GB) of space to install Windows. For more information about drive space and RAM considerations, see [Compact OS, single-sourcing, and image optimization](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/compact-os).
+
+In the past (before Windows 10), to install windows on a SSD, you first had to perform the Windows System Assessment Tests, or [[WinSAT]] on the drive. In Windows 10+, Windows now detects SSD drives and automatically tunes itself accordingly.
+
+## Windows OS Partition Requirements
+
+When you deploy Windows to a [[UEFI]]-based device, you must format the hard drive that includes the Windows partition by using a [[GUID partition table (GPT)]] file system. Additional drives may use either the GPT or the master boot record (MBR) file format.
+
+A GPT drive may have up to 128 partitions.
+
+Each partition can have a maximum of 18 exabytes (~18.8 million terabytes) of space.
+
+### System Reserved Partition
+
+The device must contain a system partition. On [[GPT]] drives, this is known as the [[EFI System Partition]], or the ESP. This partition is usually stored on the primary hard drive. The device boots to this partition.
+
+The minimum size of this partition is 100 MB, and must be formatted using the [[FAT32]] file format.
+
+This partition is managed by the operating system, and should not contain any other files, including [[Windows RE]] tools.
+
 
 ***
 
