@@ -7495,7 +7495,7 @@
       "links": 0
     },
     "2-Slipbox/Organizing Disk Partitions on Windows.md": {
-      "size": 3593,
+      "size": 4706,
       "tags": 2,
       "links": 8
     },
@@ -7545,7 +7545,7 @@
       "Refactor": 958,
       "Create": 712,
       "Link": 843,
-      "Expand": 104
+      "Expand": 105
     }
   },
   "dailyCommits": {
@@ -7564,7 +7564,7 @@
       "11": 47,
       "12": 24,
       "13": 29,
-      "14": 208,
+      "14": 209,
       "15": 104,
       "16": 436,
       "17": 132,
@@ -7582,7 +7582,7 @@
       "Tue": 157,
       "Wed": 868,
       "Thu": 148,
-      "Fri": 659,
+      "Fri": 660,
       "Sat": 0,
       "Sun": 287
     }
@@ -7590,6 +7590,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
@@ -7639,8 +7640,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
