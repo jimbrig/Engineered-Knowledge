@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Windows Reset Definitive Checklist (YouTube)",
-      "path": "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
+      "basename": "Organizing Disk Partitions on Windows",
+      "path": "2-Slipbox/Organizing Disk Partitions on Windows.md"
+    },
+    {
+      "basename": "2021-08-13",
+      "path": "3-Resources/Daily-Notes/2021-08-13.md"
     },
     {
       "basename": "README",
       "path": "2-Slipbox/README.md"
+    },
+    {
+      "basename": "Windows Reset Definitive Checklist (YouTube)",
+      "path": "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
     },
     {
       "basename": "README",
@@ -191,14 +199,6 @@
     {
       "basename": "MOC - People",
       "path": "1-Maps-of-Content/MOC - People.md"
-    },
-    {
-      "basename": "MOC - Obsidian",
-      "path": "1-Maps-of-Content/MOC - Obsidian.md"
-    },
-    {
-      "basename": "MOC - Links",
-      "path": "1-Maps-of-Content/MOC - Links.md"
     }
   ],
   "omittedPaths": [],

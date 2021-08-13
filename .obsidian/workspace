@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
-            "mode": "preview"
+            "file": "2-Slipbox/Organizing Disk Partitions on Windows.md",
+            "mode": "source"
           }
         }
       }
@@ -72,7 +72,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -100,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
+                "file": "2-Slipbox/Organizing Disk Partitions on Windows.md"
               }
             }
           },
@@ -152,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
+                "file": "2-Slipbox/Organizing Disk Partitions on Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
+                "file": "2-Slipbox/Organizing Disk Partitions on Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,15 +201,15 @@
   },
   "active": "4eb9b4c398b9db0a",
   "lastOpenFiles": [
-    "3-Reference/Untitled.md",
+    "2-Slipbox/Organizing Disk Partitions on Windows.md",
+    "3-Resources/Daily-Notes/2021-08-13.md",
+    "2-Slipbox/Untitled.md",
     "2-Slipbox/README.md",
+    "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
+    "3-Reference/Untitled.md",
     "README.md",
     "2-Slipbox/Achieving Your Goals Feels Good.md",
     "5-Projects/README.md",
-    "1-Maps-of-Content/assets/Development-LocalGraphView.png",
-    "3-Resources/Templates/README.md",
-    "5-Projects/Untitled.md",
-    "4-Logs/README.md",
-    "3-Resources/Templates/README-Template.md"
+    "1-Maps-of-Content/assets/Development-LocalGraphView.png"
   ]
 }
