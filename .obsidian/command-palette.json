@@ -1,14 +1,14 @@
 {
   "pinned": [
+    "templater-obsidian:create-new-note-from-template",
+    "obsidian-plugin-toc:create-toc",
+    "editor:toggle-highlight",
+    "obsidian-git:push",
+    "obsidian-admonition:insert-admonition",
     "workspace:split-vertical",
     "markdown:toggle-preview",
-    "editor:insert-wikilink",
     "obsidian-icons-plugin:open-icons-plugin-modal",
-    "editor:insert-wikilink",
     "backlink:toggle-backlinks-in-document",
-    "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links",
-    "obsidian-admonition:insert-admonition",
-    "templater-obsidian:create-new-note-from-template",
-    "obsidian-plugin-toc:create-toc"
+    "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links"
   ]
 }

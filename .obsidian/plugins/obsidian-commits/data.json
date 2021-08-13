@@ -7525,9 +7525,9 @@
       "links": 0
     },
     "2-Slipbox/Organizing Disk Partitions on Windows.md": {
-      "size": 0,
+      "size": 2934,
       "tags": 2,
-      "links": 0
+      "links": 8
     },
     "3-Resources/Daily-Notes/2021-08-13.md": {
       "size": 0,
@@ -7539,8 +7539,8 @@
     "/": {
       "Refactor": 951,
       "Create": 711,
-      "Link": 840,
-      "Expand": 102
+      "Link": 841,
+      "Expand": 103
     }
   },
   "dailyCommits": {
@@ -7559,7 +7559,7 @@
       "11": 47,
       "12": 24,
       "13": 29,
-      "14": 195,
+      "14": 197,
       "15": 104,
       "16": 436,
       "17": 132,
@@ -7577,7 +7577,7 @@
       "Tue": 157,
       "Wed": 868,
       "Thu": 148,
-      "Fri": 646,
+      "Fri": 648,
       "Sat": 0,
       "Sun": 287
     }
@@ -7585,6 +7585,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organizing Resources in Azure.md\"> Organizing Resources in Azure </a>",
@@ -7634,8 +7635,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to Pay off Debt.md\"> How to Pay off Debt </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
@@ -7864,6 +7864,7 @@
         "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Gallery/Development-LocalGraphView.md\"> Development-LocalGraphView </a>",
@@ -7913,8 +7914,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

@@ -5,6 +5,10 @@
       "path": "2-Slipbox/Organizing Disk Partitions on Windows.md"
     },
     {
+      "basename": "Organizing Partitions on Windows",
+      "path": "3-Resources/Highlights/Organizing Partitions on Windows.md"
+    },
+    {
       "basename": "2021-08-13",
       "path": "3-Resources/Daily-Notes/2021-08-13.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "MOC - PostgreSQL",
       "path": "1-Maps-of-Content/MOC - PostgreSQL.md"
-    },
-    {
-      "basename": "MOC - People",
-      "path": "1-Maps-of-Content/MOC - People.md"
     }
   ],
   "omittedPaths": [],

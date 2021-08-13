@@ -37,19 +37,33 @@ In the past (before Windows 10), to install windows on a SSD, you first had to p
 
 ## Windows OS Partition Requirements
 
-When you deploy Windows to a [[UEFI]]-based device, you must format the hard drive that includes the Windows partition by using a [[GUID partition table (GPT)]] file system. Additional drives may use either the GPT or the master boot record (MBR) file format.
+When you deploy Windows to a [[UEFI]]-based device, you must format the hard drive that includes the Windows partition by using a [[GUID partition table (GPT)]] file system. Additional drives may use either the [[GPT]] or the [[master boot record (MBR)]] file format.
 
-A GPT drive may have up to 128 partitions.
+A [[GPT]] drive may have up to 128 partitions.
 
 Each partition can have a maximum of 18 exabytes (~18.8 million terabytes) of space.
 
-### System Reserved Partition
+### System Reserved Partition (EFI)
 
 The device must contain a system partition. On [[GPT]] drives, this is known as the [[EFI System Partition]], or the ESP. This partition is usually stored on the primary hard drive. The device boots to this partition.
 
 The minimum size of this partition is 100 MB, and must be formatted using the [[FAT32]] file format.
 
 This partition is managed by the operating system, and should not contain any other files, including [[Windows RE]] tools.
+
+### Microsoft Reserved Partition (MSR)
+
+In Windows 10, the size of the MSR is 16 MB.
+
+*Add an MSR to each GPT drive to help with partition management*. 
+
+The MSR is a reserved partition that does not receive a partition ID. It cannot store user data.
+
+### Utility Partitions
+
+==Any other utility partitions not managed by Windows must be located before the Windows, data, and recovery image partitions. This allows end users to perform actions such as resizing the Windows partition without affecting system utilities.==
+
+==Protect end users from accidentally modifying utility partitions by identifying them using a GPT attribute. This prevents these partitions from appearing in File Explorer.==
 
 
 ***
