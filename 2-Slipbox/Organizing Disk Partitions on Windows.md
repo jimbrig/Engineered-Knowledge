@@ -66,6 +66,34 @@ The MSR is a reserved partition that does not receive a partition ID. It cannot 
 ==Protect end users from accidentally modifying utility partitions by identifying them using a GPT attribute. This prevents these partitions from appearing in File Explorer.==
 
 
+#### To set partitions as utility partitions
+
+-   When you're deploying Windows by using **DiskPart**, use the **attributes volume set GPT_ATTRIBUTE_PLATFORM_REQUIRED** command after you create the partition to identify the partition as a utility partition. For more information, see the MSDN topic: [PARTITION_INFORMATION_GPT structure](https://docs.microsoft.com/en-us/windows/win32/api/winioctl/ns-winioctl-partition_information_gpt).
+
+```powershell
+diskpart
+list disk
+select disk 0
+list volumes
+select volume 0
+attributes volume set GPT_ATTRIBUTE_PLATFORM_REQUIRED
+
+# other attributes to alter
+attributes volume set HIDDEN
+attributes volume set READONLY
+
+# view partitions:
+list partition
+select partition 3
+```
+
+#### To verify that system and utility partitions exist
+
+1.  Click **Start**, right-click **This PC**, and then click **Manage**. The **Computer Management** window opens.
+2.  Click **Disk Management**. The list of available drives and partitions appears.
+3.  In the list of drives and partitions, confirm that the system and utility partitions are present and are not assigned a drive letter.
+
+
 ***
 
 Links: 

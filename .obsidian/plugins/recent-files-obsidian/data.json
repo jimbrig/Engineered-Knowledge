@@ -5,8 +5,20 @@
       "path": "2-Slipbox/Organizing Disk Partitions on Windows.md"
     },
     {
-      "basename": "Organizing Partitions on Windows",
-      "path": "3-Resources/Highlights/Organizing Partitions on Windows.md"
+      "basename": "Highlights - Why We Sleep",
+      "path": "3-Resources/Highlights/Highlights - Why We Sleep.md"
+    },
+    {
+      "basename": "Highlights - The Linux Command Line",
+      "path": "3-Resources/Highlights/Highlights - The Linux Command Line.md"
+    },
+    {
+      "basename": "Highlights - Cloud Based Computing Business Ideas for 2021",
+      "path": "3-Resources/Highlights/Highlights - Cloud Based Computing Business Ideas for 2021.md"
+    },
+    {
+      "basename": "Highlights - Organizing Partitions on Windows",
+      "path": "3-Resources/Highlights/Highlights - Organizing Partitions on Windows.md"
     },
     {
       "basename": "2021-08-13",
@@ -187,18 +199,6 @@
     {
       "basename": "README",
       "path": "1-Maps-of-Content/README.md"
-    },
-    {
-      "basename": "azure-management-group-hierarchy",
-      "path": "3-Reference/assets/azure-management-group-hierarchy.png"
-    },
-    {
-      "basename": "azure-organize-resources-scope-levels",
-      "path": "3-Reference/assets/azure-organize-resources-scope-levels.png"
-    },
-    {
-      "basename": "MOC - PostgreSQL",
-      "path": "1-Maps-of-Content/MOC - PostgreSQL.md"
     }
   ],
   "omittedPaths": [],

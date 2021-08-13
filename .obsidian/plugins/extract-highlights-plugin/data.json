@@ -4,7 +4,7 @@
   "useBoldForHighlights": false,
   "createLinks": false,
   "autoCapitalize": false,
-  "createNewFile": false,
+  "createNewFile": true,
   "explodeIntoNotes": false,
   "openExplodedNotes": false,
   "createContextualQuotes": false

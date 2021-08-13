@@ -5962,7 +5962,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 346
+      "links": 347
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7284,16 +7284,6 @@
       "tags": 0,
       "links": 0
     },
-    "3-Resources/Highlights/The Linux Command Line.md": {
-      "size": 2133,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/Why We Sleep.md": {
-      "size": 2850,
-      "tags": 1,
-      "links": 1
-    },
     "2-Slipbox/Automate Getting Help.md": {
       "size": 767,
       "tags": 1,
@@ -7339,11 +7329,6 @@
       "tags": 6,
       "links": 1
     },
-    "3-Resources/Highlights/How to Handle Inbox Infinity.md": {
-      "size": 2587,
-      "tags": 1,
-      "links": 1
-    },
     "3-Reference/Edge-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md": {
       "size": 322,
       "tags": 0,
@@ -7383,16 +7368,6 @@
       "size": 796,
       "tags": 1,
       "links": 0
-    },
-    "3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md": {
-      "size": 1287,
-      "tags": 1,
-      "links": 1
-    },
-    "3-Resources/Highlights/Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md": {
-      "size": 3513,
-      "tags": 1,
-      "links": 1
     },
     "3-Resources/Dictionaries/Catalogue.md": {
       "size": 675,
@@ -7459,11 +7434,6 @@
       "tags": 3,
       "links": 4
     },
-    "3-Resources/Highlights/How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md": {
-      "size": 1248,
-      "tags": 1,
-      "links": 1
-    },
     "3-Resources/Daily-Notes/2021-08-10.md": {
       "size": 1080,
       "tags": 0,
@@ -7525,7 +7495,7 @@
       "links": 0
     },
     "2-Slipbox/Organizing Disk Partitions on Windows.md": {
-      "size": 2934,
+      "size": 3593,
       "tags": 2,
       "links": 8
     },
@@ -7533,14 +7503,49 @@
       "size": 0,
       "tags": 0,
       "links": 3
+    },
+    "3-Resources/Highlights/Highlights - Organizing Partitions on Windows.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md": {
+      "size": 3513,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - Cloud Based Computing Business Ideas for 2021.md": {
+      "size": 1287,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - How to Handle Inbox Infinity.md": {
+      "size": 2587,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md": {
+      "size": 1248,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - The Linux Command Line.md": {
+      "size": 2133,
+      "tags": 1,
+      "links": 1
+    },
+    "3-Resources/Highlights/Highlights - Why We Sleep.md": {
+      "size": 2850,
+      "tags": 1,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 951,
-      "Create": 711,
-      "Link": 841,
-      "Expand": 103
+      "Refactor": 958,
+      "Create": 712,
+      "Link": 843,
+      "Expand": 104
     }
   },
   "dailyCommits": {
@@ -7559,7 +7564,7 @@
       "11": 47,
       "12": 24,
       "13": 29,
-      "14": 197,
+      "14": 208,
       "15": 104,
       "16": 436,
       "17": 132,
@@ -7577,7 +7582,7 @@
       "Tue": 157,
       "Wed": 868,
       "Thu": 148,
-      "Fri": 648,
+      "Fri": 659,
       "Sat": 0,
       "Sun": 287
     }
@@ -7585,6 +7590,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/R Blogs.md\"> R Blogs </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Organize and Manage your Azure Subscriptions.md\"> Organize and Manage your Azure Subscriptions </a>",
@@ -7634,10 +7640,10 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Windows Terminal Command Line Arguments - Windows Docs.md\"> Windows Terminal Command Line Arguments - Windows Docs </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/How to fix Issues with Windows File Type Associations.md\"> How to fix Issues with Windows File Type Associations </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Untitled.md\"> Untitled </a>",
@@ -7687,10 +7693,16 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/iOS Shortcuts for Obsidian.md\"> iOS Shortcuts for Obsidian </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Graph Filters.md\"> Obsidian Graph Filters </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Mobile.md\"> Obsidian Mobile </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Mobile-Shares.md\"> Mobile-Shares </a>"
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Why We Sleep.md\"> Highlights - Why We Sleep </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - The Linux Command Line.md\"> Highlights - The Linux Command Line </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File.md\"> Highlights - How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - How to Handle Inbox Infinity.md\"> Highlights - How to Handle Inbox Infinity </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Cloud Based Computing Business Ideas for 2021.md\"> Highlights - Cloud Based Computing Business Ideas for 2021 </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md\"> Highlights - Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Organizing Partitions on Windows.md\"> Highlights - Organizing Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/How to Use Sysprep in Windows.md\"> How to Use Sysprep in Windows </a>",
         "<a class=\"internal-link\" href=\"3-Reference/S-CLI.md\"> S-CLI </a>",
@@ -7734,14 +7746,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/What Blog Platform Should I Use.md\"> What Blog Platform Should I Use </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/The Three Buckets - Rule of Thirds.md\"> The Three Buckets - Rule of Thirds </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/The Single Best Thing to do for your Career.md\"> The Single Best Thing to do for your Career </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/S.M.A.R.T. Goals.md\"> S.M.A.R.T. Goals </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Regular expressions - JavaScript - MDN.md\"> Regular expressions - JavaScript - MDN </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Advanced Tables Plugin.md\"> Obsidian Advanced Tables Plugin </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Nginx.md\"> Nginx </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Learning to Program Sucks.md\"> Learning to Program Sucks </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Increase your productivity with outsourcing and SOPs.md\"> Increase your productivity with outsourcing and SOPs </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Flutter.md\"> Flutter </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Dann Felker.md\"> Dann Felker </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/S.M.A.R.T. Goals.md\"> S.M.A.R.T. Goals </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
@@ -7864,6 +7869,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Organizing Partitions on Windows.md\"> Highlights - Organizing Partitions on Windows </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
@@ -7912,9 +7919,7 @@
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Placeholders/Git.md\"> Git </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-08.md\"> 2021-08-08 </a>"
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",
