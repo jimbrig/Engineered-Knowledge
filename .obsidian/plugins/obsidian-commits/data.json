@@ -5962,7 +5962,7 @@
     "4-Logs/Changelog.md": {
       "size": 15325,
       "tags": 0,
-      "links": 347
+      "links": 350
     },
     "2-Slipbox/Mindfulness - The Key to Success.md": {
       "size": 8814,
@@ -7538,21 +7538,36 @@
       "size": 2850,
       "tags": 1,
       "links": 1
+    },
+    "3-Resources/Daily-Notes/2021-08-14.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 3
+    },
+    "2-Slipbox/Dotfiles Tools.md": {
+      "size": 5008,
+      "tags": 4,
+      "links": 0
+    },
+    "2-Slipbox/Zsh.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 958,
-      "Create": 712,
-      "Link": 843,
-      "Expand": 105
+      "Create": 715,
+      "Link": 846,
+      "Expand": 106
     }
   },
   "dailyCommits": {
     "/": {
       "0": 159,
-      "1": 780,
-      "2": 55,
+      "1": 782,
+      "2": 60,
       "3": 156,
       "4": 7,
       "5": 0,
@@ -7584,12 +7599,13 @@
       "Thu": 148,
       "Fri": 660,
       "Sat": 0,
-      "Sun": 287
+      "Sun": 294
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Dotfiles Tools.md\"> Dotfiles Tools </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
@@ -7639,10 +7655,12 @@
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/Hot to force remove Windows store Apps (UWP).md\"> Hot to force remove Windows store Apps (UWP) </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/Debugging Windows Search Issues and High CPU Usage.md\"> Debugging Windows Search Issues and High CPU Usage </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"2-Slipbox/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-14.md\"> 2021-08-14 </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-13.md\"> 2021-08-13 </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
@@ -7690,10 +7708,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/How to Handle Inbox Infinity.md\"> How to Handle Inbox Infinity </a>",
         "<a class=\"internal-link\" href=\"3-Reference/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Instapaper.md\"> Instapaper </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/iOS Shortcuts for Obsidian.md\"> iOS Shortcuts for Obsidian </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Graph Filters.md\"> Obsidian Graph Filters </a>",
-        "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Mobile.md\"> Obsidian Mobile </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-06.md\"> 2021-08-06 </a>"
+        "<a class=\"internal-link\" href=\"2-Slipbox/iOS Shortcuts for Obsidian.md\"> iOS Shortcuts for Obsidian </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Why We Sleep.md\"> Highlights - Why We Sleep </a>",
@@ -7749,6 +7764,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/S.M.A.R.T. Goals.md\"> S.M.A.R.T. Goals </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"2-Slipbox/Dotfiles Tools.md\"> Dotfiles Tools </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"0-Inbox/Cloud Run - Serverless Applications.md\"> Cloud Run - Serverless Applications </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
@@ -7798,8 +7814,7 @@
         "<a class=\"internal-link\" href=\"2-Slipbox/Obsidian Graph Filters.md\"> Obsidian Graph Filters </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/iOS Shortcuts for Obsidian.md\"> iOS Shortcuts for Obsidian </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Instapaper.md\"> Instapaper </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>",
-        "<a class=\"internal-link\" href=\"3-Resources/Highlights/The Linux Command Line.md\"> The Linux Command Line </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/HashiCorp Terraform.md\"> HashiCorp Terraform </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Changelog.md\"> Changelog </a>",
@@ -7869,6 +7884,8 @@
         "<a class=\"internal-link\" href=\"0-Inbox/React.md\"> React </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"3-Resources/Daily-Notes/2021-08-14.md\"> 2021-08-14 </a>",
+        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Highlights - Organizing Partitions on Windows.md\"> Highlights - Organizing Partitions on Windows </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
         "<a class=\"internal-link\" href=\"2-Slipbox/Organizing Disk Partitions on Windows.md\"> Organizing Disk Partitions on Windows </a>",
@@ -7917,9 +7934,7 @@
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md\"> Cloud Based Computing Business Ideas for 2021 [Top 50 Picks] </a>",
         "<a class=\"internal-link\" href=\"3-Resources/Highlights/Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights.md\"> Cloud Computing- 8 Benefits for Your Software Developers - Dice Insights </a>",
         "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>",
-        "<a class=\"internal-link\" href=\"4-Logs/Changelog.md\"> Changelog </a>"
+        "<a class=\"internal-link\" href=\"0-Inbox/S-CLI.md\"> S-CLI </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"_daily/2021-04-25.md\"> 2021-04-25 </a>",

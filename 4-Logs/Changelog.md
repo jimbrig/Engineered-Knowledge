@@ -1,3 +1,6 @@
+- 2021-08-14 at 02h01 · [[Zsh]]
+- 2021-08-14 at 02h00 · [[Dotfiles Tools]]
+- 2021-08-14 at 01h57 · [[2021-08-14]]
 - 2021-08-13 at 14h22 · [[Organizing Disk Partitions on Windows]]
 - 2021-08-13 at 14h17 · [[Highlights - Organizing Partitions on Windows]]
 - 2021-08-13 at 14h04 · [[2021-08-13]]

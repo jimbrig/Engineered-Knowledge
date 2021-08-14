@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4eb9b4c398b9db0a",
+        "id": "216d1d505e30dbc2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Organizing Disk Partitions on Windows.md",
+            "file": "2-Slipbox/Zsh.md",
             "mode": "source"
           }
         }
@@ -72,8 +72,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Organizing Disk Partitions on Windows.md"
+                "file": "2-Slipbox/Zsh.md"
               }
             }
           },
@@ -153,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Organizing Disk Partitions on Windows.md",
+                "file": "2-Slipbox/Zsh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Organizing Disk Partitions on Windows.md",
+                "file": "2-Slipbox/Zsh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,17 +198,17 @@
     "direction": "horizontal",
     "width": 357.5
   },
-  "active": "4eb9b4c398b9db0a",
+  "active": "216d1d505e30dbc2",
   "lastOpenFiles": [
+    "2-Slipbox/Untitled.md",
+    "3-Resources/README.md",
+    "3-Resources/Daily-Notes/2021-08-14.md",
     "2-Slipbox/Organizing Disk Partitions on Windows.md",
     "3-Resources/Highlights/Why We Sleep.md",
     "3-Resources/Highlights/The Linux Command Line.md",
     "3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md",
     "3-Resources/Highlights/Organizing Partitions on Windows.md",
     "3-Resources/Highlights/Untitled.md",
-    "3-Resources/Daily-Notes/2021-08-13.md",
-    "2-Slipbox/Untitled.md",
-    "2-Slipbox/README.md",
-    "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
+    "3-Resources/Daily-Notes/2021-08-13.md"
   ]
 }

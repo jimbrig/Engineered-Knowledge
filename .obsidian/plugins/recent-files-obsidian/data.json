@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Zsh",
+      "path": "2-Slipbox/Zsh.md"
+    },
+    {
+      "basename": "Dotfiles Tools",
+      "path": "2-Slipbox/Dotfiles Tools.md"
+    },
+    {
+      "basename": "README",
+      "path": "3-Resources/README.md"
+    },
+    {
+      "basename": "2021-08-14",
+      "path": "3-Resources/Daily-Notes/2021-08-14.md"
+    },
+    {
       "basename": "Organizing Disk Partitions on Windows",
       "path": "2-Slipbox/Organizing Disk Partitions on Windows.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "2021-08-09",
       "path": "3-Resources/Daily-Notes/2021-08-09.md"
-    },
-    {
-      "basename": "MOC - Microsoft Azure",
-      "path": "1-Maps-of-Content/MOC - Microsoft Azure.md"
-    },
-    {
-      "basename": "Organizing Resources in Azure",
-      "path": "3-Reference/Organizing Resources in Azure.md"
-    },
-    {
-      "basename": "Organize and Manage your Azure Subscriptions",
-      "path": "3-Reference/Organize and Manage your Azure Subscriptions.md"
-    },
-    {
-      "basename": "README",
-      "path": "1-Maps-of-Content/README.md"
     }
   ],
   "omittedPaths": [],
