@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Zsh.md",
+            "file": "3-Resources/Daily-Notes/2021-08-19.md",
             "mode": "source"
           }
         }
@@ -60,7 +60,7 @@
             "id": "65ae0609966c41da",
             "type": "leaf",
             "state": {
-              "type": "recent-files",
+              "type": "empty",
               "state": {}
             }
           },
@@ -68,12 +68,28 @@
             "id": "369963e47892a9b7",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "694fbf6616b3c55d",
+            "type": "leaf",
+            "state": {
               "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "a91a346224ab6816",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -91,7 +107,7 @@
             "id": "5a7000957941e105",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "empty",
               "state": {}
             }
           },
@@ -101,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Zsh.md"
+                "file": "3-Resources/Daily-Notes/2021-08-19.md"
               }
             }
           },
@@ -109,7 +125,7 @@
             "id": "62837e2242da32d7",
             "type": "leaf",
             "state": {
-              "type": "side-panel-control-view",
+              "type": "empty",
               "state": {}
             }
           },
@@ -128,7 +144,7 @@
             "id": "ed84086db81a3e54",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
+              "type": "empty",
               "state": {}
             }
           },
@@ -136,7 +152,15 @@
             "id": "6aba83c4be3236e5",
             "type": "leaf",
             "state": {
-              "type": "juggl_style",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "5d8e5416e171abc1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -153,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Zsh.md",
+                "file": "3-Resources/Daily-Notes/2021-08-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Zsh.md",
+                "file": "3-Resources/Daily-Notes/2021-08-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +204,7 @@
             "id": "1f1a00ef98def91c",
             "type": "leaf",
             "state": {
-              "type": "dictionary-view",
+              "type": "empty",
               "state": {}
             }
           },
@@ -188,7 +212,7 @@
             "id": "22f4664c5b6dd1b8",
             "type": "leaf",
             "state": {
-              "type": "dangling-links",
+              "type": "empty",
               "state": {}
             }
           }
@@ -201,6 +225,7 @@
   },
   "active": "216d1d505e30dbc2",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-08-19.md",
     "2-Slipbox/Zsh.md",
     "2-Slipbox/Untitled.md",
     "3-Resources/README.md",
@@ -209,7 +234,6 @@
     "3-Resources/Highlights/Why We Sleep.md",
     "3-Resources/Highlights/The Linux Command Line.md",
     "3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md",
-    "3-Resources/Highlights/Organizing Partitions on Windows.md",
-    "3-Resources/Highlights/Untitled.md"
+    "3-Resources/Highlights/Organizing Partitions on Windows.md"
   ]
 }
