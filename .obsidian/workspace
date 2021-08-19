@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Windows Security Policies - secpol.msc.md",
-            "mode": "preview"
+            "file": "0-Inbox/WSL - Permissions.md",
+            "mode": "source"
           }
         }
       }
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Windows Security Policies - secpol.msc.md"
+                "file": "0-Inbox/WSL - Permissions.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Windows Security Policies - secpol.msc.md",
+                "file": "0-Inbox/WSL - Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Windows Security Policies - secpol.msc.md",
+                "file": "0-Inbox/WSL - Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

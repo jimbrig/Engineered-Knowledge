@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "WSL - Permissions",
+      "path": "0-Inbox/WSL - Permissions.md"
+    },
+    {
       "basename": "Windows Security Policies - secpol.msc",
       "path": "0-Inbox/Windows Security Policies - secpol.msc.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "MOC - R",
       "path": "1-Maps-of-Content/MOC - R.md"
-    },
-    {
-      "basename": "mkdocs-docs",
-      "path": "3-Reference/mkdocs-docs.md"
     }
   ],
   "omittedPaths": [],
