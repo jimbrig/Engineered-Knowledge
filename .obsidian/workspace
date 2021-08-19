@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-19.md",
-            "mode": "source"
+            "file": "0-Inbox/Windows Security Policies - secpol.msc.md",
+            "mode": "preview"
           }
         }
       }
@@ -57,22 +57,6 @@
             }
           },
           {
-            "id": "65ae0609966c41da",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "369963e47892a9b7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "a91a346224ab6816",
             "type": "leaf",
             "state": {
@@ -108,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-19.md"
+                "file": "0-Inbox/Windows Security Policies - secpol.msc.md"
               }
             }
           },
@@ -168,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-19.md",
+                "file": "0-Inbox/Windows Security Policies - secpol.msc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-19.md",
+                "file": "0-Inbox/Windows Security Policies - secpol.msc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,6 +200,7 @@
   },
   "active": "216d1d505e30dbc2",
   "lastOpenFiles": [
+    "0-Inbox/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-19.md",
     "0-Inbox/Cloud Run - Serverless Applications.md",
     "2-Slipbox/Zsh.md",
@@ -224,7 +209,6 @@
     "3-Resources/Daily-Notes/2021-08-14.md",
     "2-Slipbox/Organizing Disk Partitions on Windows.md",
     "3-Resources/Highlights/Why We Sleep.md",
-    "3-Resources/Highlights/The Linux Command Line.md",
-    "3-Resources/Highlights/Cloud Based Computing Business Ideas for 2021 [Top 50 Picks].md"
+    "3-Resources/Highlights/The Linux Command Line.md"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows Security Policies - secpol.msc",
+      "path": "0-Inbox/Windows Security Policies - secpol.msc.md"
+    },
+    {
       "basename": "2021-08-19",
       "path": "3-Resources/Daily-Notes/2021-08-19.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "mkdocs-docs",
       "path": "3-Reference/mkdocs-docs.md"
-    },
-    {
-      "basename": "R Blogs",
-      "path": "2-Slipbox/R Blogs.md"
     }
   ],
   "omittedPaths": [],
