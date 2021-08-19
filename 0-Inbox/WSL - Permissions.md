@@ -12,10 +12,19 @@ Tags: []
 
 ```bash
 mv ~/.ssh/* /mnt/c/Users/jimmy/.dotfiles/wsl/ssh/
-ln -s 
+cd ~/.ssh
+ln -s /mnt/c/Users/jimmy/.dotfiles/wsl/ssh/* .
 ```
 
+Now change permissions:
 
+```bash
+sudo chmod 644 id_rsa.pub
+sudo chmod 600 id_rsa
+sudo chmod 644 known_hosts
+cd ../
+sudo chmod 700 .ssh/
+```
 
 ***
 

@@ -1,4 +1,4 @@
-- 2021-08-19 at 16h11 · [[WSL - Permissions]]
+- 2021-08-19 at 16h12 · [[WSL - Permissions]]
 - 2021-08-19 at 15h43 · [[Windows Security Policies - secpol.msc]]
 - 2021-08-19 at 15h42 · [[Dotfiles Tools]]
 - 2021-08-19 at 15h42 · [[Organizing Disk Partitions on Windows]]
