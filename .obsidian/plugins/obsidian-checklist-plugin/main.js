@@ -2,12 +2,10 @@
 
 var obsidian = require('obsidian');
 var punycode = require('punycode');
-var util = require('util');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 var punycode__default = /*#__PURE__*/_interopDefaultLegacy(punycode);
-var util__default = /*#__PURE__*/_interopDefaultLegacy(util);
 
 const TODO_VIEW_TYPE = "todo";
 const LOCAL_SORT_OPT = {
@@ -9186,7 +9184,7 @@ for (var i = 0; i < 256; i++) { ESCAPED.push(0); }
   .split('').forEach(function (ch) { ESCAPED[ch.charCodeAt(0)] = 1; });
 
 
-var _escape$1 = function escape(state, silent) {
+var _escape = function escape(state, silent) {
   var ch, pos = state.pos, max = state.posMax;
 
   if (state.src.charCodeAt(pos) !== 0x5C/* \ */) { return false; }
@@ -10315,7 +10313,7 @@ var state_inline = StateInline;
 var _rules = [
   [ 'text',            text ],
   [ 'newline',         newline ],
-  [ 'escape',          _escape$1 ],
+  [ 'escape',          _escape ],
   [ 'backticks',       backticks ],
   [ 'strikethrough',   strikethrough.tokenize ],
   [ 'emphasis',        emphasis.tokenize ],
@@ -12032,145 +12030,58 @@ MarkdownIt.prototype.renderInline = function (src, env) {
 };
 
 
-var lib$1 = MarkdownIt;
+var lib = MarkdownIt;
 
-var markdownIt = lib$1;
+var markdownIt = lib;
 
-/*!
- * markdown-it-regexp
- * Copyright (c) 2014 Alex Kocharin
- * MIT Licensed
- */
-
-/**
- * Module dependencies.
- */
-
-
-
-/**
- * Escape special characters in the given string of html.
- *
- * Borrowed from escape-html component, MIT-licensed
- */
-var _escape = function(html) {
-  return String(html)
-    .replace(/&/g, '&amp;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
+const escape = (html) => String(html)
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+const utils = {
+    escape,
+};
+let counter = 0;
+const regexPlugin = (regexp, replacer) => {
+    const flags = (regexp.global ? "g" : "") + (regexp.multiline ? "m" : "") + (regexp.ignoreCase ? "i" : "");
+    const _regexp = RegExp("^" + regexp.source, flags);
+    const id = "regexp-" + counter++;
+    return (md) => {
+        md.inline.ruler.push(id, (state, silent) => {
+            var match = _regexp.exec(state.src.slice(state.pos));
+            if (!match)
+                return false;
+            state.pos += match[0].length;
+            if (silent)
+                return true;
+            var token = state.push(id, "", 0);
+            token.meta = { match: match };
+            return true;
+        });
+        md.renderer.rules[id] = (tokens, idx) => {
+            return replacer(tokens[idx].meta.match, utils);
+        };
+    };
 };
 
-var utils = {
-	escape: _escape
-};
-
-/*!
- * markdown-it-regexp
- * Copyright (c) 2014 Alex Kocharin
- * MIT Licensed
- */
-
-/**
- * Module dependencies.
- */
-
-
-
-
-/**
- * Counter for multi usage.
- */
-var counter = 0;
-
-/**
- * Expose `Plugin`
- */
-
-var lib = Plugin;
-
-/**
- * Constructor function
- */
-
-function Plugin(regexp, replacer) {
-  // return value should be a callable function
-  // with strictly defined options passed by markdown-it
-  var self = function (md, options) {
-    self.options = options;
-    self.init(md);
-  };
-
-  // initialize plugin object
-  self.__proto__ = Plugin.prototype;
-
-  // clone regexp with all the flags
-  var flags = (regexp.global     ? 'g' : '')
-            + (regexp.multiline  ? 'm' : '')
-            + (regexp.ignoreCase ? 'i' : '');
-
-  self.regexp = RegExp('^' + regexp.source, flags);
-
-  // copy init options
-  self.replacer = replacer;
-
-  // this plugin can be inserted multiple times,
-  // so we're generating unique name for it
-  self.id = 'regexp-' + counter;
-  counter++;
-
-  return self
-}
-
-util__default['default'].inherits(Plugin, Function);
-
-// function that registers plugin with markdown-it
-Plugin.prototype.init = function (md) {
-  md.inline.ruler.push(this.id, this.parse.bind(this));
-
-  md.renderer.rules[this.id] = this.render.bind(this);
-};
-
-Plugin.prototype.parse = function (state, silent) {
-  // slowwww... maybe use an advanced regexp engine for this
-  var match = this.regexp.exec(state.src.slice(state.pos));
-  if (!match) return false
-
-  // valid match found, now we need to advance cursor
-  state.pos += match[0].length;
-
-  // don't insert any tokens in silent mode
-  if (silent) return true
-
-  var token = state.push(this.id, '', 0);
-  token.meta = { match: match };
-
-  return true
-};
-
-Plugin.prototype.render = function (tokens, id, options, env) {
-  return this.replacer(tokens[id].meta.match, utils)
-};
-
-var markdownItRegexp = lib;
-
-const commentPlugin = markdownItRegexp(/\%\%([^\%]+)\%\%/, (match, utils) => {
+const commentPlugin = regexPlugin(/\%\%([^\%]+)\%\%/, (match, utils) => {
     return `<!--${utils.escape(match[1])}}-->`;
 });
 
-const highlightPlugin = markdownItRegexp(/\=\=([^\=]+)\=\=/, (match, utils) => {
+const highlightPlugin = regexPlugin(/\=\=([^\=]+)\=\=/, (match, utils) => {
     return `<mark>${utils.escape(match[1])}</mark>`;
 });
 
-const linkPlugin = (linkMap) => markdownItRegexp(/\[\[([^\]]+)\]\]/, (match, utils) => {
+const linkPlugin = (linkMap) => regexPlugin(/\[\[([^\]]+)\]\]/, (match, utils) => {
     var _a;
     const content = match[1];
     const [link, label] = content.split("|");
     return `<a data-href="${link}" data-type="link" data-filepath="${(_a = linkMap.get(link)) === null || _a === void 0 ? void 0 : _a.filePath}" class="internal-link">${utils.escape(label || link)}</a>`;
 });
 
-const tagPlugin = markdownItRegexp(/\#\S+/, (match, utils) => {
+const tagPlugin = regexPlugin(/\#\S+/, (match, utils) => {
     const content = match[0];
     return `<a href="${utils.escape(content)}" data-type="link" class="tag" target="_blank" rel="noopener">${utils.escape(content)}</a>`;
 });
@@ -12495,8 +12406,8 @@ class CheckCircle extends SvelteComponent {
 
 function add_css$3() {
 	var style = element("style");
-	style.id = "svelte-1q8cjhd-style";
-	style.textContent = "li.svelte-1q8cjhd.svelte-1q8cjhd{display:flex;align-items:center;background-color:var(--todoList-listItemBackground);border-radius:var(--todoList-listItemBorderRadius);margin:var(--todoList-listItemMargin);cursor:pointer;transition:background-color 100ms ease-in-out}li.svelte-1q8cjhd.svelte-1q8cjhd:hover{background-color:var(--todoList-listItemBackground--hover)}.toggle.svelte-1q8cjhd.svelte-1q8cjhd{padding:var(--todoList-togglePadding);background:transparent}.content.svelte-1q8cjhd.svelte-1q8cjhd{padding:var(--todoList-contentPadding)}.compact.svelte-1q8cjhd.svelte-1q8cjhd{bottom:var(--todoList-listItemMargin--compact)}.compact.svelte-1q8cjhd>.content.svelte-1q8cjhd{padding:var(--todoList-contentPadding--compact)}.compact.svelte-1q8cjhd>.toggle.svelte-1q8cjhd{padding:var(--todoList-togglePadding--compact)}.toggle.svelte-1q8cjhd.svelte-1q8cjhd:hover{opacity:0.8}";
+	style.id = "svelte-gpx85b-style";
+	style.textContent = "li.svelte-gpx85b.svelte-gpx85b{display:flex;align-items:center;background-color:var(--todoList-listItemBackground);border-radius:var(--todoList-listItemBorderRadius);margin:var(--todoList-listItemMargin);cursor:pointer;transition:background-color 100ms ease-in-out}li.svelte-gpx85b.svelte-gpx85b:hover{background-color:var(--todoList-listItemBackground--hover)}.toggle.svelte-gpx85b.svelte-gpx85b{padding:var(--todoList-togglePadding);background:transparent;flex-shrink:1}.content.svelte-gpx85b.svelte-gpx85b{padding:var(--todoList-contentPadding);flex:1}.compact.svelte-gpx85b.svelte-gpx85b{bottom:var(--todoList-listItemMargin--compact)}.compact.svelte-gpx85b>.content.svelte-gpx85b{padding:var(--todoList-contentPadding--compact)}.compact.svelte-gpx85b>.toggle.svelte-gpx85b{padding:var(--todoList-togglePadding--compact)}.toggle.svelte-gpx85b.svelte-gpx85b:hover{opacity:0.8}";
 	append(document.head, style);
 }
 
@@ -12522,9 +12433,9 @@ function create_fragment$3(ctx) {
 			create_component(checkcircle.$$.fragment);
 			t = space();
 			div = element("div");
-			attr(button, "class", "toggle svelte-1q8cjhd");
-			attr(div, "class", "content svelte-1q8cjhd");
-			attr(li, "class", li_class_value = "" + (null_to_empty(`${/*lookAndFeel*/ ctx[1]}`) + " svelte-1q8cjhd"));
+			attr(button, "class", "toggle svelte-gpx85b");
+			attr(div, "class", "content svelte-gpx85b");
+			attr(li, "class", li_class_value = "" + (null_to_empty(`${/*lookAndFeel*/ ctx[1]}`) + " svelte-gpx85b"));
 		},
 		m(target, anchor) {
 			insert(target, li, anchor);
@@ -12550,7 +12461,7 @@ function create_fragment$3(ctx) {
 			if (dirty & /*item*/ 1) checkcircle_changes.checked = /*item*/ ctx[0].checked;
 			checkcircle.$set(checkcircle_changes);
 
-			if (!current || dirty & /*lookAndFeel*/ 2 && li_class_value !== (li_class_value = "" + (null_to_empty(`${/*lookAndFeel*/ ctx[1]}`) + " svelte-1q8cjhd"))) {
+			if (!current || dirty & /*lookAndFeel*/ 2 && li_class_value !== (li_class_value = "" + (null_to_empty(`${/*lookAndFeel*/ ctx[1]}`) + " svelte-gpx85b"))) {
 				attr(li, "class", li_class_value);
 			}
 		},
@@ -12641,7 +12552,7 @@ function instance$3($$self, $$props, $$invalidate) {
 class ChecklistItem extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-1q8cjhd-style")) add_css$3();
+		if (!document.getElementById("svelte-gpx85b-style")) add_css$3();
 		init(this, options, instance$3, create_fragment$3, safe_not_equal, { item: 0, lookAndFeel: 1, app: 2 });
 	}
 }
@@ -12761,10 +12672,10 @@ function get_each_context$1(ctx, list, i) {
 // (34:6) {:else}
 function create_else_block$1(ctx) {
 	let span0;
-	let t0_value = `#${/*mainTag*/ ctx[2]}${/*group*/ ctx[1].groupName != null ? "/" : ""}` + "";
+	let t0_value = `#${/*mainTag*/ ctx[1]}${/*group*/ ctx[0].groupName != null ? "/" : ""}` + "";
 	let t0;
 	let span1;
-	let t1_value = (/*group*/ ctx[1].groupName ?? "") + "";
+	let t1_value = (/*group*/ ctx[0].groupName ?? "") + "";
 	let t1;
 
 	return {
@@ -12783,8 +12694,8 @@ function create_else_block$1(ctx) {
 			append(span1, t1);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*mainTag, group*/ 6 && t0_value !== (t0_value = `#${/*mainTag*/ ctx[2]}${/*group*/ ctx[1].groupName != null ? "/" : ""}` + "")) set_data(t0, t0_value);
-			if (dirty & /*group*/ 2 && t1_value !== (t1_value = (/*group*/ ctx[1].groupName ?? "") + "")) set_data(t1, t1_value);
+			if (dirty & /*mainTag, group*/ 3 && t0_value !== (t0_value = `#${/*mainTag*/ ctx[1]}${/*group*/ ctx[0].groupName != null ? "/" : ""}` + "")) set_data(t0, t0_value);
+			if (dirty & /*group*/ 1 && t1_value !== (t1_value = (/*group*/ ctx[0].groupName ?? "") + "")) set_data(t1, t1_value);
 		},
 		d(detaching) {
 			if (detaching) detach(span0);
@@ -12795,7 +12706,7 @@ function create_else_block$1(ctx) {
 
 // (32:6) {#if group.type === "page"}
 function create_if_block_1$1(ctx) {
-	let t_value = /*group*/ ctx[1].groupName + "";
+	let t_value = /*group*/ ctx[0].groupName + "";
 	let t;
 
 	return {
@@ -12806,7 +12717,7 @@ function create_if_block_1$1(ctx) {
 			insert(target, t, anchor);
 		},
 		p(ctx, dirty) {
-			if (dirty & /*group*/ 2 && t_value !== (t_value = /*group*/ ctx[1].groupName + "")) set_data(t, t_value);
+			if (dirty & /*group*/ 1 && t_value !== (t_value = /*group*/ ctx[0].groupName + "")) set_data(t, t_value);
 		},
 		d(detaching) {
 			if (detaching) detach(t);
@@ -12818,7 +12729,7 @@ function create_if_block_1$1(ctx) {
 function create_if_block$1(ctx) {
 	let each_1_anchor;
 	let current;
-	let each_value = /*group*/ ctx[1].todos;
+	let each_value = /*group*/ ctx[0].todos;
 	let each_blocks = [];
 
 	for (let i = 0; i < each_value.length; i += 1) {
@@ -12846,8 +12757,8 @@ function create_if_block$1(ctx) {
 			current = true;
 		},
 		p(ctx, dirty) {
-			if (dirty & /*group, lookAndFeel, app*/ 50) {
-				each_value = /*group*/ ctx[1].todos;
+			if (dirty & /*group, lookAndFeel, app*/ 25) {
+				each_value = /*group*/ ctx[0].todos;
 				let i;
 
 				for (i = 0; i < each_value.length; i += 1) {
@@ -12906,8 +12817,8 @@ function create_each_block$1(ctx) {
 	checklistitem = new ChecklistItem({
 			props: {
 				item: /*item*/ ctx[9],
-				lookAndFeel: /*lookAndFeel*/ ctx[4],
-				app: /*app*/ ctx[5]
+				lookAndFeel: /*lookAndFeel*/ ctx[3],
+				app: /*app*/ ctx[4]
 			}
 		});
 
@@ -12921,9 +12832,9 @@ function create_each_block$1(ctx) {
 		},
 		p(ctx, dirty) {
 			const checklistitem_changes = {};
-			if (dirty & /*group*/ 2) checklistitem_changes.item = /*item*/ ctx[9];
-			if (dirty & /*lookAndFeel*/ 16) checklistitem_changes.lookAndFeel = /*lookAndFeel*/ ctx[4];
-			if (dirty & /*app*/ 32) checklistitem_changes.app = /*app*/ ctx[5];
+			if (dirty & /*group*/ 1) checklistitem_changes.item = /*item*/ ctx[9];
+			if (dirty & /*lookAndFeel*/ 8) checklistitem_changes.lookAndFeel = /*lookAndFeel*/ ctx[3];
+			if (dirty & /*app*/ 16) checklistitem_changes.app = /*app*/ ctx[4];
 			checklistitem.$set(checklistitem_changes);
 		},
 		i(local) {
@@ -12949,7 +12860,7 @@ function create_fragment$1(ctx) {
 	let div1;
 	let t1;
 	let div2;
-	let t2_value = /*group*/ ctx[1].todos.length + "";
+	let t2_value = /*group*/ ctx[0].todos.length + "";
 	let t2;
 	let t3;
 	let button;
@@ -12963,7 +12874,7 @@ function create_fragment$1(ctx) {
 	let dispose;
 
 	function select_block_type(ctx, dirty) {
-		if (/*group*/ ctx[1].type === "page") return create_if_block_1$1;
+		if (/*group*/ ctx[0].type === "page") return create_if_block_1$1;
 		return create_else_block$1;
 	}
 
@@ -12973,11 +12884,11 @@ function create_fragment$1(ctx) {
 	icon = new Icon({
 			props: {
 				name: "chevron",
-				direction: /*isCollapsed*/ ctx[3] ? "left" : "down"
+				direction: /*isCollapsed*/ ctx[2] ? "left" : "down"
 			}
 		});
 
-	let if_block1 = !/*isCollapsed*/ ctx[3] && create_if_block$1(ctx);
+	let if_block1 = !/*isCollapsed*/ ctx[2] && create_if_block$1(ctx);
 
 	return {
 		c() {
@@ -13001,9 +12912,9 @@ function create_fragment$1(ctx) {
 			attr(div2, "class", "count svelte-yzsyxo");
 			attr(button, "class", "collapse svelte-yzsyxo");
 			attr(button, "title", "Toggle Group");
-			attr(header, "class", header_class_value = "" + (null_to_empty(`group-header ${/*group*/ ctx[1].type}`) + " svelte-yzsyxo"));
+			attr(header, "class", header_class_value = "" + (null_to_empty(`group-header ${/*group*/ ctx[0].type}`) + " svelte-yzsyxo"));
 			attr(ul, "class", "svelte-yzsyxo");
-			attr(section, "class", section_class_value = "group " + /*groupNameAsClass*/ ctx[0] + " svelte-yzsyxo");
+			attr(section, "class", section_class_value = "group " + /*groupNameAsClass*/ ctx[6] + " svelte-yzsyxo");
 		},
 		m(target, anchor) {
 			insert(target, section, anchor);
@@ -13045,20 +12956,20 @@ function create_fragment$1(ctx) {
 				}
 			}
 
-			if ((!current || dirty & /*group*/ 2) && t2_value !== (t2_value = /*group*/ ctx[1].todos.length + "")) set_data(t2, t2_value);
+			if ((!current || dirty & /*group*/ 1) && t2_value !== (t2_value = /*group*/ ctx[0].todos.length + "")) set_data(t2, t2_value);
 			const icon_changes = {};
-			if (dirty & /*isCollapsed*/ 8) icon_changes.direction = /*isCollapsed*/ ctx[3] ? "left" : "down";
+			if (dirty & /*isCollapsed*/ 4) icon_changes.direction = /*isCollapsed*/ ctx[2] ? "left" : "down";
 			icon.$set(icon_changes);
 
-			if (!current || dirty & /*group*/ 2 && header_class_value !== (header_class_value = "" + (null_to_empty(`group-header ${/*group*/ ctx[1].type}`) + " svelte-yzsyxo"))) {
+			if (!current || dirty & /*group*/ 1 && header_class_value !== (header_class_value = "" + (null_to_empty(`group-header ${/*group*/ ctx[0].type}`) + " svelte-yzsyxo"))) {
 				attr(header, "class", header_class_value);
 			}
 
-			if (!/*isCollapsed*/ ctx[3]) {
+			if (!/*isCollapsed*/ ctx[2]) {
 				if (if_block1) {
 					if_block1.p(ctx, dirty);
 
-					if (dirty & /*isCollapsed*/ 8) {
+					if (dirty & /*isCollapsed*/ 4) {
 						transition_in(if_block1, 1);
 					}
 				} else {
@@ -13077,7 +12988,7 @@ function create_fragment$1(ctx) {
 				check_outros();
 			}
 
-			if (!current || dirty & /*groupNameAsClass*/ 1 && section_class_value !== (section_class_value = "group " + /*groupNameAsClass*/ ctx[0] + " svelte-yzsyxo")) {
+			if (!current || dirty & /*groupNameAsClass*/ 64 && section_class_value !== (section_class_value = "group " + /*groupNameAsClass*/ ctx[6] + " svelte-yzsyxo")) {
 				attr(section, "class", section_class_value);
 			}
 		},
@@ -13112,7 +13023,7 @@ function instance$1($$self, $$props, $$invalidate) {
 	let { lookAndFeel } = $$props;
 	let { app } = $$props;
 	let { onToggle } = $$props;
-	let { groupNameAsClass } = $$props;
+	let groupNameAsClass;
 
 	function clickTitle(ev) {
 		if (group.type === "page") navToFile(app, group.groupId, ev);
@@ -13121,17 +13032,16 @@ function instance$1($$self, $$props, $$invalidate) {
 	const click_handler = () => onToggle(group.groupId);
 
 	$$self.$$set = $$props => {
-		if ("group" in $$props) $$invalidate(1, group = $$props.group);
-		if ("mainTag" in $$props) $$invalidate(2, mainTag = $$props.mainTag);
-		if ("isCollapsed" in $$props) $$invalidate(3, isCollapsed = $$props.isCollapsed);
-		if ("lookAndFeel" in $$props) $$invalidate(4, lookAndFeel = $$props.lookAndFeel);
-		if ("app" in $$props) $$invalidate(5, app = $$props.app);
-		if ("onToggle" in $$props) $$invalidate(6, onToggle = $$props.onToggle);
-		if ("groupNameAsClass" in $$props) $$invalidate(0, groupNameAsClass = $$props.groupNameAsClass);
+		if ("group" in $$props) $$invalidate(0, group = $$props.group);
+		if ("mainTag" in $$props) $$invalidate(1, mainTag = $$props.mainTag);
+		if ("isCollapsed" in $$props) $$invalidate(2, isCollapsed = $$props.isCollapsed);
+		if ("lookAndFeel" in $$props) $$invalidate(3, lookAndFeel = $$props.lookAndFeel);
+		if ("app" in $$props) $$invalidate(4, app = $$props.app);
+		if ("onToggle" in $$props) $$invalidate(5, onToggle = $$props.onToggle);
 	};
 
 	$$self.$$.update = () => {
-		if ($$self.$$.dirty & /*group, mainTag*/ 6) {
+		if ($$self.$$.dirty & /*group, mainTag*/ 3) {
 			{
 				const groupName = group.groupName || mainTag;
 				const sanitzedGroupName = groupName.replace(/[^A-Za-z0-9]/g, "");
@@ -13141,19 +13051,19 @@ function instance$1($$self, $$props, $$invalidate) {
 					return p1.toLowerCase();
 				});
 
-				$$invalidate(0, groupNameAsClass = `group-${dasherizedGroupName}`);
+				$$invalidate(6, groupNameAsClass = `group-${dasherizedGroupName}`);
 			}
 		}
 	};
 
 	return [
-		groupNameAsClass,
 		group,
 		mainTag,
 		isCollapsed,
 		lookAndFeel,
 		app,
 		onToggle,
+		groupNameAsClass,
 		clickTitle,
 		click_handler
 	];
@@ -13165,13 +13075,12 @@ class ChecklistGroup extends SvelteComponent {
 		if (!document.getElementById("svelte-yzsyxo-style")) add_css$1();
 
 		init(this, options, instance$1, create_fragment$1, safe_not_equal, {
-			group: 1,
-			mainTag: 2,
-			isCollapsed: 3,
-			lookAndFeel: 4,
-			app: 5,
-			onToggle: 6,
-			groupNameAsClass: 0
+			group: 0,
+			mainTag: 1,
+			isCollapsed: 2,
+			lookAndFeel: 3,
+			app: 4,
+			onToggle: 5
 		});
 	}
 }
@@ -13670,13 +13579,15 @@ class TodoPlugin extends obsidian.Plugin {
     initLeaf() {
         if (this.app.workspace.getLeavesOfType(TODO_VIEW_TYPE).length)
             return;
-        this.app.workspace.getRightLeaf(true).setViewState({
+        this.app.workspace.getRightLeaf(false).setViewState({
             type: TODO_VIEW_TYPE,
-            active: false,
+            active: true,
         });
     }
-    onunload() {
-        this.view.onClose();
+    async onunload() {
+        var _a;
+        await this.view.onClose();
+        (_a = this.app.workspace.getLeavesOfType(TODO_VIEW_TYPE)[0]) === null || _a === void 0 ? void 0 : _a.detach();
     }
     async loadSettings() {
         const loadedData = await this.loadData();

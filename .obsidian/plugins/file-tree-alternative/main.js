@@ -7654,18 +7654,18 @@ var require_es = __commonJS({
 __export(exports, {
   default: () => FileTreeAlternativePlugin
 });
-var import_obsidian7 = __toModule(require("obsidian"));
+var import_obsidian8 = __toModule(require("obsidian"));
 
 // src/FileTreeView.tsx
-var import_obsidian5 = __toModule(require("obsidian"));
+var import_obsidian6 = __toModule(require("obsidian"));
 var import_react9 = __toModule(require_react());
 var import_react_dom2 = __toModule(require_react_dom());
 
-// src/components/MainComponent.tsx
-var import_obsidian4 = __toModule(require("obsidian"));
+// src/components/MainView/MainComponent.tsx
+var import_obsidian5 = __toModule(require("obsidian"));
 var import_react8 = __toModule(require_react());
 
-// src/components/FileComponent.tsx
+// src/components/FileView/FileComponent.tsx
 var import_react3 = __toModule(require_react());
 
 // node_modules/react-dropzone/dist/es/index.js
@@ -8595,7 +8595,7 @@ function reducer(state, action) {
   }
 }
 
-// src/components/FileComponent.tsx
+// src/components/FileView/FileComponent.tsx
 var import_obsidian2 = __toModule(require("obsidian"));
 
 // node_modules/@fortawesome/fontawesome-svg-core/index.es.js
@@ -10101,6 +10101,7 @@ var VaultChangeModal = class extends import_obsidian.Modal {
         inputEl.value = this.file.name;
       }
     }
+    inputEl.focus();
     let changeButtonText;
     if (this.action === "rename") {
       changeButtonText = "Change Name";
@@ -10115,7 +10116,7 @@ var VaultChangeModal = class extends import_obsidian.Modal {
     cancelButton.addEventListener("click", () => {
       myModal.close();
     });
-    changeButton.addEventListener("click", () => __async(this, null, function* () {
+    const onClickAction = () => __async(this, null, function* () {
       let newName = inputEl.value;
       if (this.action === "rename") {
         if (this.file.name.endsWith(".md"))
@@ -10125,12 +10126,18 @@ var VaultChangeModal = class extends import_obsidian.Modal {
         this.app.vault.createFolder(this.file.path + "/" + newName);
       } else if (this.action === "create note") {
         const newFile = yield this.app.fileManager.createNewMarkdownFile(this.file, newName);
-        const newLeaf = this.app.workspace.activeLeaf;
-        yield newLeaf.openFile(newFile);
-        this.app.workspace.setActiveLeaf(newLeaf, false, true);
+        this.app.workspace.activeLeaf.setViewState({
+          type: "markdown",
+          state: { file: newFile.path }
+        });
       }
       myModal.close();
-    }));
+    });
+    changeButton.addEventListener("click", onClickAction);
+    inputEl.addEventListener("keydown", (e) => {
+      if (e.key === "Enter")
+        onClickAction();
+    });
   }
   onClose() {
     let { contentEl } = this;
@@ -10169,7 +10176,7 @@ var FolderMoveSuggesterModal = class extends import_obsidian.FuzzySuggestModal {
   }
 };
 
-// src/components/FileComponent.tsx
+// src/components/FileView/FileComponent.tsx
 var FileComponent = class extends import_react3.default.Component {
   constructor(props) {
     super(props);
@@ -10300,7 +10307,6 @@ var FileComponent = class extends import_react3.default.Component {
           this.props.setFileList([]);
           return;
         }
-        ;
         this.props.setFileList([...this.getFilesWithTag(tagRegexMatch[1])]);
         return;
       }
@@ -10412,11 +10418,11 @@ var FileComponent = class extends import_react3.default.Component {
   }
 };
 
-// src/components/FolderComponent.tsx
+// src/components/FolderView/FolderComponent.tsx
 var import_react7 = __toModule(require_react());
 var import_obsidian3 = __toModule(require("obsidian"));
 
-// src/components/treeComponent/TreeComponent.tsx
+// src/components/FolderView/treeComponent/TreeComponent.tsx
 var import_react6 = __toModule(require_react());
 
 // node_modules/@babel/runtime/helpers/esm/extends.js
@@ -12716,7 +12722,7 @@ var extendedAnimated = domElements.reduce(function(acc, element) {
   return acc;
 }, createAnimatedComponent);
 
-// src/components/treeComponent/icons.tsx
+// src/components/FolderView/treeComponent/icons.tsx
 var import_react5 = __toModule(require_react());
 var MinusSquareO = (props) => /* @__PURE__ */ import_react5.default.createElement("svg", __spreadProps(__spreadValues({}, props), {
   viewBox: "64 -65 897 897"
@@ -12737,7 +12743,7 @@ var CloseSquareO = (props) => /* @__PURE__ */ import_react5.default.createElemen
   fill: "var(--interactive-accent)"
 })));
 
-// src/components/treeComponent/TreeComponent.tsx
+// src/components/FolderView/treeComponent/TreeComponent.tsx
 var Tree = class extends import_react6.default.Component {
   constructor() {
     super(...arguments);
@@ -12829,7 +12835,11 @@ var Contents = (_a) => {
   }, children);
 };
 
-// src/components/FolderComponent.tsx
+// src/components/FolderView/ConditionalWrapper.tsx
+var ConditionalRootFolderWrapper = ({ condition, wrapper, children }) => condition ? wrapper(children) : children;
+var ConditionalWrapper_default = ConditionalRootFolderWrapper;
+
+// src/components/FolderView/FolderComponent.tsx
 var FolderComponent = class extends import_react7.default.Component {
   constructor() {
     super(...arguments);
@@ -12839,7 +12849,7 @@ var FolderComponent = class extends import_react7.default.Component {
     };
   }
   render() {
-    return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, /* @__PURE__ */ import_react7.default.createElement(ConditionalRootFolderWrapper, {
+    return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, /* @__PURE__ */ import_react7.default.createElement(ConditionalWrapper_default, {
       condition: this.props.plugin.settings.showRootFolder,
       wrapper: (children) => {
         return /* @__PURE__ */ import_react7.default.createElement(Tree, {
@@ -12868,7 +12878,6 @@ var FolderComponent = class extends import_react7.default.Component {
     })));
   }
 };
-var ConditionalRootFolderWrapper = ({ condition, wrapper, children }) => condition ? wrapper(children) : children;
 var NestedChildrenComponent = class extends import_react7.default.Component {
   constructor() {
     super(...arguments);
@@ -12964,7 +12973,60 @@ var NestedChildrenComponent = class extends import_react7.default.Component {
   }
 };
 
-// src/components/MainComponent.tsx
+// src/utils/Utils.ts
+var import_obsidian4 = __toModule(require("obsidian"));
+var FileTreeUtils = class {
+};
+FileTreeUtils.getFilesUnderPath = (path, plugin, getAllFiles) => {
+  var filesUnderPath = [];
+  var showFilesFromSubFolders = getAllFiles ? true : plugin.settings.showFilesFromSubFolders;
+  recursiveFx(path, plugin.app);
+  function recursiveFx(path2, app) {
+    var folderObj = app.vault.getAbstractFileByPath(path2);
+    if (folderObj instanceof import_obsidian4.TFolder && folderObj.children) {
+      for (let child of folderObj.children) {
+        if (child instanceof import_obsidian4.TFile)
+          filesUnderPath.push(child);
+        if (child instanceof import_obsidian4.TFolder && showFilesFromSubFolders)
+          recursiveFx(child.path, app);
+      }
+    }
+  }
+  return filesUnderPath;
+};
+FileTreeUtils.createFolderTree = (startFolder) => {
+  let fileTree = { folder: startFolder, children: [] };
+  function recursive(folder, object) {
+    for (let child of folder.children) {
+      if (child instanceof import_obsidian4.TFolder) {
+        let childFolder = child;
+        let newObj = { folder: childFolder, children: [] };
+        object.children.push(newObj);
+        if (childFolder.children)
+          recursive(childFolder, newObj);
+      }
+    }
+  }
+  recursive(startFolder, fileTree);
+  return fileTree;
+};
+FileTreeUtils.getFolderNoteCountMap = (plugin) => {
+  const counts = {};
+  let files;
+  if (plugin.settings.folderCountOption === "notes") {
+    files = plugin.app.vault.getMarkdownFiles();
+  } else {
+    files = plugin.app.vault.getFiles();
+  }
+  files.forEach((file) => {
+    for (let folder = file.parent; folder != null; folder = folder.parent) {
+      counts[folder.path] = 1 + (counts[folder.path] || 0);
+    }
+  });
+  return counts;
+};
+
+// src/components/MainView/MainComponent.tsx
 var MainTreeComponent = class extends import_react8.default.Component {
   constructor() {
     super(...arguments);
@@ -12990,7 +13052,7 @@ var MainTreeComponent = class extends import_react8.default.Component {
     };
     this.setNewFileList = (folderPath) => {
       let filesPath = folderPath ? folderPath : this.state.activeFolderPath;
-      this.setState({ fileList: getFilesUnderPath(filesPath, this.props.plugin) });
+      this.setState({ fileList: FileTreeUtils.getFilesUnderPath(filesPath, this.props.plugin) });
     };
     this.setOpenFolders = (openFolders) => {
       this.setState({ openFolders });
@@ -13025,7 +13087,7 @@ var MainTreeComponent = class extends import_react8.default.Component {
       this.savePinnedFilesToSettings();
     };
     this.handleVaultChanges = (file, changeType) => {
-      if (file instanceof import_obsidian4.TFile) {
+      if (file instanceof import_obsidian5.TFile) {
         if (this.state.view === "file") {
           if (changeType === "rename" || changeType === "delete") {
             if (this.state.fileList.some((stateFile) => stateFile.path === file.path)) {
@@ -13037,11 +13099,11 @@ var MainTreeComponent = class extends import_react8.default.Component {
             }
           }
         }
-      } else if (file instanceof import_obsidian4.TFolder) {
-        this.setState({ folderTree: createFolderTree(this.rootFolder) });
+      } else if (file instanceof import_obsidian5.TFolder) {
+        this.setState({ folderTree: FileTreeUtils.createFolderTree(this.rootFolder) });
       }
       if (this.props.plugin.settings.folderCount)
-        this.setState({ folderFileCountMap: getFolderNoteCountMap(this.props.plugin) });
+        this.setState({ folderFileCountMap: FileTreeUtils.getFolderNoteCountMap(this.props.plugin) });
     };
   }
   loadOpenFoldersFromSettings() {
@@ -13084,9 +13146,9 @@ var MainTreeComponent = class extends import_react8.default.Component {
   }
   componentDidMount() {
     console.log("File Tree Component Mounted");
-    this.setState({ folderTree: createFolderTree(this.rootFolder) });
+    this.setState({ folderTree: FileTreeUtils.createFolderTree(this.rootFolder) });
     if (this.props.plugin.settings.folderCount)
-      this.setState({ folderFileCountMap: getFolderNoteCountMap(this.props.plugin) });
+      this.setState({ folderFileCountMap: FileTreeUtils.getFolderNoteCountMap(this.props.plugin) });
     this.loadOpenFoldersFromSettings();
     this.loadPinnedFilesFromSettings();
     this.loadExcludedExtensions();
@@ -13115,7 +13177,7 @@ var MainTreeComponent = class extends import_react8.default.Component {
       plugin: this.props.plugin,
       fileList: this.state.fileList,
       setFileList: this.setFileList,
-      getFilesUnderPath,
+      getFilesUnderPath: FileTreeUtils.getFilesUnderPath,
       activeFolderPath: this.state.activeFolderPath,
       setView: this.setView,
       pinnedFiles: this.state.pinnedFiles,
@@ -13124,60 +13186,12 @@ var MainTreeComponent = class extends import_react8.default.Component {
     }));
   }
 };
-var getFilesUnderPath = (path, plugin, getAllFiles) => {
-  var filesUnderPath = [];
-  var showFilesFromSubFolders = getAllFiles ? true : plugin.settings.showFilesFromSubFolders;
-  recursiveFx(path, plugin.app);
-  function recursiveFx(path2, app) {
-    var folderObj = app.vault.getAbstractFileByPath(path2);
-    if (folderObj instanceof import_obsidian4.TFolder && folderObj.children) {
-      for (let child of folderObj.children) {
-        if (child instanceof import_obsidian4.TFile)
-          filesUnderPath.push(child);
-        if (child instanceof import_obsidian4.TFolder && showFilesFromSubFolders)
-          recursiveFx(child.path, app);
-      }
-    }
-  }
-  return filesUnderPath;
-};
-var createFolderTree = (startFolder) => {
-  const fileTree = { folder: startFolder, children: [] };
-  function recursive(folder, object) {
-    for (let child of folder.children) {
-      if (child instanceof import_obsidian4.TFolder) {
-        let childFolder = child;
-        let newObj = { folder: childFolder, children: [] };
-        object.children.push(newObj);
-        if (childFolder.children)
-          recursive(childFolder, newObj);
-      }
-    }
-  }
-  recursive(startFolder, fileTree);
-  return fileTree;
-};
-var getFolderNoteCountMap = (plugin) => {
-  const counts = {};
-  let files;
-  if (plugin.settings.folderCountOption === "notes") {
-    files = plugin.app.vault.getMarkdownFiles();
-  } else {
-    files = plugin.app.vault.getFiles();
-  }
-  files.forEach((file) => {
-    for (let folder = file.parent; folder != null; folder = folder.parent) {
-      counts[folder.path] = 1 + (counts[folder.path] || 0);
-    }
-  });
-  return counts;
-};
 
 // src/FileTreeView.tsx
 var VIEW_TYPE = "file-tree-view";
 var VIEW_DISPLAY_TEXT = "File Tree";
 var ICON = "sheets-in-box";
-var FileTreeView = class extends import_obsidian5.ItemView {
+var FileTreeView = class extends import_obsidian6.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.plugin = plugin;
@@ -13207,15 +13221,17 @@ var FileTreeView = class extends import_obsidian5.ItemView {
   }
   constructFileTree(folderPath, vaultChange) {
     import_react_dom2.default.unmountComponentAtNode(this.contentEl);
-    import_react_dom2.default.render(/* @__PURE__ */ import_react9.default.createElement(MainTreeComponent, {
+    import_react_dom2.default.render(/* @__PURE__ */ import_react9.default.createElement("div", {
+      className: "file-tree-plugin-view"
+    }, /* @__PURE__ */ import_react9.default.createElement(MainTreeComponent, {
       fileTreeView: this,
       plugin: this.plugin
-    }), this.contentEl);
+    })), this.contentEl);
   }
 };
 
 // src/settings.ts
-var import_obsidian6 = __toModule(require("obsidian"));
+var import_obsidian7 = __toModule(require("obsidian"));
 var DEFAULT_SETTINGS = {
   ribbonIcon: true,
   showRootFolder: true,
@@ -13228,7 +13244,7 @@ var DEFAULT_SETTINGS = {
   openFolders: [],
   pinnedFiles: []
 };
-var FileTreeAlternativePluginSettingsTab = class extends import_obsidian6.PluginSettingTab {
+var FileTreeAlternativePluginSettingsTab = class extends import_obsidian7.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -13237,31 +13253,31 @@ var FileTreeAlternativePluginSettingsTab = class extends import_obsidian6.Plugin
     let { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "General" });
-    new import_obsidian6.Setting(containerEl).setName("Ribbon Icon").setDesc("Turn on if you want Ribbon Icon for activating the File Tree.").addToggle((toggle) => toggle.setValue(this.plugin.settings.ribbonIcon).onChange((value) => {
+    new import_obsidian7.Setting(containerEl).setName("Ribbon Icon").setDesc("Turn on if you want Ribbon Icon for activating the File Tree.").addToggle((toggle) => toggle.setValue(this.plugin.settings.ribbonIcon).onChange((value) => {
       this.plugin.settings.ribbonIcon = value;
       this.plugin.saveSettings();
       this.plugin.refreshIconRibbon();
     }));
-    new import_obsidian6.Setting(containerEl).setName("Show Root Folder").setDesc(`Turn on if you want your Root Folder "${this.plugin.app.vault.getName()}" to be visible in the file tree`).addToggle((toggle) => toggle.setValue(this.plugin.settings.showRootFolder).onChange((value) => {
+    new import_obsidian7.Setting(containerEl).setName("Show Root Folder").setDesc(`Turn on if you want your Root Folder "${this.plugin.app.vault.getName()}" to be visible in the file tree`).addToggle((toggle) => toggle.setValue(this.plugin.settings.showRootFolder).onChange((value) => {
       this.plugin.settings.showRootFolder = value;
       this.plugin.saveSettings();
       this.plugin.refreshTreeLeafs();
     }));
-    new import_obsidian6.Setting(containerEl).setName("Include Files From Subfolders to the File List").setDesc(`Turn on this option if you want to see the list of files from all subfolders in addition to the selected folder`).addToggle((toggle) => toggle.setValue(this.plugin.settings.showFilesFromSubFolders).onChange((value) => {
+    new import_obsidian7.Setting(containerEl).setName("Include Files From Subfolders to the File List").setDesc(`Turn on this option if you want to see the list of files from all subfolders in addition to the selected folder`).addToggle((toggle) => toggle.setValue(this.plugin.settings.showFilesFromSubFolders).onChange((value) => {
       this.plugin.settings.showFilesFromSubFolders = value;
       this.plugin.saveSettings();
     }));
-    new import_obsidian6.Setting(containerEl).setName("Search in File List").setDesc(`Turn on this option if you want to enable search function to filter files by name.`).addToggle((toggle) => toggle.setValue(this.plugin.settings.searchFunction).onChange((value) => {
+    new import_obsidian7.Setting(containerEl).setName("Search in File List").setDesc(`Turn on this option if you want to enable search function to filter files by name.`).addToggle((toggle) => toggle.setValue(this.plugin.settings.searchFunction).onChange((value) => {
       this.plugin.settings.searchFunction = value;
       this.plugin.saveSettings();
     }));
     containerEl.createEl("h2", { text: "Folder Count Settings" });
-    new import_obsidian6.Setting(containerEl).setName("Folder Count").setDesc("Turn on if you want see the number of notes/files under file tree.").addToggle((toggle) => toggle.setValue(this.plugin.settings.folderCount).onChange((value) => {
+    new import_obsidian7.Setting(containerEl).setName("Folder Count").setDesc("Turn on if you want see the number of notes/files under file tree.").addToggle((toggle) => toggle.setValue(this.plugin.settings.folderCount).onChange((value) => {
       this.plugin.settings.folderCount = value;
       this.plugin.saveSettings();
       this.plugin.refreshTreeLeafs();
     }));
-    new import_obsidian6.Setting(containerEl).setName("Folder Count Details").setDesc("Select which files you want to be included into count").addDropdown((dropdown) => {
+    new import_obsidian7.Setting(containerEl).setName("Folder Count Details").setDesc("Select which files you want to be included into count").addDropdown((dropdown) => {
       dropdown.addOption("notes", "Notes");
       dropdown.addOption("files", "All Files");
       dropdown.setValue(this.plugin.settings.folderCountOption);
@@ -13273,12 +13289,12 @@ var FileTreeAlternativePluginSettingsTab = class extends import_obsidian6.Plugin
       });
     });
     containerEl.createEl("h2", { text: "Exclude Settings" });
-    new import_obsidian6.Setting(containerEl).setName("Excluded File Extensions").setDesc(`Provide extension of files, which you want to exclude from listing in file tree, divided by comma. i.e. 'png, pdf, jpeg'.
+    new import_obsidian7.Setting(containerEl).setName("Excluded File Extensions").setDesc(`Provide extension of files, which you want to exclude from listing in file tree, divided by comma. i.e. 'png, pdf, jpeg'.
             You need to reload the vault to make changes effective.`).addTextArea((text) => text.setValue(this.plugin.settings.excludedExtensions).onChange((value) => {
       this.plugin.settings.excludedExtensions = value;
       this.plugin.saveSettings();
     }));
-    new import_obsidian6.Setting(containerEl).setName("Excluded Folder Paths").setDesc(`Provide full path of folders, which you want to exclude from listing in file tree, divided by comma. i.e. 'Personal/Attachments, Work/Documents/Folders'.
+    new import_obsidian7.Setting(containerEl).setName("Excluded Folder Paths").setDesc(`Provide full path of folders, which you want to exclude from listing in file tree, divided by comma. i.e. 'Personal/Attachments, Work/Documents/Folders'.
             All subfolders are going to be excluded, as well. You need to reload the vault to make changes effective.`).addTextArea((text) => text.setValue(this.plugin.settings.excludedFolders).onChange((value) => {
       this.plugin.settings.excludedFolders = value;
       this.plugin.saveSettings();
@@ -13287,7 +13303,7 @@ var FileTreeAlternativePluginSettingsTab = class extends import_obsidian6.Plugin
 };
 
 // src/main.ts
-var FileTreeAlternativePlugin = class extends import_obsidian7.Plugin {
+var FileTreeAlternativePlugin = class extends import_obsidian8.Plugin {
   constructor() {
     super(...arguments);
     this.ribbonIconEl = void 0;
@@ -13298,7 +13314,6 @@ var FileTreeAlternativePlugin = class extends import_obsidian7.Plugin {
         this.ribbonIconEl = this.addRibbonIcon(ICON, "Alternative File Tree Plugin", () => __async(this, null, function* () {
           yield this.openFileTreeLeaf();
         }));
-        ;
       }
     };
     this.openFileTreeLeaf = () => __async(this, null, function* () {

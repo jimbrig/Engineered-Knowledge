@@ -8,5 +8,6 @@
   "pullBeforePush": true,
   "disablePopups": false,
   "listChangedFilesInMessageBody": true,
-  "showStatusBar": true
+  "showStatusBar": true,
+  "updateSubmodules": false
 }
