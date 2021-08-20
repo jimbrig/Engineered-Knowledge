@@ -7,8 +7,11 @@
         "id": "216d1d505e30dbc2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "3-Resources/Daily-Notes/2021-08-20.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -88,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "3-Resources/Daily-Notes/2021-08-20.md"
+              }
             }
           },
           {
@@ -147,6 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3-Resources/Daily-Notes/2021-08-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3-Resources/Daily-Notes/2021-08-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,6 +200,7 @@
   },
   "active": "216d1d505e30dbc2",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-08-20.md",
     "3-Reference/Web-Clippings/2021-08-07-Obsidian Clipper.md",
     "3-Reference/Web-Clippings/Obsidian Clipper.md",
     "3-Reference/Web-Clippings/Obsidian Clipper 1.md",
@@ -201,7 +209,6 @@
     "3-Reference/Web-Clippings/2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help.md",
     "3-Reference/Web-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md",
     "Web Clippings.md",
-    "3-Resources/Daily-Notes/2021-08-19.md",
-    "0-Inbox/Untitled.md"
+    "3-Resources/Daily-Notes/2021-08-19.md"
   ]
 }
