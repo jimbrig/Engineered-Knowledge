@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/WSL - Permissions.md",
+            "file": "3-Resources/Daily-Notes/2021-08-19.md",
             "mode": "source"
           }
         }
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/WSL - Permissions.md"
+                "file": "3-Resources/Daily-Notes/2021-08-19.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/WSL - Permissions.md",
+                "file": "3-Resources/Daily-Notes/2021-08-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/WSL - Permissions.md",
+                "file": "3-Resources/Daily-Notes/2021-08-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,8 +200,8 @@
   },
   "active": "216d1d505e30dbc2",
   "lastOpenFiles": [
-    "0-Inbox/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-19.md",
+    "0-Inbox/Untitled.md",
     "0-Inbox/Cloud Run - Serverless Applications.md",
     "2-Slipbox/Zsh.md",
     "2-Slipbox/Untitled.md",
