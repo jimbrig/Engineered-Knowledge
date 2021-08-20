@@ -12,8 +12,6 @@ Linked Notes: [ ""]
 
 # <% tp.date.now("dddd, MMMM YYYY") %>
 
-## Daily Quote & Image
-
 ```ad-quote
 title: Daily Quote
 <center>
@@ -21,12 +19,18 @@ title: Daily Quote
 </center>
 ```
 
-```ad-info
-title: Image
-<center>
-<% tp.web.random_picture("400x400", "landscape,water,space,sun,skyline") %>
-</center>
-```
+## Scratchpad 📝
+
+- 
+
+## Tasks ✔️
+
+-
+
+
+## Ideas 💡
+
+-
 
 ***
 
