@@ -6,24 +6,11 @@
       {
         "id": "216d1d505e30dbc2",
         "type": "leaf",
-        "dimension": 55.91739475774424,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-20.md",
+            "file": "3-Reference/Github/Obsidian CSS Snippets.md",
             "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "fea2798ddf08d596",
-        "type": "leaf",
-        "dimension": 44.08260524225576,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-20.md",
-            "mode": "preview"
           }
         }
       }
@@ -122,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-20.md",
+                "file": "3-Reference/Github/Obsidian CSS Snippets.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -157,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-20.md"
+                "file": "3-Reference/Github/Obsidian CSS Snippets.md"
               }
             }
           },
@@ -167,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-20.md",
+                "file": "3-Reference/Github/Obsidian CSS Snippets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-20.md",
+                "file": "3-Reference/Github/Obsidian CSS Snippets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,8 +183,9 @@
     "direction": "horizontal",
     "width": 357.5
   },
-  "active": "fea2798ddf08d596",
+  "active": "216d1d505e30dbc2",
   "lastOpenFiles": [
+    "3-Reference/Github/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-20.md",
     "3-Resources/Mobile-Shares.md",
     "2021-W34.md",
@@ -206,7 +194,6 @@
     "3-Reference/Web-Clippings/2021-08-07-Obsidian Clipper.md",
     "3-Reference/Web-Clippings/Obsidian Clipper.md",
     "3-Reference/Web-Clippings/Obsidian Clipper 1.md",
-    "3-Reference/Web Clippings/Obsidian Clipper.md",
-    "3-Reference/Ansible for the Windows System Admin.md"
+    "3-Reference/Web Clippings/Obsidian Clipper.md"
   ]
 }
