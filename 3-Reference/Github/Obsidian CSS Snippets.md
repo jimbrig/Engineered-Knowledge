@@ -8,7 +8,7 @@ Tags: []
 
 # Obsidian CSS Snippets
 
-
+- Animation:
 
 ***
 

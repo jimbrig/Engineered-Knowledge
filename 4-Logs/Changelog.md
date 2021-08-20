@@ -1,5 +1,5 @@
-- 2021-08-20 at 11h23 · [[Obsidian CSS Snippets]]
-- 2021-08-20 at 11h21 · [[2021-08-20]]
+- 2021-08-20 at 11h28 · [[2021-08-20]]
+- 2021-08-20 at 11h24 · [[Obsidian CSS Snippets]]
 - 2021-08-20 at 11h15 · [[Mobile-Shares]]
 - 2021-08-20 at 11h13 · [[2021-W34]]
 - 2021-08-20 at 11h11 · [[Daily-Note-Template]]

@@ -6,11 +6,24 @@
       {
         "id": "216d1d505e30dbc2",
         "type": "leaf",
+        "dimension": 60.457920792079214,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Reference/Github/Obsidian CSS Snippets.md",
+            "file": "3-Resources/Daily-Notes/2021-08-20.md",
             "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "d0c317dd9e299bf5",
+        "type": "leaf",
+        "dimension": 39.54207920792079,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "3-Resources/Daily-Notes/2021-08-20.md",
+            "mode": "preview"
           }
         }
       }
@@ -109,7 +122,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Reference/Github/Obsidian CSS Snippets.md",
+                "file": "3-Resources/Daily-Notes/2021-08-20.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Reference/Github/Obsidian CSS Snippets.md"
+                "file": "3-Resources/Daily-Notes/2021-08-20.md"
               }
             }
           },
@@ -154,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Reference/Github/Obsidian CSS Snippets.md",
+                "file": "3-Resources/Daily-Notes/2021-08-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Reference/Github/Obsidian CSS Snippets.md",
+                "file": "3-Resources/Daily-Notes/2021-08-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,12 +194,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "active": "216d1d505e30dbc2",
   "lastOpenFiles": [
-    "3-Reference/Github/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-20.md",
+    "3-Reference/Github/Untitled.md",
     "3-Resources/Mobile-Shares.md",
     "2021-W34.md",
     "3-Resources/Templates/Daily-Note-Template.md",
