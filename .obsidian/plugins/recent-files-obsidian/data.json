@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian Clipper",
+      "path": "3-Reference/Web-Clippings/Obsidian Clipper.md"
+    },
+    {
+      "basename": "Ansible for the Windows System Admin",
+      "path": "3-Reference/Ansible for the Windows System Admin.md"
+    },
+    {
+      "basename": "2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help",
+      "path": "3-Reference/Web-Clippings/2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help.md"
+    },
+    {
+      "basename": "2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support",
+      "path": "3-Reference/Web-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md"
+    },
+    {
+      "basename": "Web Clippings",
+      "path": "Web Clippings.md"
+    },
+    {
       "basename": "2021-08-19",
       "path": "3-Resources/Daily-Notes/2021-08-19.md"
     },
@@ -171,34 +191,6 @@
     {
       "basename": "Base Package Hidden Gems in R",
       "path": "2-Slipbox/Base Package Hidden Gems in R.md"
-    },
-    {
-      "basename": "AutoHotKey Scripts",
-      "path": "2-Slipbox/AutoHotKey Scripts.md"
-    },
-    {
-      "basename": "Automate Getting Help",
-      "path": "2-Slipbox/Automate Getting Help.md"
-    },
-    {
-      "basename": "Backend Web Architecture",
-      "path": "2-Slipbox/Backend Web Architecture.md"
-    },
-    {
-      "basename": "README",
-      "path": "0-Inbox/README.md"
-    },
-    {
-      "basename": "S-CLI",
-      "path": "3-Reference/S-CLI.md"
-    },
-    {
-      "basename": "Prioritize these 5 essentials of healthy achievement",
-      "path": "2-Slipbox/Prioritize these 5 essentials of healthy achievement.md"
-    },
-    {
-      "basename": "MOC - R",
-      "path": "1-Maps-of-Content/MOC - R.md"
     }
   ],
   "omittedPaths": [],
