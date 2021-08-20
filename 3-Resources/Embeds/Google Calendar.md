@@ -1,0 +1,3 @@
+<div style="display: block; position: relative; width: 100%; height: 1000px; --aspect-ratio:9/16; padding-bottom: calc(var(--aspect-ratio) * 100%);"><iframe src="https://calendar.google.com/calendar/u/0/r?pli=1" allow="fullscreen" style="position: absolute; top: 0px; left: 0px; height: 100%; width: 100%;"></iframe></div>
+
+Source: [Jimmy Briggs - Calendar - August 2021 (google.com)](https://calendar.google.com/calendar/u/0/r?pli=1)
