@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Todoist",
+      "path": "3-Resources/Embeds/Todoist.md"
+    },
+    {
       "basename": "2021-08-20",
       "path": "3-Resources/Daily-Notes/2021-08-20.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Code Comments",
       "path": "2-Slipbox/Code Comments.md"
-    },
-    {
-      "basename": "CLI Tools",
-      "path": "2-Slipbox/CLI Tools.md"
     }
   ],
   "omittedPaths": [],
