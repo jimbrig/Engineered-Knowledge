@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "How To Create a Folder Tree in Windows",
+      "path": "0-Inbox/How To Create a Folder Tree in Windows.md"
+    },
+    {
       "basename": "2021-08-20",
       "path": "3-Resources/Daily-Notes/2021-08-20.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Data Validation Packages in R",
       "path": "2-Slipbox/Data Validation Packages in R.md"
-    },
-    {
-      "basename": "Dann Felker",
-      "path": "2-Slipbox/Dann Felker.md"
     }
   ],
   "omittedPaths": [],
