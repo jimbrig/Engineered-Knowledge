@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b86821f2cc05e233",
+        "id": "0fee8f8b1f397a6e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Embeds/Raindrop.io.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -109,7 +106,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Embeds/Raindrop.io.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "3-Resources/Embeds/Raindrop.io.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,7 +148,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Embeds/Raindrop.io.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +159,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Embeds/Raindrop.io.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,25 +169,23 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
-    "collapsed": true
+    "width": 357.5
   },
-  "active": "b86821f2cc05e233",
+  "active": "0fee8f8b1f397a6e",
   "lastOpenFiles": [
     "3-Resources/Embeds/Untitled.md",
     "3-Resources/Embeds/Todoist.md",
-    "3-Resources/Daily-Notes/2021-08-20.md",
     "3-Resources/Embeds/Google Calendar.md",
+    "3-Resources/Embeds/Raindrop.io.md",
+    "3-Resources/Daily-Notes/2021-08-20.md",
     "3-Reference/Github/Untitled.md",
     "3-Resources/Mobile-Shares.md",
     "2021-W34.md",
     "3-Resources/Templates/Daily-Note-Template.md",
-    "3-Resources/Templates/Default-Note-Template.md",
-    "3-Reference/Web-Clippings/2021-08-07-Obsidian Clipper.md"
+    "3-Resources/Templates/Default-Note-Template.md"
   ]
 }
