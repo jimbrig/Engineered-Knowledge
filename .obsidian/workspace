@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "0fee8f8b1f397a6e",
+        "id": "f7d3373af66222cf",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "3-Resources/Daily-Notes/2021-08-20.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -106,6 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "3-Resources/Daily-Notes/2021-08-20.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -139,7 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "3-Resources/Daily-Notes/2021-08-20.md"
+              }
             }
           },
           {
@@ -148,6 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3-Resources/Daily-Notes/2021-08-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3-Resources/Daily-Notes/2021-08-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,15 +181,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 438
   },
-  "active": "0fee8f8b1f397a6e",
+  "active": "f7d3373af66222cf",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-08-20.md",
     "3-Resources/Embeds/Untitled.md",
     "3-Resources/Embeds/Todoist.md",
     "3-Resources/Embeds/Google Calendar.md",
     "3-Resources/Embeds/Raindrop.io.md",
-    "3-Resources/Daily-Notes/2021-08-20.md",
     "3-Reference/Github/Untitled.md",
     "3-Resources/Mobile-Shares.md",
     "2021-W34.md",
