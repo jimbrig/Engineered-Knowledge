@@ -1,6 +1,170 @@
 {
   "recentFiles": [
     {
+      "basename": "Backend Web Architecture",
+      "path": "2-Slipbox/Backend Web Architecture.md"
+    },
+    {
+      "basename": "Bootstrapping Dotfiles",
+      "path": "2-Slipbox/Bootstrapping Dotfiles.md"
+    },
+    {
+      "basename": "CLI Tools",
+      "path": "2-Slipbox/CLI Tools.md"
+    },
+    {
+      "basename": "Git Tools",
+      "path": "2-Slipbox/Git Tools.md"
+    },
+    {
+      "basename": "How to Cleanup Windows from Command Line",
+      "path": "2-Slipbox/How to Cleanup Windows from Command Line.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "2-Slipbox/Linux.md"
+    },
+    {
+      "basename": "Ludicrously Complex Projects in Software Development",
+      "path": "2-Slipbox/Ludicrously Complex Projects in Software Development.md"
+    },
+    {
+      "basename": "PostgreSQL Tools",
+      "path": "2-Slipbox/PostgreSQL Tools.md"
+    },
+    {
+      "basename": "Why You Should Never Quit too Early",
+      "path": "2-Slipbox/Why You Should Never Quit too Early.md"
+    },
+    {
+      "basename": "Windows Command Line Commands Overview",
+      "path": "2-Slipbox/Windows Command Line Commands Overview.md"
+    },
+    {
+      "basename": "Windows Developer Environment",
+      "path": "2-Slipbox/Windows Developer Environment.md"
+    },
+    {
+      "basename": "Windows Subsystem for Linux (WSL)",
+      "path": "2-Slipbox/Windows Subsystem for Linux (WSL).md"
+    },
+    {
+      "basename": "Windows Terminal Command Line Arguments",
+      "path": "2-Slipbox/Windows Terminal Command Line Arguments.md"
+    },
+    {
+      "basename": "WinGet CLI Setup and Settings",
+      "path": "2-Slipbox/WinGet CLI Setup and Settings.md"
+    },
+    {
+      "basename": "WSL Commands and Installs",
+      "path": "2-Slipbox/WSL Commands and Installs.md"
+    },
+    {
+      "basename": "Zsh",
+      "path": "2-Slipbox/Zsh.md"
+    },
+    {
+      "basename": "WSL-Notes",
+      "path": "2-Slipbox/WSL-Notes.md"
+    },
+    {
+      "basename": "Windows Registry Paths and Keys",
+      "path": "2-Slipbox/Windows Registry Paths and Keys.md"
+    },
+    {
+      "basename": "Windows Terminal",
+      "path": "2-Slipbox/Windows Terminal.md"
+    },
+    {
+      "basename": "SFC and DISM Commands",
+      "path": "2-Slipbox/SFC and DISM Commands.md"
+    },
+    {
+      "basename": "S-CLI",
+      "path": "2-Slipbox/S-CLI.md"
+    },
+    {
+      "basename": "R Packages Install Script",
+      "path": "2-Slipbox/R Packages Install Script.md"
+    },
+    {
+      "basename": "R Blogs",
+      "path": "2-Slipbox/R Blogs.md"
+    },
+    {
+      "basename": "Memory in R",
+      "path": "2-Slipbox/Memory in R.md"
+    },
+    {
+      "basename": "HashiCorp Terraform",
+      "path": "2-Slipbox/HashiCorp Terraform.md"
+    },
+    {
+      "basename": "Google Cloud Setup Notes",
+      "path": "2-Slipbox/Google Cloud Setup Notes.md"
+    },
+    {
+      "basename": "Github Actions for R",
+      "path": "2-Slipbox/Github Actions for R.md"
+    },
+    {
+      "basename": "Git Links",
+      "path": "2-Slipbox/Git Links.md"
+    },
+    {
+      "basename": "Dotfiles Tools",
+      "path": "2-Slipbox/Dotfiles Tools.md"
+    },
+    {
+      "basename": "Debugging Windows Search Issues and High CPU Usage",
+      "path": "2-Slipbox/Debugging Windows Search Issues and High CPU Usage.md"
+    },
+    {
+      "basename": "Databases with R Resources",
+      "path": "2-Slipbox/Databases with R Resources.md"
+    },
+    {
+      "basename": "Database GUIs",
+      "path": "2-Slipbox/Database GUIs.md"
+    },
+    {
+      "basename": "Database Documentation",
+      "path": "2-Slipbox/Database Documentation.md"
+    },
+    {
+      "basename": "Data Validation Packages in R",
+      "path": "2-Slipbox/Data Validation Packages in R.md"
+    },
+    {
+      "basename": "Code is not Production Code",
+      "path": "2-Slipbox/Code is not Production Code.md"
+    },
+    {
+      "basename": "Library Classification System",
+      "path": "3-Reference/Library Classification System.md"
+    },
+    {
+      "basename": "mkdocs-docs",
+      "path": "3-Reference/mkdocs-docs.md"
+    },
+    {
+      "basename": "Keyboard shortcuts for Gmail - Gmail Help",
+      "path": "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md"
+    },
+    {
+      "basename": "Ansible for the Windows System Admin",
+      "path": "3-Reference/Ansible for the Windows System Admin.md"
+    },
+    {
+      "basename": "WSL - Permissions",
+      "path": "0-Inbox/WSL - Permissions.md"
+    },
+    {
+      "basename": "Windows Security Policies - secpol.msc",
+      "path": "0-Inbox/Windows Security Policies - secpol.msc.md"
+    },
+    {
       "basename": "2021-08-20",
       "path": "3-Resources/Daily-Notes/2021-08-20.md"
     },
@@ -35,170 +199,6 @@
     {
       "basename": "Mobile-Shares",
       "path": "3-Reference/Web-Clippings/Mobile-Shares.md"
-    },
-    {
-      "basename": "2021-W34",
-      "path": "3-Resources/Weekly-Notes/2021-W34.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "3-Resources/Templates/Daily-Note-Template.md"
-    },
-    {
-      "basename": "Default-Note-Template",
-      "path": "3-Resources/Templates/Default-Note-Template.md"
-    },
-    {
-      "basename": "Obsidian Clipper",
-      "path": "3-Reference/Web-Clippings/Obsidian Clipper.md"
-    },
-    {
-      "basename": "Ansible for the Windows System Admin",
-      "path": "3-Reference/Ansible for the Windows System Admin.md"
-    },
-    {
-      "basename": "2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help",
-      "path": "3-Reference/Web-Clippings/2021-08-09-Keyboard shortcuts for Gmail - Computer - Gmail Help.md"
-    },
-    {
-      "basename": "2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support",
-      "path": "3-Reference/Web-Clippings/2021-08-07-notlmncopy-as-markdown 🖱 Browser extension to copy hyperlinks, images, and selected text as Markdown with GFM support.md"
-    },
-    {
-      "basename": "Web Clippings",
-      "path": "Web Clippings.md"
-    },
-    {
-      "basename": "2021-08-19",
-      "path": "3-Resources/Daily-Notes/2021-08-19.md"
-    },
-    {
-      "basename": "WSL - Permissions",
-      "path": "0-Inbox/WSL - Permissions.md"
-    },
-    {
-      "basename": "Windows Security Policies - secpol.msc",
-      "path": "0-Inbox/Windows Security Policies - secpol.msc.md"
-    },
-    {
-      "basename": "Cloud Run - Serverless Applications",
-      "path": "0-Inbox/Cloud Run - Serverless Applications.md"
-    },
-    {
-      "basename": "Zsh",
-      "path": "2-Slipbox/Zsh.md"
-    },
-    {
-      "basename": "Dotfiles Tools",
-      "path": "2-Slipbox/Dotfiles Tools.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/README.md"
-    },
-    {
-      "basename": "2021-08-14",
-      "path": "3-Resources/Daily-Notes/2021-08-14.md"
-    },
-    {
-      "basename": "Organizing Disk Partitions on Windows",
-      "path": "2-Slipbox/Organizing Disk Partitions on Windows.md"
-    },
-    {
-      "basename": "Highlights - Why We Sleep",
-      "path": "3-Resources/Highlights/Highlights - Why We Sleep.md"
-    },
-    {
-      "basename": "Highlights - The Linux Command Line",
-      "path": "3-Resources/Highlights/Highlights - The Linux Command Line.md"
-    },
-    {
-      "basename": "Highlights - Cloud Based Computing Business Ideas for 2021",
-      "path": "3-Resources/Highlights/Highlights - Cloud Based Computing Business Ideas for 2021.md"
-    },
-    {
-      "basename": "Highlights - Organizing Partitions on Windows",
-      "path": "3-Resources/Highlights/Highlights - Organizing Partitions on Windows.md"
-    },
-    {
-      "basename": "2021-08-13",
-      "path": "3-Resources/Daily-Notes/2021-08-13.md"
-    },
-    {
-      "basename": "README",
-      "path": "2-Slipbox/README.md"
-    },
-    {
-      "basename": "Windows Reset Definitive Checklist (YouTube)",
-      "path": "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Achieving Your Goals Feels Good",
-      "path": "2-Slipbox/Achieving Your Goals Feels Good.md"
-    },
-    {
-      "basename": "README",
-      "path": "5-Projects/README.md"
-    },
-    {
-      "basename": "Development-LocalGraphView",
-      "path": "1-Maps-of-Content/assets/Development-LocalGraphView.png"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Templates/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "4-Logs/README.md"
-    },
-    {
-      "basename": "README-Template",
-      "path": "3-Resources/Templates/README-Template.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Kanbans/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "3-Resources/Highlights/README.md"
-    },
-    {
-      "basename": "Project-Note-Template",
-      "path": "3-Resources/Templates/Project-Note-Template.md"
-    },
-    {
-      "basename": "S-CLI",
-      "path": "2-Slipbox/S-CLI.md"
-    },
-    {
-      "basename": "How to Use Sysprep in Windows",
-      "path": "2-Slipbox/How to Use Sysprep in Windows.md"
-    },
-    {
-      "basename": "2021-08-03",
-      "path": "3-Resources/Daily-Notes/2021-08-03.md"
-    },
-    {
-      "basename": "Useful Packages in R List",
-      "path": "2-Slipbox/Useful Packages in R List.md"
-    },
-    {
-      "basename": "Database GUIs",
-      "path": "2-Slipbox/Database GUIs.md"
-    },
-    {
-      "basename": "Database Documentation",
-      "path": "2-Slipbox/Database Documentation.md"
-    },
-    {
-      "basename": "Data Validation Packages in R",
-      "path": "2-Slipbox/Data Validation Packages in R.md"
     }
   ],
   "omittedPaths": [],

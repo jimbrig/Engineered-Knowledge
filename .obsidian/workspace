@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/How To Create a Folder Tree in Windows.md",
+            "file": "2-Slipbox/Backend Web Architecture.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257
+    "width": 470
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -109,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-Inbox/How To Create a Folder Tree in Windows.md",
+                "file": "2-Slipbox/Backend Web Architecture.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/How To Create a Folder Tree in Windows.md"
+                "file": "2-Slipbox/Backend Web Architecture.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/How To Create a Folder Tree in Windows.md",
+                "file": "2-Slipbox/Backend Web Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/How To Create a Folder Tree in Windows.md",
+                "file": "2-Slipbox/Backend Web Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,15 +185,15 @@
   },
   "active": "f7d3373af66222cf",
   "lastOpenFiles": [
-    "0-Inbox/Untitled.md",
-    "3-Resources/Daily-Notes/2021-08-20.md",
-    "3-Resources/Embeds/Untitled.md",
-    "3-Resources/Embeds/Todoist.md",
-    "3-Resources/Embeds/Google Calendar.md",
-    "3-Resources/Embeds/Raindrop.io.md",
-    "3-Reference/Github/Untitled.md",
-    "3-Resources/Mobile-Shares.md",
-    "2021-W34.md",
-    "3-Resources/Templates/Daily-Note-Template.md"
+    "2-Slipbox/Backend Web Architecture.md",
+    "2-Slipbox/Bootstrapping Dotfiles.md",
+    "2-Slipbox/CLI Tools.md",
+    "2-Slipbox/Git Tools.md",
+    "2-Slipbox/How to Cleanup Windows from Command Line.md",
+    "2-Slipbox/Linux.md",
+    "2-Slipbox/Ludicrously Complex Projects in Software Development.md",
+    "2-Slipbox/PostgreSQL Tools.md",
+    "2-Slipbox/Why You Should Never Quit too Early.md",
+    "2-Slipbox/Windows Command Line Commands Overview.md"
   ]
 }
