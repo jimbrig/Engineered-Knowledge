@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PowerToys Run Feature",
+      "path": "0-Inbox/PowerToys Run Feature.md"
+    },
+    {
       "basename": "Backend Web Architecture",
       "path": "2-Slipbox/Backend Web Architecture.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Obsidian CSS Snippets",
       "path": "3-Reference/Github/Obsidian CSS Snippets.md"
-    },
-    {
-      "basename": "Mobile-Shares",
-      "path": "3-Reference/Web-Clippings/Mobile-Shares.md"
     }
   ],
   "omittedPaths": [],

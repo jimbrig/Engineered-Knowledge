@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-Slipbox/Backend Web Architecture.md",
-            "mode": "preview"
+            "file": "0-Inbox/PowerToys Run Feature.md",
+            "mode": "source"
           }
         }
       }
@@ -109,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-Slipbox/Backend Web Architecture.md",
+                "file": "0-Inbox/PowerToys Run Feature.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-Slipbox/Backend Web Architecture.md"
+                "file": "0-Inbox/PowerToys Run Feature.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Slipbox/Backend Web Architecture.md",
+                "file": "0-Inbox/PowerToys Run Feature.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Slipbox/Backend Web Architecture.md",
+                "file": "0-Inbox/PowerToys Run Feature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +185,7 @@
   },
   "active": "f7d3373af66222cf",
   "lastOpenFiles": [
+    "0-Inbox/Untitled.md",
     "2-Slipbox/Backend Web Architecture.md",
     "2-Slipbox/Bootstrapping Dotfiles.md",
     "2-Slipbox/CLI Tools.md",
@@ -193,7 +194,6 @@
     "2-Slipbox/Linux.md",
     "2-Slipbox/Ludicrously Complex Projects in Software Development.md",
     "2-Slipbox/PostgreSQL Tools.md",
-    "2-Slipbox/Why You Should Never Quit too Early.md",
-    "2-Slipbox/Windows Command Line Commands Overview.md"
+    "2-Slipbox/Why You Should Never Quit too Early.md"
   ]
 }
