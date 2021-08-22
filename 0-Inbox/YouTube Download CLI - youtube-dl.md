@@ -60,7 +60,12 @@ echo "-o %USERPROFILE%\OneDrive\Videos\YouTube" >> $ytdlconfigfile
 Write-Host "✔️ Successfully added output location to configuration:`n`" -ForegroundColor Green
 Write-Host "Config File Contents:" -ForegrounColor -Cyan
 cat $ytdlconfigfile
-Read-Host "Sync configuration with dotfiles (y/n)?"
+$answer = Read-Host "❔ Sync configuration with dotfiles (y/n)?"
+if ($answer -ew "n") throw "Done."
+move-item $ytdlconfigfile -destination "$HOME\.dotfiles\youtube-dl\" -Force
+New-Item -Path $env:APPDATA\youtube-dl\config.txt -ItemType SymbolicLink -Value "$HOME\.dotfiles\youtube-dl\config.yml"
+```
+
 ***
 
 Links: [[CLI Tools]] | [[Tools - Github]]  [[Command Line - CMD]] | [[YouTube]] | [[Automation]]
