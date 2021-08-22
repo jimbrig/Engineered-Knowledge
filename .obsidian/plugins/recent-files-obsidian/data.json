@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Run Batch File from Current Directory",
+      "path": "0-Inbox/Run Batch File from Current Directory.md"
+    },
+    {
       "basename": "OneCommander",
       "path": "0-Inbox/OneCommander.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Windows Security Policies - secpol.msc",
       "path": "0-Inbox/Windows Security Policies - secpol.msc.md"
-    },
-    {
-      "basename": "How To Create a Folder Tree in Windows",
-      "path": "0-Inbox/How To Create a Folder Tree in Windows.md"
     }
   ],
   "omittedPaths": [],
