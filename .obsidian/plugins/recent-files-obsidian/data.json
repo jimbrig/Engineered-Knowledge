@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-08-21",
+      "path": "3-Resources/Daily-Notes/2021-08-21.md"
+    },
+    {
       "basename": "PowerToys Run Feature",
       "path": "0-Inbox/PowerToys Run Feature.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Raindrop.io - Published",
       "path": "3-Resources/Embeds/Raindrop.io - Published.md"
-    },
-    {
-      "basename": "Obsidian CSS Snippets",
-      "path": "3-Reference/Github/Obsidian CSS Snippets.md"
     }
   ],
   "omittedPaths": [],
