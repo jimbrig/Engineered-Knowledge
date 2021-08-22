@@ -21,7 +21,7 @@
           "type": "markdown",
           "state": {
             "file": "3-Reference/S-CLI.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -75,11 +75,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 470
+    "width": 123
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -120,7 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-22.md",
+                "file": "3-Reference/S-CLI.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -155,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-22.md"
+                "file": "3-Reference/S-CLI.md"
               }
             }
           },
@@ -165,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-22.md",
+                "file": "3-Reference/S-CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-22.md",
+                "file": "3-Reference/S-CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,10 +196,10 @@
     "width": 438,
     "collapsed": true
   },
-  "active": "f7d3373af66222cf",
+  "active": "fdd57dfb25405c8d",
   "lastOpenFiles": [
-    "3-Resources/Daily-Notes/2021-08-22.md",
     "3-Reference/S-CLI.md",
+    "3-Resources/Daily-Notes/2021-08-22.md",
     "3-Resources/Daily-Notes/2021-08-21.md",
     "0-Inbox/PowerToys Run Feature.md",
     "0-Inbox/Untitled.md",
