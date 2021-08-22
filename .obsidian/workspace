@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f7d3373af66222cf",
+        "id": "cc2bbdcc0da97e2f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-22.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "fdd57dfb25405c8d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-Inbox/Robocopy.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -75,12 +61,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 123
+    "width": 478
   },
   "right": {
     "id": "8cf9c4afdc8b874f",
@@ -99,17 +84,15 @@
             }
           },
           {
-            "id": "9a094dd3a638c51a",
+            "id": "47872885fb45fac2",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
+              "type": "outline",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4a579051437ed37f",
@@ -121,7 +104,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-22.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -151,22 +133,11 @@
             }
           },
           {
-            "id": "47872885fb45fac2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-22.md"
-              }
-            }
-          },
-          {
             "id": "b8dcfe208c8a5d5c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +149,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,15 +158,25 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "9a094dd3a638c51a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 438,
-    "collapsed": true
+    "width": 365
   },
-  "active": "f7d3373af66222cf",
+  "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
     "3-Resources/Daily-Notes/2021-08-22.md",
     "0-Inbox/Untitled.md",
