@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-21.md",
+            "file": "3-Resources/Daily-Notes/2021-08-22.md",
             "mode": "source"
           }
         }
@@ -109,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-21.md",
+                "file": "3-Resources/Daily-Notes/2021-08-22.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-21.md"
+                "file": "3-Resources/Daily-Notes/2021-08-22.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-21.md",
+                "file": "3-Resources/Daily-Notes/2021-08-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-21.md",
+                "file": "3-Resources/Daily-Notes/2021-08-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +185,7 @@
   },
   "active": "f7d3373af66222cf",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-08-22.md",
     "3-Resources/Daily-Notes/2021-08-21.md",
     "0-Inbox/PowerToys Run Feature.md",
     "0-Inbox/Untitled.md",
@@ -193,7 +194,6 @@
     "2-Slipbox/CLI Tools.md",
     "2-Slipbox/Git Tools.md",
     "2-Slipbox/How to Cleanup Windows from Command Line.md",
-    "2-Slipbox/Linux.md",
-    "2-Slipbox/Ludicrously Complex Projects in Software Development.md"
+    "2-Slipbox/Linux.md"
   ]
 }
