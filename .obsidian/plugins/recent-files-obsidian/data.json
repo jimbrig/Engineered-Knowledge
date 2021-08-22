@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows Network Troubleshooting Commands",
+      "path": "0-Inbox/Windows Network Troubleshooting Commands.md"
+    },
+    {
       "basename": "Run Batch File from Current Directory",
       "path": "0-Inbox/Run Batch File from Current Directory.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "WSL - Permissions",
       "path": "0-Inbox/WSL - Permissions.md"
-    },
-    {
-      "basename": "Windows Security Policies - secpol.msc",
-      "path": "0-Inbox/Windows Security Policies - secpol.msc.md"
     }
   ],
   "omittedPaths": [],

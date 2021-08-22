@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Run Batch File from Current Directory.md",
+            "file": "0-Inbox/Windows Network Troubleshooting Commands.md",
             "mode": "source"
           }
         }
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Run Batch File from Current Directory.md"
+                "file": "0-Inbox/Windows Network Troubleshooting Commands.md"
               }
             }
           }
@@ -109,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-Inbox/Run Batch File from Current Directory.md",
+                "file": "0-Inbox/Windows Network Troubleshooting Commands.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Run Batch File from Current Directory.md",
+                "file": "0-Inbox/Windows Network Troubleshooting Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Run Batch File from Current Directory.md",
+                "file": "0-Inbox/Windows Network Troubleshooting Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365
+    "width": 365,
+    "collapsed": true
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
