@@ -24,6 +24,12 @@ youtube-dl <url to video>
 sudo cinst youtube-dl -y
 ```
 
+- [[Python]] via [[pip]]:
+
+```powershell
+pip install -U youtube-dl
+```
+
 ## Custom Output
 
 Output on `youtube-dl` is handled with the `--output` or `-o` switch; pass it as an option, followed by the destination you want to save your downloads to:
