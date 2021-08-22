@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Robocopy",
+      "path": "0-Inbox/Robocopy.md"
+    },
+    {
       "basename": "S-CLI",
       "path": "3-Reference/S-CLI.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Todoist",
       "path": "3-Resources/Embeds/Todoist.md"
-    },
-    {
-      "basename": "Google Calendar",
-      "path": "3-Resources/Embeds/Google Calendar.md"
     }
   ],
   "omittedPaths": [],
