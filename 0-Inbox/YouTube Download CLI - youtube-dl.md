@@ -53,9 +53,14 @@ Even when an option is configured in a configuration file, it can be overridden 
 
 ```powershell
 sudo cinst youtube-dl
-new-item "$env:appdata\Roaming\youtube-dl\config.txt" -ItemType File -Force
-
-
+$ytdlconfigfile = "$env:appdata\Roaming\youtube-dl\config.txt" 
+new-item $ytdlconfigfile -ItemType File -Force
+Write-Host "✔️ Successfully created youtube-dl config file at: $ytdlconfigfile" -ForegroundColor Green
+echo "-o %USERPROFILE%\OneDrive\Videos\YouTube" >> $ytdlconfigfile
+Write-Host "✔️ Successfully added output location to configuration:`n`" -ForegroundColor Green
+Write-Host "Config File Contents:" -ForegrounColor -Cyan
+cat $ytdlconfigfile
+Read-Host "Sync configuration with dotfiles (y/n)?"
 ***
 
 Links: [[CLI Tools]] | [[Tools - Github]]  [[Command Line - CMD]] | [[YouTube]] | [[Automation]]
