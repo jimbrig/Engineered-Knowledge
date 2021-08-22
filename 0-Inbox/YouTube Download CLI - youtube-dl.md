@@ -61,9 +61,11 @@ Write-Host "✔️ Successfully added output location to configuration:`n`" -For
 Write-Host "Config File Contents:" -ForegrounColor -Cyan
 cat $ytdlconfigfile
 $answer = Read-Host "❔ Sync configuration with dotfiles (y/n)?"
-if ($answer -ew "n") throw "Done."
-move-item $ytdlconfigfile -destination "$HOME\.dotfiles\youtube-dl\" -Force
-New-Item -Path $env:APPDATA\youtube-dl\config.txt -ItemType SymbolicLink -Value "$HOME\.dotfiles\youtube-dl\config.yml"
+if (-not($answer -eq "y")) { throw "Done." }
+if ($answer -eq "y") {
+	move-item $ytdlconfigfile -destination "$HOME\.dotfiles\youtube-dl\" -Force
+	New-Item -Path $env:APPDATA\youtube-dl\config.txt -ItemType SymbolicLink -Value "$HOME\.dotfiles\youtube-dl\config.yml"
+}
 ```
 
 ***
