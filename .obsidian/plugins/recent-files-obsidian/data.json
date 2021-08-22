@@ -5,6 +5,10 @@
       "path": "3-Resources/Daily-Notes/2021-08-22.md"
     },
     {
+      "basename": "S-CLI",
+      "path": "3-Reference/S-CLI.md"
+    },
+    {
       "basename": "2021-08-21",
       "path": "3-Resources/Daily-Notes/2021-08-21.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Google Calendar",
       "path": "3-Resources/Embeds/Google Calendar.md"
-    },
-    {
-      "basename": "Raindrop.io",
-      "path": "3-Resources/Embeds/Raindrop.io.md"
     }
   ],
   "omittedPaths": [],

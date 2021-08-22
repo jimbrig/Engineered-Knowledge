@@ -1,3 +1,4 @@
+- 2021-08-22 at 00h15 · [[S-CLI]]
 - 2021-08-22 at 00h14 · [[2021-08-22]]
 - 2021-08-22 at 00h04 · [[How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File]]
 - 2021-08-21 at 20h35 · [[2021-08-21]]
@@ -100,7 +101,6 @@
 - 2021-08-19 at 15h09 · [[mkdocs-docs]]
 - 2021-08-19 at 15h09 · [[Windows Links]]
 - 2021-08-19 at 15h09 · [[Windows Reset Definitive Checklist (YouTube)]]
-- 2021-08-19 at 15h09 · [[S-CLI]]
 - 2021-08-19 at 15h09 · [[Subscriptions]]
 - 2021-08-19 at 15h09 · [[Untitled]]
 - 2021-08-19 at 15h09 · [[Organize and Manage your Azure Subscriptions]]

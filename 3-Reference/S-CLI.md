@@ -39,7 +39,7 @@ make
 make install
 ```
 
-Alternatively, you can use Homebrew:
+Alternatively, you can use [[Homebrew]]:
 
 ```
 brew install s-search

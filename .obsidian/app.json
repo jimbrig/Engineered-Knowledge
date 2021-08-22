@@ -90,6 +90,9 @@
     "Sysprep",
     "repos",
     "Todoist",
-    "Ansible"
+    "Ansible",
+    "Homebrew",
+    "Autocompletion",
+    "autocompletion"
   ]
 }
