@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "OneCommander",
+      "path": "0-Inbox/OneCommander.md"
+    },
+    {
+      "basename": "2021-08-20",
+      "path": "3-Resources/Daily-Notes/2021-08-20.md"
+    },
+    {
+      "basename": "2021-08-21",
+      "path": "3-Resources/Daily-Notes/2021-08-21.md"
+    },
+    {
       "basename": "2021-08-22",
       "path": "3-Resources/Daily-Notes/2021-08-22.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "S-CLI",
       "path": "3-Reference/S-CLI.md"
-    },
-    {
-      "basename": "2021-08-21",
-      "path": "3-Resources/Daily-Notes/2021-08-21.md"
     },
     {
       "basename": "PowerToys Run Feature",
@@ -189,16 +197,8 @@
       "path": "0-Inbox/Windows Security Policies - secpol.msc.md"
     },
     {
-      "basename": "2021-08-20",
-      "path": "3-Resources/Daily-Notes/2021-08-20.md"
-    },
-    {
       "basename": "How To Create a Folder Tree in Windows",
       "path": "0-Inbox/How To Create a Folder Tree in Windows.md"
-    },
-    {
-      "basename": "GitHub Profile",
-      "path": "3-Resources/Embeds/GitHub Profile.md"
     }
   ],
   "omittedPaths": [],
