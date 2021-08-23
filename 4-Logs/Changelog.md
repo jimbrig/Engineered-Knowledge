@@ -1,3 +1,5 @@
+- 2021-08-22 at 23h39 · [[Fixing Graphics Driver Issues in Windows]]
+- 2021-08-22 at 23h38 · [[Reset Windows Graphics Drivers with a Hotkey]]
 - 2021-08-22 at 23h34 · [[How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File]]
 - 2021-08-22 at 16h58 · [[Windows Network Troubleshooting Commands]]
 - 2021-08-22 at 16h34 · [[Run Batch File from Current Directory]]

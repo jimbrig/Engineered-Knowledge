@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Fixing Graphics Driver Issues in Windows",
+      "path": "0-Inbox/Fixing Graphics Driver Issues in Windows.md"
+    },
+    {
+      "basename": "Reset Windows Graphics Drivers with a Hotkey",
+      "path": "0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md"
+    },
+    {
       "basename": "2021-08-22",
       "path": "3-Resources/Daily-Notes/2021-08-22.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Keyboard shortcuts for Gmail - Gmail Help",
       "path": "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md"
-    },
-    {
-      "basename": "Ansible for the Windows System Admin",
-      "path": "3-Reference/Ansible for the Windows System Admin.md"
-    },
-    {
-      "basename": "WSL - Permissions",
-      "path": "0-Inbox/WSL - Permissions.md"
     }
   ],
   "omittedPaths": [],
