@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Fixing Graphics Driver Issues in Windows.md",
-            "mode": "preview"
+            "file": "3-Resources/Daily-Notes/2021-08-23.md",
+            "mode": "source"
           }
         }
       }
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Fixing Graphics Driver Issues in Windows.md"
+                "file": "3-Resources/Daily-Notes/2021-08-23.md"
               }
             }
           }
@@ -109,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-Inbox/Fixing Graphics Driver Issues in Windows.md",
+                "file": "3-Resources/Daily-Notes/2021-08-23.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Fixing Graphics Driver Issues in Windows.md",
+                "file": "3-Resources/Daily-Notes/2021-08-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Fixing Graphics Driver Issues in Windows.md",
+                "file": "3-Resources/Daily-Notes/2021-08-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,6 +187,7 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-08-23.md",
     "0-Inbox/Fixing Graphics Driver Issues in Windows.md",
     "0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md",
     "0-Inbox/Untitled.md",
@@ -195,7 +196,6 @@
     "3-Resources/Daily-Notes/2021-08-21.md",
     "3-Reference/S-CLI.md",
     "0-Inbox/PowerToys Run Feature.md",
-    "2-Slipbox/Backend Web Architecture.md",
-    "2-Slipbox/Bootstrapping Dotfiles.md"
+    "2-Slipbox/Backend Web Architecture.md"
   ]
 }
