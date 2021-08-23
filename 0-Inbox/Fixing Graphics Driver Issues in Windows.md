@@ -22,7 +22,21 @@ Once insider device manager navigate to *Display Adapters* where the graphics dr
 
 If you right click on one of these display adapters, you have options to Update, Disable or Uninstall the driver. Additionally, if you select Properties > Driver you can view more information and specifications regarding the driver.  
 
-A good way to fix issues related to display adapters is to simply remove the driver all together
+A good way to fix issues related to display adapters is to simply remove the driver all together (selecting to uninstall/delete the driver's software for this device also), exit, and restart you machine. On the next startup, windows will automatically detect a missing display adapter and install its default driver depending on your machine.
+
+## Manufacturer and Third Party Drivers
+
+As mentioned earlier, I use Intel and NVIDIA display drivers. These are not the generic drivers the Windows provides out of the box with a fresh install. If your machine uses third party drivers, graphics related or not, it is always best to install the latest versions of the drivers from the respective manfacturer's website directly.
+
+## Intel Drivers
+
+You can download the latest Intel Graphics Drivers from the [Intel - Downloads for Graphics Drivers - Drivers and Software Website](https://downloadcenter.intel.com/product/80939/Graphics-Drivers).
+
+Also, you can utilize Intel's Autodetection Software: *Intel Driver and Support Assistant *
+
+## NVIDIA Drivers
+
+For NVIDIA, go to 
 
 ***
 
