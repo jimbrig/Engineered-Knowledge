@@ -14,9 +14,11 @@ Graphics drivers can be a serious annoyance in windows and all operating systems
 
 - [[#Device Manager|Device Manager]]
 - [[#Manufacturer and Third Party Drivers|Manufacturer and Third Party Drivers]]
+	- [[#MSI Support Page for Driver Downloads|MSI Support Page for Driver Downloads]]
 	- [[#Intel Drivers|Intel Drivers]]
 	- [[#NVIDIA Drivers|NVIDIA Drivers]]
 	- [[#AMD Drivers|AMD Drivers]]
+
 
 ## Device Manager
 
@@ -36,9 +38,11 @@ A good way to fix issues related to display adapters is to simply remove the dri
 
 As mentioned earlier, I use Intel and NVIDIA display drivers. These are not the generic drivers the Windows provides out of the box with a fresh install. If your machine uses third party drivers, graphics related or not, it is always best to install the latest versions of the drivers from the respective manfacturer's website directly.
 
+### MSI Support Page for Driver Downloads 
+
 I run an MSI laptop, specifically the MSI GE66 Raider 10SFS Notebook, and you can find all necessary driver related details, plus their download links here: [GE66 Raider 10SFS (msi.com)](https://www.msi.com/Laptop/support/GE66-Raider-10SX?sub_product=GE66-Raider-10SFS#down-driver&Win10%2064).
 
-![[Pasted image 20210822235919.png]]
+![[Pasted image 20210823000019.png]]
 
 ### Intel Drivers
 
