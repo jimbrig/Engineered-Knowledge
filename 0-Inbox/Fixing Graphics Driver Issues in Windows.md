@@ -32,12 +32,22 @@ As mentioned earlier, I use Intel and NVIDIA display drivers. These are not the 
 
 You can download the latest Intel Graphics Drivers from the [Intel - Downloads for Graphics Drivers - Drivers and Software Website](https://downloadcenter.intel.com/product/80939/Graphics-Drivers).
 
-Also, you can utilize Intel's Autodetection Software: *Intel Driver and Support Assistant *
+Also, you can utilize Intel's Autodetection Software: *Intel Driver and Support Assistant* to auto-detect updates across your machine related to Intel Drivers: [Intel® Driver & Support Assistant](https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.html)
 
 ## NVIDIA Drivers
 
-For NVIDIA, go to 
+For NVIDIA, go to [Download Drivers | NVIDIA](https://www.nvidia.com/Download/index.aspx) and fill out the specifications related to the driver you need to download. For my [MSI GE66 Raider 10SFS]() running on the [[Windows 11 Insider Developer]] version of Windows, this is my input:
 
+![[Pasted image 20210822235208.png]]
+
+*Note that I selected Studio Driver instead of the GameReady Driver, either options should be fine, but here is what NVIDIA has to say about these drivers and their differences:*
+
+
+All NVIDIA drivers provide full features and application support for top games and creative applications.  
+
+If you are a gamer who prioritizes day of launch support for the latest games, patches, and DLCs, choose **Game Ready Drivers.**  
+  
+If you are a content creator who prioritizes stability and quality for creative workflows including video editing, animation, photography, graphic design, and livestreaming, choose **Studio Drivers.**
 ***
 
 Links: [[Reset Windows Graphics Drivers with a Hotkey]] | [[Windows]]
