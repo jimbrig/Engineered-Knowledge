@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-08-23",
+      "path": "3-Resources/Daily-Notes/2021-08-23.md"
+    },
+    {
       "basename": "Fixing Graphics Driver Issues in Windows",
       "path": "0-Inbox/Fixing Graphics Driver Issues in Windows.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "mkdocs-docs",
       "path": "3-Reference/mkdocs-docs.md"
-    },
-    {
-      "basename": "Keyboard shortcuts for Gmail - Gmail Help",
-      "path": "3-Reference/Keyboard shortcuts for Gmail - Gmail Help.md"
     }
   ],
   "omittedPaths": [],
