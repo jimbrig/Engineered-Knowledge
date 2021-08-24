@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Day Planner-20210824",
+      "path": "Day Planners/Day Planner-20210824.md"
+    },
+    {
+      "basename": "2021-08-24",
+      "path": "3-Resources/Daily-Notes/2021-08-24.md"
+    },
+    {
       "basename": "2021-08-23",
       "path": "3-Resources/Daily-Notes/2021-08-23.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Code is not Production Code",
       "path": "2-Slipbox/Code is not Production Code.md"
-    },
-    {
-      "basename": "Library Classification System",
-      "path": "3-Reference/Library Classification System.md"
-    },
-    {
-      "basename": "mkdocs-docs",
-      "path": "3-Reference/mkdocs-docs.md"
     }
   ],
   "omittedPaths": [],

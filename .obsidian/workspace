@@ -7,8 +7,11 @@
         "id": "cc2bbdcc0da97e2f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Day Planners/Day Planner-20210824.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -88,11 +91,12 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Day Planners/Day Planner-20210824.md"
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4a579051437ed37f",
@@ -104,6 +108,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Day Planners/Day Planner-20210824.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -138,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Day Planners/Day Planner-20210824.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,6 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Day Planners/Day Planner-20210824.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,11 +181,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365,
-    "collapsed": true
+    "width": 365
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20210824.md",
+    "3-Resources/Daily-Notes/2021-08-24.md",
     "3-Resources/Daily-Notes/2021-08-23.md",
     "0-Inbox/Fixing Graphics Driver Issues in Windows.md",
     "0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md",
@@ -186,8 +194,6 @@
     "3-Resources/Daily-Notes/2021-08-22.md",
     "3-Resources/Daily-Notes/2021-08-20.md",
     "3-Resources/Daily-Notes/2021-08-21.md",
-    "3-Reference/S-CLI.md",
-    "0-Inbox/PowerToys Run Feature.md",
-    "2-Slipbox/Backend Web Architecture.md"
+    "3-Reference/S-CLI.md"
   ]
 }
