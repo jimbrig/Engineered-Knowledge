@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-24.md",
+            "file": "2-Slipbox/Database GUIs.md",
             "mode": "preview"
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-24.md"
+                "file": "2-Slipbox/Database GUIs.md"
               }
             }
           }
@@ -110,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-24.md",
+                "file": "2-Slipbox/Database GUIs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-24.md",
+                "file": "2-Slipbox/Database GUIs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-24.md",
+                "file": "2-Slipbox/Database GUIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,6 +196,8 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "2-Slipbox/Database GUIs.md",
+    "README.md",
     "3-Resources/Daily-Notes/2021-08-24.md",
     "3-Resources/Templates/Daily-Note-Template.md",
     "3-Resources/Daily-Notes/2021-08-15.md",
@@ -203,8 +205,6 @@
     "3-Resources/Daily-Notes/2021-08-23.md",
     "Day Planners/Day Planner-20210824.md",
     "0-Inbox/Untitled.md",
-    "0-Inbox/Fixing Graphics Driver Issues in Windows.md",
-    "0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md",
-    "3-Resources/Daily-Notes/2021-08-20.md"
+    "0-Inbox/Fixing Graphics Driver Issues in Windows.md"
   ]
 }

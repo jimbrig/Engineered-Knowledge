@@ -1,1 +1,5 @@
-{"showFileName":true,"showIcons":true}
+{
+  "showFileName": true,
+  "showIcons": true,
+  "copyAbsolutePath": true
+}
