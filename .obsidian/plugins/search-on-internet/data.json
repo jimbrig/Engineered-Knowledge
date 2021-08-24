@@ -1,0 +1,23 @@
+{
+  "searches": [
+    {
+      "tags": [],
+      "query": "https://www.google.com/search?&q={{query}}",
+      "name": "Google",
+      "encode": true
+    },
+    {
+      "tags": [],
+      "query": "https://en.wikipedia.org/wiki/Special:Search/{{query}}",
+      "name": "Wikipedia",
+      "encode": true
+    },
+    {
+      "name": "GitHub",
+      "query": "https://github.com/search?q=%{{query}}&ref=opensearch",
+      "tags": [],
+      "encode": true
+    }
+  ],
+  "useIframe": true
+}

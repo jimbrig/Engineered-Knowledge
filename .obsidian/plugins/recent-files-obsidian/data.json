@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Obsidian Day Planner Plugin",
-      "path": "0-Inbox/Obsidian Day Planner Plugin.md"
+      "basename": "2021-08-24",
+      "path": "3-Resources/Daily-Notes/2021-08-24.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "3-Resources/Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "2021-08-15",
+      "path": "3-Resources/Daily-Notes/2021-08-15.md"
+    },
+    {
+      "basename": "2021-08-22",
+      "path": "3-Resources/Daily-Notes/2021-08-22.md"
+    },
+    {
+      "basename": "2021-08-23",
+      "path": "3-Resources/Daily-Notes/2021-08-23.md"
     },
     {
       "basename": "Day Planner-20210824",
       "path": "Day Planners/Day Planner-20210824.md"
     },
     {
-      "basename": "2021-08-24",
-      "path": "3-Resources/Daily-Notes/2021-08-24.md"
-    },
-    {
-      "basename": "2021-08-23",
-      "path": "3-Resources/Daily-Notes/2021-08-23.md"
+      "basename": "Obsidian Day Planner Plugin",
+      "path": "0-Inbox/Obsidian Day Planner Plugin.md"
     },
     {
       "basename": "Fixing Graphics Driver Issues in Windows",
@@ -23,10 +35,6 @@
     {
       "basename": "Reset Windows Graphics Drivers with a Hotkey",
       "path": "0-Inbox/Reset Windows Graphics Drivers with a Hotkey.md"
-    },
-    {
-      "basename": "2021-08-22",
-      "path": "3-Resources/Daily-Notes/2021-08-22.md"
     },
     {
       "basename": "Windows Network Troubleshooting Commands",
@@ -191,14 +199,6 @@
     {
       "basename": "Database GUIs",
       "path": "2-Slipbox/Database GUIs.md"
-    },
-    {
-      "basename": "Database Documentation",
-      "path": "2-Slipbox/Database Documentation.md"
-    },
-    {
-      "basename": "Data Validation Packages in R",
-      "path": "2-Slipbox/Data Validation Packages in R.md"
     }
   ],
   "omittedPaths": [],

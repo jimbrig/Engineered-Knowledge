@@ -3,9 +3,13 @@
   "templaterFiles": [
     "Default-Note-Template.md",
     "MOC-Template.md",
-    "README-Template.md"
+    "README-Template.md",
+    "Daily-Note-Template.md"
   ],
-  "newFileTemplates": [],
+  "newFileTemplates": [
+    null,
+    null
+  ],
   "openNewFileTemplateInNewPane": true,
   "useNewFileTemplateOnFileCreation": true
 }

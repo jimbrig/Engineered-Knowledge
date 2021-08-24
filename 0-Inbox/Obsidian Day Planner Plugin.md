@@ -247,7 +247,7 @@ Note: On some machines the `.obsidian` folder may be hidden. On MacOS you should
 
 ***
 
-Links: 
+Links: [[Obsidian Setup]] | [[Day Planner-20210824]]
 
-Sources:
+Sources: [obsidian-day-planner/README.md at main · lynchjames/obsidian-day-planner (github.com)](https://github.com/lynchjames/obsidian-day-planner/blob/main/README.md)
 
