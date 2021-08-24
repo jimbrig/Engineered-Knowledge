@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian Day Planner Plugin",
+      "path": "0-Inbox/Obsidian Day Planner Plugin.md"
+    },
+    {
       "basename": "Day Planner-20210824",
       "path": "Day Planners/Day Planner-20210824.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Data Validation Packages in R",
       "path": "2-Slipbox/Data Validation Packages in R.md"
-    },
-    {
-      "basename": "Code is not Production Code",
-      "path": "2-Slipbox/Code is not Production Code.md"
     }
   ],
   "omittedPaths": [],

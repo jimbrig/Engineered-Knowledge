@@ -1,4 +1,5 @@
-- 2021-08-24 at 14h01 · [[Day Planner-20210824]]
+- 2021-08-24 at 14h08 · [[Obsidian Day Planner Plugin]]
+- 2021-08-24 at 14h08 · [[Day Planner-20210824]]
 - 2021-08-24 at 14h00 · [[2021-08-24]]
 - 2021-08-24 at 00h57 · [[How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File]]
 - 2021-08-23 at 18h06 · [[2021-08-23]]
