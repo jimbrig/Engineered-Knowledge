@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2020-04-20.md",
-            "mode": "source"
+            "file": "2-Slipbox/AutoHotKey Scripts.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vault",
+                "query": "autohot",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2020-04-20.md"
+                "file": "2-Slipbox/AutoHotKey Scripts.md"
               }
             }
           }
@@ -110,7 +111,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2020-04-20.md",
+                "file": "2-Slipbox/AutoHotKey Scripts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2020-04-20.md",
+                "file": "2-Slipbox/AutoHotKey Scripts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2020-04-20.md",
+                "file": "2-Slipbox/AutoHotKey Scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,6 +197,7 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "2-Slipbox/AutoHotKey Scripts.md",
     "3-Resources/Daily-Notes/2020-04-20.md",
     "3-Resources/Templates/Daily-Note-Template.md",
     "2-Slipbox/Obsidian Setup.md",
@@ -204,7 +206,6 @@
     "2-Slipbox/Database GUIs.md",
     "README.md",
     "3-Resources/Daily-Notes/2021-08-24.md",
-    "3-Resources/Daily-Notes/2021-08-15.md",
-    "3-Resources/Daily-Notes/2021-08-22.md"
+    "3-Resources/Daily-Notes/2021-08-15.md"
   ]
 }

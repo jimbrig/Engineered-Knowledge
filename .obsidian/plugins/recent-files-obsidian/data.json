@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AutoHotKey Scripts",
+      "path": "2-Slipbox/AutoHotKey Scripts.md"
+    },
+    {
       "basename": "2020-04-20",
       "path": "3-Resources/Daily-Notes/2020-04-20.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "HashiCorp Terraform",
       "path": "2-Slipbox/HashiCorp Terraform.md"
-    },
-    {
-      "basename": "Google Cloud Setup Notes",
-      "path": "2-Slipbox/Google Cloud Setup Notes.md"
     }
   ],
   "omittedPaths": [],
