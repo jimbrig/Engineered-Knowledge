@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2020-04-20",
+      "path": "3-Resources/Daily-Notes/2020-04-20.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "3-Resources/Templates/Daily-Note-Template.md"
+    },
+    {
       "basename": "Obsidian Setup",
       "path": "2-Slipbox/Obsidian Setup.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "2021-08-24",
       "path": "3-Resources/Daily-Notes/2021-08-24.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "3-Resources/Templates/Daily-Note-Template.md"
     },
     {
       "basename": "2021-08-15",
@@ -195,10 +199,6 @@
     {
       "basename": "Google Cloud Setup Notes",
       "path": "2-Slipbox/Google Cloud Setup Notes.md"
-    },
-    {
-      "basename": "Github Actions for R",
-      "path": "2-Slipbox/Github Actions for R.md"
     }
   ],
   "omittedPaths": [],
