@@ -6,10 +6,7 @@
     "README-Template.md",
     "Daily-Note-Template.md"
   ],
-  "newFileTemplates": [
-    null,
-    null
-  ],
+  "newFileTemplates": [],
   "openNewFileTemplateInNewPane": true,
   "useNewFileTemplateOnFileCreation": true
 }
