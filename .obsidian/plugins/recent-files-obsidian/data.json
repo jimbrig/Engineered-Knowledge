@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "WSL - Permissions",
+      "path": "0-Inbox/WSL - Permissions.md"
+    },
+    {
+      "basename": "WSL-Notes",
+      "path": "2-Slipbox/WSL-Notes.md"
+    },
+    {
+      "basename": "WSL Commands and Installs",
+      "path": "2-Slipbox/WSL Commands and Installs.md"
+    },
+    {
       "basename": "2021-08-26",
       "path": "3-Resources/Daily-Notes/2021-08-26.md"
     },
@@ -161,16 +173,8 @@
       "path": "2-Slipbox/WinGet CLI Setup and Settings.md"
     },
     {
-      "basename": "WSL Commands and Installs",
-      "path": "2-Slipbox/WSL Commands and Installs.md"
-    },
-    {
       "basename": "Zsh",
       "path": "2-Slipbox/Zsh.md"
-    },
-    {
-      "basename": "WSL-Notes",
-      "path": "2-Slipbox/WSL-Notes.md"
     },
     {
       "basename": "Windows Registry Paths and Keys",
@@ -195,10 +199,6 @@
     {
       "basename": "R Blogs",
       "path": "2-Slipbox/R Blogs.md"
-    },
-    {
-      "basename": "Memory in R",
-      "path": "2-Slipbox/Memory in R.md"
     }
   ],
   "omittedPaths": [],

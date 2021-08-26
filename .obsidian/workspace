@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-26.md",
+            "file": "0-Inbox/WSL - Permissions.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "autohot",
+                "query": "wsl",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-26.md"
+                "file": "0-Inbox/WSL - Permissions.md"
               }
             }
           }
@@ -110,7 +111,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-26.md",
+                "file": "0-Inbox/WSL - Permissions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-26.md",
+                "file": "0-Inbox/WSL - Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-26.md",
+                "file": "0-Inbox/WSL - Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,15 +197,15 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "0-Inbox/WSL - Permissions.md",
+    "2-Slipbox/WSL-Notes.md",
+    "2-Slipbox/WSL Commands and Installs.md",
     "3-Resources/Daily-Notes/2021-08-26.md",
     "2-Slipbox/AutoHotKey Scripts.md",
     "3-Resources/Daily-Notes/2020-04-20.md",
     "3-Resources/Templates/Daily-Note-Template.md",
     "2-Slipbox/Obsidian Setup.md",
     "1-Maps-of-Content/MOC - Obsidian.md",
-    "3-Resources/Daily-Notes/2021-08-25.md",
-    "2-Slipbox/Database GUIs.md",
-    "README.md",
-    "3-Resources/Daily-Notes/2021-08-24.md"
+    "3-Resources/Daily-Notes/2021-08-25.md"
   ]
 }
