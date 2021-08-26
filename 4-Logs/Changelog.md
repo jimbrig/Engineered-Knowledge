@@ -1,3 +1,4 @@
+- 2021-08-26 at 17h42 · [[WSL Setup]]
 - 2021-08-26 at 17h41 · [[How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File]]
 - 2021-08-26 at 15h05 · [[WSL-Notes]]
 - 2021-08-26 at 15h05 · [[WSL Commands and Installs]]

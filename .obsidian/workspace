@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-26.md",
+            "file": "2-Slipbox/WSL Setup.md",
             "mode": "source"
           }
         }
@@ -64,8 +64,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-26.md"
+                "file": "2-Slipbox/WSL Setup.md"
               }
             }
           }
@@ -111,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-26.md",
+                "file": "2-Slipbox/WSL Setup.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-26.md",
+                "file": "2-Slipbox/WSL Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-26.md",
+                "file": "2-Slipbox/WSL Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,6 +197,8 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "2-Slipbox/Untitled.md",
+    "3-Reference/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-26.md",
     "0-Inbox/WSL - Permissions.md",
     "2-Slipbox/WSL-Notes.md",
@@ -205,8 +206,6 @@
     "2-Slipbox/AutoHotKey Scripts.md",
     "3-Resources/Daily-Notes/2020-04-20.md",
     "3-Resources/Templates/Daily-Note-Template.md",
-    "2-Slipbox/Obsidian Setup.md",
-    "1-Maps-of-Content/MOC - Obsidian.md",
-    "3-Resources/Daily-Notes/2021-08-25.md"
+    "2-Slipbox/Obsidian Setup.md"
   ]
 }
