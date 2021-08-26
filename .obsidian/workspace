@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wsl",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365
+    "width": 365,
+    "collapsed": true
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
