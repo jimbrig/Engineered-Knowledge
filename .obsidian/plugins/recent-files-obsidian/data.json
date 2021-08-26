@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-08-26",
+      "path": "3-Resources/Daily-Notes/2021-08-26.md"
+    },
+    {
       "basename": "AutoHotKey Scripts",
       "path": "2-Slipbox/AutoHotKey Scripts.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Memory in R",
       "path": "2-Slipbox/Memory in R.md"
-    },
-    {
-      "basename": "HashiCorp Terraform",
-      "path": "2-Slipbox/HashiCorp Terraform.md"
     }
   ],
   "omittedPaths": [],
