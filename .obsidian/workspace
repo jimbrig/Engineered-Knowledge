@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/WSL - Permissions.md",
+            "file": "3-Resources/Daily-Notes/2021-08-26.md",
             "mode": "source"
           }
         }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/WSL - Permissions.md"
+                "file": "3-Resources/Daily-Notes/2021-08-26.md"
               }
             }
           }
@@ -111,7 +111,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-Inbox/WSL - Permissions.md",
+                "file": "3-Resources/Daily-Notes/2021-08-26.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/WSL - Permissions.md",
+                "file": "3-Resources/Daily-Notes/2021-08-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/WSL - Permissions.md",
+                "file": "3-Resources/Daily-Notes/2021-08-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,10 +198,10 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-08-26.md",
     "0-Inbox/WSL - Permissions.md",
     "2-Slipbox/WSL-Notes.md",
     "2-Slipbox/WSL Commands and Installs.md",
-    "3-Resources/Daily-Notes/2021-08-26.md",
     "2-Slipbox/AutoHotKey Scripts.md",
     "3-Resources/Daily-Notes/2020-04-20.md",
     "3-Resources/Templates/Daily-Note-Template.md",
