@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-27.md",
-            "mode": "source"
+            "file": "0-Inbox/Windows Registry Hacks.md",
+            "mode": "preview"
           }
         }
       }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-27.md"
+                "file": "0-Inbox/Windows Registry Hacks.md"
               }
             }
           }
@@ -110,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-27.md",
+                "file": "0-Inbox/Windows Registry Hacks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-27.md",
+                "file": "0-Inbox/Windows Registry Hacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-27.md",
+                "file": "0-Inbox/Windows Registry Hacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,6 +197,7 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "0-Inbox/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-27.md",
     "3-Resources/Daily-Notes/2021-08-26.md",
     "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
@@ -205,7 +206,6 @@
     "2-Slipbox/Untitled.md",
     "3-Reference/Untitled.md",
     "0-Inbox/WSL - Permissions.md",
-    "2-Slipbox/WSL-Notes.md",
-    "2-Slipbox/WSL Commands and Installs.md"
+    "2-Slipbox/WSL-Notes.md"
   ]
 }

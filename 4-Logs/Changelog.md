@@ -1,3 +1,5 @@
+- 2021-08-27 at 11h24 · [[Windows Registry Hacks]]
+- 2021-08-27 at 11h24 · [[Untitled]]
 - 2021-08-27 at 10h38 · [[How to Use the Windows Media Creation Tool to Create a Windows 10 ISO File]]
 - 2021-08-27 at 10h38 · [[Day Planner-20210827]]
 - 2021-08-27 at 10h38 · [[2021-08-27]]

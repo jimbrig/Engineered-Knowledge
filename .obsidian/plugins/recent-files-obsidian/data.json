@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows Registry Hacks",
+      "path": "0-Inbox/Windows Registry Hacks.md"
+    },
+    {
       "basename": "2021-08-27",
       "path": "3-Resources/Daily-Notes/2021-08-27.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "WinGet CLI Setup and Settings",
       "path": "2-Slipbox/WinGet CLI Setup and Settings.md"
-    },
-    {
-      "basename": "Zsh",
-      "path": "2-Slipbox/Zsh.md"
     }
   ],
   "omittedPaths": [],
