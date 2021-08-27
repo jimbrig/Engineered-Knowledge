@@ -5,6 +5,18 @@
       "path": "3-Resources/Daily-Notes/2021-08-26.md"
     },
     {
+      "basename": "Windows Reset Definitive Checklist (YouTube)",
+      "path": "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
+    },
+    {
+      "basename": "Kubernetes Sandbox with minikube and kubectl",
+      "path": "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md"
+    },
+    {
+      "basename": "020 - Development",
+      "path": "1-Maps-of-Content/020 - Development.md"
+    },
+    {
       "basename": "WSL Setup",
       "path": "2-Slipbox/WSL Setup.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Windows Registry Paths and Keys",
       "path": "2-Slipbox/Windows Registry Paths and Keys.md"
-    },
-    {
-      "basename": "Windows Terminal",
-      "path": "2-Slipbox/Windows Terminal.md"
-    },
-    {
-      "basename": "SFC and DISM Commands",
-      "path": "2-Slipbox/SFC and DISM Commands.md"
-    },
-    {
-      "basename": "S-CLI",
-      "path": "2-Slipbox/S-CLI.md"
     }
   ],
   "omittedPaths": [],
