@@ -13,8 +13,9 @@ Tags: []
 - [ ] Perform a clean installation of Windows Operating System
 	- [ ] Boot into a bootable media drive with the Windows setup
 	- [ ] Select to install windows on this machine (the *advanced* option)
-	- [ ] Once get to disk drive/where to install screen, delete all Disk 0 partitions and install Windows to the Disk 0 Unallocated Drive - this will guarantee Windows will create the proper partions and format the disk accordingly without leaving any traces of the previous installation.
-	- [ ] 
+	- [ ] Once get to disk drive/where to install screen, delete all Disk 0 partitions and install Windows to the Disk 0 Unallocated Drive - this will guarantee Windows will create the proper partitions and format the disk accordingly without leaving any traces of the previous installation.
+
+- [ ] 
 
 ***
 
