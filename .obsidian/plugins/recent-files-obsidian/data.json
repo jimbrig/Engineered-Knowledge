@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows User Dictionaries Locations",
+      "path": "0-Inbox/Windows User Dictionaries Locations.md"
+    },
+    {
+      "basename": "GitHub Repository Best Practices",
+      "path": "0-Inbox/GitHub Repository Best Practices.md"
+    },
+    {
       "basename": "2021-08-30",
       "path": "3-Resources/Daily-Notes/2021-08-30.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Windows Developer Environment",
       "path": "2-Slipbox/Windows Developer Environment.md"
-    },
-    {
-      "basename": "Windows Subsystem for Linux (WSL)",
-      "path": "2-Slipbox/Windows Subsystem for Linux (WSL).md"
-    },
-    {
-      "basename": "Windows Terminal Command Line Arguments",
-      "path": "2-Slipbox/Windows Terminal Command Line Arguments.md"
     }
   ],
   "omittedPaths": [],

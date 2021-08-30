@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-30.md",
+            "file": "0-Inbox/Windows User Dictionaries Locations.md",
             "mode": "source"
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-30.md"
+                "file": "0-Inbox/Windows User Dictionaries Locations.md"
               }
             }
           }
@@ -110,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-30.md",
+                "file": "0-Inbox/Windows User Dictionaries Locations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-30.md",
+                "file": "0-Inbox/Windows User Dictionaries Locations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-30.md",
+                "file": "0-Inbox/Windows User Dictionaries Locations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,6 +197,7 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "0-Inbox/Untitled 1.md",
     "3-Resources/Daily-Notes/2021-08-30.md",
     "0-Inbox/Windows Registry Hacks.md",
     "0-Inbox/Untitled.md",
@@ -205,7 +206,6 @@
     "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
     "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md",
     "1-Maps-of-Content/020 - Development.md",
-    "2-Slipbox/Untitled.md",
-    "3-Reference/Untitled.md"
+    "2-Slipbox/Untitled.md"
   ]
 }
