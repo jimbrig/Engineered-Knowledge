@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows Setup Checklist",
+      "path": "0-Inbox/Windows Setup Checklist.md"
+    },
+    {
       "basename": "Digital Cleanup",
       "path": "0-Inbox/Digital Cleanup.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Why You Should Never Quit too Early",
       "path": "2-Slipbox/Why You Should Never Quit too Early.md"
-    },
-    {
-      "basename": "Windows Command Line Commands Overview",
-      "path": "2-Slipbox/Windows Command Line Commands Overview.md"
     }
   ],
   "omittedPaths": [],
