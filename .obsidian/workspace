@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Windows User Dictionaries Locations.md",
+            "file": "0-Inbox/Digital Cleanup.md",
             "mode": "source"
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Windows User Dictionaries Locations.md"
+                "file": "0-Inbox/Digital Cleanup.md"
               }
             }
           }
@@ -110,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-Inbox/Windows User Dictionaries Locations.md",
+                "file": "0-Inbox/Digital Cleanup.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Windows User Dictionaries Locations.md",
+                "file": "0-Inbox/Digital Cleanup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Windows User Dictionaries Locations.md",
+                "file": "0-Inbox/Digital Cleanup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

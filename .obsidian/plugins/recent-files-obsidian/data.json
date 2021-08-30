@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Digital Cleanup",
+      "path": "0-Inbox/Digital Cleanup.md"
+    },
+    {
       "basename": "Windows User Dictionaries Locations",
       "path": "0-Inbox/Windows User Dictionaries Locations.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Windows Command Line Commands Overview",
       "path": "2-Slipbox/Windows Command Line Commands Overview.md"
-    },
-    {
-      "basename": "Windows Developer Environment",
-      "path": "2-Slipbox/Windows Developer Environment.md"
     }
   ],
   "omittedPaths": [],
