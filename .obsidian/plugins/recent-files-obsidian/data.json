@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-08-30",
+      "path": "3-Resources/Daily-Notes/2021-08-30.md"
+    },
+    {
       "basename": "Windows Registry Hacks",
       "path": "0-Inbox/Windows Registry Hacks.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Windows Terminal Command Line Arguments",
       "path": "2-Slipbox/Windows Terminal Command Line Arguments.md"
-    },
-    {
-      "basename": "WinGet CLI Setup and Settings",
-      "path": "2-Slipbox/WinGet CLI Setup and Settings.md"
     }
   ],
   "omittedPaths": [],

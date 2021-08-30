@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Windows Registry Hacks.md",
-            "mode": "preview"
+            "file": "3-Resources/Daily-Notes/2021-08-30.md",
+            "mode": "source"
           }
         }
       }
@@ -197,6 +197,7 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "0-Inbox/Windows Registry Hacks.md",
     "0-Inbox/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-27.md",
     "3-Resources/Daily-Notes/2021-08-26.md",
@@ -205,7 +206,6 @@
     "1-Maps-of-Content/020 - Development.md",
     "2-Slipbox/Untitled.md",
     "3-Reference/Untitled.md",
-    "0-Inbox/WSL - Permissions.md",
-    "2-Slipbox/WSL-Notes.md"
+    "0-Inbox/WSL - Permissions.md"
   ]
 }
