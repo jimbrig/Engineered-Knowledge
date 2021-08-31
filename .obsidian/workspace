@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-Inbox/Windows Setup Checklist.md",
+            "file": "3-Resources/Daily-Notes/2021-08-30.md",
             "mode": "source"
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-Inbox/Windows Setup Checklist.md"
+                "file": "3-Resources/Daily-Notes/2021-08-30.md"
               }
             }
           }
@@ -110,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-Inbox/Windows Setup Checklist.md",
+                "file": "3-Resources/Daily-Notes/2021-08-30.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-Inbox/Windows Setup Checklist.md",
+                "file": "3-Resources/Daily-Notes/2021-08-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-Inbox/Windows Setup Checklist.md",
+                "file": "3-Resources/Daily-Notes/2021-08-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,8 +197,8 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
-    "0-Inbox/Untitled 1.md",
     "3-Resources/Daily-Notes/2021-08-30.md",
+    "0-Inbox/Untitled 1.md",
     "0-Inbox/Windows Registry Hacks.md",
     "0-Inbox/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-27.md",
