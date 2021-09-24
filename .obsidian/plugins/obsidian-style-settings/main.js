@@ -8433,8 +8433,11 @@ class CSSSettingsPlugin extends obsidian.Plugin {
                 this.settingsTab.setSettings(settingsList, errorList);
                 this.settingsManager.initClasses();
             }));
-            this.app.workspace.trigger("css-change");
             document.body.classList.add("css-settings-manager");
+            // Let other plugins register before calling this to pick up on plugin style settings
+            setTimeout(() => {
+                this.app.workspace.trigger("css-change");
+            });
         });
     }
     onunload() {
@@ -8504,8 +8507,7 @@ class CSSSettingsTab extends obsidian.PluginSettingTab {
         if (settings.length === 0) {
             return this.displayEmpty();
         }
-        new obsidian.Setting(containerEl)
-            .then((setting) => {
+        new obsidian.Setting(containerEl).then((setting) => {
             // Build and import link to open the import modal
             setting.controlEl.createEl("a", {
                 cls: "style-settings-import",

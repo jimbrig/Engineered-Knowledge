@@ -101,7 +101,7 @@ class ObsidianReadwiseSettingsTab extends obsidian.PluginSettingTab {
     }
     highlightStoragePath() {
         new obsidian.Setting(this.containerEl)
-            .setName('Highlight storage path')
+            .setName('Highlights Storage Path')
             .setDesc('Path to the directory used to store the notes')
             .addText(text => text
             .setValue(this.plugin.settings.highlightStoragePath)
@@ -350,6 +350,7 @@ class Highlight {
         this.text = raw.text;
         this.url = raw.url;
         this.location = raw.location;
+        this.updated = raw.updated;
     }
     static Parse(ihighs) {
         return Array.from(ihighs).map((ihigh) => new Highlight(ihigh));
@@ -846,25 +847,6 @@ class ReadwiseApiTokenModal extends obsidian.Modal {
         super.onClose();
         this.modalContent.$destroy();
         this.resolvePromise();
-    }
-}
-
-class TemplatedDocument {
-    constructor(doc) {
-        this.title = doc.title;
-        this.author = doc.author;
-        this.updated = doc.updated;
-        this.source_url = doc.source_url;
-        this.category = doc.category;
-        this.num_highlights = doc.num_highlights;
-    }
-}
-class TemplatedHighlight {
-    constructor(highlight) {
-        this.text = highlight.text;
-        this.id = highlight.id;
-        this.note = highlight.note;
-        this.location = highlight.location;
     }
 }
 
@@ -9323,7 +9305,7 @@ class HeaderTemplateRenderer extends BaseTemplateRenderer {
         super(template, handler);
     }
     render(doc) {
-        return this.template.render(new TemplatedDocument(doc));
+        return this.template.render(doc);
     }
     static create(path, handler) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -9337,7 +9319,7 @@ class HighlightTemplateRenderer extends BaseTemplateRenderer {
         super(template, handler);
     }
     render(highlight) {
-        let renderedContent = this.template.render(new TemplatedHighlight(highlight));
+        let renderedContent = this.template.render(highlight);
         if (!renderedContent.includes(`highlight_id: ${highlight.id}`)) {
             renderedContent += `%% highlight_id: ${highlight.id} %%\n`;
         }
@@ -9385,14 +9367,12 @@ class FileDoc {
         return `${storagePath}${this.sanitizeName()}.md`;
     }
     sanitizeName() {
-        console.log(`Replacing ${this.doc.title}`);
+        console.log(`Sanitizing ${this.doc.title}`);
         return this.doc.title
             .replace(/(http[s]?\:\/\/)/, '')
-            .replace(/\./g, '_')
-            .replace(/\//g, '-')
             .replace(/(\?.*)/, '') // Remove query params
-            .replace(/\\/g, '-')
-            .replace(/\:/g, '-');
+            .replace(/\./g, '_')
+            .replace(/[\/\\\:\|]/g, '-');
     }
 }
 

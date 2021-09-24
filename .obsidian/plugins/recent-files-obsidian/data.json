@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "020 - Development",
+      "path": "1-Maps-of-Content/020 - Development.md"
+    },
+    {
       "basename": "2021-08-30",
       "path": "3-Resources/Daily-Notes/2021-08-30.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "Kubernetes Sandbox with minikube and kubectl",
       "path": "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md"
-    },
-    {
-      "basename": "020 - Development",
-      "path": "1-Maps-of-Content/020 - Development.md"
     },
     {
       "basename": "WSL Setup",

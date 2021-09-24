@@ -35,120 +35,32 @@ function safe_not_equal(a, b) {
 function is_empty(obj) {
     return Object.keys(obj).length === 0;
 }
-
-// Track which nodes are claimed during hydration. Unclaimed nodes can then be removed from the DOM
-// at the end of hydration without touching the remaining nodes.
-let is_hydrating = false;
-function start_hydrating() {
-    is_hydrating = true;
-}
-function end_hydrating() {
-    is_hydrating = false;
-}
-function upper_bound(low, high, key, value) {
-    // Return first index of value larger than input value in the range [low, high)
-    while (low < high) {
-        const mid = low + ((high - low) >> 1);
-        if (key(mid) <= value) {
-            low = mid + 1;
-        }
-        else {
-            high = mid;
-        }
-    }
-    return low;
-}
-function init_hydrate(target) {
-    if (target.hydrate_init)
-        return;
-    target.hydrate_init = true;
-    // We know that all children have claim_order values since the unclaimed have been detached
-    const children = target.childNodes;
-    /*
-    * Reorder claimed children optimally.
-    * We can reorder claimed children optimally by finding the longest subsequence of
-    * nodes that are already claimed in order and only moving the rest. The longest
-    * subsequence subsequence of nodes that are claimed in order can be found by
-    * computing the longest increasing subsequence of .claim_order values.
-    *
-    * This algorithm is optimal in generating the least amount of reorder operations
-    * possible.
-    *
-    * Proof:
-    * We know that, given a set of reordering operations, the nodes that do not move
-    * always form an increasing subsequence, since they do not move among each other
-    * meaning that they must be already ordered among each other. Thus, the maximal
-    * set of nodes that do not move form a longest increasing subsequence.
-    */
-    // Compute longest increasing subsequence
-    // m: subsequence length j => index k of smallest value that ends an increasing subsequence of length j
-    const m = new Int32Array(children.length + 1);
-    // Predecessor indices + 1
-    const p = new Int32Array(children.length);
-    m[0] = -1;
-    let longest = 0;
-    for (let i = 0; i < children.length; i++) {
-        const current = children[i].claim_order;
-        // Find the largest subsequence length such that it ends in a value less than our current value
-        // upper_bound returns first greater value, so we subtract one
-        const seqLen = upper_bound(1, longest + 1, idx => children[m[idx]].claim_order, current) - 1;
-        p[i] = m[seqLen] + 1;
-        const newLen = seqLen + 1;
-        // We can guarantee that current is the smallest value. Otherwise, we would have generated a longer sequence.
-        m[newLen] = i;
-        longest = Math.max(newLen, longest);
-    }
-    // The longest increasing subsequence of nodes (initially reversed)
-    const lis = [];
-    // The rest of the nodes, nodes that will be moved
-    const toMove = [];
-    let last = children.length - 1;
-    for (let cur = m[longest] + 1; cur != 0; cur = p[cur - 1]) {
-        lis.push(children[cur - 1]);
-        for (; last >= cur; last--) {
-            toMove.push(children[last]);
-        }
-        last--;
-    }
-    for (; last >= 0; last--) {
-        toMove.push(children[last]);
-    }
-    lis.reverse();
-    // We sort the nodes being moved to guarantee that their insertion order matches the claim order
-    toMove.sort((a, b) => a.claim_order - b.claim_order);
-    // Finally, we move the nodes
-    for (let i = 0, j = 0; i < toMove.length; i++) {
-        while (j < lis.length && toMove[i].claim_order >= lis[j].claim_order) {
-            j++;
-        }
-        const anchor = j < lis.length ? lis[j] : null;
-        target.insertBefore(toMove[i], anchor);
-    }
-}
 function append(target, node) {
-    if (is_hydrating) {
-        init_hydrate(target);
-        if ((target.actual_end_child === undefined) || ((target.actual_end_child !== null) && (target.actual_end_child.parentElement !== target))) {
-            target.actual_end_child = target.firstChild;
-        }
-        if (node !== target.actual_end_child) {
-            target.insertBefore(node, target.actual_end_child);
-        }
-        else {
-            target.actual_end_child = node.nextSibling;
-        }
+    target.appendChild(node);
+}
+function append_styles(target, style_sheet_id, styles) {
+    const append_styles_to = get_root_for_style(target);
+    if (!append_styles_to.getElementById(style_sheet_id)) {
+        const style = element('style');
+        style.id = style_sheet_id;
+        style.textContent = styles;
+        append_stylesheet(append_styles_to, style);
     }
-    else if (node.parentNode !== target) {
-        target.appendChild(node);
+}
+function get_root_for_style(node) {
+    if (!node)
+        return document;
+    const root = node.getRootNode ? node.getRootNode() : node.ownerDocument;
+    if (root && root.host) {
+        return root;
     }
+    return node.ownerDocument;
+}
+function append_stylesheet(node, style) {
+    append(node.head || node, style);
 }
 function insert(target, node, anchor) {
-    if (is_hydrating && !anchor) {
-        append(target, node);
-    }
-    else if (node.parentNode !== target || (anchor && node.nextSibling !== anchor)) {
-        target.insertBefore(node, anchor || null);
-    }
+    target.insertBefore(node, anchor || null);
 }
 function detach(node) {
     node.parentNode.removeChild(node);
@@ -200,6 +112,7 @@ function select_option(select, value) {
             return;
         }
     }
+    select.selectedIndex = -1; // no option should be selected
 }
 function select_value(select) {
     const selected_option = select.querySelector(':checked') || select.options[0];
@@ -328,7 +241,7 @@ function make_dirty(component, i) {
     }
     component.$$.dirty[(i / 31) | 0] |= (1 << (i % 31));
 }
-function init(component, options, instance, create_fragment, not_equal, props, dirty = [-1]) {
+function init(component, options, instance, create_fragment, not_equal, props, append_styles, dirty = [-1]) {
     const parent_component = current_component;
     set_current_component(component);
     const $$ = component.$$ = {
@@ -349,8 +262,10 @@ function init(component, options, instance, create_fragment, not_equal, props, d
         // everything else
         callbacks: blank_object(),
         dirty,
-        skip_bound: false
+        skip_bound: false,
+        root: options.target || parent_component.$$.root
     };
+    append_styles && append_styles($$.root);
     let ready = false;
     $$.ctx = instance
         ? instance(component, options.props || {}, (i, ret, ...rest) => {
@@ -371,7 +286,6 @@ function init(component, options, instance, create_fragment, not_equal, props, d
     $$.fragment = create_fragment ? create_fragment($$.ctx) : false;
     if (options.target) {
         if (options.hydrate) {
-            start_hydrating();
             const nodes = children(options.target);
             // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
             $$.fragment && $$.fragment.l(nodes);
@@ -384,7 +298,6 @@ function init(component, options, instance, create_fragment, not_equal, props, d
         if (options.intro)
             transition_in(component.$$.fragment);
         mount_component(component, options.target, options.anchor, options.customElement);
-        end_hydrating();
         flush();
     }
     set_current_component(parent_component);
@@ -422,13 +335,10 @@ var ProgressPropertyOptions;
     ProgressPropertyOptions["TaskIncomplete"] = "Incomplete Tasks";
 })(ProgressPropertyOptions || (ProgressPropertyOptions = {}));
 
-/* src/Modals/ProgressPropertiesSettingModal/ProgressPropertiesModalContent.svelte generated by Svelte v3.38.3 */
+/* src/Modals/ProgressPropertiesSettingModal/ProgressPropertiesModalContent.svelte generated by Svelte v3.42.6 */
 
-function add_css$3() {
-	var style = element("style");
-	style.id = "svelte-kqcr7b-style";
-	style.textContent = ".buttonContainer.svelte-kqcr7b{display:flex;justify-content:center;margin-top:1rem}select.svelte-kqcr7b{border-radius:4px;width:100%;height:30px;border:1px solid #dbdbdc;color:#383a42;background-color:#fff;padding:3px}button.svelte-kqcr7b{margin-left:5px;margin-right:5px;font-size:15px}";
-	append(document.head, style);
+function add_css$3(target) {
+	append_styles(target, "svelte-kqcr7b", ".buttonContainer.svelte-kqcr7b{display:flex;justify-content:center;margin-top:1rem}select.svelte-kqcr7b{border-radius:4px;width:100%;height:30px;border:1px solid #dbdbdc;color:#383a42;background-color:#fff;padding:3px}button.svelte-kqcr7b{margin-left:5px;margin-right:5px;font-size:15px}");
 }
 
 function get_each_context$3(ctx, list, i) {
@@ -445,7 +355,7 @@ function get_each_context_1$1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (33:24) {#each options as text}
+// (32:24) {#each options as text}
 function create_each_block_1$1(ctx) {
 	let option;
 
@@ -466,7 +376,7 @@ function create_each_block_1$1(ctx) {
 	};
 }
 
-// (26:8) {#each properties as property}
+// (25:8) {#each properties as property}
 function create_each_block$3(ctx) {
 	let tr;
 	let td0;
@@ -695,7 +605,6 @@ function create_fragment$4(ctx) {
 }
 
 function instance$4($$self, $$props, $$invalidate) {
-	
 	const options = Object.keys(ProgressPropertyOptions).map(k => ProgressPropertyOptions[k]);
 	let { save } = $$props;
 	let { properties } = $$props;
@@ -733,8 +642,8 @@ function instance$4($$self, $$props, $$invalidate) {
 	const click_handler = property => removeProperty(property);
 
 	$$self.$$set = $$props => {
-		if ("save" in $$props) $$invalidate(1, save = $$props.save);
-		if ("properties" in $$props) $$invalidate(0, properties = $$props.properties);
+		if ('save' in $$props) $$invalidate(1, save = $$props.save);
+		if ('properties' in $$props) $$invalidate(0, properties = $$props.properties);
 	};
 
 	return [
@@ -754,18 +663,14 @@ function instance$4($$self, $$props, $$invalidate) {
 class ProgressPropertiesModalContent extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-kqcr7b-style")) add_css$3();
-		init(this, options, instance$4, create_fragment$4, safe_not_equal, { save: 1, properties: 0 });
+		init(this, options, instance$4, create_fragment$4, safe_not_equal, { save: 1, properties: 0 }, add_css$3);
 	}
 }
 
-/* src/Modals/AutoPropertiesSettingModal/AutoPropertiesModalContent.svelte generated by Svelte v3.38.3 */
+/* src/Modals/AutoPropertiesSettingModal/AutoPropertiesModalContent.svelte generated by Svelte v3.42.6 */
 
-function add_css$2() {
-	var style = element("style");
-	style.id = "svelte-kqcr7b-style";
-	style.textContent = ".buttonContainer.svelte-kqcr7b{display:flex;justify-content:center;margin-top:1rem}button.svelte-kqcr7b{margin-left:5px;margin-right:5px;font-size:15px}";
-	append(document.head, style);
+function add_css$2(target) {
+	append_styles(target, "svelte-kqcr7b", ".buttonContainer.svelte-kqcr7b{display:flex;justify-content:center;margin-top:1rem}button.svelte-kqcr7b{margin-left:5px;margin-right:5px;font-size:15px}");
 }
 
 function get_each_context$2(ctx, list, i) {
@@ -784,7 +689,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (50:20) {#each property.choices as choice, i}
+// (49:20) {#each property.choices as choice, i}
 function create_each_block_1(ctx) {
 	let div;
 	let input0;
@@ -848,7 +753,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (41:8) {#each autoProperties as property}
+// (40:8) {#each autoProperties as property}
 function create_each_block$2(ctx) {
 	let tr;
 	let td0;
@@ -1089,13 +994,12 @@ function create_fragment$3(ctx) {
 }
 
 function instance$3($$self, $$props, $$invalidate) {
-	
 	let { save } = $$props;
 	let { autoProperties = [] } = $$props;
 
 	function addNewProperty() {
 		let newProp = { name: "", choices: [""] };
-		if (typeof autoProperties[Symbol.iterator] !== "function") $$invalidate(0, autoProperties = [newProp]); else $$invalidate(0, autoProperties = [...autoProperties, newProp]);
+		if (typeof autoProperties[Symbol.iterator] !== 'function') $$invalidate(0, autoProperties = [newProp]); else $$invalidate(0, autoProperties = [...autoProperties, newProp]);
 		save(autoProperties);
 	}
 
@@ -1141,8 +1045,8 @@ function instance$3($$self, $$props, $$invalidate) {
 	const click_handler_2 = property => addChoice(property);
 
 	$$self.$$set = $$props => {
-		if ("save" in $$props) $$invalidate(1, save = $$props.save);
-		if ("autoProperties" in $$props) $$invalidate(0, autoProperties = $$props.autoProperties);
+		if ('save' in $$props) $$invalidate(1, save = $$props.save);
+		if ('autoProperties' in $$props) $$invalidate(0, autoProperties = $$props.autoProperties);
 	};
 
 	return [
@@ -1165,8 +1069,7 @@ function instance$3($$self, $$props, $$invalidate) {
 class AutoPropertiesModalContent extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-kqcr7b-style")) add_css$2();
-		init(this, options, instance$3, create_fragment$3, safe_not_equal, { save: 1, autoProperties: 0 });
+		init(this, options, instance$3, create_fragment$3, safe_not_equal, { save: 1, autoProperties: 0 }, add_css$2);
 	}
 }
 
@@ -1326,17 +1229,39 @@ function getBasePlacement(placement) {
   return placement.split('-')[0];
 }
 
-function getBoundingClientRect(element) {
+var round$1 = Math.round;
+function getBoundingClientRect(element, includeScale) {
+  if (includeScale === void 0) {
+    includeScale = false;
+  }
+
   var rect = element.getBoundingClientRect();
+  var scaleX = 1;
+  var scaleY = 1;
+
+  if (isHTMLElement(element) && includeScale) {
+    var offsetHeight = element.offsetHeight;
+    var offsetWidth = element.offsetWidth; // Do not attempt to divide by 0, otherwise we get `Infinity` as scale
+    // Fallback to 1 in case both values are `0`
+
+    if (offsetWidth > 0) {
+      scaleX = rect.width / offsetWidth || 1;
+    }
+
+    if (offsetHeight > 0) {
+      scaleY = rect.height / offsetHeight || 1;
+    }
+  }
+
   return {
-    width: rect.width,
-    height: rect.height,
-    top: rect.top,
-    right: rect.right,
-    bottom: rect.bottom,
-    left: rect.left,
-    x: rect.left,
-    y: rect.top
+    width: round$1(rect.width / scaleX),
+    height: round$1(rect.height / scaleY),
+    top: round$1(rect.top / scaleY),
+    right: round$1(rect.right / scaleX),
+    bottom: round$1(rect.bottom / scaleY),
+    left: round$1(rect.left / scaleX),
+    x: round$1(rect.left / scaleX),
+    y: round$1(rect.top / scaleY)
   };
 }
 
@@ -1600,6 +1525,10 @@ var arrow$1 = {
   requiresIfExists: ['preventOverflow']
 };
 
+function getVariation(placement) {
+  return placement.split('-')[1];
+}
+
 var unsetSides = {
   top: 'auto',
   right: 'auto',
@@ -1626,6 +1555,7 @@ function mapToStyles(_ref2) {
   var popper = _ref2.popper,
       popperRect = _ref2.popperRect,
       placement = _ref2.placement,
+      variation = _ref2.variation,
       offsets = _ref2.offsets,
       position = _ref2.position,
       gpuAcceleration = _ref2.gpuAcceleration,
@@ -1652,7 +1582,7 @@ function mapToStyles(_ref2) {
     if (offsetParent === getWindow(popper)) {
       offsetParent = getDocumentElement(popper);
 
-      if (getComputedStyle(offsetParent).position !== 'static') {
+      if (getComputedStyle(offsetParent).position !== 'static' && position === 'absolute') {
         heightProp = 'scrollHeight';
         widthProp = 'scrollWidth';
       }
@@ -1661,14 +1591,14 @@ function mapToStyles(_ref2) {
 
     offsetParent = offsetParent;
 
-    if (placement === top) {
+    if (placement === top || (placement === left || placement === right) && variation === end) {
       sideY = bottom; // $FlowFixMe[prop-missing]
 
       y -= offsetParent[heightProp] - popperRect.height;
       y *= gpuAcceleration ? 1 : -1;
     }
 
-    if (placement === left) {
+    if (placement === left || (placement === top || placement === bottom) && variation === end) {
       sideX = right; // $FlowFixMe[prop-missing]
 
       x -= offsetParent[widthProp] - popperRect.width;
@@ -1683,7 +1613,7 @@ function mapToStyles(_ref2) {
   if (gpuAcceleration) {
     var _Object$assign;
 
-    return Object.assign({}, commonStyles, (_Object$assign = {}, _Object$assign[sideY] = hasY ? '0' : '', _Object$assign[sideX] = hasX ? '0' : '', _Object$assign.transform = (win.devicePixelRatio || 1) < 2 ? "translate(" + x + "px, " + y + "px)" : "translate3d(" + x + "px, " + y + "px, 0)", _Object$assign));
+    return Object.assign({}, commonStyles, (_Object$assign = {}, _Object$assign[sideY] = hasY ? '0' : '', _Object$assign[sideX] = hasX ? '0' : '', _Object$assign.transform = (win.devicePixelRatio || 1) <= 1 ? "translate(" + x + "px, " + y + "px)" : "translate3d(" + x + "px, " + y + "px, 0)", _Object$assign));
   }
 
   return Object.assign({}, commonStyles, (_Object$assign2 = {}, _Object$assign2[sideY] = hasY ? y + "px" : '', _Object$assign2[sideX] = hasX ? x + "px" : '', _Object$assign2.transform = '', _Object$assign2));
@@ -1711,6 +1641,7 @@ function computeStyles(_ref4) {
 
   var commonStyles = {
     placement: getBasePlacement(state.placement),
+    variation: getVariation(state.placement),
     popper: state.elements.popper,
     popperRect: state.rects.popper,
     gpuAcceleration: gpuAcceleration
@@ -2013,10 +1944,6 @@ function getClippingRect(element, boundary, rootBoundary) {
   return clippingRect;
 }
 
-function getVariation(placement) {
-  return placement.split('-')[1];
-}
-
 function computeOffsets(_ref) {
   var reference = _ref.reference,
       element = _ref.element,
@@ -2102,11 +2029,10 @@ function detectOverflow(state, options) {
       padding = _options$padding === void 0 ? 0 : _options$padding;
   var paddingObject = mergePaddingObject(typeof padding !== 'number' ? padding : expandToHashMap(padding, basePlacements));
   var altContext = elementContext === popper ? reference : popper;
-  var referenceElement = state.elements.reference;
   var popperRect = state.rects.popper;
   var element = state.elements[altBoundary ? altContext : elementContext];
   var clippingClientRect = getClippingRect(isElement(element) ? element : element.contextElement || getDocumentElement(state.elements.popper), boundary, rootBoundary);
-  var referenceClientRect = getBoundingClientRect(referenceElement);
+  var referenceClientRect = getBoundingClientRect(state.elements.reference);
   var popperOffsets = computeOffsets({
     reference: referenceClientRect,
     element: popperRect,
@@ -2587,16 +2513,24 @@ function getNodeScroll(node) {
   }
 }
 
+function isElementScaled(element) {
+  var rect = element.getBoundingClientRect();
+  var scaleX = rect.width / element.offsetWidth || 1;
+  var scaleY = rect.height / element.offsetHeight || 1;
+  return scaleX !== 1 || scaleY !== 1;
+} // Returns the composite rect of an element relative to its offsetParent.
 // Composite means it takes into account transforms as well as layout.
+
 
 function getCompositeRect(elementOrVirtualElement, offsetParent, isFixed) {
   if (isFixed === void 0) {
     isFixed = false;
   }
 
-  var documentElement = getDocumentElement(offsetParent);
-  var rect = getBoundingClientRect(elementOrVirtualElement);
   var isOffsetParentAnElement = isHTMLElement(offsetParent);
+  var offsetParentIsScaled = isHTMLElement(offsetParent) && isElementScaled(offsetParent);
+  var documentElement = getDocumentElement(offsetParent);
+  var rect = getBoundingClientRect(elementOrVirtualElement, offsetParentIsScaled);
   var scroll = {
     scrollLeft: 0,
     scrollTop: 0
@@ -2613,7 +2547,7 @@ function getCompositeRect(elementOrVirtualElement, offsetParent, isFixed) {
     }
 
     if (isHTMLElement(offsetParent)) {
-      offsets = getBoundingClientRect(offsetParent);
+      offsets = getBoundingClientRect(offsetParent, true);
       offsets.x += offsetParent.clientLeft;
       offsets.y += offsetParent.clientTop;
     } else if (documentElement) {
@@ -2703,7 +2637,10 @@ var MISSING_DEPENDENCY_ERROR = 'Popper: modifier "%s" requires "%s", but "%s" mo
 var VALID_PROPERTIES = ['name', 'enabled', 'phase', 'fn', 'effect', 'requires', 'options'];
 function validateModifiers(modifiers) {
   modifiers.forEach(function (modifier) {
-    Object.keys(modifier).forEach(function (key) {
+    [].concat(Object.keys(modifier), VALID_PROPERTIES) // IE11-compatible replacement for `new Set(iterable)`
+    .filter(function (value, index, self) {
+      return self.indexOf(value) === index;
+    }).forEach(function (key) {
       switch (key) {
         case 'name':
           if (typeof modifier.name !== 'string') {
@@ -2716,6 +2653,8 @@ function validateModifiers(modifiers) {
           if (typeof modifier.enabled !== 'boolean') {
             console.error(format(INVALID_MODIFIER_ERROR, modifier.name, '"enabled"', '"boolean"', "\"" + String(modifier.enabled) + "\""));
           }
+
+          break;
 
         case 'phase':
           if (modifierPhases.indexOf(modifier.phase) < 0) {
@@ -2732,14 +2671,14 @@ function validateModifiers(modifiers) {
           break;
 
         case 'effect':
-          if (typeof modifier.effect !== 'function') {
+          if (modifier.effect != null && typeof modifier.effect !== 'function') {
             console.error(format(INVALID_MODIFIER_ERROR, modifier.name, '"effect"', '"function"', "\"" + String(modifier.fn) + "\""));
           }
 
           break;
 
         case 'requires':
-          if (!Array.isArray(modifier.requires)) {
+          if (modifier.requires != null && !Array.isArray(modifier.requires)) {
             console.error(format(INVALID_MODIFIER_ERROR, modifier.name, '"requires"', '"array"', "\"" + String(modifier.requires) + "\""));
           }
 
@@ -2849,7 +2788,8 @@ function popperGenerator(generatorOptions) {
     var isDestroyed = false;
     var instance = {
       state: state,
-      setOptions: function setOptions(options) {
+      setOptions: function setOptions(setOptionsAction) {
+        var options = typeof setOptionsAction === 'function' ? setOptionsAction(state.options) : setOptionsAction;
         cleanupModifierEffects();
         state.options = Object.assign({}, defaultOptions, state.options, options);
         state.scrollParents = {
@@ -3210,13 +3150,29 @@ class KanbanHelperSettingSuggester extends TextInputSuggest {
     }
 }
 
-/* src/Modals/KanbanHelperSetting/KanbanHelperSettingContent.svelte generated by Svelte v3.38.3 */
+class LogManager {
+    register(logger) {
+        LogManager.loggers.push(logger);
+        return this;
+    }
+    logError(message) {
+        LogManager.loggers.forEach(logger => logger.logError(message));
+        throw new Error();
+    }
+    logWarning(message) {
+        LogManager.loggers.forEach(logger => logger.logError(message));
+    }
+    logMessage(message) {
+        LogManager.loggers.forEach(logger => logger.logMessage(message));
+    }
+}
+LogManager.loggers = [];
+const log = new LogManager();
 
-function add_css$1() {
-	var style = element("style");
-	style.id = "svelte-kqcr7b-style";
-	style.textContent = ".buttonContainer.svelte-kqcr7b{display:flex;justify-content:center;margin-top:1rem}button.svelte-kqcr7b{margin-left:5px;margin-right:5px;font-size:15px}";
-	append(document.head, style);
+/* src/Modals/KanbanHelperSetting/KanbanHelperSettingContent.svelte generated by Svelte v3.42.6 */
+
+function add_css$1(target) {
+	append_styles(target, "svelte-kqcr7b", ".buttonContainer.svelte-kqcr7b{display:flex;justify-content:center;margin-top:1rem}button.svelte-kqcr7b{margin-left:5px;margin-right:5px;font-size:15px}");
 }
 
 function get_each_context$1(ctx, list, i) {
@@ -3227,7 +3183,7 @@ function get_each_context$1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (51:8) {#each kanbanProperties as kanbanProperty, i}
+// (55:8) {#each kanbanProperties as kanbanProperty, i}
 function create_each_block$1(ctx) {
 	let tr;
 	let td0;
@@ -3441,7 +3397,6 @@ function create_fragment$2(ctx) {
 }
 
 function instance$2($$self, $$props, $$invalidate) {
-	
 	let { save } = $$props;
 	let { kanbanProperties = [] } = $$props;
 	let { boards } = $$props;
@@ -3470,6 +3425,12 @@ function instance$2($$self, $$props, $$invalidate) {
 
 	function getHeadingsInBoard(boardName) {
 		const file = boards.find(board => board.basename === boardName);
+
+		if (!file) {
+			log.logWarning(`file ${boardName} not found.`);
+			return "FILE NOT FOUND";
+		}
+
 		const headings = app.metadataCache.getFileCache(file).headings;
 		if (!headings) return "";
 		return headings.map(heading => heading.heading).join(", ");
@@ -3484,7 +3445,7 @@ function instance$2($$self, $$props, $$invalidate) {
 	}
 
 	function input_binding($$value) {
-		binding_callbacks[$$value ? "unshift" : "push"](() => {
+		binding_callbacks[$$value ? 'unshift' : 'push'](() => {
 			suggestEl = $$value;
 			$$invalidate(2, suggestEl);
 		});
@@ -3496,10 +3457,10 @@ function instance$2($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("save" in $$props) $$invalidate(1, save = $$props.save);
-		if ("kanbanProperties" in $$props) $$invalidate(0, kanbanProperties = $$props.kanbanProperties);
-		if ("boards" in $$props) $$invalidate(7, boards = $$props.boards);
-		if ("app" in $$props) $$invalidate(8, app = $$props.app);
+		if ('save' in $$props) $$invalidate(1, save = $$props.save);
+		if ('kanbanProperties' in $$props) $$invalidate(0, kanbanProperties = $$props.kanbanProperties);
+		if ('boards' in $$props) $$invalidate(7, boards = $$props.boards);
+		if ('app' in $$props) $$invalidate(8, app = $$props.app);
 	};
 
 	return [
@@ -3523,24 +3484,28 @@ function instance$2($$self, $$props, $$invalidate) {
 class KanbanHelperSettingContent extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-kqcr7b-style")) add_css$1();
 
-		init(this, options, instance$2, create_fragment$2, safe_not_equal, {
-			save: 1,
-			kanbanProperties: 0,
-			boards: 7,
-			app: 8
-		});
+		init(
+			this,
+			options,
+			instance$2,
+			create_fragment$2,
+			safe_not_equal,
+			{
+				save: 1,
+				kanbanProperties: 0,
+				boards: 7,
+				app: 8
+			},
+			add_css$1
+		);
 	}
 }
 
-/* src/Modals/shared/SingleValueTableEditorContent.svelte generated by Svelte v3.38.3 */
+/* src/Modals/shared/SingleValueTableEditorContent.svelte generated by Svelte v3.42.6 */
 
-function add_css() {
-	var style = element("style");
-	style.id = "svelte-kqcr7b-style";
-	style.textContent = ".buttonContainer.svelte-kqcr7b{display:flex;justify-content:center;margin-top:1rem}button.svelte-kqcr7b{margin-left:5px;margin-right:5px;font-size:15px}";
-	append(document.head, style);
+function add_css(target) {
+	append_styles(target, "svelte-kqcr7b", ".buttonContainer.svelte-kqcr7b{display:flex;justify-content:center;margin-top:1rem}button.svelte-kqcr7b{margin-left:5px;margin-right:5px;font-size:15px}");
 }
 
 function get_each_context(ctx, list, i) {
@@ -3742,8 +3707,8 @@ function instance$1($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("save" in $$props) $$invalidate(1, save = $$props.save);
-		if ("properties" in $$props) $$invalidate(0, properties = $$props.properties);
+		if ('save' in $$props) $$invalidate(1, save = $$props.save);
+		if ('properties' in $$props) $$invalidate(0, properties = $$props.properties);
 	};
 
 	return [
@@ -3760,8 +3725,7 @@ function instance$1($$self, $$props, $$invalidate) {
 class SingleValueTableEditorContent extends SvelteComponent {
 	constructor(options) {
 		super();
-		if (!document.getElementById("svelte-kqcr7b-style")) add_css();
-		init(this, options, instance$1, create_fragment$1, safe_not_equal, { save: 1, properties: 0 });
+		init(this, options, instance$1, create_fragment$1, safe_not_equal, { save: 1, properties: 0 }, add_css);
 	}
 }
 
@@ -3806,6 +3770,7 @@ class MetaEditSettingsTab extends obsidian.PluginSettingTab {
                 if (value === this.plugin.settings.ProgressProperties.enabled)
                     return;
                 this.plugin.settings.ProgressProperties.enabled = value;
+                this.plugin.toggleAutomators();
                 await this.plugin.saveSettings();
             });
         })
@@ -3967,6 +3932,7 @@ class MetaEditSettingsTab extends obsidian.PluginSettingTab {
                 if (value === this.plugin.settings.KanbanHelper.enabled)
                     return;
                 this.plugin.settings.KanbanHelper.enabled = value;
+                this.plugin.toggleAutomators();
                 await this.plugin.saveSettings();
             });
         })
@@ -4057,7 +4023,7 @@ var __importStar = (commonjsGlobal && commonjsGlobal.__importStar) || function (
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.setProp = exports.findUp = exports.isValidLocalPath = exports.hasDepInstalled = exports.getIncludePaths = exports.concat = exports.importAny = void 0;
+exports.JAVASCRIPT_RESERVED_KEYWORD_SET = exports.setProp = exports.findUp = exports.isValidLocalPath = exports.hasDepInstalled = exports.getIncludePaths = exports.concat = exports.importAny = void 0;
 
 
 async function importAny(...modules) {
@@ -4081,8 +4047,10 @@ function concat(...arrs) {
 exports.concat = concat;
 /** Paths used by preprocessors to resolve @imports */
 function getIncludePaths(fromFilename, base = []) {
+    if (fromFilename == null)
+        return [];
     return [
-        ...new Set([...base, 'node_modules', process.cwd(), path_1__default['default'].dirname(fromFilename)]),
+        ...new Set([...base, 'node_modules', process.cwd(), (0, path_1__default["default"].dirname)(fromFilename)]),
     ];
 }
 exports.getIncludePaths = getIncludePaths;
@@ -4119,15 +4087,15 @@ function isValidLocalPath(path) {
 exports.isValidLocalPath = isValidLocalPath;
 // finds a existing path up the tree
 function findUp({ what, from }) {
-    const { root, dir } = path_1__default['default'].parse(from);
+    const { root, dir } = (0, path_1__default["default"].parse)(from);
     let cur = dir;
     try {
         while (cur !== root) {
-            const possiblePath = path_1__default['default'].join(cur, what);
-            if (fs_1__default['default'].existsSync(possiblePath)) {
+            const possiblePath = (0, path_1__default["default"].join)(cur, what);
+            if ((0, fs_1__default["default"].existsSync)(possiblePath)) {
                 return possiblePath;
             }
-            cur = path_1__default['default'].dirname(cur);
+            cur = (0, path_1__default["default"].dirname)(cur);
         }
     }
     catch (e) {
@@ -4137,7 +4105,7 @@ function findUp({ what, from }) {
 }
 exports.findUp = findUp;
 // set deep property in object
-function setProp(obj, keyList, val) {
+function setProp(obj, keyList, value) {
     let i = 0;
     for (; i < keyList.length - 1; i++) {
         const key = keyList[i];
@@ -4146,9 +4114,59 @@ function setProp(obj, keyList, val) {
         }
         obj = obj[key];
     }
-    obj[keyList[i]] = val;
+    obj[keyList[i]] = value;
 }
 exports.setProp = setProp;
+exports.JAVASCRIPT_RESERVED_KEYWORD_SET = new Set([
+    'arguments',
+    'await',
+    'break',
+    'case',
+    'catch',
+    'class',
+    'const',
+    'continue',
+    'debugger',
+    'default',
+    'delete',
+    'do',
+    'else',
+    'enum',
+    'eval',
+    'export',
+    'extends',
+    'false',
+    'finally',
+    'for',
+    'function',
+    'if',
+    'implements',
+    'import',
+    'in',
+    'instanceof',
+    'interface',
+    'let',
+    'new',
+    'null',
+    'package',
+    'private',
+    'protected',
+    'public',
+    'return',
+    'static',
+    'super',
+    'switch',
+    'this',
+    'throw',
+    'true',
+    'try',
+    'typeof',
+    'var',
+    'void',
+    'while',
+    'with',
+    'yield',
+]);
 });
 
 class MetaEditSuggester extends obsidian.FuzzySuggestModal {
@@ -4319,7 +4337,7 @@ class GenericTextSuggester extends TextInputSuggest {
         if (!filtered)
             this.close();
         if ((filtered === null || filtered === void 0 ? void 0 : filtered.length) === 1)
-            return [inputStr, ...filtered];
+            return [...filtered, inputStr];
         if ((filtered === null || filtered === void 0 ? void 0 : filtered.length) > 1)
             return filtered;
     }
@@ -4334,7 +4352,7 @@ class GenericTextSuggester extends TextInputSuggest {
     }
 }
 
-/* src/Modals/GenericPrompt/GenericPromptContent.svelte generated by Svelte v3.38.3 */
+/* src/Modals/GenericPrompt/GenericPromptContent.svelte generated by Svelte v3.42.6 */
 
 function create_fragment(ctx) {
 	let div;
@@ -4400,7 +4418,6 @@ function create_fragment(ctx) {
 }
 
 function instance($$self, $$props, $$invalidate) {
-	
 	let { app } = $$props;
 	let { header = "" } = $$props;
 	let { placeholder = "" } = $$props;
@@ -4423,7 +4440,7 @@ function instance($$self, $$props, $$invalidate) {
 	}
 
 	function input_binding($$value) {
-		binding_callbacks[$$value ? "unshift" : "push"](() => {
+		binding_callbacks[$$value ? 'unshift' : 'push'](() => {
 			inputEl = $$value;
 			$$invalidate(3, inputEl);
 		});
@@ -4435,12 +4452,12 @@ function instance($$self, $$props, $$invalidate) {
 	}
 
 	$$self.$$set = $$props => {
-		if ("app" in $$props) $$invalidate(5, app = $$props.app);
-		if ("header" in $$props) $$invalidate(1, header = $$props.header);
-		if ("placeholder" in $$props) $$invalidate(2, placeholder = $$props.placeholder);
-		if ("value" in $$props) $$invalidate(0, value = $$props.value);
-		if ("onSubmit" in $$props) $$invalidate(6, onSubmit = $$props.onSubmit);
-		if ("suggestValues" in $$props) $$invalidate(7, suggestValues = $$props.suggestValues);
+		if ('app' in $$props) $$invalidate(5, app = $$props.app);
+		if ('header' in $$props) $$invalidate(1, header = $$props.header);
+		if ('placeholder' in $$props) $$invalidate(2, placeholder = $$props.placeholder);
+		if ('value' in $$props) $$invalidate(0, value = $$props.value);
+		if ('onSubmit' in $$props) $$invalidate(6, onSubmit = $$props.onSubmit);
+		if ('suggestValues' in $$props) $$invalidate(7, suggestValues = $$props.suggestValues);
 	};
 
 	return [
@@ -4649,7 +4666,7 @@ class MetaController {
             await this.updateMultipleInFile(props, file);
         }
         catch (e) {
-            this.plugin.logError(e);
+            log.logError(e);
         }
     }
     async createNewProperty(suggestValues) {
@@ -5009,6 +5026,78 @@ class MetaEditApi {
     }
 }
 
+function getActiveMarkdownFile(app) {
+    const activeFile = app.workspace.getActiveFile();
+    const activeMarkdownFile = abstractFileToMarkdownTFile(activeFile);
+    if (!activeMarkdownFile) {
+        this.logError("could not get current file.");
+        return null;
+    }
+    return activeMarkdownFile;
+}
+function abstractFileToMarkdownTFile(file) {
+    if (file instanceof obsidian.TFile && file.extension === "md")
+        return file;
+    return null;
+}
+
+var ErrorLevel;
+(function (ErrorLevel) {
+    ErrorLevel["Error"] = "ERROR";
+    ErrorLevel["Warning"] = "WARNING";
+    ErrorLevel["Log"] = "LOG";
+})(ErrorLevel || (ErrorLevel = {}));
+
+class MetaEditLogger {
+    formatOutputString(error) {
+        return `MetaEdit: (${error.level}) ${error.message}`;
+    }
+    getMetaEditError(message, level) {
+        return { message, level, time: Date.now() };
+    }
+}
+
+class ConsoleErrorLogger extends MetaEditLogger {
+    constructor() {
+        super(...arguments);
+        this.ErrorLog = [];
+    }
+    logError(errorMsg) {
+        const error = this.getMetaEditError(errorMsg, ErrorLevel.Error);
+        this.addMessageToErrorLog(error);
+        console.error(this.formatOutputString(error));
+    }
+    logWarning(warningMsg) {
+        const warning = this.getMetaEditError(warningMsg, ErrorLevel.Warning);
+        this.addMessageToErrorLog(warning);
+        console.warn(this.formatOutputString(warning));
+    }
+    logMessage(logMsg) {
+        const log = this.getMetaEditError(logMsg, ErrorLevel.Log);
+        this.addMessageToErrorLog(log);
+        console.log(this.formatOutputString(log));
+    }
+    addMessageToErrorLog(error) {
+        this.ErrorLog.push(error);
+    }
+}
+
+class GuiLogger extends MetaEditLogger {
+    constructor(plugin) {
+        super();
+        this.plugin = plugin;
+    }
+    logError(msg) {
+        const error = this.getMetaEditError(msg, ErrorLevel.Error);
+        new obsidian.Notice(this.formatOutputString(error));
+    }
+    logWarning(msg) {
+        const warning = this.getMetaEditError(msg, ErrorLevel.Warning);
+        new obsidian.Notice(this.formatOutputString(warning));
+    }
+    logMessage(msg) { }
+}
+
 class UniqueQueue {
     constructor() {
         this.elements = [];
@@ -5061,45 +5150,194 @@ class UpdatedFileCache {
     }
 }
 
-class MetaEdit extends obsidian.Plugin {
-    constructor() {
-        super(...arguments);
-        this.update = obsidian.debounce(async () => {
-            while (!this.updateFileQueue.isEmpty()) {
-                const file = this.updateFileQueue.dequeue();
-                if (this.settings.ProgressProperties.enabled) {
-                    await this.updateProgressProperties(file);
-                }
-                if (this.settings.KanbanHelper.enabled) {
-                    await this.kanbanHelper(file);
-                }
-            }
-        }, 5000, true);
-        this.onModifyCallback = async (file) => await this.onModify(file);
-    }
-    async onload() {
-        this.controller = new MetaController(this.app, this);
+class OnFileModifyAutomatorManager {
+    constructor(plugin) {
         this.updateFileQueue = new UniqueQueue();
         this.updatedFileCache = new UpdatedFileCache();
+        this.automators = [];
+        this.notifyDelay = 5000;
+        this.notifyAutomators = obsidian.debounce(async () => {
+            while (!this.updateFileQueue.isEmpty()) {
+                const file = this.updateFileQueue.dequeue();
+                for (const automator of this.automators) {
+                    await automator.onFileModify(file);
+                }
+            }
+        }, this.notifyDelay, true);
+        this.plugin = plugin;
+        this.app = plugin.app;
+    }
+    startAutomators() {
+        this.plugin.registerEvent(this.plugin.app.vault.on("modify", (file) => this.onFileModify(file)));
+        return this;
+    }
+    attach(automator) {
+        const isExist = this.automators.some(tAuto => tAuto.type === automator.type);
+        if (isExist) {
+            log.logWarning(`a ${automator.type} automator is already attached.`);
+            return this;
+        }
+        this.automators.push(automator);
+        return this;
+    }
+    detach(automatorType) {
+        const automatorIndex = this.automators.findIndex(automator => automator.type === automatorType);
+        if (automatorIndex === -1) {
+            log.logMessage(`automator of type '${automatorType}' does not exist.`);
+            return this;
+        }
+        this.automators.splice(automatorIndex, 1);
+        return this;
+    }
+    async onFileModify(file) {
+        const outfile = abstractFileToMarkdownTFile(file);
+        if (!outfile)
+            return;
+        const fileContent = await this.app.vault.cachedRead(outfile);
+        if (!this.updatedFileCache.set(outfile.path, fileContent))
+            return;
+        if (this.updateFileQueue.enqueue(outfile)) {
+            this.notifyAutomators();
+        }
+    }
+}
+
+class OnFileModifyAutomator {
+    constructor(plugin, type) {
+        this.plugin = plugin;
+        this.app = plugin.app;
+        this.type = type;
+    }
+}
+
+var OnModifyAutomatorType;
+(function (OnModifyAutomatorType) {
+    OnModifyAutomatorType["KanbanHelper"] = "KanbanHelper";
+    OnModifyAutomatorType["ProgressProperties"] = "ProgressProperties";
+})(OnModifyAutomatorType || (OnModifyAutomatorType = {}));
+
+class KanbanHelper extends OnFileModifyAutomator {
+    get boards() { return this.plugin.settings.KanbanHelper.boards; }
+    constructor(plugin) {
+        super(plugin, OnModifyAutomatorType.KanbanHelper);
+    }
+    async onFileModify(file) {
+        const kanbanBoardFileContent = await this.app.vault.cachedRead(file);
+        const kanbanBoardFileCache = this.app.metadataCache.getFileCache(file);
+        const targetBoard = this.findBoardByName(file.basename);
+        if (!targetBoard || !kanbanBoardFileCache)
+            return;
+        const { links } = kanbanBoardFileCache;
+        if (!links)
+            return;
+        await this.updateFilesInBoard(links, targetBoard, kanbanBoardFileContent);
+    }
+    findBoardByName(boardName) {
+        return this.boards.find(board => board.boardName === boardName);
+    }
+    getLinkFile(link) {
+        const markdownFiles = this.app.vault.getMarkdownFiles();
+        return markdownFiles.find(f => f.path.includes(`${link.link}.md`));
+    }
+    async updateFilesInBoard(links, board, kanbanBoardFileContent) {
+        for (const link of links) {
+            const linkFile = this.getLinkFile(link);
+            const linkIsMarkdownFile = !!abstractFileToMarkdownTFile(linkFile);
+            if (!linkFile || !linkIsMarkdownFile) {
+                log.logMessage(`${link.link} is not updatable for the KanbanHelper.`);
+                return;
+            }
+            await this.updateFileInBoard(link, linkFile, board, kanbanBoardFileContent);
+        }
+    }
+    async updateFileInBoard(link, linkFile, board, kanbanBoardFileContent) {
+        const heading = this.getTaskHeading(link.original, kanbanBoardFileContent);
+        if (!heading) {
+            log.logWarning("found linked file but could not get heading for task.");
+            return;
+        }
+        const fileProperties = await this.plugin.controller.getPropertiesInFile(linkFile);
+        if (!fileProperties) {
+            log.logWarning(`No properties found in '${board.boardName}', cannot update '${board.property}'.`);
+            return;
+        }
+        const targetProperty = fileProperties.find(prop => prop.key === board.property);
+        if (!targetProperty) {
+            log.logWarning(`'${board.property} not found in ${board.boardName}'`);
+            return;
+        }
+        await this.plugin.controller.updatePropertyInFile(targetProperty, heading, linkFile);
+    }
+    getTaskHeading(targetTaskContent, fileContent) {
+        const MARKDOWN_HEADING = new RegExp(/#+\s+(.+)/);
+        const TASK_REGEX = new RegExp(/(\s*)-\s*\[([ Xx\.]?)\]\s*(.+)/, "i");
+        let lastHeading = "";
+        const contentLines = fileContent.split("\n");
+        for (const line of contentLines) {
+            const headingMatch = MARKDOWN_HEADING.exec(line);
+            if (headingMatch) {
+                const headingText = headingMatch[1];
+                lastHeading = headingText;
+            }
+            const taskMatch = TASK_REGEX.exec(line);
+            if (taskMatch) {
+                const taskContent = taskMatch[3];
+                if (taskContent.includes(targetTaskContent)) {
+                    return lastHeading;
+                }
+            }
+        }
+        return null;
+    }
+}
+
+class ProgressPropertyHelper extends OnFileModifyAutomator {
+    constructor(plugin) {
+        super(plugin, OnModifyAutomatorType.ProgressProperties);
+    }
+    async onFileModify(file) {
+        const data = await this.plugin.controller.getPropertiesInFile(file);
+        if (!data)
+            return;
+        await this.plugin.controller.handleProgressProps(data, file);
+    }
+}
+
+class MetaEdit extends obsidian.Plugin {
+    async onload() {
         console.log('Loading MetaEdit');
+        this.controller = new MetaController(this.app, this);
         await this.loadSettings();
         this.addCommand({
             id: 'metaEditRun',
             name: 'Run MetaEdit',
             callback: async () => {
-                const file = this.getCurrentFile();
+                const file = getActiveMarkdownFile(this.app);
                 if (!file)
                     return;
                 await this.runMetaEditForFile(file);
             }
         });
-        this.onModifyCallbackToggle(true);
         this.addSettingTab(new MetaEditSettingsTab(this.app, this));
         this.linkMenu = new LinkMenu(this);
         if (this.settings.UIElements.enabled) {
             this.linkMenu.registerEvent();
         }
         this.api = new MetaEditApi(this).make();
+        log.register(new ConsoleErrorLogger())
+            .register(new GuiLogger(this));
+        this.automatorManager = new OnFileModifyAutomatorManager(this).startAutomators();
+        this.toggleAutomators();
+    }
+    toggleAutomators() {
+        if (this.settings.KanbanHelper.enabled)
+            this.automatorManager.attach(new KanbanHelper(this));
+        else
+            this.automatorManager.detach(OnModifyAutomatorType.KanbanHelper);
+        if (this.settings.ProgressProperties.enabled)
+            this.automatorManager.attach(new ProgressPropertyHelper(this));
+        else
+            this.automatorManager.detach(OnModifyAutomatorType.ProgressProperties);
     }
     async runMetaEditForFile(file) {
         const data = await this.controller.getPropertiesInFile(file);
@@ -5110,38 +5348,13 @@ class MetaEdit extends obsidian.Plugin {
     }
     onunload() {
         console.log('Unloading MetaEdit');
-        this.onModifyCallbackToggle(false);
         this.linkMenu.unregisterEvent();
-    }
-    getCurrentFile() {
-        const currentFile = this.abstractFileToMarkdownTFile(this.app.workspace.getActiveFile());
-        if (!currentFile) {
-            this.logError("could not get current file content.");
-            return null;
-        }
-        return currentFile;
-    }
-    abstractFileToMarkdownTFile(file) {
-        if (file instanceof obsidian.TFile && file.extension === "md")
-            return file;
-        return null;
-    }
-    onModifyCallbackToggle(enable) {
-        if (enable) {
-            this.app.vault.on("modify", this.onModifyCallback);
-        }
-        else if (this.onModifyCallback && !enable) {
-            this.app.vault.off("modify", this.onModifyCallback);
-        }
     }
     async loadSettings() {
         this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
     }
     async saveSettings() {
         await this.saveData(this.settings);
-    }
-    logError(error) {
-        new obsidian.Notice(`MetaEdit: ${error}`);
     }
     getFilesWithProperty(property) {
         const markdownFiles = this.app.vault.getMarkdownFiles();
@@ -5156,74 +5369,6 @@ class MetaEdit extends obsidian.Plugin {
             }
         });
         return files;
-    }
-    async onModify(file) {
-        const outfile = this.abstractFileToMarkdownTFile(file);
-        if (!outfile)
-            return;
-        const fileContent = await this.app.vault.cachedRead(outfile);
-        if (!this.updatedFileCache.set(file.path, fileContent))
-            return;
-        if (this.updateFileQueue.enqueue(outfile)) {
-            await this.update();
-        }
-    }
-    async updateProgressProperties(file) {
-        const data = await this.controller.getPropertiesInFile(file);
-        if (!data)
-            return;
-        await this.controller.handleProgressProps(data, file);
-    }
-    async kanbanHelper(file) {
-        const fileContent = await this.app.vault.cachedRead(file);
-        const boards = this.settings.KanbanHelper.boards;
-        const board = boards.find(board => board.boardName === file.basename);
-        const fileCache = this.app.metadataCache.getFileCache(file);
-        if (board && fileCache) {
-            const { links } = fileCache;
-            if (links) {
-                for (const link of links) {
-                    // Because of how links are formatted, I have to do it this way.
-                    // If there are duplicates (two files with the same name) for a link, the path will be in the link.
-                    // If not, the link won't specify the folder. Therefore, we check all files.
-                    const markdownFiles = this.app.vault.getMarkdownFiles();
-                    const linkFile = markdownFiles.find(f => f.path.includes(`${link.link}.md`));
-                    if (linkFile instanceof obsidian.TFile) {
-                        const headingAttempt1 = this.getTaskHeading(linkFile.path.replace('.md', ''), fileContent);
-                        const headingAttempt2 = this.getTaskHeading(link.link, fileContent);
-                        const heading = headingAttempt1 !== null && headingAttempt1 !== void 0 ? headingAttempt1 : headingAttempt2;
-                        if (!heading) {
-                            this.logError("could not open linked file (KanbanHelper)");
-                            return;
-                        }
-                        const fileProperties = await this.controller.getPropertiesInFile(linkFile);
-                        if (!fileProperties)
-                            return;
-                        const targetProperty = fileProperties.find(prop => prop.key === board.property);
-                        if (!targetProperty)
-                            return;
-                        await this.controller.updatePropertyInFile(targetProperty, heading, linkFile);
-                    }
-                }
-            }
-        }
-    }
-    getTaskHeading(taskName, fileContent) {
-        const MARKDOWN_HEADING = new RegExp(/#+\s+(.+)/);
-        const TASK_REGEX = new RegExp(/(\s*)-\s*\[([ Xx\.]?)\]\s*(.+)/, "i");
-        let lastHeading = "";
-        const splitContent = fileContent.split("\n");
-        for (const line of splitContent) {
-            const heading = MARKDOWN_HEADING.exec(line);
-            if (heading) {
-                lastHeading = heading[1];
-            }
-            const taskMatch = TASK_REGEX.exec(line);
-            if (taskMatch && taskMatch[3].includes(`${taskName}`)) {
-                return lastHeading;
-            }
-        }
-        return null;
     }
     async runMetaEditForFolder(targetFolder) {
         const pName = await GenericPrompt.Prompt(this.app, `Add a new property to all files in ${targetFolder.name} (and subfolders)`);
