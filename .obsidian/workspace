@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-08-30.md",
+            "file": "3-Resources/Daily-Notes/2021-09-23.md",
             "mode": "source"
           }
         }
@@ -60,6 +60,14 @@
             "id": "a91a346224ab6816",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7f18ebf9fee15245",
+            "type": "leaf",
+            "state": {
               "type": "recent-files",
               "state": {}
             }
@@ -83,7 +91,7 @@
             "id": "5d8e5416e171abc1",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "empty",
               "state": {}
             }
           },
@@ -93,8 +101,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-30.md"
+                "file": "3-Resources/Daily-Notes/2021-09-23.md"
               }
+            }
+          },
+          {
+            "id": "9690c25ea6a9aa80",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -110,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-30.md",
+                "file": "3-Resources/Daily-Notes/2021-09-23.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -145,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-30.md",
+                "file": "3-Resources/Daily-Notes/2021-09-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-08-30.md",
+                "file": "3-Resources/Daily-Notes/2021-09-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +199,7 @@
             "id": "46ebf49fb0282129",
             "type": "leaf",
             "state": {
-              "type": "timeline",
+              "type": "empty",
               "state": {}
             }
           }
@@ -197,6 +213,7 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-09-23.md",
     "3-Resources/Daily-Notes/2021-08-30.md",
     "0-Inbox/Untitled 1.md",
     "0-Inbox/Windows Registry Hacks.md",
@@ -205,7 +222,6 @@
     "3-Resources/Daily-Notes/2021-08-26.md",
     "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
     "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md",
-    "1-Maps-of-Content/020 - Development.md",
-    "2-Slipbox/Untitled.md"
+    "1-Maps-of-Content/020 - Development.md"
   ]
 }
