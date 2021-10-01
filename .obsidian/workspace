@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-Maps-of-Content/020 - Development.md",
-            "mode": "preview"
+            "file": "3-Resources/Daily-Notes/2021-10-01.md",
+            "mode": "source"
           }
         }
       }
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Maps-of-Content/020 - Development.md"
+                "file": "3-Resources/Daily-Notes/2021-10-01.md"
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1-Maps-of-Content/020 - Development.md",
+                "file": "3-Resources/Daily-Notes/2021-10-01.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Maps-of-Content/020 - Development.md",
+                "file": "3-Resources/Daily-Notes/2021-10-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Maps-of-Content/020 - Development.md",
+                "file": "3-Resources/Daily-Notes/2021-10-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,6 +213,7 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-10-01.md",
     "1-Maps-of-Content/020 - Development.md",
     "3-Resources/Daily-Notes/2021-09-23.md",
     "3-Resources/Daily-Notes/2021-08-30.md",
@@ -221,7 +222,6 @@
     "0-Inbox/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-27.md",
     "3-Resources/Daily-Notes/2021-08-26.md",
-    "3-Reference/Windows Reset Definitive Checklist (YouTube).md",
-    "2-Slipbox/Kubernetes Sandbox with minikube and kubectl.md"
+    "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
   ]
 }

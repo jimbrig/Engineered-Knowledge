@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-10-01",
+      "path": "3-Resources/Daily-Notes/2021-10-01.md"
+    },
+    {
       "basename": "020 - Development",
       "path": "1-Maps-of-Content/020 - Development.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PostgreSQL Tools",
       "path": "2-Slipbox/PostgreSQL Tools.md"
-    },
-    {
-      "basename": "Why You Should Never Quit too Early",
-      "path": "2-Slipbox/Why You Should Never Quit too Early.md"
     }
   ],
   "omittedPaths": [],
