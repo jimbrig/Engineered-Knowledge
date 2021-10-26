@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "README-Template",
+      "path": "3-Resources/Templates/README-Template.md"
+    },
+    {
+      "basename": "Mindsweep-Note-Template",
+      "path": "3-Resources/Templates/Mindsweep-Note-Template.md"
+    },
+    {
+      "basename": "Default-Note-Template",
+      "path": "3-Resources/Templates/Default-Note-Template.md"
+    },
+    {
       "basename": "2021-10-26",
       "path": "3-Resources/Daily-Notes/2021-10-26.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Git Tools",
       "path": "2-Slipbox/Git Tools.md"
-    },
-    {
-      "basename": "How to Cleanup Windows from Command Line",
-      "path": "2-Slipbox/How to Cleanup Windows from Command Line.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "2-Slipbox/Linux.md"
-    },
-    {
-      "basename": "Ludicrously Complex Projects in Software Development",
-      "path": "2-Slipbox/Ludicrously Complex Projects in Software Development.md"
     }
   ],
   "omittedPaths": [],
