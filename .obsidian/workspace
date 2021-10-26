@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Daily-Notes/2021-10-01.md",
+            "file": "3-Resources/Daily-Notes/2021-10-26.md",
             "mode": "source"
           }
         }
@@ -57,15 +57,7 @@
             }
           },
           {
-            "id": "a91a346224ab6816",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7f18ebf9fee15245",
+            "id": "396de1fe26ee66d7",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -88,25 +80,17 @@
         "dimension": 56.57894736842105,
         "children": [
           {
-            "id": "5d8e5416e171abc1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "47872885fb45fac2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-10-01.md"
+                "file": "3-Resources/Daily-Notes/2021-10-26.md"
               }
             }
           },
           {
-            "id": "9690c25ea6a9aa80",
+            "id": "b791476c6bfe7f98",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -126,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-10-01.md",
+                "file": "3-Resources/Daily-Notes/2021-10-26.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -161,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-10-01.md",
+                "file": "3-Resources/Daily-Notes/2021-10-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-Resources/Daily-Notes/2021-10-01.md",
+                "file": "3-Resources/Daily-Notes/2021-10-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,17 +178,9 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "46ebf49fb0282129",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -213,6 +189,7 @@
   },
   "active": "cc2bbdcc0da97e2f",
   "lastOpenFiles": [
+    "3-Resources/Daily-Notes/2021-10-26.md",
     "3-Resources/Daily-Notes/2021-10-01.md",
     "1-Maps-of-Content/020 - Development.md",
     "3-Resources/Daily-Notes/2021-09-23.md",
@@ -221,7 +198,6 @@
     "0-Inbox/Windows Registry Hacks.md",
     "0-Inbox/Untitled.md",
     "3-Resources/Daily-Notes/2021-08-27.md",
-    "3-Resources/Daily-Notes/2021-08-26.md",
-    "3-Reference/Windows Reset Definitive Checklist (YouTube).md"
+    "3-Resources/Daily-Notes/2021-08-26.md"
   ]
 }
