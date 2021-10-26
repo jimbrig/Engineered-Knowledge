@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-10-26",
+      "path": "3-Resources/Daily-Notes/2021-10-26.md"
+    },
+    {
       "basename": "2021-10-01",
       "path": "3-Resources/Daily-Notes/2021-10-01.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Ludicrously Complex Projects in Software Development",
       "path": "2-Slipbox/Ludicrously Complex Projects in Software Development.md"
-    },
-    {
-      "basename": "PostgreSQL Tools",
-      "path": "2-Slipbox/PostgreSQL Tools.md"
     }
   ],
   "omittedPaths": [],
